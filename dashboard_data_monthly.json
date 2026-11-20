@@ -132,7 +132,27 @@
    "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 10.7% over 3 years, so each share owns a smaller slice of the company.",
    "margin_trend": -1.9,
    "rsi_prev": 41.9,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
+     "summary": "The product of a collaboration with Alnylam, Livsayis is now Regeneron\u2019s first marketed RNAi drug and will compete against established\u2026",
+     "provider": "BioPharma Dive",
+     "pubDate": "2026-11-19T15:10:00+00:00"
+    },
+    {
+     "title": "REGN Gets FDA Nod for Livsayis in Generalized Myasthenia Gravis",
+     "summary": "Regeneron's Livsayis becomes the first and only siRNA therapy approved by the FDA for generalized myasthenia gravis, offering four\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T14:42:00+00:00"
+    },
+    {
+     "title": "Alnylam Stock Trades Below Its Pre-$1 Billion Buyback Price",
+     "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-17T19:45:35+00:00"
+    }
+   ]
   },
   {
    "ticker": "APTV",
@@ -250,7 +270,27 @@
    "share_flag_tip": "Buying back shares \u2014 shares outstanding down 18.6% over 3 years, so each share owns a bigger slice of the company.",
    "margin_trend": 21.7,
    "rsi_prev": 29.5,
-   "rsi_dir": "flat"
+   "rsi_dir": "flat",
+   "news": [
+    {
+     "title": "Can Amphenol Afford Its $4 Billion Buyback?",
+     "summary": "A reader of our Nov 10 look at whether Amphenol stock is really expensive asked for more on the stock. The price has barely moved since.\u2026",
+     "provider": "Trefis",
+     "pubDate": "2026-11-17T11:29:48+00:00"
+    },
+    {
+     "title": "How Much Of Amphenol Stock Rides On One Market?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:26:35+00:00"
+    },
+    {
+     "title": "Learn Why The Bull Case For Aptiv Stock Could Change Following Industrial Robot Deal",
+     "summary": "Aptiv and TARSBOT expanded their embodied AI collaboration, with Aptiv products to be built into TARSBOT A-Series industrial robots that\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T23:21:32+00:00"
+    }
+   ]
   },
   {
    "ticker": "AXON",
@@ -377,7 +417,27 @@
    "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 13.6% over 3 years, so each share owns a smaller slice of the company.",
    "margin_trend": 6.4,
    "rsi_prev": 44.9,
-   "rsi_dir": "flat"
+   "rsi_dir": "flat",
+   "news": [
+    {
+     "title": "Is It Too Early To Buy Axon Enterprise Stock?",
+     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T22:07:16+00:00"
+    },
+    {
+     "title": "Axon Enterprise vs. UiPath: Which Industrials Stock Is a Better Buy for 2027?",
+     "summary": "Axon's law enforcement ecosystem faces off against UiPath's AI-driven automation push, but the valuation gap between the two may be the\u2026",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-19T16:33:21+00:00"
+    },
+    {
+     "title": "Axon Enterprise Doubles Down on Skydio as AI Growth Helps Offset Delayed Federal Deals",
+     "summary": "Axon Enterprise (NASDAQ:AXON) expects its expanded investment in drone maker Skydio to strengthen its public safety product ecosystem\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-19T10:12:08+00:00"
+    }
+   ]
   },
   {
    "ticker": "BA",
@@ -503,7 +563,27 @@
    "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 28.1% over 3 years, so each share owns a smaller slice of the company.",
    "margin_trend": 1.6,
    "rsi_prev": 44.8,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Boeing Is Down 37% From Its High, and Its Jet Unit Is in an \u201cOverstaffed Position.\u201d Is the Selling Overdone?",
+     "summary": "Key TakeawaysBoeing just hit a fresh 52-week low, 37% below its January high, because its 737 production ramp keeps slipping and its cash\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-20T09:35:21+00:00"
+    },
+    {
+     "title": "His Estate Said the Divorce Canceled His Ex-Wife\u2019s Claim To His $373,000 Boeing 401(k). A Washington Appeals Court Disagreed. Here\u2019s What Every 401(k) Holder Needs To Know About Beneficiary Designation",
+     "summary": "A trial court sided with the estate and ordered the ex-wife to hand over the money. Then an appeals panel scolded both sets of lawyers for\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-20T01:46:44+00:00"
+    },
+    {
+     "title": "Trump\u2019s $17 Billion Asia Deals Lean on a $12 Billion Aircraft Sale. That\u2019s 1.6% of Boeing\u2019s Backlog",
+     "summary": "Key TakeawaysBoeing and GE Aerospace finalized a $12 billion sale of up to 20 787s to Philippine Airlines, the biggest of more than $17\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T23:12:53+00:00"
+    }
+   ]
   },
   {
    "ticker": "BKNG",
@@ -628,7 +708,27 @@
    "share_flag_tip": "Buying back shares \u2014 shares outstanding down 18.5% over 3 years, so each share owns a bigger slice of the company.",
    "margin_trend": 0.4,
    "rsi_prev": 44.6,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "What Is Airbnb Building That Investors Should Watch?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:47:16+00:00"
+    },
+    {
+     "title": "Can Booking Holdings Stock Rally 50% After This Dip?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:00:32+00:00"
+    },
+    {
+     "title": "Should Booking Holdings Stock Investors Worry About Its Outlook?",
+     "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-18T19:42:39+00:00"
+    }
+   ]
   },
   {
    "ticker": "CPT",
@@ -753,7 +853,27 @@
    "share_flag_tip": null,
    "margin_trend": 222.6,
    "rsi_prev": 39.0,
-   "rsi_dir": "up"
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Camden Property Trust (CPT) Bought Back Shares, Is It Trading At A Discount?",
+     "summary": "Camden Property Trust (CPT) has just wrapped up a sizable share repurchase effort, buying back 4,536,826 shares for US$352.13 million\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-20T06:11:26+00:00"
+    },
+    {
+     "title": "Camden Property Trust (CPT) Stock Could Be A Bargain On A 32% Five Year Slump",
+     "summary": "Camden Property Trust has seen its share price move around over the past few years, which naturally raises a question for anyone looking at\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T22:09:15+00:00"
+    },
+    {
+     "title": "A $1,500,000 Portfolio in Kimco Realty, Camden Property Trust and STAG Industrial Pays $64,784 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+     "summary": "Key TakeawaysA hypothetical $1. 5 million portfolio split evenly across Kimco Realty, Camden Property Trust and STAG Industrial pays about\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T00:05:16+00:00"
+    }
+   ]
   },
   {
    "ticker": "EXE",
@@ -880,7 +1000,27 @@
    "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 64.7% over 3 years, so each share owns a smaller slice of the company.",
    "margin_trend": -7.2,
    "rsi_prev": 42.2,
-   "rsi_dir": "up"
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Senate Nears a Vote on a Landmark Permitting Bill. Here\u2019s Who Could Benefit.",
+     "summary": "The bill could speed up pipeline and transmission projects. For electric utilities, the outlook is more mixed.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-19T21:07:00+00:00"
+    },
+    {
+     "title": "Expand Energy Expects U.S. Natural Gas Demand to Jump Over 10% by 2028",
+     "summary": "EXE sees U.S. natural gas demand rising over 10% by 2028, fueled by LNG exports, power generation and industrial growth.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T14:55:00+00:00"
+    },
+    {
+     "title": "Can Expand Energy Stock Hit $120?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:30:44+00:00"
+    }
+   ]
   },
   {
    "ticker": "FIS",
@@ -1007,7 +1147,27 @@
    "share_flag_tip": "Buying back shares \u2014 shares outstanding down 13.1% over 3 years, so each share owns a bigger slice of the company.",
    "margin_trend": 3.5,
    "rsi_prev": 30.2,
-   "rsi_dir": "up"
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Can Splitit Partnership Strengthen FIS' Issuer Processing Growth?",
+     "summary": "FIS is partnering with Splitit to bring bank-issued installment payments to checkout, potentially boosting issuer processing growth through\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T13:26:00+00:00"
+    },
+    {
+     "title": "Learn Why The Bull Case For FIS Stock Could Change Following Splitit Partnership",
+     "summary": "Splitit and Fidelity National Information Services announced a collaboration that connects Splitit's installment and pay with points\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T22:15:06+00:00"
+    },
+    {
+     "title": "What Could Fidelity National Information Services (FIS) Gain From This Checkout Partnership?",
+     "summary": "Fidelity National Information Services (NYSE:FIS) has formed a partnership with Splitit to offer bank-issued credit and installment options\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T10:12:59+00:00"
+    }
+   ]
   },
   {
    "ticker": "HBAN",
@@ -1127,7 +1287,27 @@
    "share_flag_tip": null,
    "margin_trend": null,
    "rsi_prev": 46.6,
-   "rsi_dir": "up"
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "A $2.6 Billion Fund Dumps These 3 Stocks",
+     "summary": "Key TakeawaysAzora Capital, which manages $2. 6 billion, sold all its Bank of America, State Street and Huntington Bancshares shares in the\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T16:16:39+00:00"
+    },
+    {
+     "title": "5 High-Yield Bank Stocks Retirees Should Own Inside a Roth IRA",
+     "summary": "Five regional banks pay retirees a steady stream of dividends, but the IRS quietly claims a slice every single year. Where you park these\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-19T13:20:54+00:00"
+    },
+    {
+     "title": "3 US Bank Stocks in Focus as AI Enters the Fed Rate Outlook",
+     "summary": "AI is no longer just a tech story. It now sits in the Fed\u2019s playbook, influencing how policymakers think about jobs, inflation, rates and\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-17T03:12:35+00:00"
+    }
+   ]
   },
   {
    "ticker": "LII",
@@ -1253,7 +1433,21 @@
    "share_flag_tip": null,
    "margin_trend": -2.9,
    "rsi_prev": 37.7,
-   "rsi_dir": "flat"
+   "rsi_dir": "flat",
+   "news": [
+    {
+     "title": "Is Johnson Controls Stock Engineered To Make You Money?",
+     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T22:41:52+00:00"
+    },
+    {
+     "title": "Are Wall Street Analysts Bullish on Lennox International Stock?",
+     "summary": "Lennox International\u2019s shares have been trailing behind its industry peers and the broader market. Analysts are cautious about the stock\u2026",
+     "provider": "Barchart",
+     "pubDate": "2026-11-13T17:59:05+00:00"
+    }
+   ]
   },
   {
    "ticker": "MELI",
@@ -1388,7 +1582,27 @@
    "share_flag_tip": null,
    "margin_trend": -2.9,
    "rsi_prev": 44.1,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?",
+     "summary": "The stock has fallen far, but the company retains solid growth prospects.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-20T01:25:00+00:00"
+    },
+    {
+     "title": "Latest News In E-Commerce - Pix Powers Brazil's E-Commerce Boom",
+     "summary": "Brazil\u2019s instant payment system, Pix, is anticipated to be a major driver in e-commerce growth, as it is projected to surpass USD 200\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T12:37:18+00:00"
+    },
+    {
+     "title": "2 Monster Stocks to Hold for the Next 10 Years",
+     "summary": "Both of these stocks have turned $10,000 into roughly $70,000 or more over the past decade, and their businesses are still built to keep\u2026",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-19T10:05:02+00:00"
+    }
+   ]
   },
   {
    "ticker": "NVR",
@@ -1504,7 +1718,27 @@
    "share_flag_tip": "Buying back shares \u2014 shares outstanding down 12.5% over 3 years, so each share owns a bigger slice of the company.",
    "margin_trend": -3.0,
    "rsi_prev": 40.6,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "NVR (NVR) Stock Looks Fully Priced On Cash Flow Estimates",
+     "summary": "NVR has seen its share price retreat in 2026, and that pullback puts fresh focus on a basic question for investors who follow the builder.\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-17T23:25:51+00:00"
+    },
+    {
+     "title": "Berkshire Hathaway\u2019s Stock Rally Puts Its Class A Shares Near the Historic $1M Mark",
+     "summary": "Crossing the $1 million mark would be a major milestone for the company and for Warren Buffett.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-17T18:45:00+00:00"
+    },
+    {
+     "title": "Greg Abel Might Have Just Made a $2 Billion Mistake Warren Buffett Avoided",
+     "summary": "Warren Buffett repeatedly bought homebuilders and sold them within months. His successor is doubling down on one while earnings sink and\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-17T16:55:09+00:00"
+    }
+   ]
   },
   {
    "ticker": "SKYD",
@@ -1628,7 +1862,27 @@
    "share_flag_tip": null,
    "margin_trend": 9.0,
    "rsi_prev": 46.7,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Skydance (SKYD) Just Closed Its $111 Billion Merger",
+     "summary": "Skydance (NYSE: SKYD) announced completion of a $111b merger with Warner Bros. Discovery, creating a combined media group that management\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T14:22:19+00:00"
+    },
+    {
+     "title": "Skydance (SKYD) Stock Looks Like A Bargain At This Price",
+     "summary": "Skydance has been through a rough stretch in the market, and the stock is now trading at US$6.63 after years of weak returns. The question\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T17:20:04+00:00"
+    },
+    {
+     "title": "Is Skydance (SKYD) Undervalued After Insider Buying And The Warner Deal?",
+     "summary": "Skydance (SKYD) is back in focus after director Gerry Cardinale bought about US$1 million of stock, as the media group works through the\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T16:14:15+00:00"
+    }
+   ]
   },
   {
    "ticker": "WY",
@@ -1745,7 +1999,21 @@
    "share_flag_tip": null,
    "margin_trend": -2.2,
    "rsi_prev": 31.6,
-   "rsi_dir": "up"
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Frozen Food, Biotech Labs and Timberland: $90,000 Across These 3 Specialty REITs Pays $4,968 a Year",
+     "summary": "One of these three landlords owns freezers, one owns forests, and one owns biotech labs. Only one of them has already slashed its dividend\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-18T21:37:38+00:00"
+    },
+    {
+     "title": "A $1,200,000 Portfolio in CareTrust REIT, Weyerhaeuser and HP Pays $50,247 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+     "summary": "Key TakeawaysA $1. 2 million portfolio split evenly across CareTrust REIT, Weyerhaeuser and HP pays about $50,200 a year in dividends at\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-18T15:48:52+00:00"
+    }
+   ]
   },
   {
    "ticker": "XYL",
@@ -1862,7 +2130,27 @@
    "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 34.8% over 3 years, so each share owns a smaller slice of the company.",
    "margin_trend": 4.1,
    "rsi_prev": 35.6,
-   "rsi_dir": "down"
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Xylem (XYL) Stock May Be 37% Undervalued On Fresh Buyback News",
+     "summary": "Xylem shares have had a difficult year, with the stock well below where it started 2026. This puts a sharper spotlight on whether the\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T07:14:32+00:00"
+    },
+    {
+     "title": "Xylem Stock: Is Wall Street Bullish or Bearish?",
+     "summary": "Xylem has lagged the broader market over the past year, yet analysts remain somewhat bullish on the company.",
+     "provider": "Barchart",
+     "pubDate": "2026-11-19T13:39:10+00:00"
+    },
+    {
+     "title": "What Xylem Investors Missed Before The Fall",
+     "summary": "If you had backed the bullish case for Xylem based on analyst optimism and rising price targets, the outcome felt very different from the\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T12:14:54+00:00"
+    }
+   ]
   }
  ],
  "f13_quarter": "Q3 2026",
