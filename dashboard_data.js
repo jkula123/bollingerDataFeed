@@ -132,22 +132,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "How to Maximize Your Retirement Portfolio with These Top-Ranked Dividend Stocks",
-     "summary": "The traditional ways to plan for your retirement may mean income can no longer cover expenses post-employment. But what if there was\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T13:10:04+00:00"
-    },
-    {
-     "title": "S&P 500 staples earnings: beats are common, but stock reactions diverge",
-     "summary": "Investing.com -- Five of six S&P 500 retail and wholesale staples companies beat third-quarter EPS estimates. That is about 83%, close to\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-18T16:36:53+00:00"
-    },
-    {
      "title": "ADM Raises 2026 Earnings Outlook as Biofuel Strength Lifts Profit",
      "summary": "ADM raises its 2026 earnings outlook as strong ethanol and biodiesel margins boost profits, with biofuel momentum supporting growth\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-16T16:41:00+00:00"
+     "pubDate": "2026-11-16T16:41:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/adm-raises-2026-earnings-outlook-164100994.html"
+    },
+    {
+     "title": "Is ADM Stock Worth Buying as Earnings Improve but Key Risks Persist?",
+     "summary": "ADM's earnings rebound, raised 2026 outlook and cost-saving initiatives strengthen its value appeal, but commodity volatility and policy\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-16T16:39:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/adm-stock-worth-buying-earnings-163900421.html"
+    },
+    {
+     "title": "ADM Stock Falls 11.8% in the Past Month: Is the Pullback a Buy Now?",
+     "summary": "ADM's shares fall 11.8% in a month despite stronger Q3 earnings and raised 2026 guidance. Can biofuel strength and Nutrition recovery\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-16T16:34:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/adm-stock-falls-11-8-163400394.html"
     }
    ]
   },
@@ -305,22 +308,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "Why Ken Fisher Keeps Adding to ASML Holding (ASML) While Its Order Book Is Sold Out",
+     "summary": "We just published our list of the Top 10 Stocks to Buy According to Billionaire Ken Fisher, and ASML Holding N.V. (NASDAQ:ASML) ranked 6th\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-19T18:10:01+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-ken-fisher-keeps-adding-181001507.html"
+    },
+    {
+     "title": "ASML Rides on Improving Profitability: Will It Sustain?",
+     "summary": "ASML's surging system sales, AI-driven demand and favorable product mix fuel margin growth, but capacity constraints raise questions about\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T17:08:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/asml-rides-improving-profitability-sustain-170800985.html"
+    },
+    {
      "title": "Intel Soars 8% on First Outside 18A Customer as CEO Says \u201cI Just Cannot Supply Enough\u201d",
      "summary": "Key TakeawaysIntel shares jumped 8% after CEO Lip-Bu Tan said it signed its first outside 18A customer, with yields at 70%. It\u2019s the best\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T15:01:54+00:00"
-    },
-    {
-     "title": "Applied Materials\u2019 2027 EPS Estimate Rose to $19.29 After Its Record Quarter. Its Average Price Target Fell to $562",
-     "summary": "Key TakeawaysApplied Materials stock fell 7. 5% in the four sessions after its record $10.",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T12:06:16+00:00"
-    },
-    {
-     "title": "Nasdaq Set for Fresh Decline as AI Selloff Intensifies",
-     "summary": "Global stocks sold off and Treasurys strengthened as investor confidence in the AI trade showed signs of cracking.",
-     "provider": "The Wall Street Journal",
-     "pubDate": "2026-11-20T09:41:00+00:00"
+     "pubDate": "2026-11-19T15:01:54+00:00",
+     "url": "https://www.tikr.com/blog/intel-soars-8-on-first-outside-18a-customer-as-ceo-says-i-just-cannot-supply-enough?ref=yahoofinance&tlnk=yf-261119-f6cmv7fm"
     }
    ]
   },
@@ -454,19 +460,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Baker Hughes and McDermott Win Contract for Major Australian LNG Project",
      "summary": "Baker Hughes and McDermott have secured a subsea infrastructure contract for the next phase of Australia's Ichthys LNG development.",
      "provider": "Oilprice.com",
-     "pubDate": "2026-11-20T00:40:00+00:00"
+     "pubDate": "2026-11-20T00:40:00+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/baker-hughes-mcdermott-win-contract-004000683.html"
     },
     {
      "title": "Top 3 Australian Rare Earth Stocks To Watch In November 2026",
      "summary": "Baker Hughes and McDermott winning fresh work on the Ichthys LNG project in Western Australia underlines how global energy supply chains\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T01:13:23+00:00"
+     "pubDate": "2026-11-20T01:13:23+00:00",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/top-3-australian-rare-earth-011323661.html"
     },
     {
      "title": "Metallium And 2 Other Australian Lithium Stocks To Own",
      "summary": "Baker Hughes and McDermott winning new work on a major Australian LNG project shows how critical secure raw materials and processing\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T01:11:54+00:00"
+     "pubDate": "2026-11-20T01:11:54+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/metallium-2-other-australian-lithium-011154452.html"
     }
    ]
   },
@@ -587,19 +596,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Coinbase Asks CFTC to Keep Crypto Contracts in Play Under Prediction Market Swap Rule",
      "summary": "In a Nov. 18 comment letter, Coinbase urged regulators to keep the proposal\u2019s sports, politics, culture and weather examples an open-ended\u2026",
      "provider": "Unchained",
-     "pubDate": "2026-11-20T10:30:53+00:00"
+     "pubDate": "2026-11-20T10:30:53+00:00",
+     "url": "https://unchainedcrypto.com/coinbase-asks-cftc-to-keep-crypto-contracts-in-play-under-prediction-market-swap-rule/"
     },
     {
      "title": "Coinbase Plans to Launch Its Own US Prediction Market Contracts in Early 2027",
      "summary": "Coinbase plans to launch its own US prediction market contracts for retail and institutional traders in the first half of 2027. Issuing its\u2026",
      "provider": "CCN",
-     "pubDate": "2026-11-20T09:39:00+00:00"
+     "pubDate": "2026-11-20T09:39:00+00:00",
+     "url": "https://www.ccn.com/news/crypto/coinbase-us-prediction-market-contracts-2027/"
     },
     {
-     "title": "Strategy\u2019s mNAV Is \u201cNow Below 1,\u201d Says Peter Schiff. That Breaks Saylor\u2019s Favorite Trade",
-     "summary": "Key TakeawaysPeter Schiff says Strategy\u2019s mNAV is now below 1, with its STRC preferred trading below $96. Strategy\u2019s 12 straight weeks of\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T22:37:44+00:00"
+     "title": "Coinbase Reportedly Plans To Launch In-House Prediction Markets In Early 2027",
+     "summary": "Coinbase plans to bypass third-party partners like Kalshi and debut its own proprietary event contracts for American investors in early\u2026",
+     "provider": "Stocktwits",
+     "pubDate": "2026-11-19T20:53:07+00:00",
+     "url": "https://stocktwits.com/news-articles/markets/equity/coinbase-reportedly-plans-to-launch-in-house-prediction-markets-in-early-2027/cNbimnNR90t"
     }
    ]
   },
@@ -733,19 +745,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Cisco\u2019s CEO Just Sold $27 Million of Stock in 3 Days",
      "summary": "Cisco's chief executive unloaded shares right after a record quarter and a sharp post-earnings drop, and the timing looks damning. One\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T18:02:27+00:00"
+     "pubDate": "2026-11-19T18:02:27+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/ciscos-ceo-just-sold-27-million-of-stock-in-3-days/"
     },
     {
-     "title": "4 Tech Dividend Stocks Yielding Over 2% That Retirees Can Own for Growth and Income",
-     "summary": "Retirees who stick to utilities and REITs skip the fastest-growing corner of the market. Four tech names now pay real dividends backed by\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T15:20:52+00:00"
+     "title": "Anthropic Defies Tech Rout On Debut \u2014 Tom Lee Sees \u2018Big Payoff\u2019 Ahead And Says Cisco\u2019s Wild 1997 Ride Shows Why",
+     "summary": "After six straight S&P 500 losses, Lee noted that the index rose the following week in all 10 prior cases he analyzed.",
+     "provider": "Stocktwits",
+     "pubDate": "2026-11-20T05:18:58+00:00",
+     "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-defies-tech-rout-debut-tom-lee-big-payoff-cisco-1997-ride/cNbS5vFR9K4"
     },
     {
-     "title": "Should Investors Buy, Sell or Hold HPE Stock Before Q4 Earnings?",
-     "summary": "Hewlett Packard Enterprise heads into Q4 earnings with strong AI infrastructure demand, a growing AI backlog and expanding networking\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T15:04:00+00:00"
+     "title": "HSBC Just Turned Bullish on Cisco Stock Again. Here\u2019s Why It Expects 40% Upside.",
+     "summary": "Cisco's strongest growth in more than 15 years has caught Wall Street's attention, and now HSBC has turned bullish.",
+     "provider": "Barchart",
+     "pubDate": "2026-11-19T22:57:46+00:00",
+     "url": "https://www.barchart.com/story/news/8926885/hsbc-just-turned-bullish-on-cisco-stock-again-heres-why-it-expects-40-upside"
     }
    ]
   },
@@ -887,19 +902,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "How Conservative Guidance At Datadog (DDOG) Has Changed Its Investment Story",
      "summary": "Datadog has moved to a more cautious growth outlook after Q3 2026, citing uncertainty around spending from its largest AI customer and the\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T05:16:24+00:00"
+     "pubDate": "2026-11-20T05:16:24+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/conservative-guidance-datadog-ddog-changed-051624653.html"
     },
     {
      "title": "Datadog CFO Sees AI Driving Cloud Demand, Calls Growth Outlook Conservative",
      "summary": "Datadog (NASDAQ:DDOG) is benefiting from companies modernizing their applications and moving workloads to the cloud, a trend that\u2026",
      "provider": "MarketBeat",
-     "pubDate": "2026-11-18T23:12:08+00:00"
+     "pubDate": "2026-11-18T23:12:08+00:00",
+     "url": "https://www.marketbeat.com/instant-alerts/event-datadog-cfo-sees-ai-driving-cloud-demand-calls-growth-outlook-conservative-2026-11-18/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
      "title": "Datadog Fell 12% on a Flat Fourth-Quarter Outlook. Analysts Raised Its 2027 Earnings Estimate 6%",
      "summary": "Key TakeawaysDatadog fell more than 12% on Nov. 4 on a flat fourth-quarter guide, as its largest customer, an AI company, cuts its usage to\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-18T19:29:11+00:00"
+     "pubDate": "2026-11-18T19:29:11+00:00",
+     "url": "https://www.tikr.com/blog/datadog-fell-12-on-a-flat-fourth-quarter-outlook-analysts-raised-its-2027-earnings-estimate-6?ref=yahoofinance&tlnk=yf-261118-7jxjm7jx"
     }
    ]
   },
@@ -1032,19 +1050,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "PENG or FFIV: Which Is the Better Value Stock Right Now?",
      "summary": "PENG vs. FFIV: Which Stock Is the Better Value Option?",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T15:40:02+00:00"
+     "pubDate": "2026-11-19T15:40:02+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/peng-ffiv-better-value-stock-154002800.html"
     },
     {
      "title": "Why Did Fastly Stock Jump?",
      "summary": "Today's big story: Could Anthropic Stock Fall 25.",
      "provider": "Trefis",
-     "pubDate": "2026-11-19T12:33:12+00:00"
+     "pubDate": "2026-11-19T12:33:12+00:00",
+     "url": "https://www.trefis.com/stock/fsly/articles/626902/why-did-fastly-stock-jump/2026-11-19"
     },
     {
      "title": "Has Buying Fastly Stock's Dips Paid Off?",
      "summary": "Today's big story: Could Anthropic Stock Fall 25.",
      "provider": "Trefis",
-     "pubDate": "2026-11-19T11:00:32+00:00"
+     "pubDate": "2026-11-19T11:00:32+00:00",
+     "url": "https://www.trefis.com/stock/fsly/articles/626671/has-buying-fastly-stocks-dips-paid-off/2026-11-19"
     }
    ]
   },
@@ -1178,19 +1199,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Can Splitit Partnership Strengthen FIS' Issuer Processing Growth?",
      "summary": "FIS is partnering with Splitit to bring bank-issued installment payments to checkout, potentially boosting issuer processing growth through\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T13:26:00+00:00"
+     "pubDate": "2026-11-19T13:26:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/splitit-partnership-strengthen-fis-issuer-132600652.html"
     },
     {
      "title": "Learn Why The Bull Case For FIS Stock Could Change Following Splitit Partnership",
      "summary": "Splitit and Fidelity National Information Services announced a collaboration that connects Splitit's installment and pay with points\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T22:15:06+00:00"
+     "pubDate": "2026-11-18T22:15:06+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-fis-221506120.html"
     },
     {
      "title": "What Could Fidelity National Information Services (FIS) Gain From This Checkout Partnership?",
      "summary": "Fidelity National Information Services (NYSE:FIS) has formed a partnership with Splitit to offer bank-issued credit and installment options\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T10:12:59+00:00"
+     "pubDate": "2026-11-18T10:12:59+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/could-fidelity-national-information-services-101259598.html"
     }
    ]
   },
@@ -1321,22 +1345,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Semtech Set to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
-     "summary": "SMTC gears up for Q3 earnings as robust AI data center demand, 1.6T connectivity growth and LoRa momentum fuel expectations for strong\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T14:25:00+00:00"
-    },
-    {
      "title": "Microchip\u2019s Earnings Rebound Meets a Softer Outlook",
      "summary": "We just published our list of the 10 Highest Short Interest Large-Cap Tech Stocks Right Now, and Microchip Technology Incorporated ranked\u2026",
      "provider": "Insider Monkey",
-     "pubDate": "2026-11-17T20:16:18+00:00"
+     "pubDate": "2026-11-17T20:16:18+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/microchip-earnings-rebound-meets-softer-201618920.html"
     },
     {
-     "title": "Is Texas Instruments' Sales Boom Its Biggest Risk?",
-     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T14:40:49+00:00"
+     "title": "ETFs Are Net Sellers of Microchip Technology (MCHP) on Friday",
+     "summary": "ETFs sold a net $51.2 million of Microchip Technology stock last Friday.",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-17T11:02:13+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-microchip-technology-110213307.html"
+    },
+    {
+     "title": "Semtech Set to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
+     "summary": "SMTC gears up for Q3 earnings as robust AI data center demand, 1.6T connectivity growth and LoRa momentum fuel expectations for strong\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T14:25:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-set-report-q3-earnings-142500594.html"
     }
    ]
   },
@@ -1478,19 +1505,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?",
      "summary": "The stock has fallen far, but the company retains solid growth prospects.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-20T01:25:00+00:00"
+     "pubDate": "2026-11-20T01:25:00+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/should-you-avoid-mercadolibre-meli-stock-even-now/"
     },
     {
-     "title": "Latest News In E-Commerce - Pix Powers Brazil's E-Commerce Boom",
-     "summary": "Brazil\u2019s instant payment system, Pix, is anticipated to be a major driver in e-commerce growth, as it is projected to surpass USD 200\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T12:37:18+00:00"
-    },
-    {
-     "title": "2 Monster Stocks to Hold for the Next 10 Years",
-     "summary": "Both of these stocks have turned $10,000 into roughly $70,000 or more over the past decade, and their businesses are still built to keep\u2026",
+     "title": "Booking Holdings vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
+     "summary": "Booking's 25.5% net margin meets MercadoLibre's 47% revenue surge, but their valuation gap tells a sharper story than growth rates alone.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-19T10:05:02+00:00"
+     "pubDate": "2026-11-18T15:10:01+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/18/booking-holdings-vs-mercadolibre-which-consumer-stock-is-a-better-buy-for-2027/"
+    },
+    {
+     "title": "MercadoLibre vs. Shopify: Comparing Recent Revenue Scale and Growth Trajectories",
+     "summary": "MercadoLibre's quarterly sales have outpaced Shopify's in every period shown, but Shopify's year-end surges raise a question about whether\u2026",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-17T20:20:02+00:00",
+     "url": "https://www.fool.com/coverage/charts/2026/11/17/mercadolibre-vs-shopify-comparing-recent-revenue-scale-and-growth-trajectories/"
     }
    ]
   },
@@ -1633,22 +1663,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "IREN Has Lost 70% in a Year. Bernstein Still Sees $55",
-     "summary": "Key TakeawaysIREN has lost 70% of its value in a year, and Bernstein kept its Buy rating and $55 target on Nov. 16, about 278% above\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-20T08:20:18+00:00"
-    },
-    {
      "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades \u2013 Michael Burry Takes A Victory Lap",
      "summary": "An after-hours dip in Anthropic\u2019s stock added pressure on AI-linked stocks.",
      "provider": "Stocktwits",
-     "pubDate": "2026-11-20T06:21:09+00:00"
+     "pubDate": "2026-11-20T06:21:09+00:00",
+     "url": "https://stocktwits.com/news-articles/markets/equity/crwv-iren-nbis-stocks-extend-neocloud-selloff-as-anthropic-ipo-rally-fades-michael-burry-takes-a-victory-lap/cNbSEj6R9KJ"
     },
     {
-     "title": "Michael Burry Says He \u2018Tried to Warn\u2019 About Nvidia, CoreWeave: Shay Boloor Comes Back With \u2018I Also Warned Everyone About Rain Once\u2026\u2019",
-     "summary": "Michael Burry clashed with Futurum Equities\u2019 Shay Boloor on Thursday after the \u2018Big Short\u2019 investor said he had warned about the artificial\u2026",
-     "provider": "Benzinga",
-     "pubDate": "2026-11-20T03:34:16+00:00"
+     "title": "Michael Burry Says He Warned on AI With NVIDIA and CoreWeave: Big Short D\u00e9j\u00e0 Vu?",
+     "summary": "Michael Burry says he warned investors about Nvidia, CoreWeave, and Nebius as shares fell, while holding bearish puts.",
+     "provider": "BeInCrypto",
+     "pubDate": "2026-11-20T02:19:22+00:00",
+     "url": "https://beincrypto.com/michael-burry-warned-nvidia-coreweave-nebius/"
+    },
+    {
+     "title": "Michael Burry Says He Tried to Warn You About Nvidia, CoreWeave and Nebius. Here's What the 'Big Short' Investor Saw",
+     "summary": "The famed investor took a victory lap as AI stocks slid again on Thursday.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-20T01:03:36+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/michael-burry-says-he-tried-to-warn-you-about-nvidia-coreweave-and-nebius-stocks-here-s-what-the-big-short-investor-saw/"
     }
    ]
   },
@@ -1803,22 +1836,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "A SpaceX-Tesla Merger Needs \"Yes\" From 50% of All Tesla Shares, Not Just Votes Cast. Here's Why That Math Is Harder Than Wall Street Thinks.",
-     "summary": "Musk wants to merge SpaceX and Tesla, but the voting math is tougher than it looks.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T10:04:00+00:00"
-    },
-    {
      "title": "Should You Forget Nvidia? 2 Artificial Intelligence (AI) Stocks With More Room to 10x",
      "summary": "These former crypto miners are going all in on AI.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-20T10:35:02+00:00"
+     "pubDate": "2026-11-20T10:35:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/20/should-you-forget-nvidia-2-artificial-intelligence-ai-stocks-with-more-room-to-10x/"
     },
     {
-     "title": "Warren Buffett's Successor, Greg Abel, Has 31% of Berkshire Hathaway's $363 Billion Portfolio Invested in 3 Game-Changing AI Stocks",
-     "summary": "Tech is on the menu like never before at Berkshire Hathaway.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T10:26:02+00:00"
+     "title": "Stock market today: Dow, S&P 500, Nasdaq futures continue to sell-off after Anthropic IPO fails to quell AI worries",
+     "summary": "Stocks are on track to post weekly losses after Nvidia earnings and Anthropic's IPO weren't enough for investors to shake off AI angst.",
+     "provider": "Yahoo Finance",
+     "pubDate": "2026-11-20T09:28:27+00:00",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-volatility-092827348.html"
+    },
+    {
+     "title": "Dow Jones Futures: Techs Slide, Anthropic Retreats After Ugly Market Reversal To New Lows",
+     "summary": "Tech futures fell after the market suffered an ugly reversal, with the S&P 500 and Nasdaq hitting new lows. Anthropic retreated late after\u2026",
+     "provider": "Investor's Business Daily",
+     "pubDate": "2026-11-20T10:50:10+00:00",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-reversal-anthropic-ipo-debuts-amd-dives/?src=A00220&yptr=yahoo"
     }
    ]
   },
@@ -1941,19 +1977,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "NVR (NVR) Stock Looks Fully Priced On Cash Flow Estimates",
      "summary": "NVR has seen its share price retreat in 2026, and that pullback puts fresh focus on a basic question for investors who follow the builder.\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-17T23:25:51+00:00"
+     "pubDate": "2026-11-17T23:25:51+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvr-nvr-stock-looks-fully-232551213.html"
     },
     {
      "title": "Berkshire Hathaway\u2019s Stock Rally Puts Its Class A Shares Near the Historic $1M Mark",
      "summary": "Crossing the $1 million mark would be a major milestone for the company and for Warren Buffett.",
      "provider": "Barrons.com",
-     "pubDate": "2026-11-17T18:45:00+00:00"
+     "pubDate": "2026-11-17T18:45:00+00:00",
+     "url": "https://www.barrons.com/articles/berkshire-hathaway-stock-price-class-a-1-million-mark-afc577cf?siteid=yhoof2&yptr=yahoo"
     },
     {
      "title": "Greg Abel Might Have Just Made a $2 Billion Mistake Warren Buffett Avoided",
      "summary": "Warren Buffett repeatedly bought homebuilders and sold them within months. His successor is doubling down on one while earnings sink and\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-17T16:55:09+00:00"
+     "pubDate": "2026-11-17T16:55:09+00:00",
+     "url": "https://247wallst.com/investing/2026/11/17/greg-abel-might-have-just-made-a-2-billion-mistake-warren-buffett-avoided/"
     }
    ]
   },
@@ -2100,22 +2139,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "flat",
    "news": [
     {
-     "title": "S&P 500 staples earnings: beats are common, but stock reactions diverge",
-     "summary": "Investing.com -- Five of six S&P 500 retail and wholesale staples companies beat third-quarter EPS estimates. That is about 83%, close to\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-18T16:36:53+00:00"
-    },
-    {
      "title": "Sysco (SYY) Affirms Dividend, Is It Still Below Fair Value?",
      "summary": "Sysco (SYY) just gave investors two things to think about. The board affirmed a quarterly dividend of US$0.55 per share as its veteran\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T12:11:50+00:00"
+     "pubDate": "2026-11-18T12:11:50+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sysco-syy-affirms-dividend-still-121150934.html"
     },
     {
-     "title": "WisdomTree U.S. Dividend Growth (DGRW) Adds Broadcom and KLA on Nov. 16",
-     "summary": "The fund bought $263.1 million of Broadcom and $168.7 million of KLA while selling $228.8 million of Coca-Cola and exiting Verizon and AT&T.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-18T11:04:09+00:00"
+     "title": "Sysco (SYY) Stock Looks Undervalued After Its 19% Three Year Gain",
+     "summary": "Sysco has delivered an 18.8% share price gain over the past three years, yet the real story for long term holders sits in its ability to\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T10:13:43+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sysco-syy-stock-looks-undervalued-101343791.html"
+    },
+    {
+     "title": "S&P 500 staples earnings: beats are common, but stock reactions diverge",
+     "summary": "Investing.com -- Five of six S&P 500 retail and wholesale staples companies beat third-quarter EPS estimates. That is about 83%, close to\u2026",
+     "provider": "Investing.com",
+     "pubDate": "2026-11-18T16:36:53+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-staples-earnings-beats-163653919.html"
     }
    ]
   },
@@ -2238,22 +2280,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
+     "title": "Are Wall Street Analysts Predicting Albemarle Stock Will Climb or Sink?",
+     "summary": "Albemarle has underperformed the broader market over the past year, but analysts are moderately optimistic about the stock\u2019s prospects.",
+     "provider": "Barchart",
+     "pubDate": "2026-11-13T11:40:34+00:00",
+     "url": "https://www.barchart.com/story/news/8818414/are-wall-street-analysts-predicting-albemarle-stock-will-climb-or-sink"
+    },
+    {
      "title": "Scotia Metals Expands Lithium Footprint With Brazilian Project Acquisition Option",
      "summary": "Scotia Metals Corp. (CSE: SMET) (OTCQB: CSRVF) (FSE: C6R0) is expanding its lithium exploration portfolio into Brazil, securing an option\u2026",
      "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T16:07:15+00:00"
+     "pubDate": "2026-11-19T16:07:15+00:00",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/scotia-metals-expands-lithium-footprint-160715362.html"
     },
     {
      "title": "3 Critical-Mineral Stocks That Could Help You Make a Fortune by 2035",
      "summary": "Strong demand for critical minerals could help these three companies grow larger by 2035.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-19T14:50:02+00:00"
-    },
-    {
-     "title": "Inside the Army\u2019s 75 Year Plan to Escape China\u2019s Rare Earth Dominance",
-     "summary": "In a bid to stimulate domestic rare earth processing, the US Army is trying something fundamentally different at its Tooele Army Depot\u2026",
-     "provider": "Oilprice.com",
-     "pubDate": "2026-11-19T02:00:00+00:00"
+     "pubDate": "2026-11-19T14:50:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/3-critical-mineral-stocks-that-could-help-you-make-a-fortune-by-2035/"
     }
    ]
   },
@@ -2378,19 +2423,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
      "summary": "The product of a collaboration with Alnylam, Livsayis is now Regeneron\u2019s first marketed RNAi drug and will compete against established\u2026",
      "provider": "BioPharma Dive",
-     "pubDate": "2026-11-19T15:10:00+00:00"
-    },
-    {
-     "title": "REGN Gets FDA Nod for Livsayis in Generalized Myasthenia Gravis",
-     "summary": "Regeneron's Livsayis becomes the first and only siRNA therapy approved by the FDA for generalized myasthenia gravis, offering four\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T14:42:00+00:00"
+     "pubDate": "2026-11-19T15:10:00+00:00",
+     "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
     },
     {
      "title": "Alnylam Stock Trades Below Its Pre-$1 Billion Buyback Price",
      "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.",
      "provider": "Trefis",
-     "pubDate": "2026-11-17T19:45:35+00:00"
+     "pubDate": "2026-11-17T19:45:35+00:00",
+     "url": "https://www.trefis.com/stock/alny/articles/625599/alnylam-stock-trades-below-its-pre-1-billion-buyback-price/2026-11-17"
+    },
+    {
+     "title": "Alnylam (ALNY) Stock Looks Undervalued As Shares Fell 68%",
+     "summary": "Alnylam Pharmaceuticals has seen its stock slump hard over the past year, which puts a fresh spotlight on whether the current share price\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T18:17:49+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alnylam-alny-stock-looks-undervalued-181749883.html"
     }
    ]
   },
@@ -2516,19 +2564,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Top 3D Printing Stocks With Strong Potential for Long-Term Growth",
      "summary": "3D Printing is reshaping industries with faster production and lower costs, drawing investor interest. Stocks like ATI, RTX, SNPS, AME and\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T15:24:00+00:00"
-    },
-    {
-     "title": "What Does Cognex's Falling Multiple Really Say?",
-     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T15:23:19+00:00"
+     "pubDate": "2026-11-19T15:24:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/top-3d-printing-stocks-strong-152400706.html"
     },
     {
      "title": "Is Axcelis Technologies (ACLS) Stock Outpacing Its Computer and Technology Peers This Year?",
      "summary": "Here is how Axcelis Technologies (ACLS) and Ametek (AME) have performed compared to their sector so far this year.",
      "provider": "Zacks",
-     "pubDate": "2026-11-18T13:40:04+00:00"
+     "pubDate": "2026-11-18T13:40:04+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-acls-stock-outpacing-134004788.html"
+    },
+    {
+     "title": "What Are Wall Street Analysts' Target Price for AMETEK Stock?",
+     "summary": "AMETEK has outpaced the broader market over the past year, and analysts remain highly optimistic about the stock's prospects.",
+     "provider": "Barchart",
+     "pubDate": "2026-11-17T13:12:22+00:00",
+     "url": "https://www.barchart.com/story/news/8874378/what-are-wall-street-analysts-target-price-for-ametek-stock"
     }
    ]
   },
@@ -2653,19 +2704,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Who Is Rene Haas? What to Know About the Arm CEO as Nvidia Searches for Jensen Huang's Successor",
      "summary": "Hendrick & Struggles, the firm Nvidia hired to help it find a successor for Jensen Huang, has reportedly approached Arm\u2019s Rene Haas. Haas\u2026",
      "provider": "Barchart",
-     "pubDate": "2026-11-19T18:51:22+00:00"
+     "pubDate": "2026-11-19T18:51:22+00:00",
+     "url": "https://www.barchart.com/story/news/8922883/who-is-rene-haas-what-to-know-about-the-arm-ceo-as-nvidia-searches-for-jensen-huang-s-successor"
     },
     {
      "title": "Nvidia reportedly approaches Arm CEO Rene Haas in search for Jensen Huang successor",
      "summary": "Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has reportedly approached Arm Holdings chief executive Rene Haas as a potential successor to Jensen\u2026",
      "provider": "Proactive",
-     "pubDate": "2026-11-19T17:28:00+00:00"
+     "pubDate": "2026-11-19T17:28:00+00:00",
+     "url": "https://www.proactiveinvestors.com/companies/news/1102138/nvidia-reportedly-approaches-arm-ceo-rene-haas-in-search-for-jensen-huang-successor-1102138.html"
     },
     {
      "title": "Nvidia Could Poach Arm's CEO to Replace Jensen Huang. Here's What That Might Mean for ARM Stock.",
      "summary": "Nvidia's CEO search reaches Arm's Rene Haas. Here's what ARM investors need to know.",
      "provider": "Barchart",
-     "pubDate": "2026-11-19T16:00:59+00:00"
+     "pubDate": "2026-11-19T16:00:59+00:00",
+     "url": "https://www.barchart.com/story/news/8919766/nvidia-could-poach-arm-s-ceo-to-replace-jensen-huang-here-s-what-that-might-mean-for-arm-stock"
     }
    ]
   },
@@ -2799,19 +2853,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Boeing Is Down 37% From Its High, and Its Jet Unit Is in an \u201cOverstaffed Position.\u201d Is the Selling Overdone?",
      "summary": "Key TakeawaysBoeing just hit a fresh 52-week low, 37% below its January high, because its 737 production ramp keeps slipping and its cash\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-20T09:35:21+00:00"
+     "pubDate": "2026-11-20T09:35:21+00:00",
+     "url": "https://www.tikr.com/blog/boeing-is-down-37-from-its-high-and-its-jet-unit-is-in-an-overstaffed-position-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261120-rmg594r6"
     },
     {
      "title": "His Estate Said the Divorce Canceled His Ex-Wife\u2019s Claim To His $373,000 Boeing 401(k). A Washington Appeals Court Disagreed. Here\u2019s What Every 401(k) Holder Needs To Know About Beneficiary Designation",
      "summary": "A trial court sided with the estate and ordered the ex-wife to hand over the money. Then an appeals panel scolded both sets of lawyers for\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-20T01:46:44+00:00"
+     "pubDate": "2026-11-20T01:46:44+00:00",
+     "url": "https://247wallst.com/personal-finance/2026/11/19/his-estate-said-the-divorce-canceled-his-ex-wifes-claim-to-his-373000-boeing-401k-a-washington-appeals-court-disagreed-heres-what-every-401k-holder-needs-to-know-about-beneficiary-designat/"
     },
     {
      "title": "Trump\u2019s $17 Billion Asia Deals Lean on a $12 Billion Aircraft Sale. That\u2019s 1.6% of Boeing\u2019s Backlog",
      "summary": "Key TakeawaysBoeing and GE Aerospace finalized a $12 billion sale of up to 20 787s to Philippine Airlines, the biggest of more than $17\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T23:12:53+00:00"
+     "pubDate": "2026-11-19T23:12:53+00:00",
+     "url": "https://www.tikr.com/blog/trumps-17-billion-asia-deals-lean-on-a-12-billion-aircraft-sale-thats-1-6-of-boeings-backlog?ref=yahoofinance&tlnk=yf-261120-9vx69f3p"
     }
    ]
   },
@@ -2932,22 +2989,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "BG Expands Blockchain-Enabled Soy Traceability Initiative to Vietnam",
+     "summary": "Bunge expands its blockchain-enabled soy traceability initiative to Vietnam, strengthening responsible sourcing across Southeast Asia.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T17:27:00+00:00",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/bg-expands-blockchain-enabled-soy-172700613.html"
+    },
+    {
      "title": "S&P 500 staples earnings: beats are common, but stock reactions diverge",
      "summary": "Investing.com -- Five of six S&P 500 retail and wholesale staples companies beat third-quarter EPS estimates. That is about 83%, close to\u2026",
      "provider": "Investing.com",
-     "pubDate": "2026-11-18T16:36:53+00:00"
+     "pubDate": "2026-11-18T16:36:53+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-staples-earnings-beats-163653919.html"
     },
     {
      "title": "ADM Raises 2026 Earnings Outlook as Biofuel Strength Lifts Profit",
      "summary": "ADM raises its 2026 earnings outlook as strong ethanol and biodiesel margins boost profits, with biofuel momentum supporting growth\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-16T16:41:00+00:00"
-    },
-    {
-     "title": "Is ADM Stock Worth Buying as Earnings Improve but Key Risks Persist?",
-     "summary": "ADM's earnings rebound, raised 2026 outlook and cost-saving initiatives strengthen its value appeal, but commodity volatility and policy\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-16T16:39:00+00:00"
+     "pubDate": "2026-11-16T16:41:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/adm-raises-2026-earnings-outlook-164100994.html"
     }
    ]
   },
@@ -3071,22 +3131,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue\u2014Even After a Hack",
-     "summary": "Citibank\u2019s updated terms put customers on the hook for outside AI agents, including leaked logins.",
-     "provider": "decrypt",
-     "pubDate": "2026-11-19T22:36:02+00:00"
+     "title": "Citigroup (C) Stock Moves -1.76%: What You Should Know",
+     "summary": "In the closing of the recent trading day, Citigroup (C) stood at $115.28, denoting a -1.76% move from the preceding trading day.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T21:45:02+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-c-stock-moves-1-214502957.html"
     },
     {
-     "title": "Citi CEO's Tech Warning Raises the Stakes for the Next Outage",
-     "summary": "How quickly banks restore service could matter to investors.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-19T17:47:48+00:00"
+     "title": "Here\u2019s Why Analysts Are Bullish on This Blue Chip Stock",
+     "summary": "We just published the list of the 10 Best Affordable Blue Chip Stocks to Buy Now and Citigroup Inc. (NYSE:C) ranked 10th on this list.\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-19T18:53:18+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-bullish-blue-chip-185318623.html"
     },
     {
-     "title": "Is Citi Wrong to Give Up on McDonald\u2019s? Wall Street Still Sees $299",
-     "summary": "Key TakeawaysCiti downgraded McDonald\u2019s to Neutral from Buy on Nov. 18 and cut its price target to $301 from $315.",
-     "provider": "TIKR",
-     "pubDate": "2026-11-20T08:26:32+00:00"
+     "title": "Citigroup Targets $5T in Client Wealth: Can Organic Growth Pay Off?",
+     "summary": "C targets $5 trillion in client assets held at rivals, betting on organic wealth growth and rising fee income to boost profitability\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T15:08:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-targets-5t-client-wealth-150800333.html"
     }
    ]
   },
@@ -3220,19 +3283,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Caterpillar CEO Joe Creed joins Walmart board of directors",
      "summary": "Walmart named Caterpillar CEO Joe Creed to its board of directors this week.",
      "provider": "Journal Star",
-     "pubDate": "2026-11-19T18:26:59+00:00"
+     "pubDate": "2026-11-19T18:26:59+00:00",
+     "url": "https://www.pjstar.com/story/business/2026/11/19/caterpillar-ceo-joe-creed-joins-walmart-board-of-directors/92859710007/"
     },
     {
      "title": "Caterpillar Is 48% Below Its High With Analysts Still Expecting $32.18 of 2027 Earnings Per Share",
      "summary": "Key TakeawaysCaterpillar is 48% below its June 30 high, yet analysts expect $32. 18 of 2027 normalized EPS, up from $30.",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T12:37:57+00:00"
+     "pubDate": "2026-11-19T12:37:57+00:00",
+     "url": "https://www.tikr.com/blog/caterpillar-is-48-below-its-high-with-analysts-still-expecting-32-18-of-2027-earnings-per-share?ref=yahoofinance&tlnk=yf-261119-hqmf9962"
     },
     {
-     "title": "72% Upside for GE Vernova? Bernstein Thinks So, and Here\u2019s How It Gets to $1,298",
-     "summary": "Key TakeawaysBernstein reiterated its Outperform rating and $1,298 price target on GE Vernova on Nov. 17.",
-     "provider": "TIKR",
-     "pubDate": "2026-11-20T09:40:56+00:00"
+     "title": "5 Energy Stocks to Benefit from Anthropic\u2019s $1.5 Trillion Debut",
+     "summary": "Anthropic priced its IPO at $83 and raised $81.3 billion. Five energy stocks, from Caterpillar to Hut 8, sell into its gas generator and\u2026",
+     "provider": "Oilprice.com",
+     "pubDate": "2026-11-19T22:00:00+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/5-energy-stocks-benefit-anthropic-220000406.html"
     }
    ]
   },
@@ -3384,22 +3450,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "At AI Summit, Industry Titans Wave Off Market Woes\u2014and Defend Jensen Huang",
-     "summary": "Execs and investors at the TomorrowX conference in Austin, Texas, are as bullish as ever about AI\u2019s ability to improve lives. The rest of\u2026",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-19T20:22:00+00:00"
-    },
-    {
      "title": "The Short Seller Who Called Out Nvidia Has a New Target",
      "summary": "Culper Research says Cerebras\u2019 products don\u2019t have the life span the company says they do. Cerebras calls the firm\u2019s thesis a \u201cset of\u2026",
      "provider": "Barrons.com",
-     "pubDate": "2026-11-19T18:52:00+00:00"
+     "pubDate": "2026-11-19T18:52:00+00:00",
+     "url": "https://www.barrons.com/articles/nvidia-short-seller-cerebras-culper-lamarco-1c849bb4?siteid=yhoof2&yptr=yahoo"
     },
     {
      "title": "Cerebras Is Targeting a 3x Revenue Jump in 2027. Is the Stock a Buy?",
      "summary": "Its latest quarter revealed a bottleneck that has nothing to do with chips.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-19T17:43:02+00:00"
+     "pubDate": "2026-11-19T17:43:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/cerebras-targeting-3x-revenue-jump-2027-is-the-stock-a-buy/"
+    },
+    {
+     "title": "Cerebras Drops 20% in a Month: Is the Stock a Buy on the Dip?",
+     "summary": "CBRS shares plunge 20.4% in a month amid OpenAI capacity delays and margin pressure, but soaring AI inference demand and cloud deals offer\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T17:31:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-drops-20-month-stock-173100892.html"
     }
    ]
   },
@@ -3534,7 +3603,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "5 High-Yield Bank Stocks Retirees Should Own Inside a Roth IRA",
      "summary": "Five regional banks pay retirees a steady stream of dividends, but the IRS quietly claims a slice every single year. Where you park these\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T13:20:54+00:00"
+     "pubDate": "2026-11-19T13:20:54+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/5-high-yield-bank-stocks-retirees-should-own-inside-a-roth-ira/"
     }
    ]
   },
@@ -3656,22 +3726,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "flat",
    "news": [
     {
-     "title": "Caterpillar Is 48% Below Its High With Analysts Still Expecting $32.18 of 2027 Earnings Per Share",
-     "summary": "Key TakeawaysCaterpillar is 48% below its June 30 high, yet analysts expect $32. 18 of 2027 normalized EPS, up from $30.",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T12:37:57+00:00"
+     "title": "Cummins (CMI) Stock May Be 45% Undervalued Following Record EBITDA",
+     "summary": "Cummins has pulled back sharply in recent weeks after a strong multi\u2011year run, which puts a fresh spotlight on whether the current share\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T09:10:08+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cummins-cmi-stock-may-45-091008174.html"
     },
     {
-     "title": "Is Johnson Controls Stock Engineered To Make You Money?",
-     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T22:41:52+00:00"
+     "title": "Cummins (CMI) Just Gave Investors Something To Think About",
+     "summary": "Cummins (CMI) has just put a spotlight on its heavy equipment ambitions by unveiling the S29 mining engine in China, a high horsepower\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T08:09:38+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cummins-cmi-just-gave-investors-080938584.html"
     },
     {
-     "title": "Is Caterpillar Stock Priced Right Against Its Rivals?",
-     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T14:05:05+00:00"
+     "title": "What Is Cummins (CMI) Signaling With Its New S29 Mining Engine?",
+     "summary": "Cummins (NYSE:CMI) launched its new S29 mining engine platform, a 29-liter power unit for large mining and industrial equipment. The S29\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T07:14:25+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cummins-cmi-signaling-s29-mining-071425357.html"
     }
    ]
   },
@@ -3822,19 +3895,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Why Is Capital One (COF) Down 10.8% Since Last Earnings Report?",
      "summary": "Capital One (COF) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T15:30:03+00:00"
+     "pubDate": "2026-11-19T15:30:03+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-capital-one-cof-down-153003215.html"
     },
     {
-     "title": "JPMorgan Reveals Cause of Banking Outage That Disrupted U.S. Customers",
-     "summary": "A technical failure disrupted online banking and transfers, with JPMorgan ruling out a cyberattack.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-18T17:05:11+00:00"
+     "title": "Mid-market firms\u2019 optimism grows despite economic uncertainty",
+     "summary": "Encouraged by stronger financial performance, companies are planning to ramp up investments \u2014 particularly in AI, a Capital One executive\u2026",
+     "provider": "CFO Dive",
+     "pubDate": "2026-11-18T20:36:33+00:00",
+     "url": "https://www.cfodive.com/news/middle-market-firms-grow-more-optimistic-despite-uncertainty/875113/"
     },
     {
-     "title": "Why Did Chime Financial Stock Jump?",
-     "summary": "For questions about this article or underlying research, email help@trefis.com.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-18T21:37:15+00:00"
+     "title": "U.S. Credit Card Delinquencies Rise in October Amid Resilient Spending",
+     "summary": "October card delinquencies and charge-offs rose across JPM, C, BAC and COF, but solid spending and below-year-ago credit losses signal\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-18T12:23:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/u-credit-card-delinquencies-rise-122300116.html"
     }
    ]
   },
@@ -3977,19 +4053,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Why Is CoreWeave (CRWV) Facing New Supply Chain Risk From A US Ban?",
      "summary": "CoreWeave (NasdaqGS:CRWV) now faces a U.S. ban on Chinese optical transceivers that moves forward despite industry pushback. Major U.S.\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T06:16:26+00:00"
-    },
-    {
-     "title": "Could Applied Digital Actually Climb 265%? Or Is B. Riley Totally Wrong?",
-     "summary": "Key TakeawaysB. Riley still rates Applied Digital a Buy with a $51 target, 265% above the share price after a 72% fall from the stock\u2019s May\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-20T09:43:19+00:00"
+     "pubDate": "2026-11-20T06:16:26+00:00",
+     "url": "https://finance.yahoo.com/technology/ai/articles/why-coreweave-crwv-facing-supply-061626242.html"
     },
     {
      "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades \u2013 Michael Burry Takes A Victory Lap",
      "summary": "An after-hours dip in Anthropic\u2019s stock added pressure on AI-linked stocks.",
      "provider": "Stocktwits",
-     "pubDate": "2026-11-20T06:21:09+00:00"
+     "pubDate": "2026-11-20T06:21:09+00:00",
+     "url": "https://stocktwits.com/news-articles/markets/equity/crwv-iren-nbis-stocks-extend-neocloud-selloff-as-anthropic-ipo-rally-fades-michael-burry-takes-a-victory-lap/cNbSEj6R9KJ"
+    },
+    {
+     "title": "Michael Burry Says He \u2018Tried to Warn\u2019 About Nvidia, CoreWeave: Shay Boloor Comes Back With \u2018I Also Warned Everyone About Rain Once\u2026\u2019",
+     "summary": "Michael Burry clashed with Futurum Equities\u2019 Shay Boloor on Thursday after the \u2018Big Short\u2019 investor said he had warned about the artificial\u2026",
+     "provider": "Benzinga",
+     "pubDate": "2026-11-20T03:34:16+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-tried-warn-033416913.html"
     }
    ]
   },
@@ -4128,22 +4207,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "Why CVS Health (CVS) Cracked the Best Affordable Blue Chip Stocks List",
+     "summary": "We just published the list of the 10 Best Affordable Blue Chip Stocks to Buy Now and CVS Health Corporation (NYSE:CVS) ranked 9th on this\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-19T18:52:35+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-cvs-health-cvs-cracked-185235690.html"
+    },
+    {
+     "title": "UnitedHealth Shares Sink as New Federal Fraud Crackdown Sparks Healthcare Sell-Off",
+     "summary": "UnitedHealth, Humana and CVS Tumble as Medicare Fraud Proposal Rattles Insurers",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-19T12:25:29+00:00",
+     "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-shares-sink-federal-fraud-122529002.html"
+    },
+    {
      "title": "Forget UnitedHealth: Humana Has More to Lose From CMS\u2019s Medicare Advantage Audit Crackdown",
      "summary": "Key TakeawaysUnitedHealth fell 5% on Tuesday after CMS proposed applying Medicare Advantage audit findings to whole contracts, going back\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-20T09:45:57+00:00"
-    },
-    {
-     "title": "Bernstein\u2019s $500 Target Says UnitedHealth\u2019s Selloff Went Too Far",
-     "summary": "Key TakeawaysUnitedHealth Group is 28% below its 52-week high after a federal plan to widen Medicare Advantage audits, and Bernstein\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T22:37:37+00:00"
-    },
-    {
-     "title": "UnitedHealth Stock Continues Slide on Medicare for All Push. What Lies Ahead for Insurers.",
-     "summary": "UnitedHealth and other insurer stocks were falling Thursday. Democrats\u2019 sweep of Congress has breathed new life into the push for Medicare\u2026",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-19T21:54:00+00:00"
+     "pubDate": "2026-11-20T09:45:57+00:00",
+     "url": "https://www.tikr.com/blog/forget-unitedhealth-humana-has-more-to-lose-from-cmss-medicare-advantage-audit-crackdown?ref=yahoofinance&tlnk=yf-261120-vwvwp829"
     }
    ]
   },
@@ -4282,22 +4364,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "What Natural Grocers by Vitamin Cottage (NGVC) Said on Its Q4 Earnings Call",
-     "summary": "Natural Grocers by Vitamin Cottage (NYSE:NGVC) reported higher fourth-quarter sales but lower earnings per share as inventory shrink\u2026",
-     "provider": "MarketBeat",
-     "pubDate": "2026-11-19T23:13:12+00:00"
-    },
-    {
-     "title": "Doomsday Deals: Mizuho Hikes Its Costco Stock Price Target as Panic-Buying Spikes on Apocalypse Fears",
-     "summary": "Mizuho sees greater tailwinds for Costco due to outage-led panic-buying.",
-     "provider": "Barchart",
-     "pubDate": "2026-11-19T19:57:05+00:00"
-    },
-    {
      "title": "DoorDash (DASH) Stock Is a Tricky Play That Could Lead to a 222% Payout",
      "summary": "While DASH stock may not be everyone\u2019s cup of tea, aggressive traders may appreciate the contrarian case.",
      "provider": "Barchart",
-     "pubDate": "2026-11-19T16:00:51+00:00"
+     "pubDate": "2026-11-19T16:00:51+00:00",
+     "url": "https://www.barchart.com/story/news/8919762/doordash-dash-stock-is-a-tricky-play-that-could-lead-to-a-222-payout"
+    },
+    {
+     "title": "Can BROS' DoorDash Pilot Unlock Growth Beyond the Drive-Thru?",
+     "summary": "Dutch Bros is testing DoorDash delivery to expand beyond drive-thrus, tap customer demand and unlock new sales opportunities amid growing\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T15:46:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bros-doordash-pilot-unlock-growth-154600155.html"
+    },
+    {
+     "title": "DoorDash denies using surveillance pricing",
+     "summary": "The delivery giant said it does not personalize prices or change them based on the volume of demand, following an initial Federal Trade\u2026",
+     "provider": "Restaurant Dive",
+     "pubDate": "2026-11-18T16:31:07+00:00",
+     "url": "https://www.restaurantdive.com/news/doordash-rejects-surveillance-pricing-political-backlash/875057/"
     }
    ]
   },
@@ -4421,19 +4506,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "$310 And Falling: Why Nvidia\u2019s Turmoil and AI Server Margin Pressure Are Dragging Dell Lower Before Earnings",
      "summary": "Dell has erased nearly a third of its value in a month, yet its AI backlog and guidance keep climbing. Next week's earnings will reveal\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T17:45:06+00:00"
+     "pubDate": "2026-11-19T17:45:06+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/310-and-falling-why-nvidias-turmoil-and-ai-server-margin-pressure-are-dragging-dell-lower-before-earnings/"
     },
     {
      "title": "Why Dell Technologies (DELL) Could Beat Earnings Estimates Again",
      "summary": "Dell Technologies (DELL) has an impressive earnings surprise history and currently possesses the right combination of the two key\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T16:10:02+00:00"
+     "pubDate": "2026-11-19T16:10:02+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-dell-technologies-dell-could-161002985.html"
     },
     {
-     "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-     "summary": "Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-20T04:45:23+00:00"
+     "title": "Nvidia, Intel, Micron and Dell Stocks Jump as Anthropic Massive IPO Sparks Rally",
+     "summary": "Anthropic's Blockbuster IPO Sparks Fresh Rally in Nvidia, Intel, Micron and Dell",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-19T18:50:29+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-intel-micron-dell-stocks-185029536.html"
     }
    ]
   },
@@ -4559,19 +4647,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "EMCOR Group (EME) Could Be 8% Undervalued After Argus Raised Its Price Target",
      "summary": "EMCOR Group (EME) stock is back in focus after Argus raised its price target, highlighting shifting analyst sentiment around the specialty\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T10:08:27+00:00"
-    },
-    {
-     "title": "Should Investors Buy, Sell or Hold MasTec Stock After Q3 Earnings?",
-     "summary": "Can MTZ's record backlog, surging Power Delivery growth and expanding data center opportunities offset segment weakness and a premium\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T16:07:00+00:00"
+     "pubDate": "2026-11-20T10:08:27+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-could-8-100827766.html"
     },
     {
      "title": "EMCOR's P1 Acquisition: Is This a New Growth Driver for 2027?",
      "summary": "EME's planned P1 acquisition could fuel 2027 growth by expanding its Midwest footprint, strengthening data center capabilities and tapping\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-16T16:03:00+00:00"
+     "pubDate": "2026-11-16T16:03:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/emcors-p1-acquisition-growth-driver-160300728.html"
+    },
+    {
+     "title": "Emcor Group (EME) is an Incredible Growth Stock: 3 Reasons Why",
+     "summary": "Emcor Group (EME) is well positioned to outperform the market, as it exhibits above-average growth in financials.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T16:45:03+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-incredible-growth-164503792.html"
     }
    ]
   },
@@ -4710,22 +4801,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Why Every Honeywell Investor Is Looking At This One Number",
-     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T22:20:15+00:00"
-    },
-    {
-     "title": "Senate Nears a Vote on a Landmark Permitting Bill. Here\u2019s Who Could Benefit.",
-     "summary": "The bill could speed up pipeline and transmission projects. For electric utilities, the outlook is more mixed.",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-19T21:07:00+00:00"
-    },
-    {
      "title": "The Concern Behind Erste Group\u2019s Call on Eaton (ETN)",
      "summary": "We just published a list of the Analysts Turned Bearish on These 10 Stocks on Wednesday and Eaton (NYSE:ETN) ranked 8th on this list. Wall\u2026",
      "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T15:16:51+00:00"
+     "pubDate": "2026-11-19T15:16:51+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/concern-behind-erste-group-call-151651946.html"
+    },
+    {
+     "title": "Is Eaton A Better Data Center Play Than Rockwell?",
+     "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-18T15:03:28+00:00",
+     "url": "https://www.trefis.com/stock/rok/articles/626133/is-eaton-a-better-data-center-play-than-rockwell/2026-11-18"
+    },
+    {
+     "title": "Why Every Honeywell Investor Is Looking At This One Number",
+     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T22:20:15+00:00",
+     "url": "https://www.trefis.com/stock/hon/articles/626822/why-every-honeywell-investor-is-looking-at-this-one-number/2026-11-19"
     }
    ]
   },
@@ -4856,22 +4950,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Senate Nears a Vote on a Landmark Permitting Bill. Here\u2019s Who Could Benefit.",
-     "summary": "The bill could speed up pipeline and transmission projects. For electric utilities, the outlook is more mixed.",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-19T21:07:00+00:00"
-    },
-    {
      "title": "Expand Energy Expects U.S. Natural Gas Demand to Jump Over 10% by 2028",
      "summary": "EXE sees U.S. natural gas demand rising over 10% by 2028, fueled by LNG exports, power generation and industrial growth.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T14:55:00+00:00"
+     "pubDate": "2026-11-19T14:55:00+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/expand-energy-expects-u-natural-145500031.html"
     },
     {
      "title": "Can Expand Energy Stock Hit $120?",
      "summary": "Today's big story: Could Anthropic Stock Fall 25.",
      "provider": "Trefis",
-     "pubDate": "2026-11-19T11:30:44+00:00"
+     "pubDate": "2026-11-19T11:30:44+00:00",
+     "url": "https://www.trefis.com/stock/exe/articles/626799/can-expand-energy-stock-hit-120/2026-11-19"
+    },
+    {
+     "title": "Senate Nears a Vote on a Landmark Permitting Bill. Here\u2019s Who Could Benefit.",
+     "summary": "The bill could speed up pipeline and transmission projects. For electric utilities, the outlook is more mixed.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-19T21:07:00+00:00",
+     "url": "https://www.barrons.com/articles/senate-permitting-bill-energy-utility-stocks-d6da279b?siteid=yhoof2&yptr=yahoo"
     }
    ]
   },
@@ -5006,19 +5103,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Will Raised Revenue Guidance Change Expedia's (EXPE) Narrative",
      "summary": "Expedia Group reported third quarter 2026 sales of US$4,938 million and net income of US$1,030 million, affirmed a US$0.48 quarterly\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T23:24:29+00:00"
+     "pubDate": "2026-11-18T23:24:29+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/raised-revenue-guidance-change-expedias-232429617.html"
     },
     {
      "title": "Expedia Group (EXPE) Lifts 2026 Guidance As Undervalued Narrative Stays In Focus",
      "summary": "Expedia Group (EXPE) is back in focus after management lifted full year 2026 revenue guidance to US$16.37b to US$16.43b, paired with fresh\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T15:13:43+00:00"
+     "pubDate": "2026-11-18T15:13:43+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-expe-lifts-2026-151343660.html"
     },
     {
-     "title": "Third-Party Vendor Linked to Eli Lilly Is Hit by Data Breach",
-     "summary": "Lilly found no unauthorized access to its own systems, a person familiar with the matter said. Extortion group n0n claims to hold patient\u2026",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-17T20:02:00+00:00"
+     "title": "Is There Still A Reason To Own Expedia Stock?",
+     "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-17T11:29:48+00:00",
+     "url": "https://www.trefis.com/stock/expe/articles/625549/is-there-still-a-reason-to-own-expedia-stock/2026-11-17"
     }
    ]
   },
@@ -5149,19 +5249,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Ford Stock Looks Cheap. It Just Got a Buy Upgrade.",
      "summary": "DZ Bank upgraded the automaker even as it cut its price target. Wall Street expects Ford\u2019s operating profit to hold steady in 2027.",
      "provider": "Barrons.com",
-     "pubDate": "2026-11-19T15:22:00+00:00"
+     "pubDate": "2026-11-19T15:22:00+00:00",
+     "url": "https://www.barrons.com/articles/ford-stock-dz-bank-buy-upgrade-11b9e33b?siteid=yhoof2&yptr=yahoo"
     },
     {
-     "title": "Turkey warns shutting it out of \"Made in Europe\" rules would hurt EU car industry",
-     "summary": "Shutting Turkey out of the EU's planned 'Made in Europe' rules would damage Europe's car industry rather than protect it, Turkish Trade\u2026",
-     "provider": "IntelliNews",
-     "pubDate": "2026-11-20T07:06:31+00:00"
+     "title": "Ford Begins Shipping LFP Batteries: Is F Stock a Buy Now?",
+     "summary": "Ford begins shipping LFP battery cells for its affordable electric pickup, but rising costs and profit pressures raise questions about\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T14:16:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ford-begins-shipping-lfp-batteries-141600372.html"
     },
     {
-     "title": "Can Tesla's Cash Cover $20 Billion Of Spending?",
-     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T18:23:20+00:00"
+     "title": "What Is Ford Motor (F) Signaling With Its New U.S. EV Battery Cells?",
+     "summary": "Ford Motor (NYSE:F) has started producing lithium iron phosphate EV battery cells in the U.S. using CATL technology. The new cells are\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T06:14:50+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ford-motor-f-signaling-u-061450139.html"
     }
    ]
   },
@@ -5295,19 +5398,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Freeport McMoRan (FCX) Stock Looks Like A Bargain After A Sharp Selloff",
      "summary": "Freeport-McMoRan has seen its share price pull back sharply in recent weeks after a strong multi year climb. This puts a fresh spotlight on\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T10:10:02+00:00"
+     "pubDate": "2026-11-20T10:10:02+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/freeport-mcmoran-fcx-stock-looks-101002663.html"
     },
     {
      "title": "Freeport-McMoRan (FCX) Stock Slid, But What Is Drawing Attention Now?",
      "summary": "Copper's steep one day selloff to a seven month low, driven by a stronger dollar and rate hike expectations, hit Freeport-McMoRan (FCX)\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T08:08:49+00:00"
+     "pubDate": "2026-11-20T08:08:49+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/freeport-mcmoran-fcx-stock-slid-080849937.html"
     },
     {
      "title": "Freeport McMoRan (FCX) Lost A Major Hedge Fund Holder",
      "summary": "Hedge fund Tudor Investment Corporation has sharply cut its position in Freeport-McMoRan (NYSE:FCX) and several other copper miners. The\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T07:15:42+00:00"
+     "pubDate": "2026-11-20T07:15:42+00:00",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/freeport-mcmoran-fcx-lost-major-071542084.html"
     }
    ]
   },
@@ -5438,22 +5544,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "Can SiTime Stock Double From Here?",
-     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T18:23:20+00:00"
-    },
-    {
      "title": "Can T1 Energy's Growing Order Book Drive US Solar Expansion?",
      "summary": "TE secures over 1.58 GW in new solar module contracts, advances its Texas cell facility and targets 5 GW in 2027 capacity.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T13:30:00+00:00"
+     "pubDate": "2026-11-19T13:30:00+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/t1-energys-growing-order-book-133000891.html"
     },
     {
-     "title": "Why You Need To Pay Attention To Nextpower Stock",
+     "title": "Did The Market Read First Solar Stock Right?",
      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
      "provider": "Trefis",
-     "pubDate": "2026-11-18T16:40:42+00:00"
+     "pubDate": "2026-11-18T15:41:51+00:00",
+     "url": "https://www.trefis.com/stock/fslr/articles/626171/did-the-market-read-first-solar-stock-right/2026-11-18"
+    },
+    {
+     "title": "First Solar, Inc. (FSLR) Is a Trending Stock: Facts to Know Before Betting on It",
+     "summary": "Recently, Zacks.com users have been paying close attention to First Solar (FSLR). This makes it worthwhile to examine what the stock has in\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-18T13:00:05+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/first-solar-inc-fslr-trending-130005678.html"
     }
    ]
   },
@@ -5586,19 +5695,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "GE Vernova Is Down 34% From Its July High Despite 3 Guidance Raises. Is It Time to Buy?",
      "summary": "Key TakeawaysGE Vernova (GEV:NYSE) is down 34% from its July high, even though it raised its 2026 guidance after each of its last three\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T16:36:05+00:00"
-    },
-    {
-     "title": "Poland opens door to CfD support for private small nuclear reactors",
-     "summary": "Poland sees the state price guarantee backing its first nuclear plant as the basic support for small modular reactors too, a deputy energy\u2026",
-     "provider": "IntelliNews",
-     "pubDate": "2026-11-20T09:51:21+00:00"
+     "pubDate": "2026-11-19T16:36:05+00:00",
+     "url": "https://www.tikr.com/blog/ge-vernova-stock-down-35-percent-guidance-raises-buy?ref=yahoofinance&tlnk=yf-261119-9mr8jmc3"
     },
     {
      "title": "72% Upside for GE Vernova? Bernstein Thinks So, and Here\u2019s How It Gets to $1,298",
      "summary": "Key TakeawaysBernstein reiterated its Outperform rating and $1,298 price target on GE Vernova on Nov. 17.",
      "provider": "TIKR",
-     "pubDate": "2026-11-20T09:40:56+00:00"
+     "pubDate": "2026-11-20T09:40:56+00:00",
+     "url": "https://www.tikr.com/blog/72-upside-for-ge-vernova-bernstein-thinks-so-and-heres-how-it-gets-to-1298?ref=yahoofinance&tlnk=yf-261120-hqqgj6jr"
+    },
+    {
+     "title": "What Erste Group Doubts About GE Vernova (GEV) Next Year",
+     "summary": "We just published a list of the Analysts Turned Bearish on These 10 Stocks on Wednesday and GE Vernova (NYSE:GEV) ranked 7th on this list.\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-19T15:17:56+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/erste-group-doubts-ge-vernova-151756375.html"
     }
    ]
   },
@@ -5723,13 +5835,15 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Are Wall Street Analysts Bullish on Globe Life\u2019s Stock?",
      "summary": "Are Wall Street analysts favoring insurance firm Globe Life now?",
      "provider": "Barchart",
-     "pubDate": "2026-11-17T17:42:10+00:00"
+     "pubDate": "2026-11-17T17:42:10+00:00",
+     "url": "https://www.barchart.com/story/news/8881200/are-wall-street-analysts-bullish-on-globe-lifes-stock"
     },
     {
      "title": "GL Stock Gains 22.3% in a Year: Here's What Investors Should Know",
      "summary": "Globe Life's premium growth, rising investment income, AI adoption and share buybacks support its earnings outlook despite agent declines\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-16T14:35:00+00:00"
+     "pubDate": "2026-11-16T14:35:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/gl-stock-gains-22-3-143500119.html"
     }
    ]
   },
@@ -5825,19 +5939,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Druckenmiller Bought 3 Gold Miners. History Shows How These Moves Usually Play Out.",
      "summary": "Stanley Druckenmiller's Duquesne piled into Newmont, Barrick, and Agnico Eagle just before all three sank. Two past gold cycles show why\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T15:49:22+00:00"
+     "pubDate": "2026-11-19T15:49:22+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/druckenmiller-bought-3-gold-miners-history-shows-how-these-moves-usually-play-out/"
     },
     {
      "title": "Here's Why Long-Term Investors Shouldn't Overlook Gold ETFs",
      "summary": "Gold has plunged to a 14-month low amid hawkish Fed expectations and dollar strength. Is this correction creating an opportunity in gold\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T14:12:00+00:00"
+     "pubDate": "2026-11-19T14:12:00+00:00",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/heres-why-long-term-investors-141200018.html"
     },
     {
      "title": "How Much Gold Should A $1 Million Portfolio Own?",
      "summary": "Today's big story: Could Anthropic Stock Fall 25.",
      "provider": "Trefis",
-     "pubDate": "2026-11-19T11:43:10+00:00"
+     "pubDate": "2026-11-19T11:43:10+00:00",
+     "url": "https://www.trefis.com/stock/gld/articles/624818/how-much-gold-should-a-1-million-portfolio-own/2026-11-19"
     }
    ]
   },
@@ -5977,22 +6094,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Is This Still an \"AI\" Driven Market?",
-     "summary": "Events & Underlying Fundamentals Send a Mixed Message.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T21:33:00+00:00"
-    },
-    {
      "title": "A $7.4 Billion Fund Dumps These 3 Stocks",
      "summary": "Key TakeawaysSurgoCap Partners, a firm managing $7. 35 billion, sold all of its Alphabet, Corning and Argan shares in the third quarter\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T16:10:55+00:00"
+     "pubDate": "2026-11-19T16:10:55+00:00",
+     "url": "https://www.tikr.com/blog/a-7-4-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261119-77qj9rv6"
     },
     {
      "title": "Corning (GLW) Stock Looks Like A Bargain On Cash Flow",
      "summary": "Corning has delivered a very large 3 year share price gain, yet the recent pullback leaves a sharper question for you as an investor. After\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T16:09:12+00:00"
+     "pubDate": "2026-11-19T16:09:12+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-stock-looks-bargain-160912303.html"
+    },
+    {
+     "title": "How Data Center Permitting and Supply Limits Impacted Corning (GLW)",
+     "summary": "Carillon Tower Advisers, an investment management company, released its third-quarter 2026 investor letter for the \u201cCarillon Eagle Growth &\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-19T15:17:47+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/data-center-permitting-supply-limits-151747265.html"
     }
    ]
   },
@@ -6138,22 +6258,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Warren Buffett's Successor, Greg Abel, Has 31% of Berkshire Hathaway's $363 Billion Portfolio Invested in 3 Game-Changing AI Stocks",
-     "summary": "Tech is on the menu like never before at Berkshire Hathaway.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T10:26:02+00:00"
-    },
-    {
      "title": "Google Stock Is Back Near Its 2025 Bottom Valuation. Can It Rebound Again?",
      "summary": "Google stock trades near 15 times earnings, close to its spring 2025 valuation low, as Alphabet\u2019s AI spending climbs.",
      "provider": "BeInCrypto",
-     "pubDate": "2026-11-20T10:14:07+00:00"
+     "pubDate": "2026-11-20T10:14:07+00:00",
+     "url": "https://beincrypto.com/google-stock-valuation-2025-bottom/"
     },
     {
-     "title": "Planet Labs (PL) Stock Looks Fully Priced As Its 385% Run Continues",
-     "summary": "Planet Labs PBC has delivered a very large 3 year share price gain, even as shorter term returns have been more mixed. This raises a\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T10:09:08+00:00"
+     "title": "Amazon vs. Alphabet: Which Cloud Computing Stock Is the Better Buy?",
+     "summary": "Both stocks are critical players in the artificial intelligence trade.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-20T09:50:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/20/amazon-vs-alphabet-which-cloud-computing-stock-is-the-better-buy/"
+    },
+    {
+     "title": "Warby Parker is betting its next chapter on smart glasses people actually want to wear",
+     "summary": "With growth slowing, the eyewear brand has partnered with Google on $395 AI glasses designed to look like ordinary frames, putting it\u2026",
+     "provider": "Fortune",
+     "pubDate": "2026-11-20T08:00:00+00:00",
+     "url": "https://finance.yahoo.com/technology/ai/articles/warby-parker-betting-next-chapter-080000244.html"
     }
    ]
   },
@@ -6340,22 +6463,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Warren Buffett's Successor, Greg Abel, Has 31% of Berkshire Hathaway's $363 Billion Portfolio Invested in 3 Game-Changing AI Stocks",
-     "summary": "Tech is on the menu like never before at Berkshire Hathaway.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T10:26:02+00:00"
-    },
-    {
      "title": "Google Stock Is Back Near Its 2025 Bottom Valuation. Can It Rebound Again?",
      "summary": "Google stock trades near 15 times earnings, close to its spring 2025 valuation low, as Alphabet\u2019s AI spending climbs.",
      "provider": "BeInCrypto",
-     "pubDate": "2026-11-20T10:14:07+00:00"
+     "pubDate": "2026-11-20T10:14:07+00:00",
+     "url": "https://beincrypto.com/google-stock-valuation-2025-bottom/"
     },
     {
-     "title": "Planet Labs (PL) Stock Looks Fully Priced As Its 385% Run Continues",
-     "summary": "Planet Labs PBC has delivered a very large 3 year share price gain, even as shorter term returns have been more mixed. This raises a\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T10:09:08+00:00"
+     "title": "Amazon vs. Alphabet: Which Cloud Computing Stock Is the Better Buy?",
+     "summary": "Both stocks are critical players in the artificial intelligence trade.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-20T09:50:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/20/amazon-vs-alphabet-which-cloud-computing-stock-is-the-better-buy/"
+    },
+    {
+     "title": "Warby Parker is betting its next chapter on smart glasses people actually want to wear",
+     "summary": "With growth slowing, the eyewear brand has partnered with Google on $395 AI glasses designed to look like ordinary frames, putting it\u2026",
+     "provider": "Fortune",
+     "pubDate": "2026-11-20T08:00:00+00:00",
+     "url": "https://finance.yahoo.com/technology/ai/articles/warby-parker-betting-next-chapter-080000244.html"
     }
    ]
   },
@@ -6483,19 +6609,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "A $2.6 Billion Fund Dumps These 3 Stocks",
      "summary": "Key TakeawaysAzora Capital, which manages $2. 6 billion, sold all its Bank of America, State Street and Huntington Bancshares shares in the\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T16:16:39+00:00"
+     "pubDate": "2026-11-19T16:16:39+00:00",
+     "url": "https://www.tikr.com/blog/a-2-6-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261119-ghg8vqcf"
     },
     {
      "title": "5 High-Yield Bank Stocks Retirees Should Own Inside a Roth IRA",
      "summary": "Five regional banks pay retirees a steady stream of dividends, but the IRS quietly claims a slice every single year. Where you park these\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T13:20:54+00:00"
+     "pubDate": "2026-11-19T13:20:54+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/5-high-yield-bank-stocks-retirees-should-own-inside-a-roth-ira/"
     },
     {
      "title": "3 US Bank Stocks in Focus as AI Enters the Fed Rate Outlook",
      "summary": "AI is no longer just a tech story. It now sits in the Fed\u2019s playbook, influencing how policymakers think about jobs, inflation, rates and\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-17T03:12:35+00:00"
+     "pubDate": "2026-11-17T03:12:35+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-us-bank-stocks-focus-031235953.html"
     }
    ]
   },
@@ -6611,22 +6740,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "SNEX Q4 Earnings Miss Estimates Despite Revenue Growth, Stock Dips",
-     "summary": "StoneX shares fall 2.38% after Q4 earnings miss estimates, as rising expenses and segment weakness offset revenue growth.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T14:08:00+00:00"
-    },
-    {
      "title": "A 27-year-old emptied his Roth IRA and moved $12,000 to Robinhood for a shot at Anthropic's record IPO",
      "summary": "Retail investors are expected to pour $250 million into Anthropic stock on day one, double the SpaceX debut.",
      "provider": "Moneywise",
-     "pubDate": "2026-11-19T22:15:00+00:00"
+     "pubDate": "2026-11-19T22:15:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/27-old-emptied-roth-ira-221500468.html"
     },
     {
-     "title": "DraftKings Falls 5% as Zacks Names It Bear of the Day, Sees \u201cA Clear Road Lower\u201d",
-     "summary": "Key TakeawaysDraftKings fell 5% today after Zacks named it its Bear of the Day, and Flutter Entertainment fell too. Analysts still expect\u2026",
+     "title": "Robinhood Rises 3% on Anthropic IPO Day as It Rolls Out Live Listing-Day Pricing Tools",
+     "summary": "Key TakeawaysRobinhood rose 3% today after Anthropic priced its IPO at $83, above its $70-$78 range. Robinhood relies on trading far more\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T20:42:35+00:00"
+     "pubDate": "2026-11-19T15:21:03+00:00",
+     "url": "https://www.tikr.com/blog/robinhood-rises-3-on-anthropic-ipo-day-as-it-rolls-out-live-listing-day-pricing-tools?ref=yahoofinance&tlnk=yf-261119-c7phw533"
+    },
+    {
+     "title": "What Could Surprise Robinhood Stock Investors On The Upside?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T14:00:57+00:00",
+     "url": "https://www.trefis.com/stock/hood/articles/626776/what-could-surprise-robinhood-stock-investors-on-the-upside/2026-11-19"
     }
    ]
   },
@@ -6748,22 +6880,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "3 Power and Grid Stocks That Could Keep Growing Even if AI Spending Slows",
+     "summary": "Quanta Services, Eaton, and Hubbell raised 2026 guidance as AI-driven data center demand boosts their power and grid businesses, while\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-15T15:30:00+00:00",
+     "url": "https://www.marketbeat.com/articles/3-power-and-grid-stocks-that-could-keep-growing-even-if-ai-spending-slows/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
      "title": "Is Eaton A Better Data Center Play Than Rockwell?",
      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
      "provider": "Trefis",
-     "pubDate": "2026-11-18T15:03:28+00:00"
+     "pubDate": "2026-11-18T15:03:28+00:00",
+     "url": "https://www.trefis.com/stock/rok/articles/626133/is-eaton-a-better-data-center-play-than-rockwell/2026-11-18"
     },
     {
      "title": "Can Data Center Momentum Continue to Drive FPS Through 2027?",
      "summary": "Forgent Power Solutions is riding data center demand, with surging revenues, record bookings and a $3 billion backlog supporting its fiscal\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-18T14:13:00+00:00"
-    },
-    {
-     "title": "Eaton Stock Has One Thing Left To Prove",
-     "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-18T13:08:31+00:00"
+     "pubDate": "2026-11-18T14:13:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/data-center-momentum-continue-drive-141300084.html"
     }
    ]
   },
@@ -6905,22 +7040,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "SNEX Q4 Earnings Miss Estimates Despite Revenue Growth, Stock Dips",
-     "summary": "StoneX shares fall 2.38% after Q4 earnings miss estimates, as rising expenses and segment weakness offset revenue growth.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T14:08:00+00:00"
-    },
-    {
      "title": "Coinbase Global vs. Interactive Brokers Group: Which Financial Stock Is a Better Buy for 2027?",
      "summary": "Coinbase and Interactive Brokers post very different growth profiles, and one trades at a noticeably lower forward multiple than the other.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-19T17:20:02+00:00"
+     "pubDate": "2026-11-19T17:20:02+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/19/coinbase-global-vs-interactive-brokers-group-which-financial-stock-is-a-better-buy-for-2027/"
     },
     {
-     "title": "Robinhood Rises 3% on Anthropic IPO Day as It Rolls Out Live Listing-Day Pricing Tools",
-     "summary": "Key TakeawaysRobinhood rose 3% today after Anthropic priced its IPO at $83, above its $70-$78 range. Robinhood relies on trading far more\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T15:21:03+00:00"
+     "title": "Is Interactive Brokers (IBKR) a Buy as Wall Street Analysts Look Optimistic?",
+     "summary": "The average brokerage recommendation (ABR) for Interactive Brokers (IBKR) is equivalent to a Buy. The overly optimistic recommendations of\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T13:30:04+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/interactive-brokers-ibkr-buy-wall-133004715.html"
+    },
+    {
+     "title": "Interactive Brokers Group vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+     "summary": "Interactive Brokers' near-20% revenue growth stands in sharp contrast to S&P Global's entrenched grip on credit ratings.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-19T12:35:02+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/19/interactive-brokers-group-vs-sp-global-which-financial-stock-is-a-better-buy-for-2027/"
     }
    ]
   },
@@ -7160,22 +7298,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-     "summary": "Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-20T04:45:23+00:00"
+     "title": "Nvidia vs. Intel: One AI Stock Is Worth the Drama, the Other Isn\u2019t Worth the Wait, Says Investor",
+     "summary": "For a while, the only thing Nvidia (NASDAQ:NVDA) and Intel (NASDAQ:INTC) had in common was that they both made chips. Nvidia rode the AI\u2026",
+     "provider": "TipRanks",
+     "pubDate": "2026-11-19T22:20:36+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-intel-one-ai-222036270.html"
     },
     {
-     "title": "Is Tech in a Bear Market? 20 Tech Stocks Fall Up to 76% From Highs",
-     "summary": "Kobeissi Letter data shows 20 tech stocks down 25% to 76% from record highs as the S&P 500 sheds over $6 trillion.",
-     "provider": "BeInCrypto",
-     "pubDate": "2026-11-19T22:40:39+00:00"
+     "title": "This Is Incredible News for AMD Stock Investors (Hint: It\u2019s Bad News for Intel)",
+     "summary": "AMD continues to chip away at Intel's dominance in the server CPU market.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-19T20:56:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/this-is-incredible-news-for-amd-stock-investors-hint-it-s-bad-news-for-intel/"
     },
     {
-     "title": "Shots Fired: Hunterbrook Shorts AMD Over China. Its China and Hong Kong Billing Share Is Nearly 2.5x Nvidia\u2019s",
-     "summary": "Key TakeawaysAMD fell 8% today after Hunterbrook Media tied AMD firmware to a blacklisted Chinese server maker, and Hunterbrook\u2019s fund\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T22:37:49+00:00"
+     "title": "What's Happening To Intel's Factory Cash?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T19:14:07+00:00",
+     "url": "https://www.trefis.com/stock/intc/articles/626665/what-s-happening-to-intel-s-factory-cash/2026-11-19"
     }
    ]
   },
@@ -7305,22 +7446,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Keysight (KEYS) Tops Q4 Earnings and Revenue Estimates",
-     "summary": "Keysight (KEYS) delivered earnings and revenue surprises of +7.44% and +2.82%, respectively, for the quarter ended October 2026. Do the\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T21:20:02+00:00"
-    },
-    {
-     "title": "India says Xiaomi, Flextronics hid royalty deals in tariff fight",
-     "summary": "By Arpan Chaturvedi NEW DELHI, Nov 17 (Reuters) - Xiaomi India and its former contract manufacturer Flex did not fully disclose Xiaomi's\u2026",
-     "provider": "Reuters",
-     "pubDate": "2026-11-17T10:10:45+00:00"
-    },
-    {
      "title": "4 Stocks With Solid Net Profit Margins to Maximize Portfolio Returns",
      "summary": "RELY, ATLC, EDRY and JBL boast strong net margins, positive earnings estimate revisions and bullish analyst ratings that signal upside.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T11:51:00+00:00"
+     "pubDate": "2026-11-19T11:51:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/4-stocks-solid-net-profit-115100617.html"
+    },
+    {
+     "title": "JBL's Diverse Portfolio Propels Revenue Growth: Will It Persist?",
+     "summary": "Jabil's diverse market exposure and surging AI infrastructure demand fueled fiscal 2026 revenue growth, while strong 2027 forecasts point\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-18T16:31:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/jbls-diverse-portfolio-propels-revenue-163100573.html"
+    },
+    {
+     "title": "New Strong Buy Stocks for November 18th",
+     "summary": "GMRS, JBL, INGM, PAYC and TXN have been added to the Zacks Rank #1 (Strong Buy) List on November 18th, 2026.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-18T08:38:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-18th-083800692.html"
     }
    ]
   },
@@ -7446,19 +7590,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Is Johnson Controls Stock Engineered To Make You Money?",
      "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
      "provider": "Trefis",
-     "pubDate": "2026-11-19T22:41:52+00:00"
-    },
-    {
-     "title": "Why Every Honeywell Investor Is Looking At This One Number",
-     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T22:20:15+00:00"
+     "pubDate": "2026-11-19T22:41:52+00:00",
+     "url": "https://www.trefis.com/stock/jci/articles/626792/is-johnson-controls-stock-engineered-to-make-you-money/2026-11-19"
     },
     {
      "title": "Implied Volatility Surging for Johnson Controls International Stock Options",
      "summary": "Investors need to pay close attention to JCI stock based on the movements in the options market lately.",
      "provider": "Zacks",
-     "pubDate": "2026-11-18T13:38:00+00:00"
+     "pubDate": "2026-11-18T13:38:00+00:00",
+     "url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-johnson-controls-133800008.html"
+    },
+    {
+     "title": "What Does Allegion Offer That Johnson Controls Does Not?",
+     "summary": "For questions about this article or underlying research, email help@trefis.com.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-17T01:53:21+00:00",
+     "url": "https://www.trefis.com/stock/jci/articles/625144/what-does-allegion-offer-that-johnson-controls-does-not/2026-11-16"
     }
    ]
   },
@@ -7593,19 +7740,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "What Does JPMorgan Chase (JPM) Naming A New CFO Mean For Investors?",
      "summary": "JPMorgan Chase (NYSE:JPM) said Bregje de Best will become group CFO, succeeding Jeremy Barnum after Q1 2027. De Best currently serves as\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T06:09:33+00:00"
-    },
-    {
-     "title": "3 Dow Dividend Passive Income Stocks for Retirement, Led by a 64-Year Streak",
-     "summary": "One Dow giant keeps raising payouts while another carries a rare asterisk from the financial crisis. Before you build a retirement\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T20:32:19+00:00"
+     "pubDate": "2026-11-20T06:09:33+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/does-jpmorgan-chase-jpm-naming-060933124.html"
     },
     {
      "title": "Vendor attack exposes JPMorgan Reserve cardholder emails",
      "summary": "About 16,700 Reserve card member records, with emails and ZIP codes but no names, sit in the JPMorgan files. No company has named any\u2026",
      "provider": "American Banker",
-     "pubDate": "2026-11-19T22:22:13+00:00"
+     "pubDate": "2026-11-19T22:22:13+00:00",
+     "url": "https://www.americanbanker.com/news/vendor-attack-exposes-jpmorgan-reserve-cardholder-emails"
+    },
+    {
+     "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+     "summary": "The incident involved data belonging to thousands of customers, but it isn\u2019t disrupting payment services or connected to banking issues\u2026",
+     "provider": "The Wall Street Journal",
+     "pubDate": "2026-11-19T21:56:00+00:00",
+     "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?siteid=yhoof2&yptr=yahoo"
     }
    ]
   },
@@ -7736,19 +7886,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Marvell (MRVL) Stock Gets Fair Value Trim As Analysts Split On Lumentum Deal",
      "summary": "The fair value estimate for Marvell Technology has been adjusted from US$317.60 to US$310.89, reflecting a modest reset in how much upside\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T13:14:07+00:00"
+     "pubDate": "2026-11-19T13:14:07+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-gets-fair-131407030.html"
     },
     {
      "title": "Could Tesla Become The Next Lumentum? Gary Black Warns A SpaceX Stock Deal Could Send TSLA Down 25%",
      "summary": "Lumentum CEO Michael Hurlston said upcoming earnings and a merger filing could help win back shareholders.",
      "provider": "Stocktwits",
-     "pubDate": "2026-11-20T06:15:59+00:00"
+     "pubDate": "2026-11-20T06:15:59+00:00",
+     "url": "https://stocktwits.com/news-articles/markets/equity/could-tesla-become-next-lumentum-gary-black-spacex-stock-deal-send-tsla-down/cNbSEW5R9K7"
     },
     {
-     "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-     "summary": "Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the\u2026",
+     "title": "Lumentum\u2019s sales surged 137%\u2014so why is its stock crashing?",
+     "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
      "provider": "Investing.com",
-     "pubDate": "2026-11-20T04:45:23+00:00"
+     "pubDate": "2026-11-19T20:28:33+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-sales-surged-137-why-202833709.html"
     }
    ]
   },
@@ -7903,22 +8056,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "A $2.8 Billion Fund Dumps These 3 Stocks",
+     "summary": "Key TakeawaysArdmore Road Asset Management, a firm that manages $2. 83 billion, held no Taiwan Semiconductor, Microsoft or Lam Research by\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-18T16:32:26+00:00",
+     "url": "https://www.tikr.com/blog/a-2-8-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261118-xfp5v642"
+    },
+    {
+     "title": "Lam Research Corporation (LRCX) Retreated Amid Cyclical Peak Concerns",
+     "summary": "Carillon Tower Advisers, an investment management company, released its third-quarter 2026 investor letter for the \u201cCarillon Eagle Growth &\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-18T15:59:11+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-retreated-155911915.html"
+    },
+    {
      "title": "Applied Materials\u2019 2027 EPS Estimate Rose to $19.29 After Its Record Quarter. Its Average Price Target Fell to $562",
      "summary": "Key TakeawaysApplied Materials stock fell 7. 5% in the four sessions after its record $10.",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T12:06:16+00:00"
-    },
-    {
-     "title": "What Have Lattice Stock Holders Had To Sit Through?",
-     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-19T17:04:46+00:00"
-    },
-    {
-     "title": "Druckenmiller Retreats From Chip Stocks in Pivot to Gold Miners and SpaceX",
-     "summary": "Duquesne Family Office exited Advanced Micro Devices, Alphabet, and Meta in the third quarter.",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-19T16:01:00+00:00"
+     "pubDate": "2026-11-19T12:06:16+00:00",
+     "url": "https://www.tikr.com/blog/applied-materials-2027-eps-estimate-rose-to-19-29-after-its-record-quarter-its-average-price-target-fell-to-562?ref=yahoofinance&tlnk=yf-261119-wrcmqmjc"
     }
    ]
   },
@@ -8049,22 +8205,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "Marvell Technology (MRVL) Settles AI Networking Patent Dispute And Clears A Key Risk",
+     "summary": "Marvell Technology (NasdaqGS:MRVL) and Credo Technology Group reached a confidential settlement resolving their patent dispute over Active\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T22:09:53+00:00",
+     "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-settles-ai-220953345.html"
+    },
+    {
+     "title": "Marvell Stock Halved Again. What Does Its Cash Say?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T20:25:57+00:00",
+     "url": "https://www.trefis.com/stock/mrvl/articles/626972/own-marvell-its-cash-says-2022-not-2006/2026-11-19"
+    },
+    {
      "title": "Cathie Wood Says Nvidia\u2019s Interim CEO Is \u201cNot a Tech Expert.\u201d Kevin O\u2019Leary Disagrees. Who\u2019s Right?",
      "summary": "Key TakeawaysNVIDIA reported $115. 8 billion of revenue in its first quarter since Jensen Huang left, and interim CEO Colette Kress raised\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T19:58:49+00:00"
-    },
-    {
-     "title": "Could Tesla Become The Next Lumentum? Gary Black Warns A SpaceX Stock Deal Could Send TSLA Down 25%",
-     "summary": "Lumentum CEO Michael Hurlston said upcoming earnings and a merger filing could help win back shareholders.",
-     "provider": "Stocktwits",
-     "pubDate": "2026-11-20T06:15:59+00:00"
-    },
-    {
-     "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-     "summary": "Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-20T04:45:23+00:00"
+     "pubDate": "2026-11-19T19:58:49+00:00",
+     "url": "https://www.tikr.com/blog/cathie-wood-says-nvidias-interim-ceo-is-not-a-tech-expert-kevin-oleary-disagrees-whos-right?ref=yahoofinance&tlnk=yf-261119-m83jmp3h"
     }
    ]
   },
@@ -8193,19 +8352,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Morgan Stanley (MS) Debuts Four Active UCITS ETFs In Europe",
      "summary": "Morgan Stanley (NYSE: MS) has launched an active ETF platform in Europe using four Ireland domiciled UCITS ETFs. The new range focuses on\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T03:19:45+00:00"
+     "pubDate": "2026-11-20T03:19:45+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-ms-debuts-four-031945299.html"
     },
     {
      "title": "Anthropic\u2019s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays",
      "summary": "The blockbuster public debut delivered one of Wall Street\u2019s largest underwriting paydays in history.",
      "provider": "Fortune",
-     "pubDate": "2026-11-19T23:38:22+00:00"
+     "pubDate": "2026-11-19T23:38:22+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-nets-goldman-sachs-233822497.html"
     },
     {
      "title": "What Morgan Stanley Saw Before Raising Its Visa (V) Target",
      "summary": "We just published a list of the Morgan Stanley\u2019s Vintage Values 2027: 10 Stocks Analysts See Climbing Further and Visa (NYSE:V) ranked 8th\u2026",
      "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T22:33:17+00:00"
+     "pubDate": "2026-11-19T22:33:17+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-saw-raising-visa-223317532.html"
     }
    ]
   },
@@ -8324,19 +8486,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "M&T Bank Just Raised Its Dividend 20% as Earnings Support a Bigger Payout",
      "summary": "M&T's board just handed shareholders a much bigger check, and the earnings and capital numbers back it up. Still, shrinking margins and\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-17T15:17:22+00:00"
+     "pubDate": "2026-11-17T15:17:22+00:00",
+     "url": "https://247wallst.com/investing/2026/11/17/mt-bank-just-raised-its-dividend-20-as-earnings-support-a-bigger-payout/"
     },
     {
      "title": "M&T Bank Raises Dividend 20%: Is Capital Return Sustainable?",
      "summary": "MTB raises its quarterly dividend 20% to $1.80 per share, backed by solid liquidity, strong capital and earnings generation.",
      "provider": "Zacks",
-     "pubDate": "2026-11-17T14:20:00+00:00"
+     "pubDate": "2026-11-17T14:20:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/m-t-bank-raises-dividend-142000577.html"
     },
     {
      "title": "Is Regions Financial Well-Positioned to Sustain Strong Capital Returns?",
      "summary": "RF's dividend hikes, $3B buyback plan and strong capital position bolster its ability to sustain shareholder returns while funding future\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T16:48:00+00:00"
+     "pubDate": "2026-11-19T16:48:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/regions-financial-well-positioned-sustain-164800253.html"
     }
    ]
   },
@@ -8494,19 +8659,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Micron CEO\u2019s Nvidia message comes with warning for 2027",
      "summary": "Micron\u2019s chief says customers are locking in supply for years that haven\u2019t started, a shift that could change how investors read the stock.",
      "provider": "TheStreet",
-     "pubDate": "2026-11-20T04:33:00+00:00"
+     "pubDate": "2026-11-20T04:33:00+00:00",
+     "url": "https://www.thestreet.com/investing/micron-ceo-nvidia-warning-2027-supply-already-sold-out"
     },
     {
      "title": "Nvidia Added $111 Billion of Supply Commitments in a Quarter, Mostly Memory. Micron Is Still Priced Like a Bust",
      "summary": "Key TakeawaysNVIDIA\u2019s supply commitments rose to $390 billion from $279 billion in one quarter, mostly for multi-year memory purchases.\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-20T09:34:18+00:00"
+     "pubDate": "2026-11-20T09:34:18+00:00",
+     "url": "https://www.tikr.com/blog/nvidia-added-111-billion-of-supply-commitments-in-a-quarter-mostly-memory-micron-is-still-priced-like-a-bust?ref=yahoofinance&tlnk=yf-261120-v94hx7gc"
     },
     {
-     "title": "Tech Valuation Plunge Brings Some Opportunities",
-     "summary": "The sharp drop in the valuations of technology stocks, especially those linked to the artificial intelligence trade, is fueling debate over\u2026",
-     "provider": "Bloomberg",
-     "pubDate": "2026-11-20T07:27:02+00:00"
+     "title": "Nvidia Just Raised Its Supply Commitments to $390 Billion, Mostly for Memory. Micron Is the Memory Stock I'd Buy.",
+     "summary": "If the AI chip giant is locking in memory for years, why is the memory maker's stock off around 42% from its peak?",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-20T04:27:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/nvidia-just-raised-its-supply-commitments-to-usd390-billion-mostly-for-memory-micron-is-the-memory-stock-i-d-buy/"
     }
    ]
   },
@@ -8648,19 +8816,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Netflix (NFLX) Down 8% Since Last Earnings Report: Can It Rebound?",
      "summary": "Netflix (NFLX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T15:30:06+00:00"
+     "pubDate": "2026-11-19T15:30:06+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-down-8-since-153006805.html"
     },
     {
      "title": "Josh Brown: Netflix Can Clear Wall Street\u2019s 10.6% Growth Bar \u201cStanding on Their Head\u201d",
      "summary": "Key TakeawaysJosh Brown says Netflix can easily beat Wall Street\u2019s 2027 revenue growth estimate, which sits below the 13% growth Netflix\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T20:06:09+00:00"
+     "pubDate": "2026-11-19T20:06:09+00:00",
+     "url": "https://www.tikr.com/blog/josh-brown-netflix-can-clear-wall-streets-10-6-growth-bar-standing-on-their-head?ref=yahoofinance&tlnk=yf-261119-hc96ffq3"
     },
     {
      "title": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
      "summary": "The likelihood of users recommending Netflix or Net Promoter Score is now +51 vs. +53 a year ago, according to Worldpanel by Numerator, a\u2026",
      "provider": "MediaPost",
-     "pubDate": "2026-11-19T19:17:13+00:00"
+     "pubDate": "2026-11-19T19:17:13+00:00",
+     "url": "https://www.mediapost.com/publications/article/419525/fixing-netflixs-growing-subscriber-satisfaction-p.html"
     }
    ]
   },
@@ -8792,22 +8963,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "flat",
    "news": [
     {
-     "title": "Atlassian\u2019s CEO Puts $8 Million Into the Stock While Other Executives Sell. Here\u2019s What That Tells Investors",
-     "summary": "Atlassian's founder kept buying while the stock cratered, and three executives sold shares the same day. The filings reveal why the buying\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T14:19:39+00:00"
-    },
-    {
-     "title": "AI sell-off: These sectors held firm as tech slumped in Oct, Nov",
-     "summary": "Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-20T04:45:23+00:00"
-    },
-    {
      "title": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
      "summary": "ServiceNow's revenue top $15 billion while UiPath trades at a lower forward multiple, but the gap between the two growth stories may matter\u2026",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-19T19:03:02+00:00"
+     "pubDate": "2026-11-19T19:03:02+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/19/servicenow-vs-uipath-which-technology-stock-is-a-better-buy-for-2027/"
+    },
+    {
+     "title": "Is ServiceNow A Better Buy Than Atlassian Now?",
+     "summary": "Our Nov 18 look at Atlassian found the stock fell 6.0% on Tuesday, Nov 17, while the S&P 500 lost 1.0%. The company had no news that day.\u2026",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T12:54:10+00:00",
+     "url": "https://www.trefis.com/stock/team/articles/626643/is-servicenow-a-better-buy-than-atlassian-now/2026-11-19"
+    },
+    {
+     "title": "Do Wall Street Analysts Like ServiceNow Stock?",
+     "summary": "ServiceNow has lagged behind the broader market over the past year, yet analysts remain highly optimistic about the stock\u2019s prospects.",
+     "provider": "Barchart",
+     "pubDate": "2026-11-19T12:25:52+00:00",
+     "url": "https://www.barchart.com/story/news/8913726/do-wall-street-analysts-like-servicenow-stock"
     }
    ]
   },
@@ -8927,7 +9101,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Is Wall Street Bullish or Bearish on News Corporation Stock?",
      "summary": "News Corporation has underperformed the broader market over the past year, but analysts are highly optimistic about the stock\u2019s prospects.",
      "provider": "Barchart",
-     "pubDate": "2026-11-13T11:02:37+00:00"
+     "pubDate": "2026-11-13T11:02:37+00:00",
+     "url": "https://www.barchart.com/story/news/8817793/is-wall-street-bullish-or-bearish-on-news-corporation-stock"
     }
    ]
   },
@@ -9051,7 +9226,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Is Wall Street Bullish or Bearish on News Corporation Stock?",
      "summary": "News Corporation has underperformed the broader market over the past year, but analysts are highly optimistic about the stock\u2019s prospects.",
      "provider": "Barchart",
-     "pubDate": "2026-11-13T11:02:37+00:00"
+     "pubDate": "2026-11-13T11:02:37+00:00",
+     "url": "https://www.barchart.com/story/news/8817793/is-wall-street-bullish-or-bearish-on-news-corporation-stock"
     }
    ]
   },
@@ -9173,19 +9349,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Unusual Machines Rallies 7% on Oppenheimer\u2019s $30 Target; Red Cat Falls 7% in Extended Post-Earnings Rout, Ondas Holds Steady",
      "summary": "While the broader tech market cheers a blockbuster IPO, small drone stocks are trading on their own script. One group of companies is\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T15:55:07+00:00"
-    },
-    {
-     "title": "Red Cat Falls 6% as Post-Earnings Selloff Extends; Unusual Machines Slides 3%, AeroVironment Drops 2%",
-     "summary": "Red Cat sits on a quarter-billion dollars in cash, yet it just scrapped its revenue target and dragged drone rivals down with it. Is one\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-18T14:58:21+00:00"
+     "pubDate": "2026-11-19T15:55:07+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/unusual-machines-rallies-7-on-oppenheimers-30-target-red-cat-falls-7-in-extended-post-earnings-rout-ondas-holds-steady/"
     },
     {
      "title": "Red Cat Plunges 34% After Revenue Miss, Pulled Guidance and Needham Target Cut; Ondas and AeroVironment Dip",
      "summary": "While Red Cat tumbles, its drone-sector rivals barely flinch. Why are investors treating a withdrawn revenue target and a failed Pentagon\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-17T14:17:53+00:00"
+     "pubDate": "2026-11-17T14:17:53+00:00",
+     "url": "https://247wallst.com/investing/2026/11/17/red-cat-plunges-34-after-revenue-miss-pulled-guidance-and-needham-target-cut-ondas-and-aerovironment-dip/"
+    },
+    {
+     "title": "Should You Buy, Hold or Sell Ondas Stock Post-Q3 Earnings?",
+     "summary": "ONDS' Q3 revenues surge more than 16-fold, backed by strong defense demand and orders, but widening losses and margin pressure raise\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-17T12:55:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-ondas-stock-125500832.html"
     }
    ]
   },
@@ -9324,22 +9503,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Intuit (INTU) Q1 Earnings and Revenues Top Estimates",
-     "summary": "Intuit (INTU) delivered earnings and revenue surprises of +18.29% and +1.14%, respectively, for the quarter ended October 2026. Do the\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T21:10:01+00:00"
-    },
-    {
      "title": "Oracle Stock Just Closed at Its Lowest Price Since April 2024. Is It a Buy Now?",
      "summary": "The cloud giant's shares now trade under the $116 its latest investors paid. Is that a bargain?",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-20T09:07:02+00:00"
+     "pubDate": "2026-11-20T09:07:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/20/oracle-stock-just-closed-at-its-lowest-price-since-april-2024-is-it-a-buy-now/"
     },
     {
      "title": "Oracle (ORCL) Stock May Be 39% Undervalued As Nashville Buildout Starts",
      "summary": "Oracle shares have come under pressure, with the recent slide raising a blunt question for anyone looking at the stock today. Is the\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T00:21:03+00:00"
+     "pubDate": "2026-11-20T00:21:03+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-stock-may-39-002103750.html"
+    },
+    {
+     "title": "The Biggest Fear Around Oracle Could Soon End. Wall Street Sees ORCL Stock Surging 100% From Here.",
+     "summary": "Oracle says its cash burn will end, with at least $30 billion in free cash flow by fiscal 2029, and Wall Street sees ORCL stock more than\u2026",
+     "provider": "Barchart",
+     "pubDate": "2026-11-19T21:28:06+00:00",
+     "url": "https://www.barchart.com/story/news/8925367/the-biggest-fear-around-oracle-could-soon-end-wall-street-sees-orcl-stock-surging-100-from-here"
     }
    ]
   },
@@ -9459,22 +9641,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
+     "title": "PFG's Retirement Business Navigates Changing Market Conditions",
+     "summary": "Principal Financial's retirement business benefits from rising contributions and pension risk transfer demand, though margin pressure\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-13T13:34:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/pfgs-retirement-business-navigates-changing-133400795.html"
+    },
+    {
      "title": "4 Insurance Dividend Stocks to Buy in December for High Yields and Staying Power",
      "summary": "Four life insurers are paying out cash while rates stay high, but a big yield can hide a shaky payout. One name has a frozen dividend and a\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-18T17:47:55+00:00"
+     "pubDate": "2026-11-18T17:47:55+00:00",
+     "url": "https://247wallst.com/investing/2026/11/18/4-insurance-dividend-stocks-to-buy-in-december-for-high-yields-and-staying-power/"
     },
     {
      "title": "3 US Retirement Stocks Tied To Private Savings Trends",
      "summary": "Social Security\u2019s projected US$29 trillion funding gap is forcing a hard rethink of who pays for retirement and how much comes from taxes\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-14T21:09:01+00:00"
-    },
-    {
-     "title": "The Companies Selling Life Insurance and Annuities Pay Dividends Too. $55,000 in Each of These 3 Pays $5,451 a Year",
-     "summary": "The insurers that collect your premiums and annuity deposits also send checks back to shareholders every quarter. One of three giants\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-13T17:12:39+00:00"
+     "pubDate": "2026-11-14T21:09:01+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-us-retirement-stocks-tied-210901786.html"
     }
    ]
   },
@@ -9609,13 +9794,15 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Meet Wall Street\u2019s Dependable High-Yield Dividend Stocks: 4 Companies Still Raising Their Payouts Year After Year",
      "summary": "Tax law forces REITs to hand over most of their income, leaving almost no cushion for mistakes. So which landlords keep lifting payouts\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-17T19:57:37+00:00"
+     "pubDate": "2026-11-17T19:57:37+00:00",
+     "url": "https://247wallst.com/investing/2026/11/17/meet-wall-streets-dependable-high-yield-dividend-stocks-4-companies-still-raising-their-payouts-year-after-year/"
     },
     {
      "title": "Buy and Hold Forever: 4 Dividend Stocks That Pay You More Every Year",
      "summary": "Tax law forces REITs to hand over nearly all their income, so a rising payout needs real cash growth behind it. Four equity REITs pass the\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-17T16:11:48+00:00"
+     "pubDate": "2026-11-17T16:11:48+00:00",
+     "url": "https://247wallst.com/investing/2026/11/17/buy-and-hold-forever-4-dividend-stocks-that-pay-you-more-every-year/"
     }
    ]
   },
@@ -9748,19 +9935,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "How Investors Are Reacting To Reddit (RDDT) Search Traffic Warning",
      "summary": "Reddit's latest quarter showed solid revenue and advertising growth, alongside management warnings that search referral traffic is\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T22:14:19+00:00"
+     "pubDate": "2026-11-19T22:14:19+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-reddit-rddt-search-221419948.html"
     },
     {
      "title": "How the Race to Control Product Recommendations Is Changing the Creator Economy",
      "summary": "Reddit\u2019s new ad test points to a bigger shift: Platforms are connecting creators, communities, AI discovery and shopping to influence the\u2026",
      "provider": "Entrepreneur",
-     "pubDate": "2026-11-19T19:30:00+00:00"
+     "pubDate": "2026-11-19T19:30:00+00:00",
+     "url": "https://www.entrepreneur.com/building-a-business/how-the-race-to-control-product-recommendations-is-changing-the-creator-economy"
     },
     {
      "title": "Investors Heavily Search Reddit Inc. (RDDT): Here is What You Need to Know",
      "summary": "Recently, Zacks.com users have been paying close attention to Reddit Inc. (RDDT). This makes it worthwhile to examine what the stock has in\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T13:00:05+00:00"
+     "pubDate": "2026-11-19T13:00:05+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-reddit-inc-130005647.html"
     }
    ]
   },
@@ -9885,19 +10075,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "ROK to Boost Intelligent Devices Segment With AGILOX Buyout",
      "summary": "Rockwell Automation's AGILOX acquisition expands its autonomous mobile robot portfolio, strengthen global reach and more than double its\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T17:29:00+00:00"
-    },
-    {
-     "title": "Midera Sustains Double-Digit Organic Order Growth, Raises FY Outlook",
-     "summary": "By Karen Roman Midera Food Processing, Inc. (Nasdaq: MFP) said third quarter net sales increased 13.1% to $229 million compared to the year\u2026",
-     "provider": "Exec Edge",
-     "pubDate": "2026-11-18T17:08:49+00:00"
+     "pubDate": "2026-11-19T17:29:00+00:00",
+     "url": "https://finance.yahoo.com/technology/articles/rok-boost-intelligent-devices-segment-172900673.html"
     },
     {
      "title": "Rockwell Automation Enhances Emulate3D With NVIDIA Technologies",
      "summary": "ROK integrates NVIDIA technologies into Emulate3D to expand industrial simulation capabilities, scale factory-floor testing and support\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-18T16:40:00+00:00"
+     "pubDate": "2026-11-18T16:40:00+00:00",
+     "url": "https://finance.yahoo.com/technology/articles/rockwell-automation-enhances-emulate3d-nvidia-164000676.html"
+    },
+    {
+     "title": "Is Eaton A Better Data Center Play Than Rockwell?",
+     "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-18T15:03:28+00:00",
+     "url": "https://www.trefis.com/stock/rok/articles/626133/is-eaton-a-better-data-center-play-than-rockwell/2026-11-18"
     }
    ]
   },
@@ -10028,19 +10221,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Skydance (SKYD) Just Closed Its $111 Billion Merger",
      "summary": "Skydance (NYSE: SKYD) announced completion of a $111b merger with Warner Bros. Discovery, creating a combined media group that management\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T14:22:19+00:00"
+     "pubDate": "2026-11-19T14:22:19+00:00",
+     "url": "https://finance.yahoo.com/media-advertising/articles/skydance-skyd-just-closed-111-142219497.html"
     },
     {
      "title": "Skydance (SKYD) Stock Looks Like A Bargain At This Price",
      "summary": "Skydance has been through a rough stretch in the market, and the stock is now trading at US$6.63 after years of weak returns. The question\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T17:20:04+00:00"
+     "pubDate": "2026-11-19T17:20:04+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-skyd-stock-looks-bargain-172004124.html"
     },
     {
      "title": "Is Skydance (SKYD) Undervalued After Insider Buying And The Warner Deal?",
      "summary": "Skydance (SKYD) is back in focus after director Gerry Cardinale bought about US$1 million of stock, as the media group works through the\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T16:14:15+00:00"
+     "pubDate": "2026-11-19T16:14:15+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-skyd-undervalued-insider-buying-161415778.html"
     }
    ]
   },
@@ -10175,19 +10371,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Why Is Steel Dynamics (STLD) Down 8.1% Since Last Earnings Report?",
      "summary": "Steel Dynamics (STLD) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
      "provider": "Zacks",
-     "pubDate": "2026-11-18T15:30:05+00:00"
+     "pubDate": "2026-11-18T15:30:05+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-steel-dynamics-stld-down-153005042.html"
     },
     {
      "title": "Steel Dynamics (STLD) Stock May Trade At A Discount After $3 Billion Buyback",
      "summary": "Steel Dynamics has treated long term holders to a powerful run, yet the recent pullback raises a sharper question for anyone looking at the\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T14:14:28+00:00"
+     "pubDate": "2026-11-18T14:14:28+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-stld-stock-may-141428658.html"
     },
     {
      "title": "Steel Dynamics (STLD) Adds A New Buyback Plan, Is The Stock Still 18% Undervalued?",
      "summary": "Steel Dynamics (STLD) just paired a fresh US$0.53 quarterly dividend with a new share repurchase authorization of up to US$3.0b, after its\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T13:12:32+00:00"
+     "pubDate": "2026-11-18T13:12:32+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-stld-adds-buyback-131232910.html"
     }
    ]
   },
@@ -10315,19 +10514,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Is State Street (STT) Undervalued On Its Preferred Dividend Announcement?",
      "summary": "Preferred dividend announcement for State Street stock State Street (STT) has declared cash dividends on five series of its non cumulative\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-17T09:16:21+00:00"
+     "pubDate": "2026-11-17T09:16:21+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-stt-undervalued-preferred-091621742.html"
     },
     {
      "title": "Why Is State Street (STT) Up 3.6% Since Last Earnings Report?",
      "summary": "State Street (STT) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
      "provider": "Zacks",
-     "pubDate": "2026-11-13T15:30:03+00:00"
+     "pubDate": "2026-11-13T15:30:03+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-state-street-stt-3-153003111.html"
     },
     {
-     "title": "3 Great Undervalued Stocks To Own In November 2026",
-     "summary": "The dollar is heading for a fourth straight week of gains as higher US yields pull money toward cash and away from risk. That kind of\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T08:10:23+00:00"
+     "title": "Are Wall Street Analysts Predicting State Street Stock Will Climb or Sink?",
+     "summary": "State Street has outperformed the broader market, driven by earnings growth and business expansion, while analysts maintain a moderately\u2026",
+     "provider": "Barchart",
+     "pubDate": "2026-11-18T10:37:22+00:00",
+     "url": "https://www.barchart.com/story/news/8892172/are-wall-street-analysts-predicting-state-street-stock-will-climb-or-sink"
     }
    ]
   },
@@ -10493,19 +10695,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "SanDisk Slides 4% Ahead of 8-for-1 Stock Split as NAND Glut Worries Linger; Micron Drops 3%, Seagate Edges Lower",
      "summary": "SanDisk has more than tripled this year, yet a single analyst warning about oversupply is rattling memory stocks just before its split. Why\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-18T16:57:46+00:00"
-    },
-    {
-     "title": "Billionaire Stanley Druckenmiller Cut TSMC 94% in One Quarter, Leaving Just $14.9 Million",
-     "summary": "TSMC's revenue kept surging while one of Wall Street's sharpest macro minds headed for the exit. His new buys in storage, gold and space\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T19:46:51+00:00"
+     "pubDate": "2026-11-18T16:57:46+00:00",
+     "url": "https://247wallst.com/investing/2026/11/18/sandisk-slides-4-ahead-of-8-for-1-stock-split-as-nand-glut-worries-linger-micron-drops-3-seagate-edges-lower/"
     },
     {
      "title": "Seagate Stocks Jump 8.27% as Anthropic IPO Rekindles AI Storage Trade",
      "summary": "Mass-capacity drives are back in favor, backed by a 57.3% gross margin and record free cash flow.",
      "provider": "GuruFocus.com",
-     "pubDate": "2026-11-19T18:37:28+00:00"
+     "pubDate": "2026-11-19T18:37:28+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-stocks-jump-8-27-183728387.html"
+    },
+    {
+     "title": "Seagate and Western Digital Climb 4% Despite Tech Profit-Taking After Anthropic\u2019s IPO Debut; SanDisk Edges Higher",
+     "summary": "While Anthropic's blockbuster debut sent tech into a sell-the-news spiral, two hard drive makers shrugged it off and SanDisk and Micron\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-19T18:26:37+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/seagate-and-western-digital-climb-4-despite-tech-profit-taking-after-anthropics-ipo-debut-sandisk-edges-higher/"
     }
    ]
   },
@@ -10636,16 +10841,18 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "The Box Your Package Arrives In: $90,000 Across These 3 Cardboard and Packaging Makers Pays $4,458 a Year",
-     "summary": "Three packaging giants keep mailing quarterly checks while freight costs, drought, and a corporate breakup squeeze their profits. One has\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-18T19:14:57+00:00"
-    },
-    {
      "title": "Is Wall Street Bullish or Bearish on Smurfit Westrock Stock?",
      "summary": "Smurfit Westrock has outperformed the broader market over the past year, and analysts are highly optimistic about the stock\u2019s prospects.",
      "provider": "Barchart",
-     "pubDate": "2026-11-17T13:45:15+00:00"
+     "pubDate": "2026-11-17T13:45:15+00:00",
+     "url": "https://www.barchart.com/story/news/8875397/is-wall-street-bullish-or-bearish-on-smurfit-westrock-stock"
+    },
+    {
+     "title": "The Box Your Package Arrives In: $90,000 Across These 3 Cardboard and Packaging Makers Pays $4,458 a Year",
+     "summary": "Three packaging giants keep mailing quarterly checks while freight costs, drought, and a corporate breakup squeeze their profits. One has\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-18T19:14:57+00:00",
+     "url": "https://247wallst.com/investing/2026/11/18/the-box-your-package-arrives-in-90000-across-these-3-cardboard-and-packaging-makers-pays-4458-a-year/"
     }
    ]
   },
@@ -10763,19 +10970,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Synchrony (SYF) Down 5.3% Since Last Earnings Report: Can It Rebound?",
      "summary": "Synchrony (SYF) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T15:30:07+00:00"
+     "pubDate": "2026-11-19T15:30:07+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/synchrony-syf-down-5-3-153007758.html"
     },
     {
      "title": "Why Is Global Payments Stock Falling?",
      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
      "provider": "Trefis",
-     "pubDate": "2026-11-18T12:24:50+00:00"
+     "pubDate": "2026-11-18T12:24:50+00:00",
+     "url": "https://www.trefis.com/stock/gpn/articles/626288/why-is-global-payments-stock-falling/2026-11-18"
     },
     {
      "title": "3 Classic Value Stocks for Your Short List",
      "summary": "This is the narrowest value stock screen you can run. It produced a record number of stocks.",
      "provider": "Zacks",
-     "pubDate": "2026-11-17T17:36:00+00:00"
+     "pubDate": "2026-11-17T17:36:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-classic-value-stocks-short-173600114.html"
     }
    ]
   },
@@ -10914,22 +11124,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "CBRS Q3 Earnings Beat Estimates, Revenues Rise on Strong Cloud Growth",
-     "summary": "Cerebras beats Q3 earnings estimates as revenues surge 70% on robust AI cloud demand, while hyperscaler deals and capacity expansion fuel\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-13T14:43:00+00:00"
-    },
-    {
      "title": "What Is Teradyne (TER) Bringing To Edge AI With Omnyx Edge?",
      "summary": "Teradyne (NasdaqGS:TER) introduced Omnyx Edge, an inline board test platform for physical and edge AI devices. The new system extends the\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T06:15:42+00:00"
+     "pubDate": "2026-11-20T06:15:42+00:00",
+     "url": "https://finance.yahoo.com/technology/ai/articles/teradyne-ter-bringing-edge-ai-061542323.html"
     },
     {
      "title": "Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
      "summary": "Teradyne (TER) could produce exceptional returns because of its solid growth attributes.",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T16:45:02+00:00"
+     "pubDate": "2026-11-19T16:45:02+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-solid-growth-stock-164502017.html"
+    },
+    {
+     "title": "Why Jefferies Calls Teradyne (TER) a \u201cCompute Test Company\u201d",
+     "summary": "We just published a list of the Forget Nvidia: 10 Stocks Wall Street is Betting on Right Now and Teradyne (NASDAQ:TER) ranked 8th on this\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-18T16:10:20+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-jefferies-calls-teradyne-ter-161020683.html"
     }
    ]
   },
@@ -11057,19 +11270,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "WMT Stock Ticks Higher Overnight: Analyst Says Walmart Deserves Rich Valuation, CEO Stands By \u2018Low Price\u2019 Game",
      "summary": "Walmart gains analyst confidence as Truist raises its price target, while stronger e-commerce sales evoke optimism.",
      "provider": "Stocktwits",
-     "pubDate": "2026-11-20T06:33:43+00:00"
+     "pubDate": "2026-11-20T06:33:43+00:00",
+     "url": "https://stocktwits.com/news-articles/markets/equity/wmt-stock-ticks-higher-overnight-analyst-says-walmart-deserves-rich-valuation-ceo-stands-by-low-price-game/cNbSEHDR9Kf"
     },
     {
-     "title": "2 Dividend Stocks Could Generate $30,000 a Year, but the Allocation Matters",
-     "summary": "One stock pays nearly twice the yield of the other, so the way you split the money changes the bill by hundreds of thousands of dollars.\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T19:17:30+00:00"
+     "title": "Truist (TFC) Stock Could Be 32% Undervalued On Excess Returns",
+     "summary": "Truist Financial has delivered a 74.5% gain over the past three years, which naturally puts the spotlight on whether the current share\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T21:16:47+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/truist-tfc-stock-could-32-211647221.html"
     },
     {
-     "title": "Fifth Third Bancorp (FITB) Down 0.3% Since Last Earnings Report: Can It Rebound?",
-     "summary": "Fifth Third Bancorp (FITB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-18T15:30:04+00:00"
+     "title": "A 67-Year-Old With $500,000 in Nike, HP and Truist Collects $1,872 a Month in Dividends. How Safe Is Each Check?",
+     "summary": "Key TakeawaysA hypothetical $500,000 portfolio split evenly across Nike, HP and Truist Financial pays about $22,500 a year in dividends, or\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T16:50:47+00:00",
+     "url": "https://www.tikr.com/blog/a-67-year-old-with-500000-in-nike-hp-and-truist-collects-1762-a-month-in-dividends-how-safe-is-each-check?ref=yahoofinancedividend&tlnk=yf-261119-frhm7v6p"
     }
    ]
   },
@@ -11194,19 +11410,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Is Texas Pacific Land (TPL) Undervalued On Stronger Earnings?",
      "summary": "Texas Pacific Land earnings and domicile shift draw investor focus Texas Pacific Land (TPL) is back in the spotlight after releasing third\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-13T12:13:35+00:00"
+     "pubDate": "2026-11-13T12:13:35+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-undervalued-121335233.html"
     },
     {
      "title": "Texas Pacific Land Stock: Analyst Estimates & Ratings",
      "summary": "Texas Pacific Land has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s\u2026",
      "provider": "Barchart",
-     "pubDate": "2026-11-18T13:50:30+00:00"
+     "pubDate": "2026-11-18T13:50:30+00:00",
+     "url": "https://www.barchart.com/story/news/8896511/texas-pacific-land-stock-analyst-estimates-ratings"
     },
     {
      "title": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
      "summary": "We just published a list of the 10 Toxic Energy Stocks to Sell Now That the Blue Wave is Here, and Texas Pacific Land Corporation\u2026",
      "provider": "Insider Monkey",
-     "pubDate": "2026-11-14T17:22:17+00:00"
+     "pubDate": "2026-11-14T17:22:17+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/sell-texas-pacific-land-tpl-172217146.html"
     }
    ]
   },
@@ -11328,22 +11547,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "Green Dot Q3 Earnings Miss Estimates, Stock Declines 8.2%",
-     "summary": "GDOT's Q3 2026 revenues surge on strong BaaS demand, but an earnings miss, higher processing costs and delayed acquisition plans weigh on\u2026",
+     "title": "VNT vs. TT: Which Stock Is the Better Value Option?",
+     "summary": "VNT vs. TT: Which Stock Is the Better Value Option?",
      "provider": "Zacks",
-     "pubDate": "2026-11-16T14:34:00+00:00"
+     "pubDate": "2026-11-16T15:40:03+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/vnt-vs-tt-stock-better-154003310.html"
     },
     {
-     "title": "3 Industrial Dividend Stocks With Cash Flow Strength in Higher Rates",
-     "summary": "Rates are climbing in slow motion, inflation is still sticky and safer income now competes head on with equities. That mix is punishing\u2026",
+     "title": "Is Trane Technologies (TT) A Bargain As It Backs Clean Tech Training?",
+     "summary": "Trane Technologies (TT) just tied its brand to workforce development in clean energy, committing a US$1 million grant over three years to\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-16T14:13:10+00:00"
+     "pubDate": "2026-11-14T03:15:47+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-tt-bargain-backs-031547669.html"
     },
     {
-     "title": "GCT Q3 Earnings Beat Estimates on Strong European Growth",
-     "summary": "GigaCloud's Q3 2026 earnings and revenues beat estimates, fueled by European expansion, marketplace growth and stronger logistics services.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-13T13:44:00+00:00"
+     "title": "Trane Technologies (TT) Commits $1 Million To Clean Tech Workforce Training",
+     "summary": "Trane Technologies (NYSE:TT) agreed to a three-year, US$1 million grant with Goodwill Industries to expand the Clean Tech Accelerator\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-14T02:09:17+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/trane-technologies-tt-commits-1-020917219.html"
     }
    ]
   },
@@ -11485,19 +11707,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Forget UnitedHealth: Humana Has More to Lose From CMS\u2019s Medicare Advantage Audit Crackdown",
      "summary": "Key TakeawaysUnitedHealth fell 5% on Tuesday after CMS proposed applying Medicare Advantage audit findings to whole contracts, going back\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-20T09:45:57+00:00"
+     "pubDate": "2026-11-20T09:45:57+00:00",
+     "url": "https://www.tikr.com/blog/forget-unitedhealth-humana-has-more-to-lose-from-cmss-medicare-advantage-audit-crackdown?ref=yahoofinance&tlnk=yf-261120-vwvwp829"
     },
     {
      "title": "Bernstein\u2019s $500 Target Says UnitedHealth\u2019s Selloff Went Too Far",
      "summary": "Key TakeawaysUnitedHealth Group is 28% below its 52-week high after a federal plan to widen Medicare Advantage audits, and Bernstein\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T22:37:37+00:00"
+     "pubDate": "2026-11-19T22:37:37+00:00",
+     "url": "https://www.tikr.com/blog/bernsteins-500-target-says-unitedhealths-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261119-3gmx5r2f"
     },
     {
-     "title": "Tech, Media & Telecom Roundup: Market Talk",
-     "summary": "Find insight on Anthropic, Palo Alto Networks, Quebecor and more in the latest Market Talks covering Technology, Media and Telecom.",
-     "provider": "The Wall Street Journal",
-     "pubDate": "2026-11-19T22:05:00+00:00"
+     "title": "UnitedHealth Stock Continues Slide on Medicare for All Push. What Lies Ahead for Insurers.",
+     "summary": "UnitedHealth and other insurer stocks were falling Thursday. Democrats\u2019 sweep of Congress has breathed new life into the push for Medicare\u2026",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-19T21:54:00+00:00",
+     "url": "https://www.barrons.com/articles/unitedhealth-stock-medicare-for-all-insurance-56ee7733?siteid=yhoof2&yptr=yahoo"
     }
    ]
   },
@@ -11622,22 +11847,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "up",
    "news": [
     {
-     "title": "JPMorgan Reveals Cause of Banking Outage That Disrupted U.S. Customers",
-     "summary": "A technical failure disrupted online banking and transfers, with JPMorgan ruling out a cyberattack.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-18T17:05:11+00:00"
-    },
-    {
      "title": "U.S. Bancorp or Fifth Third Bancorp: The One Dividend Stock I\u2019d Hold for the Next 10 Years",
      "summary": "Key TakeawaysU. S. Bancorp raised its quarterly dividend 3.",
      "provider": "TIKR",
-     "pubDate": "2026-11-17T14:46:47+00:00"
+     "pubDate": "2026-11-17T14:46:47+00:00",
+     "url": "https://www.tikr.com/blog/u-s-bancorp-or-fifth-third-bancorp-the-one-dividend-stock-id-hold-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261117-qq4fvffx"
     },
     {
-     "title": "4 Bank Stocks That Deliver Retirees Dependable Passive Income",
-     "summary": "One bank cut its payout to a dime, another raised it 18%, and a third has not budged in years. Retirees chasing quarterly income will want\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T20:47:57+00:00"
+     "title": "What Is U.S. Bancorp (USB) Signaling With Its $240 Million Housing Fund?",
+     "summary": "U.S. Bancorp (NYSE:USB) launched a $240 million Low Income Housing Tax Credit fund to finance affordable housing projects. The new LIHTC\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T07:14:34+00:00",
+     "url": "https://finance.yahoo.com/real-estate/articles/u-bancorp-usb-signaling-240-071434078.html"
+    },
+    {
+     "title": "JPMorgan Reveals Cause of Banking Outage That Disrupted U.S. Customers",
+     "summary": "A technical failure disrupted online banking and transfers, with JPMorgan ruling out a cyberattack.",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-18T17:05:11+00:00",
+     "url": "https://finance.yahoo.com/technology/articles/jpmorgan-reveals-cause-banking-outage-170511772.html"
     }
    ]
   },
@@ -11779,19 +12007,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Vistra (VST) Could Be 23% Undervalued After Fresh Guidance And Earnings",
      "summary": "Vistra (VST) has moved back into focus after issuing consolidated net income guidance for 2026 and 2027, along with a fresh quarterly\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T02:11:30+00:00"
+     "pubDate": "2026-11-19T02:11:30+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-could-23-undervalued-021130252.html"
     },
     {
-     "title": "Constellation CEO: Google and Amazon Deals Equal \u201ca New Large-Scale Nuclear Plant\u201d at $7.3 Billion",
-     "summary": "Key TakeawaysConstellation Energy raised its 2026 adjusted operating EPS outlook to $12. 50 to $12.",
+     "title": "Vistra Just Dropped 16% in a Month, but Its Plans Always Had \u201ca More Conservative View of the AI Build-Out\u201d",
+     "summary": "Key TakeawaysVistra (VST:NYSE) stock is down 16% in the past month, as Texas elected a governor who wants to pause new data centers, and\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-18T15:05:14+00:00"
+     "pubDate": "2026-11-19T07:13:39+00:00",
+     "url": "https://www.tikr.com/blog/vistra-stock-drop-texas-data-center-moratorium-buy-or-sell?ref=yahoofinance&tlnk=yf-261119-3rqgw84c"
     },
     {
-     "title": "XLU vs VPU: Which Utility ETF Gets More From the AI Power Rush?",
-     "summary": "Two cheap utility funds deliver nearly identical returns, yet they hold very different bets on who profits from data centers' hunger for\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T16:12:14+00:00"
+     "title": "A $6.9 Billion Fund Dumps These 3 Stocks",
+     "summary": "Key TakeawaysA $6. 9 billion fund sold all of its Vistra, DT Midstream and Halliburton stock in the third quarter.",
+     "provider": "TIKR",
+     "pubDate": "2026-11-18T18:17:57+00:00",
+     "url": "https://www.tikr.com/blog/a-6-9-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261118-xcfh59pr"
     }
    ]
   },
@@ -11918,19 +12149,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Wells Fargo resets its S&P 500 price target for 2027",
      "summary": "Wall Street\u2019s outlook for the coming year is becoming more divided.",
      "provider": "TheStreet",
-     "pubDate": "2026-11-18T18:47:00+00:00"
-    },
-    {
-     "title": "JPMorgan Reveals Cause of Banking Outage That Disrupted U.S. Customers",
-     "summary": "A technical failure disrupted online banking and transfers, with JPMorgan ruling out a cyberattack.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-18T17:05:11+00:00"
+     "pubDate": "2026-11-18T18:47:00+00:00",
+     "url": "https://www.thestreet.com/investing/wells-fargo-resets-conservative-sp-500-price-target-for-2027"
     },
     {
      "title": "Wells Fargo grapples with change in venerable business line",
      "summary": "The San Francisco-based banking giant is grappling with the impact of major changes in the food, beverage and agribusiness sector\u2026",
      "provider": "American Banker",
-     "pubDate": "2026-11-19T21:54:39+00:00"
+     "pubDate": "2026-11-19T21:54:39+00:00",
+     "url": "https://www.americanbanker.com/news/wells-fargo-grapples-with-change-in-venerable-business-line"
+    },
+    {
+     "title": "Wells Fargo Loses a $1.3 Billion Financial Advisor Team to &Partners",
+     "summary": "McKenzie Riedel Wealth Management is a multigenerational advisor practice based in Wheeling, W.Va.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-18T19:07:00+00:00",
+     "url": "https://www.barrons.com/advisor/articles/wells-fargo-ampersand-partners-c95f8996?siteid=yhoof2&yptr=yahoo"
     }
    ]
   },
@@ -12055,19 +12289,22 @@ window.__BOLLINGER_WEEKLY__ = {
      "title": "Meet Wall Street\u2019s Reliable High-Yield Dividend Stocks: 5 Companies That Pass the Yield Trap Test",
      "summary": "Treasuries now pay 5.12%, so a shaky dividend has nowhere to hide. We ran pipelines and landlords through a coverage test built for each\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-18T12:52:07+00:00"
-    },
-    {
-     "title": "Morgan Stanley\u2019s Vintage Values 2027: 5 Stocks Analysts See Climbing Further",
-     "summary": "Bloomberg reported on November 13, 2026, that one bank\u2019s strategists expect the S&P 500 to reach 8,700 within 12 months. They also see\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T22:32:35+00:00"
+     "pubDate": "2026-11-18T12:52:07+00:00",
+     "url": "https://247wallst.com/investing/2026/11/18/meet-wall-streets-reliable-high-yield-dividend-stocks-5-companies-that-pass-the-yield-trap-test/"
     },
     {
      "title": "How Many Shares of Kinder Morgan or Williams Pay $1,000 a Month in Dividends?",
      "summary": "Key TakeawaysAt today\u2019s prices, about 10,085 shares of Kinder Morgan (about $316,600) or about 5,715 shares of Williams Companies (about\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-19T17:35:44+00:00"
+     "pubDate": "2026-11-19T17:35:44+00:00",
+     "url": "https://www.tikr.com/blog/how-many-shares-of-kinder-morgan-or-williams-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261119-p39q63w5"
+    },
+    {
+     "title": "Williams (WMB) Stock Could Be Rich Despite Fresh Capital Spending News",
+     "summary": "Williams Companies has delivered a powerful long term share price run. After a softer patch in recent weeks, the real question for\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T09:11:26+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/williams-wmb-stock-could-rich-091126654.html"
     }
    ]
   },
@@ -12189,22 +12426,25 @@ window.__BOLLINGER_WEEKLY__ = {
    "rsi_dir": "down",
    "news": [
     {
-     "title": "Why Did Cathie Wood Sell Nvidia Before Earnings and Buy Crypto Stocks?",
-     "summary": "Cathie Wood's ARK sold $84.8M of Nvidia before earnings and bought crypto stocks. Three explanations fit the trade data.",
-     "provider": "BeInCrypto",
-     "pubDate": "2026-11-19T05:00:00+00:00"
+     "title": "Block (XYZ), Why Is It Back In Focus?",
+     "summary": "Block (XYZ) is back in focus after ARK Invest rotated away from Solana and Ethereum staking ETFs into crypto linked equities, adding to its\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T14:14:48+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-why-back-focus-141448923.html"
     },
     {
-     "title": "Intuit to Report Q1 Earnings: Should You Buy, Sell or Hold the Stock?",
-     "summary": "Intuit readies for Q1 results with solid revenue guidance and cost savings, while QuickBooks growth, customer additions and competition\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-18T15:38:00+00:00"
+     "title": "Block (SQ) Stock May Be 20% Undervalued Following Fresh AI Tools News",
+     "summary": "Block has seen its share price move around sharply in recent years, and that volatility puts fresh focus on whether the current US$79.01\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T11:15:06+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/block-sq-stock-may-20-111506189.html"
     },
     {
-     "title": "MoonPay Applies for National Trust Bank Charter to Offer Stablecoin and Custody Services",
-     "summary": "Crypto payments company MoonPay has applied to form a national trust bank that would issue and redeem stableco...",
-     "provider": "CryptoProwl",
-     "pubDate": "2026-11-20T03:06:00+00:00"
+     "title": "A $12 Billion Fund Dumps These 3 Stocks",
+     "summary": "Key TakeawaysPointState Capital, a firm that manages $12 billion, sold all of its DoorDash, Block and Meta Platforms shares in the third\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-18T15:46:47+00:00",
+     "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261118-x79qh686"
     }
    ]
   }
