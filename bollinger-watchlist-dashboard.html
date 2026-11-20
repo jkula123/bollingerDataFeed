@@ -791,7 +791,7 @@
 
   <div class="mkt-sticky">
   <div class="mkt-strip" aria-label="Market backdrop">
-    <span class="mkt-label" id="mktLabel">Markets · Thu 19 Nov close</span>
+    <span class="mkt-label">Markets · Thu 19 Nov close</span>
     <span class="mkt-item">S&amp;P 500 <strong>7,175.83</strong> <span class="mkt-down">−2.02%</span> <span class="mkt-wk-lab">(<span class="mkt-down mkt-wk" title="Change since Friday's close">−5.10%</span> wk)</span></span>
     <span class="mkt-sep" aria-hidden="true">·</span>
     <span class="mkt-item">Nasdaq <strong>23,879.20</strong> <span class="mkt-down">−2.25%</span> <span class="mkt-wk-lab">(<span class="mkt-down mkt-wk" title="Change since Friday's close">−5.00%</span> wk)</span></span>
@@ -805,8 +805,8 @@
   </div>
 
   <div class="tabs" role="tablist" aria-label="Choose timeframe">
-    <button type="button" class="tab" role="tab" id="tab-weekly" aria-selected="true" aria-controls="view-weekly" data-view="weekly">Weekly<span class="tab-sub" id="tabSubW">20-week band · Thu 19 Nov 2026 close</span></button>
-    <button type="button" class="tab" role="tab" id="tab-monthly" aria-selected="false" aria-controls="view-monthly" data-view="monthly">Monthly<span class="tab-sub" id="tabSubM">20-month band · Nov 2026 (in progress)</span></button>
+    <button type="button" class="tab" role="tab" id="tab-weekly" aria-selected="true" aria-controls="view-weekly" data-view="weekly">Weekly<span class="tab-sub">20-week band · Thu 19 Nov 2026 close</span></button>
+    <button type="button" class="tab" role="tab" id="tab-monthly" aria-selected="false" aria-controls="view-monthly" data-view="monthly">Monthly<span class="tab-sub">20-month band · Nov 2026 (in progress)</span></button>
   </div>
 
 
@@ -819,10 +819,10 @@
   </div>
 
   <div id="view-weekly" role="tabpanel" aria-labelledby="tab-weekly">
-    <span class="asof" id="asofW"><span class="dot" aria-hidden="true"></span> Updated: 20 Nov 2026 · Data as of Thu 19 Nov 2026 close · Intra-week snapshot</span>
-    <div class="alert" id="alertW" role="note"><strong>Unconfirmed:</strong> this is a mid-week snapshot. Touches can reverse before Friday&rsquo;s close — Saturday&rsquo;s scan is the confirmed check.</div>
+    <span class="asof"><span class="dot" aria-hidden="true"></span> Updated: 20 Nov 2026 · Data as of Thu 19 Nov 2026 close · Intra-week snapshot</span>
+    <div class="alert" role="note"><strong>Unconfirmed:</strong> this is a mid-week snapshot. Touches can reverse before Friday&rsquo;s close — Saturday&rsquo;s scan is the confirmed check.</div>
 
-  <div class="stats" id="statsW" aria-label="Summary counts">
+  <div class="stats" aria-label="Summary counts">
     <div class="stat"><div class="n">84</div><div class="l">Names on the list</div><div class="sub">60 touching + 24 close</div></div>
     <div class="stat"><div class="n">12</div><div class="l">💎 Undervalued</div><div class="sub">P/E &lt; 12, fwd &lt; 15, no high debt</div></div>
     <div class="stat"><div class="n">14</div><div class="l">⚠️ High debt</div><div class="sub">D/E &gt; 2× or heavy net debt</div></div>
@@ -830,20 +830,20 @@
   </div>
 
   <section class="block" id="sec-scream" aria-label="Screaming buys" style="margin-top:22px">
-    <div class="sec-head"><h2>Screaming buys</h2><span class="pill pill-scream" id="screamPill">0 today</span><span class="n">Undervalued + oversold</span></div>
+    <div class="sec-head"><h2>Screaming buys</h2><span class="pill pill-scream">0 today</span><span class="n">Undervalued + oversold</span></div>
     <!-- Empty state only: with no screaming buys the section collapses to
          one line plus a "Why?" expand holding the full breakdown below.
          When a refresh finds an actual screaming buy, render the section
          in full instead — the sec-sub paragraph and scream-card on their
          own, with no .scream-compact wrapper and no collapse. -->
-    <div class="scream-compact" id="screamCompact">
-      <p class="scream-line" id="screamLine">No screaming buys today — closest: ALNY, RSI 31.3 <button type="button" class="why-toggle" data-collapse-target="scream-detail" aria-expanded="false" aria-controls="scream-detail">Why? <span class="collapse-arrow" aria-hidden="true">▸</span></button></p>
+    <div class="scream-compact">
+      <p class="scream-line">No screaming buys today — closest: ALNY, RSI 31.3 <button type="button" class="why-toggle" data-collapse-target="scream-detail" aria-expanded="false" aria-controls="scream-detail">Why? <span class="collapse-arrow" aria-hidden="true">▸</span></button></p>
       <div class="scream-detail" id="scream-detail" hidden>
     <p class="sec-sub">The highest-conviction subset of this watchlist — a name has to clear <strong>both</strong> tests at once. This is where they will appear, at the top of the page, when any qualify.</p>
     <div class="scream-card">
       <div class="scream-empty">
         <div class="big"><small>Today</small>No screaming buys today</div>
-        <p id="screamEmptyP">The two legs don&rsquo;t overlap in this snapshot: <strong>12 undervalued</strong> stocks, <strong>none oversold</strong> — and <strong>only 2 oversold</strong> stocks, <strong>CBRS <span class="co-name">(Cerebras Systems Inc.)</span></strong> (RSI 27.3, no P/E — loss-making) and <strong>CMI <span class="co-name">(Cummins Inc.)</span></strong> (RSI 27.1, P/E 17.6 — not undervalued). No name is both, so this section is empty.</p>
+        <p>The two legs don&rsquo;t overlap in this snapshot: <strong>12 undervalued</strong> stocks, <strong>none oversold</strong> — and <strong>only 2 oversold</strong> stocks, <strong>CBRS <span class="co-name">(Cerebras Systems Inc.)</span></strong> (RSI 27.3, no P/E — loss-making) and <strong>CMI <span class="co-name">(Cummins Inc.)</span></strong> (RSI 27.1, P/E 17.6 — not undervalued). No name is both, so this section is empty.</p>
       </div>
       <div class="criteria" aria-label="Screaming buy criteria">
         <span>💎 Undervalued: trailing P/E &lt; 12</span>
@@ -855,9 +855,9 @@
       <div class="legs">
         <div class="leg">
           <h3>💎 Value leg — undervalued</h3>
-          <div class="leg-count" id="legValCount">12 <span style="font-size:14px;font-weight:600;color:var(--muted)">names · 0 oversold</span></div>
-          <p class="leg-note" id="legValNote">Closest to the oversold line is <strong>ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> — RSI 31.3</strong>, still 1.3 points above the &lt; 30 threshold. The rest are further away, so the value side is waiting on momentum, not price.</p>
-          <div class="ticker-list" id="legValList" aria-label="Undervalued names by RSI, closest to oversold first">
+          <div class="leg-count">12 <span style="font-size:14px;font-weight:600;color:var(--muted)">names · 0 oversold</span></div>
+          <p class="leg-note">Closest to the oversold line is <strong>ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> — RSI 31.3</strong>, still 1.3 points above the &lt; 30 threshold. The rest are further away, so the value side is waiting on momentum, not price.</p>
+          <div class="ticker-list" aria-label="Undervalued names by RSI, closest to oversold first">
             <span class="closest">ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> <em>RSI 31.3</em></span>
             <span>FSLR <span class="co-name">(First Solar, Inc.)</span> <em>RSI 40.8</em></span>
             <span>COF <span class="co-name">(Capital One Financial Corporation)</span> <em>RSI 43.8</em></span>
@@ -874,9 +874,9 @@
         </div>
         <div class="leg">
           <h3>🔻 Momentum leg — oversold</h3>
-          <div class="leg-count" id="legMomCount">2 <span style="font-size:14px;font-weight:600;color:var(--muted)">names · 0 undervalued</span></div>
-          <p class="leg-note" id="legMomNote"><strong>CMI <span class="co-name">(Cummins Inc.)</span></strong> and <strong>CBRS <span class="co-name">(Cerebras Systems Inc.)</span></strong> are the two oversold names. CMI misses the value leg — it would need a trailing P/E below 12 (currently 17.6) — and CBRS is loss-making, so it has no trailing P/E at all. CMI is shown below in the full detail a screaming buy will carry when one qualifies.</p>
-          <div class="detail-grid" id="legDetail" aria-label="CMI near-miss detail">
+          <div class="leg-count">2 <span style="font-size:14px;font-weight:600;color:var(--muted)">names · 0 undervalued</span></div>
+          <p class="leg-note"><strong>CMI <span class="co-name">(Cummins Inc.)</span></strong> and <strong>CBRS <span class="co-name">(Cerebras Systems Inc.)</span></strong> are the two oversold names. CMI misses the value leg — it would need a trailing P/E below 12 (currently 17.6) — and CBRS is loss-making, so it has no trailing P/E at all. CMI is shown below in the full detail a screaming buy will carry when one qualifies.</p>
+          <div class="detail-grid" aria-label="CMI near-miss detail">
             <div><div class="k">Ticker · Sector</div><div class="v">CMI <span class="co-name">(Cummins Inc.)</span> <small>· Industrials</small></div></div>
             <div><div class="k">Price</div><div class="v">$421.19</div></div>
             <div><div class="k">RSI (14-wk)</div><div class="v">27.1 <small>🔻 oversold</small></div></div>
@@ -889,7 +889,7 @@
           </div>
         </div>
       </div>
-      <div class="scream-foot" id="screamFoot"><strong>Why nothing can appear mid-week:</strong> RSI is calculated on closed weekly bars only, so this week&rsquo;s selloff moved band status but couldn&rsquo;t move any RSI. The oversold leg can only change at Saturday&rsquo;s scan, when this week becomes a closed bar. When a name does qualify, it will be listed here first — with ticker, price, P/E, forward P/E, RSI, sector, weeks touching, FCF yield, revenue growth, volume ratio and insider activity — and also flagged in the tables below. <strong>Closest today:</strong> ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> and CMI <span class="co-name">(Cummins Inc.)</span> carry the 🔶 <strong>Near screaming buy</strong> flag in the tables below — each has one leg in full and is close on the other. Use the 🔶 filter above the tables to isolate them.</div>
+      <div class="scream-foot"><strong>Why nothing can appear mid-week:</strong> RSI is calculated on closed weekly bars only, so this week&rsquo;s selloff moved band status but couldn&rsquo;t move any RSI. The oversold leg can only change at Saturday&rsquo;s scan, when this week becomes a closed bar. When a name does qualify, it will be listed here first — with ticker, price, P/E, forward P/E, RSI, sector, weeks touching, FCF yield, revenue growth, volume ratio and insider activity — and also flagged in the tables below. <strong>Closest today:</strong> ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> and CMI <span class="co-name">(Cummins Inc.)</span> carry the 🔶 <strong>Near screaming buy</strong> flag in the tables below — each has one leg in full and is close on the other. Use the 🔶 filter above the tables to isolate them.</div>
     </div>
       </div>
     </div>
@@ -901,7 +901,7 @@
     <span>💎 <strong>Undervalued</strong> — trailing P/E &lt; 12 &amp; forward P/E &lt; 15, no high-debt flag</span>
     <span>🔻 <strong>Oversold</strong> — 14-week RSI &lt; 30</span>
     <span><strong>Screaming buy</strong> — undervalued <em>and</em> oversold (see section above)</span>
-    <span id="legendNearW">🔶 <strong>Near screaming buy</strong> — applies on both tabs (Weekly uses 14-week RSI, Monthly uses 14-month RSI): one leg in full, close on the other, no high debt — undervalued with RSI 30–40, or oversold with P/E 12–20 &amp; fwd P/E &lt; 15 (Weekly: 2 names today — ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> and CMI <span class="co-name">(Cummins Inc.)</span> · Monthly: 1 name on the Nov intra-month list — ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span>)</span>
+    <span>🔶 <strong>Near screaming buy</strong> — applies on both tabs (Weekly uses 14-week RSI, Monthly uses 14-month RSI): one leg in full, close on the other, no high debt — undervalued with RSI 30–40, or oversold with P/E 12–20 &amp; fwd P/E &lt; 15 (Weekly: 2 names today — ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span> and CMI <span class="co-name">(Cummins Inc.)</span> · Monthly: 1 name on the Nov intra-month list — ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span>)</span>
     <span>⚠️ <strong>High debt</strong> — D/E &gt; 2× or net debt &gt; 50% of market cap</span>
     <span>🔥 <strong>SQUEEZE</strong> = possible short squeeze setup: ≥10% of float short and ≥3 days to cover</span>
     <span>📈 <strong>4H SMA ↑</strong> / ➡️ <strong>4H SMA →</strong> — 20-period SMA on 4-hour bars: ↑ rose more than 0.5% over the last 5 bars (~3 trading days), → flat within ±0.5%; no pill when it is falling</span>
@@ -958,8 +958,8 @@
 
 
   <div class="heatmap-wrap" id="heatmap-weekly" hidden>
-    <div class="sec-head"><h2>Heatmap</h2><span class="n" id="hmCountW">All 84 names &middot; touching + close together</span></div>
-    <p class="heatmap-caption" id="hmCapW"><strong>Colored by today&rsquo;s move</strong> (Thu 19 Nov close vs Wed 18 Nov). Tile size by <strong>market cap on a square-root scale</strong>, so the largest names don&rsquo;t crowd out the smallest. Tiles grouped by sector.</p>
+    <div class="sec-head"><h2>Heatmap</h2><span class="n">All 84 names &middot; touching + close together</span></div>
+    <p class="heatmap-caption"><strong>Colored by today&rsquo;s move</strong> (Thu 19 Nov close vs Wed 18 Nov). Tile size by <strong>market cap on a square-root scale</strong>, so the largest names don&rsquo;t crowd out the smallest. Tiles grouped by sector.</p>
     <div class="hm-legend" aria-hidden="true"><span>&minus;6% or more</span><span class="hm-legend-bar"></span><span>+6% or more</span></div>
     <div class="heatmap-detail" id="hmDetailWeekly" role="status"><span class="hm-detail-hint">Tap or click a tile to see its price, score, P/E and band status.</span></div>
     <div class="heatmap-canvas" id="hmCanvasWeekly"></div>
@@ -2507,26 +2507,26 @@ Sentiment (1/2): analysts rate it a Buy on average (1.93 from 40 analysts); thei
 
   <div id="view-monthly" role="tabpanel" aria-labelledby="tab-monthly" hidden>
   <section class="monthly" id="sec-monthly" aria-label="Monthly watchlist">
-    <div class="sec-head"><h2>Monthly watchlist</h2><span class="pill pill-monthly">20-month band</span><span class="n" id="mHeadCount">15 names</span></div>
+    <div class="sec-head"><h2>Monthly watchlist</h2><span class="pill pill-monthly">20-month band</span><span class="n">15 names</span></div>
     <div class="monthly-banner">
-      <div class="lu" id="mBannerTitle"><small>Monthly list</small>Updated: 20 Nov 2026</div>
-      <div class="data-line" id="mDataLine">Data as of November 2026 (in progress) — developing intra-month read</div>
-      <div class="monthly-meta" id="mMeta">
+      <div class="lu"><small>Monthly list</small>Updated: 20 Nov 2026</div>
+      <div class="data-line">Data as of November 2026 (in progress) — developing intra-month read</div>
+      <div class="monthly-meta">
         <span>Fundamentals as of 20 Nov 2026</span>
         <span>Next update: 28 Nov 2026 (intra-month check) · confirmed check 1 Dec 2026</span>
         <span>11 touching + 4 close</span>
         <span>Confirmed at Oct 2026 close: LII, XYL touching · BA, BKNG, T, TTWO, WY close</span>
       </div>
-      <p class="monthly-note" id="mNote">This is a <strong>developing intra-month read</strong>: prices are the latest closes in November 2026, checked against the <strong>20-month lower Bollinger Band</strong> (20-month, 2 std dev) computed from closed months only — touches can reverse before November closes, and the confirmed check runs <strong>1 Dec 2026</strong>. For reference, the confirmed list at the <strong>October 2026 close</strong> was: <strong>LII</strong> and <strong>XYL</strong> touching; <strong>BA</strong>, <strong>BKNG</strong>, <strong>T</strong>, <strong>TTWO</strong> and <strong>WY</strong> close. The <strong>Updated date above is the exact calendar date of the latest refresh</strong>. Valuation ratios use fundamentals as of 20 Nov 2026 — so a monthly price can differ from the same ticker&rsquo;s weekly price.</p>
+      <p class="monthly-note">This is a <strong>developing intra-month read</strong>: prices are the latest closes in November 2026, checked against the <strong>20-month lower Bollinger Band</strong> (20-month, 2 std dev) computed from closed months only — touches can reverse before November closes, and the confirmed check runs <strong>1 Dec 2026</strong>. For reference, the confirmed list at the <strong>October 2026 close</strong> was: <strong>LII</strong> and <strong>XYL</strong> touching; <strong>BA</strong>, <strong>BKNG</strong>, <strong>T</strong>, <strong>TTWO</strong> and <strong>WY</strong> close. The <strong>Updated date above is the exact calendar date of the latest refresh</strong>. Valuation ratios use fundamentals as of 20 Nov 2026 — so a monthly price can differ from the same ticker&rsquo;s weekly price.</p>
     </div>
-    <div class="stats" id="statsM" aria-label="Monthly summary counts">
+    <div class="stats" aria-label="Monthly summary counts">
       <div class="stat"><div class="n">15</div><div class="l">Names on the monthly list</div><div class="sub">11 touching + 4 close</div></div>
       <div class="stat"><div class="n">2</div><div class="l">💎 Undervalued</div><div class="sub">P/E &lt; 12, fwd &lt; 15, no high debt</div></div>
       <div class="stat"><div class="n">3</div><div class="l">⚠️ High debt</div><div class="sub">APTV <span class="co-name">(Aptiv PLC)</span>, BA <span class="co-name">(The Boeing Company)</span> and FIS <span class="co-name">(Fidelity National Information Services, Inc.)</span></div></div>
       <div class="stat"><div class="n">0</div><div class="l">Monthly screaming buys</div><div class="sub">Undervalued + oversold</div></div>
     </div>
-    <p class="monthly-scream" id="mScream1"><strong>No monthly screaming buys</strong> — 2 of the 15 monthly names are undervalued (ALNY and EXE) but none is oversold (0), so no name clears both legs of the same test used weekly: 💎 undervalued + 🔻 oversold (14-month RSI &lt; 30).</p>
-    <p class="monthly-scream" id="mScream2"><strong>🔶 Near screaming buy on Monthly: ALNY</strong> — the flag <strong>does apply here</strong>, with the same definition as Weekly but on <strong>monthly RSI</strong>: undervalued (trailing P/E &lt; 12, forward P/E &lt; 15, no high-debt flag) with <strong>14-month RSI 30–40</strong>, <em>or</em> oversold (14-month RSI &lt; 30) with trailing P/E 12–20 and forward P/E &lt; 15, and no high-debt flag. On this intra-month read <strong>1 name qualifies</strong> — <strong>ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span></strong>, undervalued (P/E 7.5, fwd P/E 14.9) with monthly RSI 33.6. It carries the 🔶 flag in the monthly tables below, and the 🔶 filter below isolates it, just like on the Weekly tab.</p>
+    <p class="monthly-scream"><strong>No monthly screaming buys</strong> — 2 of the 15 monthly names are undervalued (ALNY and EXE) but none is oversold (0), so no name clears both legs of the same test used weekly: 💎 undervalued + 🔻 oversold (14-month RSI &lt; 30).</p>
+    <p class="monthly-scream"><strong>🔶 Near screaming buy on Monthly: ALNY</strong> — the flag <strong>does apply here</strong>, with the same definition as Weekly but on <strong>monthly RSI</strong>: undervalued (trailing P/E &lt; 12, forward P/E &lt; 15, no high-debt flag) with <strong>14-month RSI 30–40</strong>, <em>or</em> oversold (14-month RSI &lt; 30) with trailing P/E 12–20 and forward P/E &lt; 15, and no high-debt flag. On this intra-month read <strong>1 name qualifies</strong> — <strong>ALNY <span class="co-name">(Alnylam Pharmaceuticals, Inc.)</span></strong>, undervalued (P/E 7.5, fwd P/E 14.9) with monthly RSI 33.6. It carries the 🔶 flag in the monthly tables below, and the 🔶 filter below isolates it, just like on the Weekly tab.</p>
 
     <button type="button" class="collapse-toggle legend-toggle" data-collapse-target="legend-monthly" aria-expanded="false" aria-controls="legend-monthly">How to read this <span class="collapse-arrow" aria-hidden="true">▸</span></button>
     <div class="legend" id="legend-monthly" aria-label="How to read the monthly flags" hidden>
@@ -2534,7 +2534,7 @@ Sentiment (1/2): analysts rate it a Buy on average (1.93 from 40 analysts); thei
       <span>💎 <strong>Undervalued</strong> — trailing P/E &lt; 12 &amp; forward P/E &lt; 15, no high-debt flag</span>
       <span>🔻 <strong>Oversold (monthly)</strong> — 14-month RSI &lt; 30</span>
       <span><strong>Monthly screaming buy</strong> — undervalued <em>and</em> oversold on monthly RSI</span>
-      <span id="legendNearM">🔶 <strong>Near screaming buy</strong> — applies on both tabs (Monthly uses 14-month RSI): undervalued with monthly RSI 30–40, or oversold with P/E 12–20 &amp; fwd P/E &lt; 15, no high debt (1 name on the Nov intra-month list — ALNY)</span>
+      <span>🔶 <strong>Near screaming buy</strong> — applies on both tabs (Monthly uses 14-month RSI): undervalued with monthly RSI 30–40, or oversold with P/E 12–20 &amp; fwd P/E &lt; 15, no high debt (1 name on the Nov intra-month list — ALNY)</span>
       <span>⚠️ <strong>High debt</strong> — D/E &gt; 2× or net debt &gt; 50% of market cap</span>
       <span>🔥 <strong>SQUEEZE</strong> = possible short squeeze setup: ≥10% of float short and ≥3 days to cover</span>
       <span>📈 <strong>4H SMA ↑</strong> / ➡️ <strong>4H SMA →</strong> — 20-period SMA on 4-hour bars: ↑ rose more than 0.5% over the last 5 bars (~3 trading days), → flat within ±0.5%; no pill when it is falling</span>
@@ -2587,8 +2587,8 @@ Sentiment (1/2): analysts rate it a Buy on average (1.93 from 40 analysts); thei
 
 
   <div class="heatmap-wrap" id="heatmap-monthly" hidden>
-    <div class="sec-head"><h2>Heatmap</h2><span class="n" id="hmCountM">All 15 names &middot; touching + close together</span></div>
-    <p class="heatmap-caption" id="hmCapM"><strong>Colored by November&rsquo;s move so far</strong> (latest November 2026 price vs October 2026 close). Tile size by <strong>market cap on a square-root scale</strong>, so the largest names don&rsquo;t crowd out the smallest. Tiles grouped by sector.</p>
+    <div class="sec-head"><h2>Heatmap</h2><span class="n">All 15 names &middot; touching + close together</span></div>
+    <p class="heatmap-caption"><strong>Colored by November&rsquo;s move so far</strong> (latest November 2026 price vs October 2026 close). Tile size by <strong>market cap on a square-root scale</strong>, so the largest names don&rsquo;t crowd out the smallest. Tiles grouped by sector.</p>
     <div class="hm-legend" aria-hidden="true"><span>&minus;12% or more</span><span class="hm-legend-bar"></span><span>+12% or more</span></div>
     <div class="heatmap-detail" id="hmDetailMonthly" role="status"><span class="hm-detail-hint">Tap or click a tile to see its price, score, P/E and band status.</span></div>
     <div class="heatmap-canvas" id="hmCanvasMonthly"></div>
@@ -2597,7 +2597,7 @@ Sentiment (1/2): analysts rate it a Buy on average (1.93 from 40 analysts); thei
 
     <section class="block" id="sec-month-touch">
       <div class="sec-head"><h2>Monthly — touching the band</h2><span class="pill pill-touch">At / below band</span><span class="n" data-sec-count>11 names</span></div>
-      <p class="sec-sub" id="mTouchSub">Latest November 2026 prices at or below the 20-month lower band (band computed from closed months only; this read can still reverse before November closes). Sorted by trailing P/E, cheapest first. Months touching = consecutive closed months at or below the band. On desktop, click any column heading to sort by it; click again to reverse.</p>
+      <p class="sec-sub">Latest November 2026 prices at or below the 20-month lower band (band computed from closed months only; this read can still reverse before November closes). Sorted by trailing P/E, cheapest first. Months touching = consecutive closed months at or below the band. On desktop, click any column heading to sort by it; click again to reverse.</p>
       <div class="table-card">
         <table>
           <thead><tr><th>Ticker</th><th class="num" title="Buy score out of 10: Value, Health, Timing, Backing, Sentiment (2 points each). Hover a score for the plain-language reasons.">Score</th><th class="num">Price</th><th class="num">P/E</th><th class="num th-wrap th-avgpe" title="Median annual P/E, last 10 and 15 fiscal years">Avg P/E</th><th class="num">Fwd P/E</th><th class="num th-wrap">P/S &amp; FCF</th><th class="num" title="Rule of 40">R40</th><th class="num th-wrap th-cashdebt">Cash / Debt</th><th class="num">Short</th><th class="num th-wrap th-months">Months touching</th><th class="th-wrap th-insiders">Insiders · 3 mo</th><th class="th-f13" title="Major 13F moves, Q3 2026">13F</th><th>Flags</th></tr></thead>
@@ -2819,7 +2819,7 @@ Sentiment (1/2): analysts rate it a Hold on average (3.17 from 18 analysts); the
 
     <section class="block" id="sec-month-near">
       <div class="sec-head"><h2>Monthly — close to the band</h2><span class="pill pill-near">Within 2%</span><span class="n" data-sec-count>4 names</span></div>
-      <p class="sec-sub" id="mNearSub">Latest November 2026 prices within 2% above the 20-month lower band. Same sort: trailing P/E, cheapest first, loss-making names (no P/E) last.</p>
+      <p class="sec-sub">Latest November 2026 prices within 2% above the 20-month lower band. Same sort: trailing P/E, cheapest first, loss-making names (no P/E) last.</p>
       <div class="table-card">
         <table>
           <thead><tr><th>Ticker</th><th class="num" title="Buy score out of 10: Value, Health, Timing, Backing, Sentiment (2 points each). Hover a score for the plain-language reasons.">Score</th><th class="num">Price</th><th class="num">P/E</th><th class="num th-wrap th-avgpe" title="Median annual P/E, last 10 and 15 fiscal years">Avg P/E</th><th class="num">Fwd P/E</th><th class="num th-wrap">P/S &amp; FCF</th><th class="num" title="Rule of 40">R40</th><th class="num th-wrap th-cashdebt">Cash / Debt</th><th class="num">Short</th><th class="num th-wrap th-months">Months touching</th><th class="th-wrap th-insiders">Insiders · 3 mo</th><th class="th-f13" title="Major 13F moves, Q3 2026">13F</th><th>Flags</th></tr></thead>
@@ -2908,7 +2908,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   </section>
   </div>
 
-  <p class="foot" id="footNote"><strong>About this snapshot:</strong> prices as of Thu 19 Nov 2026 close; band status vs the 20-week lower Bollinger Band (20-week, 2 std dev) from closed weeks. Short = % of float sold short, with days to cover underneath (days of average volume shorts need to exit). Insider figures are net dollars of open-market insider trades over the last 3 months (actual traded values from filings; awards and option exercises excluded) with open-market buy/sell transaction counts. Cash / Debt is total cash vs total debt, and the % under each price is vs the trailing-twelve-month high — the highest price in the last 12 months (intraday, split-adjusted). <strong>Monthly list:</strong> last updated 20 Nov 2026; developing intra-month read — band status vs the 20-month lower Bollinger Band (computed from closed months only) at latest November 2026 prices, fundamentals as of 20 Nov 2026; the confirmed list as of the Oct 2026 close was LII, XYL touching and BA, BKNG, T, TTWO, WY close; it is refreshed on the intra-month checks (10th, 20th and 28th) and on 1 Dec 2026 when November closes. This page is a fixed snapshot — it updates only when a new scan is published. <strong>13F:</strong> major position changes by 15 tracked active funds in their Q3 2026 13F filings (period ended 30 Sep 2026, filed Nov 2026), sized at quarter-end prices; only the largest moves per stock are shown, sorted by net dollars. <strong>Avg P/E:</strong> median of annual year-end P/Es (fiscal year-end price ÷ diluted EPS from SEC filings, split-adjusted) over up to the last 10 and 15 fiscal years.</p>
+  <p class="foot"><strong>About this snapshot:</strong> prices as of Thu 19 Nov 2026 close; band status vs the 20-week lower Bollinger Band (20-week, 2 std dev) from closed weeks. Short = % of float sold short, with days to cover underneath (days of average volume shorts need to exit). Insider figures are net dollars of open-market insider trades over the last 3 months (actual traded values from filings; awards and option exercises excluded) with open-market buy/sell transaction counts. Cash / Debt is total cash vs total debt, and the % under each price is vs the trailing-twelve-month high — the highest price in the last 12 months (intraday, split-adjusted). <strong>Monthly list:</strong> last updated 20 Nov 2026; developing intra-month read — band status vs the 20-month lower Bollinger Band (computed from closed months only) at latest November 2026 prices, fundamentals as of 20 Nov 2026; the confirmed list as of the Oct 2026 close was LII, XYL touching and BA, BKNG, T, TTWO, WY close; it is refreshed on the intra-month checks (10th, 20th and 28th) and on 1 Dec 2026 when November closes. This page is a fixed snapshot — it updates only when a new scan is published. <strong>13F:</strong> major position changes by 15 tracked active funds in their Q3 2026 13F filings (period ended 30 Sep 2026, filed Nov 2026), sized at quarter-end prices; only the largest moves per stock are shown, sorted by net dollars. <strong>Avg P/E:</strong> median of annual year-end P/Es (fiscal year-end price ÷ diluted EPS from SEC filings, split-adjusted) over up to the last 10 and 15 fiscal years.</p>
 </div>
 <script>
 (function(){
@@ -2936,8 +2936,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     }
     return name.replace(/[\s,&]+$/, '').trim();
   }
-  function trimNamesIn(root){
-    (root || document).querySelectorAll('.co-name').forEach(function(el){
+  document.querySelectorAll('.co-name').forEach(function(el){
     var t = trimCompanyName(el.textContent);
     if (!t) return;
     // Names in table ticker cells render without parentheses: on desktop
@@ -2945,8 +2944,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     // parentheses are supplied by CSS. Everywhere else (legend, ticker
     // lists, detail grids) the name stays inline in parentheses.
     el.textContent = el.closest('td[data-label="Ticker"]') ? t : '(' + t + ')';
-    });
-  }
+  });
   // Tag the merged Rule of 40 cells. The per-line highlights are baked
   // into the markup (green pill <strong> above 40, .r40-neg-pill when
   // negative, plain 0–40), so all this does is mark the cell for the
@@ -2955,13 +2953,11 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   // beside the ticker / sector block when they fit, wrapping to a
   // right-aligned line directly below it when they don't (built below).
   // A row with no score for either variant gets no badges.
-  function tagR40In(root){
-    (root || document).querySelectorAll('td[data-label="R40"]').forEach(function(td){
+  document.querySelectorAll('td[data-label="R40"]').forEach(function(td){
     td.classList.add('r40-cell');
     var v = td.textContent.trim();
     if (v === '—' || v === '') td.classList.add('r40-none');
-    });
-  }
+  });
   // Cash / Debt: rebuild every cell as two labelled lines — "C $cash"
   // on line 1, "D $debt" on line 2 (CSS stacks them on desktop; mobile
   // keeps the single-line slash form). Highlight only a significant
@@ -2976,9 +2972,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     if (isNaN(v)) return null;
     return v * (m[2] === 'B' ? 1e9 : m[2] === 'M' ? 1e6 : 1);
   }
-  function cashIn(root){
-    (root || document).querySelectorAll('td[data-label="Cash / Debt"]').forEach(function(td){
-    if (td.querySelector('.cd-wrap')) return;
+  document.querySelectorAll('td[data-label="Cash / Debt"]').forEach(function(td){
     var parts = td.textContent.split('/');
     if (parts.length !== 2) return;
     var cashTxt = parts[0].trim(), debtTxt = parts[1].trim();
@@ -3014,14 +3008,12 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     wrap.appendChild(sep);
     wrap.appendChild(addLine('D', debtTxt, hlDebt ? 'cd-hl cd-debt' : null));
     td.appendChild(wrap);
-    });
-  }
+  });
   // Trailing P/E vs its 15y median: when the trailing P/E is higher than
   // the 15y median P/E in the same row, wrap the P/E value in the soft red
   // pill (.pe-high). At or below the median it stays plain; when either
   // value is missing (loss-makers, or no 15y history) it stays plain.
-  function pePillIn(root){
-    (root || document).querySelectorAll('tbody tr').forEach(function(tr){
+  document.querySelectorAll('tbody tr').forEach(function(tr){
     var peTd = tr.querySelector('td[data-label="P/E"]');
     var avgTd = tr.querySelector('td[data-label="Avg P/E"]');
     var p15El = avgTd ? avgTd.querySelector('.pe15-main') : null;
@@ -3046,13 +3038,10 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       peTd.textContent = '';
       peTd.appendChild(pill);
     }
-    });
-  }
-  function badgesIn(root){
-    (root || document).querySelectorAll('tbody tr').forEach(function(tr){
+  });
+  document.querySelectorAll('tbody tr').forEach(function(tr){
     var r40td = tr.querySelector('td.r40-cell:not(.r40-none)');
     if (!r40td) return;
-    if (tr.classList.contains('has-badges')) return;
     var eLine = r40td.querySelector('.r40-line[data-kind="EBITDA"]');
     var fLine = r40td.querySelector('.r40-line[data-kind="FCF"]');
     if (!eLine && !fLine) return;
@@ -3088,14 +3077,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       firstTd.appendChild(strip);
       tr.classList.add('has-badges');
     }
-    });
-  }
-  trimNamesIn(document);
-  tagR40In(document);
-  cashIn(document);
-  pePillIn(document);
-  badgesIn(document);
-  window.__enhanceRows = function(root){ trimNamesIn(root); tagR40In(root); cashIn(root); pePillIn(root); badgesIn(root); };
+  });
   var q = document.getElementById('q');
   var sel = document.getElementById('sectorSel');
   var note = document.getElementById('countNote');
@@ -3137,8 +3119,8 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       if (em) em.style.display = vis === 0 ? 'block' : 'none';
     });
     note.textContent = (term || sector || flagFilter !== 'all' || newOnly)
-      ? 'Showing ' + totalVisible + ' of ' + ((window.DASH_TOTALS && window.DASH_TOTALS.weekly) || 84) + ' names'
-      : 'Showing all ' + ((window.DASH_TOTALS && window.DASH_TOTALS.weekly) || 84) + ' names';
+      ? 'Showing ' + totalVisible + ' of 84 names'
+      : 'Showing all 84 names';
   }
   q.addEventListener('input', apply);
   sel.addEventListener('change', apply);
@@ -3204,8 +3186,8 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       if (em) em.style.display = vis === 0 ? 'block' : 'none';
     });
     noteM.textContent = (term || sector || flagFilterM !== 'all' || newOnlyM)
-      ? 'Showing ' + totalVisible + ' of ' + ((window.DASH_TOTALS && window.DASH_TOTALS.monthly) || 15) + ' names'
-      : 'Showing all ' + ((window.DASH_TOTALS && window.DASH_TOTALS.monthly) || 15) + ' names';
+      ? 'Showing ' + totalVisible + ' of 15 names'
+      : 'Showing all 15 names';
   }
   if (qM && selM){
     qM.addEventListener('input', applyM);
@@ -3233,7 +3215,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       });
     }
   }
-  window.__applyFilters = function(){ apply(); applyM(); };
   // Desktop column sorting: every table header is clickable. Clicking
   // sorts that table by the column; clicking the same header again
   // reverses direction. Numeric columns sort numerically, Ticker
@@ -3454,11 +3435,9 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   // independently; the toggle becomes "Hide analysis ▾" while open.
   // The cell (and so the toggle) never renders on desktop, where the
   // Score hover tooltip is unchanged.
-  function analysisIn(root){
-    (root || document).querySelectorAll('.score-desc-cell').forEach(function(cell){
+  document.querySelectorAll('.score-desc-cell').forEach(function(cell){
     var desc = cell.querySelector('.score-desc');
     if (!desc) return;
-    if (cell.querySelector('.analysis-toggle')) return;
     desc.hidden = true;
     var btn = document.createElement('button');
     btn.type = 'button';
@@ -3478,10 +3457,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       btn.firstChild.textContent = open ? 'Hide analysis ' : 'Show analysis ';
       arrow.textContent = open ? '▾' : '▸';
     });
-    });
-  }
-  analysisIn(document);
-  window.__analysisIn = analysisIn;
+  });
   var tabBtns = document.querySelectorAll('[data-view]');
   var views = {
     weekly: document.getElementById('view-weekly'),
@@ -3519,12 +3495,11 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   // toggles independently. The detail row is stored on its data row
   // (tr._detail) so sorting moves the pair together and filtering
   // hides the pair together. The Score tooltip is untouched.
-  function detailTable(table){
+  document.querySelectorAll('table').forEach(function(table){
     var tbody = table.querySelector('tbody');
     if (!tbody) return;
     var cols = table.querySelectorAll('thead th').length;
     Array.prototype.forEach.call(tbody.querySelectorAll('tr[data-ticker]'), function(tr){
-      if (tr._detail) return;
       var cell = tr.querySelector('.score-desc-cell');
       var desc = cell ? cell.querySelector('.score-desc') : null;
       if (!desc) return;
@@ -3542,8 +3517,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       tr.setAttribute('aria-expanded', 'false');
     });
     restripe(tbody);
-    if (tbody._detailWired) return;
-    tbody._detailWired = true;
     tbody.addEventListener('click', function(e){
       var mq = window.matchMedia ? window.matchMedia('(min-width: 761px)') : null;
       if (mq && !mq.matches) return;
@@ -3554,10 +3527,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       tr.classList.toggle('row-open', open);
       tr.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
-  }
-  document.querySelectorAll('table').forEach(detailTable);
-  window.__detailTables = function(){ document.querySelectorAll('table').forEach(detailTable); };
-  window.__restripeAll = function(){ document.querySelectorAll('tbody').forEach(function(tb){ restripe(tb); }); };
+  });
 })();
 </script>
 <script>
@@ -3565,7 +3535,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   // Last 12 weekly closes per row (split-adjusted, most recent last),
   // baked in from the dashboard data at build time.
   var SPARKS = {"weekly":{"ADM":[83.98,86.07,84.54,80.51,79.85,79.29,81.99,79.54,76.33,69.45,72.35,67.13],"ASML":[1712.62,1696.06,1677.71,1741.64,1864.85,1777.99,1639.36,1569.73,1565.9,1424.75,1495.16,1356.2],"BKR":[63.2,58.78,56.98,57.56,55.73,56.43,55.44,55.59,54.97,47.64,49.44,46.67],"COIN":[184.64,175.26,194.25,195.11,183.0,179.39,173.16,164.45,143.54,134.76,127.65,108.87],"CSCO":[108.78,111.7,109.09,106.29,112.2,118.39,107.39,106.5,104.51,93.85,95.64,94.7],"DDOG":[212.93,221.21,229.92,268.13,277.22,293.26,247.11,269.65,235.27,179.04,184.16,166.46],"FFIV":[390.47,411.71,432.03,443.06,454.04,479.83,442.03,455.42,338.34,310.84,309.14,318.09],"FIS":[41.41,38.14,35.62,35.41,32.44,34.04,36.01,37.53,38.55,28.73,29.54,25.94],"MCHP":[74.17,74.2,73.27,78.69,81.32,75.55,73.85,74.05,77.34,58.35,61.68,58.47],"MELI":[1978.36,1897.37,1787.39,1752.61,1696.56,1889.85,1834.0,1810.15,1624.53,1510.0,1491.49,1355.49],"NBIS":[226.39,224.55,223.54,237.33,242.81,221.07,165.47,158.74,154.14,129.49,115.88,96.92],"NVDA":[230.1,218.29,222.27,225.07,233.95,229.28,214.13,210.96,204.64,186.64,162.85,145.98],"NVR":[6298.85,6160.76,6150.47,6297.6,5993.85,5899.16,5919.82,5983.68,5958.56,6298.29,5853.92,5494.21],"SYY":[79.48,82.62,78.49,77.91,77.49,78.14,82.22,81.37,82.9,76.86,77.1,77.15],"ALB":[125.86,117.52,110.91,109.73,104.59,101.27,95.48,93.67,91.0,99.25,93.53,82.93],"ALNY":[266.11,248.68,239.56,255.96,219.72,232.68,231.83,224.03,165.0,155.94,165.04,147.82],"AME":[237.37,241.52,237.64,250.74,251.93,248.58,248.17,240.03,241.12,228.67,242.11,231.15],"ARM":[252.09,264.79,275.61,310.32,307.49,266.28,227.8,210.33,205.97,174.62,190.53,177.17],"BA":[212.25,210.45,198.2,198.07,193.56,190.37,190.21,188.35,171.55,173.4,171.5,160.51],"BG":[117.85,121.52,114.74,108.21,105.94,101.98,105.37,102.47,95.94,98.38,100.91,91.75],"C":[136.97,138.06,131.05,133.55,127.8,128.93,123.58,119.96,121.97,119.05,124.01,115.28],"CAT":[812.01,816.63,807.07,819.63,843.41,798.57,729.03,685.37,622.75,558.63,600.2,537.37],"CBRS":[210.05,191.93,198.37,206.75,166.43,164.17,127.21,110.82,109.18,89.68,108.72,86.96],"CFG":[70.22,69.92,66.51,65.01,63.82,63.07,62.86,64.62,63.81,63.24,65.26,60.51],"CMI":[560.75,556.75,532.23,525.06,528.32,523.39,531.33,517.4,500.09,450.07,452.18,421.19],"COF":[218.7,207.45,201.6,199.38,193.92,198.44,200.91,200.51,204.01,201.04,194.28,181.76],"CRWV":[89.36,88.99,81.36,87.59,89.62,82.08,61.39,54.24,54.87,46.4,53.13,44.91],"CVS":[96.05,93.99,88.21,88.5,85.84,85.55,91.7,93.47,90.25,83.85,89.35,80.04],"DASH":[211.73,201.95,192.94,193.36,189.15,196.5,189.15,179.38,178.99,179.67,171.51,157.13],"DELL":[523.41,566.51,567.27,562.11,561.74,585.25,451.09,456.44,424.3,328.53,344.53,312.54],"EME":[753.76,780.24,749.69,761.8,786.19,789.03,721.66,647.66,679.55,608.45,659.36,636.08],"ETN":[409.59,424.07,423.47,438.63,434.77,428.33,390.05,364.99,368.84,340.67,352.97,330.57],"EXE":[97.27,94.21,86.92,86.28,84.97,87.65,92.8,92.63,89.96,84.05,88.53,82.44],"EXPE":[297.45,280.28,278.8,263.65,264.48,273.68,288.38,288.44,285.37,258.73,257.46,239.19],"F":[14.44,13.8,13.05,12.56,11.96,12.02,12.28,11.46,12.1,12.29,11.91,11.24],"FCX":[72.57,70.92,71.39,72.15,71.88,73.53,69.54,65.18,62.47,59.42,59.24,49.12],"FSLR":[204.45,209.03,195.96,177.71,174.61,177.82,172.64,171.99,174.4,201.14,171.39,151.95],"GEV":[941.4,956.71,939.78,957.07,988.12,1004.14,920.66,814.52,857.87,774.11,803.13,756.28],"GL":[173.92,170.83,173.07,166.71,165.35,164.17,168.77,154.79,159.08,157.18,160.74,153.59],"GLD":[406.77,398.77,401.17,393.41,380.14,384.58,382.01,366.61,355.78,372.52,355.45,335.18],"GLW":[153.94,166.01,149.78,156.37,163.81,156.31,131.69,123.4,123.02,105.88,114.08,105.97],"GOOG":[335.31,335.45,344.41,341.08,340.35,347.86,336.91,317.28,278.22,283.93,292.52,271.02],"GOOGL":[338.46,338.5,349.54,343.92,343.5,351.66,340.59,320.21,279.84,284.78,295.77,272.66],"HBAN":[16.86,16.69,15.88,15.64,15.33,15.32,15.27,15.73,15.78,15.47,15.82,14.71],"HOOD":[122.11,112.57,119.82,119.4,112.74,109.02,98.87,95.07,84.99,80.91,77.86,68.65],"HUBB":[460.72,460.4,446.92,466.62,475.52,474.11,461.1,448.1,422.44,429.45,436.98,418.74],"IBKR":[92.62,91.37,90.69,89.24,88.3,87.87,82.69,80.28,76.9,75.82,81.79,75.65],"ICOP":[57.31,55.37,54.54,54.58,54.11,54.48,51.73,47.63,46.81,46.81,46.03,39.56],"INTC":[95.8,102.94,108.6,123.0,119.33,104.7,89.85,86.96,65.76,56.28,59.66,55.72],"JBL":[310.47,317.98,299.48,316.64,304.31,306.18,278.16,273.88,272.63,239.01,254.17,246.44],"JCI":[144.54,145.6,142.88,150.2,156.24,157.44,145.47,143.96,149.03,135.03,139.33,136.0],"JPM":[356.86,354.46,347.93,341.36,330.73,332.99,339.72,331.58,337.04,334.49,346.19,320.22],"LITE":[881.26,927.03,930.91,941.65,1085.42,1103.35,824.13,756.17,840.7,538.59,596.62,535.15],"LRCX":[307.32,297.9,287.8,315.21,347.49,318.84,263.94,230.1,239.11,200.44,225.92,203.68],"MRVL":[223.5,236.05,244.2,261.88,272.23,275.28,227.83,228.51,196.4,141.2,156.76,138.47],"MS":[216.4,213.08,201.35,195.12,189.16,188.87,179.48,178.4,184.3,181.44,190.65,174.98],"MTB":[239.84,239.83,227.31,221.19,219.14,217.49,215.28,221.66,220.72,217.75,221.12,210.77],"MU":[1016.43,975.11,1015.64,1082.11,1074.72,1028.84,878.84,877.55,884.74,690.0,778.31,690.44],"NFLX":[78.25,77.4,71.79,71.15,67.06,70.3,70.53,65.85,62.08,63.41,62.15,58.46],"NOW":[141.26,132.53,135.47,135.62,134.38,140.86,141.97,158.96,105.12,101.97,102.25,88.87],"NWS":[33.8,32.71,32.68,31.75,31.65,32.01,32.88,33.77,31.74,28.96,29.89,28.09],"NWSA":[30.29,29.44,29.78,28.49,28.69,29.12,30.03,30.74,29.12,26.39,26.97,25.31],"ONDS":[7.62,7.23,7.39,7.64,7.24,6.73,6.04,6.2,6.32,5.34,5.16,4.23],"ORCL":[158.19,149.73,147.07,136.59,141.78,141.4,128.23,126.16,130.67,116.1,125.35,110.57],"PFG":[116.68,116.17,117.67,114.77,111.96,107.24,108.81,108.57,111.63,110.91,113.55,107.13],"PLD":[136.26,134.68,134.84,133.05,128.91,129.49,125.75,126.45,127.98,126.96,128.67,123.36],"RDDT":[154.46,157.77,150.85,149.84,147.86,159.91,156.14,144.25,91.73,95.1,98.45,89.88],"ROK":[432.25,426.85,414.12,432.59,452.71,431.03,424.69,424.57,434.63,374.51,401.01,383.1],"SKYD":[10.81,10.55,10.21,9.96,9.5,9.16,6.91,7.77,7.95,8.01,7.52,6.34],"STLD":[241.48,239.22,234.7,233.1,231.99,238.38,240.54,241.53,250.8,222.9,229.43,218.26],"STT":[193.24,192.38,181.91,180.38,175.96,174.96,165.72,167.83,169.77,165.56,173.45,161.23],"STX":[848.6,829.51,858.1,916.83,848.99,783.0,639.01,630.49,644.58,460.99,528.29,521.39],"SW":[45.35,42.77,43.87,45.92,42.09,40.86,40.73,41.41,42.64,43.63,42.35,38.63],"SYF":[79.56,75.65,74.7,72.61,71.44,72.47,73.35,73.31,75.01,73.74,72.25,68.94],"TER":[357.03,379.72,371.47,398.38,449.04,402.68,325.0,308.85,274.37,218.22,249.55,227.43],"TFC":[51.11,49.87,48.05,47.16,45.97,45.63,46.58,47.94,48.28,48.87,49.97,46.67],"TPL":[362.42,369.1,352.67,341.07,340.19,360.98,350.92,338.26,331.68,272.36,291.91,277.72],"TT":[447.9,442.52,429.11,454.44,463.91,476.98,458.89,444.9,410.0,401.76,417.99,401.83],"UNH":[394.71,376.77,376.9,376.59,371.9,379.3,401.43,418.09,406.97,394.15,407.46,330.48],"USB":[62.78,62.26,59.5,58.78,57.51,57.08,58.73,59.58,59.45,59.45,60.99,57.26],"VST":[149.06,148.14,140.44,138.46,140.02,161.48,152.02,140.16,138.37,124.8,133.01,124.15],"WFC":[89.44,89.76,85.61,82.48,79.98,83.06,83.38,81.9,82.91,83.94,86.05,80.61],"WMB":[73.62,72.85,72.05,69.26,70.54,72.67,71.28,71.7,74.35,64.08,69.09,66.13],"XYZ":[82.76,79.21,76.28,76.42,74.33,77.24,77.89,76.46,76.22,85.48,84.58,74.23]},"monthly":{"ALNY":[266.11, 248.68, 239.56, 255.96, 219.72, 232.68, 231.83, 224.03, 165.0, 155.94, 165.04, 147.82],"APTV":[47.95, 45.54, 43.59, 44.79, 43.54, 43.8, 44.86, 42.69, 43.93, 39.44, 38.75, 37.36],"AXON":[515.67, 479.34, 447.76, 430.11, 413.35, 422.89, 390.29, 420.37, 427.77, 313.0, 315.43, 306.98],"BA":[212.25, 210.45, 198.2, 198.07, 193.56, 190.37, 190.21, 188.35, 171.55, 173.4, 171.5, 160.51],"BKNG":[192.82, 173.92, 167.9, 163.95, 159.02, 160.34, 163.45, 155.83, 148.13, 160.67, 159.58, 147.32],"CPT":[104.55, 101.9, 98.05, 97.06, 95.96, 97.58, 98.59, 102.0, 100.69, 99.44, 99.15, 96.28],"EXE":[97.27, 94.21, 86.92, 86.28, 84.97, 87.65, 92.8, 92.63, 89.96, 84.05, 88.53, 82.44],"FIS":[41.41, 38.14, 35.62, 35.41, 32.44, 34.04, 36.01, 37.53, 38.55, 28.73, 29.54, 25.94],"HBAN":[16.86, 16.69, 15.88, 15.64, 15.33, 15.32, 15.27, 15.73, 15.78, 15.47, 15.82, 14.71],"LII":[389.06, 364.66, 357.87, 372.36, 356.3, 356.44, 357.73, 376.01, 344.08, 341.97, 352.02, 342.62],"MELI":[1978.36, 1897.37, 1787.39, 1752.61, 1696.56, 1889.85, 1834.0, 1810.15, 1624.53, 1510.0, 1491.49, 1355.49],"NVR":[6298.85, 6160.76, 6150.47, 6297.6, 5993.85, 5899.16, 5919.82, 5983.68, 5958.56, 6298.29, 5853.92, 5494.21],"SKYD":[10.81, 10.55, 10.21, 9.96, 9.5, 9.16, 6.91, 7.77, 7.95, 8.01, 7.52, 6.34],"WY":[23.02, 22.06, 21.22, 20.01, 18.47, 19.1, 19.61, 19.49, 20.35, 20.98, 20.81, 19.54],"XYL":[105.69, 106.96, 107.56, 102.63, 101.79, 102.71, 104.05, 108.74, 92.4, 97.83, 94.18, 95.24]}};
-  window.__SPARKS = SPARKS;
   // Sparklines: a tiny inline SVG polyline under the price and the
   // vs-TTM-high line in every Price cell (desktop table and mobile
   // card alike — same cell). Decorative only; the price text carries
@@ -3583,21 +3552,16 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     var up = arr[arr.length - 1] >= arr[0];
     return '<svg class="spark' + (up ? ' spark-up' : '') + '" width="72" height="22" viewBox="0 0 72 22" aria-hidden="true" focusable="false"><polyline points="' + pts + '" fill="none" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>';
   }
-  function injectSparks(root){
-    (root || document).querySelectorAll('tbody tr').forEach(function(tr){
-    if (tr.querySelector('.spark')) return;
+  document.querySelectorAll('tbody tr').forEach(function(tr){
     var view = tr.closest('#view-monthly') ? 'monthly' : 'weekly';
-    var arr = ((window.__SPARKS || SPARKS)[view] || {})[tr.getAttribute('data-ticker')];
+    var arr = (SPARKS[view] || {})[tr.getAttribute('data-ticker')];
     var svg = sparkSVG(arr);
     if (!svg) return;
     var td = tr.querySelector('td[data-label="Price"]');
     if (!td) return;
     var wrap = td.querySelector('.price-wrap') || td;
     wrap.insertAdjacentHTML('beforeend', svg);
-    });
-  }
-  injectSparks(document);
-  window.__injectSparks = injectSparks;
+  });
   // Top picks: the 3 highest-scored rows on each tab, built from the
   // table data itself (score descending, ties by trailing P/E
   // ascending, loss-makers last), so a data refresh rebuilds the
@@ -3645,9 +3609,8 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
       return a.pe - b.pe;
     });
     var top = items.slice(0, 3);
-    if (!top.length){ mount.hidden = true; return; }
+    if (!top.length) return;
     var grid = mount.querySelector('.picks-grid');
-    grid.textContent = '';
     top.forEach(function(x){
       var card = document.createElement('article');
       card.className = 'pick-card';
@@ -3686,7 +3649,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   }
   buildPicks('view-weekly', 'picks-weekly');
   buildPicks('view-monthly', 'picks-monthly');
-  window.__buildPicks = function(){ buildPicks('view-weekly', 'picks-weekly'); buildPicks('view-monthly', 'picks-monthly'); };
   // Sticky toolbar: the market strip sticks at top:0 (via its
   // .mkt-sticky wrapper); the tab bar sticks directly beneath it
   // (offset via --mktH) and each tab's filter controls stick beneath
@@ -3723,7 +3685,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
   window.addEventListener('resize', function(){ measure(); onScroll(); });
   measure();
   onScroll();
-  window.__measureSticky = measure;
 })();
 </script>
 <script>
@@ -3968,7 +3929,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     render('weekly');
     render('monthly');
   }
-  window.__renderHeatmaps = renderAll;
   function applyMode(){
     btns.forEach(function(b){
       b.setAttribute('aria-pressed', b.getAttribute('data-viewmode') === modes[activeTab] ? 'true' : 'false');
@@ -4014,677 +3974,6 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(renderAll, 160);
   });
-})();
-</script>
-<script>
-(function(){
-  // ——— Live data: render from the GitHub Pages feed, baked-in page as fallback ———
-  // The page above is a complete baked-in snapshot and renders immediately.
-  // This script fetches the two dashboard JSON files from GitHub Pages
-  // (cache-busted, since Pages serves them with Cache-Control: max-age=600)
-  // and re-renders every data-driven region from the fetched data. If a
-  // fetch fails, the baked-in snapshot simply stays — no error state.
-  var W_URL = 'https://jkula123.github.io/bollingerDataFeed/dashboard_data.json';
-  var M_URL = 'https://jkula123.github.io/bollingerDataFeed/dashboard_data_monthly.json';
-  var MINUS = '\u2212';
-  var state = { W: null, M: null };
-  window.DASH_TOTALS = window.DASH_TOTALS || { weekly: 84, monthly: 15 };
-
-  // ——— Formatting helpers (mirror the baked-in markup exactly) ———
-  function esc(s){ return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-  function escA(s){ return esc(s).replace(/"/g, '&quot;'); }
-  function fmt1(v){ return v.toFixed(1); }
-  function fmt2(v){ return v.toFixed(2); }
-  function commas2(v){ return v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
-  function fmtPrice(v){ return '$' + commas2(v); }
-  function commas1(v){
-    var s = v.toFixed(1), parts = s.split('.');
-    parts[0] = Number(parts[0]).toLocaleString('en-US');
-    return parts.join('.');
-  }
-  function roundHalfEven(x){
-    var f = Math.floor(x), d = x - f;
-    if (d > 0.5) return f + 1;
-    if (d < 0.5) return f;
-    return f % 2 === 0 ? f : f + 1;
-  }
-  function moneyAbs(v){
-    var a = Math.abs(v);
-    if (a >= 1e9) return '$' + commas1(a / 1e9) + 'B';
-    if (a >= 1e6) return '$' + roundHalfEven(a / 1e6).toLocaleString('en-US') + 'M';
-    if (a >= 1e3) return '$' + roundHalfEven(a / 1e3) + 'k';
-    return '$' + roundHalfEven(a);
-  }
-  function fmtInsider(v){
-    if (!v) return '\u2014';
-    var sign = v > 0 ? '+' : MINUS, a = Math.abs(v);
-    if (a >= 1e6) return sign + '$' + commas1(a / 1e6) + 'M';
-    if (a >= 1e3) return sign + '$' + roundHalfEven(a / 1e3) + 'k';
-    return sign + '$' + a;
-  }
-  function fmtF13(v, strip){
-    var sign = v >= 0 ? '+' : MINUS, a = Math.abs(v);
-    if (a >= 1e9) return sign + '$' + (a / 1e9).toFixed(2) + 'B';
-    if (a >= 1e6){
-      var s = commas1(a / 1e6);
-      if (strip && s.slice(-2) === '.0') s = s.slice(0, -2);
-      return sign + '$' + s + 'M';
-    }
-    if (a >= 1e3) return sign + '$' + roundHalfEven(a / 1e3) + 'k';
-    return sign + '$' + roundHalfEven(a);
-  }
-  function fmtGrowth(v){
-    var sign = v >= 0 ? '+' : MINUS, a = Math.abs(v);
-    if (a >= 200) return sign + roundHalfEven(a) + '%';
-    return sign + a.toFixed(1) + '%';
-  }
-  function fmtChange(v){ return (v >= 0 ? '+' : MINUS) + Math.abs(v).toFixed(2) + '%'; }
-  function fmtPct(p, monthly){
-    return '(' + (p >= 0 ? '+' : (monthly ? '-' : MINUS)) + commas1(Math.abs(p)) + '%)';
-  }
-  function raw(v){ return v == null ? '' : String(v); }
-  var SUFFIXES = ['Corporation','Incorporated','Limited','Company','Corp.','Corp','Inc.','Inc','Ltd.','Ltd','LLC','PLC','N.V.','NV','S.A.','SA','Co.','Co','AG','SE'];
-  function trimName(rawName){
-    var name = String(rawName || '').replace(/^\(|\)$/g, '').trim();
-    name = name.replace(/^The\s+/i, '');
-    var changed = true;
-    while (changed){
-      changed = false;
-      name = name.replace(/[\s,]+$/, '');
-      for (var i = 0; i < SUFFIXES.length; i++){
-        var s = SUFFIXES[i];
-        if (name.length > s.length && name.slice(-s.length).toLowerCase() === s.toLowerCase() && /[\s,]/.test(name.charAt(name.length - s.length - 1))){
-          name = name.slice(0, name.length - s.length); changed = true; break;
-        }
-      }
-    }
-    return name.replace(/[\s,&]+$/, '').trim();
-  }
-  function initials(name){
-    var t = trimName(name), words = t.split(/\s+/).filter(Boolean);
-    if (words.length >= 2) return (words[0].charAt(0) + words[1].charAt(0)).toUpperCase();
-    return t.slice(0, 2).toUpperCase();
-  }
-  function isNearScreaming(s){
-    if (s.high_debt) return false;
-    if (s.undervalued && s.rsi != null && s.rsi >= 30 && s.rsi <= 40) return true;
-    if (s.oversold && s.pe != null && s.pe >= 12 && s.pe <= 20 && s.forward_pe != null && s.forward_pe < 15) return true;
-    return false;
-  }
-  function sectorOf(s){ return s.sector || 'ETF'; }
-  function peSort(a, b){
-    var ap = a.pe == null ? Infinity : a.pe, bp = b.pe == null ? Infinity : b.pe;
-    return ap - bp;
-  }
-  var MONS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  var MONL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  var DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-  function parseISO(iso){ var p = String(iso).slice(0, 10).split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
-  function fmtDayLong(iso){ var d = parseISO(iso); return DOW[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MONS[d.getUTCMonth()] + ' ' + d.getUTCFullYear(); }
-  function fmtDayShort(iso){ var d = parseISO(iso); return d.getUTCDate() + ' ' + MONS[d.getUTCMonth()] + ' ' + d.getUTCFullYear(); }
-  function prevWeekday(iso){
-    var d = parseISO(iso);
-    do { d.setUTCDate(d.getUTCDate() - 1); } while (d.getUTCDay() === 0 || d.getUTCDay() === 6);
-    return d;
-  }
-  function fmtD(d){ return DOW[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MONS[d.getUTCMonth()]; }
-  function monthParts(asOf){
-    var m = /^([A-Za-z]+)\s+(\d{4})/.exec(String(asOf || ''));
-    if (!m) return null;
-    var idx = MONS.indexOf(m[1].slice(0, 3));
-    if (idx < 0) idx = MONL.indexOf(m[1]);
-    return { abbr: MONS[idx], long: MONL[idx], idx: idx, year: +m[2] };
-  }
-  function coName(full){ return '<span class="co-name">(' + esc(full) + ')</span>'; }
-  function joinAnd(parts){
-    if (!parts.length) return '';
-    if (parts.length === 1) return parts[0];
-    return parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1];
-  }
-  function strongList(stocks){ return joinAnd(stocks.map(function(s){ return '<strong>' + s.ticker + ' ' + coName(s.name) + '</strong>'; })); }
-  function legendList(stocks){ return joinAnd(stocks.map(function(s){ return s.ticker + ' ' + coName(s.name); })); }
-  function plainList(stocks){ return joinAnd(stocks.map(function(s){ return s.ticker; })); }
-
-  // ——— Row builder: one <tr> per stock, same markup as the baked-in rows ———
-  function buildRow(s, monthly, monAbbr){
-    var tk = s.ticker, sector = sectorOf(s), name = s.name || '';
-    var ns = isNearScreaming(s);
-    var flags = [];
-    if (s.undervalued) flags.push('undervalued');
-    if (ns) flags.push('nearscreaming');
-    if (s.high_debt) flags.push('highdebt');
-    if (s.squeeze) flags.push('squeeze');
-    if (s.sma4h === 'up' || s.sma4h === 'flat') flags.push('sma4h');
-    var chg = monthly ? s.month_change_pct : s.day_change_pct;
-    var out = [];
-    out.push('<tr data-ticker="' + escA(tk) + '" data-sector="' + escA(sector) + '" data-search="' + escA((tk + ' ' + sector + ' ' + name).toLowerCase()) + '" data-flags="' + flags.join(' ') + '" data-mcap="' + raw(s.market_cap) + '" data-change="' + raw(chg) + '" data-status="' + escA(s.status || '') + '">');
-    out.push('<td data-label="Ticker"><span class="ticker"><img class="co-logo" src="' + escA(s.logo || '') + '" alt="" width="28" height="28" loading="lazy" data-initials="' + initials(name) + '" onerror="logoFallback(this)">' + esc(tk) + (s.is_new ? ' <span class="new-badge">NEW</span>' : '') + ' <span class="co-name">' + esc(name) + '</span></span><span class="ticker-sector">' + esc(sector) + '</span></td>');
-    var tip = s.score_tip || '';
-    out.push('<td data-label="Score" class="num" data-score="' + raw(s.score) + '" title="' + escA(tip) + '"><span class="score-wrap"><span class="score-main">' + s.score + '/10</span></span></td>');
-    // Price
-    var dayHtml = '';
-    if (chg != null){
-      dayHtml = '<br><span class="price-day ' + (chg >= 0 ? 'day-up' : 'day-down') + '">' + fmtChange(chg) + ' ' + (monthly ? 'in ' + monAbbr : 'today') + '</span>';
-    }
-    var vsHtml = '';
-    if (s.vs_ttm_high != null && s.ttm_high != null){
-      var vsTxt = (s.vs_ttm_high < 0 ? MINUS + Math.abs(s.vs_ttm_high) : String(s.vs_ttm_high)) + '% vs TTM high ' + fmtPrice(s.ttm_high);
-      var td = String(s.ttm_high_date || '').split('-');
-      var tTitle = 'TTM high ' + fmtPrice(s.ttm_high) + (td[1] ? ' (' + MONS[+td[1] - 1] + ' ' + td[0] + ')' : '');
-      vsHtml = '<br><span class="price-vs" title="' + escA(tTitle) + '">' + vsTxt + '</span>';
-    }
-    out.push('<td data-label="Price" class="num" data-price="' + raw(s.latest) + '"><span class="price-wrap"><span class="price-main">' + fmtPrice(s.latest) + '</span>' + dayHtml + vsHtml + '</span></td>');
-    // P/E
-    if (s.pe == null){
-      out.push('<td data-label="P/E" class="num">\u2014</td>');
-    } else {
-      var cls = (s.pe15y != null && s.pe > s.pe15y) ? 'pe-high' : 'pe-main';
-      var ttmHtml = s.pe_ttm_high != null ? '<br><span class="pe-ttm">(' + fmt1(s.pe_ttm_high) + ') TTM high</span>' : '';
-      out.push('<td data-label="P/E" class="num"><span class="pe-wrap"><span class="' + cls + '">' + fmt1(s.pe) + '</span>' + ttmHtml + '</span></td>');
-    }
-    // Avg P/E
-    if (s.pe15y == null){
-      out.push('<td data-label="Avg P/E" class="num">\u2014</td>');
-    } else if (s.pe10y === s.pe15y && s.pe10y_years === s.pe15y_years){
-      out.push('<td data-label="Avg P/E" class="num" data-pe15="' + fmt1(s.pe15y) + '"><span class="pe-avg-wrap"><span class="pe-avg-line"><span class="pe10-main">' + fmt1(s.pe10y) + '</span> <span class="pe-avg-years">(' + s.pe10y_years + 'y)</span></span></span></td>');
-    } else {
-      out.push('<td data-label="Avg P/E" class="num" data-pe15="' + fmt1(s.pe15y) + '"><span class="pe-avg-wrap"><span class="pe-avg-line"><span class="pe10-main">' + fmt1(s.pe10y) + '</span> <span class="pe-avg-years">(' + s.pe10y_years + 'y)</span></span><span class="pe-avg-line"><span class="pe15-main">' + fmt1(s.pe15y) + '</span> <span class="pe-avg-years">(' + s.pe15y_years + 'y)</span></span></span></td>');
-    }
-    // Fwd P/E (a non-positive forward P/E renders as missing, like the baked rows)
-    if (s.forward_pe == null || s.forward_pe <= 0){
-      out.push('<td data-label="Fwd P/E" class="num">\u2014</td>');
-    } else {
-      var f2 = (s.forward_pe_2y != null && s.forward_pe_2y > 0) ? '<br><span class="fwd2-line">' + fmt1(s.forward_pe_2y) + ' <span class="fwd-years">(2y)</span></span>' : '';
-      out.push('<td data-label="Fwd P/E" class="num" data-fwdpe="' + fmt1(s.forward_pe) + '"><span class="fwd-wrap"><span class="fwd1-main">' + fmt1(s.forward_pe) + '</span> <span class="fwd-years">(1y)</span>' + f2 + '</span></td>');
-    }
-    // P/S & FCF
-    if (s.ps == null){
-      out.push('<td data-label="P/S &amp; FCF" class="num">\u2014</td>');
-    } else {
-      var g = '';
-      if (s.fcf_qoq != null) g += '<br><span class="ps-growth">' + fmtGrowth(s.fcf_qoq) + ' QoQ</span>';
-      if (s.fcf_yoy != null) g += '<br><span class="ps-growth">' + fmtGrowth(s.fcf_yoy) + ' YoY</span>';
-      var fcfTxt = s.fcf_ttm == null ? '' : '<br><span class="ps-fcf">' + (s.fcf_ttm < 0 ? 'FCF ' + MINUS : 'FCF ') + moneyAbs(s.fcf_ttm) + '</span>';
-      out.push('<td data-label="P/S &amp; FCF" class="num" data-ps="' + fmt2(s.ps) + '"><span class="ps-wrap"><span class="ps-main">' + fmt2(s.ps) + '</span>' + fcfTxt + g + '</span></td>');
-    }
-    // R40
-    function r40Line(v, kind){
-      var inner = v > 40 ? '<strong>' + fmt1(v) + '</strong>' : (v < 0 ? '<span class="r40-neg-pill">' + fmt1(v) + '</span>' : fmt1(v));
-      return '<span class="r40-line" data-kind="' + kind + '" data-val="' + fmt1(v) + '">' + inner + ' <span class="r40-kind">(' + kind + ')</span></span>';
-    }
-    if (s.rule40 == null && s.rule40_fcf == null){
-      out.push('<td data-label="R40" class="num">\u2014</td>');
-    } else {
-      var lines = '';
-      if (s.rule40 != null) lines += r40Line(s.rule40, 'EBITDA');
-      if (s.rule40_fcf != null) lines += r40Line(s.rule40_fcf, 'FCF');
-      out.push('<td data-label="R40" class="num"' + (s.rule40 != null ? ' data-r40="' + fmt1(s.rule40) + '"' : '') + '><span class="r40-wrap">' + lines + '</span></td>');
-    }
-    // Cash / Debt
-    if (s.cash == null || s.debt == null){
-      out.push('<td data-label="Cash / Debt" class="num">\u2014</td>');
-    } else {
-      var cTxt = moneyAbs(s.cash);
-      if (!monthly && (s.net_cash || 0) > 0) cTxt = '<span class="cash-pos">' + cTxt + '</span>';
-      out.push('<td data-label="Cash / Debt" class="num" data-netcash="' + raw(s.net_cash) + '">' + cTxt + ' / ' + moneyAbs(s.debt) + '</td>');
-    }
-    // Short
-    if (s.short_pct == null && s.days_to_cover == null){
-      out.push('<td data-label="Short" class="num">\u2014</td>');
-    } else {
-      var main = s.short_pct == null ? 'n/a' : fmt1(s.short_pct) + '%';
-      var dtHtml = s.days_to_cover != null ? '<br><span class="short-dtc">' + fmt1(s.days_to_cover) + 'd</span>' : '';
-      out.push('<td data-label="Short" class="num"' + (s.short_pct != null ? ' data-short="' + fmt1(s.short_pct) + '"' : '') + '><span class="short-wrap"><span class="short-main">' + main + '</span>' + dtHtml + '</span></td>');
-    }
-    // Months touching (monthly tables only)
-    if (monthly){
-      out.push('<td data-label="Months touching" class="num">' + (s.months_touching == null ? '\u2014' : s.months_touching) + '</td>');
-    }
-    // Insiders
-    var net = s.insider_net_dollars_3m || 0;
-    var inner;
-    if (!net) inner = '\u2014';
-    else if (net > 5e6) inner = '<span class="insider-pill insider-pill-buy">' + fmtInsider(net) + '</span>';
-    else if (net < -25e6) inner = '<span class="insider-pill insider-pill-sell">' + fmtInsider(net) + '</span>';
-    else inner = fmtInsider(net);
-    out.push('<td data-label="Insiders \u00B7 3 mo" class="insider"><span class="insider-wrap">' + inner + '<br><span class="insider-bs">' + (s.insider_buy_trans_3m || 0) + 'B/' + (s.insider_sell_trans_3m || 0) + 'S</span></span></td>');
-    // 13F
-    var moves = s.f13_moves || [];
-    if (!moves.length){
-      out.push('<td data-label="13F" class="f13-cell">\u2014</td>');
-    } else {
-      var netF = s.f13_net_dollars || 0;
-      var fl = '';
-      for (var i = 0; i < Math.min(3, moves.length); i++){
-        var mv = moves[i];
-        var pct = '';
-        if ((mv.action === 'ADD' || mv.action === 'TRIM') && mv.pct != null) pct = ' ' + fmtPct(mv.pct, monthly);
-        fl += '<span class="f13-line' + (i === 2 ? ' f13-third' : '') + '"><span class="f13-mgr">' + esc(mv.mgr) + '</span> <span class="f13-act">' + esc(mv.action) + '</span> <span class="' + (mv.dollars > 0 ? 'f13-buy' : 'f13-sell') + '">' + fmtF13(mv.dollars, true) + pct + '</span></span>';
-      }
-      var pill = '<span class="f13-net-pill ' + (netF > 0 ? 'f13-net-buy' : 'f13-net-sell') + '">' + fmtF13(netF, !monthly) + '</span>';
-      var netLine;
-      if (moves.length <= 2) netLine = 'Net ' + pill;
-      else if (moves.length === 3) netLine = 'Net ' + pill + ' \u00B7 3 moves';
-      else netLine = '+' + (moves.length - 3) + ' more \u00B7 net ' + pill;
-      fl += '<span class="f13-line f13-net">' + netLine + '</span>';
-      out.push('<td data-label="13F" class="f13-cell" data-net="' + raw(netF) + '"><span class="f13-lines">' + fl + '</span></td>');
-    }
-    // Flags
-    if (!flags.length){
-      out.push('<td data-label="Flags" class="flags-cell"><span class="flag-none">\u2014</span></td>');
-    } else {
-      var parts = [];
-      if (flags.indexOf('undervalued') > -1) parts.push('<span class="flag flag-uv" title="Undervalued: trailing P/E below 12 and forward P/E below 15, no high-debt flag">\uD83D\uDC8E Undervalued</span>');
-      if (flags.indexOf('nearscreaming') > -1) parts.push('<span class="flag flag-ns" title="Near screaming buy: undervalued with RSI 30\u201340, or oversold with trailing P/E 12\u201320 and forward P/E below 15">\uD83D\uDD36 Near screaming buy</span>');
-      if (flags.indexOf('highdebt') > -1) parts.push('<span class="flag flag-hd" title="High debt: debt-to-equity above 2, or net debt above 50% of market cap">\u26A0\uFE0F High debt</span>');
-      if (flags.indexOf('squeeze') > -1) parts.push('<span class="flag flag-squeeze" title="Possible short squeeze: at least 10% of float short and at least 3 days to cover">\uD83D\uDD25 SQUEEZE</span>');
-      if (flags.indexOf('sma4h') > -1){
-        if (s.sma4h === 'up') parts.push('<span class="flag flag-4hup" title="4H trend up: 20-period average on 4-hour bars up more than 0.5% over the last 5 bars">\uD83D\uDCC8 4H SMA \u2191</span>');
-        else parts.push('<span class="flag flag-4hflat" title="4H trend flat: 20-period average on 4-hour bars within \u00B10.5% over the last 5 bars">\u27A1\uFE0F 4H SMA \u2192</span>');
-      }
-      out.push('<td data-label="Flags" class="flags-cell">' + parts.join(' ') + '</td>');
-    }
-    // Score description (mobile Analysis block)
-    var tipLines = tip.split('\n');
-    var desc = '<td class="score-desc-cell"><div class="score-desc"><div class="score-desc-label">Analysis</div><span class="score-desc-line score-desc-head">' + esc(tipLines[0] || '') + '</span>';
-    for (var li = 1; li < tipLines.length; li++){
-      var mm = /^([A-Za-z]+ \(\d+\/2\)): (.*)$/.exec(tipLines[li]);
-      if (mm) desc += '<span class="score-desc-line"><strong class="score-desc-leg">' + esc(mm[1]) + ':</strong> ' + esc(mm[2]) + '</span>';
-      else if (tipLines[li]) desc += '<span class="score-desc-line">' + esc(tipLines[li]) + '</span>';
-    }
-    desc += '</div></td>';
-    out.push(desc);
-    out.push('</tr>');
-    return out.join('\n');
-  }
-
-  // Exposed for verification; harmless in the page.
-  window.DASH_RENDER = { buildRow: buildRow, isNearScreaming: isNearScreaming };
-
-  if (typeof document === 'undefined' || !document.getElementById) return;
-
-  // ——— Region renderers ———
-  function $(id){ return document.getElementById(id); }
-  function byTicker(stocks){
-    var map = {};
-    stocks.forEach(function(s){ map[s.ticker] = s; });
-    return map;
-  }
-  function setTbody(sectionId, stocks, monthly, monAbbr){
-    var sec = $(sectionId);
-    if (!sec) return;
-    var tbody = sec.querySelector('tbody');
-    if (!tbody) return;
-    tbody.innerHTML = stocks.map(function(s){ return buildRow(s, monthly, monAbbr); }).join('\n');
-  }
-  function splitSorted(stocks){
-    var touch = stocks.filter(function(s){ return s.status === 'touch'; }).sort(peSort);
-    var near = stocks.filter(function(s){ return s.status !== 'touch'; }).sort(peSort);
-    return { touch: touch, near: near };
-  }
-  function buildSectorOptions(selId, stocks){
-    var sel = $(selId);
-    if (!sel) return;
-    var cur = sel.value;
-    var seen = {}, list = [];
-    stocks.forEach(function(s){
-      var sec = sectorOf(s);
-      if (!seen[sec]){ seen[sec] = true; list.push(sec); }
-    });
-    list.sort();
-    sel.innerHTML = '<option value="">All sectors</option>' + list.map(function(sec){
-      return '<option value="' + escA(sec) + '">' + esc(sec) + '</option>';
-    }).join('');
-    if (cur && seen[cur]) sel.value = cur;
-  }
-  function updateSparks(key, stocks){
-    if (!window.__SPARKS) window.__SPARKS = { weekly: {}, monthly: {} };
-    var map = {};
-    stocks.forEach(function(s){ if (s.spark && s.spark.length) map[s.ticker] = s.spark; });
-    window.__SPARKS[key] = map;
-  }
-  function updateF13Titles(quarter){
-    if (!quarter) return;
-    document.querySelectorAll('th.th-f13').forEach(function(th){ th.setAttribute('title', 'Major 13F moves, ' + quarter); });
-    document.querySelectorAll('.legend span').forEach(function(sp){
-      if (sp.innerHTML.indexOf('<strong>13F</strong>') === 0) sp.innerHTML = sp.innerHTML.replace(/Q\d \d{4}/, quarter);
-    });
-    var foot = $('footNote');
-    if (foot) foot.innerHTML = foot.innerHTML.replace(/their Q\d \d{4} 13F filings/, 'their ' + quarter + ' 13F filings');
-  }
-  function detailGridWeekly(s){
-    var peTxt = s.pe == null ? '\u2014' : fmt1(s.pe);
-    var fwTxt = (s.forward_pe == null || s.forward_pe <= 0) ? '\u2014' : fmt1(s.forward_pe);
-    var revTxt = s.revenue_growth == null ? '\u2014' : ((s.revenue_growth >= 0 ? '+' : MINUS) + Math.abs(s.revenue_growth).toFixed(1) + '%');
-    var cells = [
-      ['Ticker \u00B7 Sector', esc(s.ticker) + ' ' + coName(s.name) + ' <small>\u00B7 ' + esc(sectorOf(s)) + '</small>'],
-      ['Price', fmtPrice(s.latest)],
-      ['RSI (14-wk)', (s.rsi == null ? '\u2014' : fmt1(s.rsi)) + ' <small>\uD83D\uDD3B oversold</small>'],
-      ['P/E \u00B7 Fwd P/E', peTxt + ' \u00B7 ' + fwTxt],
-      ['Weeks touching', String(s.weeks_touching == null ? '\u2014' : s.weeks_touching)],
-      ['FCF yield', (s.fcf_yield == null ? '\u2014' : fmt1(s.fcf_yield) + '%')],
-      ['Revenue growth YoY', revTxt],
-      ['Volume ratio', (s.vol_ratio == null ? '\u2014' : s.vol_ratio.toFixed(2) + '\u00D7') + ' <small>vs 20-wk avg</small>'],
-      ['Insiders \u00B7 3 mo', fmtInsider(s.insider_net_dollars_3m || 0) + ' <small>(' + (s.insider_buy_trans_3m || 0) + 'B / ' + (s.insider_sell_trans_3m || 0) + 'S)</small>']
-    ];
-    return cells.map(function(c){ return '<div><div class="k">' + c[0] + '</div><div class="v">' + c[1] + '</div></div>'; }).join('');
-  }
-
-  var origMonthlySeg = null;
-  (function captureOrig(){
-    var sp = $('legendNearW');
-    if (sp){
-      var m = /\u00B7 Monthly: ([\s\S]*)\)$/.exec(sp.textContent || '');
-      if (m) origMonthlySeg = m[1];
-    }
-  })();
-
-  function nearList(stocks){ return stocks.filter(isNearScreaming); }
-
-  function renderScreamWeekly(d, stocks){
-    var screaming = (d.screaming_buys || []).map(function(t){ return byTicker(stocks)[t]; }).filter(Boolean);
-    var pill = $('screamPill');
-    var compact = $('screamCompact');
-    var full = $('screamFull');
-    if (!screaming.length){
-      if (pill) pill.textContent = '0 today';
-      if (compact) compact.style.display = '';
-      if (full) full.style.display = 'none';
-      var uv = stocks.filter(function(s){ return s.undervalued; });
-      var uvByRsi = uv.slice().sort(function(a, b){ return (a.rsi || 999) - (b.rsi || 999); });
-      var oversold = stocks.filter(function(s){ return s.oversold; });
-      var map = byTicker(stocks);
-      var overByJson = (d.oversold || []).map(function(pair){ return map[pair[0]]; }).filter(Boolean);
-      var overEnum = overByJson.length ? overByJson : oversold;
-      var overByPe = oversold.slice().sort(peSort);
-      var closest = uvByRsi[0] || stocks.slice().sort(function(a, b){ return (a.rsi || 999) - (b.rsi || 999); })[0];
-      var line = $('screamLine');
-      if (line && closest && closest.rsi != null){
-        for (var i = 0; i < line.childNodes.length; i++){
-          if (line.childNodes[i].nodeType === 3 && line.childNodes[i].textContent.trim()){
-            line.childNodes[i].textContent = 'No screaming buys today \u2014 closest: ' + closest.ticker + ', RSI ' + fmt1(closest.rsi) + ' ';
-            break;
-          }
-        }
-      }
-      var emptyP = $('screamEmptyP');
-      if (emptyP){
-        if (!uv.length || !overEnum.length){
-          emptyP.innerHTML = 'The two legs don&rsquo;t overlap in this snapshot: <strong>' + uv.length + ' undervalued</strong> stock' + (uv.length === 1 ? '' : 's') + ' and <strong>' + (overEnum.length ? 'only ' + overEnum.length : 'no') + ' oversold</strong> stock' + (overEnum.length === 1 ? '' : 's') + ', so this section is empty.';
-        } else {
-          var enumTxt = joinAnd(overEnum.map(function(s){
-            return '<strong>' + s.ticker + ' ' + coName(s.name) + '</strong> (RSI ' + fmt1(s.rsi) + ', ' + (s.pe == null ? 'no P/E \u2014 loss-making' : 'P/E ' + fmt1(s.pe) + ' \u2014 not undervalued') + ')';
-          }));
-          emptyP.innerHTML = 'The two legs don&rsquo;t overlap in this snapshot: <strong>' + uv.length + ' undervalued</strong> stocks, <strong>none oversold</strong> \u2014 and <strong>only ' + overEnum.length + ' oversold</strong> stocks, ' + enumTxt + '. No name is both, so this section is empty.';
-        }
-      }
-      var valCount = $('legValCount');
-      if (valCount) valCount.innerHTML = uv.length + ' <span style="font-size:14px;font-weight:600;color:var(--muted)">names \u00B7 0 oversold</span>';
-      var valNote = $('legValNote');
-      if (valNote){
-        if (closest && uv.length && closest.rsi != null) valNote.innerHTML = 'Closest to the oversold line is <strong>' + closest.ticker + ' ' + coName(closest.name) + ' \u2014 RSI ' + fmt1(closest.rsi) + '</strong>, still ' + (closest.rsi - 30).toFixed(1) + ' points above the &lt; 30 threshold. The rest are further away, so the value side is waiting on momentum, not price.';
-        else valNote.textContent = 'No undervalued names in this snapshot.';
-      }
-      var valList = $('legValList');
-      if (valList){
-        valList.innerHTML = uvByRsi.map(function(s, i){
-          return '<span' + (i === 0 ? ' class="closest"' : '') + '>' + s.ticker + ' ' + coName(s.name) + ' <em>RSI ' + fmt1(s.rsi) + '</em></span>';
-        }).join('');
-      }
-      var momCount = $('legMomCount');
-      if (momCount) momCount.innerHTML = oversold.length + ' <span style="font-size:14px;font-weight:600;color:var(--muted)">names \u00B7 0 undervalued</span>';
-      var detail = overByPe.filter(function(s){ return s.pe != null; })[0] || overEnum[0] || null;
-      var momNote = $('legMomNote');
-      if (momNote){
-        if (!overByPe.length){
-          momNote.textContent = 'No names are oversold in this snapshot.';
-        } else {
-          var segs = overByPe.map(function(s){
-            return s.pe == null
-              ? s.ticker + ' is loss-making, so it has no trailing P/E at all'
-              : s.ticker + ' misses the value leg \u2014 it would need a trailing P/E below 12 (currently ' + fmt1(s.pe) + ')';
-          });
-          var joined = segs.length === 1 ? segs[0] : segs.slice(0, -1).join(', ') + ' \u2014 and ' + segs[segs.length - 1];
-          momNote.innerHTML = strongList(overByPe) + (overByPe.length === 1 ? ' is the one oversold name. ' : ' are the ' + (overByPe.length === 2 ? 'two' : overByPe.length) + ' oversold names. ') + joined + '.' + (detail ? ' ' + detail.ticker + ' is shown below in the full detail a screaming buy will carry when one qualifies.' : '');
-        }
-      }
-      var grid = $('legDetail');
-      if (grid) grid.innerHTML = detail ? detailGridWeekly(detail) : '';
-      var foot = $('screamFoot');
-      if (foot){
-        var marker = '<strong>Closest today:</strong>';
-        var idx = foot.innerHTML.indexOf(marker);
-        var prefix = idx > -1 ? foot.innerHTML.slice(0, idx) : foot.innerHTML;
-        var near = nearList(stocks);
-        if (near.length){
-          foot.innerHTML = prefix + marker + ' ' + strongList(near) + ' carr' + (near.length === 1 ? 'ies' : 'y') + ' the \uD83D\uDD36 <strong>Near screaming buy</strong> flag in the tables below \u2014 each has one leg in full and is close on the other. Use the \uD83D\uDD36 filter above the tables to isolate ' + (near.length === 1 ? 'it' : 'them') + '.';
-        } else {
-          foot.innerHTML = prefix.replace(/\s+$/, '');
-        }
-      }
-    } else {
-      if (pill) pill.textContent = screaming.length + ' today';
-      if (compact) compact.style.display = 'none';
-      if (!full && compact){
-        full = document.createElement('div');
-        full.id = 'screamFull';
-        compact.parentNode.insertBefore(full, compact.nextSibling);
-      }
-      if (full){
-        full.style.display = '';
-        full.innerHTML = '<p class="sec-sub">The highest-conviction subset of this watchlist \u2014 a name has to clear <strong>both</strong> tests at once: \uD83D\uDC8E undervalued (trailing P/E &lt; 12, forward P/E &lt; 15, no high-debt flag) <strong>and</strong> \uD83D\uDD3B oversold (14-week RSI &lt; 30).</p>'
-          + '<div class="scream-card">' + screaming.map(function(s){
-              return '<div style="padding:16px 18px 18px"><div class="detail-grid" style="margin-top:0">' + detailGridWeekly(s) + '</div></div>';
-            }).join('')
-          + '<div class="criteria" aria-label="Screaming buy criteria"><span>\uD83D\uDC8E Undervalued: trailing P/E &lt; 12</span><span>Forward P/E &lt; 15</span><span>No high-debt flag</span><span>\uD83D\uDD3B Oversold: 14-week RSI &lt; 30</span><span>On the watchlist: touching or close to the band</span></div></div>';
-      }
-    }
-  }
-
-  function renderWeekly(d){
-    state.W = d;
-    window.DASH_TOTALS.weekly = d.stocks.length;
-    var parts = splitSorted(d.stocks);
-    setTbody('sec-touch', parts.touch, false, null);
-    setTbody('sec-near', parts.near, false, null);
-    var iso = String(d.as_of || '').slice(0, 10);
-    var tabSub = $('tabSubW');
-    if (tabSub && iso) tabSub.textContent = '20-week band \u00B7 ' + fmtDayLong(iso) + ' close';
-    var asof = $('asofW');
-    if (asof) asof.innerHTML = '<span class="dot" aria-hidden="true"></span> Updated: ' + fmtDayShort(d.check_date) + ' \u00B7 Data as of ' + fmtDayLong(iso) + ' close \u00B7 ' + (d.intraweek ? 'Intra-week snapshot' : 'Confirmed weekly scan');
-    var alert = $('alertW');
-    if (alert) alert.hidden = !d.intraweek;
-    var stats = $('statsW');
-    if (stats){
-      var cards = stats.querySelectorAll('.stat');
-      var uvCount = (d.undervalued || []).length;
-      var hdCount = d.stocks.filter(function(s){ return s.high_debt; }).length;
-      if (cards[0]){ cards[0].querySelector('.n').textContent = d.stocks.length; cards[0].querySelector('.sub').textContent = parts.touch.length + ' touching + ' + parts.near.length + ' close'; }
-      if (cards[1]) cards[1].querySelector('.n').textContent = uvCount;
-      if (cards[2]) cards[2].querySelector('.n').textContent = hdCount;
-      if (cards[3]) cards[3].querySelector('.n').textContent = (d.screaming_buys || []).length;
-    }
-    renderScreamWeekly(d, d.stocks);
-    buildSectorOptions('sectorSel', d.stocks);
-    var hmCount = $('hmCountW');
-    if (hmCount) hmCount.textContent = 'All ' + d.stocks.length + ' names \u00B7 touching + close together';
-    var hmCap = $('hmCapW');
-    if (hmCap && iso){
-      var prev = prevWeekday(iso);
-      hmCap.innerHTML = '<strong>Colored by today&rsquo;s move</strong> (' + fmtD(parseISO(iso)) + ' close vs ' + fmtD(prev) + '). Tile size by <strong>market cap on a square-root scale</strong>, so the largest names don&rsquo;t crowd out the smallest. Tiles grouped by sector.';
-    }
-    updateSparks('weekly', d.stocks);
-    updateF13Titles(d.f13_quarter);
-  }
-
-  function renderMonthly(d){
-    state.M = d;
-    window.DASH_TOTALS.monthly = d.stocks.length;
-    var mp = monthParts(d.as_of) || { abbr: 'Nov', long: 'November', idx: 10, year: 2026 };
-    var parts = splitSorted(d.stocks);
-    setTbody('sec-month-touch', parts.touch, true, mp.abbr);
-    setTbody('sec-month-near', parts.near, true, mp.abbr);
-    var tabSub = $('tabSubM');
-    if (tabSub) tabSub.textContent = '20-month band \u00B7 ' + d.as_of;
-    var headCount = $('mHeadCount');
-    if (headCount) headCount.textContent = d.stocks.length + ' names';
-    var banner = $('mBannerTitle');
-    if (banner) banner.innerHTML = '<small>Monthly list</small>Updated: ' + fmtDayShort(d.check_date);
-    var dataLine = $('mDataLine');
-    if (dataLine){
-      dataLine.textContent = d.read_type === 'intra-month'
-        ? 'Data as of ' + mp.long + ' ' + mp.year + ' (in progress) \u2014 developing intra-month read'
-        : 'Data as of ' + d.confirmed_as_of + ' \u2014 confirmed monthly scan (closed months only)';
-    }
-    var meta = $('mMeta');
-    if (meta){
-      var nextTxt = String(d.next_update || '')
-        .replace(/^Next check:/, 'Next update:')
-        .replace('(intra-month);', '(intra-month check) \u00B7')
-        .replace('(intra-month)', '(intra-month check)')
-        .replace(/; /g, ' \u00B7 ');
-      meta.innerHTML = '<span>Fundamentals as of ' + fmtDayShort(d.check_date) + '</span>'
-        + '<span>' + esc(nextTxt) + '</span>'
-        + '<span>' + parts.touch.length + ' touching + ' + parts.near.length + ' close</span>'
-        + '<span>Confirmed at ' + esc(d.confirmed_as_of || '') + ': ' + (d.confirmed_touching || []).join(', ') + ' touching \u00B7 ' + (d.confirmed_near || []).join(', ') + ' close</span>';
-    }
-    var note = $('mNote');
-    if (note && d.read_type === 'intra-month'){
-      var nextDate = new Date(Date.UTC(mp.year, mp.idx + 1, 1));
-      var confTouch = (d.confirmed_touching || []).map(function(t){ return { ticker: t }; });
-      var confNear = (d.confirmed_near || []).map(function(t){ return { ticker: t }; });
-      var strongPlain = function(list){ return joinAnd(list.map(function(s){ return '<strong>' + s.ticker + '</strong>'; })); };
-      var confMonthDate = new Date(Date.UTC(mp.year, mp.idx - 1, 1));
-      note.innerHTML = 'This is a <strong>developing intra-month read</strong>: prices are the latest closes in ' + mp.long + ' ' + mp.year + ', checked against the <strong>20-month lower Bollinger Band</strong> (20-month, 2 std dev) computed from closed months only \u2014 touches can reverse before ' + mp.long + ' closes, and the confirmed check runs <strong>1 ' + MONS[nextDate.getUTCMonth()] + ' ' + nextDate.getUTCFullYear() + '</strong>. For reference, the confirmed list at the <strong>' + MONL[confMonthDate.getUTCMonth()] + ' ' + confMonthDate.getUTCFullYear() + ' close</strong> was: ' + strongPlain(confTouch) + ' touching; ' + strongPlain(confNear) + ' close. The <strong>Updated date above is the exact calendar date of the latest refresh</strong>. Valuation ratios use fundamentals as of ' + fmtDayShort(d.check_date) + ' \u2014 so a monthly price can differ from the same ticker&rsquo;s weekly price.';
-    }
-    var stats = $('statsM');
-    if (stats){
-      var cards = stats.querySelectorAll('.stat');
-      var uvCount = (d.undervalued || []).length;
-      var hdStocks = d.stocks.filter(function(s){ return s.high_debt; }).slice().sort(function(a, b){ return a.ticker < b.ticker ? -1 : 1; });
-      if (cards[0]){ cards[0].querySelector('.n').textContent = d.stocks.length; cards[0].querySelector('.sub').textContent = parts.touch.length + ' touching + ' + parts.near.length + ' close'; }
-      if (cards[1]) cards[1].querySelector('.n').textContent = uvCount;
-      if (cards[2]){
-        cards[2].querySelector('.n').textContent = hdStocks.length;
-        if (hdStocks.length) cards[2].querySelector('.sub').innerHTML = legendList(hdStocks);
-      }
-      if (cards[3]) cards[3].querySelector('.n').textContent = (d.screaming_buys || []).length;
-    }
-    var screaming = d.screaming_buys || [];
-    var oversoldCount = (d.oversold || []).length;
-    var uvStocks = d.stocks.filter(function(s){ return s.undervalued; });
-    var p1 = $('mScream1');
-    if (p1){
-      if (!screaming.length){
-        p1.innerHTML = '<strong>No monthly screaming buys</strong> \u2014 ' + uvStocks.length + ' of the ' + d.stocks.length + ' monthly names are undervalued (' + plainList(uvStocks) + ') but ' + (oversoldCount === 0 ? 'none is oversold (0)' : 'only ' + oversoldCount + ' ' + (oversoldCount === 1 ? 'is' : 'are') + ' oversold') + ', so no name clears both legs of the same test used weekly: \uD83D\uDC8E undervalued + \uD83D\uDD3B oversold (14-month RSI &lt; 30).';
-      } else {
-        p1.innerHTML = '<strong>' + screaming.length + ' monthly screaming buy' + (screaming.length === 1 ? '' : 's') + '</strong> \u2014 ' + screaming.join(', ') + ' clear' + (screaming.length === 1 ? 's' : '') + ' both legs of the same test used weekly: \uD83D\uDC8E undervalued + \uD83D\uDD3B oversold (14-month RSI &lt; 30).';
-      }
-    }
-    var near = nearList(d.stocks);
-    var p2 = $('mScream2');
-    if (p2){
-      var defTxt = 'the flag <strong>does apply here</strong>, with the same definition as Weekly but on <strong>monthly RSI</strong>: undervalued (trailing P/E &lt; 12, forward P/E &lt; 15, no high-debt flag) with <strong>14-month RSI 30\u201340</strong>, <em>or</em> oversold (14-month RSI &lt; 30) with trailing P/E 12\u201320 and forward P/E &lt; 15, and no high-debt flag.';
-      if (!near.length){
-        p2.innerHTML = '<strong>\uD83D\uDD36 Near screaming buy on Monthly: none today</strong> \u2014 ' + defTxt + ' No name qualifies on this read.';
-      } else {
-        var details = near.map(function(s){
-          var head = '<strong>' + s.ticker + ' ' + coName(s.name) + '</strong>';
-          if (s.undervalued) return head + ', undervalued (P/E ' + fmt1(s.pe) + ', fwd P/E ' + fmt1(s.forward_pe) + ') with monthly RSI ' + fmt1(s.rsi);
-          return head + ', oversold (monthly RSI ' + fmt1(s.rsi) + ') with P/E ' + fmt1(s.pe) + ', fwd P/E ' + fmt1(s.forward_pe);
-        }).join('; ');
-        p2.innerHTML = '<strong>\uD83D\uDD36 Near screaming buy on Monthly: ' + near.map(function(s){ return s.ticker; }).join(', ') + '</strong> \u2014 ' + defTxt + ' On this ' + (d.read_type === 'intra-month' ? 'intra-month' : 'confirmed') + ' read <strong>' + near.length + ' name' + (near.length === 1 ? ' qualifies' : 's qualify') + '</strong> \u2014 ' + details + '. ' + (near.length === 1 ? 'It carries' : 'They carry') + ' the \uD83D\uDD36 flag in the monthly tables below, and the \uD83D\uDD36 filter below isolates ' + (near.length === 1 ? 'it' : 'them') + ', just like on the Weekly tab.';
-      }
-    }
-    var legendNear = $('legendNearM');
-    if (legendNear){
-      legendNear.innerHTML = '\uD83D\uDD36 <strong>Near screaming buy</strong> \u2014 applies on both tabs (Monthly uses 14-month RSI): undervalued with monthly RSI 30\u201340, or oversold with P/E 12\u201320 &amp; fwd P/E &lt; 15, no high debt (' + (near.length ? near.length + ' name' + (near.length === 1 ? '' : 's') + ' on the ' + mp.abbr + ' intra-month list \u2014 ' + plainList(near) : 'no names on the ' + mp.abbr + ' intra-month list') + ')';
-    }
-    buildSectorOptions('sectorSelM', d.stocks);
-    var hmCount = $('hmCountM');
-    if (hmCount) hmCount.textContent = 'All ' + d.stocks.length + ' names \u00B7 touching + close together';
-    var hmCap = $('hmCapM');
-    if (hmCap){
-      var prevM = new Date(Date.UTC(mp.year, mp.idx - 1, 1));
-      hmCap.innerHTML = '<strong>Colored by ' + mp.long + '&rsquo;s move so far</strong> (latest ' + mp.long + ' ' + mp.year + ' price vs ' + MONL[prevM.getUTCMonth()] + ' ' + prevM.getUTCFullYear() + ' close). Tile size by <strong>market cap on a square-root scale</strong>, so the largest names don&rsquo;t crowd out the smallest. Tiles grouped by sector.';
-    }
-    var touchSub = $('mTouchSub');
-    if (touchSub) touchSub.textContent = 'Latest ' + mp.long + ' ' + mp.year + ' prices at or below the 20-month lower band (band computed from closed months only; this read can still reverse before ' + mp.long + ' closes). Sorted by trailing P/E, cheapest first. Months touching = consecutive closed months at or below the band. On desktop, click any column heading to sort by it; click again to reverse.';
-    var nearSub = $('mNearSub');
-    if (nearSub) nearSub.textContent = 'Latest ' + mp.long + ' ' + mp.year + ' prices within 2% above the 20-month lower band. Same sort: trailing P/E, cheapest first, loss-making names (no P/E) last.';
-    updateSparks('monthly', d.stocks);
-    updateF13Titles(d.f13_quarter);
-  }
-
-  function renderCross(){
-    var src = state.W || state.M;
-    if (src && src.indices){
-      var label = $('mktLabel');
-      if (label && src.indices_date) label.textContent = 'Markets \u00B7 ' + fmtD(parseISO(src.indices_date)) + ' close';
-      var strip = document.querySelector('.mkt-strip');
-      if (strip){
-        var items = strip.querySelectorAll('.mkt-item');
-        src.indices.forEach(function(ix, i){
-          var el = items[i];
-          if (!el) return;
-          var dayCls = ix.change_pct >= 0 ? 'mkt-up' : 'mkt-down';
-          var wkCls = ix.week_change_pct >= 0 ? 'mkt-up' : 'mkt-down';
-          el.innerHTML = esc(ix.name) + ' <strong>' + commas2(ix.value) + '</strong> <span class="' + dayCls + '">' + fmtChange(ix.change_pct) + '</span> <span class="mkt-wk-lab">(<span class="' + wkCls + ' mkt-wk" title="Change since Friday\'s close">' + fmtChange(ix.week_change_pct) + '</span> wk)</span>';
-        });
-      }
-    }
-    var legendW = $('legendNearW');
-    if (legendW && state.W){
-      var nearW = nearList(state.W.stocks);
-      var wSeg = nearW.length ? nearW.length + ' name' + (nearW.length === 1 ? '' : 's') + ' today \u2014 ' + legendList(nearW) : 'no names today';
-      var mSeg;
-      if (state.M){
-        var nearM = nearList(state.M.stocks);
-        var mpM = monthParts(state.M.as_of);
-        var abbrM = mpM ? mpM.abbr : 'Nov';
-        mSeg = nearM.length ? nearM.length + ' name' + (nearM.length === 1 ? '' : 's') + ' on the ' + abbrM + ' intra-month list \u2014 ' + legendList(nearM) : 'no names on the ' + abbrM + ' intra-month list';
-      } else {
-        mSeg = origMonthlySeg || '';
-      }
-      legendW.innerHTML = '\uD83D\uDD36 <strong>Near screaming buy</strong> \u2014 applies on both tabs (Weekly uses 14-week RSI, Monthly uses 14-month RSI): one leg in full, close on the other, no high debt \u2014 undervalued with RSI 30\u201340, or oversold with P/E 12\u201320 &amp; fwd P/E &lt; 15 (Weekly: ' + wSeg + ' \u00B7 Monthly: ' + mSeg + ')';
-    }
-    if (state.W && state.M){
-      var foot = $('footNote');
-      if (foot){
-        var W = state.W, M = state.M;
-        var mp = monthParts(M.as_of) || { abbr: 'Nov', long: 'November', idx: 10, year: 2026 };
-        var nextDate = new Date(Date.UTC(mp.year, mp.idx + 1, 1));
-        var isoW = String(W.as_of || '').slice(0, 10);
-        foot.innerHTML = '<strong>About this snapshot:</strong> prices as of ' + fmtDayLong(isoW) + ' close; band status vs the 20-week lower Bollinger Band (20-week, 2 std dev) from closed weeks. Short = % of float sold short, with days to cover underneath (days of average volume shorts need to exit). Insider figures are net dollars of open-market insider trades over the last 3 months (actual traded values from filings; awards and option exercises excluded) with open-market buy/sell transaction counts. Cash / Debt is total cash vs total debt, and the % under each price is vs the trailing-twelve-month high \u2014 the highest price in the last 12 months (intraday, split-adjusted). <strong>Monthly list:</strong> last updated ' + fmtDayShort(M.check_date) + '; developing intra-month read \u2014 band status vs the 20-month lower Bollinger Band (computed from closed months only) at latest ' + mp.long + ' ' + mp.year + ' prices, fundamentals as of ' + fmtDayShort(M.check_date) + '; the confirmed list as of the ' + esc(M.confirmed_as_of || '') + ' was ' + (M.confirmed_touching || []).join(', ') + ' touching and ' + (M.confirmed_near || []).join(', ') + ' close; it is refreshed on the intra-month checks (10th, 20th and 28th) and on 1 ' + MONS[nextDate.getUTCMonth()] + ' ' + nextDate.getUTCFullYear() + ' when ' + mp.long + ' closes. This page is a fixed snapshot \u2014 it updates only when a new scan is published. <strong>13F:</strong> major position changes by 15 tracked active funds in their ' + esc(W.f13_quarter || M.f13_quarter || '') + ' 13F filings (period ended 30 Sep 2026, filed Nov 2026), sized at quarter-end prices; only the largest moves per stock are shown, sorted by net dollars. <strong>Avg P/E:</strong> median of annual year-end P/Es (fiscal year-end price \u00F7 diluted EPS from SEC filings, split-adjusted) over up to the last 10 and 15 fiscal years.';
-      }
-    }
-  }
-
-  function afterRender(){
-    if (window.__enhanceRows) window.__enhanceRows(document);
-    if (window.__analysisIn) window.__analysisIn(document);
-    if (window.__detailTables) window.__detailTables();
-    if (window.__injectSparks) window.__injectSparks(document);
-    if (window.__buildPicks) window.__buildPicks();
-    if (window.__applyFilters) window.__applyFilters();
-    if (window.__restripeAll) window.__restripeAll();
-    renderCross();
-    if (window.__measureSticky) window.__measureSticky();
-    if (window.__renderHeatmaps) window.__renderHeatmaps();
-  }
-
-  function load(url, render){
-    fetch(url + '?v=' + Date.now(), { cache: 'no-store' }).then(function(r){
-      if (!r.ok) throw new Error('http ' + r.status);
-      return r.json();
-    }).then(function(d){
-      if (!d || !d.stocks || !d.stocks.length) return;
-      render(d);
-      afterRender();
-    }).catch(function(){ /* keep the baked-in snapshot */ });
-  }
-  load(W_URL, renderWeekly);
-  load(M_URL, renderMonthly);
 })();
 </script>
 </body>
