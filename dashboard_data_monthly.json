@@ -135,18 +135,18 @@
    "rsi_dir": "down",
    "news": [
     {
-     "title": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
-     "summary": "The product of a collaboration with Alnylam, Livsayis is now Regeneron\u2019s first marketed RNAi drug and will compete against established\u2026",
-     "provider": "BioPharma Dive",
-     "pubDate": "2026-11-19T15:10:00+00:00",
-     "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
-    },
-    {
      "title": "Alnylam Pharmaceuticals Expands Sales Force to Accelerate AMVUTTRA Demand",
      "summary": "Alnylam Pharmaceuticals (NASDAQ:ALNY) is expanding its sales force and working to reach more physicians as it seeks to accelerate demand\u2026",
      "provider": "MarketBeat",
      "pubDate": "2026-11-20T20:12:43+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-alnylam-pharmaceuticals-expands-sales-force-to-accelerate-amvuttra-demand-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+     "title": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
+     "summary": "The product of a collaboration with Alnylam, Livsayis is now Regeneron\u2019s first marketed RNAi drug and will compete against established\u2026",
+     "provider": "BioPharma Dive",
+     "pubDate": "2026-11-19T15:10:00+00:00",
+     "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
     }
    ],
    "pe_vs_own_pct": null,
@@ -416,13 +416,6 @@
      "provider": "MarketBeat",
      "pubDate": "2026-11-19T10:12:08+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-axon-enterprise-doubles-down-on-skydio-as-ai-growth-helps-offset-delayed-federal-deals-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
-     "title": "Axon Sinks 21% in a Month on Delayed Federal Drone Deals: \u201cJust a Timing Piece\u201d",
-     "summary": "Key TakeawaysAxon shares fell 21% in the past month after a revenue miss and an outlook cut tied to delayed federal drone deployments.\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-17T01:48:32+00:00",
-     "url": "https://www.tikr.com/blog/axon-sinks-21-in-a-month-on-delayed-federal-drone-deals-just-a-timing-piece?ref=yahoofinance&tlnk=yf-261117-v8fj89jw"
     }
    ],
    "pe_vs_own_pct": 16.7,
@@ -555,6 +548,13 @@
    "rsi_prev": 44.8,
    "rsi_dir": "down",
    "news": [
+    {
+     "title": "Boeing's 2,500 job cuts come with a troubling unanswered question",
+     "summary": "Boeing managers and union representatives met, gave new details on job cuts, but left out crucial information.",
+     "provider": "TheStreet",
+     "pubDate": "2026-11-21T20:37:00+00:00",
+     "url": "https://www.thestreet.com/employment/boeings-2500-job-cuts-come-with-a-troubling-unanswered-question"
+    },
     {
      "title": "Boeing Is 36% Below Its High. A Director Who Was CFO of United Technologies Just Bought $500,000 of Stock",
      "summary": "Key TakeawaysBoeing (BA:NYSE) director Akhil Johri bought 3,000 shares for $500,067 on Nov. 17, with the stock 36% below its January high.",
@@ -1517,11 +1517,11 @@
    "rsi_dir": "down",
    "news": [
     {
-     "title": "A $4.7 Billion Fund Just Bought These 3 Stocks",
-     "summary": "Key TakeawaysA fund that manages $4. 7 billion added to its stakes in MercadoLibre, Mastercard and Visa in the third quarter, according to\u2026",
+     "title": "MercadoLibre Has Disappointed for a Year: Why Bank of America Still Sees 48% Upside",
+     "summary": "Key TakeawaysBank of America cut its MercadoLibre price target to $2,000 from $2,400 on Nov. 19 and kept its Buy rating, 48% above the Nov.",
      "provider": "TIKR",
-     "pubDate": "2026-11-20T14:57:44+00:00",
-     "url": "https://www.tikr.com/blog/a-4-7-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261120-53j3h7w2"
+     "pubDate": "2026-11-21T14:08:44+00:00",
+     "url": "https://www.tikr.com/blog/mercadolibre-has-disappointed-for-a-year-why-bank-of-america-still-sees-48-upside?ref=yahoofinance&tlnk=yf-261121-282c2629"
     },
     {
      "title": "MercadoLibre grew sales 44%\u2014so why did the stock crash 28%?",
@@ -2037,11 +2037,11 @@
    "rsi_dir": "down",
    "news": [
     {
-     "title": "Xylem (XYL), What Is Behind The Fresh Attention?",
-     "summary": "Xylem (XYL) has put capital returns in focus after its board approved a fourth quarter dividend of $0.43 per share and a share repurchase\u2026",
+     "title": "Xylem (XYL) Stock May Be 37% Undervalued On Fresh Buyback News",
+     "summary": "Xylem shares have had a difficult year, with the stock well below where it started 2026. This puts a sharper spotlight on whether the\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T10:17:39+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/xylem-xyl-behind-fresh-attention-101739421.html"
+     "pubDate": "2026-11-19T07:14:32+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/xylem-xyl-stock-may-37-071432385.html"
     },
     {
      "title": "A $2.1 Billion Fund Dumps These 2 Stocks",
