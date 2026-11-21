@@ -129,29 +129,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Mixed",
    "score_tip": "ACGL scores 5/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 11.1 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 12; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 67).\nBacking (0/2): insider buying and selling roughly balanced ($5.3M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.30 from 19 analysts); their average target is $114.11, 5% above the price; options trading leaned bullish (put/call 0.04).",
-   "news": [
-    {
-     "title": "Arch Capital Stock: Is Wall Street Bullish or Bearish?",
-     "summary": "Although Arch Capital has outperformed relative to the broader market over the past year, Wall Street analysts maintain a cautiously\u2026",
-     "provider": "Barchart",
-     "pubDate": "2026-11-18T12:34:45+00:00",
-     "url": "https://www.barchart.com/story/news/8894247/arch-capital-stock-is-wall-street-bullish-or-bearish"
-    },
-    {
-     "title": "Arch Capital: 3 Key Takeaways for Long-Term Investors",
-     "summary": "When pricing softens, disciplined underwriting and capital discipline matter more than volume growth.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-17T21:50:02+00:00",
-     "url": "https://www.fool.com/earnings/takeaways/2026/11/17/arch-capital-3-key-takeaways-for-long-term-investors/"
-    },
-    {
-     "title": "KNSL Stock Gains 23.3% in Six Months: Here's What Investors Should Know",
-     "summary": "Kinsale Capital's underwriting discipline, specialty growth and rising investment income support profits, but premium declines and rich\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-17T16:55:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/knsl-stock-gains-23-3-165500814.html"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "AES",
@@ -285,15 +263,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "AES scores 2/10 \u2014 Weak.\nValue (1/2): P/E 6.0 is below its usual 33.0 over the last 10 years.\nHealth (0/2): growth and cash margins are weak (score -8; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 59).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($54.1M net).\nSentiment (0/2): no analyst rating available; options trading leaned bearish (put/call 1.25).\n\ud83d\udcb8 Burning cash \u2014 earnings barely cover interest (1.1\u00d7), and at the current burn rate ($1.52B a year) the $2.03B cash pile lasts about 1.3 years.",
-   "news": [
-    {
-     "title": "Wind Farms, Solar Fields and Power Plants Sell Electricity to the Grid, and $120,000 Across These 3 Owners Pays $6,286 a Year",
-     "summary": "Long-term contracts turn every spinning turbine and sunlit panel into steady quarterly checks. One of these three power owners, though\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-15T19:58:46+00:00",
-     "url": "https://247wallst.com/investing/2026/11/15/wind-farms-solar-fields-and-power-plants-sell-electricity-to-the-grid-and-120000-across-these-3-owners-pays-6286-a-year/"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "AIZ",
@@ -424,20 +394,6 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
      "provider": "Zacks",
      "pubDate": "2026-11-19T16:00:03+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/know-assurant-aiz-rating-upgrade-160003340.html"
-    },
-    {
-     "title": "Best Momentum Stocks to Buy for November 19th",
-     "summary": "AGL, AIZ and KROS made it to the Zacks Rank #1 (Strong Buy) momentum stocks list on November 19th, 2026.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T14:00:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-november-140000421.html"
-    },
-    {
-     "title": "New Strong Buy Stocks for November 19th",
-     "summary": "KROS, AIZ, AGL, EQNR and PANL have been added to the Zacks Rank #1 (Strong Buy) List on November 19th, 2026.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T08:28:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-19th-082800722.html"
     }
    ]
   },
@@ -567,25 +523,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "AWK scores 3/10 \u2014 Weak.\nValue (1/2): P/E 25.9 is below its usual 26.9 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -26; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 66).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (2.83 from 10 analysts); their average target is $141.40, 5% below the price; options trading leaned bullish (put/call 0.19).",
    "news": [
     {
-     "title": "Gridlock in Washington: 4 Rock-Solid Dividend Stocks to Buy Before the Market Reacts",
-     "summary": "When Congress splits, the bills stall but the dividend checks keep coming. Four companies in insurance, water, drinks and rails have raised\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T13:01:29+00:00",
-     "url": "https://247wallst.com/investing/2026/11/19/gridlock-in-washington-4-rock-solid-dividend-stocks-to-buy-before-the-market-reacts/"
-    },
-    {
      "title": "American Water Works (AWK) Launched A New Monterey Peninsula Groundwater Well",
      "summary": "American Water Works Company (NYSE:AWK) subsidiary California American Water has commissioned ASR Well 4 on the Monterey Peninsula. The new\u2026",
      "provider": "Simply Wall St.",
      "pubDate": "2026-11-19T20:16:34+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/american-water-works-awk-launched-201634052.html"
-    },
-    {
-     "title": "What Are Wall Street Analysts' Target Price for American Water Works Stock?",
-     "summary": "Despite significantly underperforming the broader market, American Water Works continues to receive a largely neutral assessment from Wall\u2026",
-     "provider": "Barchart",
-     "pubDate": "2026-11-19T13:00:23+00:00",
-     "url": "https://www.barchart.com/story/news/8914573/what-are-wall-street-analysts-target-price-for-american-water-works-stock"
     }
    ]
   },
@@ -721,29 +663,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "AZO scores 2/10 \u2014 Weak.\nValue (0/2): P/E 21.3 is above its usual 17.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 12; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 56).\nBacking (0/2): no insider trades in the last 3 months; big funds sold $159.0M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.54 from 24 analysts); their average target is $3,656.62, 12% above the price; options trading leaned bearish (put/call 1.29).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 16.8% over 3 years, so each share owns a bigger slice of the company.",
-   "news": [
-    {
-     "title": "ETFs Bought $166.8 Million of AutoZone (AZO) on Monday",
-     "summary": "Twenty-one ETFs bought AutoZone shares while six sold, for a net inflow of $166.8 million.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-18T11:01:48+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-166-8-million-110148655.html"
-    },
-    {
-     "title": "AutoZone, Inc. (AZO) Is a Trending Stock: Facts to Know Before Betting on It",
-     "summary": "AutoZone (AZO) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-16T13:00:03+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/autozone-inc-azo-trending-stock-130003554.html"
-    },
-    {
-     "title": "These 3 Stocks Have Bought Back Billions, But Which Offers the Best Value?",
-     "summary": "AutoZone, Marathon Petroleum, and Corpay have each retired 20% or more of their shares in five years, raising questions about valuation\u2026",
-     "provider": "MarketBeat",
-     "pubDate": "2026-11-13T13:10:00+00:00",
-     "url": "https://www.marketbeat.com/articles/these-3-stocks-have-bought-back-billions-but-which-offers-the-best-value/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "BRK-B",
@@ -870,25 +790,18 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "BRK-B scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 24; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (0/2): insider buying and selling roughly balanced ($19.7M net); no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.25 from 3 analysts); their average target is $564.67, 1% below the price; only 3 analysts cover it, so the rating counts for less; options trading leaned bearish (put/call 1.31).",
    "news": [
     {
-     "title": "Warren Buffett's Successor, Greg Abel, Has 31% of Berkshire Hathaway's $363 Billion Portfolio Invested in 3 Game-Changing AI Stocks",
-     "summary": "Tech is on the menu like never before at Berkshire Hathaway.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T10:26:02+00:00",
-     "url": "https://www.fool.com/investing/2026/11/20/warren-buffett-successor-greg-abel-31-berkshire-hathaway-363-billion-portfolio-in-3-ai-stocks/"
+     "title": "Tesla upgraded, Berkshire Hathaway downgraded: Wall Street's top analyst calls",
+     "summary": "Tesla upgraded, Berkshire Hathaway downgraded: Wall Street's top analyst calls",
+     "provider": "The Fly",
+     "pubDate": "2026-11-20T14:43:26+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-upgraded-applovin-initiated-wall-135331262.html"
     },
     {
-     "title": "Warren Buffett\u2019s Successor Just Bought $10 Billion of This AI Stock, and It\u2019s Not Apple",
-     "summary": "During the past year, Greg Abel has ramped up Berkshire's position in this AI-focused \"Magnificent Seven\" stock.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T09:20:02+00:00",
-     "url": "https://www.fool.com/investing/2026/11/20/warren-buffetts-successor-just-bought-10-billion-of-this-ai-stock-and-its-not-apple/"
-    },
-    {
-     "title": "In 1993, A 79-Year-Old Maine Shoemaker Sold His Company To Warren Buffett For Berkshire Shares Instead Of Cash. Buffett Called It His \u201cWorst Deal\u201d As The Shoe Company\u2019s Value Went To Zero, While Harold Alfond\u2019s Berkshire Shares Are Now Worth An Estimated $20 Billion",
-     "summary": "Warren Buffett offered Harold Alfond cash for his shoe company, and Alfond refused. His one demand about how he got paid turned Buffett's\u2026",
+     "title": "Greg Abel Nearly Doubled Berkshire\u2019s Lennar Stake and Added a $689 Million IPO Position",
+     "summary": "Berkshire's first big moves under Greg Abel include a surprise bet on a slumping homebuilder, a fresh IPO and trims to two bank holdings.\u2026",
      "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-20T03:36:32+00:00",
-     "url": "https://247wallst.com/investing/2026/11/19/in-1993-a-79-year-old-maine-shoemaker-sold-his-company-to-warren-buffett-for-berkshire-shares-instead-of-cash-buffett-called-it-his-worst-deal-as-the-shoe-companys-value-went-to-zero-while-ha/"
+     "pubDate": "2026-11-20T20:01:37+00:00",
+     "url": "https://247wallst.com/investing/2026/11/20/greg-abel-nearly-doubled-berkshires-lennar-stake-and-added-a-689-million-ipo-position/"
     }
    ]
   },
@@ -1017,25 +930,18 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "CAH scores 3/10 \u2014 Weak.\nValue (0/2): P/E 35.3 is above its usual 26.0 over the last 13 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 66).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.53 from 15 analysts); their average target is $300.80, 10% above the price; options trading leaned bullish (put/call 0.29).",
    "news": [
     {
+     "title": "Jim Cramer Says Cardinal Health Is \u201cthe Stock That Is Made for This Moment\u201d",
+     "summary": "A drug distributor earning pennies on every dollar just beat estimates, raised guidance, and caught Jim Cramer's eye. But with the shares\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-20T14:47:24+00:00",
+     "url": "https://247wallst.com/investing/2026/11/20/jim-cramer-says-cardinal-health-is-the-stock-that-is-made-for-this-moment/"
+    },
+    {
      "title": "Cardinal Health (CAH) Is Facing Multiple Class I Medical Kit Recalls",
      "summary": "Cardinal Health (NYSE:CAH) is facing multiple ongoing Class I recalls of Presource PBDS kits that contain BD Alaris Pump Infusion Sets due\u2026",
      "provider": "Simply Wall St.",
      "pubDate": "2026-11-18T08:15:09+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/cardinal-health-cah-facing-multiple-081509882.html"
-    },
-    {
-     "title": "Zacks.com featured highlights include NVIDIA, J.M. Smucker, Taiwan Semiconductor, Corning, Lockheed and Cardinal Health",
-     "summary": "NVIDIA, J.M. Smucker, Taiwan Semiconductor, Corning, Lockheed and Cardinal Health have been highlighted in this Screen of The Week article.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-17T07:08:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-nvidia-070800949.html"
-    },
-    {
-     "title": "Is Wall Street Bullish or Bearish on Cardinal Health Stock?",
-     "summary": "Cardinal Health has significantly outperformed the broader market and healthcare sector, supported by earnings growth, raised guidance, and\u2026",
-     "provider": "Barchart",
-     "pubDate": "2026-11-16T05:28:43+00:00",
-     "url": "https://www.barchart.com/story/news/8849091/is-wall-street-bullish-or-bearish-on-cardinal-health-stock"
     }
    ]
   },
@@ -1163,29 +1069,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "CB scores 3/10 \u2014 Weak.\nValue (1/2): P/E 13.0 is below its usual 13.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 18; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): insider buying and selling roughly balanced ($10.0M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.48 from 23 analysts); their average target is $375.61, 1% above the price; options trading leaned bullish (put/call 0.93).",
-   "news": [
-    {
-     "title": "Why Is Chubb (CB) Up 4.5% Since Last Earnings Report?",
-     "summary": "Chubb (CB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T15:30:03+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-chubb-cb-4-5-153003294.html"
-    },
-    {
-     "title": "Travelers Has Surged 40% in 2026. Chubb Offers Retirees a Different Dividend Opportunity",
-     "summary": "Two insurance giants both rallied hard this year, yet their dividends tell very different stories. One promises faster raises, the other a\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-17T16:17:53+00:00",
-     "url": "https://247wallst.com/investing/2026/11/17/travelers-has-surged-40-in-2026-chubb-offers-retirees-a-different-dividend-opportunity/"
-    },
-    {
-     "title": "Are Wall Street Analysts Predicting Chubb Limited Stock Will Climb or Sink?",
-     "summary": "Though Chubb Limited has outperformed the broader market over the past 52 weeks, Wall Street analysts remain cautiously optimistic about\u2026",
-     "provider": "Barchart",
-     "pubDate": "2026-11-19T15:33:19+00:00",
-     "url": "https://www.barchart.com/story/news/8919253/are-wall-street-analysts-predicting-chubb-limited-stock-will-climb-or-sink"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "CHD",
@@ -1313,25 +1197,18 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "CHD scores 2/10 \u2014 Weak.\nValue (0/2): P/E 34.0 is above its usual 27.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 13; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 66).\nBacking (0/2): insider buying and selling roughly balanced ($19.2M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.25 from 18 analysts); their average target is $111.61, 1% above the price; options trading leaned bullish (put/call 0.08).\n\ud83d\udd3a Overvalued \u2014 P/E 34.0 vs its 15y median of 27.8, forward P/E 27.3.",
    "news": [
     {
+     "title": "Church & Dwight to Acquire 45 Percent of Bali Treatment for Close to $225M",
+     "summary": "The Austrian company\u2019s portfolio includes the Bali Curls and Bali Gents brands.",
+     "provider": "WWD",
+     "pubDate": "2026-11-20T18:14:43+00:00",
+     "url": "https://wwd.com/beauty-industry-news/hair/church-dwight-acquire-45-bali-treatment-close-to-225-million-1239429573/"
+    },
+    {
      "title": "Church & Dwight (CHD) Stock Sees Modest Fair Value Lift After Analyst Target Increases",
      "summary": "Church & Dwight\u2019s updated valuation work has nudged Fair Value from US$108.84 to US$111.39, giving you an updated reference point for where\u2026",
      "provider": "Simply Wall St.",
      "pubDate": "2026-11-20T08:09:31+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-chd-stock-sees-080931149.html"
-    },
-    {
-     "title": "Church & Dwight (CHD) Stock Could Be 17% Undervalued After Hair Care Investment",
-     "summary": "Church & Dwight has delivered a strong share price run, and that puts a spotlight on whether the current valuation lines up with the cash\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T03:17:18+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-chd-stock-could-031718968.html"
-    },
-    {
-     "title": "Church & Dwight (CHD) Could Be 2% Undervalued As Deal Talk Returns",
-     "summary": "Acquisition push reshapes the Church & Dwight story Church & Dwight (CHD) is back in deal-hunting mode after its BALI CARE investment, with\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T00:20:27+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-chd-could-2-002027507.html"
     }
    ]
   },
@@ -1459,29 +1336,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "CL scores 2/10 \u2014 Weak.\nValue (0/2): P/E 38.4 is above its usual 27.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 20; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): insider buying and selling roughly balanced ($1.7M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.10 from 20 analysts); their average target is $101.70, 3% above the price; options trading leaned bullish (put/call 0.55).\n\ud83d\udd3a Overvalued \u2014 P/E 38.4 vs its 15y median of 27.4, forward P/E 24.1.",
-   "news": [
-    {
-     "title": "Colgate Has Raised Its Dividend for 63 Years. These 3 Staples Stocks Offer Income",
-     "summary": "Kenvue vanished from the stock market this month, and its Tylenol now pays out through a diaper maker. Three recession-proof dividend\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-19T20:47:16+00:00",
-     "url": "https://247wallst.com/investing/2026/11/19/colgate-has-raised-its-dividend-for-63-years-these-3-staples-stocks-offer-income/"
-    },
-    {
-     "title": "Oil-market shock keeps costs high for US small businesses even as crude pulls back",
-     "summary": "Investing.com -- The Bank of America Institute report shows costs staying high even though crude has pulled back. Crude Oil WTI (CL) was at\u2026",
-     "provider": "Investing.com",
-     "pubDate": "2026-11-19T20:38:05+00:00",
-     "url": "https://finance.yahoo.com/small-business/articles/oil-market-shock-keeps-costs-203805531.html"
-    },
-    {
-     "title": "How Many Shares of Colgate-Palmolive or Procter & Gamble Pay $1,000 a Month in Dividends?",
-     "summary": "Key TakeawaysCollecting $1,000 a month in dividends takes about 5,661 shares of Colgate-Palmolive, about $559,600 at today\u2019s prices, or\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-19T10:50:15+00:00",
-     "url": "https://www.tikr.com/blog/how-many-shares-of-colgate-palmolive-or-procter-gamble-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261119-r62w9329"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "COST",
@@ -1609,25 +1464,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "COST scores 3/10 \u2014 Weak.\nValue (0/2): P/E 53.1 is above its usual 35.7 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 13; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 72).\nBacking (0/2): insider buying and selling roughly balanced ($4.8M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 37 analysts); their average target is $1,085.35, 2% below the price; options trading leaned bearish (put/call 1.84).\n\ud83d\udd3a Overvalued \u2014 P/E 53.1 vs its 15y median of 35.7, forward P/E 44.0.",
    "news": [
     {
-     "title": "Doomsday Deals: Mizuho Hikes Its Costco Stock Price Target as Panic-Buying Spikes on Apocalypse Fears",
-     "summary": "Mizuho sees greater tailwinds for Costco due to outage-led panic-buying.",
-     "provider": "Barchart",
-     "pubDate": "2026-11-19T19:57:05+00:00",
-     "url": "https://www.barchart.com/story/news/8923671/doomsday-deals-mizuho-hikes-its-costco-stock-price-target-as-panic-buying-spikes-on-apocalypse-fears"
-    },
-    {
-     "title": "Costco Just Surpassed $1,100 Per Share Ahead of Its $30 Special Dividend Payment. Is the Stock a Buy Before Nov. 24?.",
-     "summary": "The dividend is undeniably big, but it doesn\u2019t leave shareholders any better off once it\u2019s paid.",
+     "title": "Costco Just Announced a Special Dividend for Shareholders as of Nov. 24. Should You Buy Shares Before Then?",
+     "summary": "Costco stock soared after the announcement, and it's back to beating the market.",
      "provider": "Motley Fool",
-     "pubDate": "2026-11-19T17:23:37+00:00",
-     "url": "https://www.fool.com/investing/2026/11/19/costco-just-surpassed-1100-per-share-ahead-of-its-30-special-dividend-payment-is-the-stock-a-buy-before-nov-24/"
-    },
-    {
-     "title": "Jim Cramer sends strong signal to Costco investors",
-     "summary": "Cramer clarifies why investors should be watching Costco shares right now.",
-     "provider": "TheStreet",
-     "pubDate": "2026-11-20T04:17:00+00:00",
-     "url": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-strong-signal-to-costco-investors"
+     "pubDate": "2026-11-20T17:43:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/20/costco-just-announced-a-special-dividend-for-shareholders-as-of-nov-24-should-you-buy-shares-before/"
     }
    ]
   },
@@ -1755,29 +1596,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "ED scores 2/10 \u2014 Weak.\nValue (0/2): P/E 19.2 is above its usual 17.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 1; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (3.21 from 17 analysts); their average target is $112.79, 6% below the price; options trading leaned bullish (put/call 0.89).",
-   "news": [
-    {
-     "title": "Consolidated Edison or Clearway Energy: Only One Gets My Dividend Dollars for the Next 10 Years",
-     "summary": "Key TakeawaysClearway Energy yields 5. 9%, nearly twice Consolidated Edison\u2019s 3.",
-     "provider": "TIKR",
-     "pubDate": "2026-11-17T14:41:29+00:00",
-     "url": "https://www.tikr.com/blog/consolidated-edison-or-clearway-energy-only-one-gets-my-dividend-dollars-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261117-wwr7549c"
-    },
-    {
-     "title": "Con Ed\u2019s 52-Year Dividend Streak Faces 3 Major Tests",
-     "summary": "Treasuries now pay nearly double what Con Ed's dividend does, while share issuance, rising debt costs, and Albany's rules chip away at\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-16T18:47:23+00:00",
-     "url": "https://247wallst.com/investing/2026/11/16/con-eds-52-year-dividend-streak-faces-3-major-tests/"
-    },
-    {
-     "title": "Con Edison (ED) Stock Looks Rich With Dividend Value In Mind",
-     "summary": "Consolidated Edison has delivered strong share price gains in recent years, and that puts fresh attention on a simple question for income\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-14T01:16:14+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/con-edison-ed-stock-looks-011614902.html"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "EG",
@@ -1900,22 +1719,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 0,
    "score_tier": "Mixed",
    "score_tip": "EG scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 9.1 over the last 14 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score -4; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 72).\nBacking (0/2): insider buying and selling roughly balanced ($3.2M net); no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.41 from 16 analysts); their average target is $437.94, 4% above the price; options trading leaned bearish (put/call 4.10).",
-   "news": [
-    {
-     "title": "EG Stock Near 52-Week High: A Signal for Investors to Hold Tight?",
-     "summary": "Everest's long-term earnings outlook is supported by portfolio repositioning, specialty expansion and disciplined capital management\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-17T15:05:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/eg-stock-near-52-week-150500124.html"
-    },
-    {
-     "title": "Can Munich Re Sustain Growth as Reinsurance Pricing Moderates?",
-     "summary": "Munich Re's disciplined underwriting, strong capital position and rising profit targets support its growth outlook despite moderating\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T16:58:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/munich-sustain-growth-reinsurance-pricing-165800876.html"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "EW",
@@ -2050,29 +1854,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "EW scores 3/10 \u2014 Weak.\nValue (0/2): P/E 59.2 is above its usual 35.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 28; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (0/2): insider buying and selling roughly balanced ($10.9M net); big funds roughly balanced ($74.5M net).\nSentiment (2/2): analysts rate it a Buy on average (1.53 from 27 analysts); their average target is $113.83, 12% above the price; options trading leaned bullish (put/call 0.09).\n\ud83d\udd3a Overvalued \u2014 P/E 59.2 vs its 15y median of 35.9, forward P/E 30.1.",
-   "news": [
-    {
-     "title": "Are Wall Street Analysts Predicting Edwards Lifesciences Stock Will Climb or Sink?",
-     "summary": "Edwards Lifesciences has outperformed the broader market over the past year, and analysts are highly optimistic about the stock\u2019s prospects.",
-     "provider": "Barchart",
-     "pubDate": "2026-11-16T15:27:12+00:00",
-     "url": "https://www.barchart.com/story/news/8856743/are-wall-street-analysts-predicting-edwards-lifesciences-stock-will-climb-or-sink"
-    },
-    {
-     "title": "Is There Any Reason To Invest In Edwards Lifesciences Stock?",
-     "summary": "For questions about this article or underlying research, email help@trefis.com.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-14T01:20:00+00:00",
-     "url": "https://www.trefis.com/stock/ew/articles/624863/is-there-any-reason-to-invest-in-edwards-lifesciences-stock/2026-11-13"
-    },
-    {
-     "title": "A $9.2 Billion Fund Dumps These 3 Stocks",
-     "summary": "Key TakeawaysA fund with $9. 2 billion in US stocks sold all of its Edwards Lifesciences, PepsiCo and ServiceNow shares in the third\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-13T16:06:51+00:00",
-     "url": "https://www.tikr.com/blog/a-9-2-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261113-73q37c26"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "IDXX",
@@ -2207,29 +1989,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "IDXX scores 1/10 \u2014 Weak.\nValue (1/2): P/E 45.6 is below its usual 48.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (0/2): insiders sold $25.8M of shares in the last 3 months; big funds roughly balanced ($46.1M net).\nSentiment (0/2): analysts rate it a Buy on average (2.14 from 12 analysts); their average target is $717.17, 6% above the price; options trading leaned bearish (put/call 1.71).",
-   "news": [
-    {
-     "title": "3 Stocks Rallying After Strong Q3 Earnings and Raised Guidance",
-     "summary": "The Q3 earnings season has delivered several big winners, with Hasbro (HAS), IDEXX Laboratories (IDXX), and TG Therapeutics (TGTX) all\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-17T19:13:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-rallying-strong-q3-191300848.html"
-    },
-    {
-     "title": "Here's How Much You'd Have If You Invested $1000 in Idexx Laboratories a Decade Ago",
-     "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T12:30:02+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002728.html"
-    },
-    {
-     "title": "Is This the Right Time to Retain Omnicell Stock in Your Portfolio?",
-     "summary": "OMCL advances its growth strategy through Titan XT, OmniSphere and recurring revenues, while cost discipline boosts profitability.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T12:02:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/time-retain-omnicell-stock-portfolio-120200045.html"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "MDLZ",
@@ -2366,25 +2126,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "MDLZ scores 3/10 \u2014 Weak.\nValue (0/2): P/E 21.2 is above its usual 20.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 9; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 60).\nBacking (0/2): insider buying and selling roughly balanced ($8.5M net); big funds sold $324.5M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.83 from 22 analysts); their average target is $70.64, 7% above the price; options trading leaned bullish (put/call 0.79).",
    "news": [
     {
-     "title": "Mondelez Grows 6%, Hormel Under 1%: Which To Own?",
-     "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-17T14:13:41+00:00",
-     "url": "https://www.trefis.com/stock/hrl/articles/625653/mondelez-grows-6-hormel-under-1-which-to-own/2026-11-17"
-    },
-    {
      "title": "Princes Group to buy Mondelez assets in France",
      "summary": "The deal includes the Heudebert, Pelletier, Cracotte and Grany brands under which Mondelez markets products including crispbreads and\u2026",
      "provider": "Just Food",
      "pubDate": "2026-11-17T13:06:43+00:00",
      "url": "https://www.just-food.com/news/princes-group-buys-mondelez-assets/"
-    },
-    {
-     "title": "Mondelez's Multi-Million Portfolio Shift: Unloads French Bakery and Cereal Bars Business",
-     "summary": "Mondelez International, Inc. (NASDAQ:MDLZ) on Tuesday announced it would sell its French bread substitutes and cereal bars businesses to\u2026",
-     "provider": "Benzinga",
-     "pubDate": "2026-11-17T11:16:48+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/mondelezs-multi-million-portfolio-shift-111648659.html"
     }
    ]
   },
@@ -2518,13 +2264,6 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
      "provider": "Barrons.com",
      "pubDate": "2026-11-17T19:54:00+00:00",
      "url": "https://www.barrons.com/articles/walmart-costco-retail-stocks-buy-avoid-0f4ea205?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-     "title": "Is O'Reilly Stock Worth Buying as Growth Faces a Premium Valuation?",
-     "summary": "O'Reilly's strong sales growth, rising profits and store expansion support its outlook, but a premium valuation and high costs limit\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-16T14:51:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/oreilly-stock-worth-buying-growth-145100272.html"
     }
    ]
   },
@@ -2654,25 +2393,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "PG scores 2/10 \u2014 Weak.\nValue (0/2): P/E 25.5 is above its usual 24.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 18; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 74).\nBacking (0/2): insiders sold $30.9M of shares in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.12 from 23 analysts); their average target is $175.83, 4% above the price; options trading leaned bullish (put/call 0.61).\n\ud83d\udd3a Overvalued \u2014 P/E 25.5 vs its 15y median of 24.1, forward P/E 22.8.",
    "news": [
     {
-     "title": "Procter & Gamble\u2019s Job Cuts Come as Earnings Growth Gets Harder to Come By",
-     "summary": "Some 15,000 workers could get the axe by 2030.",
-     "provider": "Barrons.com",
-     "pubDate": "2026-11-19T22:56:00+00:00",
-     "url": "https://www.barrons.com/articles/procter-gamble-job-cuts-earnings-growth-5c8283ab?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-     "title": "PG Raises Sales Outlook as Thorne Acquisition Adds Growth Potential",
-     "summary": "PG raises its sales outlook following the Thorne acquisition, but unchanged organic growth guidance, rising financing costs and\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T15:34:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/pg-raises-sales-outlook-thorne-153400819.html"
-    },
-    {
-     "title": "Procter & Gamble Targets Up to $10 Billion in Savings With AI and Automation",
-     "summary": "Procter & Gamble (NYSE:PG) announced a productivity target of up to $10 billion over four fiscal years as it outlined plans to use\u2026",
-     "provider": "MarketBeat",
-     "pubDate": "2026-11-20T08:12:12+00:00",
-     "url": "https://www.marketbeat.com/instant-alerts/event-procter-gamble-targets-up-to-10-billion-in-savings-with-ai-and-automation-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
+     "title": "Procter & Gamble Wants $10 Billion in Savings and Fewer Factory Workers",
+     "summary": "P&G just told investors its plants and trucks will run with far fewer people by 2030. The bigger question is whether those savings ever\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-20T16:07:36+00:00",
+     "url": "https://247wallst.com/investing/2026/11/20/procter-gamble-wants-10-billion-in-savings-and-fewer-factory-workers/"
     }
    ]
   },
@@ -2805,13 +2530,6 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
      "provider": "Insider Monkey",
      "pubDate": "2026-11-18T16:12:38+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/valuation-fell-10-steris-ste-161238862.html"
-    },
-    {
-     "title": "Invesco S&P 500 Equal Weight (RSP) Buys $0.6 Million More AppLovin on Nov. 17",
-     "summary": "The fund added $212.6 million across all 503 holdings, with AppLovin, Viatris and Fiserv each drawing about $0.6 million.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-19T11:05:38+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110538799.html"
     }
    ]
   },
@@ -2948,15 +2666,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "TECH scores 2/10 \u2014 Weak.\nValue (0/2): P/E 66.7 is above its usual 46.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 27; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($38.8M net).\nSentiment (0/2): analysts rate it a Hold on average (3.15 from 10 analysts); their average target is $70.50, 3% below the price; options trading leaned bearish (put/call 1.18).\n\ud83d\udd3a Overvalued \u2014 P/E 66.7 vs its 15y median of 46.4, forward P/E 31.4.",
-   "news": [
-    {
-     "title": "Are Wall Street Analysts Predicting Bio-Techne Stock Will Climb or Sink?",
-     "summary": "Bio-Techne has outperformed the broader market over the past year, but analysts are cautious about the stock\u2019s prospects.",
-     "provider": "Barchart",
-     "pubDate": "2026-11-19T12:15:49+00:00",
-     "url": "https://www.barchart.com/story/news/8913552/are-wall-street-analysts-predicting-bio-techne-stock-will-climb-or-sink"
-    }
-   ]
+   "news": []
   },
   {
    "ticker": "TSCO",
@@ -3108,18 +2818,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/delivery-partnership-could-game-changer-191425997.html"
     },
     {
-     "title": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
-     "summary": "Tractor Supply (TSCO) just expanded its delivery reach through a nationwide partnership with Uber, Uber Eats and Postmates, putting nearly\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T18:15:35+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tractor-supply-tsco-expands-delivery-181535994.html"
-    },
-    {
-     "title": "Tractor Supply boosts same-day delivery options",
-     "summary": "The retailer is growing its delivery offerings at the same time Amazon is expanding its rural delivery network.",
-     "provider": "Retail Dive",
-     "pubDate": "2026-11-19T15:55:00+00:00",
-     "url": "https://www.retaildive.com/news/tractor-supply-uber-same-day-delivery/874748/"
+     "title": "Tractor Supply (TSCO) Sales Rose. What Worries Evercore ISI?",
+     "summary": "We just published a list of the Sell Alert: 10 Stocks Analysts Downgraded on Friday and Tractor Supply (NASDAQ:TSCO) ranked 10th on this\u2026",
+     "provider": "Insider Monkey",
+     "pubDate": "2026-11-18T16:12:31+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tractor-supply-tsco-sales-rose-161231683.html"
     }
    ]
   },
@@ -3258,13 +2961,6 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "TSN scores 2/10 \u2014 Weak.\nValue (0/2): P/E 50.9 is above its usual 14.8 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 66).\nBacking (0/2): insider buying and selling roughly balanced ($1.0M net); big funds roughly balanced ($27.8M net).\nSentiment (1/2): analysts rate it a Hold on average (2.62 from 11 analysts); their average target is $67.09, 3% above the price; options trading leaned bullish (put/call 0.46).",
    "news": [
     {
-     "title": "Why Tyson Foods Stock Is Up 8.7% And What's Next After Earnings Beat",
-     "summary": "Tyson Foods reported fiscal 2026 fourth quarter sales of US$14.59b and a net loss of US$74m, while full year sales reached US$56.42b with\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-17T14:13:51+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-tyson-foods-stock-8-141351210.html"
-    },
-    {
      "title": "Why JPMorgan Downgraded Tyson Foods (TSN)",
      "summary": "We just published a list of the 10 Stocks Analysts Downgraded On Tuesday and Tyson Foods (NYSE:TSN) ranked 7th on this list. Stocks began\u2026",
      "provider": "Insider Monkey",
@@ -3272,11 +2968,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-downgraded-tyson-foods-150806762.html"
     },
     {
-     "title": "What Mattered Most In Tyson Foods' Latest Quarter?",
-     "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
-     "provider": "Trefis",
-     "pubDate": "2026-11-18T11:48:41+00:00",
-     "url": "https://www.trefis.com/stock/tsn/articles/626208/what-mattered-most-in-tyson-foods-latest-quarter/2026-11-18"
+     "title": "Tyson Foods' Earnings Beat Hides a Warning for Consumer Staples Dividend Investors",
+     "summary": "Tyson Foods beat Q4 estimates and raised its dividend, but beef segment losses and a weaker fiscal 2027 free cash flow outlook raise\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-17T14:55:00+00:00",
+     "url": "https://www.marketbeat.com/articles/tyson-foods-earnings-beat-hides-a-warning-for-consumer-staples-dividend-investors/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
    ]
   },
@@ -3405,25 +3101,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "VLTO scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 21; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 73).\nBacking (0/2): insider buying and selling roughly balanced ($4.1M net); no big-fund moves last quarter.\nSentiment (1/2): no analyst rating available; options trading leaned bullish (put/call 0.31).",
    "news": [
     {
-     "title": "3 Stocks in an Overlooked Corner of Infrastructure With Hundreds of Billions at Stake",
-     "summary": "Aging U.S. water infrastructure and rising AI-driven demand create opportunity for Xylem, Advanced Drainage Systems, and Veralto, each\u2026",
-     "provider": "MarketBeat",
-     "pubDate": "2026-11-17T14:20:00+00:00",
-     "url": "https://www.marketbeat.com/articles/3-stocks-in-an-overlooked-corner-of-infrastructure-with-hundreds-of-billions-at-stake/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
-     "title": "Corpay Stock Rises 13.3% in 3 Months: Here's What You Should Know",
-     "summary": "CPAY's 13.3% share gain in three months reflects robust Corporate Payments growth, strategic acquisitions & strong cash flows supporting\u2026",
+     "title": "Veralto's Q3 Margin Expands 170 Bps: Can VLTO Maintain Gains?",
+     "summary": "VLTO's Q3 adjusted operating margin rises 170 basis points as sales gain 7.5% and adjusted EPS climbs 19.2%. Can the company sustain its\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-17T14:00:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-stock-rises-13-3-140000030.html"
-    },
-    {
-     "title": "RSG Shares Jump 18.7% in Three Months: Here's What You Should Know",
-     "summary": "Republic Services' 18.7% stock gain in three months reflects AI-driven efficiency, strategic acquisitions and strong cash flow, supporting\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-17T13:44:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/rsg-shares-jump-18-7-134400623.html"
+     "pubDate": "2026-11-20T16:58:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/veraltos-q3-margin-expands-170-165800302.html"
     }
    ]
   },
@@ -3553,25 +3235,18 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "WMT scores 2/10 \u2014 Weak.\nValue (0/2): P/E 46.4 is above its usual 28.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 64).\nBacking (0/2): insiders sold $26.7M of shares in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 41 analysts); their average target is $135.76, 6% above the price; options trading leaned bearish (put/call 1.46).\n\ud83d\udd3a Overvalued \u2014 P/E 46.4 vs its 15y median of 28.8, forward P/E 39.6.",
    "news": [
     {
-     "title": "WMT Stock Ticks Higher Overnight: Analyst Says Walmart Deserves Rich Valuation, CEO Stands By \u2018Low Price\u2019 Game",
-     "summary": "Walmart gains analyst confidence as Truist raises its price target, while stronger e-commerce sales evoke optimism.",
-     "provider": "Stocktwits",
-     "pubDate": "2026-11-20T06:33:43+00:00",
-     "url": "https://stocktwits.com/news-articles/markets/equity/wmt-stock-ticks-higher-overnight-analyst-says-walmart-deserves-rich-valuation-ceo-stands-by-low-price-game/cNbSEHDR9Kf"
+     "title": "Target Shines, Walmart Merely Fine: Two Retail Giants Split on Q3 Results",
+     "summary": "Walmart and Target helped headline the reporting docket for Retail this week. Target's results were notably impressive, though big-box\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-20T22:49:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/target-shines-walmart-merely-fine-224900183.html"
     },
     {
-     "title": "Walmart Inc. Q3 2027 Earnings Call Summary",
-     "summary": "Moby summary of Walmart Inc.'s Q3 2027 earnings call",
-     "provider": "Moby",
-     "pubDate": "2026-11-19T22:12:23+00:00",
-     "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-walmart-inc-q3-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
-    },
-    {
-     "title": "Walmart (WMT) Ad Revenue Jumped 25% As AI And TV Deals Gain Traction",
-     "summary": "Walmart (NasdaqGS:WMT) reported a 25% rise in global advertising revenue, with U.S. ad sales up 37% in the latest period. Management linked\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T07:13:51+00:00",
-     "url": "https://finance.yahoo.com/media-advertising/articles/walmart-wmt-ad-revenue-jumped-071351195.html"
+     "title": "Walmart has a surprising update on grocery prices",
+     "summary": "The company is working hard to lower prices, but it faces challenges in doing so.",
+     "provider": "TheStreet",
+     "pubDate": "2026-11-21T00:17:00+00:00",
+     "url": "https://www.thestreet.com/retail/walmart-has-a-surprising-update-on-grocery-prices"
     }
    ]
   },
@@ -3708,29 +3383,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "WRB scores 3/10 \u2014 Weak.\nValue (0/2): P/E 16.6 is above its usual 14.2 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 16; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($10.9M net).\nSentiment (1/2): analysts rate it a Hold on average (3.39 from 17 analysts); their average target is $69.76, 11% below the price; options trading leaned bullish (put/call 0.15).",
-   "news": [
-    {
-     "title": "Why Is W.R. Berkley (WRB) Up 6% Since Last Earnings Report?",
-     "summary": "W.R. Berkley (WRB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-18T15:30:05+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-w-r-berkley-wrb-153005851.html"
-    },
-    {
-     "title": "Can W. R. Berkley (WRB) Still Look Reasonable After A 135% Run?",
-     "summary": "W. R. Berkley has been a strong performer over the past few years, which naturally puts the focus on whether the current share price lines\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T02:10:49+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/w-r-berkley-wrb-still-021049676.html"
-    },
-    {
-     "title": "Why Is Chubb (CB) Up 4.5% Since Last Earnings Report?",
-     "summary": "Chubb (CB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-     "provider": "Zacks",
-     "pubDate": "2026-11-19T15:30:03+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-chubb-cb-4-5-153003294.html"
-    }
-   ]
+   "news": []
   }
  ],
  "f13_quarter": "Q3 2026",
