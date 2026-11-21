@@ -155,7 +155,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T18:17:49+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/alnylam-alny-stock-looks-undervalued-181749883.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -76.0,
+   "pe_highlight": "green"
   },
   {
    "ticker": "APTV",
@@ -296,7 +299,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T11:26:35+00:00",
      "url": "https://www.trefis.com/stock/aph/articles/626802/how-much-of-amphenol-stock-rides-on-one-market/2026-11-19"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -32.9,
+   "pe_vs_sector_pct": -49.8,
+   "pe_highlight": "green"
   },
   {
    "ticker": "AXON",
@@ -446,7 +452,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T10:12:08+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-axon-enterprise-doubles-down-on-skydio-as-ai-growth-helps-offset-delayed-federal-deals-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 16.7,
+   "pe_vs_sector_pct": 282.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "BA",
@@ -595,7 +604,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T23:12:53+00:00",
      "url": "https://www.tikr.com/blog/trumps-17-billion-asia-deals-lean-on-a-12-billion-aircraft-sale-thats-1-6-of-boeings-backlog?ref=yahoofinance&tlnk=yf-261120-9vx69f3p"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -14.4,
+   "pe_vs_sector_pct": -35.7,
+   "pe_highlight": "green"
   },
   {
    "ticker": "BKNG",
@@ -743,7 +755,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-18T15:10:01+00:00",
      "url": "https://www.fool.com/coverage/better-buy/2026/11/18/booking-holdings-vs-mercadolibre-which-consumer-stock-is-a-better-buy-for-2027/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -44.4,
+   "pe_vs_sector_pct": -22.7,
+   "pe_highlight": "green"
   },
   {
    "ticker": "CPT",
@@ -891,7 +906,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T00:05:16+00:00",
      "url": "https://www.tikr.com/blog/a-1500000-portfolio-in-kimco-realty-camden-property-trust-and-stag-industrial-pays-65073-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261118-6p9w4rjq"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -71.1,
+   "pe_vs_sector_pct": -69.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "EXE",
@@ -1041,7 +1059,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T21:07:00+00:00",
      "url": "https://www.barrons.com/articles/senate-permitting-bill-energy-utility-stocks-d6da279b?siteid=yhoof2&yptr=yahoo"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -45.8,
+   "pe_highlight": "green"
   },
   {
    "ticker": "FIS",
@@ -1191,7 +1212,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-18T10:12:59+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/could-fidelity-national-information-services-101259598.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -87.8,
+   "pe_vs_sector_pct": -85.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "HBAN",
@@ -1334,7 +1358,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-17T03:12:35+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/3-us-bank-stocks-focus-031235953.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -9.0,
+   "pe_vs_sector_pct": -8.3,
+   "pe_highlight": null
   },
   {
    "ticker": "LII",
@@ -1476,7 +1503,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T22:41:52+00:00",
      "url": "https://www.trefis.com/stock/jci/articles/626792/is-johnson-controls-stock-engineered-to-make-you-money/2026-11-19"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -38.2,
+   "pe_vs_sector_pct": -39.9,
+   "pe_highlight": "green"
   },
   {
    "ticker": "MELI",
@@ -1634,7 +1664,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-17T20:20:02+00:00",
      "url": "https://www.fool.com/coverage/charts/2026/11/17/mercadolibre-vs-shopify-comparing-recent-revenue-scale-and-growth-trajectories/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -28.3,
+   "pe_vs_sector_pct": 75.8,
+   "pe_highlight": null
   },
   {
    "ticker": "NVR",
@@ -1773,7 +1806,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-17T16:55:09+00:00",
      "url": "https://247wallst.com/investing/2026/11/17/greg-abel-might-have-just-made-a-2-billion-mistake-warren-buffett-avoided/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -14.1,
+   "pe_vs_sector_pct": -26.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "SKYD",
@@ -1920,7 +1956,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T16:14:15+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-skyd-undervalued-insider-buying-161415778.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": null,
+   "pe_highlight": null
   },
   {
    "ticker": "WY",
@@ -2053,7 +2092,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-18T21:37:38+00:00",
      "url": "https://247wallst.com/investing/2026/11/18/frozen-food-biotech-labs-and-timberland-90000-across-these-3-specialty-reits-pays-4968-a-year/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 0.0,
+   "pe_vs_sector_pct": 6.5,
+   "pe_highlight": null
   },
   {
    "ticker": "XYL",
@@ -2193,7 +2235,10 @@ window.__BOLLINGER_MONTHLY__ = {
      "pubDate": "2026-11-19T12:14:54+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/xylem-investors-missed-fall-121454777.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -38.3,
+   "pe_vs_sector_pct": -18.2,
+   "pe_highlight": "green"
   }
  ],
  "f13_quarter": "Q3 2026",
