@@ -157,7 +157,10 @@
      "pubDate": "2026-11-20T09:20:02+00:00",
      "url": "https://www.fool.com/investing/2026/11/20/warren-buffetts-successor-just-bought-10-billion-of-this-ai-stock-and-its-not-apple/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 107.4,
+   "pe_vs_sector_pct": 49.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "ABBV",
@@ -311,7 +314,10 @@
      "pubDate": "2026-11-19T15:33:40+00:00",
      "url": "https://www.pharmaceutical-technology.com/news/abbvie-disco-partnership-bispecific-cancer-therapies/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 93.3,
+   "pe_vs_sector_pct": 56.1,
+   "pe_highlight": "red"
   },
   {
    "ticker": "ACGL",
@@ -456,7 +462,10 @@
      "pubDate": "2026-11-17T16:55:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/knsl-stock-gains-23-3-165500814.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -19.8,
+   "pe_vs_sector_pct": -32.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "ADP",
@@ -611,7 +620,10 @@
      "pubDate": "2026-11-19T15:47:45+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-offers-apos-154745238.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 3.0,
+   "pe_vs_sector_pct": 3.4,
+   "pe_highlight": null
   },
   {
    "ticker": "AES",
@@ -750,7 +762,10 @@
      "pubDate": "2026-11-15T19:58:46+00:00",
      "url": "https://247wallst.com/investing/2026/11/15/wind-farms-solar-fields-and-power-plants-sell-electricity-to-the-grid-and-120000-across-these-3-owners-pays-6286-a-year/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -81.8,
+   "pe_vs_sector_pct": -69.2,
+   "pe_highlight": "green"
   },
   {
    "ticker": "AFL",
@@ -904,7 +919,10 @@
      "pubDate": "2026-11-19T13:01:29+00:00",
      "url": "https://247wallst.com/investing/2026/11/19/gridlock-in-washington-4-rock-solid-dividend-stocks-to-buy-before-the-market-reacts/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 75.0,
+   "pe_vs_sector_pct": 37.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "AIG",
@@ -1050,7 +1068,10 @@
      "pubDate": "2026-11-16T14:14:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/reinsurance-savings-boost-aigs-underwriting-141400581.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 8.2,
+   "pe_vs_sector_pct": 0.0,
+   "pe_highlight": null
   },
   {
    "ticker": "AIZ",
@@ -1193,7 +1214,10 @@
      "pubDate": "2026-11-19T08:28:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-19th-082800722.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 5.7,
+   "pe_vs_sector_pct": 12.9,
+   "pe_highlight": null
   },
   {
    "ticker": "AJG",
@@ -1348,7 +1372,10 @@
      "pubDate": "2026-11-13T13:09:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/bros-organic-growth-hinges-business-130900551.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 62.5,
+   "pe_vs_sector_pct": 221.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "ALLE",
@@ -1487,7 +1514,10 @@
      "pubDate": "2026-11-13T13:34:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-consider-investing-allegion-133400624.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -14.8,
+   "pe_vs_sector_pct": -10.5,
+   "pe_highlight": null
   },
   {
    "ticker": "AMT",
@@ -1642,7 +1672,10 @@
      "pubDate": "2026-11-16T13:38:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/beat-market-zacks-way-vera-133800008.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -52.0,
+   "pe_vs_sector_pct": -10.7,
+   "pe_highlight": "green"
   },
   {
    "ticker": "APD",
@@ -1796,7 +1829,10 @@
      "pubDate": "2026-11-14T08:10:13+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-apd-stock-may-081013754.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 406.7,
+   "pe_vs_sector_pct": 566.8,
+   "pe_highlight": "red"
   },
   {
    "ticker": "AVY",
@@ -1944,7 +1980,10 @@
      "pubDate": "2026-11-18T17:09:57+00:00",
      "url": "https://www.trefis.com/stock/mmm/articles/626234/what-are-3m-investors-betting-on/2026-11-18"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -6.6,
+   "pe_vs_sector_pct": -4.3,
+   "pe_highlight": null
   },
   {
    "ticker": "AWK",
@@ -2089,7 +2128,10 @@
      "pubDate": "2026-11-19T13:00:23+00:00",
      "url": "https://www.barchart.com/story/news/8914573/what-are-wall-street-analysts-target-price-for-american-water-works-stock"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -3.3,
+   "pe_vs_sector_pct": 33.3,
+   "pe_highlight": "red"
   },
   {
    "ticker": "AZO",
@@ -2242,7 +2284,10 @@
      "pubDate": "2026-11-13T13:10:00+00:00",
      "url": "https://www.marketbeat.com/articles/these-3-stocks-have-bought-back-billions-but-which-offers-the-best-value/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 23.6,
+   "pe_vs_sector_pct": 3.9,
+   "pe_highlight": null
   },
   {
    "ticker": "BBY",
@@ -2397,7 +2442,10 @@
      "pubDate": "2026-11-17T18:23:00+00:00",
      "url": "https://www.proactiveinvestors.com/companies/news/1101953/best-buy-faces-test-of-earnings-growth-as-ubs-questions-sustainability-of-sales-momentum-1101953.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 24.1,
+   "pe_vs_sector_pct": -20.3,
+   "pe_highlight": null
   },
   {
    "ticker": "BDX",
@@ -2552,7 +2600,10 @@
      "pubDate": "2026-11-13T11:03:55+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-active-value-etf-java-110355677.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 7.8,
+   "pe_vs_sector_pct": 36.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "BEN",
@@ -2707,7 +2758,10 @@
      "pubDate": "2026-11-14T04:15:00+00:00",
      "url": "https://www.barrons.com/articles/franklin-templeton-stock-price-technical-5f2ac90a?siteid=yhoof2&yptr=yahoo"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 18.2,
+   "pe_vs_sector_pct": 28.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "BF-B",
@@ -2839,7 +2893,10 @@
      "pubDate": "2026-11-15T09:11:39+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/brown-forman-2-other-dividend-091139557.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -31.2,
+   "pe_vs_sector_pct": -10.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "BIIB",
@@ -2994,7 +3051,10 @@
      "pubDate": "2026-11-19T09:59:10+00:00",
      "url": "https://www.clinicaltrialsarena.com/news/biogen-two-year-phase-ii-data-diranersen-ad/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 435.0,
+   "pe_vs_sector_pct": 242.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "BLK",
@@ -3157,7 +3217,10 @@
      "pubDate": "2026-11-19T15:30:05+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/msci-msci-5-4-since-153005242.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": 96.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "BRK-B",
@@ -3297,7 +3360,10 @@
      "pubDate": "2026-11-20T03:36:32+00:00",
      "url": "https://247wallst.com/investing/2026/11/19/in-1993-a-79-year-old-maine-shoemaker-sold-his-company-to-warren-buffett-for-berkshire-shares-instead-of-cash-buffett-called-it-his-worst-deal-as-the-shoe-companys-value-went-to-zero-while-ha/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": 22.0,
+   "pe_highlight": null
   },
   {
    "ticker": "CAH",
@@ -3441,7 +3507,10 @@
      "pubDate": "2026-11-16T05:28:43+00:00",
      "url": "https://www.barchart.com/story/news/8849091/is-wall-street-bullish-or-bearish-on-cardinal-health-stock"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 35.4,
+   "pe_vs_sector_pct": 12.8,
+   "pe_highlight": "red"
   },
   {
    "ticker": "CB",
@@ -3586,7 +3655,10 @@
      "pubDate": "2026-11-19T15:33:19+00:00",
      "url": "https://www.barchart.com/story/news/8919253/are-wall-street-analysts-predicting-chubb-limited-stock-will-climb-or-sink"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -4.4,
+   "pe_vs_sector_pct": -1.5,
+   "pe_highlight": null
   },
   {
    "ticker": "CBOE",
@@ -3740,7 +3812,10 @@
      "pubDate": "2026-11-17T19:50:33+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/ipo-day-executing-public-company-195033529.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -4.2,
+   "pe_vs_sector_pct": 91.7,
+   "pe_highlight": "red"
   },
   {
    "ticker": "CCEP",
@@ -3863,7 +3938,10 @@
      "pubDate": "2026-11-15T17:00:51+00:00",
      "url": "https://247wallst.com/investing/2026/11/15/4-dividend-stocks-retirees-can-buy-before-they-go-ex-dividend-in-the-week-ahead/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": 3.2,
+   "pe_highlight": null
   },
   {
    "ticker": "CCI",
@@ -4008,7 +4086,10 @@
      "pubDate": "2026-11-14T20:23:00+00:00",
      "url": "https://247wallst.com/investing/2026/11/14/billboards-and-cell-towers-collect-rent-from-brands-and-carriers-and-120000-across-these-3-stocks-pays-5077-a-year/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -61.0,
+   "pe_vs_sector_pct": 13.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "CDW",
@@ -4155,7 +4236,10 @@
      "pubDate": "2026-11-18T18:00:12+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/citi-bank-slashes-dell-hpe-180012702.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -10.9,
+   "pe_vs_sector_pct": -25.2,
+   "pe_highlight": "green"
   },
   {
    "ticker": "CHD",
@@ -4300,7 +4384,10 @@
      "pubDate": "2026-11-20T00:20:27+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-chd-could-2-002027507.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 20.9,
+   "pe_vs_sector_pct": 54.8,
+   "pe_highlight": "red"
   },
   {
    "ticker": "CINF",
@@ -4446,7 +4533,10 @@
      "pubDate": "2026-11-18T16:29:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/rli-33-5-six-months-162900897.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -19.1,
+   "pe_vs_sector_pct": -16.7,
+   "pe_highlight": null
   },
   {
    "ticker": "CL",
@@ -4592,7 +4682,10 @@
      "pubDate": "2026-11-19T10:50:15+00:00",
      "url": "https://www.tikr.com/blog/how-many-shares-of-colgate-palmolive-or-procter-gamble-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261119-r62w9329"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 37.6,
+   "pe_vs_sector_pct": 73.7,
+   "pe_highlight": "red"
   },
   {
    "ticker": "CME",
@@ -4755,7 +4848,10 @@
      "pubDate": "2026-11-19T14:42:13+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-turned-bullish-5-stocks-144213274.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 2.0,
+   "pe_vs_sector_pct": 90.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "CNC",
@@ -4910,7 +5006,10 @@
      "pubDate": "2026-11-19T22:05:00+00:00",
      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-3e9085fc?siteid=yhoof2&yptr=yahoo"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 7.7,
+   "pe_vs_sector_pct": -27.9,
+   "pe_highlight": "green"
   },
   {
    "ticker": "COR",
@@ -5055,7 +5154,10 @@
      "pubDate": "2026-11-16T13:23:50+00:00",
      "url": "https://www.barchart.com/story/news/8853972/are-wall-street-analysts-predicting-cencora-stock-will-climb-or-sink"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -4.9,
+   "pe_vs_sector_pct": -37.8,
+   "pe_highlight": "green"
   },
   {
    "ticker": "COST",
@@ -5200,7 +5302,10 @@
      "pubDate": "2026-11-20T04:17:00+00:00",
      "url": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-strong-signal-to-costco-investors"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 47.6,
+   "pe_vs_sector_pct": 142.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "CPAY",
@@ -5346,7 +5451,10 @@
      "pubDate": "2026-11-17T14:00:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-stock-rises-13-3-140000030.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -1.2,
+   "pe_vs_sector_pct": -8.8,
+   "pe_highlight": null
   },
   {
    "ticker": "CTAS",
@@ -5501,7 +5609,10 @@
      "pubDate": "2026-11-19T11:30:08+00:00",
      "url": "https://www.tikr.com/blog/figs-is-up-12-in-a-month-on-a-raised-outlook-its-ceo-sees-sustainable-top-and-bottom-line-momentum-ahead?ref=yahoofinance&tlnk=yf-261119-6558wv5g"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 50.5,
+   "pe_vs_sector_pct": 67.4,
+   "pe_highlight": "red"
   },
   {
    "ticker": "DD",
@@ -5646,7 +5757,10 @@
      "pubDate": "2026-11-13T17:39:43+00:00",
      "url": "https://www.tikr.com/blog/his-ex-wife-waived-his-400000-plan-in-their-divorce-her-name-on-the-beneficiary-form-won-in-the-supreme-court?ref=yahoofinancedividend&tlnk=yf-261114-mmw36wr9"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 220.2,
+   "pe_vs_sector_pct": 170.5,
+   "pe_highlight": "red"
   },
   {
    "ticker": "DGX",
@@ -5791,7 +5905,10 @@
      "pubDate": "2026-11-13T20:23:04+00:00",
      "url": "https://www.trefis.com/stock/hims/articles/624992/should-hims-hers-stocks-drop-after-earnings-worry-you/2026-11-13"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 46.6,
+   "pe_vs_sector_pct": -17.3,
+   "pe_highlight": "red"
   },
   {
    "ticker": "DIS",
@@ -5953,7 +6070,10 @@
      "pubDate": "2026-11-19T16:15:02+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-looks-fully-161502704.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 9.2,
+   "pe_vs_sector_pct": 33.7,
+   "pe_highlight": "red"
   },
   {
    "ticker": "DLTR",
@@ -6098,7 +6218,10 @@
      "pubDate": "2026-11-20T00:43:03+00:00",
      "url": "https://247wallst.com/investing/2026/11/19/warren-buffett-stopped-giving-bill-gatess-foundation-berkshire-shares-it-just-sold-1-billion-more-and-bought-a-dollar-store-heres-when-the-rest-runs-out/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -13.9,
+   "pe_vs_sector_pct": -19.8,
+   "pe_highlight": null
   },
   {
    "ticker": "DRI",
@@ -6242,7 +6365,10 @@
      "pubDate": "2026-11-19T20:17:53+00:00",
      "url": "https://247wallst.com/investing/2026/11/19/starbucks-has-raised-its-dividend-16-straight-years-these-3-restaurant-stocks-keep-paying/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 13.1,
+   "pe_vs_sector_pct": 8.7,
+   "pe_highlight": null
   },
   {
    "ticker": "ECHO",
@@ -6396,7 +6522,10 @@
      "pubDate": "2026-11-16T17:40:00+00:00",
      "url": "https://www.marketbeat.com/articles/orbiting-growth-federal-contracts-boost-viasats-outlook/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -84.3,
+   "pe_vs_sector_pct": -78.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "ECL",
@@ -6551,7 +6680,10 @@
      "pubDate": "2026-11-17T15:47:00+00:00",
      "url": "https://finance.yahoo.com/technology/ai/articles/ecolab-launches-integrated-cooling-platform-154700031.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 25.0,
+   "pe_vs_sector_pct": 109.8,
+   "pe_highlight": "red"
   },
   {
    "ticker": "ED",
@@ -6696,7 +6828,10 @@
      "pubDate": "2026-11-14T01:16:14+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/con-edison-ed-stock-looks-011614902.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 9.8,
+   "pe_vs_sector_pct": -2.1,
+   "pe_highlight": null
   },
   {
    "ticker": "EG",
@@ -6831,7 +6966,10 @@
      "pubDate": "2026-11-19T16:58:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/munich-sustain-growth-reinsurance-pricing-165800876.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -2.2,
+   "pe_vs_sector_pct": -32.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "EVRG",
@@ -6986,7 +7124,10 @@
      "pubDate": "2026-11-14T15:00:50+00:00",
      "url": "https://247wallst.com/investing/2026/11/14/retirees-should-put-these-4-high-yield-utility-stocks-on-their-buy-list-for-next-week/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -3.5,
+   "pe_vs_sector_pct": -0.5,
+   "pe_highlight": null
   },
   {
    "ticker": "EW",
@@ -7140,7 +7281,10 @@
      "pubDate": "2026-11-13T16:06:51+00:00",
      "url": "https://www.tikr.com/blog/a-9-2-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261113-73q37c26"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 68.2,
+   "pe_vs_sector_pct": 93.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "EXR",
@@ -7295,7 +7439,10 @@
      "pubDate": "2026-11-16T15:40:03+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/aple-exr-better-value-stock-154003051.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 0.0,
+   "pe_vs_sector_pct": 9.6,
+   "pe_highlight": null
   },
   {
    "ticker": "FAST",
@@ -7441,7 +7588,10 @@
      "pubDate": "2026-11-17T14:40:50+00:00",
      "url": "https://www.trefis.com/stock/fast/articles/625758/has-buying-fastenal-stock-at-a-high-paid-off/2026-11-17"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 39.4,
+   "pe_vs_sector_pct": 70.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "FERG",
@@ -7601,7 +7751,10 @@
      "pubDate": "2026-11-17T09:59:10+00:00",
      "url": "https://www.barchart.com/story/news/8870024/is-wall-street-bullish-or-bearish-on-ferguson-enterprises-stock"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -7.8,
+   "pe_highlight": null
   },
   {
    "ticker": "FISV",
@@ -7729,7 +7882,10 @@
      "pubDate": "2026-11-19T11:05:38+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110538799.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": null,
+   "pe_highlight": null
   },
   {
    "ticker": "FTV",
@@ -7866,7 +8022,10 @@
      "pubDate": "2026-11-16T10:04:11+00:00",
      "url": "https://www.barchart.com/story/news/8850617/do-wall-street-analysts-like-fortive-stock"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 28.6,
+   "pe_vs_sector_pct": 18.3,
+   "pe_highlight": "red"
   },
   {
    "ticker": "GEHC",
@@ -8020,7 +8179,10 @@
      "pubDate": "2026-11-18T14:10:30+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-technologies-gehc-fda-141030491.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -44.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "GWW",
@@ -8166,7 +8328,10 @@
      "pubDate": "2026-11-18T15:35:27+00:00",
      "url": "https://247wallst.com/investing/2026/11/18/fastenal-raised-its-dividend-twice-in-2026-why-wall-street-still-isnt-sold-on-this-dividend-aristocrat/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 36.7,
+   "pe_vs_sector_pct": 21.3,
+   "pe_highlight": "red"
   },
   {
    "ticker": "HAS",
@@ -8321,7 +8486,10 @@
      "pubDate": "2026-11-18T19:07:53+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/hasbro-stock-may-trade-discount-190753053.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -31.9,
+   "pe_vs_sector_pct": -17.4,
+   "pe_highlight": "green"
   },
   {
    "ticker": "HCA",
@@ -8466,7 +8634,10 @@
      "pubDate": "2026-11-13T11:03:55+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-active-value-etf-java-110355677.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 12.5,
+   "pe_vs_sector_pct": -51.0,
+   "pe_highlight": "green"
   },
   {
    "ticker": "HLT",
@@ -8619,7 +8790,10 @@
      "pubDate": "2026-11-19T11:26:35+00:00",
      "url": "https://www.trefis.com/stock/ccl/articles/626786/what-will-move-carnival-stock-through-spring-2027/2026-11-19"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 27.3,
+   "pe_vs_sector_pct": 136.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "HST",
@@ -8751,7 +8925,10 @@
      "pubDate": "2026-11-13T12:12:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/5-high-roe-stocks-buy-121200764.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -2.7,
+   "pe_vs_sector_pct": -37.8,
+   "pe_highlight": "green"
   },
   {
    "ticker": "HUM",
@@ -8914,7 +9091,10 @@
      "pubDate": "2026-11-19T23:03:12+00:00",
      "url": "https://247wallst.com/personal-finance/2026/11/19/two-68-year-old-neighbors-with-diabetes-leave-medicare-advantage-by-dec-7-his-plan-is-closing-so-medigap-must-take-him-shes-leaving-by-choice-so-a-medigap-insurer-can-turn-her-down/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 81.0,
+   "pe_vs_sector_pct": 18.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "ICE",
@@ -9093,7 +9273,10 @@
      "pubDate": "2026-11-18T12:10:02+00:00",
      "url": "https://www.fool.com/investing/2026/11/18/did-avalanche-s-new-nyse-deal-just-make-solana-and-xrp-irrelevant/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -9.0,
+   "pe_vs_sector_pct": 76.5,
+   "pe_highlight": "red"
   },
   {
    "ticker": "IDXX",
@@ -9247,7 +9430,10 @@
      "pubDate": "2026-11-19T12:02:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/time-retain-omnicell-stock-portfolio-120200045.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -3.3,
+   "pe_vs_sector_pct": 49.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "IEX",
@@ -9402,7 +9588,10 @@
      "pubDate": "2026-11-16T08:05:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-parker-080500828.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 13.3,
+   "pe_vs_sector_pct": 22.1,
+   "pe_highlight": null
   },
   {
    "ticker": "J",
@@ -9548,7 +9737,10 @@
      "pubDate": "2026-11-16T14:00:02+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/jacobs-solutions-j-earnings-expected-140002257.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 155.9,
+   "pe_vs_sector_pct": 102.3,
+   "pe_highlight": "red"
   },
   {
    "ticker": "JKHY",
@@ -9694,7 +9886,10 @@
      "pubDate": "2026-11-20T01:04:34+00:00",
      "url": "https://www.trefis.com/stock/bill/articles/626273/why-is-bill-stock-going-up/2026-11-19"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -19.0,
+   "pe_vs_sector_pct": -10.7,
+   "pe_highlight": null
   },
   {
    "ticker": "JNJ",
@@ -9840,7 +10035,10 @@
      "pubDate": "2026-11-19T18:00:50+00:00",
      "url": "https://247wallst.com/investing/2026/11/19/how-retirees-can-turn-1-million-into-passive-income-with-these-5-dividend-stocks/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 108.8,
+   "pe_vs_sector_pct": 29.8,
+   "pe_highlight": "red"
   },
   {
    "ticker": "KDP",
@@ -9995,7 +10193,10 @@
      "pubDate": "2026-11-19T14:58:51+00:00",
      "url": "https://www.trefis.com/stock/sbux/articles/626782/what-is-the-one-risk-every-starbucks-investor-should-know/2026-11-19"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 31.9,
+   "pe_vs_sector_pct": 42.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "KO",
@@ -10149,7 +10350,10 @@
      "pubDate": "2026-11-19T20:21:26+00:00",
      "url": "http://www.intellinews.com/turkey-s-monopolies-watchdog-takes-on-all-comers-486857/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 7.6,
+   "pe_vs_sector_pct": 30.4,
+   "pe_highlight": "red"
   },
   {
    "ticker": "KR",
@@ -10311,7 +10515,10 @@
      "pubDate": "2026-11-19T18:23:20+00:00",
      "url": "https://www.trefis.com/stock/tgt/articles/626854/tariff-refunds-are-about-a-fifth-of-target-s-guidance/2026-11-19"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 146.2,
+   "pe_vs_sector_pct": 77.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "LH",
@@ -10464,7 +10671,10 @@
      "pubDate": "2026-11-14T09:10:32+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/labcorp-holdings-lh-still-cheap-091032518.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 79.8,
+   "pe_vs_sector_pct": -3.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "LLY",
@@ -10626,7 +10836,10 @@
      "pubDate": "2026-11-19T18:17:58+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-only-healthcare-181758283.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 29.1,
+   "pe_vs_sector_pct": 40.7,
+   "pe_highlight": "red"
   },
   {
    "ticker": "MA",
@@ -10805,7 +11018,10 @@
      "pubDate": "2026-11-19T20:15:32+00:00",
      "url": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -3.5,
+   "pe_vs_sector_pct": 148.5,
+   "pe_highlight": "red"
   },
   {
    "ticker": "MAR",
@@ -10958,7 +11174,10 @@
      "pubDate": "2026-11-20T02:37:00+00:00",
      "url": "https://www.thestreet.com/travel/marriott-discount-25-off-hotel-stays-for-members-but-theres-a-catch"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 35.4,
+   "pe_vs_sector_pct": 99.5,
+   "pe_highlight": "red"
   },
   {
    "ticker": "MAS",
@@ -11103,7 +11322,10 @@
      "pubDate": "2026-11-18T19:07:07+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/masco-mas-trading-below-fair-190707049.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 7.8,
+   "pe_vs_sector_pct": -30.2,
+   "pe_highlight": "green"
   },
   {
    "ticker": "MCK",
@@ -11264,7 +11486,10 @@
      "pubDate": "2026-11-19T22:33:31+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/two-deals-higher-target-ubs-223331229.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 9.2,
+   "pe_vs_sector_pct": -12.2,
+   "pe_highlight": null
   },
   {
    "ticker": "MDLZ",
@@ -11419,7 +11644,10 @@
      "pubDate": "2026-11-17T11:16:48+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/mondelezs-multi-million-portfolio-shift-111648659.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 2.4,
+   "pe_vs_sector_pct": -3.2,
+   "pe_highlight": null
   },
   {
    "ticker": "MDT",
@@ -11564,7 +11792,10 @@
      "pubDate": "2026-11-19T14:38:40+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-sees-ahead-medtronic-143840332.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -13.3,
+   "pe_vs_sector_pct": -20.8,
+   "pe_highlight": null
   },
   {
    "ticker": "MET",
@@ -11710,7 +11941,10 @@
      "pubDate": "2026-11-19T22:12:12+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-metlife-says-growth-plan-is-ahead-of-schedule-as-retirement-demand-rises-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 11.3,
+   "pe_vs_sector_pct": -3.0,
+   "pe_highlight": null
   },
   {
    "ticker": "MO",
@@ -11864,7 +12098,10 @@
      "pubDate": "2026-11-18T18:20:14+00:00",
      "url": "https://www.tikr.com/blog/altria-or-bp-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261119-295q3934"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 14.9,
+   "pe_vs_sector_pct": -29.0,
+   "pe_highlight": "green"
   },
   {
    "ticker": "MRSH",
@@ -12009,7 +12246,10 @@
      "pubDate": "2026-11-17T13:13:32+00:00",
      "url": "https://www.barchart.com/story/news/8874382/what-are-wall-street-analysts-target-price-for-marsh-mclennan-stock"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -0.8,
+   "pe_vs_sector_pct": 85.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "MSCI",
@@ -12171,7 +12411,10 @@
      "pubDate": "2026-11-19T21:14:24+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-bitcoin-buying-msci-211424742.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -9.8,
+   "pe_vs_sector_pct": 150.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "MSI",
@@ -12325,7 +12568,10 @@
      "pubDate": "2026-11-17T01:22:57+00:00",
      "url": "https://www.trefis.com/stock/axon/articles/625163/are-rising-memory-costs-a-threat-to-axon-stock/2026-11-16"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 50.5,
+   "pe_vs_sector_pct": 60.3,
+   "pe_highlight": "red"
   },
   {
    "ticker": "MTD",
@@ -12466,7 +12712,10 @@
      "pubDate": "2026-11-17T00:53:18+00:00",
      "url": "https://www.trefis.com/stock/wat/articles/625190/what-was-waters-telling-you-before-its-stock-ran/2026-11-16"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 22.5,
+   "pe_vs_sector_pct": 18.6,
+   "pe_highlight": null
   },
   {
    "ticker": "NDAQ",
@@ -12621,7 +12870,10 @@
      "pubDate": "2026-11-18T23:42:56+00:00",
      "url": "https://www.trefis.com/stock/cpng/articles/625841/what-moved-coupang-stock-over-5-lower/2026-11-18"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 21.4,
+   "pe_vs_sector_pct": 118.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "ORLY",
@@ -12758,7 +13010,10 @@
      "pubDate": "2026-11-16T14:51:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/oreilly-stock-worth-buying-growth-145100272.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 17.1,
+   "pe_vs_sector_pct": 38.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "PEP",
@@ -12913,7 +13168,10 @@
      "pubDate": "2026-11-19T15:05:44+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-sees-trouble-ahead-pepsico-150544527.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -27.1,
+   "pe_vs_sector_pct": -19.4,
+   "pe_highlight": "green"
   },
   {
    "ticker": "PG",
@@ -13058,7 +13316,10 @@
      "pubDate": "2026-11-20T08:12:12+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-procter-gamble-targets-up-to-10-billion-in-savings-with-ai-and-automation-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 5.0,
+   "pe_vs_sector_pct": 16.6,
+   "pe_highlight": null
   },
   {
    "ticker": "PGR",
@@ -13221,7 +13482,10 @@
      "pubDate": "2026-11-13T15:30:03+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-progressive-pgr-10-2-153003221.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -18.2,
+   "pe_vs_sector_pct": -11.4,
+   "pe_highlight": null
   },
   {
    "ticker": "PRU",
@@ -13365,7 +13629,10 @@
      "pubDate": "2026-11-13T13:47:59+00:00",
      "url": "https://247wallst.com/investing/2026/11/13/3-legacy-financial-dividend-stocks-that-never-go-out-of-style/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 18.3,
+   "pe_vs_sector_pct": -16.7,
+   "pe_highlight": null
   },
   {
    "ticker": "REGN",
@@ -13520,7 +13787,10 @@
      "pubDate": "2026-11-19T13:10:41+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/regeneron-wins-fda-nod-livsayis-131041728.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -8.3,
+   "pe_vs_sector_pct": -33.0,
+   "pe_highlight": "green"
   },
   {
    "ticker": "ROP",
@@ -13664,7 +13934,10 @@
      "pubDate": "2026-11-16T19:17:34+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/does-roche-holding-swx-rop-191734139.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -33.9,
+   "pe_vs_sector_pct": -30.2,
+   "pe_highlight": "green"
   },
   {
    "ticker": "RSG",
@@ -13818,7 +14091,10 @@
      "pubDate": "2026-11-18T12:18:06+00:00",
      "url": "https://www.trefis.com/stock/rsg/articles/626259/is-republic-services-stock-a-mistake-at-its-high/2026-11-18"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 26.8,
+   "pe_vs_sector_pct": 32.2,
+   "pe_highlight": "red"
   },
   {
    "ticker": "SJM",
@@ -13973,7 +14249,10 @@
      "pubDate": "2026-11-18T18:44:27+00:00",
      "url": "https://www.tikr.com/blog/j-m-smucker-or-mplx-the-one-dividend-stock-id-hold-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261119-mc34968g"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 205.5,
+   "pe_vs_sector_pct": 182.9,
+   "pe_highlight": "red"
   },
   {
    "ticker": "SPGI",
@@ -14136,7 +14415,10 @@
      "pubDate": "2026-11-19T16:50:02+00:00",
      "url": "https://www.fool.com/coverage/better-buy/2026/11/19/coinbase-global-vs-sp-global-which-financial-stock-is-a-better-buy-for-2027/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -18.0,
+   "pe_vs_sector_pct": 100.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "STE",
@@ -14272,7 +14554,10 @@
      "pubDate": "2026-11-19T11:05:38+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110538799.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -20.8,
+   "pe_vs_sector_pct": -1.3,
+   "pe_highlight": null
   },
   {
    "ticker": "SWK",
@@ -14418,7 +14703,10 @@
      "pubDate": "2026-11-18T14:15:46+00:00",
      "url": "https://www.trefis.com/stock/swk/articles/626156/is-stanley-black-decker-stock-really-cheap/2026-11-18"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -6.3,
+   "pe_vs_sector_pct": -25.2,
+   "pe_highlight": "green"
   },
   {
    "ticker": "TECH",
@@ -14558,7 +14846,10 @@
      "pubDate": "2026-11-19T12:15:49+00:00",
      "url": "https://www.barchart.com/story/news/8913552/are-wall-street-analysts-predicting-bio-techne-stock-will-climb-or-sink"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 43.8,
+   "pe_vs_sector_pct": 113.8,
+   "pe_highlight": "red"
   },
   {
    "ticker": "TRV",
@@ -14704,7 +14995,10 @@
      "pubDate": "2026-11-18T15:30:05+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rli-corp-rli-12-153005586.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -13.4,
+   "pe_vs_sector_pct": -22.0,
+   "pe_highlight": null
   },
   {
    "ticker": "TSCO",
@@ -14866,7 +15160,10 @@
      "pubDate": "2026-11-19T15:55:00+00:00",
      "url": "https://www.retaildive.com/news/tractor-supply-uber-same-day-delivery/874748/"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -10.3,
+   "pe_vs_sector_pct": 0.5,
+   "pe_highlight": null
   },
   {
    "ticker": "TYL",
@@ -15012,7 +15309,10 @@
      "pubDate": "2026-11-13T21:06:22+00:00",
      "url": "https://www.trefis.com/stock/axon/articles/624968/why-did-axon-stock-fall/2026-11-13"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -38.6,
+   "pe_vs_sector_pct": 92.7,
+   "pe_highlight": null
   },
   {
    "ticker": "UHS",
@@ -15151,7 +15451,10 @@
      "pubDate": "2026-11-15T16:12:05+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-universal-health-services-bets-on-hospital-recovery-as-medicaid-payments-fall-in-2027-2026-11-15/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -49.7,
+   "pe_vs_sector_pct": -76.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "ULTA",
@@ -15296,7 +15599,10 @@
      "pubDate": "2026-11-20T03:17:53+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/ulta-beauty-ulta-adds-japanese-031753706.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -13.9,
+   "pe_vs_sector_pct": 10.6,
+   "pe_highlight": null
   },
   {
    "ticker": "V",
@@ -15478,7 +15784,10 @@
      "pubDate": "2026-11-19T22:33:17+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-saw-raising-visa-223317532.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": 147.7,
+   "pe_highlight": "red"
   },
   {
    "ticker": "VLTO",
@@ -15622,7 +15931,10 @@
      "pubDate": "2026-11-17T13:44:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/rsg-shares-jump-18-7-134400623.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": 11.2,
+   "pe_highlight": null
   },
   {
    "ticker": "VRSK",
@@ -15784,7 +16096,10 @@
      "pubDate": "2026-11-13T18:28:09+00:00",
      "url": "https://www.trefis.com/stock/efx/articles/625020/what-are-equifax-investors-betting-on/2026-11-13"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -0.7,
+   "pe_vs_sector_pct": 17.8,
+   "pe_highlight": null
   },
   {
    "ticker": "VRSN",
@@ -15945,7 +16260,10 @@
      "pubDate": "2026-11-15T13:48:07+00:00",
      "url": "https://www.barchart.com/story/news/8843988/dear-verisign-stock-fans-mark-your-calendars-for-december-10"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 7.1,
+   "pe_vs_sector_pct": 26.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "VTRS",
@@ -16091,7 +16409,10 @@
      "pubDate": "2026-11-16T11:42:12+00:00",
      "url": "https://www.trefis.com/stock/nbix/articles/625151/should-you-buy-neurocrine-biosciences-stock-for-its-cash/2026-11-16"
     }
-   ]
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": null,
+   "pe_highlight": null
   },
   {
    "ticker": "WELL",
@@ -16230,7 +16551,10 @@
      "pubDate": "2026-11-18T14:52:22+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/mizuho-names-top-healthcare-reit-145222361.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 70.0,
+   "pe_vs_sector_pct": 254.0,
+   "pe_highlight": "red"
   },
   {
    "ticker": "WMT",
@@ -16375,7 +16699,10 @@
      "pubDate": "2026-11-20T07:13:51+00:00",
      "url": "https://finance.yahoo.com/media-advertising/articles/walmart-wmt-ad-revenue-jumped-071351195.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 58.7,
+   "pe_vs_sector_pct": 110.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "WRB",
@@ -16529,7 +16856,10 @@
      "pubDate": "2026-11-19T15:30:03+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-chubb-cb-4-5-153003294.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 15.5,
+   "pe_vs_sector_pct": 24.2,
+   "pe_highlight": null
   },
   {
    "ticker": "WST",
@@ -16675,7 +17005,10 @@
      "pubDate": "2026-11-19T16:50:00+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-wins-fda-nod-165000314.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 0.2,
+   "pe_vs_sector_pct": 42.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "XYZ",
@@ -16820,7 +17153,10 @@
      "pubDate": "2026-11-18T15:46:47+00:00",
      "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261118-x79qh686"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -65.5,
+   "pe_vs_sector_pct": 272.9,
+   "pe_highlight": null
   },
   {
    "ticker": "ZTS",
@@ -16966,7 +17302,10 @@
      "pubDate": "2026-11-19T20:17:29+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/poultry-vaccine-license-could-change-201729356.html"
     }
-   ]
+   ],
+   "pe_vs_own_pct": -63.1,
+   "pe_vs_sector_pct": -56.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "TSN",
@@ -17120,7 +17459,10 @@
      "pubDate": "2026-11-18T11:48:41+00:00",
      "url": "https://www.trefis.com/stock/tsn/articles/626208/what-mattered-most-in-tyson-foods-latest-quarter/2026-11-18"
     }
-   ]
+   ],
+   "pe_vs_own_pct": 239.9,
+   "pe_vs_sector_pct": 131.8,
+   "pe_highlight": "red"
   }
  ],
  "f13_quarter": "Q3 2026",
