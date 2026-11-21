@@ -107,8 +107,58 @@
    "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "ALNY scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 23; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): insider buying and selling roughly balanced ($0.1M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.83 from 27 analysts); their average target is $284.96, 93% above the price; options trading leaned bearish (put/call 1.41).",
-   "is_new": true
+   "score_tip": "ALNY scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 23; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): insider buying and selling roughly balanced ($0.1M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.83 from 27 analysts); their average target is $284.96, 93% above the price; options trading leaned bearish (put/call 1.41).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 10.7% over 3 years, so each share owns a smaller slice of the company.",
+   "is_new": true,
+   "earn_surprise": [
+    623.0,
+    -14.2,
+    35.3
+   ],
+   "int_coverage": 2.3,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 20.6,
+   "r40_driver": "margin",
+   "shares_3y": 10.7,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 10.7% over 3 years, so each share owns a smaller slice of the company.",
+   "margin_trend": -1.9,
+   "rsi_prev": 41.9,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
+     "summary": "The product of a collaboration with Alnylam, Livsayis is now Regeneron\u2019s first marketed RNAi drug and will compete against established\u2026",
+     "provider": "BioPharma Dive",
+     "pubDate": "2026-11-19T15:10:00+00:00",
+     "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
+    },
+    {
+     "title": "Alnylam Stock Trades Below Its Pre-$1 Billion Buyback Price",
+     "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-17T19:45:35+00:00",
+     "url": "https://www.trefis.com/stock/alny/articles/625599/alnylam-stock-trades-below-its-pre-1-billion-buyback-price/2026-11-17"
+    },
+    {
+     "title": "Alnylam (ALNY) Stock Looks Undervalued As Shares Fell 68%",
+     "summary": "Alnylam Pharmaceuticals has seen its stock slump hard over the past year, which puts a fresh spotlight on whether the current share price\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T18:17:49+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alnylam-alny-stock-looks-undervalued-181749883.html"
+    }
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -76.0,
+   "pe_highlight": "green"
   },
   {
    "ticker": "APTV",
@@ -201,8 +251,58 @@
    "score_b": 0,
    "score_s": 2,
    "score_tier": "Weak",
-   "score_tip": "APTV scores 3/10 \u2014 Weak.\nValue (1/2): P/E 10.4 is below its usual 15.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 10; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 30).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.80 from 18 analysts); their average target is $56.94, 52% above the price; options trading leaned bullish (put/call 0.60).",
-   "is_new": true
+   "score_tip": "APTV scores 3/10 \u2014 Weak.\nValue (1/2): P/E 10.4 is below its usual 15.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 10; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 30).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.80 from 18 analysts); their average target is $56.94, 52% above the price; options trading leaned bullish (put/call 0.60).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 18.6% over 3 years, so each share owns a bigger slice of the company.",
+   "is_new": true,
+   "earn_surprise": [
+    7.4,
+    14.1,
+    7.9
+   ],
+   "int_coverage": 3.5,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 15.6,
+   "r40_driver": "margin",
+   "shares_3y": -18.6,
+   "diluting": false,
+   "buyback": true,
+   "share_flag_tip": "Buying back shares \u2014 shares outstanding down 18.6% over 3 years, so each share owns a bigger slice of the company.",
+   "margin_trend": 21.7,
+   "rsi_prev": 29.5,
+   "rsi_dir": "flat",
+   "news": [
+    {
+     "title": "Learn Why The Bull Case For Aptiv Stock Could Change Following Industrial Robot Deal",
+     "summary": "Aptiv and TARSBOT expanded their embodied AI collaboration, with Aptiv products to be built into TARSBOT A-Series industrial robots that\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T23:21:32+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-aptiv-232132037.html"
+    },
+    {
+     "title": "Can Amphenol Afford Its $4 Billion Buyback?",
+     "summary": "A reader of our Nov 10 look at whether Amphenol stock is really expensive asked for more on the stock. The price has barely moved since.\u2026",
+     "provider": "Trefis",
+     "pubDate": "2026-11-17T11:29:48+00:00",
+     "url": "https://www.trefis.com/stock/aph/articles/625218/can-amphenol-afford-its-4-billion-buyback/2026-11-16"
+    },
+    {
+     "title": "How Much Of Amphenol Stock Rides On One Market?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:26:35+00:00",
+     "url": "https://www.trefis.com/stock/aph/articles/626802/how-much-of-amphenol-stock-rides-on-one-market/2026-11-19"
+    }
+   ],
+   "pe_vs_own_pct": -32.9,
+   "pe_vs_sector_pct": -49.8,
+   "pe_highlight": "green"
   },
   {
    "ticker": "AXON",
@@ -304,8 +404,58 @@
    "score_b": 0,
    "score_s": 2,
    "score_tier": "Weak",
-   "score_tip": "AXON scores 3/10 \u2014 Weak.\nValue (0/2): P/E 98.7 is above its usual 84.6 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score 30; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 45).\nBacking (0/2): insider buying and selling roughly balanced ($15.2M net); big funds roughly balanced ($13.2M net).\nSentiment (2/2): analysts rate it a Buy on average (1.71 from 19 analysts); their average target is $541.32, 76% above the price; options trading leaned bullish (put/call 0.83).",
-   "is_new": true
+   "score_tip": "AXON scores 3/10 \u2014 Weak.\nValue (0/2): P/E 98.7 is above its usual 84.6 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score 30; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 45).\nBacking (0/2): insider buying and selling roughly balanced ($15.2M net); big funds roughly balanced ($13.2M net).\nSentiment (2/2): analysts rate it a Buy on average (1.71 from 19 analysts); their average target is $541.32, 76% above the price; options trading leaned bullish (put/call 0.83).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 13.6% over 3 years, so each share owns a smaller slice of the company.",
+   "is_new": true,
+   "earn_surprise": [
+    -8.9,
+    2.0,
+    0.8
+   ],
+   "int_coverage": 1.2,
+   "trap_count": 2,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 5.1,
+   "r40_driver": "growth",
+   "shares_3y": 13.6,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 13.6% over 3 years, so each share owns a smaller slice of the company.",
+   "margin_trend": 6.4,
+   "rsi_prev": 44.9,
+   "rsi_dir": "flat",
+   "news": [
+    {
+     "title": "Is It Too Early To Buy Axon Enterprise Stock?",
+     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T22:07:16+00:00",
+     "url": "https://www.trefis.com/stock/axon/articles/626863/is-it-too-early-to-buy-axon-enterprise-stock/2026-11-19"
+    },
+    {
+     "title": "Axon Enterprise vs. UiPath: Which Industrials Stock Is a Better Buy for 2027?",
+     "summary": "Axon's law enforcement ecosystem faces off against UiPath's AI-driven automation push, but the valuation gap between the two may be the\u2026",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-19T16:33:21+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/19/axon-enterprise-vs-uipath-which-industrials-stock-is-a-better-buy-for-2027/"
+    },
+    {
+     "title": "Axon Enterprise Doubles Down on Skydio as AI Growth Helps Offset Delayed Federal Deals",
+     "summary": "Axon Enterprise (NASDAQ:AXON) expects its expanded investment in drone maker Skydio to strengthen its public safety product ecosystem\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-19T10:12:08+00:00",
+     "url": "https://www.marketbeat.com/instant-alerts/event-axon-enterprise-doubles-down-on-skydio-as-ai-growth-helps-offset-delayed-federal-deals-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    }
+   ],
+   "pe_vs_own_pct": 16.7,
+   "pe_vs_sector_pct": 282.6,
+   "pe_highlight": "red"
   },
   {
    "ticker": "BA",
@@ -407,7 +557,57 @@
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "BA scores 3/10 \u2014 Weak.\nValue (1/2): P/E 16.6 is below its usual 19.4 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score 9; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): insider buying and selling roughly balanced ($1.5M net); big funds added $351.7M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.41 from 26 analysts); their average target is $233.35, 45% above the price; options trading leaned bearish (put/call 10.49)."
+   "score_tip": "BA scores 3/10 \u2014 Weak.\nValue (1/2): P/E 16.6 is below its usual 19.4 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score 9; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): insider buying and selling roughly balanced ($1.5M net); big funds added $351.7M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.41 from 26 analysts); their average target is $233.35, 45% above the price; options trading leaned bearish (put/call 10.49).\n\ud83e\udea4 Potential trap \u2014 4 warning signs: missed earnings last quarter (-69.2% vs what analysts expected); earnings are expected to fall sharply (forward P/E 73.8 vs trailing P/E 16.6); burning cash (free cash flow is negative); debt is high and interest cover is thin (2.0\u00d7).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 28.1% over 3 years, so each share owns a smaller slice of the company.",
+   "earn_surprise": [
+    -69.2,
+    -141.5,
+    70.3
+   ],
+   "int_coverage": 2.0,
+   "trap_count": 4,
+   "opp_count": 1,
+   "trap_flag": true,
+   "opp_flag": false,
+   "trap_tip": "Potential trap \u2014 4 warning signs: missed earnings last quarter (-69.2% vs what analysts expected); earnings are expected to fall sharply (forward P/E 73.8 vs trailing P/E 16.6); burning cash (free cash flow is negative); debt is high and interest cover is thin (2.0\u00d7).",
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 2.1,
+   "r40_driver": "growth",
+   "shares_3y": 28.1,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 28.1% over 3 years, so each share owns a smaller slice of the company.",
+   "margin_trend": 1.6,
+   "rsi_prev": 44.8,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Boeing Is Down 37% From Its High, and Its Jet Unit Is in an \u201cOverstaffed Position.\u201d Is the Selling Overdone?",
+     "summary": "Key TakeawaysBoeing just hit a fresh 52-week low, 37% below its January high, because its 737 production ramp keeps slipping and its cash\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-20T09:35:21+00:00",
+     "url": "https://www.tikr.com/blog/boeing-is-down-37-from-its-high-and-its-jet-unit-is-in-an-overstaffed-position-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261120-rmg594r6"
+    },
+    {
+     "title": "His Estate Said the Divorce Canceled His Ex-Wife\u2019s Claim To His $373,000 Boeing 401(k). A Washington Appeals Court Disagreed. Here\u2019s What Every 401(k) Holder Needs To Know About Beneficiary Designation",
+     "summary": "A trial court sided with the estate and ordered the ex-wife to hand over the money. Then an appeals panel scolded both sets of lawyers for\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-20T01:46:44+00:00",
+     "url": "https://247wallst.com/personal-finance/2026/11/19/his-estate-said-the-divorce-canceled-his-ex-wifes-claim-to-his-373000-boeing-401k-a-washington-appeals-court-disagreed-heres-what-every-401k-holder-needs-to-know-about-beneficiary-designat/"
+    },
+    {
+     "title": "Trump\u2019s $17 Billion Asia Deals Lean on a $12 Billion Aircraft Sale. That\u2019s 1.6% of Boeing\u2019s Backlog",
+     "summary": "Key TakeawaysBoeing and GE Aerospace finalized a $12 billion sale of up to 20 787s to Philippine Airlines, the biggest of more than $17\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T23:12:53+00:00",
+     "url": "https://www.tikr.com/blog/trumps-17-billion-asia-deals-lean-on-a-12-billion-aircraft-sale-thats-1-6-of-boeings-backlog?ref=yahoofinance&tlnk=yf-261120-9vx69f3p"
+    }
+   ],
+   "pe_vs_own_pct": -14.4,
+   "pe_vs_sector_pct": -35.7,
+   "pe_highlight": "green"
   },
   {
    "ticker": "BKNG",
@@ -508,7 +708,57 @@
    "score_b": 1,
    "score_s": 2,
    "score_tier": "Mixed",
-   "score_tip": "BKNG scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 16.0 is below its usual 28.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 26; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (1/2): insider buying and selling roughly balanced ($9.2M net); big funds added $268.9M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.56 from 34 analysts); their average target is $215.53, 46% above the price; options trading leaned bullish (put/call 0.79)."
+   "score_tip": "BKNG scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 16.0 is below its usual 28.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 26; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (1/2): insider buying and selling roughly balanced ($9.2M net); big funds added $268.9M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.56 from 34 analysts); their average target is $215.53, 46% above the price; options trading leaned bullish (put/call 0.79).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 18.5% over 3 years, so each share owns a bigger slice of the company.",
+   "earn_surprise": [
+    3.6,
+    4.5,
+    5.7
+   ],
+   "int_coverage": 5.2,
+   "trap_count": 0,
+   "opp_count": 3,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 35.0,
+   "r40_driver": "margin",
+   "shares_3y": -18.5,
+   "diluting": false,
+   "buyback": true,
+   "share_flag_tip": "Buying back shares \u2014 shares outstanding down 18.5% over 3 years, so each share owns a bigger slice of the company.",
+   "margin_trend": 0.4,
+   "rsi_prev": 44.6,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Can Booking Holdings Stock Rally 50% After This Dip?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:00:32+00:00",
+     "url": "https://www.trefis.com/stock/bkng/articles/626681/can-booking-holdings-stock-rally-50-after-this-dip/2026-11-19"
+    },
+    {
+     "title": "Should Booking Holdings Stock Investors Worry About Its Outlook?",
+     "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-18T19:42:39+00:00",
+     "url": "https://www.trefis.com/stock/bkng/articles/626220/should-booking-holdings-stock-investors-worry-about-its-outlook/2026-11-18"
+    },
+    {
+     "title": "Booking Holdings vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
+     "summary": "Booking's 25.5% net margin meets MercadoLibre's 47% revenue surge, but their valuation gap tells a sharper story than growth rates alone.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-18T15:10:01+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/18/booking-holdings-vs-mercadolibre-which-consumer-stock-is-a-better-buy-for-2027/"
+    }
+   ],
+   "pe_vs_own_pct": -44.4,
+   "pe_vs_sector_pct": -22.7,
+   "pe_highlight": "green"
   },
   {
    "ticker": "CPT",
@@ -609,7 +859,57 @@
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "CPT scores 1/10 \u2014 Weak.\nValue (1/2): P/E 9.0 is below its usual 31.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 13; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($14.1M net).\nSentiment (0/2): analysts rate it a Hold on average (2.58 from 22 analysts); their average target is $109.38, 14% above the price; no usable options data.",
-   "is_new": true
+   "is_new": true,
+   "earn_surprise": [
+    1288.9,
+    -34.0,
+    -196.4
+   ],
+   "int_coverage": 3.9,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 56.6,
+   "r40_driver": "margin",
+   "shares_3y": 0.0,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "margin_trend": 222.6,
+   "rsi_prev": 39.0,
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Camden Property Trust (CPT) Bought Back Shares, Is It Trading At A Discount?",
+     "summary": "Camden Property Trust (CPT) has just wrapped up a sizable share repurchase effort, buying back 4,536,826 shares for US$352.13 million\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-20T06:11:26+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/camden-property-trust-cpt-bought-061126836.html"
+    },
+    {
+     "title": "Camden Property Trust (CPT) Stock Could Be A Bargain On A 32% Five Year Slump",
+     "summary": "Camden Property Trust has seen its share price move around over the past few years, which naturally raises a question for anyone looking at\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T22:09:15+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/camden-property-trust-cpt-stock-220915596.html"
+    },
+    {
+     "title": "A $1,500,000 Portfolio in Kimco Realty, Camden Property Trust and STAG Industrial Pays $64,784 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+     "summary": "Key TakeawaysA hypothetical $1. 5 million portfolio split evenly across Kimco Realty, Camden Property Trust and STAG Industrial pays about\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T00:05:16+00:00",
+     "url": "https://www.tikr.com/blog/a-1500000-portfolio-in-kimco-realty-camden-property-trust-and-stag-industrial-pays-65073-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261118-6p9w4rjq"
+    }
+   ],
+   "pe_vs_own_pct": -71.1,
+   "pe_vs_sector_pct": -69.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "EXE",
@@ -711,8 +1011,58 @@
    "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "EXE scores 2/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 22; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 46).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($21.4M net).\nSentiment (1/2): analysts rate it a Buy on average (1.55 from 27 analysts); their average target is $121.37, 47% above the price; options trading leaned bearish (put/call 14.54).",
-   "is_new": true
+   "score_tip": "EXE scores 2/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 22; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 46).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($21.4M net).\nSentiment (1/2): analysts rate it a Buy on average (1.55 from 27 analysts); their average target is $121.37, 47% above the price; options trading leaned bearish (put/call 14.54).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 64.7% over 3 years, so each share owns a smaller slice of the company.",
+   "is_new": true,
+   "earn_surprise": [
+    10.8,
+    19.1,
+    5.4
+   ],
+   "int_coverage": 10.7,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 51.7,
+   "r40_driver": "margin",
+   "shares_3y": 64.7,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 64.7% over 3 years, so each share owns a smaller slice of the company.",
+   "margin_trend": -7.2,
+   "rsi_prev": 42.2,
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Expand Energy Expects U.S. Natural Gas Demand to Jump Over 10% by 2028",
+     "summary": "EXE sees U.S. natural gas demand rising over 10% by 2028, fueled by LNG exports, power generation and industrial growth.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T14:55:00+00:00",
+     "url": "https://finance.yahoo.com/energy/articles/expand-energy-expects-u-natural-145500031.html"
+    },
+    {
+     "title": "Can Expand Energy Stock Hit $120?",
+     "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T11:30:44+00:00",
+     "url": "https://www.trefis.com/stock/exe/articles/626799/can-expand-energy-stock-hit-120/2026-11-19"
+    },
+    {
+     "title": "Senate Nears a Vote on a Landmark Permitting Bill. Here\u2019s Who Could Benefit.",
+     "summary": "The bill could speed up pipeline and transmission projects. For electric utilities, the outlook is more mixed.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-19T21:07:00+00:00",
+     "url": "https://www.barrons.com/articles/senate-permitting-bill-energy-utility-stocks-d6da279b?siteid=yhoof2&yptr=yahoo"
+    }
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -45.8,
+   "pe_highlight": "green"
   },
   {
    "ticker": "FIS",
@@ -814,8 +1164,58 @@
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "FIS scores 2/10 \u2014 Weak.\nValue (1/2): P/E 3.9 is below its usual 32.0 over the last 13 years.\nHealth (1/2): growing fast with strong cash margins (score 45; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($0.1M net); big funds roughly balanced ($32.2M net).\nSentiment (0/2): analysts rate it a Hold on average (2.63 from 23 analysts); their average target is $34.70, 34% above the price; options trading leaned bearish (put/call 1.19).",
-   "is_new": true
+   "score_tip": "FIS scores 2/10 \u2014 Weak.\nValue (1/2): P/E 3.9 is below its usual 32.0 over the last 13 years.\nHealth (1/2): growing fast with strong cash margins (score 45; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($0.1M net); big funds roughly balanced ($32.2M net).\nSentiment (0/2): analysts rate it a Hold on average (2.63 from 23 analysts); their average target is $34.70, 34% above the price; options trading leaned bearish (put/call 1.19).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 13.1% over 3 years, so each share owns a bigger slice of the company.",
+   "is_new": true,
+   "earn_surprise": [
+    0.6,
+    0.5,
+    5.7
+   ],
+   "int_coverage": 4.0,
+   "trap_count": 0,
+   "opp_count": 3,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 28.6,
+   "r40_driver": "margin",
+   "shares_3y": -13.1,
+   "diluting": false,
+   "buyback": true,
+   "share_flag_tip": "Buying back shares \u2014 shares outstanding down 13.1% over 3 years, so each share owns a bigger slice of the company.",
+   "margin_trend": 3.5,
+   "rsi_prev": 30.2,
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "Can Splitit Partnership Strengthen FIS' Issuer Processing Growth?",
+     "summary": "FIS is partnering with Splitit to bring bank-issued installment payments to checkout, potentially boosting issuer processing growth through\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T13:26:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/splitit-partnership-strengthen-fis-issuer-132600652.html"
+    },
+    {
+     "title": "Learn Why The Bull Case For FIS Stock Could Change Following Splitit Partnership",
+     "summary": "Splitit and Fidelity National Information Services announced a collaboration that connects Splitit's installment and pay with points\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T22:15:06+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-fis-221506120.html"
+    },
+    {
+     "title": "What Could Fidelity National Information Services (FIS) Gain From This Checkout Partnership?",
+     "summary": "Fidelity National Information Services (NYSE:FIS) has formed a partnership with Splitit to offer bank-issued credit and installment options\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-18T10:12:59+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/could-fidelity-national-information-services-101259598.html"
+    }
+   ],
+   "pe_vs_own_pct": -87.8,
+   "pe_vs_sector_pct": -85.1,
+   "pe_highlight": "green"
   },
   {
    "ticker": "HBAN",
@@ -914,7 +1314,54 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "HBAN scores 2/10 \u2014 Weak.\nValue (1/2): P/E 12.1 is below its usual 13.3 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); big funds roughly balanced ($34.8M net).\nSentiment (1/2): analysts rate it a Buy on average (1.81 from 19 analysts); their average target is $18.82, 28% above the price; options trading leaned bearish (put/call 4.03).",
-   "is_new": true
+   "is_new": true,
+   "earn_surprise": [
+    -0.1,
+    0.9,
+    5.0
+   ],
+   "trap_count": 1,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "shares_3y": 2.7,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "margin_trend": null,
+   "rsi_prev": 46.6,
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "A $2.6 Billion Fund Dumps These 3 Stocks",
+     "summary": "Key TakeawaysAzora Capital, which manages $2. 6 billion, sold all its Bank of America, State Street and Huntington Bancshares shares in the\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-19T16:16:39+00:00",
+     "url": "https://www.tikr.com/blog/a-2-6-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261119-ghg8vqcf"
+    },
+    {
+     "title": "5 High-Yield Bank Stocks Retirees Should Own Inside a Roth IRA",
+     "summary": "Five regional banks pay retirees a steady stream of dividends, but the IRS quietly claims a slice every single year. Where you park these\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-19T13:20:54+00:00",
+     "url": "https://247wallst.com/investing/2026/11/19/5-high-yield-bank-stocks-retirees-should-own-inside-a-roth-ira/"
+    },
+    {
+     "title": "3 US Bank Stocks in Focus as AI Enters the Fed Rate Outlook",
+     "summary": "AI is no longer just a tech story. It now sits in the Fed\u2019s playbook, influencing how policymakers think about jobs, inflation, rates and\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-17T03:12:35+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-us-bank-stocks-focus-031235953.html"
+    }
+   ],
+   "pe_vs_own_pct": -9.0,
+   "pe_vs_sector_pct": -8.3,
+   "pe_highlight": null
   },
   {
    "ticker": "LII",
@@ -1016,7 +1463,50 @@
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "LII scores 3/10 \u2014 Weak.\nValue (1/2): P/E 15.5 is below its usual 25.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 37).\nBacking (1/2): insider buying and selling roughly balanced ($0.4M net); big funds added $245.2M last quarter.\nSentiment (0/2): analysts rate it a Hold on average (2.94 from 13 analysts); their average target is $371.92, 9% above the price; options trading leaned bearish (put/call 1.95)."
+   "score_tip": "LII scores 3/10 \u2014 Weak.\nValue (1/2): P/E 15.5 is below its usual 25.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 37).\nBacking (1/2): insider buying and selling roughly balanced ($0.4M net); big funds added $245.2M last quarter.\nSentiment (0/2): analysts rate it a Hold on average (2.94 from 13 analysts); their average target is $371.92, 9% above the price; options trading leaned bearish (put/call 1.95).",
+   "earn_surprise": [
+    -7.0,
+    0.3,
+    5.3
+   ],
+   "int_coverage": 22.5,
+   "trap_count": 1,
+   "opp_count": 3,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 21.6,
+   "r40_driver": "margin",
+   "shares_3y": -1.1,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "margin_trend": -2.9,
+   "rsi_prev": 37.7,
+   "rsi_dir": "flat",
+   "news": [
+    {
+     "title": "Are Wall Street Analysts Bullish on Lennox International Stock?",
+     "summary": "Lennox International\u2019s shares have been trailing behind its industry peers and the broader market. Analysts are cautious about the stock\u2026",
+     "provider": "Barchart",
+     "pubDate": "2026-11-13T17:59:05+00:00",
+     "url": "https://www.barchart.com/story/news/8826400/are-wall-street-analysts-bullish-on-lennox-international-stock"
+    },
+    {
+     "title": "Is Johnson Controls Stock Engineered To Make You Money?",
+     "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25.",
+     "provider": "Trefis",
+     "pubDate": "2026-11-19T22:41:52+00:00",
+     "url": "https://www.trefis.com/stock/jci/articles/626792/is-johnson-controls-stock-engineered-to-make-you-money/2026-11-19"
+    }
+   ],
+   "pe_vs_own_pct": -38.2,
+   "pe_vs_sector_pct": -39.9,
+   "pe_highlight": "green"
   },
   {
    "ticker": "MELI",
@@ -1127,7 +1617,57 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "MELI scores 3/10 \u2014 Weak.\nValue (1/2): P/E 36.4 is below its usual 50.8 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score 38; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): no insider trades in the last 3 months; big funds added $446.0M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.52 from 26 analysts); their average target is $2,168.14, 60% above the price; options trading leaned bearish (put/call 1.73).",
-   "is_new": true
+   "is_new": true,
+   "earn_surprise": [
+    -4.8,
+    3.4,
+    0.3
+   ],
+   "int_coverage": 18.8,
+   "trap_count": 1,
+   "opp_count": 3,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 10.2,
+   "r40_driver": "growth",
+   "shares_3y": -1.2,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "margin_trend": -2.9,
+   "rsi_prev": 44.1,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?",
+     "summary": "The stock has fallen far, but the company retains solid growth prospects.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-20T01:25:00+00:00",
+     "url": "https://www.fool.com/investing/2026/11/19/should-you-avoid-mercadolibre-meli-stock-even-now/"
+    },
+    {
+     "title": "Booking Holdings vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
+     "summary": "Booking's 25.5% net margin meets MercadoLibre's 47% revenue surge, but their valuation gap tells a sharper story than growth rates alone.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-18T15:10:01+00:00",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/18/booking-holdings-vs-mercadolibre-which-consumer-stock-is-a-better-buy-for-2027/"
+    },
+    {
+     "title": "MercadoLibre vs. Shopify: Comparing Recent Revenue Scale and Growth Trajectories",
+     "summary": "MercadoLibre's quarterly sales have outpaced Shopify's in every period shown, but Shopify's year-end surges raise a question about whether\u2026",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-17T20:20:02+00:00",
+     "url": "https://www.fool.com/coverage/charts/2026/11/17/mercadolibre-vs-shopify-comparing-recent-revenue-scale-and-growth-trajectories/"
+    }
+   ],
+   "pe_vs_own_pct": -28.3,
+   "pe_vs_sector_pct": 75.8,
+   "pe_highlight": null
   },
   {
    "ticker": "NVR",
@@ -1218,8 +1758,58 @@
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "NVR scores 1/10 \u2014 Weak.\nValue (1/2): P/E 15.2 is below its usual 17.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -1; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.43 from 6 analysts); their average target is $6,229.67, 13% above the price; no usable options data.",
-   "is_new": true
+   "score_tip": "NVR scores 1/10 \u2014 Weak.\nValue (1/2): P/E 15.2 is below its usual 17.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -1; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.43 from 6 analysts); their average target is $6,229.67, 13% above the price; no usable options data.\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 12.5% over 3 years, so each share owns a bigger slice of the company.",
+   "is_new": true,
+   "earn_surprise": [
+    -13.0,
+    -6.7,
+    -14.4
+   ],
+   "int_coverage": 62.1,
+   "trap_count": 2,
+   "opp_count": 0,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 15.2,
+   "r40_driver": "margin",
+   "shares_3y": -12.5,
+   "diluting": false,
+   "buyback": true,
+   "share_flag_tip": "Buying back shares \u2014 shares outstanding down 12.5% over 3 years, so each share owns a bigger slice of the company.",
+   "margin_trend": -3.0,
+   "rsi_prev": 40.6,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "NVR (NVR) Stock Looks Fully Priced On Cash Flow Estimates",
+     "summary": "NVR has seen its share price retreat in 2026, and that pullback puts fresh focus on a basic question for investors who follow the builder.\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-17T23:25:51+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvr-nvr-stock-looks-fully-232551213.html"
+    },
+    {
+     "title": "Berkshire Hathaway\u2019s Stock Rally Puts Its Class A Shares Near the Historic $1M Mark",
+     "summary": "Crossing the $1 million mark would be a major milestone for the company and for Warren Buffett.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-17T18:45:00+00:00",
+     "url": "https://www.barrons.com/articles/berkshire-hathaway-stock-price-class-a-1-million-mark-afc577cf?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+     "title": "Greg Abel Might Have Just Made a $2 Billion Mistake Warren Buffett Avoided",
+     "summary": "Warren Buffett repeatedly bought homebuilders and sold them within months. His successor is doubling down on one while earnings sink and\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-17T16:55:09+00:00",
+     "url": "https://247wallst.com/investing/2026/11/17/greg-abel-might-have-just-made-a-2-billion-mistake-warren-buffett-avoided/"
+    }
+   ],
+   "pe_vs_own_pct": -14.1,
+   "pe_vs_sector_pct": -26.6,
+   "pe_highlight": "green"
   },
   {
    "ticker": "SKYD",
@@ -1319,7 +1909,57 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "SKYD scores 2/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (1/2): growing fast with strong cash margins (score 60; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($1.0M net); big funds roughly balanced ($37.3M net).\nSentiment (1/2): analysts rate it a Hold on average (3.17 from 18 analysts); their average target is $8.97, 41% above the price; options trading leaned bullish (put/call 0.81).",
-   "is_new": true
+   "is_new": true,
+   "earn_surprise": [
+    129.4,
+    9.7,
+    51.4
+   ],
+   "int_coverage": -6.2,
+   "trap_count": 1,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 11.9,
+   "r40_driver": "margin",
+   "shares_3y": 1.4,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "margin_trend": 9.0,
+   "rsi_prev": 46.7,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Skydance (SKYD) Just Closed Its $111 Billion Merger",
+     "summary": "Skydance (NYSE: SKYD) announced completion of a $111b merger with Warner Bros. Discovery, creating a combined media group that management\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T14:22:19+00:00",
+     "url": "https://finance.yahoo.com/media-advertising/articles/skydance-skyd-just-closed-111-142219497.html"
+    },
+    {
+     "title": "Skydance (SKYD) Stock Looks Like A Bargain At This Price",
+     "summary": "Skydance has been through a rough stretch in the market, and the stock is now trading at US$6.63 after years of weak returns. The question\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T17:20:04+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-skyd-stock-looks-bargain-172004124.html"
+    },
+    {
+     "title": "Is Skydance (SKYD) Undervalued After Insider Buying And The Warner Deal?",
+     "summary": "Skydance (SKYD) is back in focus after director Gerry Cardinale bought about US$1 million of stock, as the media group works through the\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T16:14:15+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-skyd-undervalued-insider-buying-161415778.html"
+    }
+   ],
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": null,
+   "pe_highlight": null
   },
   {
    "ticker": "WY",
@@ -1412,7 +2052,50 @@
    "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "WY scores 1/10 \u2014 Weak.\nValue (0/2): P/E 31.0 is above its usual 31.0 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 11 analysts); their average target is $26.64, 36% above the price; options trading leaned bearish (put/call 1.10)."
+   "score_tip": "WY scores 1/10 \u2014 Weak.\nValue (0/2): P/E 31.0 is above its usual 31.0 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 11 analysts); their average target is $26.64, 36% above the price; options trading leaned bearish (put/call 1.10).",
+   "earn_surprise": [
+    128.3,
+    66.6,
+    119.9
+   ],
+   "int_coverage": 2.0,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 10.5,
+   "r40_driver": "margin",
+   "shares_3y": -2.6,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "margin_trend": -2.2,
+   "rsi_prev": 31.6,
+   "rsi_dir": "up",
+   "news": [
+    {
+     "title": "A $1,200,000 Portfolio in CareTrust REIT, Weyerhaeuser and HP Pays $50,247 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+     "summary": "Key TakeawaysA $1. 2 million portfolio split evenly across CareTrust REIT, Weyerhaeuser and HP pays about $50,200 a year in dividends at\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-18T15:48:52+00:00",
+     "url": "https://www.tikr.com/blog/a-1200000-portfolio-in-caretrust-reit-weyerhaeuser-and-hp-pays-50247-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261118-27hx6pq6"
+    },
+    {
+     "title": "Frozen Food, Biotech Labs and Timberland: $90,000 Across These 3 Specialty REITs Pays $4,968 a Year",
+     "summary": "One of these three landlords owns freezers, one owns forests, and one owns biotech labs. Only one of them has already slashed its dividend\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-18T21:37:38+00:00",
+     "url": "https://247wallst.com/investing/2026/11/18/frozen-food-biotech-labs-and-timberland-90000-across-these-3-specialty-reits-pays-4968-a-year/"
+    }
+   ],
+   "pe_vs_own_pct": 0.0,
+   "pe_vs_sector_pct": 6.5,
+   "pe_highlight": null
   },
   {
    "ticker": "XYL",
@@ -1505,7 +2188,57 @@
    "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "XYL scores 3/10 \u2014 Weak.\nValue (1/2): P/E 21.1 is below its usual 34.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 10; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 32).\nBacking (0/2): insider buying and selling roughly balanced ($1.0M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); their average target is $125.44, 32% above the price; options trading leaned bullish (put/call 0.86)."
+   "score_tip": "XYL scores 3/10 \u2014 Weak.\nValue (1/2): P/E 21.1 is below its usual 34.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 10; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 32).\nBacking (0/2): insider buying and selling roughly balanced ($1.0M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); their average target is $125.44, 32% above the price; options trading leaned bullish (put/call 0.86).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 34.8% over 3 years, so each share owns a smaller slice of the company.",
+   "earn_surprise": [
+    -0.7,
+    9.2,
+    3.3
+   ],
+   "int_coverage": 41.7,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "ebitda_margin": 21.7,
+   "r40_driver": "margin",
+   "shares_3y": 34.8,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 34.8% over 3 years, so each share owns a smaller slice of the company.",
+   "margin_trend": 4.1,
+   "rsi_prev": 35.6,
+   "rsi_dir": "down",
+   "news": [
+    {
+     "title": "Xylem (XYL) Stock May Be 37% Undervalued On Fresh Buyback News",
+     "summary": "Xylem shares have had a difficult year, with the stock well below where it started 2026. This puts a sharper spotlight on whether the\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T07:14:32+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/xylem-xyl-stock-may-37-071432385.html"
+    },
+    {
+     "title": "Xylem Stock: Is Wall Street Bullish or Bearish?",
+     "summary": "Xylem has lagged the broader market over the past year, yet analysts remain somewhat bullish on the company.",
+     "provider": "Barchart",
+     "pubDate": "2026-11-19T13:39:10+00:00",
+     "url": "https://www.barchart.com/story/news/8916051/xylem-stock-is-wall-street-bullish-or-bearish"
+    },
+    {
+     "title": "What Xylem Investors Missed Before The Fall",
+     "summary": "If you had backed the bullish case for Xylem based on analyst optimism and rising price targets, the outcome felt very different from the\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-19T12:14:54+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/xylem-investors-missed-fall-121454777.html"
+    }
+   ],
+   "pe_vs_own_pct": -38.3,
+   "pe_vs_sector_pct": -18.2,
+   "pe_highlight": "green"
   }
  ],
  "f13_quarter": "Q3 2026",
