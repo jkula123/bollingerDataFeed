@@ -222,11 +222,18 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Agilent Technologies (A) Surged in Q3 on Strong Reshoring Demand and Equipment Upgrades",
-     "summary": "Buffalo Funds, an actively managed mutual fund advised by Kornitzer Capital Management, released its third-quarter 2026 investor letter for\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-18T16:14:33+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/agilent-technologies-surged-q3-strong-161433509.html"
+     "title": "Agilent earnings analysis: questions answered and next catalysts",
+     "summary": "Investing.com -- Agilent Technologies Inc (A) reported FY2026 Q4 on Nov 23, 2026 and beat on every key line. The bigger signal is that\u2026",
+     "provider": "Investing.com",
+     "pubDate": "2026-11-24T18:29:34+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/agilent-earnings-analysis-questions-answered-182934756.html"
+    },
+    {
+     "title": "Why Agilent (A) Stock Is Up Today: Analysts Raise Targets After Record Quarter",
+     "summary": "On Tuesday, Nov. 24, shares rose 4.6% as analysts raised price targets after record fourth-quarter results.",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-24T15:33:16+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-agilent-stock-today-analysts-153316500.html"
     }
    ],
    "pe_vs_own_pct": 10.0,
@@ -498,18 +505,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "AbbVie (ABBV) Stock Just Got a 5.2% Dividend Increase. Here's How Many Shares You Need to Generate $1,000 a Year.",
-     "summary": "This pharmaceutical giant has hiked its payout for 53 years in a row, so it's likely to keep doing so.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-21T13:30:02+00:00",
-     "url": "https://www.fool.com/investing/2026/11/21/abbvie-just-raised-its-dividend-52-heres-how-many-shares-you-need-to-generate-1000-a-year/"
-    },
-    {
-     "title": "Is Solid Tumor Partnership Altering The Investment Case For AbbVie (ABBV)?",
-     "summary": "AbbVie and German biotech Disco Pharmaceuticals announced a collaboration to co-develop AND gated bispecific therapies for solid tumors\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-21T00:12:36+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/solid-tumor-partnership-altering-investment-001236882.html"
+     "title": "AbbVie Gets FDA Approval for Rinvoq in Nonsegmental Vitiligo",
+     "summary": "ABBV wins FDA nod for Rinvoq in nonsegmental vitiligo, becoming the first and only systemic therapy approved for the condition in the\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-24T14:50:00+00:00",
+     "url": "https://finance.yahoo.com/healthcare/articles/abbvie-gets-fda-approval-rinvoq-145000786.html"
     }
    ],
    "pe_vs_own_pct": 93.3,
@@ -647,6 +647,13 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
      "provider": "Motley Fool",
      "pubDate": "2026-11-21T18:15:15+00:00",
      "url": "https://www.fool.com/investing/2026/11/21/airbnb-new-usd12-billion-buyback-is-backed-by-a-35-free-cash-flow-margin-what-it-means-for-shareholders/"
+    },
+    {
+     "title": "Cathie Wood and 8 Other Big Funds Bought Airbnb Last Quarter. Ken Fisher and 11 Others Sold. Who\u2019s Right?",
+     "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the third quarter, nine bought Airbnb, including Cathie Wood\u2019s ARK Invest, and\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-23T17:38:56+00:00",
+     "url": "https://www.tikr.com/blog/cathie-wood-and-8-other-big-funds-bought-airbnb-last-quarter-ken-fisher-and-11-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261123-49mx45f3"
     }
    ],
    "pe_vs_own_pct": null,
@@ -910,11 +917,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "This Insurance Stock Just Raised Its Dividend by Roughly 5%",
-     "summary": "This insurance stock raised its quarterly dividend by roughly 5% to $0.64 per share, extending a 44-year streak of increases after a mixed\u2026",
-     "provider": "Barchart",
-     "pubDate": "2026-11-17T00:30:02+00:00",
-     "url": "https://www.barchart.com/story/news/8865480/this-insurance-stock-just-raised-its-dividend-by-roughly-5"
+     "title": "MetLife, Prudential and Aflac Raised Their Dividends. These 3 Insurers Offer Growing Income",
+     "summary": "Insurers get paid first and settle claims years later, and that float is quietly funding bigger checks for shareholders. Only one of these\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-22T19:07:56+00:00",
+     "url": "https://247wallst.com/investing/2026/11/22/metlife-prudential-and-aflac-raised-their-dividends-these-3-insurers-offer-growing-income/"
     }
    ],
    "pe_vs_own_pct": 75.0,
@@ -1580,18 +1587,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Best Buy's Comparable Sales Momentum to Continue, Margin Risks Linger, BofA Says",
-     "summary": "Best Buy (BBY) is expected to see comparable sales momentum from Q2 continue into H2, with BofA Secu",
-     "provider": "MT Newswires",
-     "pubDate": "2026-11-20T17:07:56+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-apos-comparable-sales-170756206.html"
-    },
-    {
-     "title": "Best Buy faces test of earnings growth as UBS questions sustainability of sales momentum",
-     "summary": "Best Buy Co Inc (NYSE:BBY) faces a key test of whether improving sales momentum can translate into sustainable earnings growth, with UBS\u2026",
-     "provider": "Proactive",
-     "pubDate": "2026-11-17T18:23:00+00:00",
-     "url": "https://www.proactiveinvestors.com/companies/news/1101953/best-buy-faces-test-of-earnings-growth-as-ubs-questions-sustainability-of-sales-momentum-1101953.html"
+     "title": "Best Buy posts best sales growth in 5 years, stock jumps on raised outlook",
+     "summary": "The electronics retailer posted same-store sales growth of 6.1%, its best quarter in five years.",
+     "provider": "Yahoo Finance",
+     "pubDate": "2026-11-23T21:58:38+00:00",
+     "url": "https://finance.yahoo.com/markets/article/best-buy-posts-best-sales-growth-in-5-years-stock-jumps-on-raised-outlook-120414240.html"
     }
    ],
    "pe_vs_own_pct": 24.1,
@@ -2005,11 +2005,18 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Buffett's Berkshire trims stake in surging 143-year-old retailer",
-     "summary": "Berkshire has reduced its stake in Kroger and two other stocks.",
-     "provider": "TheStreet",
-     "pubDate": "2026-11-21T14:03:00+00:00",
-     "url": "https://www.thestreet.com/investing/stocks/kr-kroger-warren-buffetts-berkshire-hathaway-trims-stake-in-surging-143-year-old-kroger-stock-in-q3-13f-filing"
+     "title": "Berkshire Hathaway (BRK.A) Looks Fairly Valued As It Raises Yen Debt",
+     "summary": "Why Berkshire Hathaway\u2019s Yen Debt Sale Matters For Shareholders Berkshire Hathaway (BRK.A) has raised \u00a5182,005 million in fresh funding\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-24T21:12:03+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-looks-fairly-211203870.html"
+    },
+    {
+     "title": "The Gates Foundation Trust Sold 2.2 Million Berkshire Shares and Opened a $155 Million Dollar Tree Stake",
+     "summary": "One of the world's biggest endowments trimmed a Berkshire stake it got from Warren Buffett and made a fresh bet on a discount retailer.\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-24T16:53:56+00:00",
+     "url": "https://247wallst.com/investing/2026/11/24/the-gates-foundation-trust-sold-2-2-million-berkshire-shares-and-opened-a-155-million-dollar-tree-stake/"
     }
    ],
    "pe_vs_own_pct": null,
@@ -2138,11 +2145,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Cardinal Health (CAH) Is Facing Multiple Class I Medical Kit Recalls",
-     "summary": "Cardinal Health (NYSE:CAH) is facing multiple ongoing Class I recalls of Presource PBDS kits that contain BD Alaris Pump Infusion Sets due\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-18T08:15:09+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/cardinal-health-cah-facing-multiple-081509882.html"
+     "title": "Jim Cramer Says Cardinal Health Is \u201cthe Stock That Is Made for This Moment\u201d",
+     "summary": "A drug distributor earning pennies on every dollar just beat estimates, raised guidance, and caught Jim Cramer's eye. But with the shares\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-20T14:47:24+00:00",
+     "url": "https://247wallst.com/investing/2026/11/20/jim-cramer-says-cardinal-health-is-the-stock-that-is-made-for-this-moment/"
     }
    ],
    "pe_vs_own_pct": 35.4,
@@ -2528,7 +2535,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "CCEP scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 12; strong is over 40).\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): insider buying and selling roughly balanced ($0.0M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 12 analysts); their average target is $113.52, 2% below the price; no usable options data.",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "EU Probes Coca-Cola Bottler, Citing Antitrust Concerns",
+     "summary": "The European Commission said it is concerned the company might have abused its dominance in the wholesale supply of soft drinks to\u2026",
+     "provider": "The Wall Street Journal",
+     "pubDate": "2026-11-23T17:27:00+00:00",
+     "url": "https://www.wsj.com/world/europe/eu-probes-coca-cola-bottler-citing-antitrust-concerns-7717c957?siteid=yhoof2&yptr=yahoo"
+    }
+   ],
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": 3.2,
    "pe_highlight": null
@@ -2795,15 +2810,7 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Mixed",
    "score_tip": "CINF scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 11.0 is below its usual 13.6 over the last 14 years.\nHealth (1/2): growth and cash margins are weak (score -0; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 62).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.50 from 6 analysts); their average target is $190.67, 1% above the price; options trading leaned bullish (put/call 0.58).",
    "is_new": true,
-   "news": [
-    {
-     "title": "Cincinnati Financial (CINF) Has Fresh Attention, But What Is The Market Weighing?",
-     "summary": "Cincinnati Financial (CINF) drew fresh attention after its board approved a regular quarterly cash dividend of $0.94 per share, payable on\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T17:10:41+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/cincinnati-financial-cinf-fresh-attention-171041999.html"
-    }
-   ],
+   "news": [],
    "pe_vs_own_pct": -19.1,
    "pe_vs_sector_pct": -16.7,
    "pe_highlight": null
@@ -2931,18 +2938,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Costco\u2019s Upcoming $30 Special Dividend Is Twice the Size of Its Last Special Payout. Is This the Most Unstoppable Consumer Staples Stock to Buy Now?",
-     "summary": "The warehouse retailer is a proven winner in the consumer staples space, which is why expectations are so high.",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-20T18:35:02+00:00",
-     "url": "https://www.fool.com/investing/2026/11/20/costco-s-upcoming-usd30-special-dividend-is-twice-the-size-of-its-last-special-payout-is-this-the-most-unstoppable-consumer-staples-stock-to-buy-now/"
-    },
-    {
-     "title": "Costco makes a tough store closure decision",
-     "summary": "The company faces a balancing act every year.",
+     "title": "Costco gives $30 gift for the holidays, but there's a catch",
+     "summary": "The $30 special dividend has a ticking clock attached.",
      "provider": "TheStreet",
-     "pubDate": "2026-11-21T16:33:00+00:00",
-     "url": "https://www.thestreet.com/retail/costco-makes-a-tough-store-closure-decision"
+     "pubDate": "2026-11-24T21:33:00+00:00",
+     "url": "https://www.thestreet.com/retail/costco-gives-30-gift-for-the-holidays-but-theres-a-catch"
     }
    ],
    "pe_vs_own_pct": 47.6,
@@ -3204,22 +3204,7 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "CRL scores 2/10 \u2014 Weak.\nValue (0/2): P/E 356.4 is above its usual 25.4 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 9; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 73).\nBacking (0/2): insider buying and selling roughly balanced ($18.8M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.65 from 14 analysts); their average target is $350.57, 7% above the price; options trading leaned bullish (put/call 0.22).\n\ud83d\udd3a Overvalued \u2014 P/E 356.4 vs its 14y median of 25.4, forward P/E 25.3.",
    "is_new": true,
-   "news": [
-    {
-     "title": "A $2.4 Billion Fund Dumps These 3 Stocks",
-     "summary": "Key TakeawaysMeridiem Capital Partners sold all of its UnitedHealth, Charles River Laboratories and Alphabet shares in the third quarter\u2026",
-     "provider": "TIKR",
-     "pubDate": "2026-11-17T19:05:52+00:00",
-     "url": "https://www.tikr.com/blog/a-2-4-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261117-fmjpv9fq"
-    },
-    {
-     "title": "Charles River Laboratories International (CRL) Opens Dublin Site and South Korea Depot",
-     "summary": "Charles River Laboratories International (NYSE:CRL) expanded its global Microbial Solutions network with new manufacturing capacity in\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-17T17:16:39+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/charles-river-laboratories-international-crl-171639561.html"
-    }
-   ],
+   "news": [],
    "pe_vs_own_pct": 1303.1,
    "pe_vs_sector_pct": 1042.3,
    "pe_highlight": "red"
@@ -3345,7 +3330,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "DGX scores 2/10 \u2014 Weak.\nValue (0/2): P/E 25.8 is above its usual 17.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 68).\nBacking (0/2): insider buying and selling roughly balanced ($19.8M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.06 from 15 analysts); their average target is $257.27, 1% below the price; options trading leaned bullish (put/call 0.56).\n\ud83d\udd3a Overvalued \u2014 P/E 25.8 vs its 15y median of 17.6, forward P/E 21.6.",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom",
+     "summary": "Quest Diagnostics (NYSE:DGX) expects continued strength in testing demand and its hospital partnerships, while preparing for a potential\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-22T04:12:10+00:00",
+     "url": "https://www.marketbeat.com/instant-alerts/event-quest-diagnostics-sees-hospital-deal-growth-as-2027-medicare-cuts-loom-2026-11-21/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    }
+   ],
    "pe_vs_own_pct": 46.6,
    "pe_vs_sector_pct": -17.3,
    "pe_highlight": "red"
@@ -3473,18 +3466,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Did Earnings Beat Just Shift Dollar Tree's (DLTR) Investment Narrative?",
-     "summary": "Dollar Tree reported Q2 2026 revenue growth of 7% that was ahead of estimates and raised its annual profit forecast while keeping its sales\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T18:09:43+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-180943900.html"
-    },
-    {
-     "title": "Warren Buffett Stopped Giving Bill Gates\u2019s Foundation Berkshire Shares. It Just Sold $1 Billion More and Bought a Dollar Store. Here\u2019s When the Rest Runs Out",
-     "summary": "The Gates Foundation Trust sold 2,240,537 Berkshire shares and 6,207,678 Waste Management shares in the third quarter, about $2.4 billion\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-20T00:43:03+00:00",
-     "url": "https://247wallst.com/investing/2026/11/19/warren-buffett-stopped-giving-bill-gatess-foundation-berkshire-shares-it-just-sold-1-billion-more-and-bought-a-dollar-store-heres-when-the-rest-runs-out/"
+     "title": "Dollar Tree stock pops as thrifty shoppers power a 6th straight earnings beat",
+     "summary": "Dollar Tree's Q3 earnings beat estimates as retailer raises full-year profit outlook.",
+     "provider": "Yahoo Finance",
+     "pubDate": "2026-11-24T15:05:30+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/article/dollar-tree-stock-pops-as-thrifty-shoppers-power-a-6th-straight-earnings-beat-150530467.html"
     }
    ],
    "pe_vs_own_pct": -15.3,
@@ -3761,6 +3747,13 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
      "provider": "MarketBeat",
      "pubDate": "2026-11-20T15:12:36+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-ecolab-raises-long-term-targets-as-ai-infrastructure-opens-a-60-billion-opportunity-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+     "title": "Ecolab (ECL) Stock Sees Modest Fair Value Lift As Analysts Raise Targets",
+     "summary": "Ecolab is back in focus after several Wall Street firms lifted their price targets into the US$344 to US$380 range, following the latest\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-20T13:12:19+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ecolab-ecl-stock-sees-modest-131219351.html"
     },
     {
      "title": "Ecolab (ECL) Grew Earnings 5%. What Held It Back?",
@@ -4290,11 +4283,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "3 High-Yield Storage REITs Are Rallying After Raising Their 2026 Outlooks",
-     "summary": "After two years of drowning in new supply, self-storage landlords just turned a corner, and three dividend payers all lifted their outlooks\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-16T17:17:18+00:00",
-     "url": "https://247wallst.com/investing/2026/11/16/3-high-yield-storage-reits-are-rallying-after-raising-their-2026-outlooks/"
+     "title": "Extra Space: 3 Key Takeaways for Long-Term Investors",
+     "summary": "Operating expense declines could sustain margin expansion even as revenue accelerates.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-19T21:05:02+00:00",
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/19/extra-space-3-key-takeaways-for-long-term-investors/"
     }
    ],
    "pe_vs_own_pct": 0.0,
@@ -4423,6 +4416,13 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tip": "FAST scores 1/10 \u2014 Weak.\nValue (0/2): P/E 42.8 is above its usual 31.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 26; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (2.78 from 13 analysts); their average target is $51.15, 3% below the price; options trading leaned bullish (put/call 0.62).\n\ud83d\udd3a Overvalued \u2014 P/E 42.8 vs its 15y median of 31.5, forward P/E 37.2.",
    "is_new": true,
    "news": [
+    {
+     "title": "Why It\u2019s Time to Sell These 2 Industrial Stocks\u2014and What to Do With the Cash",
+     "summary": "Grainger and Fastenal got downgraded to Hold from Buy by brokerage firm Baird. There are three reasons for the lower ratings.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-20T15:17:00+00:00",
+     "url": "https://www.barrons.com/articles/grainger-fastenal-industrial-manufacturing-stock-price-4a038407?siteid=yhoof2&yptr=yahoo"
+    },
     {
      "title": "Fastenal Raised Its Dividend Twice in 2026. Why Wall Street Still Isn\u2019t Sold on This Dividend Aristocrat.",
      "summary": "Fastenal's cash flow, contract wins, and profit margins all look strong, yet analysts keep their price targets below the stock's current\u2026",
@@ -4688,11 +4688,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "How Investors Are Reacting To Gilead Sciences (GILD) HIV Prevention Expansion",
-     "summary": "Gilead Sciences reported new clinical and access moves, including positive data for Livdelzi in primary biliary cholangitis and\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T13:12:32+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/investors-reacting-gilead-sciences-gild-131232070.html"
+     "title": "Why Gilead (GILD) Stock Is Up Today: Health Care Rally and New Rating",
+     "summary": "Gilead shares rose 4.8% on Tuesday, Nov. 24, as health care stocks gained 3.0% and a new Outperform rating was set.",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-24T20:45:51+00:00",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-gilead-gild-stock-today-204551335.html"
     }
    ],
    "pe_vs_own_pct": null,
@@ -4820,7 +4820,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "GWW scores 1/10 \u2014 Weak.\nValue (0/2): P/E 31.3 is above its usual 22.9 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 18; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (0/2): insider buying and selling roughly balanced ($0.4M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (2.79 from 14 analysts); their average target is $1,461.79, 3% above the price; options trading leaned bullish (put/call 0.41).\n\ud83d\udd3a Overvalued \u2014 P/E 31.3 vs its 15y median of 22.9, forward P/E 27.3.",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "Why It\u2019s Time to Sell These 2 Industrial Stocks\u2014and What to Do With the Cash",
+     "summary": "Grainger and Fastenal got downgraded to Hold from Buy by brokerage firm Baird. There are three reasons for the lower ratings.",
+     "provider": "Barrons.com",
+     "pubDate": "2026-11-20T15:17:00+00:00",
+     "url": "https://www.barrons.com/articles/grainger-fastenal-industrial-manufacturing-stock-price-4a038407?siteid=yhoof2&yptr=yahoo"
+    }
+   ],
    "pe_vs_own_pct": 36.7,
    "pe_vs_sector_pct": 21.3,
    "pe_highlight": "red"
@@ -4957,11 +4965,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "3 Stocks Rallying After Strong Q3 Earnings and Raised Guidance",
-     "summary": "The Q3 earnings season has delivered several big winners, with Hasbro (HAS), IDEXX Laboratories (IDXX), and TG Therapeutics (TGTX) all\u2026",
+     "title": "Hasbro's Exodus and Warlock Launches in 2027: Will This Drive Growth?",
+     "summary": "HAS' upcoming 2027 launches of Exodus and Warlock could expand its digital gaming business, attract new audiences and create fresh growth\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-17T19:13:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-rallying-strong-q3-191300848.html"
+     "pubDate": "2026-11-24T13:02:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hasbros-exodus-warlock-launches-2027-130200562.html"
     }
    ],
    "pe_vs_own_pct": -31.9,
@@ -5225,18 +5233,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Jacobs Solutions (J) Lands Sanofi Project Following Questions Over Whether Shares Are Fully Valued",
-     "summary": "Jacobs Solutions (J) just landed a fresh mandate with Sanofi, taking on Engineering, Procurement and Construction Management for a new\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T20:11:19+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/jacobs-solutions-j-lands-sanofi-201119584.html"
-    },
-    {
-     "title": "Can Jacobs' Irish Rail Project Strengthen Its Infrastructure Growth?",
-     "summary": "J expands its Irish rail infrastructure presence through a long-term consultancy framework with ACM, creating new opportunities in railway\u2026",
+     "title": "Jacobs Solutions (J) Tops Q4 Earnings and Revenue Estimates",
+     "summary": "Jacobs Solutions (J) delivered earnings and revenue surprises of +4.27% and +30.37%, respectively, for the quarter ended September 2026. Do\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-16T14:50:00+00:00",
-     "url": "https://finance.yahoo.com/real-estate/articles/jacobs-irish-rail-project-strengthen-145000621.html"
+     "pubDate": "2026-11-23T21:25:02+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/jacobs-solutions-j-tops-q4-212502499.html"
     }
    ],
    "pe_vs_own_pct": 155.9,
@@ -5499,7 +5500,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "KO scores 3/10 \u2014 Weak.\nValue (0/2): P/E 28.3 is above its usual 26.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 16; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 72).\nBacking (1/2): insider buying and selling roughly balanced ($16.5M net); big funds added $188.3M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.69 from 25 analysts); their average target is $99.64, 4% above the price; options trading leaned bearish (put/call 1.16).\n\ud83d\udd3a Overvalued \u2014 P/E 28.3 vs its 15y median of 26.3, forward P/E 27.2.",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "Coca-Cola hires pharma vet for CFO",
+     "summary": "The beverage giant is breaking from its typical practice of appointing insiders by naming pharma finance alum David Elkins as its incoming\u2026",
+     "provider": "CFO Dive",
+     "pubDate": "2026-11-24T19:07:18+00:00",
+     "url": "https://www.cfodive.com/news/cocacola-grants-new-cfo-10m-stock-cash-awards-beverage-capex/875666/"
+    }
+   ],
    "pe_vs_own_pct": 7.6,
    "pe_vs_sector_pct": 30.4,
    "pe_highlight": "red"
@@ -5777,18 +5786,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Eli Lilly Is Near Its High. Bank of America Sees Another 19%",
-     "summary": "Key TakeawaysBank of America raised its Eli Lilly price target to $1,600 from $1,557 on Nov. 19 and kept its Buy rating.",
-     "provider": "TIKR",
-     "pubDate": "2026-11-21T14:09:54+00:00",
-     "url": "https://www.tikr.com/blog/eli-lilly-is-near-its-high-bank-of-america-sees-another-19?ref=yahoofinance&tlnk=yf-261121-xqv3g997"
-    },
-    {
-     "title": "Eli Lilly (LLY) After ObesityWeek Is The Stock Still Undervalued",
-     "summary": "Eli Lilly (LLY) is back in focus after ObesityWeek 2026, where the company released fresh clinical data on its obesity and sleep apnea\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-20T20:13:58+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-obesityweek-stock-201358942.html"
+     "title": "Eli Lilly earns Moody\u2019s upgrade to Aa2 as obesity drug demand fuels earnings",
+     "summary": "Investing.com -- Moody\u2019s Ratings upgraded Eli Lilly and Company's (NYSE:LLY) senior unsecured notes and issuer ratings to Aa2 from Aa3 on\u2026",
+     "provider": "Investing.com",
+     "pubDate": "2026-11-24T20:44:31+00:00",
+     "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-earns-moody-upgrade-204431978.html"
     }
    ],
    "pe_vs_own_pct": 29.1,
@@ -5951,11 +5953,25 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "A $2.6 Billion Fund Just Bought These 3 Stocks",
-     "summary": "Key TakeawaysSora Investors, which manages $2. 6 billion, added most to Nvidia, Mastercard and MKS in the third quarter, its latest 13F\u2026",
+     "title": "Mastercard Grew Revenue 14% to $9.8 Billion. Its CFO Says Q4 Will See \u201ca Similar Offset\u201d",
+     "summary": "Key TakeawaysMastercard grew third-quarter net revenue 14% to $9. 8 billion, and diluted EPS rose 22% to $5.",
      "provider": "TIKR",
-     "pubDate": "2026-11-21T15:51:15+00:00",
-     "url": "https://www.tikr.com/blog/a-2-6-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261121-w3mhcgf8"
+     "pubDate": "2026-11-24T06:23:19+00:00",
+     "url": "https://www.tikr.com/blog/mastercard-grew-revenue-14-to-9-8-billion-its-cfo-says-q4-will-see-a-similar-offset?ref=yahoofinance&tlnk=yf-261124-7g4hq38j"
+    },
+    {
+     "title": "Visa, Mastercard Seen Gaining From Expansion of Tokenized Payments, UBS Says",
+     "summary": "Visa (V) and Mastercard (MA) are positioned to benefit as payment tokenization expands, driven by gr",
+     "provider": "MT Newswires",
+     "pubDate": "2026-11-24T18:09:43+00:00",
+     "url": "https://finance.yahoo.com/technology/articles/visa-mastercard-seen-gaining-expansion-180943092.html"
+    },
+    {
+     "title": "Mastercard (MA) Deepens Payment Partnership With A Global Marketplace",
+     "summary": "Mastercard (NYSE:MA) and Temu are expanding their collaboration to roll out new digital payment tools for online shoppers. The partnership\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-23T15:09:45+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-deepens-payment-partnership-150945283.html"
     }
    ],
    "pe_vs_own_pct": -3.5,
@@ -6092,6 +6108,20 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tip": "MAR scores 2/10 \u2014 Weak.\nValue (0/2): P/E 41.3 is above its usual 30.5 over the last 14 years.\nHealth (1/2): growing fast with strong cash margins (score 46; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 71).\nBacking (0/2): insider buying and selling roughly balanced ($11.6M net); big funds roughly balanced ($18.3M net).\nSentiment (0/2): analysts rate it a Buy on average (2.28 from 26 analysts); their average target is $422.81, 2% above the price; options trading leaned bearish (put/call 2.48).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 16.0% over 3 years, so each share owns a bigger slice of the company.\n\ud83d\udd3a Overvalued \u2014 P/E 41.3 vs its 14y median of 30.5, forward P/E 30.8.",
    "is_new": true,
    "news": [
+    {
+     "title": "Marriott hotels announce major shake-up affecting over 500 workers",
+     "summary": "Two Marriott hotels are changing operators, triggering employment terminations.",
+     "provider": "TheStreet",
+     "pubDate": "2026-11-22T19:33:00+00:00",
+     "url": "https://www.thestreet.com/employment/marriott-hotels-announce-major-shake-up-affecting-over-500-workers"
+    },
+    {
+     "title": "A $1.6 Billion Fund Just Bought These 3 Stocks",
+     "summary": "Key TakeawaysA firm that manages $1. 61 billion added to Amazon, Union Pacific and Marriott International in the third quarter, the three\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-22T16:05:31+00:00",
+     "url": "https://www.tikr.com/blog/a-1-6-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-3wx5vxcw"
+    },
     {
      "title": "Marriott (MAR) Stock Fair Value Rises After Q3 Beat And Higher Guidance",
      "summary": "Price targets for Marriott International have shifted into a higher range, with recent Street estimates now clustering between about US$400\u2026",
@@ -6376,18 +6406,18 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
+     "title": "A Former Pharmacist\u2019s $875 Million Startup Deal Went Toxic Fast. Was It a \u2018Buy-and-Kill\u2019?",
+     "summary": "Less than a year after McKesson bought Michael Rea\u2019s drug-cost-saving business, it fired the founders. The accusations have been flying\u2026",
+     "provider": "The Wall Street Journal",
+     "pubDate": "2026-11-23T10:30:00+00:00",
+     "url": "https://www.wsj.com/business/a-former-pharmacists-875-million-startup-deal-went-toxic-fast-was-it-a-buy-and-kill-a65e5855?siteid=yhoof2&yptr=yahoo"
+    },
+    {
      "title": "Earnings Beat Might Change The Case For Investing In McKesson Stock (MCK)",
      "summary": "McKesson reported Q2 fiscal 2027 results with revenue up 8% and adjusted earnings per share up 18%, led by oncology and multispecialty\u2026",
      "provider": "Simply Wall St.",
      "pubDate": "2026-11-21T00:15:17+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/earnings-beat-might-change-case-001517661.html"
-    },
-    {
-     "title": "Two Deals and a Higher Target: UBS\u2019s Call on McKesson (MCK)",
-     "summary": "We just published a list of the Morgan Stanley\u2019s Vintage Values 2027: 10 Stocks Analysts See Climbing Further and McKesson (NYSE:MCK)\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T22:33:31+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/two-deals-higher-target-ubs-223331229.html"
     }
    ],
    "pe_vs_own_pct": 9.2,
@@ -6517,6 +6547,13 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
+     "title": "MetLife, Prudential and Aflac Raised Their Dividends. These 3 Insurers Offer Growing Income",
+     "summary": "Insurers get paid first and settle claims years later, and that float is quietly funding bigger checks for shareholders. Only one of these\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-22T19:07:56+00:00",
+     "url": "https://247wallst.com/investing/2026/11/22/metlife-prudential-and-aflac-raised-their-dividends-these-3-insurers-offer-growing-income/"
+    },
+    {
      "title": "MetLife Says Growth Plan Is Ahead of Schedule as Retirement Demand Rises",
      "summary": "MetLife (NYSE:MET) executives said the insurer is ahead of schedule on its five-year growth strategy, citing demand for retirement\u2026",
      "provider": "MarketBeat",
@@ -6524,11 +6561,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
      "url": "https://www.marketbeat.com/instant-alerts/event-metlife-says-growth-plan-is-ahead-of-schedule-as-retirement-demand-rises-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
-     "title": "MetLife Closes $370M Debt Fund for Transitional CRE Loans",
-     "summary": "MetLife Investment Management closed a $370 million opportunistic debt fund to lend on transitional commercial real estate.",
-     "provider": "CRE Daily",
-     "pubDate": "2026-11-18T13:26:53+00:00",
-     "url": "https://www.credaily.com/briefs/metlife-closes-370m-debt-fund-for-transitional-cre-loans/"
+     "title": "Can MetLife's $370M Real Estate Debt Fund Support Fee Growth?",
+     "summary": "MET's $370M real estate debt fund targets U.S. borrowers seeking flexible financing, potentially boosting recurring fees and institutional\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-19T15:10:00+00:00",
+     "url": "https://finance.yahoo.com/real-estate/articles/metlifes-370m-real-estate-debt-151000312.html"
     }
    ],
    "pe_vs_own_pct": 11.3,
@@ -6795,22 +6832,7 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "MRNA scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score 6; strong is over 40); not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 75).\nBacking (0/2): insiders sold $33.8M of shares in the last 3 months; big funds roughly balanced ($20.6M net).\nSentiment (0/2): analysts rate it a Hold on average (2.91 from 19 analysts); their average target is $164.53, 17% below the price; options trading leaned bearish (put/call 1.15).\n\ud83e\udea4 Potential trap \u2014 3 warning signs: burning cash (free cash flow is negative) and growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -275.8\u00d7); insiders sold $33.8M of shares in the last 3 months.",
    "is_new": true,
-   "news": [
-    {
-     "title": "Learn Why The Bull Case For Moderna (MRNA) Could Change Following Melanoma Vaccine Trial Results",
-     "summary": "Moderna reported that its personalized melanoma vaccine, intismeran autogene, delivered positive Phase 3 results with Merck\u2019s Keytruda\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-21T06:09:25+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/learn-why-bull-case-moderna-060925616.html"
-    },
-    {
-     "title": "Bireme Capital Sold Moderna (MRNA) Following Record Rally",
-     "summary": "Investment management company Bireme Capital recently released its third-quarter 2026 investor letter. The letter can be downloaded here.\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T15:56:53+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bireme-capital-sold-moderna-mrna-155653550.html"
-    }
-   ],
+   "news": [],
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": null,
    "pe_highlight": null
@@ -6954,18 +6976,25 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "MSCI Is Cutting Strategy and Metaplanet From Its Indexes. Here's What It Means for Bitcoin Treasury Company Stocks.",
-     "summary": "MSCI is booting Strategy from its indexes at the end of November. What does that mean for Bitcoin treasury stocks?",
-     "provider": "Motley Fool",
-     "pubDate": "2026-11-21T19:37:02+00:00",
-     "url": "https://www.fool.com/investing/2026/11/21/msci-is-cutting-strategy-and-metaplanet-from-its-indexes-here-s-what-it-means-for-bitcoin-treasury-company-stocks/"
+     "title": "MSCI considers alternatives to Indonesia downgrade after Prabowo talks",
+     "summary": "Investing.com -- MSCI is considering alternatives to a threatened downgrade of Indonesia\u2019s stock-market classification following direct\u2026",
+     "provider": "Investing.com",
+     "pubDate": "2026-11-23T07:11:46+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/msci-considers-alternatives-indonesia-downgrade-071146350.html"
     },
     {
-     "title": "A $10 Billion Fund Dumps These 3 Stocks",
-     "summary": "Key TakeawaysSteadfast Capital Management, a firm that manages $10. 36 billion, sold all of its Costco, DICK\u2019S Sporting Goods and MSCI\u2026",
+     "title": "MSCI Subscription Sales Jump 26% as AI and New Investment Tools Fuel Growth",
+     "summary": "MSCI (NYSE:MSCI) is seeing stronger subscription sales as demand grows for systematic investing tools and broader services for investment\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-23T06:12:05+00:00",
+     "url": "https://www.marketbeat.com/instant-alerts/event-msci-subscription-sales-jump-26-as-ai-and-new-investment-tools-fuel-growth-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+     "title": "A $3.1 Billion Fund Just Bought These 3 Stocks",
+     "summary": "Key TakeawaysA $3. 1 billion fund added to Microsoft, Amazon and MSCI in the third quarter, its three biggest new or added positions, per\u2026",
      "provider": "TIKR",
-     "pubDate": "2026-11-18T16:45:09+00:00",
-     "url": "https://www.tikr.com/blog/a-10-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261118-37pmhxg5"
+     "pubDate": "2026-11-22T11:20:52+00:00",
+     "url": "https://www.tikr.com/blog/a-3-1-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-x5gqq5xg"
     }
    ],
    "pe_vs_own_pct": -9.8,
@@ -7102,7 +7131,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "MSI scores 3/10 \u2014 Weak.\nValue (0/2): P/E 42.0 is above its usual 27.9 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 27; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 58).\nBacking (1/2): insiders sold $160.3M of shares in the last 3 months; big funds added $166.2M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.64 from 11 analysts); their average target is $547.18, 5% above the price; options trading leaned bearish (put/call 1.28).\n\ud83d\udd3a Overvalued \u2014 P/E 42.0 vs its 14y median of 27.9, forward P/E 26.7.",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "MSI Rides on Healthy Operating Margin Growth: Will it Sustain?",
+     "summary": "Motorola Solutions boosts its 2026 operating margin outlook on strong segment growth and AI adoption, but rising memory costs pose a\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-23T13:19:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/msi-rides-healthy-operating-margin-131900282.html"
+    }
+   ],
    "pe_vs_own_pct": 50.5,
    "pe_vs_sector_pct": 60.3,
    "pe_highlight": "red"
@@ -7374,6 +7411,20 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
+     "title": "A $4.3 Billion Fund Just Bought These 3 Stocks",
+     "summary": "Key TakeawaysPrana Capital Management, which manages $4. 31 billion, made Nasdaq, Citigroup and Charles Schwab its three biggest new or\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-23T22:20:28+00:00",
+     "url": "https://www.tikr.com/blog/a-4-3-billion-fund-just-bought-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261124-693q4x6g"
+    },
+    {
+     "title": "Nasdaq Targets 2027 Equity Token Launch as AI and FinTech Growth Accelerate",
+     "summary": "Nasdaq (NASDAQ:NDAQ) is heading into 2027 with momentum in financial technology, artificial intelligence and initiatives to support longer\u2026",
+     "provider": "MarketBeat",
+     "pubDate": "2026-11-22T02:12:04+00:00",
+     "url": "https://www.marketbeat.com/instant-alerts/event-nasdaq-targets-2027-equity-token-launch-as-ai-and-fintech-growth-accelerate-2026-11-21/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
      "title": "Nasdaq Starts Charging for Financial Crime AI Agents as 850 Customers Sign On",
      "summary": "Nasdaq (NASDAQ:NDAQ) is beginning to charge customers for artificial intelligence agents used in financial crime management, as the company\u2026",
      "provider": "MarketBeat",
@@ -7523,15 +7574,7 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Mixed",
    "score_tip": "OKTA scores 5/10 \u2014 Mixed.\nValue (0/2): not enough P/E history to compare against.\nHealth (2/2): growing fast with strong cash margins (score 44; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 76).\nBacking (0/2): insider buying and selling roughly balanced ($23.9M net); big funds roughly balanced ($60.8M net).\nSentiment (2/2): analysts rate it a Buy on average (1.66 from 43 analysts); their average target is $214.72, 4% above the price; options trading leaned bullish (put/call 0.74).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 13.5% over 3 years, so each share owns a smaller slice of the company.",
    "is_new": true,
-   "news": [
-    {
-     "title": "Okta Stocks Jump 8.14% as Cybersecurity Rally Extends Into Second Day",
-     "summary": "Identity security is in demand after a federal Java warning and Palo Alto's raised outlook.",
-     "provider": "GuruFocus.com",
-     "pubDate": "2026-11-19T18:38:50+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/okta-stocks-jump-8-14-183850134.html"
-    }
-   ],
+   "news": [],
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": 375.6,
    "pe_highlight": "red"
@@ -7781,7 +7824,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "PRU scores 3/10 \u2014 Weak.\nValue (1/2): P/E 11.0 is above its usual 9.3 over the last 11 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score -8; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 56).\nBacking (0/2): insider buying and selling roughly balanced ($1.1M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (3.44 from 15 analysts); their average target is $115.53, 4% below the price; options trading leaned bullish (put/call 0.27).",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "MetLife, Prudential and Aflac Raised Their Dividends. These 3 Insurers Offer Growing Income",
+     "summary": "Insurers get paid first and settle claims years later, and that float is quietly funding bigger checks for shareholders. Only one of these\u2026",
+     "provider": "24/7 Wall St.",
+     "pubDate": "2026-11-22T19:07:56+00:00",
+     "url": "https://247wallst.com/investing/2026/11/22/metlife-prudential-and-aflac-raised-their-dividends-these-3-insurers-offer-growing-income/"
+    }
+   ],
    "pe_vs_own_pct": 18.3,
    "pe_vs_sector_pct": -16.7,
    "pe_highlight": null
@@ -7909,11 +7960,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "3 High-Yield Storage REITs Are Rallying After Raising Their 2026 Outlooks",
-     "summary": "After two years of drowning in new supply, self-storage landlords just turned a corner, and three dividend payers all lifted their outlooks\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-16T17:17:18+00:00",
-     "url": "https://247wallst.com/investing/2026/11/16/3-high-yield-storage-reits-are-rallying-after-raising-their-2026-outlooks/"
+     "title": "Public Storage (PSA) Moves to Buy: Rationale Behind the Upgrade",
+     "summary": "Public Storage (PSA) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-24T16:00:04+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/public-storage-psa-moves-buy-160004501.html"
     }
    ],
    "pe_vs_own_pct": 9.0,
@@ -8052,11 +8103,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
-     "summary": "The product of a collaboration with Alnylam, Livsayis is now Regeneron\u2019s first marketed RNAi drug and will compete against established\u2026",
-     "provider": "BioPharma Dive",
-     "pubDate": "2026-11-19T15:10:00+00:00",
-     "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
+     "title": "Insmed Snags A Whopping Price Tag As Sanofi Confirms Rumored Buyout",
+     "summary": "Sanofi said Tuesday it would spend $41 billion to acquire Insmed in the biggest biotech buyout since Pfizer bought Seagen for $43 billion.",
+     "provider": "Investor's Business Daily",
+     "pubDate": "2026-11-24T21:14:16+00:00",
+     "url": "https://www.investors.com/news/technology/insmed-stock-sanofi-buyout/?src=A00220&yptr=yahoo"
     }
    ],
    "pe_vs_own_pct": -8.3,
@@ -8319,7 +8370,15 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "SJM scores 1/10 \u2014 Weak.\nValue (0/2): P/E 61.4 is above its usual 20.1 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score 21; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 58).\nBacking (0/2): insider buying and selling roughly balanced ($13.9M net); big funds roughly balanced ($80.8M net).\nSentiment (0/2): analysts rate it a Buy on average (2.11 from 16 analysts); their average target is $142.38, 8% above the price; options trading leaned bearish (put/call 1.27).",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "Smucker Beats Q2 Earnings Estimates on Lower Costs, Raises View",
+     "summary": "Smucker tops Q2 earnings estimates and raises its fiscal 2027 outlook, backed by lower costs, tariff refunds and strong Uncrustables sales\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-24T15:14:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/smucker-beats-q2-earnings-estimates-151400816.html"
+    }
+   ],
    "pe_vs_own_pct": 205.5,
    "pe_vs_sector_pct": 182.9,
    "pe_highlight": "red"
@@ -8588,18 +8647,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Target Shines, Walmart Merely Fine: Two Retail Giants Split on Q3 Results",
-     "summary": "Walmart and Target helped headline the reporting docket for Retail this week. Target's results were notably impressive, though big-box\u2026",
-     "provider": "Zacks",
-     "pubDate": "2026-11-20T22:49:00+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/target-shines-walmart-merely-fine-224900183.html"
-    },
-    {
-     "title": "Target shoppers may notice a big change this holiday season",
-     "summary": "Target quietly rewrote the rules for the holidays, and it\u2019s paying off fast.",
-     "provider": "TheStreet",
-     "pubDate": "2026-11-21T04:33:00+00:00",
-     "url": "https://www.thestreet.com/investing/stocks/target-holiday-hours-price-cuts-gift-cards"
+     "title": "Why Is Target (TGT) Stock Up Today? Dollar Tree's Strong Q3 Lifts Discount Retailers",
+     "summary": "On Tuesday, Nov. 24, Target rose 4.5% to $175.19 alongside discount retailers after Dollar Tree's strong Q3 report",
+     "provider": "GuruFocus.com",
+     "pubDate": "2026-11-24T21:00:33+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-target-tgt-stock-today-210033160.html"
     }
    ],
    "pe_vs_own_pct": 5.5,
@@ -8777,11 +8829,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
      "url": "https://finance.yahoo.com/healthcare/articles/investors-may-respond-thermo-fisher-221504540.html"
     },
     {
-     "title": "Thermo Fisher Scientific Sees Faster 2027 Growth as Biotech Spending Recovers",
-     "summary": "Thermo Fisher Scientific (NYSE:TMO) expects growth to strengthen in 2027 as biotechnology spending improves and academic research activity\u2026",
-     "provider": "MarketBeat",
-     "pubDate": "2026-11-19T15:14:30+00:00",
-     "url": "https://www.marketbeat.com/instant-alerts/event-thermo-fisher-scientific-sees-faster-2027-growth-as-biotech-spending-recovers-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance"
+     "title": "Stanley Druckenmiller and 25 Other Big Funds Sold Thermo Fisher Scientific Last Quarter, While 15 Bought. Who\u2019s Right?",
+     "summary": "Key TakeawaysOf 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 2026, 26 sold Thermo Fisher Scientific, including\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-22T10:21:48+00:00",
+     "url": "https://www.tikr.com/blog/stanley-druckenmiller-and-25-other-big-funds-sold-thermo-fisher-scientific-last-quarter-while-15-bought-whos-right?ref=yahoofinance&tlnk=yf-261122-7cr84v6j"
     },
     {
      "title": "Thermo Fisher Scientific (TMO): A Sharp Valuation Shift Prompted the Strategy to Exit the Position",
@@ -9082,7 +9134,29 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "score_tier": "Weak",
    "score_tip": "V scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growing fast with strong cash margins (score 59; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 69).\nBacking (1/2): insiders sold $37.9M of shares in the last 3 months; big funds added $484.3M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 37 analysts); their average target is $450.96, 12% above the price; options trading leaned bearish (put/call 1.10).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 16.0% over 3 years, so each share owns a bigger slice of the company.",
    "is_new": true,
-   "news": [],
+   "news": [
+    {
+     "title": "Klarna expands Visa partnership across North America and Europe",
+     "summary": "Merchants across the US, Canada, the UK, and Europe can now activate Klarna using their existing checkout setup.",
+     "provider": "Electronic Payments",
+     "pubDate": "2026-11-24T09:30:07+00:00",
+     "url": "https://www.electronicpaymentsinternational.com/news/klarna-expands-visa-partnership-across-north-america-and-europe/"
+    },
+    {
+     "title": "Visa, Mastercard Seen Gaining From Expansion of Tokenized Payments, UBS Says",
+     "summary": "Visa (V) and Mastercard (MA) are positioned to benefit as payment tokenization expands, driven by gr",
+     "provider": "MT Newswires",
+     "pubDate": "2026-11-24T18:09:43+00:00",
+     "url": "https://finance.yahoo.com/technology/articles/visa-mastercard-seen-gaining-expansion-180943092.html"
+    },
+    {
+     "title": "A $6.8 Billion Fund Just Bought These 3 Stocks",
+     "summary": "Key TakeawaysA fund with $6. 8 billion in US stocks added to Broadcom, Micron and Visa in the third quarter, its three biggest buys.",
+     "provider": "TIKR",
+     "pubDate": "2026-11-23T17:39:26+00:00",
+     "url": "https://www.tikr.com/blog/a-6-8-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261123-22mgc93w"
+    }
+   ],
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": 147.7,
    "pe_highlight": "red"
@@ -9358,11 +9432,11 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
    "is_new": true,
    "news": [
     {
-     "title": "Dear VeriSign Stock Fans, Mark Your Calendars for December 10",
-     "summary": "VeriSign\u2019s .web launch is putting its domain business in the spotlight, with the first key phase beginning Dec. 10.",
-     "provider": "Barchart",
-     "pubDate": "2026-11-15T13:48:07+00:00",
-     "url": "https://www.barchart.com/story/news/8843988/dear-verisign-stock-fans-mark-your-calendars-for-december-10"
+     "title": "A $4.5 Billion Fund Dumps These 3 Stocks",
+     "summary": "Key TakeawaysHawk Ridge Capital Management, which manages $4. 53 billion, sold all of its VeriSign, CarMax and WEX shares in the third\u2026",
+     "provider": "TIKR",
+     "pubDate": "2026-11-23T22:25:13+00:00",
+     "url": "https://www.tikr.com/blog/a-4-5-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261124-6753j7r3"
     },
     {
      "title": "Greg Abel Makes His Next Moves: Inside Berkshire\u2019s Q3 Portfolio",
@@ -9505,13 +9579,6 @@ window.__BOLLINGER_MONTHLY_TOPS__ = {
      "provider": "Zacks",
      "pubDate": "2026-11-20T16:00:04+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/know-viatris-vtrs-rating-upgrade-160004016.html"
-    },
-    {
-     "title": "Rising Sector Tide and Internal Milestones Fuel Viatris\u2019 (VTRS) Gains",
-     "summary": "Argent Capital Management, an equity investment firm, released its Q3 2026 investor letter for \u201cArgent Large Cap Strategy\u201d. The letter can\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-20T15:05:08+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/rising-sector-tide-internal-milestones-150508887.html"
     }
    ],
    "pe_vs_own_pct": null,
