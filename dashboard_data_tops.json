@@ -129,7 +129,8 @@
    "score_s": 1,
    "score_tier": "Mixed",
    "score_tip": "ACGL scores 5/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 11.1 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 12; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 67).\nBacking (0/2): insider buying and selling roughly balanced ($5.3M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.30 from 19 analysts); their average target is $114.11, 5% above the price; options trading leaned bullish (put/call 0.04).",
-   "news": []
+   "news": [],
+   "beta": 0.19
   },
   {
    "ticker": "AES",
@@ -271,7 +272,8 @@
      "pubDate": "2026-11-24T17:44:00+00:00",
      "url": "https://www.proactiveinvestors.com/companies/news/1102372/sharkninja-to-join-s-p-500-1102372.html"
     }
-   ]
+   ],
+   "beta": 0.92
   },
   {
    "ticker": "AIZ",
@@ -403,7 +405,8 @@
      "pubDate": "2026-11-19T16:00:03+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/know-assurant-aiz-rating-upgrade-160003340.html"
     }
-   ]
+   ],
+   "beta": 0.51
   },
   {
    "ticker": "AWK",
@@ -537,7 +540,8 @@
      "pubDate": "2026-11-19T20:16:34+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/american-water-works-awk-launched-201634052.html"
     }
-   ]
+   ],
+   "beta": 0.55
   },
   {
    "ticker": "AZO",
@@ -671,7 +675,8 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "AZO scores 2/10 \u2014 Weak.\nValue (0/2): P/E 21.3 is above its usual 17.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 12; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 56).\nBacking (0/2): no insider trades in the last 3 months; big funds sold $159.0M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.54 from 24 analysts); their average target is $3,656.62, 12% above the price; options trading leaned bearish (put/call 1.29).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 16.8% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 0.37
   },
   {
    "ticker": "BRK-B",
@@ -811,7 +816,8 @@
      "pubDate": "2026-11-24T16:53:56+00:00",
      "url": "https://247wallst.com/investing/2026/11/24/the-gates-foundation-trust-sold-2-2-million-berkshire-shares-and-opened-a-155-million-dollar-tree-stake/"
     }
-   ]
+   ],
+   "beta": 0.57
   },
   {
    "ticker": "CAH",
@@ -944,7 +950,8 @@
      "pubDate": "2026-11-20T14:47:24+00:00",
      "url": "https://247wallst.com/investing/2026/11/20/jim-cramer-says-cardinal-health-is-the-stock-that-is-made-for-this-moment/"
     }
-   ]
+   ],
+   "beta": 0.52
   },
   {
    "ticker": "CB",
@@ -1070,7 +1077,8 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "CB scores 3/10 \u2014 Weak.\nValue (1/2): P/E 13.0 is below its usual 13.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 18; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): insider buying and selling roughly balanced ($10.0M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.48 from 23 analysts); their average target is $375.61, 1% above the price; options trading leaned bullish (put/call 0.93).",
-   "news": []
+   "news": [],
+   "beta": 0.29
   },
   {
    "ticker": "CHD",
@@ -1211,7 +1219,8 @@
      "pubDate": "2026-11-20T08:09:31+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-chd-stock-sees-080931149.html"
     }
-   ]
+   ],
+   "beta": 0.45
   },
   {
    "ticker": "CL",
@@ -1345,7 +1354,8 @@
      "pubDate": "2026-11-24T12:12:20+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-colgate-121220789.html"
     }
-   ]
+   ],
+   "beta": 0.31
   },
   {
    "ticker": "COST",
@@ -1479,7 +1489,8 @@
      "pubDate": "2026-11-24T21:33:00+00:00",
      "url": "https://www.thestreet.com/retail/costco-gives-30-gift-for-the-holidays-but-theres-a-catch"
     }
-   ]
+   ],
+   "beta": 0.85
   },
   {
    "ticker": "ED",
@@ -1605,7 +1616,8 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "ED scores 2/10 \u2014 Weak.\nValue (0/2): P/E 19.2 is above its usual 17.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 1; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (3.21 from 17 analysts); their average target is $112.79, 6% below the price; options trading leaned bullish (put/call 0.89).",
-   "news": []
+   "news": [],
+   "beta": 0.22
   },
   {
    "ticker": "EG",
@@ -1728,7 +1740,8 @@
    "score_s": 0,
    "score_tier": "Mixed",
    "score_tip": "EG scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 9.1 over the last 14 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score -4; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 72).\nBacking (0/2): insider buying and selling roughly balanced ($3.2M net); no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.41 from 16 analysts); their average target is $437.94, 4% above the price; options trading leaned bearish (put/call 4.10).",
-   "news": []
+   "news": [],
+   "beta": 0.23
   },
   {
    "ticker": "EW",
@@ -1863,7 +1876,8 @@
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "EW scores 3/10 \u2014 Weak.\nValue (0/2): P/E 59.2 is above its usual 35.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 28; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (0/2): insider buying and selling roughly balanced ($10.9M net); big funds roughly balanced ($74.5M net).\nSentiment (2/2): analysts rate it a Buy on average (1.53 from 27 analysts); their average target is $113.83, 12% above the price; options trading leaned bullish (put/call 0.09).\n\ud83d\udd3a Overvalued \u2014 P/E 59.2 vs its 15y median of 35.9, forward P/E 30.1.",
-   "news": []
+   "news": [],
+   "beta": 0.83
   },
   {
    "ticker": "IDXX",
@@ -2006,7 +2020,8 @@
      "pubDate": "2026-11-24T00:02:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-strength-3-companies-raising-000200165.html"
     }
-   ]
+   ],
+   "beta": 1.54
   },
   {
    "ticker": "MDLZ",
@@ -2141,7 +2156,8 @@
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "MDLZ scores 3/10 \u2014 Weak.\nValue (0/2): P/E 21.2 is above its usual 20.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 9; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 60).\nBacking (0/2): insider buying and selling roughly balanced ($8.5M net); big funds sold $324.5M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.83 from 22 analysts); their average target is $70.64, 7% above the price; options trading leaned bullish (put/call 0.79).",
-   "news": []
+   "news": [],
+   "beta": 0.36
   },
   {
    "ticker": "ORLY",
@@ -2266,7 +2282,8 @@
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "ORLY scores 3/10 \u2014 Weak.\nValue (0/2): P/E 28.4 is above its usual 24.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 56).\nBacking (0/2): insider buying and selling roughly balanced ($2.6M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.57 from 27 analysts); their average target is $106.41, 15% above the price; options trading leaned bullish (put/call 0.16).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 12.2% over 3 years, so each share owns a bigger slice of the company.\n\ud83d\udd3a Overvalued \u2014 P/E 28.4 vs its 15y median of 24.5, forward P/E 25.3.",
-   "news": []
+   "news": [],
+   "beta": 0.55
   },
   {
    "ticker": "PG",
@@ -2400,7 +2417,8 @@
      "pubDate": "2026-11-24T17:11:00+00:00",
      "url": "https://www.supplychaindive.com/news/procter-gamble-plans-supply-chain-workforce-cuts-as-automation-expands/875533/"
     }
-   ]
+   ],
+   "beta": 0.36
   },
   {
    "ticker": "STE",
@@ -2532,7 +2550,8 @@
      "pubDate": "2026-11-18T16:12:38+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/valuation-fell-10-steris-ste-161238862.html"
     }
-   ]
+   ],
+   "beta": 0.86
   },
   {
    "ticker": "TECH",
@@ -2667,7 +2686,8 @@
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "TECH scores 2/10 \u2014 Weak.\nValue (0/2): P/E 66.7 is above its usual 46.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 27; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($38.8M net).\nSentiment (0/2): analysts rate it a Hold on average (3.15 from 10 analysts); their average target is $70.50, 3% below the price; options trading leaned bearish (put/call 1.18).\n\ud83d\udd3a Overvalued \u2014 P/E 66.7 vs its 15y median of 46.4, forward P/E 31.4.",
-   "news": []
+   "news": [],
+   "beta": 1.27
   },
   {
    "ticker": "TSCO",
@@ -2818,7 +2838,8 @@
      "pubDate": "2026-11-19T18:15:35+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/tractor-supply-tsco-expands-delivery-181535994.html"
     }
-   ]
+   ],
+   "beta": 0.48
   },
   {
    "ticker": "TSN",
@@ -2975,7 +2996,8 @@
      "pubDate": "2026-11-21T15:07:00+00:00",
      "url": "https://www.thestreet.com/retail/tyson-foods-changes-course-after-meat-plant-closures"
     }
-   ]
+   ],
+   "beta": 0.37
   },
   {
    "ticker": "VLTO",
@@ -3108,7 +3130,8 @@
      "pubDate": "2026-11-20T16:58:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/veraltos-q3-margin-expands-170-165800302.html"
     }
-   ]
+   ],
+   "beta": 0.67
   },
   {
    "ticker": "WMT",
@@ -3234,7 +3257,8 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "WMT scores 2/10 \u2014 Weak.\nValue (0/2): P/E 46.4 is above its usual 28.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 64).\nBacking (0/2): insiders sold $26.7M of shares in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 41 analysts); their average target is $135.76, 6% above the price; options trading leaned bearish (put/call 1.46).\n\ud83d\udd3a Overvalued \u2014 P/E 46.4 vs its 15y median of 28.8, forward P/E 39.6.",
-   "news": []
+   "news": [],
+   "beta": 0.53
   },
   {
    "ticker": "WRB",
@@ -3369,7 +3393,8 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "WRB scores 3/10 \u2014 Weak.\nValue (0/2): P/E 16.6 is above its usual 14.2 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 16; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($10.9M net).\nSentiment (1/2): analysts rate it a Hold on average (3.39 from 17 analysts); their average target is $69.76, 11% below the price; options trading leaned bullish (put/call 0.15).",
-   "news": []
+   "news": [],
+   "beta": 0.22
   }
  ],
  "f13_quarter": "Q3 2026",
