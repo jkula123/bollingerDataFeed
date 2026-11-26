@@ -151,7 +151,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T21:49:43+00:00",
      "url": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q4-2026-report/?src=A00220&yptr=yahoo"
     }
-   ]
+   ],
+   "beta": 1.26
   },
   {
    "ticker": "ADM",
@@ -282,7 +283,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "ADM scores 2/10 \u2014 Weak.\nValue (1/2): P/E 13.1 is below its usual 14.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 37).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); big funds roughly balanced ($2.9M net).\nSentiment (1/2): analysts rate it a Hold on average (2.82 from 10 analysts); their average target is $78.50, 17% above the price; options trading leaned bullish (put/call 0.41).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 14.0% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 0.61
   },
   {
    "ticker": "ALAB",
@@ -403,7 +405,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Mixed",
    "score_tip": "ALAB scores 4/10 \u2014 Mixed.\nValue (0/2): not enough P/E history to compare against.\nHealth (2/2): growing fast with strong cash margins (score 162; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (0/2): insiders sold $98.0M of shares in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.80 from 22 analysts); their average target is $344.15, 91% above the price; options trading leaned bullish (put/call 0.97).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 37.6% over 3 years, so each share owns a smaller slice of the company.",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 3.86
   },
   {
    "ticker": "ALNY",
@@ -540,7 +543,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T15:10:00+00:00",
      "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
     }
-   ]
+   ],
+   "beta": 0.44
   },
   {
    "ticker": "AMAT",
@@ -695,7 +699,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "AMAT scores 3/10 \u2014 Weak.\nValue (0/2): P/E 24.0 is above its usual 18.6 over the last 15 years.\nHealth (2/2): growing fast with strong cash margins (score 60; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($4.5M net); big funds sold $549.0M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.48 from 36 analysts); their average target is $557.86, 84% above the price; options trading leaned bearish (put/call 1.64).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.67
   },
   {
    "ticker": "AME",
@@ -817,7 +822,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "AME scores 2/10 \u2014 Weak.\nValue (0/2): P/E 31.4 is above its usual 25.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 36; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.70 from 18 analysts); their average target is $288.83, 30% above the price; options trading leaned bullish (put/call 0.48).",
-   "news": []
+   "news": [],
+   "beta": 0.97
   },
   {
    "ticker": "APH",
@@ -957,7 +963,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T22:24:56+00:00",
      "url": "https://www.tikr.com/blog/a-2-7-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261124-6fg28v8w"
     }
-   ]
+   ],
+   "beta": 1.28
   },
   {
    "ticker": "ARM",
@@ -1086,7 +1093,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T17:27:48+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-stocks-fall-4-172748336.html"
     }
-   ]
+   ],
+   "beta": 3.94
   },
   {
    "ticker": "ASML",
@@ -1259,7 +1267,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T12:15:58+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-changed-nvidia-ceo-121558672.html"
     }
-   ]
+   ],
+   "beta": 1.33
   },
   {
    "ticker": "BA",
@@ -1405,7 +1414,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T16:58:00+00:00",
      "url": "https://www.proactiveinvestors.com/companies/news/1102369/boeing-wins-largest-china-airline-deal-since-2017-for-50-jets-1102369.html"
     }
-   ]
+   ],
+   "beta": 1.33
   },
   {
    "ticker": "BE",
@@ -1540,7 +1550,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T18:33:00+00:00",
      "url": "https://247wallst.com/investing/2026/11/24/bloom-energy-revenue-jumped-138-its-next-growth-phase-could-be-even-bigger/"
     }
-   ]
+   ],
+   "beta": 3.62
   },
   {
    "ticker": "BG",
@@ -1669,7 +1680,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T17:27:00+00:00",
      "url": "https://finance.yahoo.com/markets/commodities/articles/bg-expands-blockchain-enabled-soy-172700613.html"
     }
-   ]
+   ],
+   "beta": 0.68
   },
   {
    "ticker": "BKR",
@@ -1808,7 +1820,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T15:09:00+00:00",
      "url": "https://finance.yahoo.com/energy/articles/inpex-awards-baker-hughes-mcdermott-150900943.html"
     }
-   ]
+   ],
+   "beta": 1.06
   },
   {
    "ticker": "C",
@@ -1947,7 +1960,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T16:14:05+00:00",
      "url": "https://247wallst.com/investing/2026/11/23/citigroup-executive-says-credit-card-customers-spend-9-times-more-heres-why-the-bank-wants-more-of-them/"
     }
-   ]
+   ],
+   "beta": 1.15
   },
   {
    "ticker": "CAT",
@@ -2078,7 +2092,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "CAT scores 2/10 \u2014 Weak.\nValue (0/2): P/E 20.0 is above its usual 16.4 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 22; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): insiders sold $25.6M of shares in the last 3 months; big funds roughly balanced ($17.6M net).\nSentiment (1/2): analysts rate it a Buy on average (1.97 from 26 analysts); their average target is $807.26, 58% above the price; options trading leaned bearish (put/call 1.99).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.0% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 1.64
   },
   {
    "ticker": "CEG",
@@ -2225,7 +2240,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T15:05:00+00:00",
      "url": "https://finance.yahoo.com/energy/articles/cegs-improving-cash-flow-support-150500837.html"
     }
-   ]
+   ],
+   "beta": 1.13
   },
   {
    "ticker": "CFG",
@@ -2372,7 +2388,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-22T08:12:10+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-citizens-financial-group-targets-450-million-tech-boost-as-private-banking-grows-2026-11-22/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "beta": 1.09
   },
   {
    "ticker": "CIEN",
@@ -2503,7 +2520,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-21T14:22:56+00:00",
      "url": "https://www.tikr.com/blog/a-10-billion-fund-bought-these-3-stocks-last-quarter?ref=yahoofinance&tlnk=yf-261121-7q42fq47"
     }
-   ]
+   ],
+   "beta": 1.35
   },
   {
    "ticker": "CMI",
@@ -2633,7 +2651,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T08:09:38+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/cummins-cmi-just-gave-investors-080938584.html"
     }
-   ]
+   ],
+   "beta": 1.24
   },
   {
    "ticker": "COF",
@@ -2796,7 +2815,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-22T11:07:42+00:00",
      "url": "https://www.tikr.com/blog/dan-loeb-and-8-other-big-funds-bought-capital-one-financial-berkshire-hathaway-and-14-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261122-7jjqjrjj"
     }
-   ]
+   ],
+   "beta": 1.09
   },
   {
    "ticker": "COIN",
@@ -2929,7 +2949,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T14:58:32+00:00",
      "url": "https://www.tikr.com/blog/could-coinbase-actually-climb-70-or-is-goldman-sachs-totally-wrong?ref=yahoofinance&tlnk=yf-261124-3g59p4hf"
     }
-   ]
+   ],
+   "beta": 3.35
   },
   {
    "ticker": "CRWV",
@@ -3211,7 +3232,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "CSCO scores 2/10 \u2014 Weak.\nValue (0/2): P/E 24.1 is above its usual 17.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 40; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (1/2): insiders sold $46.1M of shares in the last 3 months; big funds added $192.2M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.79 from 24 analysts); their average target is $130.50, 44% above the price; options trading leaned bearish (put/call 2.23).",
-   "news": []
+   "news": [],
+   "beta": 1.0
   },
   {
    "ticker": "DASH",
@@ -3357,7 +3379,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T13:51:45+00:00",
      "url": "https://investorshub.advfn.com/market-news/article/40532/doordash-shares-climb-6-39-after-securing-1-79-billion-loan-facility-for-instacart-acquisition"
     }
-   ]
+   ],
+   "beta": 1.97
   },
   {
    "ticker": "DDOG",
@@ -3504,7 +3527,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T07:12:30+00:00",
      "url": "https://finance.yahoo.com/technology/ai/articles/datadog-beat-earnings-then-biggest-071230736.html"
     }
-   ]
+   ],
+   "beta": 1.51
   },
   {
    "ticker": "DELL",
@@ -3633,7 +3657,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T21:21:45+00:00",
      "url": "https://finance.yahoo.com/technology/ai/article/dell-handily-tops-estimates-lifts-sales-and-profit-guidance-212145887.html"
     }
-   ]
+   ],
+   "beta": 1.44
   },
   {
    "ticker": "DLR",
@@ -3781,7 +3806,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "DLR scores 3/10 \u2014 Weak.\nValue (0/2): P/E 68.5 is above its usual 50.5 over the last 15 years.\nHealth (1/2): growing fast with strong cash margins (score 76; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (1/2): insider buying and selling roughly balanced ($0.0M net); big funds added $234.4M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.44 from 32 analysts); their average target is $223.97, 38% above the price; options trading leaned bearish (put/call 1.80).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 16.7% over 3 years, so each share owns a smaller slice of the company.",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.0
   },
   {
    "ticker": "EME",
@@ -3911,7 +3937,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T14:32:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/emcor-d-r-horton-highlighted-143200503.html"
     }
-   ]
+   ],
+   "beta": 1.16
   },
   {
    "ticker": "EQIX",
@@ -4059,7 +4086,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Mixed",
    "score_tip": "EQIX scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 58.2 is below its usual 94.1 over the last 14 years.\nHealth (1/2): growing fast with strong cash margins (score 42; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 44).\nBacking (1/2): insider buying and selling roughly balanced ($0.9M net); big funds added $306.1M last quarter.\nSentiment (2/2): analysts rate it a Strong Buy on average (1.46 from 32 analysts); their average target is $1,234.88, 28% above the price; options trading leaned bullish (put/call 0.51).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 0.97
   },
   {
    "ticker": "ETN",
@@ -4198,7 +4226,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "ETN scores 1/10 \u2014 Weak.\nValue (0/2): P/E 31.1 is above its usual 18.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 38; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 31).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); big funds sold $517.2M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.61 from 27 analysts); their average target is $469.00, 51% above the price; options trading leaned bearish (put/call 2.94).",
-   "news": []
+   "news": [],
+   "beta": 1.14
   },
   {
    "ticker": "EXE",
@@ -4337,7 +4366,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T14:55:00+00:00",
      "url": "https://finance.yahoo.com/energy/articles/expand-energy-expects-u-natural-145500031.html"
     }
-   ]
+   ],
+   "beta": 0.37
   },
   {
    "ticker": "EXPE",
@@ -4483,7 +4513,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T10:30:00+00:00",
      "url": "https://www.barrons.com/articles/expedia-booking-stock-muse-ai-test-e4332be1?siteid=yhoof2&yptr=yahoo"
     }
-   ]
+   ],
+   "beta": 1.39
   },
   {
    "ticker": "FANG",
@@ -4614,7 +4645,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T18:21:21+00:00",
      "url": "http://www.intellinews.com/diamondback-to-buy-certain-double-eagle-subsidiaries-in-5bn-permian-deal-486843/"
     }
-   ]
+   ],
+   "beta": 0.47
   },
   {
    "ticker": "FCX",
@@ -4760,7 +4792,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T16:55:42+00:00",
      "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-2-stocks?ref=yahoofinance&tlnk=yf-261123-2pw8hgfj"
     }
-   ]
+   ],
+   "beta": 1.37
   },
   {
    "ticker": "FFIV",
@@ -4898,7 +4931,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-22T10:12:06+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-f5-sees-ai-and-software-renewals-driving-growth-after-100-million-in-ai-bookings-2026-11-22/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "beta": 1.09
   },
   {
    "ticker": "FIS",
@@ -5037,7 +5071,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T13:26:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/splitit-partnership-strengthen-fis-issuer-132600652.html"
     }
-   ]
+   ],
+   "beta": 0.85
   },
   {
    "ticker": "FITB",
@@ -5153,7 +5188,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "FITB scores 2/10 \u2014 Weak.\nValue (0/2): P/E 16.6 is above its usual 10.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($1.1M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.55 from 21 analysts); their average target is $61.54, 25% above the price; options trading leaned bullish (put/call 0.20).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 0.99
   },
   {
    "ticker": "FSLR",
@@ -5292,7 +5328,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T16:13:01+00:00",
      "url": "https://www.fool.com/coverage/moneyball/2026/11/24/first-solar-s-2027-outlook-usd13-5-billion-backlog-fueled-by-long-term-infrastructure-demand/"
     }
-   ]
+   ],
+   "beta": 1.71
   },
   {
    "ticker": "GEV",
@@ -5422,7 +5459,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "GEV scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (2/2): growing fast with strong cash margins (score 77; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 35).\nBacking (0/2): no insider trades in the last 3 months; big funds sold $215.8M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.46 from 33 analysts); their average target is $1,167.13, 67% above the price; options trading leaned bearish (put/call 1.81).",
-   "news": []
+   "news": [],
+   "beta": 1.06
   },
   {
    "ticker": "GL",
@@ -5544,7 +5582,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Mixed",
    "score_tip": "GL scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 10.2 is below its usual 12.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): insider buying and selling roughly balanced ($3.9M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (2.00 from 11 analysts); their average target is $185.45, 22% above the price; options trading leaned bullish (put/call 0.62).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 16.6% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 0.46
   },
   {
    "ticker": "GLD",
@@ -5783,7 +5822,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "GLW scores 1/10 \u2014 Weak.\nValue (0/2): P/E 38.2 is above its usual 23.7 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 23; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): insider buying and selling roughly balanced ($3.5M net); big funds sold $443.3M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.47 from 18 analysts); their average target is $171.89, 82% above the price; options trading leaned bearish (put/call 1.06).",
-   "news": []
+   "news": [],
+   "beta": 1.23
   },
   {
    "ticker": "GOOG",
@@ -5944,7 +5984,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T15:00:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html"
     }
-   ]
+   ],
+   "beta": 1.23
   },
   {
    "ticker": "GOOGL",
@@ -6146,7 +6187,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T15:00:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/article/have-robotaxis-hit-a-tipping-point-wall-street-and-experts-are-split-150000412.html"
     }
-   ]
+   ],
+   "beta": 1.23
   },
   {
    "ticker": "GPC",
@@ -6294,7 +6336,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-21T17:07:35+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/genuine-parts-gpc-undervalued-earnings-170735734.html"
     }
-   ]
+   ],
+   "beta": 0.66
   },
   {
    "ticker": "GS",
@@ -6428,7 +6471,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T21:47:35+00:00",
      "url": "https://pitchbook.com/news/articles/goldman-sachs-closing-on-1-5b-private-credit-secondary-deal"
     }
-   ]
+   ],
+   "beta": 1.27
   },
   {
    "ticker": "HAL",
@@ -6575,7 +6619,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-18T18:17:57+00:00",
      "url": "https://www.tikr.com/blog/a-6-9-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261118-xcfh59pr"
     }
-   ]
+   ],
+   "beta": 0.75
   },
   {
    "ticker": "HBAN",
@@ -6707,7 +6752,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T16:16:39+00:00",
      "url": "https://www.tikr.com/blog/a-2-6-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261119-ghg8vqcf"
     }
-   ]
+   ],
+   "beta": 0.98
   },
   {
    "ticker": "HOOD",
@@ -6831,7 +6877,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T14:05:39+00:00",
      "url": "https://www.tikr.com/blog/robinhood-vs-kalshi-65-billion-valuation?ref=yahoofinance&tlnk=yf-261124-p7935g83"
     }
-   ]
+   ],
+   "beta": 2.53
   },
   {
    "ticker": "HSIC",
@@ -6969,7 +7016,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T02:16:03+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/henry-schein-hsic-stock-may-021603173.html"
     }
-   ]
+   ],
+   "beta": 0.86
   },
   {
    "ticker": "HUBB",
@@ -7091,7 +7139,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "HUBB scores 1/10 \u2014 Weak.\nValue (0/2): P/E 23.7 is above its usual 22.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 13 analysts); their average target is $537.62, 33% above the price; options trading leaned bearish (put/call 2.54).",
-   "news": []
+   "news": [],
+   "beta": 0.84
   },
   {
    "ticker": "IBKR",
@@ -7233,7 +7282,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "IBKR scores 3/10 \u2014 Weak.\nValue (0/2): P/E 27.2 is above its usual 25.2 over the last 15 years.\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($2.1M net); big funds sold $169.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.71 from 16 analysts); their average target is $104.04, 46% above the price; options trading leaned bullish (put/call 0.51).",
-   "news": []
+   "news": [],
+   "beta": 1.38
   },
   {
    "ticker": "ICOP",
@@ -7458,7 +7508,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T20:12:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/idex-iex-extends-dividend-record-201200231.html"
     }
-   ]
+   ],
+   "beta": 0.95
   },
   {
    "ticker": "INTC",
@@ -7626,7 +7677,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T22:01:00+00:00",
      "url": "https://www.barrons.com/articles/intel-marvell-dell-nvidia-huang-stock-564d5753?siteid=yhoof2&yptr=yahoo"
     }
-   ]
+   ],
+   "beta": 2.43
   },
   {
    "ticker": "IRM",
@@ -7765,7 +7817,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-18T04:12:06+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-iron-mountain-sees-billion-dollar-growth-in-data-centers-and-it-asset-services-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "beta": 1.2
   },
   {
    "ticker": "IVZ",
@@ -7885,7 +7938,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "IVZ scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (0/2): insider buying and selling roughly balanced ($7.2M net); no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.25 from 15 analysts); their average target is $35.13, 33% above the price; options trading leaned bearish (put/call 3.30).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.65
   },
   {
    "ticker": "JBL",
@@ -8015,7 +8069,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "JBL scores 0/10 \u2014 Weak.\nValue (0/2): P/E 23.2 is above its usual 16.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 32; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): insider buying and selling roughly balanced ($0.3M net); big funds sold $109.9M last quarter.\nSentiment (0/2): no analyst rating available; options trading leaned bearish (put/call 1.66).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 21.3% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 1.34
   },
   {
    "ticker": "JCI",
@@ -8137,7 +8192,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "JCI scores 1/10 \u2014 Weak.\nValue (0/2): P/E 27.6 is above its usual 23.1 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 21; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (0/2): insider buying and selling roughly balanced ($0.6M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.04 from 21 analysts); their average target is $174.43, 34% above the price; options trading leaned bullish (put/call 0.46).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.1% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 1.29
   },
   {
    "ticker": "JPM",
@@ -8291,7 +8347,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T14:26:00+00:00",
      "url": "https://www.cryptoprowl.com/releases/jpmorgan-and-hsbc-complete-first-digital-gold-trade-8041"
     }
-   ]
+   ],
+   "beta": 1.02
   },
   {
    "ticker": "KEY",
@@ -8415,7 +8472,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-18T15:14:00+00:00",
      "url": "https://finance.yahoo.com/real-estate/articles/keycorp-key-mmg-stake-means-151400759.html"
     }
-   ]
+   ],
+   "beta": 1.07
   },
   {
    "ticker": "KEYS",
@@ -8555,7 +8613,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T14:16:00+00:00",
      "url": "https://finance.yahoo.com/technology/ai/articles/keys-q4-earnings-surpass-expectations-141600356.html"
     }
-   ]
+   ],
+   "beta": 1.21
   },
   {
    "ticker": "KLAC",
@@ -8686,7 +8745,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T18:30:28+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-kla-klac-stock-today-183028209.html"
     }
-   ]
+   ],
+   "beta": 1.5
   },
   {
    "ticker": "LITE",
@@ -8822,7 +8882,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T14:58:24+00:00",
      "url": "https://247wallst.com/investing/2026/11/24/applied-optoelectronics-climbs-5-on-2-2-billion-hyperscaler-supply-deal-lumentum-and-coherent-drop-6/"
     }
-   ]
+   ],
+   "beta": 1.65
   },
   {
    "ticker": "LRCX",
@@ -8985,7 +9046,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T01:19:41+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-stock-record-revenue-011941757.html"
     }
-   ]
+   ],
+   "beta": 2.01
   },
   {
    "ticker": "LYB",
@@ -9108,7 +9170,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "LYB scores 0/10 \u2014 Weak.\nValue (0/2): P/E 13.5 is above its usual 9.7 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 16; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 43).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (2.85 from 18 analysts); their average target is $71.83, 29% above the price; options trading leaned bearish (put/call 1.09).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 0.32
   },
   {
    "ticker": "MCHP",
@@ -9239,7 +9302,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "MCHP scores 3/10 \u2014 Weak.\nValue (0/2): P/E 41.7 is above its usual 32.7 over the last 14 years.\nHealth (1/2): growing fast with strong cash margins (score 70; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 35).\nBacking (0/2): insider buying and selling roughly balanced ($0.3M net); big funds roughly balanced ($10.8M net).\nSentiment (2/2): analysts rate it a Strong Buy on average (1.50 from 25 analysts); their average target is $86.48, 56% above the price; options trading leaned bullish (put/call 0.80).",
-   "news": []
+   "news": [],
+   "beta": 1.85
   },
   {
    "ticker": "MELI",
@@ -9393,7 +9457,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T16:11:18+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-mercadolibre-meli-161118236.html"
     }
-   ]
+   ],
+   "beta": 1.39
   },
   {
    "ticker": "MRVL",
@@ -9532,7 +9597,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T18:11:52+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-moving-nvidia-181152431.html"
     }
-   ]
+   ],
+   "beta": 2.33
   },
   {
    "ticker": "MS",
@@ -9657,7 +9723,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "MS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 13.1 is below its usual 14.2 over the last 14 years.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (1/2): insider buying and selling roughly balanced ($0.5M net); big funds added $164.9M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.31 from 22 analysts); their average target is $211.50, 28% above the price; options trading leaned bullish (put/call 0.65).\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt; big funds added $164.9M last quarter; P/E 13.1 is below its usual 14.2 over the last 14 years, and forward P/E is only 12.1.",
-   "news": []
+   "news": [],
+   "beta": 1.22
   },
   {
    "ticker": "MU",
@@ -9812,7 +9879,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Mixed",
    "score_tip": "MU scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 8.0 is below its usual 12.4 over the last 12 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (2/2): growing fast with strong cash margins (score 401; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (1/2): insiders sold $25.7M of shares in the last 3 months; big funds added $269.2M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.35 from 45 analysts); their average target is $1,561.91, 163% above the price; options trading leaned bearish (put/call 1.03).\n\ud83c\udfaf Potential opportunity \u2014 5 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big funds added $269.2M last quarter; P/E 8 is below its usual 12.4 over the last 12 years, and forward P/E is only 2.8.",
-   "news": []
+   "news": [],
+   "beta": 2.4
   },
   {
    "ticker": "NBIS",
@@ -9955,7 +10023,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "NBIS scores 1/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -360; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): insiders sold $143.8M of shares in the last 3 months; big funds sold $781.2M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.77 from 20 analysts); their average target is $231.60, 185% above the price; options trading leaned bearish (put/call 1.39).\n\ud83e\udea4 Potential trap \u2014 3 warning signs: burning cash (free cash flow is negative) and growth plus profit margins are negative; earnings barely cover interest (1.2\u00d7); insiders sold $143.8M of shares in the last 3 months and big funds sold $781.2M last quarter.\n\ud83d\udcb8 Burning cash \u2014 earnings barely cover interest (1.2\u00d7), and at the current burn rate ($12.42B a year) the $7.43B cash pile lasts about 7 months.\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 34.3% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 1.54
   },
   {
    "ticker": "NEXT",
@@ -10064,7 +10133,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "NEXT scores 1/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.20 from 5 analysts); their average target is $8.80, 53% above the price; options trading leaned bullish (put/call 0.42).\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-275.5% vs what analysts expected); burning cash (free cash flow is negative); losing money at the operating level, so earnings don't cover interest at all (cover -3.8\u00d7).\n\ud83d\udcb8 Burning cash \u2014 losing money at the operating level, so earnings don't cover interest at all, and at the current burn rate ($5.37B a year) the $129.9M cash pile lasts about 1 month.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 101.5% over 3 years, so each share owns a smaller slice of the company.",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.39
   },
   {
    "ticker": "NFLX",
@@ -10211,7 +10281,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T23:00:28+00:00",
      "url": "https://www.investors.com/news/netflix-stock-84-price-target-analysts-buys-radford-seinfeld-lot/?src=A00220&yptr=yahoo"
     }
-   ]
+   ],
+   "beta": 1.61
   },
   {
    "ticker": "NTRS",
@@ -10336,7 +10407,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "NTRS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 12.7 is below its usual 16.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($3.8M net); big funds roughly balanced ($80.0M net).\nSentiment (0/2): analysts rate it a Hold on average (3.00 from 14 analysts); their average target is $180.75, 11% above the price; options trading leaned bearish (put/call 1.13).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.21
   },
   {
    "ticker": "NVDA",
@@ -10499,7 +10571,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T22:43:25+00:00",
      "url": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html"
     }
-   ]
+   ],
+   "beta": 2.25
   },
   {
    "ticker": "NVR",
@@ -10619,7 +10692,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "NVR scores 1/10 \u2014 Weak.\nValue (1/2): P/E 15.1 is below its usual 17.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -1; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.43 from 6 analysts); their average target is $6,229.67, 14% above the price; no usable options data.\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 12.5% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 0.94
   },
   {
    "ticker": "NWS",
@@ -10736,7 +10810,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "NWS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 24.9 is below its usual 42.6 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score 15; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (1.56); the number of analysts covering it isn't reported; no usable options data.",
-   "news": []
+   "news": [],
+   "beta": 1.01
   },
   {
    "ticker": "NWSA",
@@ -10857,7 +10932,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "NWSA scores 3/10 \u2014 Weak.\nValue (1/2): P/E 22.4 is below its usual 43.8 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score 15; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.56 from 9 analysts); their average target is $36.37, 45% above the price; options trading leaned bullish (put/call 0.11).",
-   "news": []
+   "news": [],
+   "beta": 1.01
   },
   {
    "ticker": "OKE",
@@ -10988,7 +11064,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T21:50:02+00:00",
      "url": "https://www.fool.com/earnings/takeaways/2026/11/20/oneok-3-key-takeaways-for-long-term-investors/"
     }
-   ]
+   ],
+   "beta": 0.74
   },
   {
    "ticker": "ON",
@@ -11135,7 +11212,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T17:30:38+00:00",
      "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-3-stocks-3?ref=yahoofinance&tlnk=yf-261123-hfrgrgp9"
     }
-   ]
+   ],
+   "beta": 2.15
   },
   {
    "ticker": "ONDS",
@@ -11275,7 +11353,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T13:07:00+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-precision-strike-mix-hurts-130700296.html"
     }
-   ]
+   ],
+   "beta": 3.08
   },
   {
    "ticker": "ORCL",
@@ -11422,7 +11501,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T20:00:31+00:00",
      "url": "https://www.tikr.com/blog/not-good-oracles-credit-swaps-blow-out-again-a-day-after-huangs-return-lifted-nvidia?ref=yahoofinance&tlnk=yf-261124-vcwxc3ff"
     }
-   ]
+   ],
+   "beta": 1.78
   },
   {
    "ticker": "PFG",
@@ -11543,7 +11623,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "PFG scores 3/10 \u2014 Weak.\nValue (1/2): P/E 11.6 is above its usual 11.6 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 36; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 44).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (3.00 from 12 analysts); their average target is $109.42, 5% above the price; options trading leaned bullish (put/call 0.23).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.6% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 0.89
   },
   {
    "ticker": "PH",
@@ -11675,7 +11756,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "PH scores 3/10 \u2014 Weak.\nValue (0/2): P/E 30.0 is above its usual 19.9 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 30; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (1/2): insider buying and selling roughly balanced ($0.8M net); big funds added $166.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.68 from 24 analysts); their average target is $1,138.10, 31% above the price; options trading leaned bullish (put/call 0.98).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.15
   },
   {
    "ticker": "Q",
@@ -11968,7 +12050,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T22:14:19+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-reddit-rddt-search-221419948.html"
     }
-   ]
+   ],
+   "beta": 2.27
   },
   {
    "ticker": "ROK",
@@ -12112,7 +12195,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T17:02:00+00:00",
      "url": "https://www.manufacturingdive.com/news/how-rockwell-automation-evolving-digital-age-plcs-ai-orchestration/875468/"
     }
-   ]
+   ],
+   "beta": 1.51
   },
   {
    "ticker": "ROST",
@@ -12266,7 +12350,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T20:47:33+00:00",
      "url": "https://www.fool.com/earnings/takeaways/2026/11/20/ross-stores-3-key-takeaways-for-long-term-investors/"
     }
-   ]
+   ],
+   "beta": 0.85
   },
   {
    "ticker": "SKYD",
@@ -12416,7 +12501,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T14:22:19+00:00",
      "url": "https://finance.yahoo.com/media-advertising/articles/skydance-skyd-just-closed-111-142219497.html"
     }
-   ]
+   ],
+   "beta": 1.64
   },
   {
    "ticker": "SLB",
@@ -12539,7 +12625,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "SLB scores 2/10 \u2014 Weak.\nValue (0/2): P/E 22.3 is above its usual 18.6 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($7.2M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.53 from 29 analysts); their average target is $62.21, 36% above the price; options trading leaned bullish (put/call 0.65).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 0.79
   },
   {
    "ticker": "STLD",
@@ -12678,7 +12765,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-18T13:12:32+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-stld-adds-buyback-131232910.html"
     }
-   ]
+   ],
+   "beta": 1.44
   },
   {
    "ticker": "STT",
@@ -12802,7 +12890,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "STT scores 3/10 \u2014 Weak.\nValue (1/2): P/E 12.7 is below its usual 13.7 over the last 15 years.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): insider buying and selling roughly balanced ($4.7M net); big funds sold $117.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (2.00 from 15 analysts); their average target is $192.63, 24% above the price; options trading leaned bullish (put/call 0.82).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 21.9% over 3 years, so each share owns a bigger slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 1.37
   },
   {
    "ticker": "STX",
@@ -12965,7 +13054,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "STX scores 3/10 \u2014 Weak.\nValue (0/2): P/E 24.0 is above its usual 13.2 over the last 14 years.\nHealth (1/2): growing fast with strong cash margins (score 78; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insiders sold $278.2M of shares in the last 3 months; big funds sold $1.08B last quarter.\nSentiment (2/2): analysts rate it a Strong Buy on average (1.42 from 24 analysts); their average target is $1,044.83, 129% above the price; options trading leaned bullish (put/call 0.70).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 10.6% over 3 years, so each share owns a smaller slice of the company.",
-   "news": []
+   "news": [],
+   "beta": 2.2
   },
   {
    "ticker": "SW",
@@ -13104,7 +13194,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T07:13:19+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-smurfit-westrock-stock-071319537.html"
     }
-   ]
+   ],
+   "beta": 0.94
   },
   {
    "ticker": "SYF",
@@ -13227,7 +13318,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-21T01:12:10+00:00",
      "url": "https://www.marketbeat.com/instant-alerts/event-synchrony-financial-puts-lending-discipline-first-sees-walmart-as-growth-opportunity-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "beta": 1.4
   },
   {
    "ticker": "TECH",
@@ -13359,7 +13451,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "TECH scores 2/10 \u2014 Weak.\nValue (0/2): P/E 66.7 is above its usual 46.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 27; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($38.8M net).\nSentiment (0/2): analysts rate it a Hold on average (3.15 from 10 analysts); their average target is $70.50, 3% below the price; options trading leaned bearish (put/call 1.18).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.27
   },
   {
    "ticker": "TEL",
@@ -13489,7 +13582,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-23T17:13:15+00:00",
      "url": "https://finance.yahoo.com/technology/ai/articles/te-connectivity-tel-planning-60-171315091.html"
     }
-   ]
+   ],
+   "beta": 1.15
   },
   {
    "ticker": "TER",
@@ -13628,7 +13722,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Mixed",
    "score_tip": "TER scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 23.5 is below its usual 27.1 over the last 14 years.\nHealth (2/2): growing fast with strong cash margins (score 82; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($4.6M net); big funds sold $370.5M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.56 from 16 analysts); their average target is $415.88, 103% above the price; options trading leaned bearish (put/call 1.00).",
-   "news": []
+   "news": [],
+   "beta": 1.75
   },
   {
    "ticker": "TFC",
@@ -13760,7 +13855,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T17:39:00+00:00",
      "url": "https://www.americanbanker.com/payments/news/inside-truist-s-plan-to-ward-off-merchant-focused-fintechs"
     }
-   ]
+   ],
+   "beta": 0.87
   },
   {
    "ticker": "TPL",
@@ -13890,7 +13986,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T16:27:00+00:00",
      "url": "https://finance.yahoo.com/energy/articles/texas-pacific-lands-3b-eaglerock-162700553.html"
     }
-   ]
+   ],
+   "beta": 0.58
   },
   {
    "ticker": "TRMB",
@@ -14019,7 +14116,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "TRMB scores 1/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score 26; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); big funds roughly balanced ($23.1M net).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.31 from 11 analysts); their average target is $74.18, 47% above the price; options trading leaned bearish (put/call 6.57).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.32
   },
   {
    "ticker": "TT",
@@ -14141,7 +14239,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "TT scores 1/10 \u2014 Weak.\nValue (0/2): P/E 26.8 is above its usual 22.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($23.1M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.81 from 23 analysts); their average target is $516.51, 34% above the price; options trading leaned bearish (put/call 1.38).",
-   "news": []
+   "news": [],
+   "beta": 1.2
   },
   {
    "ticker": "UBER",
@@ -14279,7 +14378,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T16:09:54+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-partnerships-expand-160954199.html"
     }
-   ]
+   ],
+   "beta": 1.31
   },
   {
    "ticker": "UNH",
@@ -14426,7 +14526,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T09:20:45+00:00",
      "url": "https://www.tikr.com/blog/unitedhealth-sues-trumps-medicare-agency-over-star-ratings-stephanie-link-calls-it-number-one-on-sale?ref=yahoofinance&tlnk=yf-261124-v443284m"
     }
-   ]
+   ],
+   "beta": 0.52
   },
   {
    "ticker": "URI",
@@ -14557,7 +14658,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "URI scores 1/10 \u2014 Weak.\nValue (0/2): P/E 21.4 is above its usual 17.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 28; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 46).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($14.8M net).\nSentiment (1/2): analysts rate it a Buy on average (1.77 from 21 analysts); their average target is $1,298.05, 33% above the price; options trading leaned bearish (put/call 2.64).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 1.81
   },
   {
    "ticker": "USB",
@@ -14689,7 +14791,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-19T07:14:34+00:00",
      "url": "https://finance.yahoo.com/real-estate/articles/u-bancorp-usb-signaling-240-071434078.html"
     }
-   ]
+   ],
+   "beta": 1.03
   },
   {
    "ticker": "VRT",
@@ -14812,7 +14915,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_tier": "Weak",
    "score_tip": "VRT scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (2/2): growing fast with strong cash margins (score 84; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 37).\nBacking (0/2): insider buying and selling roughly balanced ($3.9M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 30 analysts); their average target is $334.29, 101% above the price; options trading leaned bearish (put/call 1.34).",
    "is_new": true,
-   "news": []
+   "news": [],
+   "beta": 2.11
   },
   {
    "ticker": "VST",
@@ -14966,7 +15070,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T15:54:55+00:00",
      "url": "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/"
     }
-   ]
+   ],
+   "beta": 1.38
   },
   {
    "ticker": "WFC",
@@ -15105,7 +15210,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-24T18:47:00+00:00",
      "url": "https://www.thestreet.com/retail/wells-fargo-branch-closures"
     }
-   ]
+   ],
+   "beta": 0.92
   },
   {
    "ticker": "WMB",
@@ -15227,7 +15333,8 @@ window.__BOLLINGER_WEEKLY__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "WMB scores 2/10 \u2014 Weak.\nValue (1/2): P/E 25.3 is below its usual 26.0 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score -10; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($0.3M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.40 from 24 analysts); their average target is $85.42, 33% above the price; options trading leaned bearish (put/call 1.40).",
-   "news": []
+   "news": [],
+   "beta": 0.63
   },
   {
    "ticker": "WSM",
@@ -15371,7 +15478,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-20T16:05:00+00:00",
      "url": "https://www.insidertrades.com/education/cracks-in-the-crockery-williams-sonoma-insiders-sell-shares/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
-   ]
+   ],
+   "beta": 1.49
   },
   {
    "ticker": "XYZ",
@@ -15507,7 +15615,8 @@ window.__BOLLINGER_WEEKLY__ = {
      "pubDate": "2026-11-21T18:52:27+00:00",
      "url": "https://www.tikr.com/blog/cathie-wood-dan-loeb-and-7-other-big-funds-bought-block-last-quarter-while-7-sold-whos-right?ref=yahoofinance&tlnk=yf-261121-x49xm4j3"
     }
-   ]
+   ],
+   "beta": 2.56
   }
  ],
  "f13_quarter": "Q3 2026",
