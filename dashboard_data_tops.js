@@ -129,7 +129,15 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Mixed",
    "score_tip": "ACGL scores 5/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 11.1 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 12; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 67).\nBacking (0/2): insider buying and selling roughly balanced ($5.3M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.30 from 19 analysts); their average target is $114.11, 5% above the price; options trading leaned bullish (put/call 0.04).",
-   "news": [],
+   "news": [
+    {
+     "title": "Why Is Arch Capital (ACGL) Up 7.6% Since Last Earnings Report?",
+     "summary": "Arch Capital (ACGL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+     "provider": "Zacks",
+     "pubDate": "2026-11-26T15:30:06+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-arch-capital-acgl-7-153006411.html"
+    }
+   ],
    "beta": 0.19
   },
   {
@@ -399,11 +407,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "AIZ scores 2/10 \u2014 Weak.\nValue (0/2): P/E 14.9 is above its usual 14.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 28; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 73).\nBacking (0/2): insider buying and selling roughly balanced ($2.3M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 6 analysts); their average target is $355.17, 12% above the price; no usable options data.",
    "news": [
     {
-     "title": "All You Need to Know About Assurant (AIZ) Rating Upgrade to Strong Buy",
-     "summary": "Assurant (AIZ) has been upgraded to a Zacks Rank #1 (Strong Buy), reflecting growing optimism about the company's earnings prospects. This\u2026",
+     "title": "3 Stocks to Watch That Announced Dividend Hikes Amid Market Turmoil",
+     "summary": "Three dividend stocks--AIZ, HPE and BSY--announced dividend hikes amid market volatility, offering investors income opportunities and a\u2026",
      "provider": "Zacks",
-     "pubDate": "2026-11-19T16:00:03+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/know-assurant-aiz-rating-upgrade-160003340.html"
+     "pubDate": "2026-11-26T13:15:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-watch-announced-dividend-131500607.html"
     }
    ],
    "beta": 0.51
@@ -534,11 +542,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "AWK scores 3/10 \u2014 Weak.\nValue (1/2): P/E 25.9 is below its usual 26.9 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -26; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 66).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (2.83 from 10 analysts); their average target is $141.40, 5% below the price; options trading leaned bullish (put/call 0.19).",
    "news": [
     {
-     "title": "American Water Works (AWK) Launched A New Monterey Peninsula Groundwater Well",
-     "summary": "American Water Works Company (NYSE:AWK) subsidiary California American Water has commissioned ASR Well 4 on the Monterey Peninsula. The new\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T20:16:34+00:00",
-     "url": "https://finance.yahoo.com/healthcare/articles/american-water-works-awk-launched-201634052.html"
+     "title": "American Water: 3 Key Takeaways for Long-Term Investors",
+     "summary": "A pending merger and $48 billion capital plan through 2035 set the stage for sustained earnings growth in a regulated utility.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-24T23:49:56+00:00",
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/24/american-water-3-key-takeaways-for-long-term-investors/"
     }
    ],
    "beta": 0.55
@@ -801,22 +809,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 0,
    "score_tier": "Weak",
    "score_tip": "BRK-B scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 24; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (0/2): insider buying and selling roughly balanced ($19.7M net); no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.25 from 3 analysts); their average target is $564.67, 1% below the price; only 3 analysts cover it, so the rating counts for less; options trading leaned bearish (put/call 1.31).",
-   "news": [
-    {
-     "title": "Berkshire Hathaway (BRK.A) Looks Fairly Valued As It Raises Yen Debt",
-     "summary": "Why Berkshire Hathaway\u2019s Yen Debt Sale Matters For Shareholders Berkshire Hathaway (BRK.A) has raised \u00a5182,005 million in fresh funding\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-24T21:12:03+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-looks-fairly-211203870.html"
-    },
-    {
-     "title": "The Gates Foundation Trust Sold 2.2 Million Berkshire Shares and Opened a $155 Million Dollar Tree Stake",
-     "summary": "One of the world's biggest endowments trimmed a Berkshire stake it got from Warren Buffett and made a fresh bet on a discount retailer.\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-24T16:53:56+00:00",
-     "url": "https://247wallst.com/investing/2026/11/24/the-gates-foundation-trust-sold-2-2-million-berkshire-shares-and-opened-a-155-million-dollar-tree-stake/"
-    }
-   ],
+   "news": [],
    "beta": 0.57
   },
   {
@@ -942,15 +935,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "CAH scores 3/10 \u2014 Weak.\nValue (0/2): P/E 35.3 is above its usual 26.0 over the last 13 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 66).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.53 from 15 analysts); their average target is $300.80, 10% above the price; options trading leaned bullish (put/call 0.29).",
-   "news": [
-    {
-     "title": "Jim Cramer Says Cardinal Health Is \u201cthe Stock That Is Made for This Moment\u201d",
-     "summary": "A drug distributor earning pennies on every dollar just beat estimates, raised guidance, and caught Jim Cramer's eye. But with the shares\u2026",
-     "provider": "24/7 Wall St.",
-     "pubDate": "2026-11-20T14:47:24+00:00",
-     "url": "https://247wallst.com/investing/2026/11/20/jim-cramer-says-cardinal-health-is-the-stock-that-is-made-for-this-moment/"
-    }
-   ],
+   "news": [],
    "beta": 0.52
   },
   {
@@ -1077,7 +1062,15 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "CB scores 3/10 \u2014 Weak.\nValue (1/2): P/E 13.0 is below its usual 13.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 18; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): insider buying and selling roughly balanced ($10.0M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.48 from 23 analysts); their average target is $375.61, 1% above the price; options trading leaned bullish (put/call 0.93).",
-   "news": [],
+   "news": [
+    {
+     "title": "Chubb (CB) Stock May Be 44% Undervalued After Accounting Lawsuit",
+     "summary": "Chubb has delivered a powerful long term share price run, and that kind of performance naturally raises the question of whether the current\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-24T15:15:58+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/chubb-cb-stock-may-44-151558473.html"
+    }
+   ],
    "beta": 0.29
   },
   {
@@ -1211,6 +1204,13 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
      "provider": "WWD",
      "pubDate": "2026-11-20T18:14:43+00:00",
      "url": "https://wwd.com/beauty-industry-news/hair/church-dwight-acquire-45-bali-treatment-close-to-225-million-1239429573/"
+    },
+    {
+     "title": "Can CHD's TheraBreath Toothpaste Become the Next Growth Engine?",
+     "summary": "Church & Dwight is expanding TheraBreath's growth through innovation, rising market share and repeat purchases, creating new long-term\u2026",
+     "provider": "Zacks",
+     "pubDate": "2026-11-25T15:50:00+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/chds-therabreath-toothpaste-become-next-155000785.html"
     },
     {
      "title": "Church & Dwight (CHD) Stock Sees Modest Fair Value Lift After Analyst Target Increases",
@@ -1348,11 +1348,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "CL scores 2/10 \u2014 Weak.\nValue (0/2): P/E 38.4 is above its usual 27.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 20; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): insider buying and selling roughly balanced ($1.7M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.10 from 20 analysts); their average target is $101.70, 3% above the price; options trading leaned bullish (put/call 0.55).\n\ud83d\udd3a Overvalued \u2014 P/E 38.4 vs its 15y median of 27.4, forward P/E 24.1.",
    "news": [
     {
-     "title": "Learn Why The Bull Case For Colgate Palmolive Stock Could Change Following BofA Top Pick Call",
-     "summary": "Colgate-Palmolive was recently highlighted by BofA Securities as a top pick in US Consumer Staples, citing stronger US market share, margin\u2026",
+     "title": "Why Colgate-Palmolive (CL) Is Getting Fresh Attention Now",
+     "summary": "BofA Securities recently flagged Colgate-Palmolive (CL) as a top pick in US consumer staples for 2027, citing US market share gains, margin\u2026",
      "provider": "Simply Wall St.",
-     "pubDate": "2026-11-24T12:12:20+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-colgate-121220789.html"
+     "pubDate": "2026-11-25T05:10:47+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-colgate-palmolive-cl-getting-051047207.html"
     }
    ],
    "beta": 0.31
@@ -1481,15 +1481,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "COST scores 3/10 \u2014 Weak.\nValue (0/2): P/E 53.1 is above its usual 35.7 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 13; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 72).\nBacking (0/2): insider buying and selling roughly balanced ($4.8M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 37 analysts); their average target is $1,085.35, 2% below the price; options trading leaned bearish (put/call 1.84).\n\ud83d\udd3a Overvalued \u2014 P/E 53.1 vs its 15y median of 35.7, forward P/E 44.0.",
-   "news": [
-    {
-     "title": "Costco gives $30 gift for the holidays, but there's a catch",
-     "summary": "The $30 special dividend has a ticking clock attached.",
-     "provider": "TheStreet",
-     "pubDate": "2026-11-24T21:33:00+00:00",
-     "url": "https://www.thestreet.com/retail/costco-gives-30-gift-for-the-holidays-but-theres-a-catch"
-    }
-   ],
+   "news": [],
    "beta": 0.85
   },
   {
@@ -1740,7 +1732,15 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 0,
    "score_tier": "Mixed",
    "score_tip": "EG scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 9.1 over the last 14 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score -4; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 72).\nBacking (0/2): insider buying and selling roughly balanced ($3.2M net); no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.41 from 16 analysts); their average target is $437.94, 4% above the price; options trading leaned bearish (put/call 4.10).",
-   "news": [],
+   "news": [
+    {
+     "title": "How Reserve Buffer Disclosure At Everest Group Stock Has Changed Its Investment Story",
+     "summary": "Everest Group recently reported a reserve buffer of more than US$850m above actuarial central estimates, maintained disciplined liability\u2026",
+     "provider": "Simply Wall St.",
+     "pubDate": "2026-11-26T09:12:49+00:00",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/buffer-disclosure-everest-group-stock-091249440.html"
+    }
+   ],
    "beta": 0.23
   },
   {
@@ -2282,7 +2282,15 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 2,
    "score_tier": "Weak",
    "score_tip": "ORLY scores 3/10 \u2014 Weak.\nValue (0/2): P/E 28.4 is above its usual 24.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 56).\nBacking (0/2): insider buying and selling roughly balanced ($2.6M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.57 from 27 analysts); their average target is $106.41, 15% above the price; options trading leaned bullish (put/call 0.16).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 12.2% over 3 years, so each share owns a bigger slice of the company.\n\ud83d\udd3a Overvalued \u2014 P/E 28.4 vs its 15y median of 24.5, forward P/E 25.3.",
-   "news": [],
+   "news": [
+    {
+     "title": "O\u2019Reilly\u2019s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here\u2019s Why That\u2019s the Clearest Sign of Its Moat.",
+     "summary": "If you're tired of the AI trade, it's time for a closer look at this auto parts retailer\u2019s booming business.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-26T21:50:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/26/oreilly-sales-professional-mechanics-jumped-last-quarter-why-that-s-the-clearest-sign-of-its-moat/"
+    }
+   ],
    "beta": 0.55
   },
   {
@@ -2409,15 +2417,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "PG scores 2/10 \u2014 Weak.\nValue (0/2): P/E 25.5 is above its usual 24.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 18; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 74).\nBacking (0/2): insiders sold $30.9M of shares in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.12 from 23 analysts); their average target is $175.83, 4% above the price; options trading leaned bullish (put/call 0.61).\n\ud83d\udd3a Overvalued \u2014 P/E 25.5 vs its 15y median of 24.1, forward P/E 22.8.",
-   "news": [
-    {
-     "title": "Procter & Gamble plans supply chain workforce cuts as automation expands",
-     "summary": "The CPG company expects to eliminate as much as 30% of its product-supply headcount by 2030.",
-     "provider": "Supply Chain Dive",
-     "pubDate": "2026-11-24T17:11:00+00:00",
-     "url": "https://www.supplychaindive.com/news/procter-gamble-plans-supply-chain-workforce-cuts-as-automation-expands/875533/"
-    }
-   ],
+   "news": [],
    "beta": 0.36
   },
   {
@@ -2542,15 +2542,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "STE scores 3/10 \u2014 Weak.\nValue (1/2): P/E 30.3 is below its usual 38.9 over the last 10 years.\nHealth (0/2): growth and cash margins are weak (score 22; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 63).\nBacking (0/2): insider buying and selling roughly balanced ($1.8M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 7 analysts); their average target is $281.14, 10% above the price; no usable options data.",
-   "news": [
-    {
-     "title": "Valuation Fell 10% at Steris (STE). Why Jefferies Upgraded Anyway",
-     "summary": "We just published a list of the Buy Alert: 10 Stocks Analysts Upgraded on Friday and Steris (NYSE:STE) ranked 6th on this list. October\u2019s\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-18T16:12:38+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/valuation-fell-10-steris-ste-161238862.html"
-    }
-   ],
+   "news": [],
    "beta": 0.86
   },
   {
@@ -2830,15 +2822,7 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Mixed",
    "score_tip": "TSCO scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 20.7 is below its usual 23.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 6; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 60).\nBacking (1/2): insider buying and selling roughly balanced ($0.0M net); big funds added $481.8M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.19 from 28 analysts); their average target is $37.39, 3% below the price; options trading leaned bullish (put/call 0.43).",
-   "news": [
-    {
-     "title": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
-     "summary": "Tractor Supply (TSCO) just expanded its delivery reach through a nationwide partnership with Uber, Uber Eats and Postmates, putting nearly\u2026",
-     "provider": "Simply Wall St.",
-     "pubDate": "2026-11-19T18:15:35+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tractor-supply-tsco-expands-delivery-181535994.html"
-    }
-   ],
+   "news": [],
    "beta": 0.48
   },
   {
@@ -2976,11 +2960,11 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_tip": "TSN scores 2/10 \u2014 Weak.\nValue (0/2): P/E 50.9 is above its usual 14.8 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is rising; not oversold yet (RSI 66).\nBacking (0/2): insider buying and selling roughly balanced ($1.0M net); big funds roughly balanced ($27.8M net).\nSentiment (1/2): analysts rate it a Hold on average (2.62 from 11 analysts); their average target is $67.09, 3% above the price; options trading leaned bullish (put/call 0.46).",
    "news": [
     {
-     "title": "Why JPMorgan Downgraded Tyson Foods (TSN)",
-     "summary": "We just published a list of the 10 Stocks Analysts Downgraded On Tuesday and Tyson Foods (NYSE:TSN) ranked 7th on this list. Stocks began\u2026",
-     "provider": "Insider Monkey",
-     "pubDate": "2026-11-19T15:08:06+00:00",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-downgraded-tyson-foods-150806762.html"
+     "title": "Tyson Foods lost $654M on beef as America\u2019s cattle herd hits a 75-year low. How to protect your grocery budget",
+     "summary": "Experts say there\u2019s no quick relief in sight for high beef prices.",
+     "provider": "Moneywise",
+     "pubDate": "2026-11-25T11:45:00+00:00",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/tyson-foods-lost-654m-beef-114500382.html"
     },
     {
      "title": "Why Is Tyson Foods (TSN) Refreshing Its Board With New Independent Leadership?",
@@ -3257,7 +3241,15 @@ window.__BOLLINGER_WEEKLY_TOPS__ = {
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "WMT scores 2/10 \u2014 Weak.\nValue (0/2): P/E 46.4 is above its usual 28.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 64).\nBacking (0/2): insiders sold $26.7M of shares in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 41 analysts); their average target is $135.76, 6% above the price; options trading leaned bearish (put/call 1.46).\n\ud83d\udd3a Overvalued \u2014 P/E 46.4 vs its 15y median of 28.8, forward P/E 39.6.",
-   "news": [],
+   "news": [
+    {
+     "title": "Meta Platforms Just Partnered With Walmart. Here's Why Investors Should Pay Attention",
+     "summary": "Meta landing Walmart as a shopping partner may signal that the tech leader's AI spending could eventually pay off.",
+     "provider": "Motley Fool",
+     "pubDate": "2026-11-26T16:25:02+00:00",
+     "url": "https://www.fool.com/investing/2026/11/26/meta-platforms-just-partnered-with-walmart-here-s-why-investors-should-pay-attention/"
+    }
+   ],
    "beta": 0.53
   },
   {
