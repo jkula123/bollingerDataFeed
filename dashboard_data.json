@@ -292,9 +292,9 @@
    "beta": 0.61,
    "fv_growth": -2.9,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 43.44,
-   "fv_pct": 54.1
+   "fair_pe": 5.0,
+   "fair_value": 25.55,
+   "fv_pct": 162.0
   },
   {
    "ticker": "ALAB",
@@ -1485,9 +1485,9 @@
    "beta": 1.33,
    "fv_growth": -10.4,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 82.3,
-   "fv_pct": 89.4
+   "fair_pe": 5.0,
+   "fair_value": 48.41,
+   "fv_pct": 222.0
   },
   {
    "ticker": "BE",
@@ -2928,9 +2928,9 @@
    "beta": 1.09,
    "fv_growth": -5.5,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 139.32,
-   "fv_pct": 28.2
+   "fair_pe": 5.0,
+   "fair_value": 81.95,
+   "fv_pct": 118.0
   },
   {
    "ticker": "COIN",
@@ -4945,9 +4945,9 @@
    "beta": 1.37,
    "fv_growth": -4.9,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 20.25,
-   "fv_pct": 127.1
+   "fair_pe": 5.0,
+   "fair_value": 11.91,
+   "fv_pct": 286.0
   },
   {
    "ticker": "FFIV",
@@ -5226,9 +5226,9 @@
    "beta": 0.85,
    "fv_growth": -10.4,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 56.3,
-   "fv_pct": -54.1
+   "fair_pe": 5.0,
+   "fair_value": 33.12,
+   "fv_pct": -22.0
   },
   {
    "ticker": "FITB",
@@ -6533,9 +6533,9 @@
    "beta": 0.66,
    "fv_growth": -20.4,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 2.21,
-   "fv_pct": 5262.4
+   "fair_pe": 5.0,
+   "fair_value": 1.3,
+   "fv_pct": 9016.0
   },
   {
    "ticker": "GS",
@@ -8021,9 +8021,9 @@
    "beta": 1.2,
    "fv_growth": -1.7,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 13.01,
-   "fv_pct": 685.9
+   "fair_pe": 5.1,
+   "fair_value": 7.8,
+   "fv_pct": 1209.8
   },
   {
    "ticker": "IVZ",
@@ -9539,9 +9539,9 @@
    "beta": 1.85,
    "fv_growth": -11.5,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 11.3,
-   "fv_pct": 390.6
+   "fair_pe": 5.0,
+   "fair_value": 6.65,
+   "fv_pct": 734.0
   },
   {
    "ticker": "MELI",
@@ -11539,9 +11539,9 @@
    "beta": 2.15,
    "fv_growth": -4.9,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 14.53,
-   "fv_pct": 318.8
+   "fair_pe": 5.0,
+   "fair_value": 8.54,
+   "fv_pct": 612.0
   },
   {
    "ticker": "ONDS",
