@@ -29,22 +29,22 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
   {
    "ticker": "000001.SZ",
    "status": "near",
-   "latest": 12.22,
+   "latest": 12.23,
    "month_of": "2026-11",
    "mid": 11.38,
    "upper": 12.39,
-   "dist_to_upper_pct": -1.4,
+   "dist_to_upper_pct": -1.3,
    "months_touching": 0,
    "rsi": 50.9,
    "rsi_prev": 50.4,
    "rsi_dir": "flat",
    "overbought": false,
    "vol_ratio": 1.05,
-   "market_cap": 236946259968,
+   "market_cap": 237334364160,
    "pe": 5.7,
    "forward_pe": 5.5,
    "forward_pe_2y": 5.3,
-   "ps": 2.57,
+   "ps": 2.58,
    "revenue_growth": 1.0,
    "cash": 1221305958400,
    "debt": 620749979648,
@@ -80,7 +80,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     11.81,
     12.07,
     12.22,
-    12.22
+    12.23
    ],
    "earn_surprise": [
     18.5,
@@ -109,32 +109,121 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -34.5,
    "pe_highlight": "green",
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4fdd\u9669(\u96c6\u56e2)\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u96c6\u56e2\u672c\u7ea7-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 49.57,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 6.23,
+     "change_shares": 472251894,
+     "change_pct": 64.1,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 6.11,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 2.27,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6df1\u5733\u5e02\u6069\u60c5\u6295\u8d44\u53d1\u5c55\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 0.6,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u745e\u4f17\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.45,
+     "change_shares": -451500,
+     "change_pct": -0.5,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2\u52a8\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.39,
+     "change_shares": -7636100,
+     "change_pct": -9.2,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u6df1\u5733\u5e02\u535a\u777f\u8d22\u667a\u63a7\u80a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.38,
+     "change_shares": -1800000,
+     "change_pct": -2.4,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u745e\u4f17\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u4e07\u80fd\u4ea7\u54c1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.36,
+     "change_shares": -311900,
+     "change_pct": -0.4,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u6df1\u5733\u4e2d\u7535\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 0.32,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 6.23,
+    "change_shares": 472251894,
+    "change_pct": 64.1
+   },
+   "cn_inst_net_value": 5672914779,
    "score": 6,
    "score_v": 1,
    "score_h": 1,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Mixed",
-   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 51).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 3/5).",
-   "score_raw": 3
+   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 51).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a55.67B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 4/7).",
+   "score_raw": 4
   },
   {
    "ticker": "000333.SZ",
    "status": "touch",
-   "latest": 92.8,
+   "latest": 92.99,
    "month_of": "2026-11",
    "mid": 78.45,
    "upper": 88.79,
-   "dist_to_upper_pct": 4.5,
+   "dist_to_upper_pct": 4.7,
    "months_touching": 2,
    "rsi": 61.6,
    "rsi_prev": 54.4,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.78,
-   "market_cap": 708328292352,
-   "pe": 14.8,
+   "market_cap": 709549096960,
+   "pe": 14.6,
    "forward_pe": 14.5,
    "forward_pe_2y": 13.4,
    "ps": 1.54,
@@ -167,7 +256,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "ttm_high": 95.99,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 15.3,
+   "pe_ttm_high": 15.1,
    "spark": [
     86.26,
     84.4,
@@ -180,7 +269,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     89.6,
     90.55,
     94.82,
-    92.82
+    92.99
    ],
    "earn_surprise": [
     -1.5,
@@ -208,37 +297,126 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "near_screaming_sell": false,
    "overvalued_tip": null,
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -9.2,
+   "pe_vs_sector_pct": -10.4,
    "pe_highlight": null,
+   "cn_holders": [
+    {
+     "name": "\u7f8e\u7684\u63a7\u80a1\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 28.78,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 12.69,
+     "change_shares": 62918886,
+     "change_pct": 7.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "HKSCC NOMINEES LIMITED",
+     "type": "\u5176\u5b83",
+     "pct_float": 8.63,
+     "change_shares": -300,
+     "change_pct": -0.0,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 2.74,
+     "change_shares": -570750,
+     "change_pct": -0.3,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 1.88,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 1.5,
+     "change_shares": -903409,
+     "change_pct": -0.8,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.17,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9ec4\u5065",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 1.03,
+     "change_shares": -8317167,
+     "change_pct": -9.7,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-022L-CT001\u6df1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.68,
+     "change_shares": -10055257,
+     "change_pct": -16.4,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 0.62,
+     "change_shares": -5431705,
+     "change_pct": -10.5,
+     "status": "\u51cf\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 12.69,
+    "change_shares": 62918886,
+    "change_pct": 7.0
+   },
+   "cn_inst_net_value": 4273612567,
    "score": 4,
    "score_v": 0,
    "score_h": 1,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Mixed",
-   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 11% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 5 measurable points (raw 2/5).",
-   "score_raw": 2
+   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.27B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
+   "score_raw": 3
   },
   {
    "ticker": "002422.SZ",
    "status": "touch",
-   "latest": 45.84,
+   "latest": 45.05,
    "month_of": "2026-11",
    "mid": 36.17,
    "upper": 43.49,
-   "dist_to_upper_pct": 5.4,
+   "dist_to_upper_pct": 3.6,
    "months_touching": 1,
    "rsi": 59.8,
    "rsi_prev": 61.4,
    "rsi_dir": "down",
    "overbought": false,
    "vol_ratio": 0.88,
-   "market_cap": 72825962496,
-   "pe": 36.9,
-   "forward_pe": 30.5,
-   "forward_pe_2y": 28.3,
-   "ps": 3.97,
+   "market_cap": 71664689152,
+   "pe": 36.3,
+   "forward_pe": 30.0,
+   "forward_pe_2y": 28.0,
+   "ps": 3.91,
    "fcf_yield": 0.3,
    "revenue_growth": 1.9,
    "rule40": 18.1,
@@ -266,7 +444,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "fcf_yoy": -66.5,
    "ttm_high": 52.78,
    "ttm_high_date": "2026-07-01",
-   "vs_ttm_high": -13,
+   "vs_ttm_high": -15,
    "pe_ttm_high": 42.5,
    "spark": [
     39.24,
@@ -280,7 +458,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     45.08,
     42.67,
     40.71,
-    45.7
+    45.05
    ],
    "earn_surprise": [
     -1.8,
@@ -306,39 +484,128 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "overvalued": true,
    "screaming_sell": false,
    "near_screaming_sell": false,
-   "overvalued_tip": "Overvalued \u2014 P/E 36.9 vs its sector median of 27.9, forward P/E 30.5.",
+   "overvalued_tip": "Overvalued \u2014 P/E 36.3 vs its sector median of 27.9, forward P/E 30.0.",
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": 32.3,
+   "pe_vs_sector_pct": 30.1,
    "pe_highlight": "red",
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u5218\u9769\u65b0",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 7.3,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u96c5\u5b89\u5e02\u56fd\u6709\u8d44\u4ea7\u7ecf\u8425\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 7.22,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u6b27\u533b\u7597\u5065\u5eb7\u6df7\u5408\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 4.38,
+     "change_shares": 4512448,
+     "change_pct": 8.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.81,
+     "change_shares": -1387350,
+     "change_pct": -3.7,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e0a\u6d77\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u94f6\u534e\u4e2d\u8bc1\u521b\u65b0\u836f\u4ea7\u4e1a\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 1.33,
+     "change_shares": -996302,
+     "change_pct": -5.4,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5de5\u94f6\u745e\u4fe1\u524d\u6cbf\u533b\u7597\u80a1\u7968\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 1.23,
+     "change_shares": -1594000,
+     "change_pct": -9.1,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u5218\u4e9a\u5149",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 1.16,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5c39\u51e4\u521a",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 1.11,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u6caa\u6df1300\u533b\u836f\u536b\u751f\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 1.1,
+     "change_shares": -3852700,
+     "change_pct": -21.3,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u56db\u96f6\u4e00\u7ec4\u5408",
+     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
+     "pct_float": 0.98,
+     "change_shares": 12714288,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 2.81,
+    "change_shares": -1387350,
+    "change_pct": -3.7
+   },
+   "cn_inst_net_value": 423307099,
+   "score": 3,
    "score_v": 0,
    "score_h": 1,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "002422.SZ scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 3; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 36.9 vs its sector median of 27.9, forward P/E 30.5.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "002422.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 3; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5423.3M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 36.3 vs its sector median of 27.9, forward P/E 30.0.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "300628.SZ",
    "status": "touch",
-   "latest": 42.03,
+   "latest": 42.83,
    "month_of": "2026-11",
    "mid": 36.41,
    "upper": 41.52,
-   "dist_to_upper_pct": 1.2,
+   "dist_to_upper_pct": 3.2,
    "months_touching": 1,
    "rsi": 48.7,
    "rsi_prev": 52.5,
    "rsi_dir": "down",
    "overbought": false,
    "vol_ratio": 0.63,
-   "market_cap": 53248577536,
-   "pe": 18.3,
-   "forward_pe": 15.7,
-   "forward_pe_2y": 13.9,
-   "ps": 7.84,
+   "market_cap": 54262116352,
+   "pe": 18.6,
+   "forward_pe": 16.0,
+   "forward_pe_2y": 14.2,
+   "ps": 7.99,
    "fcf_yield": 1.5,
    "revenue_growth": 3.4,
    "rule40": 50.3,
@@ -366,7 +633,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "fcf_yoy": 23.7,
    "ttm_high": 43.06,
    "ttm_high_date": "2026-08-01",
-   "vs_ttm_high": -2,
+   "vs_ttm_high": -1,
    "pe_ttm_high": 18.7,
    "spark": [
     39.86,
@@ -380,7 +647,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     39.59,
     37.99,
     40.88,
-    42.03
+    42.83
    ],
    "earn_surprise": [
     -2.2,
@@ -408,37 +675,316 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "near_screaming_sell": false,
    "overvalued_tip": null,
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -45.0,
+   "pe_vs_sector_pct": -44.1,
    "pe_highlight": "green",
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 9.55,
+     "change_shares": 19449977,
+     "change_pct": 39.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u53a6\u95e8\u4ebf\u7f51\u8054\u4fe1\u606f\u6280\u672f\u670d\u52a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 8.15,
+     "change_shares": -1650000,
+     "change_pct": -2.7,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u80e1\u7ee7\u4e39",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 6.75,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u96f6\u4e09\u7ec4\u5408",
+     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
+     "pct_float": 6.06,
+     "change_shares": 2664820,
+     "change_pct": 6.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9648\u5efa\u8363",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 5.66,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5609\u5b9e\u57fa\u91d1-\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u9669-\u5609\u5b9e\u57fa\u91d1\u56fd\u5bff\u80a1\u4efd\u65b0\u4ef7\u503c\u80a1\u7968\u578b\u7ec4\u5408\u5355\u4e00\u8d44\u4ea7\u7ba1\u7406\u8ba1\u5212(\u4f20\u7edf\u9669)",
+     "type": "\u57fa\u91d1\u8d44\u4ea7\u7ba1\u7406\u8ba1\u5212",
+     "pct_float": 1.82,
+     "change_shares": 2700350,
+     "change_pct": 25.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u56fd\u6cf0\u4e2d\u8bc1\u5168\u6307\u901a\u4fe1\u8bbe\u5907\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 1.34,
+     "change_shares": 170201,
+     "change_pct": 1.8,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u5609\u5b9e\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u793e\u4fdd\u57fa\u91d116042\u7ec4\u5408",
+     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
+     "pct_float": 0.83,
+     "change_shares": 6057410,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u521b\u4e1a\u677f\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.77,
+     "change_shares": 5605927,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "\u56fd\u6295\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 0.59,
+     "change_shares": 2500,
+     "change_pct": 0.1,
+     "status": "\u52a0\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 9.55,
+    "change_shares": 19449977,
+    "change_pct": 39.0
+   },
+   "cn_inst_net_value": 1569663179,
+   "score": 3,
    "score_v": 0,
    "score_h": 1,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "300628.SZ scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "300628.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.57B last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
+  },
+  {
+   "ticker": "600018.SS",
+   "status": "near",
+   "latest": 5.9,
+   "month_of": "2026-11",
+   "mid": 5.39,
+   "upper": 6.01,
+   "dist_to_upper_pct": -1.9,
+   "months_touching": 0,
+   "rsi": 57.5,
+   "rsi_prev": 51.9,
+   "rsi_dir": "up",
+   "overbought": false,
+   "vol_ratio": 0.98,
+   "market_cap": 137351610368,
+   "pe": 8.9,
+   "forward_pe": 8.8,
+   "forward_pe_2y": 8.6,
+   "ps": 3.23,
+   "fcf_yield": 2.1,
+   "revenue_growth": 9.9,
+   "rule40": 44.3,
+   "rule40_fcf": 16.6,
+   "ebitda_margin": 34.4,
+   "r40_driver": "margin",
+   "de_raw": 35.5,
+   "debt_to_equity": 0.35,
+   "cash": 42843463680,
+   "debt": 59197198336,
+   "net_cash": -16353734656,
+   "sector": "Industrials",
+   "name": "Shanghai International Port (Group) Co., Ltd.",
+   "analyst_rec": "none",
+   "analyst_count": 4,
+   "analyst_target": 5.85,
+   "beta": 0.03,
+   "logo": "https://assets.parqet.com/logos/symbol/600018.SS",
+   "high_debt": false,
+   "undervalued": true,
+   "name_cn": "\u4e0a\u6e2f\u96c6\u56e2",
+   "ccy": "CNY",
+   "fcf_ttm": 4077420562,
+   "fcf_qoq": -17.5,
+   "fcf_yoy": -33.8,
+   "ttm_high": 6.0,
+   "ttm_high_date": "2026-11-01",
+   "vs_ttm_high": -2,
+   "pe_ttm_high": 9.1,
+   "spark": [
+    5.44,
+    5.31,
+    5.31,
+    5.4,
+    5.45,
+    5.46,
+    5.35,
+    5.8,
+    5.68,
+    5.73,
+    5.95,
+    5.9
+   ],
+   "earn_surprise": [
+    23.5,
+    14.0,
+    25.2
+   ],
+   "int_coverage": 17.7,
+   "shares_3y": 0.2,
+   "margin_trend": null,
+   "month_change_pct": 6.42,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -51.4,
+   "pe_highlight": "green",
+   "cn_holders": [
+    {
+     "name": "\u4e0a\u6d77\u56fd\u6709\u8d44\u672c\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 28.31,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e9a\u5409\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 28.06,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u8fdc\u6d77\u8fd0\u63a7\u80a1\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 15.55,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u4e45\u4e8b(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 6.69,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u57ce\u6295(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 4.19,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u540c\u76db\u6295\u8d44(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 3.12,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.13,
+     "change_shares": 121576534,
+     "change_pct": 86.3,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e0a\u6d77\u56fd\u9645\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.08,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u56fd\u6709\u8d44\u4ea7\u7ecf\u8425\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.74,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5f20\u6839\u751f",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 0.27,
+     "change_shares": -3776900,
+     "change_pct": -5.6,
+     "status": "\u51cf\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 1.13,
+    "change_shares": 121576534,
+    "change_pct": 86.3
+   },
+   "cn_inst_net_value": 717301551,
+   "score": 3,
+   "score_v": 1,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "600018.SS scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5717.3M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2,
+   "is_new": true
   },
   {
    "ticker": "600025.SS",
    "status": "touch",
-   "latest": 11.49,
+   "latest": 11.46,
    "month_of": "2026-11",
    "mid": 9.57,
    "upper": 10.45,
-   "dist_to_upper_pct": 9.9,
+   "dist_to_upper_pct": 9.6,
    "months_touching": 2,
    "rsi": 58.2,
    "rsi_prev": 53.0,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 1.04,
-   "market_cap": 214071263232,
-   "pe": 26.1,
-   "forward_pe": 23.6,
-   "forward_pe_2y": 22.0,
-   "ps": 7.91,
+   "market_cap": 213512339456,
+   "pe": 26.0,
+   "forward_pe": 23.5,
+   "forward_pe_2y": 21.9,
+   "ps": 7.89,
    "fcf_yield": -2.9,
    "revenue_growth": 3.6,
    "rule40": 81.2,
@@ -467,7 +1013,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "fcf_yoy": 26.9,
    "ttm_high": 11.76,
    "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -2,
+   "vs_ttm_high": -3,
    "pe_ttm_high": 26.7,
    "spark": [
     9.83,
@@ -481,7 +1027,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     10.97,
     10.94,
     11.59,
-    11.49
+    11.46
    ],
    "earn_surprise": [
     30.8,
@@ -507,39 +1053,128 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "overvalued": true,
    "screaming_sell": false,
    "near_screaming_sell": false,
-   "overvalued_tip": "Overvalued \u2014 P/E 26.1 vs its sector median of 24.0, forward P/E 23.6.",
+   "overvalued_tip": "Overvalued \u2014 P/E 26.0 vs its sector median of 24.0, forward P/E 23.5.",
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": 8.8,
+   "pe_vs_sector_pct": 8.3,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u56fd\u534e\u80fd\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 48.69,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e91\u5357\u7701\u80fd\u6e90\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 21.94,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e91\u5357\u5408\u548c(\u96c6\u56e2)\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 11.74,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6606\u660e\u4e91\u80fd\u4ea7\u878d\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.86,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6606\u660e\u4e91\u80fd\u4ea7\u4e1a\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.5,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e91\u5357\u878d\u805a\u53d1\u5c55\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 1.1,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5317\u4eac\u8fdc\u901a\u946b\u6d77\u5546\u8d38\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.05,
+     "change_shares": 53499991,
+     "change_pct": 37.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 0.89,
+     "change_shares": 48278289,
+     "change_pct": 41.2,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u5317\u4eac\u5927\u5730\u8fdc\u901a(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.59,
+     "change_shares": -12900000,
+     "change_pct": -10.5,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.53,
+     "change_shares": 7639627,
+     "change_pct": 8.4,
+     "status": "\u52a0\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.53,
+    "change_shares": 7639627,
+    "change_pct": 8.4
+   },
+   "cn_inst_net_value": 640819317,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600025.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.1 vs its sector median of 24.0, forward P/E 23.6.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "600025.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5640.8M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its sector median of 24.0, forward P/E 23.5.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "600674.SS",
    "status": "touch",
-   "latest": 18.41,
+   "latest": 18.4,
    "month_of": "2026-11",
    "mid": 15.4,
    "upper": 17.6,
-   "dist_to_upper_pct": 4.6,
+   "dist_to_upper_pct": 4.5,
    "months_touching": 2,
    "rsi": 60.9,
    "rsi_prev": 55.5,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 1.06,
-   "market_cap": 89741508608,
+   "market_cap": 89692758016,
    "pe": 18.2,
    "forward_pe": 17.0,
    "forward_pe_2y": 15.8,
-   "ps": 54.35,
+   "ps": 54.32,
    "fcf_yield": -2.2,
    "revenue_growth": 3.7,
    "rule40": 58.8,
@@ -582,7 +1217,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     17.74,
     17.83,
     19.14,
-    18.41
+    18.4
    ],
    "earn_surprise": [
     -4.5,
@@ -612,32 +1247,121 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -24.2,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u56db\u5ddd\u7701\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 50.24,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u957f\u6c5f\u7535\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 9.94,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5317\u4eac\u5927\u5730\u8fdc\u901a(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 4.31,
+     "change_shares": 9007300,
+     "change_pct": 4.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.7,
+     "change_shares": 16687006,
+     "change_pct": 14.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u5317\u4eac\u8fdc\u901a\u946b\u6d77\u5546\u8d38\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.46,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56db\u5ddd\u5ddd\u6295\u5ce8\u7709\u94c1\u5408\u91d1(\u96c6\u56e2)\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.81,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u84dd\u7b79\u7cbe\u9009\u6df7\u5408\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.6,
+     "change_shares": 5024900,
+     "change_pct": 20.9,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u6cb3\u5317\u8fdc\u901a\u77ff\u4e1a\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.56,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5e7f\u53d1\u4e2d\u8bc1\u5168\u6307\u7535\u529b\u516c\u7528\u4e8b\u4e1a\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.4,
+     "change_shares": 19544800,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "\u519c\u94f6\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.39,
+     "change_shares": 18881028,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 2.7,
+    "change_shares": 16687006,
+    "change_pct": 14.5
+   },
+   "cn_inst_net_value": 1106534306,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600674.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 5 analysts); their average target is \u00a519.11, 4% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "600674.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.11B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 5 analysts); their average target is \u00a519.11, 4% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "600886.SS",
    "status": "touch",
-   "latest": 16.37,
+   "latest": 16.33,
    "month_of": "2026-11",
    "mid": 14.3,
    "upper": 16.27,
-   "dist_to_upper_pct": 0.6,
+   "dist_to_upper_pct": 0.4,
    "months_touching": 1,
    "rsi": 56.0,
    "rsi_prev": 53.0,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.76,
-   "market_cap": 131033579520,
-   "pe": 19.0,
+   "market_cap": 130713395200,
+   "pe": 19.2,
    "forward_pe": 14.6,
    "forward_pe_2y": 13.5,
    "ps": 2.52,
@@ -670,7 +1394,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "ttm_high": 16.89,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 19.6,
+   "pe_ttm_high": 19.9,
    "spark": [
     14.46,
     14.3,
@@ -683,7 +1407,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     15.81,
     15.65,
     16.82,
-    16.37
+    16.33
    ],
    "earn_surprise": [
     18.5,
@@ -711,33 +1435,122 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "near_screaming_sell": false,
    "overvalued_tip": null,
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -20.8,
+   "pe_vs_sector_pct": -20.0,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u56fd\u5bb6\u5f00\u53d1\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 51.43,
+     "change_shares": 8125700,
+     "change_pct": 0.2,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u957f\u6c5f\u7535\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 14.01,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u957f\u7535\u6295\u8d44\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 3.48,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.61,
+     "change_shares": 7141362,
+     "change_pct": 6.3,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e07\u80fd-\u4e2a\u9669\u4e07\u80fd",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 1.6,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d11\u53f7",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 1.55,
+     "change_shares": 22030500,
+     "change_pct": 23.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 1.19,
+     "change_shares": -23695027,
+     "change_pct": -21.0,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d12\u53f7",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 1.15,
+     "change_shares": 85551869,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "Citibank,National Association",
+     "type": "\u91d1\u878d",
+     "pct_float": 1.09,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e8c\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 0.8,
+     "change_shares": 59940600,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 1.61,
+    "change_shares": 7141362,
+    "change_pct": 6.3
+   },
+   "cn_inst_net_value": 2598021415,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600886.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a516.16, 1% below the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "600886.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a52.60B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a516.16, 1% below the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "600887.SS",
    "status": "touch",
-   "latest": 32.67,
+   "latest": 32.63,
    "month_of": "2026-11",
    "mid": 27.64,
    "upper": 30.71,
-   "dist_to_upper_pct": 6.4,
+   "dist_to_upper_pct": 6.2,
    "months_touching": 1,
    "rsi": 54.6,
    "rsi_prev": 47.2,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.99,
-   "market_cap": 206649524224,
+   "market_cap": 206396522496,
    "pe": 20.8,
    "forward_pe": 15.7,
    "forward_pe_2y": 15.5,
@@ -784,7 +1597,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     31.45,
     31.74,
     33.35,
-    32.67
+    32.63
    ],
    "earn_surprise": [
     -9.6,
@@ -814,36 +1627,125 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -3.7,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 9.92,
+     "change_shares": 89034785,
+     "change_pct": 16.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u547c\u548c\u6d69\u7279\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 8.56,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 3.69,
+     "change_shares": 7801100,
+     "change_pct": 3.5,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6f58\u521a",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 3.57,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u9e3f\u9e44\u5fd7\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u6295\u8d44\u57fa\u91d1\u6709\u9650\u516c\u53f8",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 2.48,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u8d75\u6210\u971e",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 1.47,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-022L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 1.02,
+     "change_shares": 4290200,
+     "change_pct": 7.2,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9648\u53d1\u6811",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 0.96,
+     "change_shares": -2000000,
+     "change_pct": -3.2,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.93,
+     "change_shares": -1130500,
+     "change_pct": -1.9,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 0.89,
+     "change_shares": 1843500,
+     "change_pct": 3.4,
+     "status": "\u52a0\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 9.92,
+    "change_shares": 89034785,
+    "change_pct": 16.6
+   },
+   "cn_inst_net_value": 3323009344,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600887.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.43, 8% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "600887.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a53.32B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.43, 9% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "600900.SS",
    "status": "touch",
-   "latest": 31.32,
+   "latest": 31.22,
    "month_of": "2026-11",
    "mid": 28.03,
    "upper": 30.45,
-   "dist_to_upper_pct": 2.9,
+   "dist_to_upper_pct": 2.5,
    "months_touching": 1,
    "rsi": 58.7,
    "rsi_prev": 54.5,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 1.04,
-   "market_cap": 766833983488,
-   "pe": 23.7,
-   "forward_pe": 21.1,
-   "forward_pe_2y": 20.4,
-   "ps": 9.17,
-   "fcf_yield": 2.9,
+   "market_cap": 763897774080,
+   "pe": 23.1,
+   "forward_pe": 21.0,
+   "forward_pe_2y": 20.3,
+   "ps": 9.14,
+   "fcf_yield": 3.0,
    "revenue_growth": -13.5,
    "rule40": 62.0,
    "rule40_fcf": 13.5,
@@ -872,7 +1774,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "ttm_high": 32.25,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 24.4,
+   "pe_ttm_high": 23.9,
    "spark": [
     28.45,
     28.27,
@@ -885,7 +1787,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     29.91,
     29.91,
     31.62,
-    31.33
+    31.22
    ],
    "earn_surprise": [
     -10.7,
@@ -913,17 +1815,106 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "near_screaming_sell": false,
    "overvalued_tip": null,
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -1.3,
+   "pe_vs_sector_pct": -3.7,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u56fd\u957f\u6c5f\u4e09\u5ce1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 43.46,
+     "change_shares": -3173939,
+     "change_pct": -0.0,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 4.9,
+     "change_shares": 69241590,
+     "change_pct": 6.1,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 4.04,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u957f\u6c5f\u751f\u6001\u73af\u4fdd\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 4.0,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56db\u5ddd\u7701\u80fd\u6e90\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 3.75,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4e09\u5ce1\u5efa\u5de5(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.6,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e91\u5357\u7701\u80fd\u6e90\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 2.28,
+     "change_shares": 1148500,
+     "change_pct": 0.2,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u957f\u6c5f\u4e09\u5ce1\u96c6\u56e2\u5b9e\u4e1a\u53d1\u5c55(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.86,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6606\u660e\u4e91\u80fd\u6c34\u7535\u5f00\u53d1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.63,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 1.5,
+     "change_shares": -50079609,
+     "change_pct": -12.0,
+     "status": "\u51cf\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 4.9,
+    "change_shares": 69241590,
+    "change_pct": 6.1
+   },
+   "cn_inst_net_value": 634093217,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600900.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "600900.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5634.1M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "600919.SS",
@@ -940,7 +1931,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "overbought": true,
    "vol_ratio": 0.79,
    "market_cap": 247008837632,
-   "pe": 7.1,
+   "pe": 7.0,
    "forward_pe": 6.3,
    "forward_pe_2y": 5.7,
    "ps": 3.52,
@@ -966,7 +1957,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "ttm_high": 13.73,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -2,
-   "pe_ttm_high": 7.2,
+   "pe_ttm_high": 7.1,
    "spark": [
     12.57,
     12.17,
@@ -1001,130 +1992,126 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "near_screaming_sell": false,
    "overvalued_tip": null,
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -18.4,
+   "pe_vs_sector_pct": -19.5,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u6c5f\u82cf\u7701\u56fd\u9645\u4fe1\u6258\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u4fe1\u6258\u6295\u8d44\u516c\u53f8",
+     "pct_float": 6.98,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6c5f\u82cf\u51e4\u51f0\u51fa\u7248\u4f20\u5a92\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 6.93,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u534e\u6cf0\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 5.03,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6c5f\u82cf\u5b81\u6caa\u9ad8\u901f\u516c\u8def\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.93,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.93,
+     "change_shares": 145538156,
+     "change_pct": 25.3,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u65e0\u9521\u5e02\u5efa\u8bbe\u53d1\u5c55\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 3.87,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6c5f\u82cf\u7701\u6295\u8d44\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 3.02,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6c5f\u82cf\u7701\u5e7f\u64ad\u7535\u89c6\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.0,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6c5f\u82cf\u7701\u56fd\u91d1\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 2.75,
+     "change_shares": 30227986,
+     "change_pct": 6.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 2.09,
+     "change_shares": -23481243,
+     "change_pct": -5.8,
+     "status": "\u51cf\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 3.93,
+    "change_shares": 145538156,
+    "change_pct": 25.3
+   },
+   "cn_inst_net_value": 2049754741,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600919.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
-  },
-  {
-   "ticker": "600926.SS",
-   "status": "near",
-   "latest": 17.45,
-   "month_of": "2026-11",
-   "mid": 16.04,
-   "upper": 17.81,
-   "dist_to_upper_pct": -2.0,
-   "months_touching": 0,
-   "rsi": 61.0,
-   "rsi_prev": 61.0,
-   "rsi_dir": "flat",
-   "overbought": false,
-   "vol_ratio": 0.82,
-   "market_cap": 126495096832,
-   "pe": 6.5,
-   "forward_pe": 5.8,
-   "forward_pe_2y": 5.0,
-   "ps": 3.54,
-   "revenue_growth": 10.8,
-   "cash": 405485584384,
-   "debt": 509296115712,
-   "net_cash": -103810531328,
-   "sector": "Financial Services",
-   "name": "Bank of Hangzhou Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.73,
-   "analyst_count": 9,
-   "analyst_target": 19.46,
-   "beta": 0.07,
-   "logo": "https://assets.parqet.com/logos/symbol/600926.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u676d\u5dde\u94f6\u884c",
-   "ccy": "CNY",
-   "fcf_ttm": 99662661000,
-   "fcf_qoq": 323.6,
-   "fcf_yoy": 420.0,
-   "ttm_high": 17.95,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -3,
-   "pe_ttm_high": 6.7,
-   "spark": [
-    17.04,
-    16.68,
-    16.77,
-    17.11,
-    17.15,
-    16.83,
-    16.52,
-    17.13,
-    17.09,
-    17.52,
-    17.89,
-    17.44
-   ],
-   "earn_surprise": [
-    4.9,
-    -19.6,
-    -33.3
-   ],
-   "shares_3y": 2.6,
-   "margin_trend": null,
-   "month_change_pct": 0.12,
-   "trap_count": 0,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -25.3,
-   "pe_highlight": "green",
-   "score": 2,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600926.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a519.46, 12% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a52.05B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601009.SS",
    "status": "touch",
-   "latest": 13.0,
+   "latest": 13.05,
    "month_of": "2026-11",
    "mid": 11.24,
    "upper": 12.46,
-   "dist_to_upper_pct": 4.4,
+   "dist_to_upper_pct": 4.8,
    "months_touching": 1,
    "rsi": 61.9,
    "rsi_prev": 59.6,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.93,
-   "market_cap": 160726368256,
+   "market_cap": 161344552960,
    "pe": 7.3,
    "forward_pe": 6.5,
    "forward_pe_2y": 6.2,
-   "ps": 3.8,
+   "ps": 3.81,
    "revenue_growth": -2.5,
    "cash": 591653371904,
    "debt": 805837668352,
@@ -1146,7 +2133,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "fcf_yoy": -101.1,
    "ttm_high": 13.5,
    "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -4,
+   "vs_ttm_high": -3,
    "pe_ttm_high": 7.6,
    "spark": [
     11.94,
@@ -1160,7 +2147,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     12.01,
     12.5,
     13.02,
-    13.01
+    13.05
    ],
    "earn_surprise": [
     11.7,
@@ -1189,35 +2176,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -16.1,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u6cd5\u56fd\u5df4\u9ece\u94f6\u884c(\u542bQFII)",
+     "type": "QFII",
+     "pct_float": 18.4,
+     "change_shares": 31975621,
+     "change_pct": 1.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u6c5f\u82cf\u4ea4\u901a\u63a7\u80a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 15.0,
+     "change_shares": 9991795,
+     "change_pct": 0.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u5357\u4eac\u7d2b\u91d1\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 11.38,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5357\u4eac\u9ad8\u79d1\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 10.0,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u70df\u8349\u603b\u516c\u53f8\u6c5f\u82cf\u7701\u516c\u53f8(\u6c5f\u82cf\u7701\u70df\u8349\u516c\u53f8)",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.81,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5e78\u798f\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 3.29,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u7d2b\u91d1\u4fe1\u6258\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u4fe1\u6258\u6295\u8d44\u516c\u53f8",
+     "pct_float": 2.75,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 2.7,
+     "change_shares": -13141054,
+     "change_pct": -3.8,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.5,
+     "change_shares": 87666058,
+     "change_pct": 39.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e1c\u90e8\u673a\u573a\u96c6\u56e2\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 2.33,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 2.5,
+    "change_shares": 87666058,
+    "change_pct": 39.5
+   },
+   "cn_inst_net_value": 1389833156,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601009.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.39B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601088.SS",
    "status": "near",
-   "latest": 50.91,
+   "latest": 50.86,
    "month_of": "2026-11",
    "mid": 42.71,
    "upper": 51.42,
-   "dist_to_upper_pct": -1.0,
+   "dist_to_upper_pct": -1.1,
    "months_touching": 1,
    "rsi": 64.2,
    "rsi_prev": 59.5,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 1.03,
-   "market_cap": 1103992193024,
+   "market_cap": 1103124627456,
    "pe": 18.4,
    "forward_pe": 17.9,
-   "forward_pe_2y": 17.4,
-   "ps": 3.46,
+   "forward_pe_2y": 17.3,
+   "ps": 3.45,
    "fcf_yield": 6.4,
    "revenue_growth": 10.9,
    "rule40": 42.3,
@@ -1260,7 +2336,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     48.54,
     50.0,
     52.0,
-    50.95
+    50.86
    ],
    "earn_surprise": [
     -14.6,
@@ -1290,35 +2366,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": 39.4,
    "pe_highlight": "red",
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u56fd\u5bb6\u80fd\u6e90\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 69.52,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "HKSCC NOMINEES LIMITED",
+     "type": "\u5176\u5b83",
+     "pct_float": 16.97,
+     "change_shares": 422213,
+     "change_pct": 0.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 2.2,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u65b0\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 1.0,
+     "change_shares": 8467268,
+     "change_pct": 4.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.95,
+     "change_shares": 24224797,
+     "change_pct": 14.8,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 0.8,
+     "change_shares": 44699506,
+     "change_pct": 39.1,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.43,
+     "change_shares": 2094891,
+     "change_pct": 2.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u9e3f\u9e44\u5fd7\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u6295\u8d44\u57fa\u91d1\u6709\u9650\u516c\u53f8",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 0.28,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 0.28,
+     "change_shares": -73000,
+     "change_pct": -0.1,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e8c\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 0.26,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.43,
+    "change_shares": 2094891,
+    "change_pct": 2.5
+   },
+   "cn_inst_net_value": 4038968677,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601088.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 2% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "601088.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.04B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601328.SS",
    "status": "touch",
-   "latest": 9.05,
+   "latest": 9.02,
    "month_of": "2026-11",
    "mid": 7.25,
    "upper": 8.34,
-   "dist_to_upper_pct": 8.5,
+   "dist_to_upper_pct": 8.1,
    "months_touching": 2,
    "rsi": 67.0,
    "rsi_prev": 59.9,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 1.25,
-   "market_cap": 798808604672,
+   "market_cap": 797041360896,
    "pe": 8.4,
    "forward_pe": 8.1,
-   "forward_pe_2y": 8.0,
-   "ps": 3.59,
+   "forward_pe_2y": 7.9,
+   "ps": 3.58,
    "revenue_growth": 8.1,
    "cash": 1834915987456,
    "debt": 1940436025344,
@@ -1354,7 +2519,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     8.3,
     8.58,
     8.98,
-    9.03
+    9.02
    ],
    "earn_surprise": [
     28.0,
@@ -1382,35 +2547,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -3.4,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u9999\u6e2f\u4e0a\u6d77\u6c47\u4e30\u94f6\u884c\u6709\u9650\u516c\u53f8",
+     "type": "QFII",
+     "pct_float": 25.01,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5168\u56fd\u793e\u4f1a\u4fdd\u969c\u57fa\u91d1\u7406\u4e8b\u4f1a",
+     "type": "\u5176\u5b83",
+     "pct_float": 20.41,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 13.68,
+     "change_shares": 2768006,
+     "change_pct": 0.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 3.35,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.32,
+     "change_shares": 545021747,
+     "change_pct": 71.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9996\u90fd\u673a\u573a\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.21,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u6d77\u70df\u6295\u8d44\u7ba1\u7406\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 1.43,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e91\u5357\u5408\u548c(\u96c6\u56e2)\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.32,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e00\u6c7d\u80a1\u6743\u6295\u8d44(\u5929\u6d25)\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 1.17,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 1.14,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 2.32,
+    "change_shares": 545021747,
+    "change_pct": 71.0
+   },
+   "cn_inst_net_value": 4916096158,
+   "score": 3,
    "score_v": 1,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601328.SS scores 2/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.92B last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601398.SS",
    "status": "touch",
-   "latest": 9.12,
+   "latest": 9.1,
    "month_of": "2026-11",
    "mid": 7.57,
    "upper": 8.57,
-   "dist_to_upper_pct": 6.4,
+   "dist_to_upper_pct": 6.1,
    "months_touching": 2,
    "rsi": 70.5,
    "rsi_prev": 66.6,
    "rsi_dir": "up",
    "overbought": true,
    "vol_ratio": 0.95,
-   "market_cap": 3246861058048,
+   "market_cap": 3243297210368,
    "pe": 8.7,
    "forward_pe": 8.5,
    "forward_pe_2y": 8.2,
-   "ps": 4.64,
+   "ps": 4.63,
    "revenue_growth": 9.6,
    "cash": 4193635008512,
    "debt": 6439403257856,
@@ -1446,7 +2700,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     8.44,
     8.85,
     9.4,
-    9.11
+    9.1
    ],
    "earn_surprise": [
     13.8,
@@ -1475,125 +2729,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": 0.0,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 34.79,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u8d22\u653f\u90e8",
+     "type": "\u5176\u5b83",
+     "pct_float": 31.14,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 24.19,
+     "change_shares": 6552184,
+     "change_pct": 0.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u5168\u56fd\u793e\u4f1a\u4fdd\u969c\u57fa\u91d1\u7406\u4e8b\u4f1a",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.46,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 0.68,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.57,
+     "change_shares": 532005447,
+     "change_pct": 35.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.42,
+     "change_shares": -7760755,
+     "change_pct": -0.5,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.28,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 0.11,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d11\u53f7",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 0.08,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.57,
+    "change_shares": 532005447,
+    "change_pct": 35.4
+   },
+   "cn_inst_net_value": 4770626697,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601398.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
-  },
-  {
-   "ticker": "601658.SS",
-   "status": "near",
-   "latest": 5.9,
-   "month_of": "2026-11",
-   "mid": 5.37,
-   "upper": 6.02,
-   "dist_to_upper_pct": -1.9,
-   "months_touching": 0,
-   "rsi": 61.6,
-   "rsi_prev": 57.1,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.86,
-   "market_cap": 707359866880,
-   "pe": 8.3,
-   "forward_pe": 7.8,
-   "forward_pe_2y": 7.8,
-   "ps": 2.19,
-   "revenue_growth": 1.2,
-   "cash": 3337798025216,
-   "debt": 553153003520,
-   "net_cash": 2784645021696,
-   "sector": "Financial Services",
-   "name": "Postal Savings Bank of China Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.8,
-   "analyst_count": 12,
-   "analyst_target": 6.36,
-   "beta": 0.33,
-   "logo": "https://assets.parqet.com/logos/symbol/601658.SS",
-   "high_debt": false,
-   "undervalued": true,
-   "name_cn": "\u90ae\u50a8\u94f6\u884c",
-   "ccy": "CNY",
-   "ttm_high": 6.04,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -2,
-   "pe_ttm_high": 8.5,
-   "spark": [
-    5.46,
-    5.33,
-    5.33,
-    5.46,
-    5.41,
-    5.51,
-    5.48,
-    5.73,
-    5.53,
-    5.69,
-    5.8,
-    5.89
-   ],
-   "earn_surprise": [
-    -14.1,
-    -9.3
-   ],
-   "shares_3y": 19.6,
-   "margin_trend": null,
-   "month_change_pct": 4.95,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 19.6% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -4.6,
-   "pe_highlight": null,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "601658.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): no growth or cash-flow figures reported, so this can't be scored.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a56.36, 8% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 19.6% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 5 measurable points (raw 2/5).",
-   "score_raw": 2,
-   "is_new": true
+   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.77B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601825.SS",
    "status": "near",
-   "latest": 9.58,
+   "latest": 9.57,
    "month_of": "2026-11",
    "mid": 8.74,
    "upper": 9.72,
-   "dist_to_upper_pct": -1.4,
+   "dist_to_upper_pct": -1.5,
    "months_touching": 0,
    "rsi": 55.4,
    "rsi_prev": 52.6,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.97,
-   "market_cap": 92393783296,
+   "market_cap": 92297330688,
    "pe": 7.4,
    "forward_pe": 7.3,
    "forward_pe_2y": 7.0,
-   "ps": 3.93,
+   "ps": 3.92,
    "revenue_growth": -4.4,
    "cash": 206688583680,
    "debt": 307359416320,
@@ -1629,7 +2882,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     9.04,
     9.37,
     9.9,
-    9.58
+    9.57
    ],
    "shares_3y": -0.1,
    "margin_trend": null,
@@ -1653,6 +2906,176 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -14.9,
    "pe_highlight": null,
+   "cn_insider_net": 1847818,
+   "cn_insider_net_shares": 208100,
+   "cn_insider_buys": 10,
+   "cn_insider_sells": 0,
+   "cn_insider_events": [
+    {
+     "name": "\u5f20\u5b8f\u5f6a",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 15000,
+     "avg_price": 9.56,
+     "date": "2026-11-25"
+    },
+    {
+     "name": "\u6c88\u680b",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 17000,
+     "avg_price": 9.7,
+     "date": "2026-11-23"
+    },
+    {
+     "name": "\u6c88\u680b",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 25000,
+     "avg_price": 8.68,
+     "date": "2026-11-05"
+    },
+    {
+     "name": "\u987e\u8d24\u658c",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 34500,
+     "avg_price": 8.75,
+     "date": "2026-11-05"
+    },
+    {
+     "name": "\u6c6a\u660e",
+     "role": "\u8463\u4e8b,\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 30000,
+     "avg_price": 8.67,
+     "date": "2026-11-05"
+    },
+    {
+     "name": "\u5f20\u5b8f\u5f6a",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 20000,
+     "avg_price": 8.69,
+     "date": "2026-11-05"
+    },
+    {
+     "name": "\u5f20\u8dc3\u7ea2",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 20000,
+     "avg_price": 8.66,
+     "date": "2026-11-05"
+    },
+    {
+     "name": "\u5360\u73b2\u7075",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 11000,
+     "avg_price": 8.66,
+     "date": "2026-11-05"
+    },
+    {
+     "name": "\u987e\u8d24\u658c",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 7100,
+     "avg_price": 9.0,
+     "date": "2026-11-04"
+    },
+    {
+     "name": "\u987e\u8d24\u658c",
+     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
+     "direction": "buy",
+     "shares": 28500,
+     "avg_price": 8.93,
+     "date": "2026-11-03"
+    }
+   ],
+   "cn_holders": [
+    {
+     "name": "\u4e0a\u6d77\u56fd\u6709\u8d44\u4ea7\u7ecf\u8425\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 9.5,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5b9d\u5c71\u94a2\u94c1\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 8.48,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8fdc\u6d0b\u6d77\u8fd0\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 8.48,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u4e45\u4e8b(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 7.96,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 5.94,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u56fd\u76db\u96c6\u56e2\u8d44\u4ea7\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 5.1,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6d59\u6c5f\u6caa\u676d\u752c\u9ad8\u901f\u516c\u8def\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 5.07,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 4.4,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u7533\u8fea(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.79,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5efa\u5143\u4fe1\u6258\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u4fe1\u6258\u6295\u8d44\u516c\u53f8",
+     "pct_float": 3.07,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_inst_net_value": 0,
    "score": 0,
    "score_v": 0,
    "score_h": 0,
@@ -1660,7 +3083,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 0/5).",
+   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
    "score_raw": 0
   },
   {
@@ -1677,7 +3100,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.92,
-   "market_cap": 89049530368,
+   "market_cap": 89091915776,
    "pe": 6.8,
    "forward_pe": 6.2,
    "forward_pe_2y": 5.7,
@@ -1717,7 +3140,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     20.18,
     20.64,
     20.9,
-    20.99
+    21.02
    ],
    "earn_surprise": [
     -9.9,
@@ -1745,14 +3168,103 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -21.8,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u6210\u90fd\u4ea4\u5b50\u91d1\u878d\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 20.0,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "HONG LEONG BANK BERHAD",
+     "type": "\u91d1\u878d",
+     "pct_float": 17.78,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6210\u90fd\u4ea7\u4e1a\u8d44\u672c\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 6.41,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 4.9,
+     "change_shares": 7350028,
+     "change_pct": 3.7,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u6210\u90fd\u6b23\u5929\u9890\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 4.41,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e1c\u5434\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 2.69,
+     "change_shares": -8109397,
+     "change_pct": -6.6,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u65b0\u534e\u6587\u8f69\u51fa\u7248\u4f20\u5a92\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.89,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56db\u5ddd\u65b0\u534e\u51fa\u7248\u53d1\u884c\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.44,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e0a\u6d77\u4e1c\u660c\u6295\u8d44\u53d1\u5c55\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 1.14,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2\u52a8\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.99,
+     "change_shares": -4449070,
+     "change_pct": -9.6,
+     "status": "\u51cf\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 4.9,
+    "change_shares": 7350028,
+    "change_pct": 3.7
+   },
+   "cn_inst_net_value": 60978137,
+   "score": 1,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
    "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601838.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
+   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -1844,35 +3356,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -45.4,
    "pe_highlight": "green",
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u56fd\u8fdc\u6d0b\u6d77\u8fd0\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 21.71,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8fdc\u6d0b\u8fd0\u8f93\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 21.71,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "HKSCC Nominees Limited",
+     "type": "\u5176\u5b83",
+     "pct_float": 17.7,
+     "change_shares": -114835,
+     "change_pct": -0.0,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e0a\u6d77\u6c7d\u8f66\u5de5\u4e1a(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 5.27,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.56,
+     "change_shares": 276017206,
+     "change_pct": 102.9,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u56fd\u65b0\u6295\u8d44\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 1.51,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 0.8,
+     "change_shares": 32334740,
+     "change_pct": 35.9,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u62db\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e0a\u8bc1\u7ea2\u5229\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.39,
+     "change_shares": -20907140,
+     "change_pct": -25.8,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669(\u96c6\u56e2)\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-\u6e2f\u80a1\u901a(\u521b\u65b0\u7b56\u7565)",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.34,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5218\u5c11\u9e3e",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 0.3,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 3.56,
+    "change_shares": 276017206,
+    "change_pct": 102.9
+   },
+   "cn_inst_net_value": 5024535209,
    "score": 4,
    "score_v": 1,
    "score_h": 1,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Mixed",
-   "score_tip": "601919.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 30; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.10 from 8 analysts); their average target is \u00a517.96, 3% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 2/5).",
-   "score_raw": 2
+   "score_tip": "601919.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 30; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a55.02B last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.10 from 8 analysts); their average target is \u00a517.96, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
+   "score_raw": 3
   },
   {
    "ticker": "601939.SS",
    "status": "touch",
-   "latest": 12.48,
+   "latest": 12.41,
    "month_of": "2026-11",
    "mid": 9.64,
    "upper": 11.49,
-   "dist_to_upper_pct": 8.6,
+   "dist_to_upper_pct": 8.0,
    "months_touching": 5,
    "rsi": 77.0,
    "rsi_prev": 72.2,
    "rsi_dir": "up",
    "overbought": true,
    "vol_ratio": 0.91,
-   "market_cap": 3264772571136,
-   "pe": 9.4,
-   "forward_pe": 8.9,
-   "forward_pe_2y": 8.7,
-   "ps": 5.07,
+   "market_cap": 3246460764160,
+   "pe": 9.3,
+   "forward_pe": 8.8,
+   "forward_pe_2y": 8.6,
+   "ps": 5.04,
    "revenue_growth": 11.6,
    "cash": 5288192114688,
    "debt": 7236929191936,
@@ -1894,7 +3495,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "fcf_yoy": 70.7,
    "ttm_high": 12.78,
    "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -2,
+   "vs_ttm_high": -3,
    "pe_ttm_high": 9.6,
    "spark": [
     11.02,
@@ -1908,7 +3509,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     11.91,
     12.11,
     12.76,
-    12.47
+    12.41
    ],
    "earn_surprise": [
     5.3,
@@ -1934,35 +3535,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "near_screaming_sell": false,
    "overvalued_tip": null,
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": 8.0,
+   "pe_vs_sector_pct": 6.9,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 57.14,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 34.3,
+     "change_shares": -192960425,
+     "change_pct": -0.2,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u957f\u57ce\u8d44\u4ea7\u7ba1\u7406\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.23,
+     "change_shares": 203536000,
+     "change_pct": 2.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 0.88,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u56fd\u5bb6\u7535\u7f51\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.64,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u76ca\u5609\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 0.34,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.3,
+     "change_shares": 126804444,
+     "change_pct": 20.2,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u957f\u6c5f\u7535\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.26,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.23,
+     "change_shares": 23696520,
+     "change_pct": 4.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.2,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.3,
+    "change_shares": 126804444,
+    "change_pct": 20.2
+   },
+   "cn_inst_net_value": 1867716963,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601939.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "601939.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.87B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601985.SS",
    "status": "touch",
-   "latest": 9.89,
+   "latest": 9.88,
    "month_of": "2026-11",
    "mid": 9.02,
    "upper": 9.67,
-   "dist_to_upper_pct": 2.3,
+   "dist_to_upper_pct": 2.2,
    "months_touching": 2,
    "rsi": 57.7,
    "rsi_prev": 48.0,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.86,
-   "market_cap": 203417550848,
-   "pe": 27.5,
-   "forward_pe": 22.5,
+   "market_cap": 203211866112,
+   "pe": 27.4,
+   "forward_pe": 22.4,
    "forward_pe_2y": 22.2,
    "ps": 2.53,
    "fcf_yield": -24.6,
@@ -1994,7 +3684,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "ttm_high": 10.06,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -2,
-   "pe_ttm_high": 28.0,
+   "pe_ttm_high": 27.9,
    "spark": [
     9.03,
     8.92,
@@ -2033,39 +3723,128 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "overvalued": true,
    "screaming_sell": false,
    "near_screaming_sell": false,
-   "overvalued_tip": "Overvalued \u2014 P/E 27.5 vs its sector median of 24.0, forward P/E 22.5.",
+   "overvalued_tip": "Overvalued \u2014 P/E 27.4 vs its sector median of 24.0, forward P/E 22.4.",
    "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": 14.6,
+   "pe_vs_sector_pct": 14.2,
    "pe_highlight": null,
-   "score": 2,
+   "cn_holders": [
+    {
+     "name": "\u56fd\u65b0\u4ea7\u4e1a\u8d44\u672c\u7ba1\u7406\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 5.26,
+     "change_shares": 23821600,
+     "change_pct": 2.5,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 4.66,
+     "change_shares": -4820400,
+     "change_pct": -0.5,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u6d59\u6c5f\u6d59\u80fd\u7535\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.47,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 1.72,
+     "change_shares": 46502552,
+     "change_pct": 16.7,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-022L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 1.25,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5e7f\u53d1\u4e2d\u8bc1\u5168\u6307\u7535\u529b\u516c\u7528\u4e8b\u4e1a\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.44,
+     "change_shares": 4031300,
+     "change_pct": 5.1,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u6838\u4ea7\u4e1a\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u4e2d\u6838(\u6d59\u6c5f)\u65b0\u5174\u4ea7\u4e1a\u80a1\u6743\u6295\u8d44\u57fa\u91d1(\u6709\u9650\u5408\u4f19)",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 0.4,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u90ed\u5b8f\u4f1f",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 0.32,
+     "change_shares": -1010000,
+     "change_pct": -1.7,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u5317\u4eac\u8bda\u65f8\u6295\u8d44\u6709\u9650\u516c\u53f8-\u8bda\u65f8\u4f4e\u78b3\u7ecf\u6d4e\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u79c1\u52df\u57fa\u91d1",
+     "pct_float": 0.29,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u957f\u6c5f\u4e09\u5ce1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.26,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 1.72,
+    "change_shares": 46502552,
+    "change_pct": 16.7
+   },
+   "cn_inst_net_value": 451648906,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601985.SS scores 2/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.5 vs its sector median of 24.0, forward P/E 22.5.\nChina score scaled to /10 from the 5 measurable points (raw 1/5).",
-   "score_raw": 1
+   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5451.6M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its sector median of 24.0, forward P/E 22.4.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "601988.SS",
    "status": "touch",
-   "latest": 7.35,
+   "latest": 7.33,
    "month_of": "2026-11",
    "mid": 5.81,
    "upper": 6.77,
-   "dist_to_upper_pct": 8.5,
+   "dist_to_upper_pct": 8.2,
    "months_touching": 4,
    "rsi": 74.1,
    "rsi_prev": 70.9,
    "rsi_dir": "up",
    "overbought": true,
    "vol_ratio": 0.99,
-   "market_cap": 2365039050752,
+   "market_cap": 2361816776704,
    "pe": 9.9,
    "forward_pe": 9.2,
    "forward_pe_2y": 9.0,
-   "ps": 4.1,
+   "ps": 4.09,
    "revenue_growth": 1.6,
    "cash": 2717814882304,
    "debt": 9705450635264,
@@ -2128,35 +3907,124 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": 13.8,
    "pe_highlight": null,
-   "score": 0,
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 64.13,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 27.82,
+     "change_shares": 24772577,
+     "change_pct": 0.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 2.7,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.61,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.41,
+     "change_shares": 315977511,
+     "change_pct": 36.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.34,
+     "change_shares": -3042200,
+     "change_pct": -0.3,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "MUFG Bank, Ltd.",
+     "type": "QFII",
+     "pct_float": 0.18,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-005L-FH002\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.07,
+     "change_shares": 32601700,
+     "change_pct": 20.2,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-022L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.06,
+     "change_shares": 172301195,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u6c11\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.06,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.41,
+    "change_shares": 315977511,
+    "change_pct": 36.0
+   },
+   "cn_inst_net_value": 3795754050,
+   "score": 1,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601988.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 2% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 0/5).",
-   "score_raw": 0
+   "score_tip": "601988.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a53.80B last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_raw": 1
   },
   {
    "ticker": "601998.SS",
    "status": "touch",
-   "latest": 9.53,
+   "latest": 9.5,
    "month_of": "2026-11",
    "mid": 7.9,
    "upper": 9.31,
-   "dist_to_upper_pct": 2.4,
+   "dist_to_upper_pct": 2.0,
    "months_touching": 3,
    "rsi": 65.3,
    "rsi_prev": 63.3,
    "rsi_dir": "up",
    "overbought": false,
    "vol_ratio": 0.66,
-   "market_cap": 529741971456,
+   "market_cap": 528629039104,
    "pe": 7.7,
    "forward_pe": 7.4,
-   "forward_pe_2y": 7.1,
-   "ps": 3.43,
+   "forward_pe_2y": 7.0,
+   "ps": 3.42,
    "revenue_growth": -2.1,
    "cash": 1704914059264,
    "debt": 1687749001216,
@@ -2192,7 +4060,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     8.96,
     9.11,
     9.66,
-    9.53
+    9.5
    ],
    "earn_surprise": [
     -10.7,
@@ -2221,34 +4089,123 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -11.5,
    "pe_highlight": null,
+   "cn_holders": [
+    {
+     "name": "\u4e2d\u56fd\u4e2d\u4fe1\u91d1\u878d\u63a7\u80a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 64.75,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 21.3,
+     "change_shares": 825792,
+     "change_pct": 0.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u70df\u8349\u603b\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 4.64,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 2.3,
+     "change_shares": 37782172,
+     "change_pct": 3.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 1.16,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.65,
+     "change_shares": 90269148,
+     "change_pct": 33.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.48,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u91d1\u878d",
+     "pct_float": 0.3,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-005L-FH002\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.19,
+     "change_shares": -2679699,
+     "change_pct": -2.5,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2\u52a8\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.15,
+     "change_shares": -7887580,
+     "change_pct": -8.9,
+     "status": "\u51cf\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.65,
+    "change_shares": 90269148,
+    "change_pct": 33.4
+   },
+   "cn_inst_net_value": 1116098390,
    "score": 4,
    "score_v": 1,
    "score_h": 1,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Mixed",
-   "score_tip": "601998.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no insider figures available; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.23 from 9 analysts); their average target is \u00a59.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 5 measurable points (raw 2/5).",
-   "score_raw": 2
+   "score_tip": "601998.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.12B last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.23 from 9 analysts); their average target is \u00a59.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
+   "score_raw": 3
   }
  ],
  "indices": [
   {
    "name": "Shanghai Composite",
-   "value": 3591.02,
-   "change_pct": 3.28,
-   "week_change_pct": 1.62
+   "value": 3606.49,
+   "change_pct": 3.73,
+   "week_change_pct": 2.06
   },
   {
    "name": "CSI 300",
-   "value": 4037.97,
-   "change_pct": 3.79
+   "value": 4063.06,
+   "change_pct": 4.44
   },
   {
    "name": "Shenzhen Component",
-   "value": 10723.32,
-   "change_pct": 6.34,
-   "week_change_pct": 4.55
+   "value": 10814.02,
+   "change_pct": 7.24,
+   "week_change_pct": 5.44
   }
  ],
  "indices_date": "2026-11-27",
