@@ -2230,9 +2230,9 @@
    "beta": 0.36,
    "fv_growth": -8.2,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 26.57,
-   "fv_pct": 149.4
+   "fair_pe": 5.0,
+   "fair_value": 15.63,
+   "fv_pct": 324.0
   },
   {
    "ticker": "ORLY",
@@ -3084,9 +3084,9 @@
    "beta": 0.37,
    "fv_growth": -11.9,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 10.87,
-   "fv_pct": 498.8
+   "fair_pe": 5.0,
+   "fair_value": 6.4,
+   "fv_pct": 918.0
   },
   {
    "ticker": "VLTO",
