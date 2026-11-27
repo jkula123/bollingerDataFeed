@@ -159,7 +159,120 @@
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": -76.0,
    "pe_highlight": "green",
-   "beta": 0.44
+   "beta": 0.44,
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 0.682
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.032
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 1.32
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.211
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.501
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.323
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.178
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.009
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.314
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 3.714
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 0.682
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 3.032
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 1.32
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 1.211
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.501
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.178
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.323
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.009
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.314
+     }
+    ]
+   }
   },
   {
    "ticker": "APTV",
@@ -289,7 +402,120 @@
    "fair_value": 48.31,
    "fv_pct": -22.7,
    "fv_eps": 5.68,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 16.5
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.898
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.673
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.208
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 2.017
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.919
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 1.098
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.7
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.219
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 20.398
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 16.5
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 3.898
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 1.673
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.208
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 2.017
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 1.098
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.919
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.7
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.219
+     }
+    ]
+   }
   },
   {
    "ticker": "AXON",
@@ -443,7 +669,65 @@
    "fair_value": 177.73,
    "fv_pct": 72.7,
    "fv_eps": 7.11,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2024-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 1.701
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 0.382
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.004
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.378
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 2.083
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 1.701
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.382
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.004
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.378
+     }
+    ]
+   }
   },
   {
    "ticker": "BA",
@@ -734,7 +1018,65 @@
    "fair_value": 169.77,
    "fv_pct": -13.2,
    "fv_eps": 10.42,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 20.085
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 6.832
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.428
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 5.404
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 26.917
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 20.085
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 6.832
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 1.428
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 5.404
+     }
+    ]
+   }
   },
   {
    "ticker": "CPT",
@@ -879,7 +1221,120 @@
    "fair_value": 19.51,
    "fv_pct": 393.5,
    "fv_eps": 2.3,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 0.608
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 0.966
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.079
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.598
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.289
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.289
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.11
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.004
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.395
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 1.574
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 0.608
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 0.966
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.079
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.598
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.289
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.11
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.399
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.004
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.395
+     }
+    ]
+   }
   },
   {
    "ticker": "EXE",
@@ -1018,7 +1473,109 @@
    "fair_value": 73.74,
    "fv_pct": 11.8,
    "fv_eps": 8.68,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 5.991
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 6.198
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 3.341
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 2.857
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 2.282
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.575
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.463
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.819
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 12.189
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 5.991
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 6.198
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 3.341
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 2.857
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.575
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.282
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.463
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.819
+     }
+    ]
+   }
   },
   {
    "ticker": "FIS",
@@ -1157,7 +1714,109 @@
    "fair_value": 49.79,
    "fv_pct": -47.9,
    "fv_eps": 5.86,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2023-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 6.175
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.656
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 2.096
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.56
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.662
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.898
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.157
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.505
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 9.831
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 6.175
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 3.656
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 2.096
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.56
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.898
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.662
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.157
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.505
+     }
+    ]
+   }
   },
   {
    "ticker": "HBAN",
@@ -1289,7 +1948,65 @@
    "fair_value": 23.13,
    "fv_pct": -36.4,
    "fv_eps": 1.54,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 5.443
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 2.688
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.459
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.229
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 8.131
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 5.443
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.688
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.459
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 2.229
+     }
+    ]
+   }
   },
   {
    "ticker": "LII",
@@ -1427,7 +2144,109 @@
    "fair_value": 335.68,
    "fv_pct": 2.1,
    "fv_eps": 21.38,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 3.46
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 1.735
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.681
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.054
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.997
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.057
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.191
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.806
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 5.195
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 3.46
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 1.735
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.681
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.054
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.057
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.997
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.191
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.806
+     }
+    ]
+   }
   },
   {
    "ticker": "MELI",
@@ -1589,7 +2408,65 @@
    "fair_value": 914.77,
    "fv_pct": 48.2,
    "fv_eps": 36.59,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 26.051
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 2.842
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.845
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.997
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 28.893
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 26.051
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.842
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.845
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.997
+     }
+    ]
+   }
   },
   {
    "ticker": "NVR",
@@ -1717,7 +2594,109 @@
    "fair_value": 6629.21,
    "fv_pct": -17.1,
    "fv_eps": 336.51,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 7.954
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 2.388
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.699
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.689
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 1.689
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.073
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.422
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.34
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 10.342
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 7.954
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 2.388
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.699
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.689
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.073
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 1.762
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.422
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.34
+     }
+    ]
+   }
   },
   {
    "ticker": "SKYD",
@@ -1868,7 +2847,120 @@
    "pe_vs_own_pct": null,
    "pe_vs_sector_pct": null,
    "pe_highlight": null,
-   "beta": 1.64
+   "beta": 1.64,
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2021-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 17.744
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 10.842
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 6.398
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.39
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 4.054
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 4.054
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 1.152
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.646
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 4.56
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 28.586
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 17.744
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 10.842
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 6.398
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.39
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 4.054
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 1.152
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 5.206
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.646
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 4.56
+     }
+    ]
+   }
   },
   {
    "ticker": "WY",
@@ -1997,7 +3089,109 @@
    "fair_value": 2.08,
    "fv_pct": 840.5,
    "fv_eps": 0.2444,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 5.88
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 1.025
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.005
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.545
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.475
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.26
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.215
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.26
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 6.905
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 5.88
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 1.025
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.005
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.545
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.475
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.215
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.26
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.26
+     }
+    ]
+   }
   },
   {
    "ticker": "XYL",
@@ -2126,7 +3320,120 @@
    "fair_value": 81.47,
    "fv_pct": 16.9,
    "fv_eps": 5.43,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 5.56
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.475
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.226
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.923
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.326
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 1.181
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.145
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.231
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.95
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 9.035
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 5.56
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 3.475
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.226
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 1.923
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.326
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.145
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 1.181
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.231
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.95
+     }
+    ]
+   }
   }
  ],
  "f13_quarter": "Q3 2026",
