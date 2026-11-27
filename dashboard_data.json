@@ -152,7 +152,12 @@
      "url": "https://www.proactiveinvestors.com/companies/news/1102545/analog-devices-keeps-ubs-target-despite-softer-earnings-guidance-1102545.html"
     }
    ],
-   "beta": 1.26
+   "beta": 1.26,
+   "fv_growth": 24.2,
+   "fv_window": 5,
+   "fair_pe": 24.2,
+   "fair_value": 203.68,
+   "fv_pct": 69.8
   },
   {
    "ticker": "ADM",
@@ -284,7 +289,12 @@
    "score_tier": "Weak",
    "score_tip": "ADM scores 2/10 \u2014 Weak.\nValue (1/2): P/E 13.1 is below its usual 14.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 37).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); big funds roughly balanced ($2.9M net).\nSentiment (1/2): analysts rate it a Hold on average (2.82 from 10 analysts); their average target is $78.50, 17% above the price; options trading leaned bullish (put/call 0.41).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 14.0% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 0.61
+   "beta": 0.61,
+   "fv_growth": -2.9,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 43.44,
+   "fv_pct": 54.1
   },
   {
    "ticker": "ALAB",
@@ -737,7 +747,12 @@
      "url": "https://www.tikr.com/blog/another-record-year-applied-materials-ceo-bets-on-2027-as-chip-stocks-slide?ref=yahoofinance&tlnk=yf-261126-r2g3rcm8"
     }
    ],
-   "beta": 1.67
+   "beta": 1.67,
+   "fv_growth": 22.7,
+   "fv_window": 10,
+   "fair_pe": 22.7,
+   "fair_value": 286.24,
+   "fv_pct": 5.7
   },
   {
    "ticker": "AME",
@@ -860,7 +875,12 @@
    "score_tier": "Weak",
    "score_tip": "AME scores 2/10 \u2014 Weak.\nValue (0/2): P/E 31.4 is above its usual 25.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 36; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.70 from 18 analysts); their average target is $288.83, 30% above the price; options trading leaned bullish (put/call 0.48).",
    "news": [],
-   "beta": 0.97
+   "beta": 0.97,
+   "fv_growth": 10.1,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 106.48,
+   "fv_pct": 109.3
   },
   {
    "ticker": "APH",
@@ -1008,7 +1028,12 @@
      "url": "https://www.tikr.com/blog/48-big-funds-bought-amphenol-last-quarter-while-9-sold-whos-right?ref=yahoofinance&tlnk=yf-261124-747j77gj"
     }
    ],
-   "beta": 1.28
+   "beta": 1.28,
+   "fv_growth": 18.7,
+   "fv_window": 10,
+   "fair_pe": 18.7,
+   "fair_value": 43.03,
+   "fv_pct": 62.0
   },
   {
    "ticker": "ARM",
@@ -1305,7 +1330,12 @@
      "url": "https://www.tikr.com/blog/asml-cant-build-enough-machines-for-2028-is-a-20-china-risk-a-reason-to-sell-or-buy-more?ref=yahoofinance&tlnk=yf-261126-c9rcg432"
     }
    ],
-   "beta": 1.33
+   "beta": 1.33,
+   "fv_growth": 22.6,
+   "fv_window": 10,
+   "fair_pe": 22.6,
+   "fair_value": 917.2,
+   "fv_pct": 38.1
   },
   {
    "ticker": "BA",
@@ -1452,7 +1482,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-stock-aerospace-rivals-facing-121148444.html"
     }
    ],
-   "beta": 1.33
+   "beta": 1.33,
+   "fv_growth": -10.4,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 82.3,
+   "fv_pct": 89.4
   },
   {
    "ticker": "BE",
@@ -1879,7 +1914,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-bkr-down-15-153007111.html"
     }
    ],
-   "beta": 1.06
+   "beta": 1.06,
+   "fv_growth": 66.9,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 72.74,
+   "fv_pct": -38.4
   },
   {
    "ticker": "C",
@@ -2012,7 +2052,12 @@
      "url": "https://finance.yahoo.com/markets/currencies/articles/citigroup-eyes-venezuela-entry-grow-142000834.html"
     }
    ],
-   "beta": 1.15
+   "beta": 1.15,
+   "fv_growth": 2.6,
+   "fv_window": 10,
+   "fair_pe": 13.7,
+   "fair_value": 140.32,
+   "fv_pct": -21.2
   },
   {
    "ticker": "CAT",
@@ -2152,7 +2197,12 @@
      "url": "https://www.fool.com/investing/2026/11/26/caterpillar-s-usd78-billion-backlog-explained/"
     }
    ],
-   "beta": 1.64
+   "beta": 1.64,
+   "fv_growth": 16.2,
+   "fv_window": 10,
+   "fair_pe": 16.2,
+   "fair_value": 413.46,
+   "fv_pct": 23.5
   },
   {
    "ticker": "CEG",
@@ -2441,7 +2491,12 @@
      "url": "https://www.marketbeat.com/instant-alerts/event-citizens-financial-group-targets-450-million-tech-boost-as-private-banking-grows-2026-11-22/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
    ],
-   "beta": 1.09
+   "beta": 1.09,
+   "fv_growth": 9.6,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 74.0,
+   "fv_pct": -20.7
   },
   {
    "ticker": "CIEN",
@@ -2573,7 +2628,12 @@
      "url": "https://www.tikr.com/blog/a-10-billion-fund-bought-these-3-stocks-last-quarter?ref=yahoofinance&tlnk=yf-261121-7q42fq47"
     }
    ],
-   "beta": 1.35
+   "beta": 1.35,
+   "fv_growth": 23.9,
+   "fv_window": 10,
+   "fair_pe": 23.9,
+   "fair_value": 106.9,
+   "fv_pct": 119.2
   },
   {
    "ticker": "CMI",
@@ -2696,7 +2756,12 @@
    "score_tier": "Weak",
    "score_tip": "CMI scores 2/10 \u2014 Weak.\nValue (0/2): P/E 16.8 is above its usual 16.0 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 20; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): insider buying and selling roughly balanced ($0.4M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.77 from 19 analysts); their average target is $620.16, 54% above the price; options trading leaned bearish (put/call 3.11).",
    "news": [],
-   "beta": 1.24
+   "beta": 1.24,
+   "fv_growth": 10.1,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 360.37,
+   "fv_pct": 12.0
   },
   {
    "ticker": "COF",
@@ -2860,7 +2925,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-revives-push-card-rate-140900997.html"
     }
    ],
-   "beta": 1.09
+   "beta": 1.09,
+   "fv_growth": -5.5,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 139.32,
+   "fv_pct": 28.2
   },
   {
    "ticker": "COIN",
@@ -3285,7 +3355,12 @@
      "url": "https://www.tikr.com/blog/ken-fisher-and-13-other-big-funds-bought-cisco-last-quarter-while-11-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-h4726jcf"
     }
    ],
-   "beta": 1.0
+   "beta": 1.0,
+   "fv_growth": 4.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 56.41,
+   "fv_pct": 60.7
   },
   {
    "ticker": "DASH",
@@ -3724,7 +3799,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/big-news-nvidia-stock-fans-181400521.html"
     }
    ],
-   "beta": 1.44
+   "beta": 1.44,
+   "fv_growth": 32.3,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 429.04,
+   "fv_pct": -35.2
   },
   {
    "ticker": "DLR",
@@ -3873,7 +3953,12 @@
    "score_tip": "DLR scores 3/10 \u2014 Weak.\nValue (0/2): P/E 68.5 is above its usual 50.5 over the last 15 years.\nHealth (1/2): growing fast with strong cash margins (score 76; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (1/2): insider buying and selling roughly balanced ($0.0M net); big funds added $234.4M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.44 from 32 analysts); their average target is $223.97, 38% above the price; options trading leaned bearish (put/call 1.80).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 16.7% over 3 years, so each share owns a smaller slice of the company.",
    "is_new": true,
    "news": [],
-   "beta": 1.0
+   "beta": 1.0,
+   "fv_growth": 8.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 35.58,
+   "fv_pct": 356.7
   },
   {
    "ticker": "EME",
@@ -4004,7 +4089,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-data-center-151832133.html"
     }
    ],
-   "beta": 1.16
+   "beta": 1.16,
+   "fv_growth": 26.3,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 866.84,
+   "fv_pct": -30.4
   },
   {
    "ticker": "EQIX",
@@ -4161,7 +4251,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-equinix-eqix-141802415.html"
     }
    ],
-   "beta": 0.97
+   "beta": 0.97,
+   "fv_growth": 15.7,
+   "fv_window": 10,
+   "fair_pe": 15.7,
+   "fair_value": 261.19,
+   "fv_pct": 270.7
   },
   {
    "ticker": "ETN",
@@ -4309,7 +4404,12 @@
      "url": "https://www.marketbeat.com/instant-alerts/event-dana-targets-250-million-in-savings-from-eaton-mobility-deal-sees-2027-close-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
    ],
-   "beta": 1.14
+   "beta": 1.14,
+   "fv_growth": 9.5,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 150.16,
+   "fv_pct": 107.3
   },
   {
    "ticker": "EXE",
@@ -4581,7 +4681,12 @@
      "url": "https://www.barrons.com/articles/expedia-booking-stock-muse-ai-test-e4332be1?siteid=yhoof2&yptr=yahoo"
     }
    ],
-   "beta": 1.39
+   "beta": 1.39,
+   "fv_growth": 5.6,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 255.39,
+   "fv_pct": -8.0
   },
   {
    "ticker": "FANG",
@@ -4837,7 +4942,12 @@
    "score_tier": "Weak",
    "score_tip": "FCX scores 2/10 \u2014 Weak.\nValue (0/2): P/E 19.3 is above its usual 13.7 over the last 10 years.\nHealth (0/2): growth and cash margins are weak (score 15; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 30).\nBacking (0/2): insider buying and selling roughly balanced ($6.6M net); big funds roughly balanced ($3.0M net).\nSentiment (2/2): analysts rate it a Buy on average (1.78 from 22 analysts); their average target is $78.22, 70% above the price; options trading leaned bullish (put/call 0.64).",
    "news": [],
-   "beta": 1.37
+   "beta": 1.37,
+   "fv_growth": -4.9,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 20.25,
+   "fv_pct": 127.1
   },
   {
    "ticker": "FFIV",
@@ -4976,7 +5086,12 @@
      "url": "https://www.marketbeat.com/instant-alerts/event-f5-sees-ai-and-software-renewals-driving-growth-after-100-million-in-ai-bookings-2026-11-22/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
    ],
-   "beta": 1.09
+   "beta": 1.09,
+   "fv_growth": 8.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 187.65,
+   "fv_pct": 62.0
   },
   {
    "ticker": "FIS",
@@ -5108,7 +5223,12 @@
    "score_tier": "Mixed",
    "score_tip": "FIS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 3.9 is below its usual 32.0 over the last 13 years.\nHealth (1/2): growing fast with strong cash margins (score 45; strong is over 40); carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): insider buying and selling roughly balanced ($0.1M net); big funds roughly balanced ($32.2M net).\nSentiment (1/2): analysts rate it a Hold on average (2.63 from 23 analysts); their average target is $34.70, 34% above the price; options trading leaned bullish (put/call 0.76).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 13.1% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 0.85
+   "beta": 0.85,
+   "fv_growth": -10.4,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 56.3,
+   "fv_pct": -54.1
   },
   {
    "ticker": "FITB",
@@ -5225,7 +5345,12 @@
    "score_tip": "FITB scores 2/10 \u2014 Weak.\nValue (0/2): P/E 16.6 is above its usual 10.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($1.1M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.55 from 21 analysts); their average target is $61.54, 25% above the price; options trading leaned bullish (put/call 0.20).",
    "is_new": true,
    "news": [],
-   "beta": 0.99
+   "beta": 0.99,
+   "fv_growth": 5.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 44.63,
+   "fv_pct": 10.7
   },
   {
    "ticker": "FSLR",
@@ -5365,7 +5490,12 @@
      "url": "https://www.fool.com/coverage/moneyball/2026/11/24/first-solar-s-2027-outlook-usd13-5-billion-backlog-fueled-by-long-term-infrastructure-demand/"
     }
    ],
-   "beta": 1.71
+   "beta": 1.71,
+   "fv_growth": 9.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 257.98,
+   "fv_pct": -46.7
   },
   {
    "ticker": "GEV",
@@ -5634,7 +5764,12 @@
    "score_tier": "Mixed",
    "score_tip": "GL scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 10.2 is below its usual 12.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): insider buying and selling roughly balanced ($3.9M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (2.00 from 11 analysts); their average target is $185.45, 22% above the price; options trading leaned bullish (put/call 0.62).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 16.6% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 0.46
+   "beta": 0.46,
+   "fv_growth": 13.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 223.01,
+   "fv_pct": -32.0
   },
   {
    "ticker": "GLD",
@@ -5866,7 +6001,12 @@
    "score_tier": "Weak",
    "score_tip": "GLW scores 1/10 \u2014 Weak.\nValue (0/2): P/E 38.2 is above its usual 23.7 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 23; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): insider buying and selling roughly balanced ($3.5M net); big funds sold $443.3M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.47 from 18 analysts); their average target is $171.89, 82% above the price; options trading leaned bearish (put/call 1.06).",
    "news": [],
-   "beta": 1.23
+   "beta": 1.23,
+   "fv_growth": 6.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 37.06,
+   "fv_pct": 154.7
   },
   {
    "ticker": "GOOG",
@@ -6028,7 +6168,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html"
     }
    ],
-   "beta": 1.23
+   "beta": 1.23,
+   "fv_growth": 29.8,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 478.26,
+   "fv_pct": -44.8
   },
   {
    "ticker": "GOOGL",
@@ -6231,7 +6376,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html"
     }
    ],
-   "beta": 1.23
+   "beta": 1.23,
+   "fv_growth": 29.8,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 477.14,
+   "fv_pct": -44.4
   },
   {
    "ticker": "GPC",
@@ -6380,7 +6530,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/genuine-parts-gpc-undervalued-earnings-170735734.html"
     }
    ],
-   "beta": 0.66
+   "beta": 0.66,
+   "fv_growth": -20.4,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 2.21,
+   "fv_pct": 5262.4
   },
   {
    "ticker": "GS",
@@ -6507,7 +6662,12 @@
    "score_tip": "GS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 11.4 is below its usual 11.5 over the last 15 years.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): insider buying and selling roughly balanced ($12.0M net); big funds roughly balanced ($13.9M net).\nSentiment (0/2): analysts rate it a Buy on average (2.46 from 21 analysts); their average target is $1,031.57, 30% above the price; options trading leaned bearish (put/call 1.07).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.3% over 3 years, so each share owns a bigger slice of the company.",
    "is_new": true,
    "news": [],
-   "beta": 1.27
+   "beta": 1.27,
+   "fv_growth": 15.5,
+   "fv_window": 10,
+   "fair_pe": 15.5,
+   "fair_value": 1075.06,
+   "fv_pct": -26.5
   },
   {
    "ticker": "HAL",
@@ -6765,7 +6925,12 @@
    "score_tier": "Mixed",
    "score_tip": "HBAN scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 11.7 is below its usual 13.3 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): insider buying and selling roughly balanced ($0.2M net); big funds roughly balanced ($34.8M net).\nSentiment (2/2): analysts rate it a Buy on average (1.81 from 19 analysts); their average target is $18.82, 32% above the price; options trading leaned bullish (put/call 0.29).",
    "news": [],
-   "beta": 0.98
+   "beta": 0.98,
+   "fv_growth": 5.5,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 18.31,
+   "fv_pct": -22.0
   },
   {
    "ticker": "HOOD",
@@ -6890,7 +7055,12 @@
      "url": "https://www.tikr.com/blog/robinhood-is-down-56-from-its-high-wall-street-still-sees-126?ref=yahoofinance&tlnk=yf-261125-jg5prpv5"
     }
    ],
-   "beta": 2.53
+   "beta": 2.53,
+   "fv_growth": 190.0,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 54.34,
+   "fv_pct": 14.4
   },
   {
    "ticker": "HSIC",
@@ -7021,7 +7191,12 @@
    "score_tip": "HSIC scores 0/10 \u2014 Weak.\nValue (0/2): P/E 22.9 is above its usual 21.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($70.5M net).\nSentiment (0/2): analysts rate it a Buy on average (2.38 from 15 analysts); their average target is $96.87, 16% above the price; no usable options data.\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.6% over 3 years, so each share owns a bigger slice of the company.",
    "is_new": true,
    "news": [],
-   "beta": 0.86
+   "beta": 0.86,
+   "fv_growth": 3.9,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 54.71,
+   "fv_pct": 52.7
   },
   {
    "ticker": "HUBB",
@@ -7144,7 +7319,12 @@
    "score_tier": "Weak",
    "score_tip": "HUBB scores 1/10 \u2014 Weak.\nValue (0/2): P/E 23.7 is above its usual 22.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 13 analysts); their average target is $537.62, 33% above the price; options trading leaned bearish (put/call 2.54).",
    "news": [],
-   "beta": 0.84
+   "beta": 0.84,
+   "fv_growth": 13.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 255.48,
+   "fv_pct": 58.0
   },
   {
    "ticker": "IBKR",
@@ -7287,7 +7467,12 @@
    "score_tier": "Weak",
    "score_tip": "IBKR scores 3/10 \u2014 Weak.\nValue (0/2): P/E 27.2 is above its usual 25.2 over the last 15 years.\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (0/2): insider buying and selling roughly balanced ($2.1M net); big funds sold $169.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.71 from 16 analysts); their average target is $104.04, 46% above the price; options trading leaned bullish (put/call 0.51).",
    "news": [],
-   "beta": 1.38
+   "beta": 1.38,
+   "fv_growth": 27.5,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 65.43,
+   "fv_pct": 8.8
   },
   {
    "ticker": "ICOP",
@@ -7513,7 +7698,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/idex-iex-extends-dividend-record-201200231.html"
     }
    ],
-   "beta": 0.95
+   "beta": 0.95,
+   "fv_growth": 5.9,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 108.02,
+   "fv_pct": 103.3
   },
   {
    "ticker": "INTC",
@@ -7828,7 +8018,12 @@
    "score_tip": "IRM scores 1/10 \u2014 Weak.\nValue (0/2): P/E 66.8 is above its usual 34.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): insider buying and selling roughly balanced ($15.1M net); big funds roughly balanced ($6.9M net).\nSentiment (1/2): analysts rate it a Buy on average (1.67 from 11 analysts); their average target is $138.73, 36% above the price; options trading leaned bearish (put/call 1.19).\n\ud83d\udcb8 Burning cash \u2014 earnings barely cover interest (1.2\u00d7), and at the current burn rate ($632.3M a year) the $188.2M cash pile lasts about 4 months.",
    "is_new": true,
    "news": [],
-   "beta": 1.2
+   "beta": 1.2,
+   "fv_growth": -1.7,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 13.01,
+   "fv_pct": 685.9
   },
   {
    "ticker": "IVZ",
@@ -8088,7 +8283,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/jabil-jbl-signs-india-ai-151308919.html"
     }
    ],
-   "beta": 1.34
+   "beta": 1.34,
+   "fv_growth": 22.1,
+   "fv_window": 10,
+   "fair_pe": 22.1,
+   "fair_value": 215.07,
+   "fv_pct": 5.0
   },
   {
    "ticker": "JCI",
@@ -8211,7 +8411,12 @@
    "score_tier": "Weak",
    "score_tip": "JCI scores 1/10 \u2014 Weak.\nValue (0/2): P/E 27.6 is above its usual 23.1 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 21; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (0/2): insider buying and selling roughly balanced ($0.6M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.04 from 21 analysts); their average target is $174.43, 34% above the price; options trading leaned bullish (put/call 0.46).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.1% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 1.29
+   "beta": 1.29,
+   "fv_growth": 15.6,
+   "fv_window": 5,
+   "fair_pe": 15.6,
+   "fair_value": 73.58,
+   "fv_pct": 76.9
   },
   {
    "ticker": "JPM",
@@ -8359,7 +8564,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-rethinks-uk-investments-higher-140500776.html"
     }
    ],
-   "beta": 1.02
+   "beta": 1.02,
+   "fv_growth": 12.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 358.3,
+   "fv_pct": -13.3
   },
   {
    "ticker": "KEY",
@@ -8476,7 +8686,12 @@
    "score_tip": "KEY scores 3/10 \u2014 Weak.\nValue (1/2): P/E 10.7 is below its usual 12.8 over the last 14 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (0/2): insider buying and selling roughly balanced ($0.8M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (2.00 from 20 analysts); their average target is $25.13, 29% above the price; options trading leaned bullish (put/call 0.13).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 18.7% over 3 years, so each share owns a smaller slice of the company.",
    "is_new": true,
    "news": [],
-   "beta": 1.07
+   "beta": 1.07,
+   "fv_growth": 3.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 27.27,
+   "fv_pct": -28.7
   },
   {
    "ticker": "KEYS",
@@ -8617,7 +8832,12 @@
      "url": "https://finance.yahoo.com/technology/ai/articles/keys-q4-earnings-surpass-expectations-141600356.html"
     }
    ],
-   "beta": 1.21
+   "beta": 1.21,
+   "fv_growth": 5.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 131.19,
+   "fv_pct": 99.3
   },
   {
    "ticker": "KLAC",
@@ -8741,7 +8961,12 @@
    "score_tip": "KLAC scores 2/10 \u2014 Weak.\nValue (0/2): P/E 31.8 is above its usual 20.1 over the last 15 years.\nHealth (1/2): growing fast with strong cash margins (score 48; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (0/2): insider buying and selling roughly balanced ($23.1M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.76 from 26 analysts); their average target is $219.62, 73% above the price; options trading leaned bearish (put/call 1.02).",
    "is_new": true,
    "news": [],
-   "beta": 1.5
+   "beta": 1.5,
+   "fv_growth": 23.3,
+   "fv_window": 10,
+   "fair_pe": 23.3,
+   "fair_value": 92.96,
+   "fv_pct": 36.5
   },
   {
    "ticker": "LITE",
@@ -9042,7 +9267,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-stocks-fall-5-183545721.html"
     }
    ],
-   "beta": 2.01
+   "beta": 2.01,
+   "fv_growth": 27.1,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 167.83,
+   "fv_pct": 9.2
   },
   {
    "ticker": "LYB",
@@ -9306,7 +9536,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/microchip-technology-mchp-could-35-201109158.html"
     }
    ],
-   "beta": 1.85
+   "beta": 1.85,
+   "fv_growth": -11.5,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 11.3,
+   "fv_pct": 390.6
   },
   {
    "ticker": "MELI",
@@ -9461,7 +9696,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-mercadolibre-meli-161118236.html"
     }
    ],
-   "beta": 1.39
+   "beta": 1.39,
+   "fv_growth": 32.3,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 933.2,
+   "fv_pct": 45.2
   },
   {
    "ticker": "MRVL",
@@ -9719,7 +9959,12 @@
    "score_tier": "Weak",
    "score_tip": "MS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 13.1 is below its usual 14.2 over the last 14 years.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (1/2): insider buying and selling roughly balanced ($0.5M net); big funds added $164.9M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.31 from 22 analysts); their average target is $211.50, 28% above the price; options trading leaned bullish (put/call 0.65).\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt; big funds added $164.9M last quarter; P/E 13.1 is below its usual 14.2 over the last 14 years, and forward P/E is only 12.1.",
    "news": [],
-   "beta": 1.22
+   "beta": 1.22,
+   "fv_growth": 13.4,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 189.7,
+   "fv_pct": -12.7
   },
   {
    "ticker": "MU",
@@ -9897,7 +10142,12 @@
      "url": "https://247wallst.com/investing/2026/11/26/sk-hynix-just-revealed-the-next-generation-of-dram-can-it-beat-micron-in-the-next-memory-supercycle/"
     }
    ],
-   "beta": 2.4
+   "beta": 2.4,
+   "fv_growth": 70.6,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 1857.84,
+   "fv_pct": -68.0
   },
   {
    "ticker": "NBIS",
@@ -10321,7 +10571,12 @@
      "url": "https://247wallst.com/investing/2026/11/26/netflix-stock-is-down-36-in-2026-can-its-disney-partnership-make-it-a-buy-again/"
     }
    ],
-   "beta": 1.61
+   "beta": 1.61,
+   "fv_growth": 56.9,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 86.48,
+   "fv_pct": -34.4
   },
   {
    "ticker": "NTRS",
@@ -10447,7 +10702,12 @@
    "score_tip": "NTRS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 12.7 is below its usual 16.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($3.8M net); big funds roughly balanced ($80.0M net).\nSentiment (0/2): analysts rate it a Hold on average (3.00 from 14 analysts); their average target is $180.75, 11% above the price; options trading leaned bearish (put/call 1.13).",
    "is_new": true,
    "news": [],
-   "beta": 1.21
+   "beta": 1.21,
+   "fv_growth": 8.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 191.57,
+   "fv_pct": -15.3
   },
   {
    "ticker": "NVDA",
@@ -10603,7 +10863,12 @@
    "score_tier": "Solid",
    "score_tip": "NVDA scores 7/10 \u2014 Solid.\nValue (1/2): P/E 13.5 is below its usual 43.5 over the last 15 years.\nHealth (2/2): growing fast with strong cash margins (score 131; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (1/2): insiders sold $960.0M of shares in the last 3 months; big funds added $957.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.81 from 56 analysts); their average target is $244.18, 95% above the price; options trading leaned bullish (put/call 0.65).\n\ud83c\udfaf Potential opportunity \u2014 5 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big funds added $957.8M last quarter; P/E 13.5 is below its usual 43.5 over the last 15 years, and forward P/E is only 7.6.",
    "news": [],
-   "beta": 2.25
+   "beta": 2.25,
+   "fv_growth": 68.4,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 232.46,
+   "fv_pct": -46.0
   },
   {
    "ticker": "NVR",
@@ -10724,7 +10989,12 @@
    "score_tier": "Weak",
    "score_tip": "NVR scores 1/10 \u2014 Weak.\nValue (1/2): P/E 15.1 is below its usual 17.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -1; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.43 from 6 analysts); their average target is $6,229.67, 14% above the price; no usable options data.\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 12.5% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 0.94
+   "beta": 0.94,
+   "fv_growth": 17.1,
+   "fv_window": 10,
+   "fair_pe": 17.1,
+   "fair_value": 6192.28,
+   "fv_pct": -11.7
   },
   {
    "ticker": "NWS",
@@ -10842,7 +11112,12 @@
    "score_tier": "Weak",
    "score_tip": "NWS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 24.9 is below its usual 42.6 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score 15; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (0/2): analysts rate it a Buy on average (1.56); the number of analysts covering it isn't reported; no usable options data.",
    "news": [],
-   "beta": 1.01
+   "beta": 1.01,
+   "fv_growth": 13.0,
+   "fv_window": 5,
+   "fair_pe": 15.0,
+   "fair_value": 16.79,
+   "fv_pct": 66.0
   },
   {
    "ticker": "NWSA",
@@ -10964,7 +11239,12 @@
    "score_tier": "Weak",
    "score_tip": "NWSA scores 3/10 \u2014 Weak.\nValue (1/2): P/E 22.4 is below its usual 43.8 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score 15; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.56 from 9 analysts); their average target is $36.37, 45% above the price; options trading leaned bullish (put/call 0.11).",
    "news": [],
-   "beta": 1.01
+   "beta": 1.01,
+   "fv_growth": 13.0,
+   "fv_window": 5,
+   "fair_pe": 15.0,
+   "fair_value": 16.77,
+   "fv_pct": 49.3
   },
   {
    "ticker": "OKE",
@@ -11096,7 +11376,12 @@
      "url": "https://www.fool.com/earnings/takeaways/2026/11/20/oneok-3-key-takeaways-for-long-term-investors/"
     }
    ],
-   "beta": 0.74
+   "beta": 0.74,
+   "fv_growth": 16.7,
+   "fv_window": 10,
+   "fair_pe": 16.7,
+   "fair_value": 107.56,
+   "fv_pct": -21.6
   },
   {
    "ticker": "ON",
@@ -11251,7 +11536,12 @@
      "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-3-stocks-3?ref=yahoofinance&tlnk=yf-261123-hfrgrgp9"
     }
    ],
-   "beta": 2.15
+   "beta": 2.15,
+   "fv_growth": -4.9,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 14.53,
+   "fv_pct": 318.8
   },
   {
    "ticker": "ONDS",
@@ -11554,7 +11844,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html"
     }
    ],
-   "beta": 1.78
+   "beta": 1.78,
+   "fv_growth": 10.9,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 95.46,
+   "fv_pct": 6.0
   },
   {
    "ticker": "PFG",
@@ -11676,7 +11971,12 @@
    "score_tier": "Weak",
    "score_tip": "PFG scores 3/10 \u2014 Weak.\nValue (1/2): P/E 11.6 is above its usual 11.6 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 36; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 44).\nBacking (0/2): no insider trades in the last 3 months; no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (3.00 from 12 analysts); their average target is $109.42, 5% above the price; options trading leaned bullish (put/call 0.23).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 11.6% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 0.89
+   "beta": 0.89,
+   "fv_growth": 2.6,
+   "fv_window": 10,
+   "fair_pe": 13.7,
+   "fair_value": 123.51,
+   "fv_pct": -15.3
   },
   {
    "ticker": "PH",
@@ -11817,7 +12117,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/parker-hannifin-completes-circor-aerospace-141600029.html"
     }
    ],
-   "beta": 1.15
+   "beta": 1.15,
+   "fv_growth": 17.1,
+   "fv_window": 10,
+   "fair_pe": 17.1,
+   "fair_value": 496.96,
+   "fv_pct": 75.4
   },
   {
    "ticker": "Q",
@@ -12249,7 +12554,12 @@
      "url": "https://www.manufacturingdive.com/news/how-rockwell-automation-evolving-digital-age-plcs-ai-orchestration/875468/"
     }
    ],
-   "beta": 1.51
+   "beta": 1.51,
+   "fv_growth": 8.5,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 187.85,
+   "fv_pct": 92.7
   },
   {
    "ticker": "ROST",
@@ -12397,7 +12707,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-ross-stores-rost-stock-170122810.html"
     }
    ],
-   "beta": 0.85
+   "beta": 0.85,
+   "fv_growth": 10.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 129.11,
+   "fv_pct": 65.3
   },
   {
    "ticker": "SKYD",
@@ -12672,7 +12987,12 @@
    "score_tip": "SLB scores 2/10 \u2014 Weak.\nValue (0/2): P/E 22.3 is above its usual 18.6 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($7.2M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.53 from 29 analysts); their average target is $62.21, 36% above the price; options trading leaned bullish (put/call 0.65).",
    "is_new": true,
    "news": [],
-   "beta": 0.79
+   "beta": 0.79,
+   "fv_growth": 3.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 30.87,
+   "fv_pct": 48.7
   },
   {
    "ticker": "STLD",
@@ -12804,7 +13124,12 @@
    "score_tier": "Weak",
    "score_tip": "STLD scores 2/10 \u2014 Weak.\nValue (0/2): P/E 15.2 is above its usual 12.2 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score 37; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 41).\nBacking (0/2): insider buying and selling roughly balanced ($12.4M net); big funds roughly balanced ($36.2M net).\nSentiment (2/2): analysts rate it a Buy on average (2.00 from 14 analysts); their average target is $272.32, 32% above the price; options trading leaned bullish (put/call 0.72).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 19.6% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 1.44
+   "beta": 1.44,
+   "fv_growth": 25.3,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 338.75,
+   "fv_pct": -39.2
   },
   {
    "ticker": "STT",
@@ -12929,7 +13254,12 @@
    "score_tier": "Weak",
    "score_tip": "STT scores 3/10 \u2014 Weak.\nValue (1/2): P/E 12.7 is below its usual 13.7 over the last 15 years.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): insider buying and selling roughly balanced ($4.7M net); big funds sold $117.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (2.00 from 15 analysts); their average target is $192.63, 24% above the price; options trading leaned bullish (put/call 0.82).\n\u2702\ufe0f Buying back shares \u2014 shares outstanding down 21.9% over 3 years, so each share owns a bigger slice of the company.",
    "news": [],
-   "beta": 1.37
+   "beta": 1.37,
+   "fv_growth": 7.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 183.52,
+   "fv_pct": -15.3
   },
   {
    "ticker": "STX",
@@ -13108,7 +13438,12 @@
      "url": "https://www.tikr.com/blog/122-upside-for-seagate-citi-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261126-gh5j3p5x"
     }
    ],
-   "beta": 2.2
+   "beta": 2.2,
+   "fv_growth": 32.7,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 476.05,
+   "fv_pct": -4.0
   },
   {
    "ticker": "SW",
@@ -13372,7 +13707,12 @@
      "url": "https://www.marketbeat.com/instant-alerts/event-synchrony-financial-puts-lending-discipline-first-sees-walmart-as-growth-opportunity-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
    ],
-   "beta": 1.4
+   "beta": 1.4,
+   "fv_growth": 13.4,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 143.15,
+   "fv_pct": -52.7
   },
   {
    "ticker": "TECH",
@@ -13505,7 +13845,12 @@
    "score_tip": "TECH scores 2/10 \u2014 Weak.\nValue (0/2): P/E 66.7 is above its usual 46.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 27; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend has flattened; not oversold yet (RSI 65).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($38.8M net).\nSentiment (0/2): analysts rate it a Hold on average (3.15 from 10 analysts); their average target is $70.50, 3% below the price; options trading leaned bearish (put/call 1.18).",
    "is_new": true,
    "news": [],
-   "beta": 1.27
+   "beta": 1.27,
+   "fv_growth": 5.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 16.34,
+   "fv_pct": 344.7
   },
   {
    "ticker": "TEL",
@@ -13636,7 +13981,12 @@
      "url": "https://finance.yahoo.com/technology/ai/articles/te-connectivity-tel-planning-60-171315091.html"
     }
    ],
-   "beta": 1.15
+   "beta": 1.15,
+   "fv_growth": 7.4,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 165.72,
+   "fv_pct": 20.7
   },
   {
    "ticker": "TER",
@@ -13784,7 +14134,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-teradyne-043633448.html"
     }
    ],
-   "beta": 1.75
+   "beta": 1.75,
+   "fv_growth": 13.6,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 130.7,
+   "fv_pct": 56.7
   },
   {
    "ticker": "TFC",
@@ -13909,7 +14264,12 @@
    "score_tier": "Weak",
    "score_tip": "TFC scores 2/10 \u2014 Weak.\nValue (2/2): P/E 11.8 is below its usual 14.1 over the last 14 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): insider buying and selling roughly balanced ($1.2M net); big funds roughly balanced ($35.9M net).\nSentiment (0/2): analysts rate it a Hold on average (2.64 from 19 analysts); their average target is $53.30, 16% above the price; options trading leaned bearish (put/call 1.70).",
    "news": [],
-   "beta": 0.87
+   "beta": 0.87,
+   "fv_growth": 4.1,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 58.23,
+   "fv_pct": -21.3
   },
   {
    "ticker": "TPL",
@@ -14040,7 +14400,12 @@
      "url": "https://finance.yahoo.com/energy/articles/texas-pacific-lands-3b-eaglerock-162700553.html"
     }
    ],
-   "beta": 0.58
+   "beta": 0.58,
+   "fv_growth": 22.5,
+   "fv_window": 5,
+   "fair_pe": 22.5,
+   "fair_value": 191.64,
+   "fv_pct": 39.6
   },
   {
    "ticker": "TRMB",
@@ -14301,7 +14666,12 @@
      "url": "https://www.fool.com/earnings/takeaways/2026/11/25/trane-3-key-takeaways-for-long-term-investors/"
     }
    ],
-   "beta": 1.2
+   "beta": 1.2,
+   "fv_growth": 21.0,
+   "fv_window": 10,
+   "fair_pe": 21.0,
+   "fair_value": 302.69,
+   "fv_pct": 27.6
   },
   {
    "ticker": "UBER",
@@ -14588,7 +14958,12 @@
      "url": "https://finance.yahoo.com/healthcare/articles/why-unitedhealth-group-unh-focus-221215901.html"
     }
    ],
-   "beta": 0.52
+   "beta": 0.52,
+   "fv_growth": 8.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 262.77,
+   "fv_pct": 29.3
   },
   {
    "ticker": "URI",
@@ -14720,7 +15095,12 @@
    "score_tip": "URI scores 1/10 \u2014 Weak.\nValue (0/2): P/E 21.4 is above its usual 17.5 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 28; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 46).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($14.8M net).\nSentiment (1/2): analysts rate it a Buy on average (1.77 from 21 analysts); their average target is $1,298.05, 33% above the price; options trading leaned bearish (put/call 2.64).",
    "is_new": true,
    "news": [],
-   "beta": 1.81
+   "beta": 1.81,
+   "fv_growth": 20.3,
+   "fv_window": 10,
+   "fair_pe": 20.3,
+   "fair_value": 923.39,
+   "fv_pct": 5.4
   },
   {
    "ticker": "USB",
@@ -14845,7 +15225,12 @@
    "score_tier": "Weak",
    "score_tip": "USB scores 3/10 \u2014 Weak.\nValue (2/2): P/E 10.9 is below its usual 13.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($1.7M net); big funds sold $107.6M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.79 from 22 analysts); their average target is $68.80, 23% above the price; options trading leaned bearish (put/call 1.17).",
    "news": [],
-   "beta": 1.03
+   "beta": 1.03,
+   "fv_growth": 3.9,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 77.13,
+   "fv_pct": -27.3
   },
   {
    "ticker": "VRT",
@@ -15132,7 +15517,12 @@
      "url": "https://www.tikr.com/blog/vistra-has-slumped-for-a-year-why-morgan-stanley-still-sees-82-upside?ref=yahoofinance&tlnk=yf-261125-x7wjx655"
     }
    ],
-   "beta": 1.38
+   "beta": 1.38,
+   "fv_growth": 10.9,
+   "fv_window": 5,
+   "fair_pe": 15.0,
+   "fair_value": 110.82,
+   "fv_pct": 4.0
   },
   {
    "ticker": "WFC",
@@ -15265,7 +15655,12 @@
      "url": "https://www.tikr.com/blog/ken-fisher-and-5-other-big-funds-bought-wells-fargo-last-quarter-while-8-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-vx9mcxcx"
     }
    ],
-   "beta": 0.92
+   "beta": 0.92,
+   "fv_growth": 4.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 106.24,
+   "fv_pct": -26.0
   },
   {
    "ticker": "WMB",
@@ -15388,7 +15783,12 @@
    "score_tier": "Weak",
    "score_tip": "WMB scores 2/10 \u2014 Weak.\nValue (1/2): P/E 25.3 is below its usual 26.0 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score -10; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($0.3M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.40 from 24 analysts); their average target is $85.42, 33% above the price; options trading leaned bearish (put/call 1.40).",
    "news": [],
-   "beta": 0.63
+   "beta": 0.63,
+   "fv_growth": 66.0,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 63.55,
+   "fv_pct": 1.2
   },
   {
    "ticker": "WSM",
@@ -15519,7 +15919,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/why-williams-sonoma-wsm-getting-071233210.html"
     }
    ],
-   "beta": 1.49
+   "beta": 1.49,
+   "fv_growth": 18.0,
+   "fv_window": 10,
+   "fair_pe": 18.0,
+   "fair_value": 183.22,
+   "fv_pct": 15.0
   },
   {
    "ticker": "XYZ",
@@ -15649,7 +16054,12 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/did-lending-fine-just-shift-043720307.html"
     }
    ],
-   "beta": 2.56
+   "beta": 2.56,
+   "fv_growth": 36.7,
+   "fv_window": 5,
+   "fair_pe": 25.0,
+   "fair_value": 18.99,
+   "fv_pct": 266.8
   }
  ],
  "f13_quarter": "Q3 2026",
