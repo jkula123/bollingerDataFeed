@@ -136,7 +136,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://finance.yahoo.com/technology/ai/articles/super-micro-computer-smci-faces-181532913.html"
     }
    ],
-   "fv_growth": 37.1,
+   "fv_growth": 52.5,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 163.06,
@@ -556,7 +556,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/vzs-apple-deals-loyalty-benefits-152600217.html"
     }
    ],
-   "fv_growth": -0.7,
+   "fv_growth": -1.8,
    "fv_window": 10,
    "fair_pe": 8.5,
    "fair_value": 42.97,
@@ -696,11 +696,11 @@ window.__BOLLINGER_WATCHLIST__ = {
    "score_tier": "Weak",
    "score_tip": "ADBE scores 2/10 \u2014 Weak.\nValue (1/2): P/E 13.0 is below its usual 48.2 over the last 15 years.\nHealth (1/2): growing fast with strong cash margins (score 49; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($4.4M net).\nSentiment (0/2): analysts rate it a Hold on average (2.97 from 33 analysts); their average target is $266.91, 15% above the price; options trading leaned bearish (put/call 1.48).",
    "news": [],
-   "fv_growth": 29.7,
+   "fv_growth": 21.7,
    "fv_window": 10,
-   "fair_pe": 25.0,
-   "fair_value": 611.71,
-   "fv_pct": -61.9,
+   "fair_pe": 21.7,
+   "fair_value": 530.96,
+   "fv_pct": -56.1,
    "fv_eps": 24.47,
    "fv_eps_src": "est"
   },
@@ -866,8 +866,8 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html"
     }
    ],
-   "fv_growth": 29.8,
-   "fv_window": 5,
+   "fv_growth": 28.3,
+   "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 327.24,
    "fv_pct": -17.2,
@@ -1030,7 +1030,7 @@ window.__BOLLINGER_WATCHLIST__ = {
    "score_tier": "Solid",
    "score_tip": "NVDA scores 7/10 \u2014 Solid.\nValue (1/2): P/E 16.0 is below its usual 43.5 over the last 15 years.\nHealth (2/2): growing fast with strong cash margins (score 131; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (1/2): insiders sold $964.5M of shares in the last 3 months; big funds added $957.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.67 from 59 analysts); their average target is $242.43, 62% above the price; options trading leaned bullish (put/call 0.39).\n\ud83c\udfaf Potential opportunity \u2014 5 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big funds added $957.8M last quarter; P/E 16 is below its usual 43.5 over the last 15 years, and forward P/E is only 9.",
    "news": [],
-   "fv_growth": 68.4,
+   "fv_growth": 56.8,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 241.81,
@@ -1200,7 +1200,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html"
     }
    ],
-   "fv_growth": 10.9,
+   "fv_growth": 13.2,
    "fv_window": 10,
    "fair_pe": 15.0,
    "fair_value": 122.26,
@@ -1353,14 +1353,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "pubDate": "2026-11-26T12:11:48+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-stock-aerospace-rivals-facing-121148444.html"
     }
-   ],
-   "fv_growth": -10.4,
-   "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 82.27,
-   "fv_pct": 100.0,
-   "fv_eps": 9.68,
-   "fv_eps_src": "gaap"
+   ]
   },
   {
    "ticker": "NFLX",
@@ -1517,7 +1510,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://247wallst.com/investing/2026/11/26/netflix-stock-is-down-36-in-2026-can-its-disney-partnership-make-it-a-buy-again/"
     }
    ],
-   "fv_growth": 56.9,
+   "fv_growth": 49.9,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 89.3,
@@ -1651,11 +1644,11 @@ window.__BOLLINGER_WATCHLIST__ = {
    "score_tier": "Weak",
    "score_tip": "AXP scores 0/10 \u2014 Weak.\nValue (0/2): P/E 17.6 is above its usual 15.9 over the last 14 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (0/2): insiders sold $37.6M of shares in the last 3 months; big funds roughly balanced ($33.2M net).\nSentiment (0/2): analysts rate it a Buy on average (2.21 from 24 analysts); their average target is $364.79, 17% above the price; options trading leaned bearish (put/call 1.20).",
    "news": [],
-   "fv_growth": 32.5,
+   "fv_growth": 12.9,
    "fv_window": 5,
-   "fair_pe": 25.0,
-   "fair_value": 459.78,
-   "fv_pct": -32.1,
+   "fair_pe": 15.0,
+   "fair_value": 275.87,
+   "fv_pct": 13.2,
    "fv_eps": 18.39,
    "fv_eps_src": "est"
   },
@@ -1806,11 +1799,11 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://www.thestreet.com/investing/salesforce-crm-ai-pricing-shift-bank-of-america-bofa"
     }
    ],
-   "fv_growth": 12.2,
-   "fv_window": 5,
-   "fair_pe": 15.0,
-   "fair_value": 251.33,
-   "fv_pct": -21.5,
+   "fv_growth": 34.4,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 418.89,
+   "fv_pct": -52.9,
    "fv_eps": 16.76,
    "fv_eps_src": "est"
   },
@@ -2419,7 +2412,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html"
     }
    ],
-   "fv_growth": 60.7,
+   "fv_growth": 43.1,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 319.96,
@@ -2638,11 +2631,11 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://www.tikr.com/blog/george-soros-and-64-other-big-funds-bought-meta-last-quarter-david-tepper-and-33-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-jj5cfjgh"
     }
    ],
-   "fv_growth": 33.7,
+   "fv_growth": 21.5,
    "fv_window": 10,
-   "fair_pe": 25.0,
-   "fair_value": 725.21,
-   "fv_pct": -15.9,
+   "fair_pe": 21.5,
+   "fair_value": 623.68,
+   "fv_pct": -2.2,
    "fv_eps": 29.01,
    "fv_eps_src": "est"
   },
@@ -3017,7 +3010,7 @@ window.__BOLLINGER_WATCHLIST__ = {
    "score_tier": "Mixed",
    "score_tip": "CELH scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 32.6 is below its usual 126.9 over the last 6 years.\nHealth (1/2): growth and cash margins are weak (score 27; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 44).\nBacking (0/2): insider buying and selling roughly balanced ($1.8M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.72 from 22 analysts); their average target is $41.59, 43% above the price; options trading leaned bullish (put/call 0.36).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 12.3% over 3 years, so each share owns a smaller slice of the company.",
    "news": [],
-   "fv_growth": 46.8,
+   "fv_growth": 94.9,
    "fv_window": 5,
    "fair_pe": 25.0,
    "fair_value": 36.14,
@@ -3181,11 +3174,11 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings"
     }
    ],
-   "fv_growth": 49.7,
-   "fv_window": 5,
-   "fair_pe": 25.0,
-   "fair_value": 291.35,
-   "fv_pct": 3.3,
+   "fv_growth": 22.3,
+   "fv_window": 10,
+   "fair_pe": 22.3,
+   "fair_value": 259.89,
+   "fv_pct": 15.8,
    "fv_eps": 11.65,
    "fv_eps_src": "est"
   },
@@ -3459,11 +3452,11 @@ window.__BOLLINGER_WATCHLIST__ = {
    "score_tier": "Mixed",
    "score_tip": "VEEV scores 6/10 \u2014 Mixed.\nValue (1/2): P/E 44.6 is below its usual 74.2 over the last 13 years.\nHealth (2/2): growing fast with strong cash margins (score 54; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 53).\nBacking (1/2): insider buying and selling roughly balanced ($1.8M net); big funds added $237.5M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.97 from 28 analysts); their average target is $325.51, 20% above the price; options trading leaned bullish (put/call 0.35).\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big funds added $237.5M last quarter.",
    "news": [],
-   "fv_growth": 30.5,
+   "fv_growth": 24.9,
    "fv_window": 10,
-   "fair_pe": 25.0,
-   "fair_value": 230.87,
-   "fv_pct": 17.8,
+   "fair_pe": 24.9,
+   "fair_value": 229.95,
+   "fv_pct": 18.2,
    "fv_eps": 9.23,
    "fv_eps_src": "est"
   },
@@ -3746,7 +3739,7 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://finance.yahoo.com/markets/stocks/articles/nows-subscription-growth-strong-retention-162000952.html"
     }
    ],
-   "fv_growth": 69.9,
+   "fv_growth": 72.5,
    "fv_window": 5,
    "fair_pe": 25.0,
    "fair_value": 98.9,
@@ -3925,11 +3918,11 @@ window.__BOLLINGER_WATCHLIST__ = {
      "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/"
     }
    ],
-   "fv_growth": 5.2,
-   "fv_window": 5,
-   "fair_pe": 15.0,
-   "fair_value": 121.3,
-   "fv_pct": 234.7,
+   "fv_growth": 20.4,
+   "fv_window": 10,
+   "fair_pe": 20.4,
+   "fair_value": 164.97,
+   "fv_pct": 146.1,
    "fv_eps": 8.09,
    "fv_eps_src": "est"
   },
@@ -4364,7 +4357,14 @@ window.__BOLLINGER_WATCHLIST__ = {
      "pubDate": "2026-11-26T16:49:41+00:00",
      "url": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/"
     }
-   ]
+   ],
+   "fv_growth": 13.8,
+   "fv_window": 5,
+   "fair_pe": 15.0,
+   "fair_value": 34.01,
+   "fv_pct": 374.9,
+   "fv_eps": 2.27,
+   "fv_eps_src": "est"
   },
   {
    "ticker": "BMNR",
