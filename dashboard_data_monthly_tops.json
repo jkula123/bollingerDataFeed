@@ -232,7 +232,12 @@
    "pe_vs_own_pct": 10.0,
    "pe_vs_sector_pct": 9.6,
    "pe_highlight": null,
-   "beta": 1.24
+   "beta": 1.24,
+   "fv_growth": 14.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 76.9,
+   "fv_pct": 128.0
   },
   {
    "ticker": "AAPL",
@@ -375,7 +380,12 @@
    "pe_vs_own_pct": 107.4,
    "pe_vs_sector_pct": 49.6,
    "pe_highlight": "red",
-   "beta": 1.09
+   "beta": 1.09,
+   "fv_growth": 15.8,
+   "fv_window": 10,
+   "fair_pe": 15.8,
+   "fair_value": 140.75,
+   "fv_pct": 148.1
   },
   {
    "ticker": "ABBV",
@@ -525,7 +535,12 @@
    "pe_vs_own_pct": 93.3,
    "pe_vs_sector_pct": 56.1,
    "pe_highlight": "red",
-   "beta": 0.19
+   "beta": 0.19,
+   "fv_growth": -2.8,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 49.49,
+   "fv_pct": 472.9
   },
   {
    "ticker": "ABNB",
@@ -805,7 +820,12 @@
    "pe_vs_own_pct": -19.8,
    "pe_vs_sector_pct": -32.6,
    "pe_highlight": "green",
-   "beta": 0.19
+   "beta": 0.19,
+   "fv_growth": 23.9,
+   "fv_window": 10,
+   "fair_pe": 23.9,
+   "fair_value": 290.45,
+   "fv_pct": -62.8
   },
   {
    "ticker": "AFL",
@@ -940,7 +960,12 @@
    "pe_vs_own_pct": 75.0,
    "pe_vs_sector_pct": 37.9,
    "pe_highlight": "red",
-   "beta": 0.55
+   "beta": 0.55,
+   "fv_growth": 8.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 102.82,
+   "fv_pct": 21.3
   },
   {
    "ticker": "AIZ",
@@ -1073,7 +1098,12 @@
    "pe_vs_own_pct": 5.7,
    "pe_vs_sector_pct": 12.9,
    "pe_highlight": null,
-   "beta": 0.51
+   "beta": 0.51,
+   "fv_growth": 23.5,
+   "fv_window": 10,
+   "fair_pe": 23.5,
+   "fair_value": 498.44,
+   "fv_pct": -36.6
   },
   {
    "ticker": "ALL",
@@ -1217,7 +1247,12 @@
    "pe_vs_own_pct": -46.0,
    "pe_vs_sector_pct": -53.8,
    "pe_highlight": "green",
-   "beta": 0.12
+   "beta": 0.12,
+   "fv_growth": 22.4,
+   "fv_window": 10,
+   "fair_pe": 22.4,
+   "fair_value": 979.61,
+   "fv_pct": -72.8
   },
   {
    "ticker": "ALLE",
@@ -1344,7 +1379,12 @@
    "pe_vs_own_pct": -14.8,
    "pe_vs_sector_pct": -10.5,
    "pe_highlight": null,
-   "beta": 0.82
+   "beta": 0.82,
+   "fv_growth": 16.7,
+   "fv_window": 10,
+   "fair_pe": 16.7,
+   "fair_value": 134.45,
+   "fv_pct": 38.3
   },
   {
    "ticker": "AWK",
@@ -1479,7 +1519,12 @@
    "pe_vs_own_pct": -3.3,
    "pe_vs_sector_pct": 33.3,
    "pe_highlight": "red",
-   "beta": 0.55
+   "beta": 0.55,
+   "fv_growth": 8.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 85.55,
+   "fv_pct": 73.3
   },
   {
    "ticker": "BBY",
@@ -1623,7 +1668,12 @@
    "pe_vs_own_pct": 24.1,
    "pe_vs_sector_pct": -20.3,
    "pe_highlight": null,
-   "beta": 1.21
+   "beta": 1.21,
+   "fv_growth": 7.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 90.25,
+   "fv_pct": 10.0
   },
   {
    "ticker": "BDX",
@@ -1767,7 +1817,12 @@
    "pe_vs_own_pct": 7.8,
    "pe_vs_sector_pct": 36.9,
    "pe_highlight": "red",
-   "beta": 0.28
+   "beta": 0.28,
+   "fv_growth": 1.7,
+   "fv_window": 10,
+   "fair_pe": 11.9,
+   "fair_value": 59.27,
+   "fv_pct": 258.8
   },
   {
    "ticker": "BIIB",
@@ -1903,7 +1958,12 @@
    "pe_vs_own_pct": 435.0,
    "pe_vs_sector_pct": 242.9,
    "pe_highlight": "red",
-   "beta": 0.09
+   "beta": 0.09,
+   "fv_growth": -5.4,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 19.63,
+   "fv_pct": 1158.8
   },
   {
    "ticker": "BRK-B",
@@ -2155,7 +2215,12 @@
    "pe_vs_own_pct": 35.4,
    "pe_vs_sector_pct": 12.8,
    "pe_highlight": "red",
-   "beta": 0.52
+   "beta": 0.52,
+   "fv_growth": 5.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 116.05,
+   "fv_pct": 134.7
   },
   {
    "ticker": "CB",
@@ -2290,7 +2355,12 @@
    "pe_vs_own_pct": -4.4,
    "pe_vs_sector_pct": -1.5,
    "pe_highlight": null,
-   "beta": 0.29
+   "beta": 0.29,
+   "fv_growth": 11.5,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 427.05,
+   "fv_pct": -13.3
   },
   {
    "ticker": "CBOE",
@@ -2426,7 +2496,12 @@
    "pe_vs_own_pct": -4.2,
    "pe_vs_sector_pct": 91.7,
    "pe_highlight": "red",
-   "beta": 0.36
+   "beta": 0.36,
+   "fv_growth": 15.5,
+   "fv_window": 10,
+   "fair_pe": 15.5,
+   "fair_value": 219.14,
+   "fv_pct": 63.2
   },
   {
    "ticker": "CCEP",
@@ -2699,7 +2774,12 @@
    "pe_vs_own_pct": 20.9,
    "pe_vs_sector_pct": 54.8,
    "pe_highlight": "red",
-   "beta": 0.45
+   "beta": 0.45,
+   "fv_growth": 7.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 48.96,
+   "fv_pct": 124.0
   },
   {
    "ticker": "CINF",
@@ -2826,7 +2906,12 @@
    "pe_vs_own_pct": -19.1,
    "pe_vs_sector_pct": -16.7,
    "pe_highlight": null,
-   "beta": 0.48
+   "beta": 0.48,
+   "fv_growth": 14.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 256.42,
+   "fv_pct": -26.7
   },
   {
    "ticker": "COST",
@@ -2953,7 +3038,12 @@
    "pe_vs_own_pct": 47.6,
    "pe_vs_sector_pct": 142.9,
    "pe_highlight": "red",
-   "beta": 0.85
+   "beta": 0.85,
+   "fv_growth": 14.6,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 311.34,
+   "fv_pct": 251.3
   },
   {
    "ticker": "CPAY",
@@ -3095,7 +3185,12 @@
    "pe_vs_own_pct": -1.2,
    "pe_vs_sector_pct": -8.8,
    "pe_highlight": null,
-   "beta": 0.92
+   "beta": 0.92,
+   "fv_growth": 14.6,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 272.57,
+   "fv_pct": 59.3
   },
   {
    "ticker": "CRL",
@@ -3357,7 +3452,12 @@
    "pe_vs_own_pct": 46.6,
    "pe_vs_sector_pct": -17.3,
    "pe_highlight": "red",
-   "beta": 0.55
+   "beta": 0.55,
+   "fv_growth": 6.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 150.63,
+   "fv_pct": 72.0
   },
   {
    "ticker": "DLTR",
@@ -3506,7 +3606,12 @@
    "pe_vs_own_pct": -15.3,
    "pe_vs_sector_pct": -21.2,
    "pe_highlight": null,
-   "beta": 0.69
+   "beta": 0.69,
+   "fv_growth": 17.3,
+   "fv_window": 10,
+   "fair_pe": 17.3,
+   "fair_value": 141.88,
+   "fv_pct": -1.2
   },
   {
    "ticker": "DRI",
@@ -3640,7 +3745,12 @@
    "pe_vs_own_pct": 13.1,
    "pe_vs_sector_pct": 8.7,
    "pe_highlight": null,
-   "beta": 0.63
+   "beta": 0.63,
+   "fv_growth": 13.6,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 154.27,
+   "fv_pct": 50.0
   },
   {
    "ticker": "ECL",
@@ -3784,7 +3894,12 @@
    "pe_vs_own_pct": 25.0,
    "pe_vs_sector_pct": 109.8,
    "pe_highlight": "red",
-   "beta": 0.86
+   "beta": 0.86,
+   "fv_growth": 8.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 110.12,
+   "fv_pct": 170.0
   },
   {
    "ticker": "ED",
@@ -3911,7 +4026,12 @@
    "pe_vs_own_pct": 9.8,
    "pe_vs_sector_pct": -2.1,
    "pe_highlight": null,
-   "beta": 0.22
+   "beta": 0.22,
+   "fv_growth": 3.4,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 93.53,
+   "fv_pct": 27.3
   },
   {
    "ticker": "EG",
@@ -4043,7 +4163,12 @@
    "pe_vs_own_pct": -2.2,
    "pe_vs_sector_pct": -32.6,
    "pe_highlight": "green",
-   "beta": 0.23
+   "beta": 0.23,
+   "fv_growth": 5.5,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 711.17,
+   "fv_pct": -40.7
   },
   {
    "ticker": "EW",
@@ -4179,7 +4304,12 @@
    "pe_vs_own_pct": 68.2,
    "pe_vs_sector_pct": 93.6,
    "pe_highlight": "red",
-   "beta": 0.83
+   "beta": 0.83,
+   "fv_growth": 9.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 25.8,
+   "fv_pct": 302.7
   },
   {
    "ticker": "EXR",
@@ -4315,7 +4445,12 @@
    "pe_vs_own_pct": 0.0,
    "pe_vs_sector_pct": 9.6,
    "pe_highlight": null,
-   "beta": 1.09
+   "beta": 1.09,
+   "fv_growth": 11.4,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 73.33,
+   "fv_pct": 112.7
   },
   {
    "ticker": "FAST",
@@ -4450,7 +4585,12 @@
    "pe_vs_own_pct": 35.9,
    "pe_vs_sector_pct": 65.9,
    "pe_highlight": "red",
-   "beta": 0.66
+   "beta": 0.66,
+   "fv_growth": 9.4,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 18.46,
+   "fv_pct": 185.3
   },
   {
    "ticker": "FTV",
@@ -4575,7 +4715,12 @@
    "pe_vs_own_pct": 28.6,
    "pe_vs_sector_pct": 18.3,
    "pe_highlight": "red",
-   "beta": 0.94
+   "beta": 0.94,
+   "fv_growth": 0.9,
+   "fv_window": 10,
+   "fair_pe": 10.3,
+   "fair_value": 21.73,
+   "fv_pct": 201.0
   },
   {
    "ticker": "GILD",
@@ -4858,7 +5003,12 @@
    "pe_vs_own_pct": 36.7,
    "pe_vs_sector_pct": 21.3,
    "pe_highlight": "red",
-   "beta": 0.95
+   "beta": 0.95,
+   "fv_growth": 11.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 682.37,
+   "fv_pct": 108.7
   },
   {
    "ticker": "HAS",
@@ -5144,7 +5294,12 @@
    "pe_vs_own_pct": 27.3,
    "pe_vs_sector_pct": 136.2,
    "pe_highlight": "red",
-   "beta": 1.07
+   "beta": 1.07,
+   "fv_growth": 3.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 111.13,
+   "fv_pct": 226.0
   },
   {
    "ticker": "J",
@@ -5279,7 +5434,12 @@
    "pe_vs_own_pct": 155.9,
    "pe_vs_sector_pct": 102.3,
    "pe_highlight": "red",
-   "beta": 0.67
+   "beta": 0.67,
+   "fv_growth": 8.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 44.42,
+   "fv_pct": 248.0
   },
   {
    "ticker": "KIM",
@@ -5406,7 +5566,12 @@
    "pe_vs_own_pct": -16.0,
    "pe_vs_sector_pct": -18.6,
    "pe_highlight": null,
-   "beta": 0.93
+   "beta": 0.93,
+   "fv_growth": 2.7,
+   "fv_window": 10,
+   "fair_pe": 13.9,
+   "fair_value": 14.86,
+   "fv_pct": 70.5
   },
   {
    "ticker": "KO",
@@ -5542,7 +5707,12 @@
    "pe_vs_own_pct": 7.6,
    "pe_vs_sector_pct": 30.4,
    "pe_highlight": "red",
-   "beta": 0.27
+   "beta": 0.27,
+   "fv_growth": 6.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 50.93,
+   "fv_pct": 88.7
   },
   {
    "ticker": "LH",
@@ -5677,7 +5847,12 @@
    "pe_vs_own_pct": 79.8,
    "pe_vs_sector_pct": -3.2,
    "pe_highlight": "red",
-   "beta": 0.83
+   "beta": 0.83,
+   "fv_growth": 10.8,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 183.22,
+   "fv_pct": 101.3
   },
   {
    "ticker": "LLY",
@@ -5828,7 +6003,12 @@
    "pe_vs_own_pct": 29.1,
    "pe_vs_sector_pct": 40.7,
    "pe_highlight": "red",
-   "beta": 0.39
+   "beta": 0.39,
+   "fv_growth": 26.1,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 769.43,
+   "fv_pct": 75.6
   },
   {
    "ticker": "MA",
@@ -6003,7 +6183,12 @@
    "pe_vs_own_pct": -3.5,
    "pe_vs_sector_pct": 148.5,
    "pe_highlight": "red",
-   "beta": 0.77
+   "beta": 0.77,
+   "fv_growth": 17.3,
+   "fv_window": 10,
+   "fair_pe": 17.3,
+   "fair_value": 330.44,
+   "fv_pct": 89.6
   },
   {
    "ticker": "MAR",
@@ -6153,7 +6338,12 @@
    "pe_vs_own_pct": 35.4,
    "pe_vs_sector_pct": 99.5,
    "pe_highlight": "red",
-   "beta": 1.14
+   "beta": 1.14,
+   "fv_growth": 11.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 150.38,
+   "fv_pct": 175.3
   },
   {
    "ticker": "MAS",
@@ -6279,7 +6469,12 @@
    "pe_vs_own_pct": 7.8,
    "pe_vs_sector_pct": -30.2,
    "pe_highlight": "green",
-   "beta": 1.21
+   "beta": 1.21,
+   "fv_growth": 14.2,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 68.99,
+   "fv_pct": 20.0
   },
   {
    "ticker": "MCK",
@@ -6430,7 +6625,12 @@
    "pe_vs_own_pct": 9.2,
    "pe_vs_sector_pct": -12.2,
    "pe_highlight": null,
-   "beta": 0.28
+   "beta": 0.28,
+   "fv_growth": 14.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 581.47,
+   "fv_pct": 82.7
   },
   {
    "ticker": "MET",
@@ -6565,7 +6765,12 @@
    "pe_vs_own_pct": 11.3,
    "pe_vs_sector_pct": -3.0,
    "pe_highlight": null,
-   "beta": 0.77
+   "beta": 0.77,
+   "fv_growth": 0.2,
+   "fv_window": 10,
+   "fair_pe": 8.9,
+   "fair_value": 67.86,
+   "fv_pct": 43.8
   },
   {
    "ticker": "MMM",
@@ -6701,7 +6906,12 @@
    "pe_vs_own_pct": 30.4,
    "pe_vs_sector_pct": 3.1,
    "pe_highlight": "red",
-   "beta": 1.06
+   "beta": 1.06,
+   "fv_growth": -0.5,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 57.03,
+   "fv_pct": 212.9
   },
   {
    "ticker": "MRNA",
@@ -6991,7 +7201,12 @@
    "pe_vs_own_pct": -9.8,
    "pe_vs_sector_pct": 150.0,
    "pe_highlight": "red",
-   "beta": 1.19
+   "beta": 1.19,
+   "fv_growth": 22.7,
+   "fv_window": 10,
+   "fair_pe": 22.7,
+   "fair_value": 429.46,
+   "fv_pct": 45.4
   },
   {
    "ticker": "MSI",
@@ -7135,7 +7350,12 @@
    "pe_vs_own_pct": 50.5,
    "pe_vs_sector_pct": 60.3,
    "pe_highlight": "red",
-   "beta": 0.87
+   "beta": 0.87,
+   "fv_growth": 15.5,
+   "fv_window": 10,
+   "fair_pe": 15.5,
+   "fair_value": 192.61,
+   "fv_pct": 171.0
   },
   {
    "ticker": "MTD",
@@ -7271,7 +7491,12 @@
    "pe_vs_own_pct": 22.5,
    "pe_vs_sector_pct": 18.6,
    "pe_highlight": null,
-   "beta": 1.17
+   "beta": 1.17,
+   "fv_growth": 11.0,
+   "fv_window": 5,
+   "fair_pe": 15.0,
+   "fair_value": 691.48,
+   "fv_pct": 146.7
   },
   {
    "ticker": "NDAQ",
@@ -7422,7 +7647,12 @@
    "pe_vs_own_pct": 21.4,
    "pe_vs_sector_pct": 118.9,
    "pe_highlight": "red",
-   "beta": 0.96
+   "beta": 0.96,
+   "fv_growth": 14.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 53.95,
+   "fv_pct": 92.7
   },
   {
    "ticker": "OKTA",
@@ -7834,7 +8064,12 @@
    "pe_vs_own_pct": 18.3,
    "pe_vs_sector_pct": -16.7,
    "pe_highlight": null,
-   "beta": 0.83
+   "beta": 0.83,
+   "fv_growth": -2.0,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 92.96,
+   "fv_pct": 29.4
   },
   {
    "ticker": "PSA",
@@ -7976,7 +8211,12 @@
    "pe_vs_own_pct": 9.0,
    "pe_vs_sector_pct": 16.5,
    "pe_highlight": null,
-   "beta": 0.87
+   "beta": 0.87,
+   "fv_growth": 4.0,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 144.54,
+   "fv_pct": 126.0
   },
   {
    "ticker": "REGN",
@@ -8112,7 +8352,12 @@
    "pe_vs_own_pct": -8.3,
    "pe_vs_sector_pct": -33.0,
    "pe_highlight": "green",
-   "beta": 0.1
+   "beta": 0.1,
+   "fv_growth": 22.3,
+   "fv_window": 10,
+   "fair_pe": 22.3,
+   "fair_value": 985.19,
+   "fv_pct": -6.3
   },
   {
    "ticker": "RVTY",
@@ -8239,7 +8484,12 @@
    "pe_vs_own_pct": 117.0,
    "pe_vs_sector_pct": 117.0,
    "pe_highlight": "red",
-   "beta": 1.09
+   "beta": 1.09,
+   "fv_growth": 1.0,
+   "fv_window": 10,
+   "fair_pe": 10.5,
+   "fair_value": 23.51,
+   "fv_pct": 544.8
   },
   {
    "ticker": "SJM",
@@ -8525,7 +8775,12 @@
    "pe_vs_own_pct": -6.3,
    "pe_vs_sector_pct": -25.2,
    "pe_highlight": "green",
-   "beta": 1.16
+   "beta": 1.16,
+   "fv_growth": -7.5,
+   "fv_window": 10,
+   "fair_pe": 8.5,
+   "fair_value": 47.41,
+   "fv_pct": 127.1
   },
   {
    "ticker": "TGT",
@@ -8660,7 +8915,12 @@
    "pe_vs_own_pct": 5.5,
    "pe_vs_sector_pct": -29.0,
    "pe_highlight": "green",
-   "beta": 0.93
+   "beta": 0.93,
+   "fv_growth": 4.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 163.11,
+   "fv_pct": 2.7
   },
   {
    "ticker": "TMO",
@@ -8836,7 +9096,12 @@
    "pe_vs_own_pct": 16.3,
    "pe_vs_sector_pct": 16.3,
    "pe_highlight": null,
-   "beta": 0.84
+   "beta": 0.84,
+   "fv_growth": 13.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 284.61,
+   "fv_pct": 142.0
   },
   {
    "ticker": "TRV",
@@ -8978,7 +9243,12 @@
    "pe_vs_own_pct": -13.4,
    "pe_vs_sector_pct": -22.0,
    "pe_highlight": null,
-   "beta": 0.4
+   "beta": 0.4,
+   "fv_growth": 9.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 568.85,
+   "fv_pct": -31.3
   },
   {
    "ticker": "V",
@@ -9429,7 +9699,12 @@
    "pe_vs_own_pct": 7.1,
    "pe_vs_sector_pct": 26.0,
    "pe_highlight": "red",
-   "beta": 0.67
+   "beta": 0.67,
+   "fv_growth": 12.3,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 139.3,
+   "fv_pct": 120.0
   },
   {
    "ticker": "VTRS",
@@ -9724,7 +9999,12 @@
    "pe_vs_own_pct": 610.0,
    "pe_vs_sector_pct": 512.2,
    "pe_highlight": "red",
-   "beta": 1.15
+   "beta": 1.15,
+   "fv_growth": 6.7,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 35.85,
+   "fv_pct": 1173.3
   },
   {
    "ticker": "WRB",
@@ -9860,7 +10140,12 @@
    "pe_vs_own_pct": 15.5,
    "pe_vs_sector_pct": 24.2,
    "pe_highlight": null,
-   "beta": 0.22
+   "beta": 0.22,
+   "fv_growth": 14.5,
+   "fv_window": 10,
+   "fair_pe": 15.0,
+   "fair_value": 70.79,
+   "fv_pct": 9.3
   },
   {
    "ticker": "WST",
@@ -9995,7 +10280,12 @@
    "pe_vs_own_pct": 0.2,
    "pe_vs_sector_pct": 42.6,
    "pe_highlight": "red",
-   "beta": 1.14
+   "beta": 1.14,
+   "fv_growth": 18.0,
+   "fv_window": 10,
+   "fair_pe": 18.0,
+   "fair_value": 160.46,
+   "fv_pct": 147.2
   }
  ],
  "f13_quarter": "Q3 2026",
