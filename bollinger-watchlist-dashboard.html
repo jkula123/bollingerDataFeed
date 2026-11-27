@@ -138,6 +138,15 @@
     --teal:#0f766e; --teal-bg:#e6f4f1;
     --accent:#0f766e; --on-accent:#ffffff;
     --group-hover:#dbe2e8; --accent-hover:#115e59;
+    /* Control-pill active fills, color-coded per choice (inactive
+       segments stay transparent, exactly as before): region US
+       blue / China red; group Tops amber with dark text /
+       Watchlist neutral gray. Bottoms and the Weekly/Monthly
+       period pill keep the teal accent above. */
+    --pill-us:#1d4ed8; --pill-us-hover:#1e40af; --on-pill-us:#ffffff;
+    --pill-cn:#b91c1c; --pill-cn-hover:#991b1b; --on-pill-cn:#ffffff;
+    --pill-tops:#fbbf24; --pill-tops-hover:#f59e0b; --on-pill-tops:#131a20;
+    --pill-watch:#525252; --pill-watch-hover:#404040; --on-pill-watch:#ffffff;
     --r40-bg:#dcfce7; --r40-ink:#166534; --r40-line:#86efac;
     --r40-neg-bg:#fee2e2; --r40-neg-ink:#991b1b; --r40-neg-line:#fca5a5;
     --up-bg:#dcfce7; --up-ink:#166534; --flat-bg:#eef1f3; --flat-ink:#5c6d7d;
@@ -164,6 +173,13 @@
       --teal:#5eead4; --teal-bg:#12302c;
       --accent:#5eead4; --on-accent:#0e1318;
       --group-hover:#283646; --accent-hover:#2dd4bf;
+      /* Dark theme: the coded fills brighten and take dark text,
+         mirroring the teal accent's dark treatment above, so each
+         active label keeps strong contrast on its fill. */
+      --pill-us:#60a5fa; --pill-us-hover:#93c5fd; --on-pill-us:#0e1318;
+      --pill-cn:#f87171; --pill-cn-hover:#fca5a5; --on-pill-cn:#0e1318;
+      --pill-tops:#fbbf24; --pill-tops-hover:#f59e0b; --on-pill-tops:#131a20;
+      --pill-watch:#a3a3a3; --pill-watch-hover:#d4d4d4; --on-pill-watch:#0e1318;
       --r40-bg:#143527; --r40-ink:#7ee2a8; --r40-line:#2e6b4a;
       --r40-neg-bg:#3f1d1d; --r40-neg-ink:#fca5a5; --r40-neg-line:#991b1b;
       --up-bg:#143527; --up-ink:#7ee2a8; --flat-bg:#1c2732; --flat-ink:#9db0bf;
@@ -376,6 +392,16 @@
      own data-score wrapper, mirroring the td[data-score] rules. */
   .pop-backdrop{position:fixed;inset:0;z-index:200;background:rgba(10,16,22,.55);overflow-y:auto;padding:5vh 14px 6vh;display:flex;justify-content:center;align-items:flex-start}
   .pop-backdrop[hidden]{display:none}
+  /* China card custom tooltip: replaces the native title on CN
+     card stats (a native tooltip's font is the browser's and too
+     small to read). One shared bubble, theme variables, readable
+     14px bilingual text; position:fixed so no card overflow can
+     clip it, clamped to the viewport by the controller script. */
+  .cn-tip-pop{position:fixed;z-index:400;max-width:min(320px,calc(100vw - 16px));padding:10px 12px;border:1px solid var(--line-strong);border-radius:10px;background:var(--surface);color:var(--ink);box-shadow:0 10px 30px rgba(16,24,40,.28);font-size:14px;line-height:1.55;white-space:pre-line;pointer-events:none;opacity:0;transition:opacity .12s ease}
+  .cn-tip-pop.show{opacity:1}
+  @media (prefers-reduced-motion: reduce){
+    .cn-tip-pop{transition:none}
+  }
   body.pop-open{overflow:hidden}
   .pop-flip{perspective:1400px;width:100%;max-width:660px;transition:height .5s ease}
   .pop-flip-inner{position:relative;transform-style:preserve-3d;transition:transform .5s ease}
@@ -1165,40 +1191,66 @@
   .analysis-toggle{background:none;border:none;color:var(--muted);font:inherit;font-size:13px;font-weight:600;cursor:pointer;padding:4px 0;display:none;align-items:center;gap:6px}
   .analysis-toggle:hover{color:var(--ink)}
   .monthly{margin-top:2px}
-  /* Tab bar: two deliberately different levels of navigation.
-     GROUP is a large segmented pill; PERIOD is a smaller row of
-     underline tabs — the size and style gap keeps the two levels
-     from blending into one another. The bar itself is a plain
-     sticky strip on the page background. */
+  /* Tab bar: three rows of navigation — REGION, GROUP and PERIOD
+     — segmented pills in one family (same container styling,
+     active fill and hover states), so the active choice at each
+     level reads at a glance; the PERIOD row is the compact,
+     fit-content, left-aligned variant (see .period-row below).
+     The bar itself is a plain sticky strip on the page
+     background. */
   .tabs{display:flex;flex-direction:column;margin-top:0;background:var(--bg);padding:2px 0 0;position:sticky;top:var(--mktH,50px);z-index:60}
   header{margin-bottom:18px}
   .tabs.is-stuck{box-shadow:0 10px 18px -10px rgba(16,24,40,.35)}
-  /* The two nav rows carry no visible caps labels — the pill vs
-     underline styles already distinguish them; each row keeps an
-     aria-label so assistive tech still gets the Group / Period name. */
-  /* Period tabs (Weekly / Monthly): 14px underline tabs on a row
-     with a 1px bottom border. The active tab is bold ink with a 2px
-     accent underline overlapping the row border (margin-bottom:-1px);
-     inactive tabs are medium-weight muted. The band/date line stays
-     as a small sub-line under each label. */
-  .period-row{display:flex;gap:26px;border-bottom:1px solid var(--line)}
-  .tab{font:inherit;font-size:14px;font-weight:500;color:var(--muted);background:transparent;border:none;border-bottom:2px solid transparent;margin-bottom:-1px;padding:7px 2px;cursor:pointer;text-align:left}
-  .tab .tab-sub{display:block;font-size:11.5px;font-weight:500;color:var(--faint);margin-top:1px}
-  .tab[aria-selected="true"]{color:var(--ink);font-weight:700;border-bottom-color:var(--accent)}
-  .tab[aria-selected="true"] .tab-sub{color:var(--muted)}
+  /* The nav rows carry no visible caps labels — the pill labels
+     speak for themselves; each row keeps an aria-label so
+     assistive tech still gets the Region / Group / Period name. */
+  /* Period toggle (Weekly / Monthly): a SMALL segmented pill in
+     the same family as the group pill directly above it — same
+     muted-surface container with fully rounded ends, same active
+     treatment (accent fill, accent-hover on hover) and inactive
+     hover — but deliberately NOT the group pill's size or width:
+     the row is fit-content and left-aligned (align-self:flex-start
+     inside the column tab bar, so its left edge sits flush with
+     the group pill's left edge while the pill hugs its two
+     segments instead of stretching across the page), and the
+     segments run at the old underline tabs' compact scale
+     (~13px, tight padding, flex:0 0 auto so neither segment
+     stretches). Each segment keeps its band/date line as a small
+     sub-line under the label, inside the pill; on the active
+     segment the sub-line takes the on-accent color at reduced
+     opacity. Font size, weight and padding are identical in both
+     states (only colors change), so switching periods never
+     shifts the layout. Behavior is unchanged: aria-selected
+     drives the state, exactly as the underline tabs did. */
+  .period-row{display:flex;gap:3px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px;margin-top:10px;align-self:flex-start;width:fit-content;max-width:100%}
+  .tab{flex:0 0 auto;font:inherit;font-size:13px;font-weight:600;color:var(--ink);background:transparent;border:none;border-radius:999px;padding:5px 14px;cursor:pointer;white-space:nowrap;text-align:center;transition:background-color .15s ease,color .15s ease}
+  .tab .tab-sub{display:block;font-size:10.5px;font-weight:500;color:var(--faint);margin-top:0;white-space:normal}
+  .tab:hover{background:var(--group-hover)}
+  .tab[aria-selected="true"]{background:var(--accent);color:var(--on-accent)}
+  .tab[aria-selected="true"]:hover{background:var(--accent-hover)}
+  .tab[aria-selected="true"] .tab-sub{color:inherit;opacity:.78}
   .tab:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
-  /* Group toggle (Bollinger Bottoms / Bollinger Tops): a segmented
-     pill — muted surface container with fully rounded ends and 4px
-     inner padding; the active button fills with the accent color,
-     the inactive one stays transparent. */
+  /* Group toggle (Bollinger Bottoms / Bollinger Tops / Watchlist):
+     a segmented pill — muted surface container with fully rounded
+     ends and 4px inner padding; the inactive buttons stay
+     transparent. The ACTIVE fill is color-coded per group:
+     Bottoms keeps the teal accent (the generic rule below), Tops
+     fills amber with dark text, Watchlist fills a neutral gray —
+     each with its own hover shade, in both themes via the
+     --pill-* variables. */
   .group-row{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:4px}
   .group-btn{flex:1 1 0;font:inherit;font-size:16px;font-weight:600;color:var(--ink);background:transparent;border:none;border-radius:999px;padding:9px 20px;cursor:pointer;white-space:nowrap;transition:background-color .15s ease,color .15s ease}
   .group-btn:hover{background:var(--group-hover)}
   .group-btn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
   .group-btn[aria-pressed="true"]:hover{background:var(--accent-hover)}
+  .group-btn[data-group-btn="tops"][aria-pressed="true"]{background:var(--pill-tops);color:var(--on-pill-tops)}
+  .group-btn[data-group-btn="tops"][aria-pressed="true"]:hover{background:var(--pill-tops-hover)}
+  .group-btn[data-group-btn="watchlist"][aria-pressed="true"]{background:var(--pill-watch);color:var(--on-pill-watch)}
+  .group-btn[data-group-btn="watchlist"][aria-pressed="true"]:hover{background:var(--pill-watch-hover)}
   .group-btn:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
   @media (max-width:400px){
     .group-btn{padding:9px 8px;font-size:15px}
+    .tab{padding:4px 9px;font-size:12px}
   }
   /* Mobile tweaks (≤760px): the market strip and the tab bar both
      stay sticky — the strip pins at top:0 via .mkt-sticky and the
@@ -1216,6 +1268,8 @@
   @media (max-width:760px){
     .group-row{padding:2px}
     .group-btn{font-size:13px;padding:5px 12px}
+    .period-row{padding:2px;margin-top:8px}
+    .tab{font-size:12px;padding:4px 11px}
     .mkt-wk-lab{display:none}
     .mkt-label{display:none}
     .mkt-sep{display:none}
@@ -1226,12 +1280,14 @@
      on one line without sideways scroll. */
   @media (max-width:480px){
     .group-btn{font-size:12px;padding:5px 6px}
+    .tab{font-size:11.5px;padding:4px 9px}
   }
   /* Desktop sticky improvements (≥761px only — mobile is untouched):
      (1) the group pill shrinks (14px buttons, 6px/16px padding, 3px
-     container padding) and (2) the period tabs tighten (5px/2px
-     padding — padding only; the date sub-lines under Weekly and
-     Monthly stay). (3) Auto-hide on scroll down, driven by the
+     container padding) and (2) the period pill stays a step
+     smaller still (13px buttons, 5px/13px padding, 2px container
+     padding — the date sub-lines inside the Weekly and Monthly
+     segments stay, at their small sub-line size). (3) Auto-hide on scroll down, driven by the
      sticky-toolbar script with TWO body classes, one per bar, each
      applied only once its own bar has actually pinned (checked
      from the bar's own viewport rect, so nothing ever transforms
@@ -1260,7 +1316,8 @@
   @media (min-width:761px){
     .group-row{padding:3px}
     .group-btn{font-size:14px;padding:6px 16px}
-    .tab{padding:5px 2px}
+    .period-row{padding:2px}
+    .tab{font-size:13px;padding:5px 13px}
     .tabs,.controls{transition:transform .32s ease}
     body.head-hidden .tabs{transform:translateY(-100%)}
     body.ctrl-hidden .controls{transform:translateY(calc(-1 * (var(--tabsH,76px) + var(--ctrlTopH,64px))))}
@@ -1834,13 +1891,22 @@
   .hm-tile:focus-visible{outline:2px solid var(--teal);outline-offset:-2px;z-index:3}
   .heatmap-empty{display:none;padding:18px 14px;text-align:center;color:var(--muted);font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:16px}
 
-  /* Region tier (US | China): a segmented pill above the group pill,
-     same active teal treatment and hover states as .group-btn. */
+  /* Region tier (US | China): a segmented pill above the group
+     pill, same shape and hover states as .group-btn. The ACTIVE
+     fill is color-coded per region — US blue, China red, each
+     with its own hover shade, in both themes via the --pill-*
+     variables; the inactive button stays transparent. (The
+     generic accent rule below is only the fallback; both region
+     buttons carry a coded override.) */
   .region-row{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:10px}
   .region-btn{flex:1 1 0;font:inherit;font-size:16px;font-weight:700;color:var(--ink);background:transparent;border:none;border-radius:999px;padding:9px 20px;cursor:pointer;white-space:nowrap;transition:background-color .15s ease,color .15s ease}
   .region-btn:hover{background:var(--group-hover)}
   .region-btn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
   .region-btn[aria-pressed="true"]:hover{background:var(--accent-hover)}
+  .region-btn[data-region-btn="us"][aria-pressed="true"]{background:var(--pill-us);color:var(--on-pill-us)}
+  .region-btn[data-region-btn="us"][aria-pressed="true"]:hover{background:var(--pill-us-hover)}
+  .region-btn[data-region-btn="china"][aria-pressed="true"]{background:var(--pill-cn);color:var(--on-pill-cn)}
+  .region-btn[data-region-btn="china"][aria-pressed="true"]:hover{background:var(--pill-cn-hover)}
   .region-btn:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
   @media (max-width:400px){ .region-btn{padding:9px 8px;font-size:15px} }
   @media (max-width:760px){
@@ -8214,11 +8280,11 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <div class="stat"><div class="n">0</div><div class="l">Names on the list</div><div class="sub">0 touching + 0 close</div></div>
     <div class="stat"><div class="n">0</div><div class="l">💎 Undervalued</div><div class="sub">P/E &lt; 12, fwd &lt; 15, no high debt</div></div>
     <div class="stat"><div class="n">0</div><div class="l">⚠️ High debt</div><div class="sub">D/E &gt; 2× or heavy net debt</div></div>
-    <div class="stat"><div class="n">0</div><div class="l">Screaming buys</div><div class="sub">Undervalued + oversold</div></div>
+    <div class="stat"><div class="n">0</div><div class="l">Screaming buys 强力买入</div><div class="sub">Undervalued + oversold</div></div>
   </div>
   <p class="cn-empty" data-cn-empty>No China names yet — the CSI 300 scan has not landed. This view fills in automatically on the next refresh.</p>
   <section class="block" id="sec-scream-cn" aria-label="Screaming buys" style="margin-top:22px">
-    <div class="sec-head"><h2>Screaming buys</h2><span class="pill pill-scream">0 today</span><span class="n">Undervalued + oversold</span></div>
+    <div class="sec-head"><h2>Screaming buys 强力买入</h2><span class="pill pill-scream">0 today</span><span class="n">Undervalued + oversold</span></div>
     <div class="scream-compact">
       <p class="scream-line">No screaming buys today <button type="button" class="why-toggle" data-collapse-target="scream-detail-cn" aria-expanded="false" aria-controls="scream-detail-cn">Why? <span class="collapse-arrow" aria-hidden="true">▸</span></button></p>
       <div class="scream-detail" id="scream-detail-cn" hidden>
@@ -8286,7 +8352,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
   </div>
 
   <div class="picks" id="picks-cn-weekly" hidden>
-    <div class="sec-head"><h2>Most interesting</h2><span class="n">Most flags flying on this tab</span></div>
+    <div class="sec-head"><h2>Most interesting 最值得关注</h2><span class="n">Most flags flying on this tab</span></div>
     <div class="picks-grid"></div>
   </div>
 
@@ -8354,7 +8420,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <div class="stat"><div class="n">0</div><div class="l">Names on the monthly list</div><div class="sub">0 touching + 0 close</div></div>
     <div class="stat"><div class="n">0</div><div class="l">💎 Undervalued</div><div class="sub">P/E &lt; 12, fwd &lt; 15, no high debt</div></div>
     <div class="stat"><div class="n">0</div><div class="l">⚠️ High debt</div><div class="sub">D/E &gt; 2× or heavy net debt</div></div>
-    <div class="stat"><div class="n">0</div><div class="l">Monthly screaming buys</div><div class="sub">Undervalued + oversold</div></div>
+    <div class="stat"><div class="n">0</div><div class="l">Monthly screaming buys 强力买入</div><div class="sub">Undervalued + oversold</div></div>
   </div>
     <p class="cn-empty" data-cn-empty>No China names yet — the CSI 300 scan has not landed. This view fills in automatically on the next refresh.</p>
     <p class="monthly-scream"><strong>No monthly screaming buys</strong> yet — this fills in when the first China monthly scan lands.<br><span class="zh-line"><strong>暂无月度尖叫买入</strong> — 中国月度扫描首次发布后，这里将填入内容。</span></p>
@@ -8419,7 +8485,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
   </div>
 
   <div class="picks" id="picks-cn-monthly" hidden>
-    <div class="sec-head"><h2>Most interesting</h2><span class="n">Most flags flying on this tab</span></div>
+    <div class="sec-head"><h2>Most interesting 最值得关注</h2><span class="n">Most flags flying on this tab</span></div>
     <div class="picks-grid"></div>
   </div>
 
@@ -8478,11 +8544,11 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <div class="stat"><div class="n">0</div><div class="l">Names on the list</div><div class="sub">0 touching + 0 close</div></div>
     <div class="stat"><div class="n">0</div><div class="l">🔺 Overvalued</div><div class="sub">Stretched P/E, fwd &gt; 20</div></div>
     <div class="stat"><div class="n">0</div><div class="l">Overbought</div><div class="sub">14-week RSI &gt; 70</div></div>
-    <div class="stat"><div class="n">0</div><div class="l">Screaming sells</div><div class="sub">Overvalued + overbought</div></div>
+    <div class="stat"><div class="n">0</div><div class="l">Screaming sells 强力卖出</div><div class="sub">Overvalued + overbought</div></div>
   </div>
   <p class="cn-empty" data-cn-empty>No China names yet — the CSI 300 scan has not landed. This view fills in automatically on the next refresh.</p>
   <section class="block" id="sec-scream-cn-t" aria-label="Screaming sells" style="margin-top:22px">
-    <div class="sec-head"><h2>Screaming sells</h2><span class="pill pill-scream">0 today</span><span class="n">Overvalued + overbought</span></div>
+    <div class="sec-head"><h2>Screaming sells 强力卖出</h2><span class="pill pill-scream">0 today</span><span class="n">Overvalued + overbought</span></div>
     <div class="scream-compact">
       <p class="scream-line">No screaming sells today <button type="button" class="why-toggle" data-collapse-target="scream-detail-cn-t" aria-expanded="false" aria-controls="scream-detail-cn-t">Why? <span class="collapse-arrow" aria-hidden="true">▸</span></button></p>
       <div class="scream-detail" id="scream-detail-cn-t" hidden>
@@ -8551,7 +8617,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
   </div>
 
   <div class="picks" id="picks-cn-tops-weekly" hidden>
-    <div class="sec-head"><h2>Most stretched</h2><span class="n">Highest P/E vs its own 15y median on this tab</span></div>
+    <div class="sec-head"><h2>Most stretched 最被高估</h2><span class="n">Highest P/E vs its own 15y median on this tab</span></div>
     <div class="picks-grid"></div>
   </div>
 
@@ -8619,7 +8685,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <div class="stat"><div class="n">0</div><div class="l">Names on the list</div><div class="sub">0 touching + 0 close</div></div>
     <div class="stat"><div class="n">0</div><div class="l">🔺 Overvalued</div><div class="sub">Stretched P/E, fwd &gt; 20</div></div>
     <div class="stat"><div class="n">0</div><div class="l">Overbought</div><div class="sub">14-month RSI &gt; 70</div></div>
-    <div class="stat"><div class="n">0</div><div class="l">Screaming sells</div><div class="sub">Overvalued + overbought</div></div>
+    <div class="stat"><div class="n">0</div><div class="l">Screaming sells 强力卖出</div><div class="sub">Overvalued + overbought</div></div>
   </div>
     <p class="cn-empty" data-cn-empty>No China names yet — the CSI 300 scan has not landed. This view fills in automatically on the next refresh.</p>
     <p class="monthly-scream"><strong>No monthly screaming sells</strong> yet — this fills in when the first China monthly scan lands.<br><span class="zh-line"><strong>暂无月度尖叫卖出</strong> — 中国月度扫描首次发布后，这里将填入内容。</span></p>
@@ -8685,7 +8751,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
   </div>
 
   <div class="picks" id="picks-cn-tops-monthly" hidden>
-    <div class="sec-head"><h2>Most stretched</h2><span class="n">Highest P/E vs its own 15y median on this tab</span></div>
+    <div class="sec-head"><h2>Most stretched 最被高估</h2><span class="n">Highest P/E vs its own 15y median on this tab</span></div>
     <div class="picks-grid"></div>
   </div>
 
@@ -9993,11 +10059,20 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     holders: 'Top holders are the 10 largest tradable shareholders each quarter; rows show the biggest quarter-on-quarter changes and Net is the institutional total. Net institutional buying above 0.1% of market cap earns the Backing score point; HKSCC (香港中央结算) is northbound money via Stock Connect.\n十大流通股东 = 每季度最大的 10 名流通股东；各行显示季度变动最大的股东，净额为机构变动合计。机构净买入超过市值的 0.1% 可得支持分；香港中央结算为经沪深港通的北向资金。',
     events: 'This lists recent trades by directors, supervisors and executives: who traded, the direction, shares, average price and date. Buying with their own money is the stronger signal.\n此处列出董监高近期交易：交易人、方向、股数、均价与日期。自掏腰包买入是更强的信号。'
   };
+  // The CN_TIPS texts (and the bilingual score tip) render in the
+  // shared custom tooltip (.cn-tip-pop, driven by the controller
+  // script at the end of the page) at a readable 14px — a native
+  // title's font is the browser's and too small to read. Builders
+  // mark the element with data-cn-tip instead of setting title;
+  // pStat routes any title that is exactly a CN_TIPS text there.
+  var CN_TIP_SET = {};
+  Object.keys(CN_TIPS).forEach(function(k){ CN_TIP_SET[CN_TIPS[k]] = true; });
+  function pCnTip(el, text){ if (el && text) el.setAttribute('data-cn-tip', text); }
 
   function pScorePill(s){
     var wrap = pEl('div', 'pop-score');
     if (pIsNum(s.score)) wrap.setAttribute('data-score', String(s.score));
-    wrap.title = s.ccy === 'CNY' ? cnTipTitle(s) : s.score_tip;
+    if (s.ccy === 'CNY') pCnTip(wrap, cnTipTitle(s)); else wrap.title = s.score_tip;
     wrap.appendChild(pEl('span', 'score-main', pIsNum(s.score) ? s.score + '/10' : '—'));
     return wrap;
   }
@@ -10063,7 +10138,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   }
   function pStat(label, build, title){
     var row = pEl('div', 'pop-stat');
-    if (title) row.title = title;
+    if (title){ if (CN_TIP_SET[title]) row.setAttribute('data-cn-tip', title); else row.title = title; }
     row.appendChild(pEl('span', 'pop-stat-label', label));
     var val = pEl('div', 'pop-stat-val');
     build(val);
@@ -10201,7 +10276,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       rsi.appendChild(document.createTextNode(' '));
       var ar = pEl('span', 'rsi-arrow rsi-arrow-' + dir[0], dir[1]);
       rsi.appendChild(ar);
-      if (hit.cn) rsi.title = CN_TIPS.rsi;
+      if (hit.cn) pCnTip(rsi, CN_TIPS.rsi);
       body.appendChild(rsi);
     }
     var flags = pFlagsRow(s, hit);
@@ -10246,7 +10321,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     if (pIsNum(s.beta) && s.beta >= 1.5) betaLine.appendChild(pEl('span', 'beta-hi', s.beta.toFixed(2)));
     else if (pIsNum(s.beta)) betaLine.appendChild(document.createTextNode(s.beta.toFixed(2)));
     else betaLine.appendChild(pEl('span', 'beta-label', '—'));
-    if (hit.cn) betaLine.title = CN_TIPS.beta;
+    if (hit.cn) pCnTip(betaLine, CN_TIPS.beta);
     sp.appendChild(betaLine);
     // Fair value line directly under Beta (FAST Graphs; US rows
     // only — CN rows carry no fair_value, so nothing renders):
@@ -10296,7 +10371,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       }
       if (pIsNum(s.pe_ttm_high)) val.appendChild(pEl('span', 'pop-sub', '(' + pF1(s.pe_ttm_high) + ' High)'));
     });
-    if (hit.cn) peStat.title = CN_TIPS.pe;
+    if (hit.cn) pCnTip(peStat, CN_TIPS.pe);
     var es = Array.isArray(s.earn_surprise) ? s.earn_surprise.filter(pIsNum) : [];
     var earnStat = pStat('Earnings', function(val){
       if (!es.length){ val.appendChild(document.createTextNode('—')); return; }
@@ -10309,7 +10384,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       wrap.appendChild(dots);
       val.appendChild(wrap);
     });
-    if (hit.cn) earnStat.title = CN_TIPS.earn;
+    if (hit.cn) pCnTip(earnStat, CN_TIPS.earn);
     var valuation = pCol('Valuation', hit.cn ? [
       peStat,
       pAvgPe('Avg P/E 10y · 平均市盈率', s.pe10y, s.pe10y_years, 10, CN_TIPS.avgpe10),
@@ -10406,7 +10481,9 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
           return (ev.name || '') + (ev.role ? ' · ' + ev.role : '') + ' — ' + (ev.direction === 'buy' ? '买入 bought' : '卖出 sold') + ' ' + (pIsNum(ev.shares) ? ev.shares.toLocaleString('en-US') : '—') + ' 股' + (pIsNum(ev.avg_price) ? ' @ ¥' + ev.avg_price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '') + ' · ' + (ev.date || '');
         }).join('\n');
       }
-      if (!cnInsStat.title) cnInsStat.title = CN_TIPS.insiders; else cnInsStat.title = CN_TIPS.insiders + '\n' + cnInsStat.title;
+      var cnInsTip = CN_TIPS.insiders; if (cnInsStat.title) cnInsTip = cnInsTip + '\n' + cnInsStat.title;
+      cnInsStat.removeAttribute('title');
+      pCnTip(cnInsStat, cnInsTip);
     }
     var sentL = pCol('Sentiment', hit.cn ? [
       cnInsStat,
@@ -10500,7 +10577,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     netWrap.appendChild(pEl('span', 'f13-net-pill ' + (s.cn_inst_net_value >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.cn_inst_net_value < 0 ? '−' : '+') + pMoneyShort(s.cn_inst_net_value)));
     head.appendChild(netWrap);
     wrap.appendChild(head);
-    wrap.title = CN_TIPS.holders;
+    pCnTip(wrap, CN_TIPS.holders);
     var movers = holders.filter(function(h){ return h && pIsNum(h.change_shares) && h.change_shares !== 0; });
     movers.sort(function(a, b){ return Math.abs(b.change_shares) - Math.abs(a.change_shares); });
     if (!movers.length){
@@ -10622,7 +10699,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     if (!evs.length) return null;
     var sec = pEl('div', 'pop-news');
     var evHead = pEl('div', 'pop-group-label', 'Insider trades · 董监高增减持');
-    evHead.title = CN_TIPS.events;
+    pCnTip(evHead, CN_TIPS.events);
     sec.appendChild(evHead);
     evs.forEach(function(ev){
       if (!ev) return;
@@ -11303,7 +11380,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       }, 90);
     });
   }
-  // ——— Section anchor nav (all four views) ———
+  // ——— Section anchor nav (all views: US + China, Bottoms + Tops) ———
   // Each view's two tables get a pair of small muted pill-buttons in
   // their section header rows: "Close to the band ↓ (N)" in the
   // Touching header (N = the Near section's live count) scrolls to
@@ -11340,7 +11417,11 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   [['sec-touch', 'sec-near'],
    ['sec-month-touch', 'sec-month-near'],
    ['sec-touch-t', 'sec-near-t'],
-   ['sec-month-touch-t', 'sec-month-near-t']].forEach(function(pair){
+   ['sec-month-touch-t', 'sec-month-near-t'],
+   ['sec-cn-touch', 'sec-cn-near'],
+   ['sec-cn-month-touch', 'sec-cn-month-near'],
+   ['sec-cn-touch-t', 'sec-cn-near-t'],
+   ['sec-cn-month-touch-t', 'sec-cn-month-near-t']].forEach(function(pair){
     var touchSec = document.getElementById(pair[0]);
     var nearSec = document.getElementById(pair[1]);
     if (!touchSec || !nearSec) return;
@@ -14664,11 +14745,18 @@ function buildRow(s, cfg){
     holders: 'Top holders are the 10 largest tradable shareholders each quarter; rows show the biggest quarter-on-quarter changes and Net is the institutional total. Net institutional buying above 0.1% of market cap earns the Backing score point; HKSCC (香港中央结算) is northbound money via Stock Connect.\n十大流通股东 = 每季度最大的 10 名流通股东；各行显示季度变动最大的股东，净额为机构变动合计。机构净买入超过市值的 0.1% 可得支持分；香港中央结算为经沪深港通的北向资金。',
     events: 'This lists recent trades by directors, supervisors and executives: who traded, the direction, shares, average price and date. Buying with their own money is the stronger signal.\n此处列出董监高近期交易：交易人、方向、股数、均价与日期。自掏腰包买入是更强的信号。'
   };
+  // Same custom-tooltip routing as the popup builder: CN_TIPS
+  // texts and the bilingual score tip go in data-cn-tip for the
+  // shared .cn-tip-pop bubble (readable 14px), never in a native
+  // title. mStat routes any title that is exactly a CN_TIPS text.
+  var CN_TIP_SET = {};
+  Object.keys(CN_TIPS).forEach(function(k){ CN_TIP_SET[CN_TIPS[k]] = true; });
+  function mCnTip(el, text){ if (el && text) el.setAttribute('data-cn-tip', text); }
 
   function mScorePill(s){
     var wrap = mEl('div', 'pop-score');
     if (mIsNum(s.score)) wrap.setAttribute('data-score', String(s.score));
-    wrap.title = s.ccy === 'CNY' ? cnTipTitle(s) : s.score_tip;
+    if (s.ccy === 'CNY') mCnTip(wrap, cnTipTitle(s)); else wrap.title = s.score_tip;
     wrap.appendChild(mEl('span', 'score-main', mIsNum(s.score) ? s.score + '/10' : '—'));
     return wrap;
   }
@@ -14734,7 +14822,7 @@ function buildRow(s, cfg){
   }
   function mStat(label, build, title){
     var row = mEl('div', 'pop-stat');
-    if (title) row.title = title;
+    if (title){ if (CN_TIP_SET[title]) row.setAttribute('data-cn-tip', title); else row.title = title; }
     row.appendChild(mEl('span', 'pop-stat-label', label));
     var val = mEl('div', 'pop-stat-val');
     build(val);
@@ -14901,7 +14989,7 @@ function buildRow(s, cfg){
       else rsi.appendChild(document.createTextNode(mF1(s.rsi)));
       rsi.appendChild(document.createTextNode(' '));
       rsi.appendChild(mEl('span', 'rsi-arrow rsi-arrow-' + dir[0], dir[1]));
-      if (hit.cn) rsi.title = CN_TIPS.rsi;
+      if (hit.cn) mCnTip(rsi, CN_TIPS.rsi);
       body.appendChild(rsi);
     }
     var flags = mFlagsRow(s, hit);
@@ -14946,7 +15034,7 @@ function buildRow(s, cfg){
     if (mIsNum(s.beta) && s.beta >= 1.5) betaLine.appendChild(mEl('span', 'beta-hi', s.beta.toFixed(2)));
     else if (mIsNum(s.beta)) betaLine.appendChild(document.createTextNode(s.beta.toFixed(2)));
     else betaLine.appendChild(mEl('span', 'beta-label', '—'));
-    if (hit.cn) betaLine.title = CN_TIPS.beta;
+    if (hit.cn) mCnTip(betaLine, CN_TIPS.beta);
     sp.appendChild(betaLine);
     // Fair value line directly under Beta (FAST Graphs; US rows
     // only — CN rows carry no fair_value, so nothing renders):
@@ -14996,7 +15084,7 @@ function buildRow(s, cfg){
       }
       if (mIsNum(s.pe_ttm_high)) val.appendChild(mEl('span', 'pop-sub', '(' + mF1(s.pe_ttm_high) + ' High)'));
     });
-    if (hit.cn) peStat.title = CN_TIPS.pe;
+    if (hit.cn) mCnTip(peStat, CN_TIPS.pe);
     var es = Array.isArray(s.earn_surprise) ? s.earn_surprise.filter(mIsNum) : [];
     var earnStat = mStat('Earnings', function(val){
       if (!es.length){ val.appendChild(document.createTextNode('—')); return; }
@@ -15009,7 +15097,7 @@ function buildRow(s, cfg){
       wrap.appendChild(dots);
       val.appendChild(wrap);
     });
-    if (hit.cn) earnStat.title = CN_TIPS.earn;
+    if (hit.cn) mCnTip(earnStat, CN_TIPS.earn);
     var valuation = mCol('Valuation', hit.cn ? [
       peStat,
       mAvgPe('Avg P/E 10y · 平均市盈率', s.pe10y, s.pe10y_years, 10, CN_TIPS.avgpe10),
@@ -15092,7 +15180,9 @@ function buildRow(s, cfg){
           return (ev.name || '') + (ev.role ? ' · ' + ev.role : '') + ' — ' + (ev.direction === 'buy' ? '买入 bought' : '卖出 sold') + ' ' + (mIsNum(ev.shares) ? ev.shares.toLocaleString('en-US') : '—') + ' 股' + (mIsNum(ev.avg_price) ? ' @ ¥' + ev.avg_price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '') + ' · ' + (ev.date || '');
         }).join('\n');
       }
-      if (!cnInsStatM.title) cnInsStatM.title = CN_TIPS.insiders; else cnInsStatM.title = CN_TIPS.insiders + '\n' + cnInsStatM.title;
+      var cnInsTipM = CN_TIPS.insiders; if (cnInsStatM.title) cnInsTipM = cnInsTipM + '\n' + cnInsStatM.title;
+      cnInsStatM.removeAttribute('title');
+      mCnTip(cnInsStatM, cnInsTipM);
     }
     var aLabel = 'Analysts' + (mIsNum(s.analyst_count) && s.analyst_count > 0 ? ' · ' + s.analyst_count : '');
     var aTxt = mIsNum(s.analyst_mean) ? mRatingWord(s) + ' (' + s.analyst_mean.toFixed(2) + ')' : '—';
@@ -15137,7 +15227,7 @@ function buildRow(s, cfg){
     netWrap.appendChild(mEl('span', 'f13-net-pill ' + (s.cn_inst_net_value >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.cn_inst_net_value < 0 ? '−' : '+') + mMoneyShort(s.cn_inst_net_value)));
     head.appendChild(netWrap);
     wrap.appendChild(head);
-    wrap.title = CN_TIPS.holders;
+    mCnTip(wrap, CN_TIPS.holders);
     var movers = holders.filter(function(h){ return h && mIsNum(h.change_shares) && h.change_shares !== 0; });
     movers.sort(function(a, b){ return Math.abs(b.change_shares) - Math.abs(a.change_shares); });
     if (!movers.length){
@@ -15246,7 +15336,7 @@ function buildRow(s, cfg){
     if (!evs.length) return null;
     var sec = mEl('div', 'pop-news');
     var evHead = mEl('div', 'pop-group-label', 'Insider trades · 董监高增减持');
-    evHead.title = CN_TIPS.events;
+    mCnTip(evHead, CN_TIPS.events);
     sec.appendChild(evHead);
     evs.forEach(function(ev){
       if (!ev) return;
@@ -15401,6 +15491,91 @@ function buildRow(s, cfg){
   // matches the single card's two-column layout); these remain
   // the mobile table cards' own builders.
   window.__MCARD__ = { buildFront: buildMFront, buildBack: buildMBack };
+})();
+</script>
+<script>
+(function(){
+  // ——— China card custom tooltip controller ———
+  // CN card stats (popup, compare and mobile cards) carry their
+  // bilingual explanation in a data-cn-tip attribute instead of a
+  // native title, whose font the browser controls and which
+  // renders too small to read. This drives one shared .cn-tip-pop
+  // bubble (styled in the CSS above at 14px from the theme
+  // variables): position:fixed so no card overflow can clip it,
+  // placed above the stat (below when there is no room) and
+  // clamped to the viewport. Desktop: hover shows it. Touch:
+  // tapping a stat toggles it — capture-phase, so the tap never
+  // reaches the card's tap-to-flip handler — and a tap anywhere
+  // else, a scroll, a resize or Esc dismisses it. In hover mode
+  // any click (e.g. the flip) dismisses it too.
+  var pop = null, anchor = null, lastTouch = false;
+  function ensure(){
+    if (pop) return pop;
+    pop = document.createElement('div');
+    pop.className = 'cn-tip-pop';
+    pop.setAttribute('role', 'tooltip');
+    document.body.appendChild(pop);
+    return pop;
+  }
+  function hide(){
+    anchor = null;
+    if (pop) pop.classList.remove('show');
+  }
+  function show(el){
+    var text = el.getAttribute('data-cn-tip');
+    if (!text){ hide(); return; }
+    ensure();
+    if (anchor === el && pop.classList.contains('show')) return;
+    anchor = el;
+    pop.textContent = text;
+    pop.style.visibility = 'hidden';
+    pop.classList.add('show');
+    var r = el.getBoundingClientRect();
+    var w = pop.offsetWidth, h = pop.offsetHeight;
+    var vw = window.innerWidth, vh = window.innerHeight;
+    var left = r.left + r.width / 2 - w / 2;
+    if (left < 8) left = 8;
+    if (left + w > vw - 8) left = Math.max(8, vw - w - 8);
+    var top = r.top - h - 8;
+    if (top < 8){
+      top = r.bottom + 8;
+      if (top + h > vh - 8) top = Math.max(8, vh - h - 8);
+    }
+    pop.style.left = left + 'px';
+    pop.style.top = top + 'px';
+    pop.style.visibility = '';
+  }
+  function tipTarget(e){
+    var t = e.target;
+    if (!t || !t.closest) return null;
+    return t.closest('[data-cn-tip]');
+  }
+  function tapMode(){
+    return lastTouch || (window.matchMedia && window.matchMedia('(hover: none)').matches);
+  }
+  document.addEventListener('pointerdown', function(e){
+    lastTouch = (e.pointerType === 'touch' || e.pointerType === 'pen');
+  }, true);
+  document.addEventListener('mouseover', function(e){
+    if (lastTouch) return;
+    var el = tipTarget(e);
+    if (el) show(el);
+    else if (anchor) hide();
+  });
+  document.addEventListener('click', function(e){
+    var el = tipTarget(e);
+    if (tapMode()){
+      if (el){
+        e.stopPropagation();
+        if (anchor === el) hide(); else show(el);
+      } else hide();
+    } else hide();
+  }, true);
+  document.addEventListener('scroll', hide, true);
+  window.addEventListener('resize', hide);
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' || e.keyCode === 27) hide();
+  });
 })();
 </script>
 </body>
