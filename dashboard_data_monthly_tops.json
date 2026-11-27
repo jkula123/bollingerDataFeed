@@ -538,9 +538,9 @@
    "beta": 0.19,
    "fv_growth": -2.8,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 49.49,
-   "fv_pct": 472.9
+   "fair_pe": 5.0,
+   "fair_value": 29.11,
+   "fv_pct": 874.0
   },
   {
    "ticker": "ABNB",
@@ -1961,9 +1961,9 @@
    "beta": 0.09,
    "fv_growth": -5.4,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 19.63,
-   "fv_pct": 1158.8
+   "fair_pe": 5.0,
+   "fair_value": 11.55,
+   "fv_pct": 2040.0
   },
   {
    "ticker": "BRK-B",
@@ -6909,9 +6909,9 @@
    "beta": 1.06,
    "fv_growth": -0.5,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 57.03,
-   "fv_pct": 212.9
+   "fair_pe": 7.5,
+   "fair_value": 50.32,
+   "fv_pct": 254.7
   },
   {
    "ticker": "MRNA",
@@ -8067,9 +8067,9 @@
    "beta": 0.83,
    "fv_growth": -2.0,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 92.96,
-   "fv_pct": 29.4
+   "fair_pe": 5.0,
+   "fair_value": 54.68,
+   "fv_pct": 120.0
   },
   {
    "ticker": "PSA",
@@ -8778,9 +8778,9 @@
    "beta": 1.16,
    "fv_growth": -7.5,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 47.41,
-   "fv_pct": 127.1
+   "fair_pe": 5.0,
+   "fair_value": 27.89,
+   "fv_pct": 286.0
   },
   {
    "ticker": "TGT",
