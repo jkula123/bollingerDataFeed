@@ -202,7 +202,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "000963.SZ scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) sold \u00a5954.3M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_tip": "000963.SZ scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5954.3M last quarter (bar: >\u00a542.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -386,7 +386,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "002049.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -23; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5419.2M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "002049.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -23; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5419.2M last quarter (bar: >\u00a541.6M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -572,7 +572,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "002594.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 0; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.11B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.57 from 18 analysts); their average target is \u00a5103.33, 36% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "002594.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 0; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a5694.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.57 from 18 analysts); their average target is \u00a5103.33, 36% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -748,7 +748,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "002625.SZ scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -85; strong is over 40); not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a566.3M net last quarter).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
+   "score_tip": "002625.SZ scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -85; strong is over 40); not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a566.3M last quarter (bar: >\u00a539.5M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
    "score_raw": 0
   },
   {
@@ -933,7 +933,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "600905.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -33; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a599.3M net last quarter).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-30.0% vs what analysts expected); burning cash (free cash flow is negative) and growth plus profit margins are negative; debt is high and interest cover is thin (2.2\u00d7).\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_tip": "600905.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -33; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a599.3M last quarter (bar: >\u00a590.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-30.0% vs what analysts expected); burning cash (free cash flow is negative) and growth plus profit margins are negative; debt is high and interest cover is thin (2.2\u00d7).\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -1197,7 +1197,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601229.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 52).\nBacking (1/2): executive buying and selling roughly balanced (\u00a53.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) added \u00a5492.0M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 5 analysts); their average target is \u00a59.76, 15% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601229.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 52).\nBacking (1/2): executive buying and selling roughly balanced (\u00a53.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) net bought \u00a5492.0M last quarter (bar: >\u00a5121.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 5 analysts); their average target is \u00a59.76, 15% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -1380,7 +1380,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601238.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -6; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 31).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) sold \u00a5140.7M last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.44 from 9 analysts); their average target is \u00a54.99, 12% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
+   "score_tip": "601238.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -6; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 31).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5140.7M last quarter (bar: >\u00a545.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.44 from 9 analysts); their average target is \u00a54.99, 12% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
    "score_raw": 0
   },
   {
@@ -1559,7 +1559,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601360.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -28; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5492.1M last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.00 from 2 analysts); their average target is \u00a58.75, 16% above the price; only 2 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601360.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -28; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 38).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5492.1M last quarter (bar: >\u00a552.9M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.00 from 2 analysts); their average target is \u00a58.75, 16% above the price; only 2 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -1742,7 +1742,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601633.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 30).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a513.5M net last quarter).\nSentiment (0/2): analysts rate it a Buy on average (2.38 from 13 analysts); their average target is \u00a514.56, 17% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_tip": "601633.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 30).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a513.5M net last quarter) (bar: >\u00a5106.8M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.38 from 13 analysts); their average target is \u00a514.56, 17% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -1917,7 +1917,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601878.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a53.5M net last quarter).\nSentiment (0/2): analysts rate it a Buy on average (2.00 from 1 analysts); their average target is \u00a513.30, 56% above the price; only 1 analysts cover it, so the rating counts for less; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 12.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
+   "score_tip": "601878.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a53.5M net last quarter) (bar: >\u00a538.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.00 from 1 analysts); their average target is \u00a513.30, 56% above the price; only 1 analysts cover it, so the rating counts for less; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 12.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
    "score_raw": 0
   },
   {
@@ -2094,7 +2094,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601995.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): no growth or cash-flow figures reported, so this can't be scored.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5486.5M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_tip": "601995.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): no growth or cash-flow figures reported, so this can't be scored.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5486.5M last quarter (bar: >\u00a5210.7M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -2276,7 +2276,7 @@ window.__BOLLINGER_CN_MONTHLY__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "603260.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -3; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a564.5M net last quarter).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-333.5% vs what analysts expected); growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -1.4\u00d7).\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
+   "score_tip": "603260.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -3; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a564.5M last quarter (bar: >\u00a529.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-333.5% vs what analysts expected); growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -1.4\u00d7).\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
    "score_raw": 0
   }
  ],
