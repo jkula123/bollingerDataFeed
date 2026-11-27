@@ -205,7 +205,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Mixed",
-   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 51).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a55.67B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 4/7).",
+   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 51).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.67B last quarter (bar: >\u00a5237.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 4/7).",
    "score_raw": 4
   },
   {
@@ -395,7 +395,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Mixed",
-   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.27B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
+   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.27B last quarter (bar: >\u00a5709.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
    "score_raw": 3
   },
   {
@@ -584,7 +584,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "002422.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 3; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5423.3M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 36.3 vs its sector median of 27.9, forward P/E 30.0.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "002422.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 3; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5423.3M last quarter (bar: >\u00a571.7M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 36.3 vs its sector median of 27.9, forward P/E 30.0.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -773,7 +773,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "300628.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.57B last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "300628.SZ scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.57B last quarter (bar: >\u00a554.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -962,9 +962,8 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "600018.SS scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5717.3M last quarter.\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
-   "score_raw": 2,
-   "is_new": true
+   "score_tip": "600018.SS scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5717.3M last quarter (bar: >\u00a5137.4M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_raw": 2
   },
   {
    "ticker": "600025.SS",
@@ -1153,7 +1152,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600025.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5640.8M last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its sector median of 24.0, forward P/E 23.5.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "600025.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5640.8M last quarter (bar: >\u00a5213.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its sector median of 24.0, forward P/E 23.5.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -1343,7 +1342,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600674.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.11B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 5 analysts); their average target is \u00a519.11, 4% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "600674.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a589.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 5 analysts); their average target is \u00a519.11, 4% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -1533,7 +1532,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600886.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a52.60B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a516.16, 1% below the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "600886.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.60B last quarter (bar: >\u00a5130.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a516.16, 1% below the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -1723,7 +1722,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600887.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a53.32B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.43, 9% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "600887.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.32B last quarter (bar: >\u00a5206.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.43, 9% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -1906,15 +1905,15 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     "change_pct": 6.1
    },
    "cn_inst_net_value": 634093217,
-   "score": 3,
+   "score": 1,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 1,
+   "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600900.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5634.1M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
-   "score_raw": 2
+   "score_tip": "600900.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a5634.1M net last quarter) (bar: >\u00a5763.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_raw": 1
   },
   {
    "ticker": "600919.SS",
@@ -2090,7 +2089,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a52.05B last quarter.\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.05B last quarter (bar: >\u00a5247.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -2272,7 +2271,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.39B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.39B last quarter (bar: >\u00a5161.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -2462,7 +2461,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601088.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.04B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601088.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.04B last quarter (bar: >\u00a51.10B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -2643,7 +2642,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.92B last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.92B last quarter (bar: >\u00a5797.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -2825,7 +2824,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a54.77B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.77B last quarter (bar: >\u00a53.24B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -3083,7 +3082,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
+   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a592.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 0/7).",
    "score_raw": 0
   },
   {
@@ -3264,7 +3263,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter) (bar: >\u00a589.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -3452,7 +3451,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Mixed",
-   "score_tip": "601919.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 30; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a55.02B last quarter.\nSentiment (0/2): analysts rate it a Hold on average (3.10 from 8 analysts); their average target is \u00a517.96, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
+   "score_tip": "601919.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 30; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.02B last quarter (bar: >\u00a593.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.10 from 8 analysts); their average target is \u00a517.96, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
    "score_raw": 3
   },
   {
@@ -3626,15 +3625,15 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
     "change_pct": 20.2
    },
    "cn_inst_net_value": 1867716963,
-   "score": 3,
+   "score": 1,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 1,
+   "score_b": 0,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601939.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.87B last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
-   "score_raw": 2
+   "score_tip": "601939.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.87B net last quarter) (bar: >\u00a53.25B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_raw": 1
   },
   {
    "ticker": "601985.SS",
@@ -3823,7 +3822,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a5451.6M last quarter.\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its sector median of 24.0, forward P/E 22.4.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
+   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5451.6M last quarter (bar: >\u00a5203.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its sector median of 24.0, forward P/E 22.4.\nChina score scaled to /10 from the 7 measurable points (raw 2/7).",
    "score_raw": 2
   },
   {
@@ -4003,7 +4002,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601988.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a53.80B last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
+   "score_tip": "601988.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.80B last quarter (bar: >\u00a52.36B = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 3% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 1/7).",
    "score_raw": 1
   },
   {
@@ -4185,7 +4184,7 @@ window.__BOLLINGER_CN_MONTHLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Mixed",
-   "score_tip": "601998.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) added \u00a51.12B last quarter.\nSentiment (0/2): analysts rate it a Buy on average (2.23 from 9 analysts); their average target is \u00a59.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
+   "score_tip": "601998.SS scores 4/10 \u2014 Mixed.\nValue (1/2): not enough P/E history to compare against; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.12B last quarter (bar: >\u00a5528.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.23 from 9 analysts); their average target is \u00a59.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 7 measurable points (raw 3/7).",
    "score_raw": 3
   }
  ],
