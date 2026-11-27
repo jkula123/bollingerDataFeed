@@ -556,9 +556,9 @@
    ],
    "fv_growth": -0.7,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 33.21,
-   "fv_pct": 42.4
+   "fair_pe": 7.1,
+   "fair_value": 27.74,
+   "fv_pct": 70.4
   },
   {
    "ticker": "ADBE",
@@ -1344,9 +1344,9 @@
    ],
    "fv_growth": -10.4,
    "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 82.27,
-   "fv_pct": 100.0
+   "fair_pe": 5.0,
+   "fair_value": 48.39,
+   "fv_pct": 240.0
   },
   {
    "ticker": "NFLX",
