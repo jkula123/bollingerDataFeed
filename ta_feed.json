@@ -319,6 +319,10 @@
      },
      "support": 216.9499969482422,
      "resistance": 257.1400146484375,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 47 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 price 56% below fair value; P/E cheap vs own history/sector",
      "turnaround": null,
@@ -352,13 +356,7 @@
      },
      "fvg": {
       "weekly": {
-       "below": {
-        "low": 203.48,
-        "high": 212.9,
-        "partial": true,
-        "filled_pct": 21,
-        "bars_ago": 20
-       },
+       "below": null,
        "above": {
         "low": 303.84,
         "high": 327.44,
@@ -368,13 +366,7 @@
        }
       },
       "daily": {
-       "below": {
-        "low": 224.58,
-        "high": 227.71,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 1
-       },
+       "below": null,
        "above": {
         "low": 234.96,
         "high": 242.84,
@@ -444,13 +436,7 @@
       },
       "fvg": {
        "weekly": {
-        "below": {
-         "low": 203.48,
-         "high": 212.9,
-         "partial": true,
-         "filled_pct": 21,
-         "bars_ago": 20
-        },
+        "below": null,
         "above": {
          "low": 303.84,
          "high": 327.44,
@@ -460,13 +446,7 @@
         }
        },
        "daily": {
-        "below": {
-         "low": 224.58,
-         "high": 227.71,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 1
-        },
+        "below": null,
         "above": {
          "low": 234.96,
          "high": 242.84,
@@ -509,6 +489,10 @@
      },
      "support": 370.3999938964844,
      "resistance": 594.0,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly no weekly trend, daily RSI 41 weak",
      "fundamentals_note": "confirm \u2014 insiders net sold $107M (3mo); 13F net selling $1.07B; price 146% above fair value",
      "turnaround": null,
@@ -692,6 +676,10 @@
      },
      "support": 229.36000061035156,
      "resistance": 275.3399963378906,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly uptrend intact, daily RSI 49 mid-range",
      "fundamentals_note": "lean positive \u2014 13F net buying $691M; price 24% below fair value; P/E cheap vs own history/sector",
      "turnaround": null,
@@ -838,6 +826,7 @@
      "macd_sign": null,
      "support": null,
      "resistance": null,
+     "sr_near": null,
      "rationale": "",
      "turnaround": null,
      "sell_zone": null,
@@ -870,6 +859,10 @@
      },
      "support": 143.5500030517578,
      "resistance": 231.99000549316406,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 42 weak, daily MACD turning up",
      "fundamentals_note": "confirm \u2014 price 375% above fair value; P/E expensive vs own history/sector",
      "turnaround": null,
@@ -904,13 +897,7 @@
      "fvg": {
       "weekly": {
        "below": null,
-       "above": {
-        "low": 236.59,
-        "high": 265.6,
-        "partial": true,
-        "filled_pct": 4,
-        "bars_ago": 5
-       }
+       "above": null
       },
       "daily": {
        "below": null,
@@ -991,13 +978,7 @@
       "fvg": {
        "weekly": {
         "below": null,
-        "above": {
-         "low": 236.59,
-         "high": 265.6,
-         "partial": true,
-         "filled_pct": 4,
-         "bars_ago": 5
-        }
+        "above": null
        },
        "daily": {
         "below": null,
@@ -1043,6 +1024,10 @@
      },
      "support": 278.0,
      "resistance": 369.82000732421875,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 45 weak",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": null,
@@ -1077,13 +1062,7 @@
      "fvg": {
       "weekly": {
        "below": null,
-       "above": {
-        "low": 376.59,
-        "high": 388.5,
-        "partial": true,
-        "filled_pct": 36,
-        "bars_ago": 13
-       }
+       "above": null
       },
       "daily": {
        "below": null,
@@ -1162,13 +1141,7 @@
       "fvg": {
        "weekly": {
         "below": null,
-        "above": {
-         "low": 376.59,
-         "high": 388.5,
-         "partial": true,
-         "filled_pct": 36,
-         "bars_ago": 13
-        }
+        "above": null
        },
        "daily": {
         "below": null,
@@ -1214,6 +1187,10 @@
      },
      "support": 300.8999938964844,
      "resistance": 343.8900146484375,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 51 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 insiders net sold $38M (3mo); P/E expensive vs own history/sector",
      "turnaround": null,
@@ -1251,13 +1228,7 @@
        "above": null
       },
       "daily": {
-       "below": {
-        "low": 311.09,
-        "high": 314.52,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 0
-       },
+       "below": null,
        "above": null
       },
       "4h": {
@@ -1325,13 +1296,7 @@
         "above": null
        },
        "daily": {
-        "below": {
-         "low": 311.09,
-         "high": 314.52,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 0
-        },
+        "below": null,
         "above": null
        },
        "4h": {
@@ -1341,7 +1306,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -1368,6 +1333,10 @@
      },
      "support": 155.55999755859375,
      "resistance": 179.19000244140625,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 44 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 13F net buying $352M; P/E cheap vs own history/sector; \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udca7 diluting shareholders",
      "turnaround": null,
@@ -1413,11 +1382,11 @@
       "daily": {
        "below": null,
        "above": {
-        "low": 168.2,
-        "high": 169.56,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 7
+        "low": 170.2,
+        "high": 186.08,
+        "partial": true,
+        "filled_pct": 57,
+        "bars_ago": 21
        }
       },
       "4h": {
@@ -1498,11 +1467,11 @@
        "daily": {
         "below": null,
         "above": {
-         "low": 168.2,
-         "high": 169.56,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 7
+         "low": 170.2,
+         "high": 186.08,
+         "partial": true,
+         "filled_pct": 57,
+         "bars_ago": 21
         }
        },
        "4h": {
@@ -1512,7 +1481,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -1539,6 +1508,10 @@
      },
      "support": 136.8800048828125,
      "resistance": 229.5,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 42 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": {
@@ -1579,30 +1552,12 @@
      },
      "fvg": {
       "weekly": {
-       "below": {
-        "low": 98.85,
-        "high": 128.45,
-        "partial": true,
-        "filled_pct": 40,
-        "bars_ago": 45
-       },
-       "above": {
-        "low": 241.37,
-        "high": 264.5,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 5
-       }
+       "below": null,
+       "above": null
       },
       "daily": {
        "below": null,
-       "above": {
-        "low": 155.54,
-        "high": 165.3,
-        "partial": true,
-        "filled_pct": 78,
-        "bars_ago": 1
-       }
+       "above": null
       },
       "4h": {
        "below": null,
@@ -1672,30 +1627,12 @@
       },
       "fvg": {
        "weekly": {
-        "below": {
-         "low": 98.85,
-         "high": 128.45,
-         "partial": true,
-         "filled_pct": 40,
-         "bars_ago": 45
-        },
-        "above": {
-         "low": 241.37,
-         "high": 264.5,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 5
-        }
+        "below": null,
+        "above": null
        },
        "daily": {
         "below": null,
-        "above": {
-         "low": 155.54,
-         "high": 165.3,
-         "partial": true,
-         "filled_pct": 78,
-         "bars_ago": 1
-        }
+        "above": null
        },
        "4h": {
         "below": null,
@@ -1704,7 +1641,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -1731,6 +1668,10 @@
      },
      "support": 11.729999542236328,
      "resistance": 22.389999389648438,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 33 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders",
      "turnaround": {
@@ -1773,22 +1714,16 @@
      "fvg": {
       "weekly": {
        "below": null,
-       "above": {
-        "low": 15.6,
-        "high": 17.22,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 0
-       }
+       "above": null
       },
       "daily": {
        "below": null,
        "above": {
-        "low": 13.61,
-        "high": 14.23,
+        "low": 19.14,
+        "high": 20.5,
         "partial": true,
-        "filled_pct": 61,
-        "bars_ago": 1
+        "filled_pct": 24,
+        "bars_ago": 14
        }
       },
       "4h": {
@@ -1855,22 +1790,16 @@
       "fvg": {
        "weekly": {
         "below": null,
-        "above": {
-         "low": 15.6,
-         "high": 17.22,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 0
-        }
+        "above": null
        },
        "daily": {
         "below": null,
         "above": {
-         "low": 13.61,
-         "high": 14.23,
+         "low": 19.14,
+         "high": 20.5,
          "partial": true,
-         "filled_pct": 61,
-         "bars_ago": 1
+         "filled_pct": 24,
+         "bars_ago": 14
         }
        },
        "4h": {
@@ -1879,8 +1808,8 @@
        }
       },
       "fvg_near": {
-       "weekly": true,
-       "daily": true,
+       "weekly": false,
+       "daily": false,
        "4h": false
       }
      },
@@ -1907,6 +1836,10 @@
      },
      "support": 230.52999877929688,
      "resistance": 284.9700012207031,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 40 weak, daily MACD deteriorating",
      "fundamentals_note": "mixed \u2014 no strong fundamental signals",
      "turnaround": null,
@@ -1946,11 +1879,11 @@
       "daily": {
        "below": null,
        "above": {
-        "low": 239.08,
-        "high": 248.48,
+        "low": 249.56,
+        "high": 261.75,
         "partial": true,
-        "filled_pct": 33,
-        "bars_ago": 1
+        "filled_pct": 65,
+        "bars_ago": 4
        }
       },
       "4h": {
@@ -2020,11 +1953,11 @@
        "daily": {
         "below": null,
         "above": {
-         "low": 239.08,
-         "high": 248.48,
+         "low": 249.56,
+         "high": 261.75,
          "partial": true,
-         "filled_pct": 33,
-         "bars_ago": 1
+         "filled_pct": 65,
+         "bars_ago": 4
         }
        },
        "4h": {
@@ -2034,7 +1967,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -2061,6 +1994,10 @@
      },
      "support": 27.59000015258789,
      "resistance": 33.689998626708984,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly no weekly trend, daily RSI 51 mid-range",
      "fundamentals_note": "mixed \u2014 \ud83d\udca7 diluting shareholders",
      "turnaround": null,
@@ -2096,11 +2033,11 @@
       "weekly": {
        "below": null,
        "above": {
-        "low": 30.29,
-        "high": 31.63,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 0
+        "low": 35.89,
+        "high": 40.83,
+        "partial": true,
+        "filled_pct": 31,
+        "bars_ago": 34
        }
       },
       "daily": {
@@ -2181,11 +2118,11 @@
        "weekly": {
         "below": null,
         "above": {
-         "low": 30.29,
-         "high": 31.63,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 0
+         "low": 35.89,
+         "high": 40.83,
+         "partial": true,
+         "filled_pct": 31,
+         "bars_ago": 34
         }
        },
        "daily": {
@@ -2204,7 +2141,7 @@
        }
       },
       "fvg_near": {
-       "weekly": true,
+       "weekly": false,
        "daily": true,
        "4h": false
       }
@@ -2232,6 +2169,10 @@
      },
      "support": 179.9199981689453,
      "resistance": 234.6199951171875,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 40 weak, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $1.90B; price 53% below fair value",
      "turnaround": null,
@@ -2265,29 +2206,11 @@
      },
      "fvg": {
       "weekly": {
-       "below": {
-        "low": 175.39,
-        "high": 183.0,
-        "partial": true,
-        "filled_pct": 40,
-        "bars_ago": 16
-       },
-       "above": {
-        "low": 200.39,
-        "high": 208.88,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 0
-       }
+       "below": null,
+       "above": null
       },
       "daily": {
-       "below": {
-        "low": 185.83,
-        "high": 188.2,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 1
-       },
+       "below": null,
        "above": {
         "low": 193.5,
         "high": 213.57,
@@ -2357,29 +2280,11 @@
       },
       "fvg": {
        "weekly": {
-        "below": {
-         "low": 175.39,
-         "high": 183.0,
-         "partial": true,
-         "filled_pct": 40,
-         "bars_ago": 16
-        },
-        "above": {
-         "low": 200.39,
-         "high": 208.88,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 0
-        }
+        "below": null,
+        "above": null
        },
        "daily": {
-        "below": {
-         "low": 185.83,
-         "high": 188.2,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 1
-        },
+        "below": null,
         "above": {
          "low": 193.5,
          "high": 213.57,
@@ -2394,7 +2299,7 @@
        }
       },
       "fvg_near": {
-       "weekly": true,
+       "weekly": false,
        "daily": true,
        "4h": false
       }
@@ -2422,6 +2327,10 @@
      },
      "support": 37.0,
      "resistance": 46.33000183105469,
+     "sr_near": {
+      "support": false,
+      "resistance": true
+     },
      "rationale": "weekly no weekly trend, daily RSI 62 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
      "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt; P/E expensive vs own history/sector",
      "turnaround": null,
@@ -2561,6 +2470,10 @@
      },
      "support": 260.6919860839844,
      "resistance": 301.6199951171875,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 37 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; 13F net selling $462M",
      "turnaround": null,
@@ -2594,13 +2507,7 @@
      },
      "fvg": {
       "weekly": {
-       "below": {
-        "low": 257.58,
-        "high": 264.94,
-        "partial": true,
-        "filled_pct": 58,
-        "bars_ago": 56
-       },
+       "below": null,
        "above": {
         "low": 294.4,
         "high": 316.99,
@@ -2677,13 +2584,7 @@
       },
       "fvg": {
        "weekly": {
-        "below": {
-         "low": 257.58,
-         "high": 264.94,
-         "partial": true,
-         "filled_pct": 58,
-         "bars_ago": 56
-        },
+        "below": null,
         "above": {
          "low": 294.4,
          "high": 316.99,
@@ -2708,7 +2609,7 @@
        }
       },
       "fvg_near": {
-       "weekly": true,
+       "weekly": false,
        "daily": false,
        "4h": false
       }
@@ -2736,6 +2637,10 @@
      },
      "support": 2.680000066757202,
      "resistance": 3.559999942779541,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 42 weak",
      "fundamentals_note": "mixed \u2014 insiders net bought $26M (3mo); \ud83d\udca7 diluting shareholders",
      "turnaround": null,
@@ -2899,6 +2804,10 @@
      },
      "support": 558.6799926757812,
      "resistance": 648.4500122070312,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 50 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 13F net buying $1.04B; insiders net sold $119M (3mo)",
      "turnaround": null,
@@ -3080,6 +2989,10 @@
      },
      "support": 75.5999984741211,
      "resistance": 178.3300018310547,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 35 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \u2702\ufe0f buyback shrinking share count; \ud83e\udea4 TRAP flag; insiders net sold $144M (3mo); 13F net selling $781M",
      "turnaround": {
@@ -3132,11 +3045,11 @@
       "daily": {
        "below": null,
        "above": {
-        "low": 87.26,
-        "high": 95.73,
-        "partial": true,
-        "filled_pct": 32,
-        "bars_ago": 1
+        "low": 123.97,
+        "high": 147.36,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 9
        }
       },
       "4h": {
@@ -3214,11 +3127,11 @@
        "daily": {
         "below": null,
         "above": {
-         "low": 87.26,
-         "high": 95.73,
-         "partial": true,
-         "filled_pct": 32,
-         "bars_ago": 1
+         "low": 123.97,
+         "high": 147.36,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 9
         }
        },
        "4h": {
@@ -3228,7 +3141,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -3255,6 +3168,10 @@
      },
      "support": 5.659999847412109,
      "resistance": 7.599999904632568,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udcb8 burning cash",
      "turnaround": null,
@@ -3421,6 +3338,10 @@
      },
      "support": 56.560001373291016,
      "resistance": 67.48999786376953,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 45 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 13F net buying $154M; price 34% below fair value; P/E cheap vs own history/sector",
      "turnaround": null,
@@ -3587,6 +3508,10 @@
      },
      "support": 86.8499984741211,
      "resistance": 121.5,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 32 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 13F net buying $141M",
      "turnaround": null,
@@ -3753,6 +3678,10 @@
      },
      "support": 124.5,
      "resistance": 215.3300018310547,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 38 weak",
      "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $958M; price 38% below fair value; insiders net sold $964M (3mo)",
      "turnaround": null,
@@ -3924,6 +3853,10 @@
      },
      "support": 37.75,
      "resistance": 43.2400016784668,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 55 firm, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "lean positive \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector",
      "turnaround": null,
@@ -3959,11 +3892,11 @@
       "weekly": {
        "below": null,
        "above": {
-        "low": 43.71,
-        "high": 44.95,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 10
+        "low": 51.09,
+        "high": 58.59,
+        "partial": true,
+        "filled_pct": 14,
+        "bars_ago": 41
        }
       },
       "daily": {
@@ -4042,11 +3975,11 @@
        "weekly": {
         "below": null,
         "above": {
-         "low": 43.71,
-         "high": 44.95,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 10
+         "low": 51.09,
+         "high": 58.59,
+         "partial": true,
+         "filled_pct": 14,
+         "bars_ago": 41
         }
        },
        "daily": {
@@ -4099,6 +4032,10 @@
      },
      "support": 3.4800000190734863,
      "resistance": 7.079999923706055,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 36 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \ud83d\udca7 diluting shareholders",
      "turnaround": {
@@ -4140,22 +4077,16 @@
      "fvg": {
       "weekly": {
        "below": null,
-       "above": {
-        "low": 4.43,
-        "high": 5.02,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 0
-       }
+       "above": null
       },
       "daily": {
        "below": null,
        "above": {
-        "low": 4.71,
-        "high": 5.02,
+        "low": 5.32,
+        "high": 5.65,
         "partial": false,
         "filled_pct": 0,
-        "bars_ago": 7
+        "bars_ago": 9
        }
       },
       "4h": {
@@ -4225,22 +4156,16 @@
       "fvg": {
        "weekly": {
         "below": null,
-        "above": {
-         "low": 4.43,
-         "high": 5.02,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 0
-        }
+        "above": null
        },
        "daily": {
         "below": null,
         "above": {
-         "low": 4.71,
-         "high": 5.02,
+         "low": 5.32,
+         "high": 5.65,
          "partial": false,
          "filled_pct": 0,
-         "bars_ago": 7
+         "bars_ago": 9
         }
        },
        "4h": {
@@ -4249,7 +4174,7 @@
        }
       },
       "fvg_near": {
-       "weekly": true,
+       "weekly": false,
        "daily": false,
        "4h": false
       }
@@ -4277,6 +4202,10 @@
      },
      "support": 99.33999633789062,
      "resistance": 144.61000061035156,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 41 weak",
      "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; 13F net selling $271M",
      "turnaround": null,
@@ -4322,11 +4251,11 @@
       "daily": {
        "below": null,
        "above": {
-        "low": 105.57,
-        "high": 112.28,
+        "low": 126.5,
+        "high": 136.59,
         "partial": true,
-        "filled_pct": 29,
-        "bars_ago": 1
+        "filled_pct": 42,
+        "bars_ago": 18
        }
       },
       "4h": {
@@ -4402,11 +4331,11 @@
        "daily": {
         "below": null,
         "above": {
-         "low": 105.57,
-         "high": 112.28,
+         "low": 126.5,
+         "high": 136.59,
          "partial": true,
-         "filled_pct": 29,
-         "bars_ago": 1
+         "filled_pct": 42,
+         "bars_ago": 18
         }
        },
        "4h": {
@@ -4416,7 +4345,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -4443,6 +4372,10 @@
      },
      "support": 10.880000114440918,
      "resistance": 14.029999732971191,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly no weekly trend, daily RSI 49 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; insiders net sold $39M (3mo)",
      "turnaround": null,
@@ -4614,6 +4547,10 @@
      },
      "support": 142.27999877929688,
      "resistance": 198.50999450683594,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly uptrend intact, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 insiders net sold $104M (3mo); \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": null,
@@ -4654,23 +4591,11 @@
         "filled_pct": 73,
         "bars_ago": 15
        },
-       "above": {
-        "low": 175.41,
-        "high": 180.81,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 2
-       }
+       "above": null
       },
       "daily": {
        "below": null,
-       "above": {
-        "low": 176.54,
-        "high": 180.81,
-        "partial": true,
-        "filled_pct": 21,
-        "bars_ago": 17
-       }
+       "above": null
       },
       "4h": {
        "below": null,
@@ -4743,23 +4668,11 @@
          "filled_pct": 73,
          "bars_ago": 15
         },
-        "above": {
-         "low": 175.41,
-         "high": 180.81,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 2
-        }
+        "above": null
        },
        "daily": {
         "below": null,
-        "above": {
-         "low": 176.54,
-         "high": 180.81,
-         "partial": true,
-         "filled_pct": 21,
-         "bars_ago": 17
-        }
+        "above": null
        },
        "4h": {
         "below": null,
@@ -4768,7 +4681,7 @@
       },
       "fvg_near": {
        "weekly": true,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -4795,6 +4708,10 @@
      },
      "support": 84.59500122070312,
      "resistance": 131.88999938964844,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 38 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 insiders net sold $26M (3mo); 13F net selling $231M; \ud83d\udca7 diluting shareholders",
      "turnaround": null,
@@ -4963,6 +4880,10 @@
      },
      "support": 21.020000457763672,
      "resistance": 35.849998474121094,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 38 weak, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; price 86% below fair value; P/E cheap vs own history/sector; \ud83d\udca7 diluting shareholders",
      "turnaround": {
@@ -5141,6 +5062,10 @@
      },
      "support": 11.949999809265137,
      "resistance": 17.739999771118164,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 38 weak",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": null,
@@ -5312,6 +5237,10 @@
      },
      "support": 63.290000915527344,
      "resistance": 72.5,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 46 mid-range",
      "fundamentals_note": "mixed \u2014 insiders net bought $11M (3mo); P/E expensive vs own history/sector",
      "turnaround": null,
@@ -5346,22 +5275,10 @@
      "fvg": {
       "weekly": {
        "below": null,
-       "above": {
-        "low": 72.8,
-        "high": 74.62,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 10
-       }
+       "above": null
       },
       "daily": {
-       "below": {
-        "low": 65.73,
-        "high": 66.45,
-        "partial": false,
-        "filled_pct": 0,
-        "bars_ago": 0
-       },
+       "below": null,
        "above": {
         "low": 73.1,
         "high": 75.21,
@@ -5432,22 +5349,10 @@
       "fvg": {
        "weekly": {
         "below": null,
-        "above": {
-         "low": 72.8,
-         "high": 74.62,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 10
-        }
+        "above": null
        },
        "daily": {
-        "below": {
-         "low": 65.73,
-         "high": 66.45,
-         "partial": false,
-         "filled_pct": 0,
-         "bars_ago": 0
-        },
+        "below": null,
         "above": {
          "low": 73.1,
          "high": 75.21,
@@ -5463,7 +5368,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
@@ -5490,6 +5395,10 @@
      },
      "support": 259.25,
      "resistance": 316.20001220703125,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly uptrend intact, daily RSI 35 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M",
      "turnaround": null,
@@ -5668,6 +5577,10 @@
      },
      "support": 11.220000267028809,
      "resistance": 15.119999885559082,
+     "sr_near": {
+      "support": false,
+      "resistance": false
+     },
      "rationale": "weekly downtrend, daily RSI 44 weak",
      "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; insiders net sold $56M (3mo)",
      "turnaround": null,
@@ -5831,6 +5744,10 @@
      },
      "support": 43.61000061035156,
      "resistance": 47.939998626708984,
+     "sr_near": {
+      "support": false,
+      "resistance": true
+     },
      "rationale": "weekly uptrend intact, daily RSI 63 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
      "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt",
      "turnaround": null,
@@ -5874,13 +5791,7 @@
        "above": null
       },
       "daily": {
-       "below": {
-        "low": 46.58,
-        "high": 47.28,
-        "partial": true,
-        "filled_pct": 20,
-        "bars_ago": 1
-       },
+       "below": null,
        "above": {
         "low": 48.19,
         "high": 49.33,
@@ -5970,13 +5881,7 @@
         "above": null
        },
        "daily": {
-        "below": {
-         "low": 46.58,
-         "high": 47.28,
-         "partial": true,
-         "filled_pct": 20,
-         "bars_ago": 1
-        },
+        "below": null,
         "above": {
          "low": 48.19,
          "high": 49.33,
@@ -5992,7 +5897,7 @@
       },
       "fvg_near": {
        "weekly": false,
-       "daily": true,
+       "daily": false,
        "4h": false
       }
      },
