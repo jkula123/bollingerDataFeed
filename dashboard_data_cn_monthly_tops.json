@@ -1,6 +1,6 @@
 {
  "read_type": "intra-month",
- "check_date": "2026-11-27",
+ "check_date": "2026-11-28",
  "as_of": "Nov 2026 (in progress)",
  "confirmed_as_of": "Oct 2026 close",
  "confirmed_touching": [
@@ -24,7 +24,7 @@
   "600887.SS",
   "601009.SS"
  ],
- "next_update": "Next check: 28 Nov 2026 (intra-month); confirmed check 1 Dec 2026",
+ "next_update": "Next check: 01 Dec 2026 (confirmed check, November close)",
  "stocks": [
   {
    "ticker": "000001.SZ",
@@ -41,7 +41,7 @@
    "overbought": false,
    "vol_ratio": 1.05,
    "market_cap": 237334364160,
-   "pe": 5.7,
+   "pe": 5.8,
    "forward_pe": 5.5,
    "forward_pe_2y": 5.3,
    "ps": 2.58,
@@ -65,14 +65,14 @@
    "pe15y_years": 15,
    "pe10y": 6.8,
    "pe10y_years": 10,
-   "pe15y_vs": -15,
+   "pe15y_vs": -13,
    "fcf_ttm": 524412000000,
    "fcf_qoq": 12.0,
    "fcf_yoy": 501.6,
    "ttm_high": 12.51,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -2,
-   "pe_ttm_high": 5.8,
+   "pe_ttm_high": 5.9,
    "spark": [
     11.49,
     11.45,
@@ -111,8 +111,8 @@
    "screaming_sell": false,
    "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": -14.9,
-   "pe_vs_sector_pct": -34.5,
+   "pe_vs_own_pct": -13.4,
+   "pe_vs_sector_pct": -33.3,
    "pe_highlight": "green",
    "cn_holders": [
     {
@@ -203,15 +203,6 @@
     "change_pct": 64.1
    },
    "cn_inst_net_value": 5672914779,
-   "score": 6,
-   "score_v": 2,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 5.7 is below its usual 6.7 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 51).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.67B last quarter (bar: >\u00a5237.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 5/8).",
-   "score_raw": 5,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -274,7 +265,16 @@
       "yoy": -4.2
      }
     ]
-   }
+   },
+   "score": 6,
+   "score_v": 2,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 5.8 is below its usual 6.7 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 51).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.67B last quarter (bar: >\u00a5237.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 5/8).",
+   "score_raw": 5
   },
   {
    "ticker": "000333.SZ",
@@ -461,15 +461,6 @@
     "change_pct": 7.0
    },
    "cn_inst_net_value": 4273612567,
-   "score": 4,
-   "score_v": 0,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): P/E 14.8 is above its usual 12.4 over the last 13 years.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.27B last quarter (bar: >\u00a5709.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -592,7 +583,16 @@
       "yoy": 14.9
      }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 0,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): P/E 14.8 is above its usual 12.4 over the last 13 years.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.27B last quarter (bar: >\u00a5709.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "002422.SZ",
@@ -626,7 +626,8 @@
    "net_cash": 6533268480,
    "sector": "Healthcare",
    "name": "Sichuan Kelun Pharmaceutical Co., Ltd.",
-   "analyst_rec": "none",
+   "analyst_rec": "strong_buy",
+   "analyst_mean": 1.25,
    "analyst_count": 6,
    "analyst_target": 53.41,
    "beta": -0.16,
@@ -778,18 +779,56 @@
     "change_pct": -3.7
    },
    "cn_inst_net_value": 423307099,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "002422.SZ scores 3/10 \u2014 Weak.\nValue (0/2): P/E 36.3 is above its usual 24.3 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 3; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5423.3M last quarter (bar: >\u00a571.7M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 36.3 vs its 15y median of 24.3, forward P/E 30.0.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 9.655
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 8.858
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 2.205
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 3.436
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.728
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 2.489
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 2.489
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.527
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.877
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -861,55 +900,17 @@
       "value": 1.877,
       "yoy": -44.2
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 9.655
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 8.858
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 2.205
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 3.436
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.728
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 2.489
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 2.489
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.527
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 1.877
-     }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 0,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "002422.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): P/E 36.3 is above its usual 24.3 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 3; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5423.3M last quarter (bar: >\u00a571.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a553.41, 19% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 36.3 vs its 15y median of 24.3, forward P/E 30.0.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "300628.SZ",
@@ -926,7 +927,7 @@
    "overbought": false,
    "vol_ratio": 0.63,
    "market_cap": 54262116352,
-   "pe": 18.6,
+   "pe": 17.7,
    "forward_pe": 16.0,
    "forward_pe_2y": 14.1,
    "ps": 7.99,
@@ -956,14 +957,14 @@
    "pe15y_years": 9,
    "pe10y": 27.2,
    "pe10y_years": 9,
-   "pe15y_vs": -32,
+   "pe15y_vs": -35,
    "fcf_ttm": 1775628960,
    "fcf_qoq": 7.3,
    "fcf_yoy": 23.7,
    "ttm_high": 43.06,
    "ttm_high_date": "2026-08-01",
    "vs_ttm_high": -1,
-   "pe_ttm_high": 18.7,
+   "pe_ttm_high": 17.8,
    "spark": [
     39.86,
     40.96,
@@ -1003,8 +1004,8 @@
    "screaming_sell": false,
    "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": -31.6,
-   "pe_vs_sector_pct": -44.1,
+   "pe_vs_own_pct": -34.9,
+   "pe_vs_sector_pct": -46.8,
    "pe_highlight": "green",
    "cn_holders": [
     {
@@ -1095,15 +1096,6 @@
     "change_pct": 39.0
    },
    "cn_inst_net_value": 1569663179,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "300628.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 18.6 is below its usual 27.2 over the last 9 years.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.57B last quarter (bar: >\u00a554.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -1238,7 +1230,16 @@
       "yoy": -1.8
      }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Mixed",
+   "score_tip": "300628.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 17.7 is below its usual 27.2 over the last 9 years.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.57B last quarter (bar: >\u00a554.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "600018.SS",
@@ -1424,15 +1425,6 @@
     "change_pct": 86.3
    },
    "cn_inst_net_value": 717301551,
-   "score": 4,
-   "score_v": 2,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "600018.SS scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 12.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5717.3M last quarter (bar: >\u00a5137.4M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -1567,7 +1559,16 @@
       "yoy": -6.9
      }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 2,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Mixed",
+   "score_tip": "600018.SS scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 12.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5717.3M last quarter (bar: >\u00a5137.4M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "600025.SS",
@@ -1754,15 +1755,6 @@
     "change_pct": 8.4
    },
    "cn_inst_net_value": 640819317,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600025.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 26.0 is above its usual 20.2 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5640.8M last quarter (bar: >\u00a5213.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its 9y median of 20.2, forward P/E 23.5.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -1897,7 +1889,16 @@
       "yoy": 3.4
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "600025.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 26.0 is above its usual 20.2 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5640.8M last quarter (bar: >\u00a5213.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its 9y median of 20.2, forward P/E 23.5.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "600674.SS",
@@ -1916,7 +1917,7 @@
    "market_cap": 89692758016,
    "pe": 18.2,
    "forward_pe": 17.0,
-   "forward_pe_2y": 15.8,
+   "forward_pe_2y": 15.7,
    "ps": 54.32,
    "fcf_yield": -2.2,
    "revenue_growth": 3.7,
@@ -1931,8 +1932,7 @@
    "net_cash": -18827590144,
    "sector": "Utilities",
    "name": "Sichuan Chuantou Energy Co.Ltd",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.5,
+   "analyst_rec": "none",
    "analyst_count": 5,
    "analyst_target": 19.11,
    "beta": 0.1,
@@ -2084,15 +2084,6 @@
     "change_pct": 14.5
    },
    "cn_inst_net_value": 1106534306,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600674.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 18.2 is above its usual 14.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a589.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 5 analysts); their average target is \u00a519.11, 4% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -2227,7 +2218,16 @@
       "yoy": 4.9
      }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "600674.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 18.2 is above its usual 14.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a589.7M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "600886.SS",
@@ -2261,10 +2261,9 @@
    "net_cash": -136968638464,
    "sector": "Utilities",
    "name": "SDIC Power Holdings Co., Ltd",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.25,
+   "analyst_rec": "none",
    "analyst_count": 6,
-   "analyst_target": 16.16,
+   "analyst_target": 16.49,
    "beta": -0.02,
    "logo": "https://assets.parqet.com/logos/symbol/600886.SS",
    "high_debt": true,
@@ -2414,15 +2413,6 @@
     "change_pct": 6.3
    },
    "cn_inst_net_value": 2598021415,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600886.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 19.0 is above its usual 14.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.60B last quarter (bar: >\u00a5130.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a516.16, 1% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -2557,7 +2547,16 @@
       "yoy": 11.9
      }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "600886.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 19.0 is above its usual 14.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.60B last quarter (bar: >\u00a5130.7M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "600887.SS",
@@ -2574,7 +2573,7 @@
    "overbought": false,
    "vol_ratio": 0.99,
    "market_cap": 206396522496,
-   "pe": 20.8,
+   "pe": 21.3,
    "forward_pe": 15.7,
    "forward_pe_2y": 15.5,
    "ps": 1.73,
@@ -2594,7 +2593,7 @@
    "analyst_rec": "strong_buy",
    "analyst_mean": 1.29,
    "analyst_count": 21,
-   "analyst_target": 35.43,
+   "analyst_target": 35.59,
    "beta": 0.21,
    "logo": "https://assets.parqet.com/logos/symbol/600887.SS",
    "high_debt": false,
@@ -2605,14 +2604,14 @@
    "pe15y_years": 15,
    "pe10y": 22.1,
    "pe10y_years": 10,
-   "pe15y_vs": -4,
+   "pe15y_vs": -1,
    "fcf_ttm": 17453467278,
    "fcf_qoq": 26.8,
    "fcf_yoy": 314.4,
    "ttm_high": 33.78,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 21.5,
+   "pe_ttm_high": 22.1,
    "spark": [
     26.66,
     26.6,
@@ -2652,8 +2651,8 @@
    "screaming_sell": false,
    "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": -3.7,
-   "pe_vs_sector_pct": -3.7,
+   "pe_vs_own_pct": -1.4,
+   "pe_vs_sector_pct": -1.4,
    "pe_highlight": null,
    "cn_holders": [
     {
@@ -2744,15 +2743,6 @@
     "change_pct": 16.6
    },
    "cn_inst_net_value": 3323009344,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600887.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 20.8 is below its usual 21.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.32B last quarter (bar: >\u00a5206.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.43, 9% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -2887,7 +2877,16 @@
       "yoy": 36.0
      }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "600887.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 21.3 is below its usual 21.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.32B last quarter (bar: >\u00a5206.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.59, 9% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "600900.SS",
@@ -2904,9 +2903,9 @@
    "overbought": false,
    "vol_ratio": 1.04,
    "market_cap": 763897774080,
-   "pe": 23.7,
+   "pe": 23.5,
    "forward_pe": 21.0,
-   "forward_pe_2y": 20.3,
+   "forward_pe_2y": 20.4,
    "ps": 9.14,
    "fcf_yield": 3.0,
    "revenue_growth": -13.5,
@@ -2935,14 +2934,14 @@
    "pe15y_years": 15,
    "pe10y": 19.1,
    "pe10y_years": 10,
-   "pe15y_vs": 46,
+   "pe15y_vs": 45,
    "fcf_ttm": 41845383894,
    "fcf_qoq": 10.8,
    "fcf_yoy": 38.8,
    "ttm_high": 32.25,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 24.5,
+   "pe_ttm_high": 24.3,
    "spark": [
     28.45,
     28.27,
@@ -2981,9 +2980,9 @@
    "overvalued": true,
    "screaming_sell": false,
    "near_screaming_sell": false,
-   "overvalued_tip": "Overvalued \u2014 P/E 23.7 vs its 15y median of 16.2, forward P/E 21.0.",
-   "pe_vs_own_pct": 46.3,
-   "pe_vs_sector_pct": -1.3,
+   "overvalued_tip": "Overvalued \u2014 P/E 23.5 vs its 15y median of 16.2, forward P/E 21.0.",
+   "pe_vs_own_pct": 45.1,
+   "pe_vs_sector_pct": -2.1,
    "pe_highlight": "red",
    "cn_holders": [
     {
@@ -3074,15 +3073,6 @@
     "change_pct": 6.1
    },
    "cn_inst_net_value": 634093217,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600900.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 23.7 is above its usual 16.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a5634.1M net last quarter) (bar: >\u00a5763.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 23.7 vs its 15y median of 16.2, forward P/E 21.0.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -3217,7 +3207,16 @@
       "yoy": 6.1
      }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "600900.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 23.5 is above its usual 16.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a5634.1M net last quarter) (bar: >\u00a5763.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 23.5 vs its 15y median of 16.2, forward P/E 21.0.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "600919.SS",
@@ -3391,15 +3390,6 @@
     "change_pct": 25.3
    },
    "cn_inst_net_value": 2049754741,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.1 is above its usual 5.8 over the last 10 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.05B last quarter (bar: >\u00a5247.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -3462,7 +3452,16 @@
       "yoy": 8.9
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.1 is above its usual 5.8 over the last 10 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.05B last quarter (bar: >\u00a5247.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601009.SS",
@@ -3641,15 +3640,6 @@
     "change_pct": 39.5
    },
    "cn_inst_net_value": 1389833156,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.3 is above its usual 6.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.39B last quarter (bar: >\u00a5161.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -3712,7 +3702,16 @@
       "yoy": 8.3
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.3 is above its usual 6.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.39B last quarter (bar: >\u00a5161.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601088.SS",
@@ -3899,15 +3898,6 @@
     "change_pct": 2.5
    },
    "cn_inst_net_value": 4038968677,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601088.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 18.4 is above its usual 10.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.04B last quarter (bar: >\u00a51.10B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -4041,7 +4031,16 @@
       "yoy": -4.9
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601088.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 18.4 is above its usual 10.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.04B last quarter (bar: >\u00a51.10B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601328.SS",
@@ -4058,7 +4057,7 @@
    "overbought": false,
    "vol_ratio": 1.25,
    "market_cap": 797041360896,
-   "pe": 8.4,
+   "pe": 8.7,
    "forward_pe": 8.1,
    "forward_pe_2y": 7.9,
    "ps": 3.58,
@@ -4082,14 +4081,14 @@
    "pe15y_years": 15,
    "pe10y": 5.8,
    "pe10y_years": 10,
-   "pe15y_vs": 50,
+   "pe15y_vs": 55,
    "fcf_ttm": 166626000000,
    "fcf_qoq": 2077.1,
    "fcf_yoy": 252.3,
    "ttm_high": 9.34,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 8.7,
+   "pe_ttm_high": 9.0,
    "spark": [
     7.48,
     7.46,
@@ -4127,8 +4126,8 @@
    "screaming_sell": false,
    "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": 50.0,
-   "pe_vs_sector_pct": -3.4,
+   "pe_vs_own_pct": 55.4,
+   "pe_vs_sector_pct": 0.0,
    "pe_highlight": "red",
    "cn_holders": [
     {
@@ -4219,15 +4218,6 @@
     "change_pct": 71.0
    },
    "cn_inst_net_value": 4916096158,
-   "score": 3,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 8.4 is above its usual 5.6 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.92B last quarter (bar: >\u00a5797.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -4290,7 +4280,16 @@
       "yoy": 2.4
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 1,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 8.7 is above its usual 5.6 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.92B last quarter (bar: >\u00a5797.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601398.SS",
@@ -4469,15 +4468,6 @@
     "change_pct": 35.4
    },
    "cn_inst_net_value": 4770626697,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 8.7 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.77B last quarter (bar: >\u00a53.24B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -4540,7 +4530,16 @@
       "yoy": 1.0
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 8.7 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.77B last quarter (bar: >\u00a53.24B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601825.SS",
@@ -4795,15 +4794,6 @@
    ],
    "cn_holders_period": "2026-09-30",
    "cn_inst_net_value": 0,
-   "score": 0,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.4 is above its usual 6.2 over the last 5 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a592.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -4866,7 +4856,16 @@
       "yoy": 0.3
      }
     ]
-   }
+   },
+   "score": 0,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.4 is above its usual 6.2 over the last 5 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a592.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_raw": 0
   },
   {
    "ticker": "601838.SS",
@@ -5044,15 +5043,6 @@
     "change_pct": 3.7
    },
    "cn_inst_net_value": 60978137,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 6.8 is above its usual 5.8 over the last 8 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter) (bar: >\u00a589.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -5115,7 +5105,16 @@
       "yoy": 3.4
      }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 6.8 is above its usual 5.8 over the last 8 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter) (bar: >\u00a589.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601919.SS",
@@ -5132,7 +5131,7 @@
    "overbought": false,
    "vol_ratio": 0.77,
    "market_cap": 93326901248,
-   "pe": 10.0,
+   "pe": 10.2,
    "forward_pe": 11.7,
    "forward_pe_2y": 9.0,
    "ps": 0.39,
@@ -5163,12 +5162,12 @@
    "pe15y_years": 12,
    "pe10y": 8.5,
    "pe10y_years": 10,
-   "pe15y_vs": -18,
+   "pe15y_vs": -16,
    "fcf_ttm": 2190031616,
    "ttm_high": 18.2,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -4,
-   "pe_ttm_high": 10.4,
+   "pe_ttm_high": 10.6,
    "spark": [
     15.76,
     15.67,
@@ -5197,7 +5196,7 @@
    "trap_flag": false,
    "opp_flag": true,
    "trap_tip": null,
-   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 10 is below its usual 12.2 over the last 12 years, and forward P/E is only 11.7.",
+   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 10.2 is below its usual 12.2 over the last 12 years, and forward P/E is only 11.7.",
    "burning_cash": false,
    "burning_cash_tip": null,
    "runway_years": null,
@@ -5208,8 +5207,8 @@
    "screaming_sell": false,
    "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": -18.0,
-   "pe_vs_sector_pct": -45.4,
+   "pe_vs_own_pct": -16.4,
+   "pe_vs_sector_pct": -44.3,
    "pe_highlight": "green",
    "cn_holders": [
     {
@@ -5300,18 +5299,56 @@
     "change_pct": 102.9
    },
    "cn_inst_net_value": 5024535209,
-   "score": 5,
-   "score_v": 2,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "601919.SS scores 5/10 \u2014 Mixed.\nValue (2/2): P/E 10.0 is below its usual 12.2 over the last 12 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 30; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.02B last quarter (bar: >\u00a593.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.10 from 8 analysts); their average target is \u00a517.96, 3% above the price; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 10 is below its usual 12.2 over the last 12 years, and forward P/E is only 11.7.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
-   "score_raw": 4,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 176.802
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 42.702
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.545
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 7.159
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 33.998
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 33.998
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 7.99
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 6.772
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 35.216
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -5383,55 +5420,17 @@
       "value": 35.216,
       "yoy": -36.7
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 176.802
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 42.702
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.545
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 7.159
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 33.998
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 33.998
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 7.99
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 6.772
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 35.216
-     }
     ]
-   }
+   },
+   "score": 5,
+   "score_v": 2,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Mixed",
+   "score_tip": "601919.SS scores 5/10 \u2014 Mixed.\nValue (2/2): P/E 10.2 is below its usual 12.2 over the last 12 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 30; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.02B last quarter (bar: >\u00a593.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.10 from 8 analysts); their average target is \u00a517.96, 3% above the price; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 10.2 is below its usual 12.2 over the last 12 years, and forward P/E is only 11.7.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
+   "score_raw": 4
   },
   {
    "ticker": "601939.SS",
@@ -5609,15 +5608,6 @@
     "change_pct": 20.2
    },
    "cn_inst_net_value": 1867716963,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601939.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.3 is above its usual 6.4 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.87B net last quarter) (bar: >\u00a53.25B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -5680,7 +5670,16 @@
       "yoy": 1.0
      }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601939.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.3 is above its usual 6.4 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.87B net last quarter) (bar: >\u00a53.25B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601985.SS",
@@ -5867,15 +5866,6 @@
     "change_pct": 16.7
    },
    "cn_inst_net_value": 451648906,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 27.4 is above its usual 19.1 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5451.6M last quarter (bar: >\u00a5203.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its 11y median of 19.1, forward P/E 22.4.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -6009,7 +5999,16 @@
       "yoy": 8.6
      }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 27.4 is above its usual 19.1 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5451.6M last quarter (bar: >\u00a5203.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its 11y median of 19.1, forward P/E 22.4.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601988.SS",
@@ -6186,15 +6185,6 @@
     "change_pct": 36.0
    },
    "cn_inst_net_value": 3795754050,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601988.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.9 is above its usual 6.1 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.80B last quarter (bar: >\u00a52.36B = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 3% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
    "sankey": {
     "ccy": "CNY",
     "fy_end": "2025-12-31",
@@ -6257,7 +6247,16 @@
       "yoy": 2.1
      }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601988.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.9 is above its usual 6.1 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.80B last quarter (bar: >\u00a52.36B = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 3% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601998.SS",
@@ -6436,18 +6435,31 @@
     "change_pct": 33.4
    },
    "cn_inst_net_value": 1116098390,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "601998.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 7.7 is above its usual 6.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.12B last quarter (bar: >\u00a5528.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.23 from 9 analysts); their average target is \u00a59.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 127.787
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 84.043
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 12.553
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 71.49
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -6484,38 +6496,25 @@
       "value": 71.49,
       "yoy": 2.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 127.787
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 84.043
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 12.553
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 71.49
-     }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Mixed",
+   "score_tip": "601998.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 7.7 is above its usual 6.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.12B last quarter (bar: >\u00a5528.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.23 from 9 analysts); their average target is \u00a59.64, 1% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   }
  ],
  "indices": [
   {
    "name": "Shanghai Composite",
-   "value": 3606.49,
-   "change_pct": 3.73,
-   "week_change_pct": 2.06
+   "value": 3476.88,
+   "change_pct": 0.01,
+   "week_change_pct": -1.61
   },
   {
    "name": "CSI 300",
@@ -6524,9 +6523,9 @@
   },
   {
    "name": "Shenzhen Component",
-   "value": 10814.02,
-   "change_pct": 7.24,
-   "week_change_pct": 5.44
+   "value": 10084.04,
+   "change_pct": -0.02,
+   "week_change_pct": -1.68
   }
  ],
  "indices_date": "2026-11-27",
