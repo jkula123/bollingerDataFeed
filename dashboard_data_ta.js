@@ -299,6 +299,22 @@ window.__BOLLINGER_TA__ = {
      "bounce_risk": true
     }
    ],
+   "buy_areas": [
+    {
+     "ticker": "SMCI",
+     "reasons": [
+      "quality turnaround"
+     ]
+    }
+   ],
+   "sell_areas": [
+    {
+     "ticker": "VZ",
+     "reasons": [
+      "at resistance, KDJ stretched (J 96 W)"
+     ]
+    }
+   ],
    "stocks": [
     {
      "ticker": "ADBE",
@@ -326,6 +342,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 47 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 price 56% below fair value; P/E cheap vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 272.1,
       "high": 283.84,
@@ -496,6 +518,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly no weekly trend, daily RSI 41 weak",
      "fundamentals_note": "confirm \u2014 insiders net sold $107M (3mo); 13F net selling $1.07B; price 146% above fair value",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 584.73,
       "high": 623.97,
@@ -683,6 +711,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly uptrend intact, daily RSI 49 mid-range",
      "fundamentals_note": "lean positive \u2014 13F net buying $691M; price 24% below fair value; P/E cheap vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 258.6,
       "high": 268.0,
@@ -829,6 +863,7 @@ window.__BOLLINGER_TA__ = {
      "sr_near": null,
      "rationale": "",
      "turnaround": null,
+     "area": null,
      "sell_zone": null,
      "sell_trigger": null,
      "kdj": null,
@@ -866,6 +901,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 42 weak, daily MACD turning up",
      "fundamentals_note": "confirm \u2014 price 375% above fair value; P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 182.88,
       "high": 204.3,
@@ -1031,6 +1072,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 45 weak",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 374.23,
       "high": 393.67,
@@ -1194,6 +1241,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 51 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 insiders net sold $38M (3mo); P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 326.27,
       "high": 334.4,
@@ -1340,6 +1393,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 44 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 13F net buying $352M; P/E cheap vs own history/sector; \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udca7 diluting shareholders",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 173.85,
       "high": 180.51,
@@ -1522,6 +1581,12 @@ window.__BOLLINGER_TA__ = {
       "quality": false,
       "bounce_risk": false
      },
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 180.9,
       "high": 205.34,
@@ -1683,6 +1748,12 @@ window.__BOLLINGER_TA__ = {
       "quality": false,
       "bounce_risk": false
      },
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 24.11,
       "high": 25.9,
@@ -1843,6 +1914,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 40 weak, daily MACD deteriorating",
      "fundamentals_note": "mixed \u2014 no strong fundamental signals",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 288.75,
       "high": 303.66,
@@ -2001,6 +2078,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly no weekly trend, daily RSI 51 mid-range",
      "fundamentals_note": "mixed \u2014 \ud83d\udca7 diluting shareholders",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 32.38,
       "high": 34.11,
@@ -2176,6 +2259,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 40 weak, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $1.90B; price 53% below fair value",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 211.34,
       "high": 221.9,
@@ -2334,6 +2423,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly no weekly trend, daily RSI 62 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
      "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt; P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 51.42,
       "high": 54.6,
@@ -2477,6 +2572,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 37 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; 13F net selling $462M",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 328.67,
       "high": 340.37,
@@ -2644,6 +2745,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 42 weak",
      "fundamentals_note": "mixed \u2014 insiders net bought $26M (3mo); \ud83d\udca7 diluting shareholders",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 3.4,
       "high": 3.58,
@@ -2811,6 +2918,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 50 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 13F net buying $1.04B; insiders net sold $119M (3mo)",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 638.4,
       "high": 667.61,
@@ -3003,6 +3116,12 @@ window.__BOLLINGER_TA__ = {
       "quality": false,
       "bounce_risk": true
      },
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 110.5,
       "high": 130.57,
@@ -3175,6 +3294,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udcb8 burning cash",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 6.44,
       "high": 6.89,
@@ -3345,6 +3470,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 45 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 13F net buying $154M; price 34% below fair value; P/E cheap vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 63.9,
       "high": 66.55,
@@ -3515,6 +3646,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 32 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 13F net buying $141M",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 98.92,
       "high": 106.62,
@@ -3685,6 +3822,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 38 weak",
      "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $958M; price 38% below fair value; insiders net sold $964M (3mo)",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 152.89,
       "high": 163.64,
@@ -3860,6 +4003,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 55 firm, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "lean positive \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 47.79,
       "high": 49.38,
@@ -4046,6 +4195,12 @@ window.__BOLLINGER_TA__ = {
       "quality": false,
       "bounce_risk": true
      },
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 4.61,
       "high": 5.28,
@@ -4209,6 +4364,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 41 weak",
      "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; 13F net selling $271M",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 117.67,
       "high": 127.32,
@@ -4379,6 +4540,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly no weekly trend, daily RSI 49 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; insiders net sold $39M (3mo)",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 13.2,
       "high": 14.03,
@@ -4554,6 +4721,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly uptrend intact, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 insiders net sold $104M (3mo); \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 190.0,
       "high": 200.19,
@@ -4715,6 +4888,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 38 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 insiders net sold $26M (3mo); 13F net selling $231M; \ud83d\udca7 diluting shareholders",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 208.05,
       "high": 218.77,
@@ -4894,6 +5073,14 @@ window.__BOLLINGER_TA__ = {
       "quality": true,
       "bounce_risk": false
      },
+     "area": {
+      "buy": true,
+      "sell": false,
+      "buy_reasons": [
+       "quality turnaround"
+      ],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 31.75,
       "high": 34.77,
@@ -5069,6 +5256,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 38 weak",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 18.42,
       "high": 19.41,
@@ -5244,6 +5437,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 46 mid-range",
      "fundamentals_note": "mixed \u2014 insiders net bought $11M (3mo); P/E expensive vs own history/sector",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 75.4,
       "high": 77.88,
@@ -5402,6 +5601,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly uptrend intact, daily RSI 35 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 291.69,
       "high": 302.48,
@@ -5584,6 +5789,12 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly downtrend, daily RSI 44 weak",
      "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; insiders net sold $56M (3mo)",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": false,
+      "buy_reasons": [],
+      "sell_reasons": []
+     },
      "sell_zone": {
       "low": 14.95,
       "high": 15.81,
@@ -5751,6 +5962,14 @@ window.__BOLLINGER_TA__ = {
      "rationale": "weekly uptrend intact, daily RSI 63 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
      "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt",
      "turnaround": null,
+     "area": {
+      "buy": false,
+      "sell": true,
+      "buy_reasons": [],
+      "sell_reasons": [
+       "at resistance, KDJ stretched (J 96 W)"
+      ]
+     },
      "sell_zone": {
       "low": 48.96,
       "high": 50.27,
