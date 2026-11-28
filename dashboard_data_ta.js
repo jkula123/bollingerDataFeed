@@ -308,7 +308,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -682,7 +682,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -753,7 +753,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -1108,7 +1108,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -1179,7 +1179,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -1392,7 +1392,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -1534,7 +1534,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -1605,7 +1605,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -1818,7 +1818,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -2031,7 +2031,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": null,
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
@@ -2102,7 +2102,7 @@ window.__BOLLINGER_TA__ = {
       "j_extreme": {
        "weekly": null,
        "daily": "ob",
-       "4h": "ob"
+       "4h": null
       },
       "aligned": null,
       "vol_tier": 0,
