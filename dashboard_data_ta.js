@@ -368,7 +368,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 45.84186863164337,
      "rsi_d": 47.23790861783833,
-     "rsi_4h": 51.68997941957349,
+     "rsi_4h": 51.68886428106095,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -537,11 +537,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 225.0,
-       "oi": 603
+       "oi": 603,
+       "oi_share": 0.046,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 245.0,
-       "oi": 1251
+       "oi": 1251,
+       "oi_share": 0.096,
+       "oi_extreme": true
       },
       "max_pain": 232.5,
       "expiries": [
@@ -567,7 +571,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 44.69277480904832,
      "rsi_d": 40.8393645048995,
-     "rsi_4h": 40.34148589904677,
+     "rsi_4h": 40.3420050822967,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -753,11 +757,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 320.0,
-       "oi": 2469
+       "oi": 2469,
+       "oi_share": 0.065,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 500.0,
-       "oi": 5127
+       "oi": 5127,
+       "oi_share": 0.134,
+       "oi_extreme": true
       },
       "max_pain": 415.0,
       "expiries": [
@@ -783,7 +791,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.14170142599937,
      "rsi_d": 48.63770318842801,
-     "rsi_4h": 48.74021785804263,
+     "rsi_4h": 48.74024029864164,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -940,11 +948,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 225.0,
-       "oi": 3248
+       "oi": 3248,
+       "oi_share": 0.087,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 265.0,
-       "oi": 3907
+       "oi": 3907,
+       "oi_share": 0.105,
+       "oi_extreme": true
       },
       "max_pain": 250.0,
       "expiries": [
@@ -997,7 +1009,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 40.358237201951795,
      "rsi_d": 42.214698258279405,
-     "rsi_4h": 44.68910979457709,
+     "rsi_4h": 44.68964350655904,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1161,11 +1173,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 170.0,
-       "oi": 710
+       "oi": 710,
+       "oi_share": 0.065,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 200.0,
-       "oi": 531
+       "oi": 531,
+       "oi_share": 0.049,
+       "oi_extreme": false
       },
       "max_pain": 170.0,
       "expiries": [
@@ -1191,7 +1207,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.6999403702302,
      "rsi_d": 44.73378336791734,
-     "rsi_4h": 45.46668647898345,
+     "rsi_4h": 45.46458252128165,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1353,11 +1369,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 255.0,
-       "oi": 2445
+       "oi": 2445,
+       "oi_share": 0.176,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 330.0,
-       "oi": 1444
+       "oi": 1444,
+       "oi_share": 0.104,
+       "oi_extreme": true
       },
       "max_pain": 310.0,
       "expiries": [
@@ -1383,7 +1403,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 47.430007669636474,
      "rsi_d": 50.58947630607888,
-     "rsi_4h": 54.13161768561666,
+     "rsi_4h": 54.13008601278417,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1528,11 +1548,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 270.0,
-       "oi": 220
+       "oi": 220,
+       "oi_share": 0.032,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 375.0,
-       "oi": 420
+       "oi": 420,
+       "oi_share": 0.06,
+       "oi_extreme": true
       },
       "max_pain": 312.5,
       "expiries": [
@@ -1558,7 +1582,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 34.374912709264564,
      "rsi_d": 43.82957872902831,
-     "rsi_4h": 51.51616141633688,
+     "rsi_4h": 51.51581793233873,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1732,11 +1756,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 160.0,
-       "oi": 2416
+       "oi": 2416,
+       "oi_share": 0.152,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 170.0,
-       "oi": 2448
+       "oi": 2448,
+       "oi_share": 0.154,
+       "oi_extreme": true
       },
       "max_pain": 160.0,
       "expiries": [
@@ -1762,7 +1790,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.12477139369721,
      "rsi_d": 41.880849867512616,
-     "rsi_4h": 45.48762632794343,
+     "rsi_4h": 45.48672905491663,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1921,11 +1949,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 140.0,
-       "oi": 4552
+       "oi": 4552,
+       "oi_share": 0.148,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 180.0,
-       "oi": 872
+       "oi": 872,
+       "oi_share": 0.028,
+       "oi_extreme": false
       },
       "max_pain": 175.0,
       "expiries": [
@@ -1953,7 +1985,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.39071710889584,
      "rsi_d": 33.13143639038793,
-     "rsi_4h": 37.511597824940075,
+     "rsi_4h": 37.509747605272835,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2000,9 +2032,9 @@ window.__BOLLINGER_TA__ = {
        "j": 40.3
       },
       "4h": {
-       "k": 35.4,
-       "d": 26.1,
-       "j": 54.0
+       "k": 35.5,
+       "d": 26.2,
+       "j": 54.1
       }
      },
      "structure": {
@@ -2120,11 +2152,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 7.0,
-       "oi": 7022
+       "oi": 7022,
+       "oi_share": 0.088,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 17.0,
-       "oi": 3498
+       "oi": 3498,
+       "oi_share": 0.044,
+       "oi_extreme": false
       },
       "max_pain": 15.5,
       "expiries": [
@@ -2150,7 +2186,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 43.2201882593537,
      "rsi_d": 40.414342055048294,
-     "rsi_4h": 36.0274394082522,
+     "rsi_4h": 36.03162226748325,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2307,11 +2343,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 200.0,
-       "oi": 4125
+       "oi": 4125,
+       "oi_share": 0.591,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 245.0,
-       "oi": 196
+       "oi": 196,
+       "oi_share": 0.028,
+       "oi_extreme": false
       },
       "max_pain": 252.5,
       "expiries": [
@@ -2337,7 +2377,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 48.125188196296364,
      "rsi_d": 50.60510410375935,
-     "rsi_4h": 48.907491670190375,
+     "rsi_4h": 48.90524498080447,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -2511,11 +2551,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 25.0,
-       "oi": 325
+       "oi": 325,
+       "oi_share": 0.065,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 32.0,
-       "oi": 552
+       "oi": 552,
+       "oi_share": 0.11,
+       "oi_extreme": true
       },
       "max_pain": 29.0,
       "expiries": [
@@ -2541,7 +2585,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 45.77610072611108,
      "rsi_d": 39.555587648554244,
-     "rsi_4h": 45.971431459449995,
+     "rsi_4h": 45.971429253568964,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2698,11 +2742,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 185.0,
-       "oi": 928
+       "oi": 928,
+       "oi_share": 0.052,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 220.0,
-       "oi": 963
+       "oi": 963,
+       "oi_share": 0.053,
+       "oi_extreme": true
       },
       "max_pain": 192.5,
       "expiries": [
@@ -2728,7 +2776,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.99143732816184,
      "rsi_d": 61.55730789101205,
-     "rsi_4h": 64.77996523537769,
+     "rsi_4h": 64.77995949887855,
      "macd_sign": {
       "weekly": 1,
       "daily": 1,
@@ -2870,11 +2918,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 35.0,
-       "oi": 4031
+       "oi": 4031,
+       "oi_share": 0.12,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 50.0,
-       "oi": 4756
+       "oi": 4756,
+       "oi_share": 0.141,
+       "oi_extreme": true
       },
       "max_pain": 40.0,
       "expiries": [
@@ -2900,7 +2952,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.64232557831171,
      "rsi_d": 37.34617266465873,
-     "rsi_4h": 41.666617156868185,
+     "rsi_4h": 41.67229621993974,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3066,11 +3118,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 270.0,
-       "oi": 2783
+       "oi": 2783,
+       "oi_share": 0.041,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 305.0,
-       "oi": 7769
+       "oi": 7769,
+       "oi_share": 0.116,
+       "oi_extreme": true
       },
       "max_pain": 275.0,
       "expiries": [
@@ -3096,7 +3152,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.522115331560926,
      "rsi_d": 42.13895880830966,
-     "rsi_4h": 43.035438205794925,
+     "rsi_4h": 43.03552580311359,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -3262,11 +3318,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 2.5,
-       "oi": 102
+       "oi": 102,
+       "oi_share": 0.006,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 3.5,
-       "oi": 7886
+       "oi": 7886,
+       "oi_share": 0.426,
+       "oi_extreme": true
       },
       "max_pain": 1.0,
       "expiries": [
@@ -3292,7 +3352,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 49.6025148631443,
      "rsi_d": 50.33813973322987,
-     "rsi_4h": 56.81644711520665,
+     "rsi_4h": 56.81678768254624,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3476,11 +3536,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 557.5,
-       "oi": 627
+       "oi": 627,
+       "oi_share": 0.041,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 630.0,
-       "oi": 781
+       "oi": 781,
+       "oi_share": 0.051,
+       "oi_extreme": true
       },
       "max_pain": 600.0,
       "expiries": [
@@ -3508,7 +3572,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 33.78633968527629,
      "rsi_d": 35.17133470720036,
-     "rsi_4h": 37.405363040779314,
+     "rsi_4h": 37.40636114107648,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -3686,11 +3750,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 50.0,
-       "oi": 4852
+       "oi": 4852,
+       "oi_share": 0.091,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 100.0,
-       "oi": 3664
+       "oi": 3664,
+       "oi_share": 0.069,
+       "oi_extreme": true
       },
       "max_pain": 91.0,
       "expiries": [
@@ -3716,7 +3784,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.58889429773524,
      "rsi_d": 51.73363811356095,
-     "rsi_4h": 56.79356138336549,
+     "rsi_4h": 56.80066229050686,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3885,11 +3953,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 5.0,
-       "oi": 3890
+       "oi": 3890,
+       "oi_share": 0.078,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 7.0,
-       "oi": 21814
+       "oi": 21814,
+       "oi_share": 0.435,
+       "oi_extreme": true
       },
       "max_pain": 6.0,
       "expiries": [
@@ -3915,7 +3987,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.482655590304745,
      "rsi_d": 44.58305652151237,
-     "rsi_4h": 51.34804484136132,
+     "rsi_4h": 51.34984170024964,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4084,11 +4156,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 55.0,
-       "oi": 3518
+       "oi": 3518,
+       "oi_share": 0.051,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 62.0,
-       "oi": 10566
+       "oi": 10566,
+       "oi_share": 0.154,
+       "oi_extreme": true
       },
       "max_pain": 58.0,
       "expiries": [
@@ -4114,7 +4190,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 39.27193336731885,
      "rsi_d": 32.06742266841101,
-     "rsi_4h": 39.93076752208409,
+     "rsi_4h": 39.930758345528965,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4283,11 +4359,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 75.0,
-       "oi": 2224
+       "oi": 2224,
+       "oi_share": 0.044,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 102.0,
-       "oi": 4497
+       "oi": 4497,
+       "oi_share": 0.09,
+       "oi_extreme": true
       },
       "max_pain": 96.0,
       "expiries": [
@@ -4313,7 +4393,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.713309084696746,
      "rsi_d": 38.11728710759187,
-     "rsi_4h": 43.01367565722356,
+     "rsi_4h": 43.0158607518163,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -4353,8 +4433,8 @@ window.__BOLLINGER_TA__ = {
       },
       "4h": {
        "k": 52.8,
-       "d": 50.4,
-       "j": 57.5
+       "d": 50.5,
+       "j": 57.4
       }
      },
      "structure": {
@@ -4487,11 +4567,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 135.0,
-       "oi": 9270
+       "oi": 9270,
+       "oi_share": 0.042,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 200.0,
-       "oi": 21544
+       "oi": 21544,
+       "oi_share": 0.099,
+       "oi_extreme": true
       },
       "max_pain": 152.5,
       "expiries": [
@@ -4517,7 +4601,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.31557481453717,
      "rsi_d": 55.03439531105205,
-     "rsi_4h": 59.51388245641717,
+     "rsi_4h": 59.5140212840194,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4695,11 +4779,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 37.0,
-       "oi": 1384
+       "oi": 1384,
+       "oi_share": 0.083,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 45.0,
-       "oi": 1330
+       "oi": 1330,
+       "oi_share": 0.08,
+       "oi_extreme": true
       },
       "max_pain": 40.5,
       "expiries": [
@@ -4894,11 +4982,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 3.5,
-       "oi": 809
+       "oi": 809,
+       "oi_share": 0.032,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 5.0,
-       "oi": 6152
+       "oi": 6152,
+       "oi_share": 0.241,
+       "oi_extreme": true
       },
       "max_pain": 4.5,
       "expiries": [
@@ -4926,7 +5018,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 36.960396395319584,
      "rsi_d": 40.59387019047501,
-     "rsi_4h": 41.385693729585206,
+     "rsi_4h": 41.3608364935174,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -4965,7 +5057,7 @@ window.__BOLLINGER_TA__ = {
        "j": 26.2
       },
       "4h": {
-       "k": 34.3,
+       "k": 34.2,
        "d": 35.1,
        "j": 32.5
       }
@@ -5095,11 +5187,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 100.0,
-       "oi": 11311
+       "oi": 11311,
+       "oi_share": 0.084,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 135.0,
-       "oi": 7963
+       "oi": 7963,
+       "oi_share": 0.059,
+       "oi_extreme": true
       },
       "max_pain": 117.0,
       "expiries": [
@@ -5127,7 +5223,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 48.62675274160765,
      "rsi_d": 48.9845349223783,
-     "rsi_4h": 54.59067156402957,
+     "rsi_4h": 54.5956301467984,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5301,11 +5397,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 11.0,
-       "oi": 914
+       "oi": 914,
+       "oi_share": 0.038,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 13.0,
-       "oi": 4317
+       "oi": 4317,
+       "oi_share": 0.178,
+       "oi_extreme": true
       },
       "max_pain": 13.0,
       "expiries": [
@@ -5331,7 +5431,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.79812978124343,
      "rsi_d": 51.544134693704684,
-     "rsi_4h": 58.51676258758189,
+     "rsi_4h": 58.51691657603557,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -5491,11 +5591,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 85.0,
-       "oi": 4860
+       "oi": 4860,
+       "oi_share": 0.077,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 175.0,
-       "oi": 9441
+       "oi": 9441,
+       "oi_share": 0.15,
+       "oi_extreme": true
       },
       "max_pain": 160.0,
       "expiries": [
@@ -5521,7 +5625,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.186068454708746,
      "rsi_d": 38.05528503732502,
-     "rsi_4h": 47.46257712790508,
+     "rsi_4h": 47.4626101094044,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -5692,11 +5796,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 80.0,
-       "oi": 844
+       "oi": 844,
+       "oi_share": 0.055,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 95.0,
-       "oi": 1396
+       "oi": 1396,
+       "oi_share": 0.091,
+       "oi_extreme": true
       },
       "max_pain": 92.0,
       "expiries": [
@@ -5722,7 +5830,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 39.05181196520087,
      "rsi_d": 38.13893039081195,
-     "rsi_4h": 43.41908330448506,
+     "rsi_4h": 43.4193388480488,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5905,11 +6013,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 21.0,
-       "oi": 9598
+       "oi": 9598,
+       "oi_share": 0.088,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 30.0,
-       "oi": 10045
+       "oi": 10045,
+       "oi_share": 0.092,
+       "oi_extreme": true
       },
       "max_pain": 21.5,
       "expiries": [
@@ -5937,7 +6049,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 37.589553610409595,
      "rsi_d": 38.00571197393276,
-     "rsi_4h": 40.36615945253252,
+     "rsi_4h": 40.36638341925282,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6111,11 +6223,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 13.0,
-       "oi": 2546
+       "oi": 2546,
+       "oi_share": 0.021,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 17.0,
-       "oi": 17743
+       "oi": 17743,
+       "oi_share": 0.143,
+       "oi_extreme": true
       },
       "max_pain": 14.0,
       "expiries": [
@@ -6141,7 +6257,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 43.66534426437043,
      "rsi_d": 46.3423320497063,
-     "rsi_4h": 49.11489033579247,
+     "rsi_4h": 49.11486580084179,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6298,11 +6414,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 62.0,
-       "oi": 1317
+       "oi": 1317,
+       "oi_share": 0.038,
+       "oi_extreme": false
       },
       "call_wall": {
        "strike": 68.0,
-       "oi": 5008
+       "oi": 5008,
+       "oi_share": 0.143,
+       "oi_extreme": true
       },
       "max_pain": 65.0,
       "expiries": [
@@ -6328,7 +6448,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 54.66427264537006,
      "rsi_d": 34.65589192517159,
-     "rsi_4h": 35.64218343633608,
+     "rsi_4h": 35.63135539451089,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6509,11 +6629,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 250.0,
-       "oi": 678
+       "oi": 678,
+       "oi_share": 0.053,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 280.0,
-       "oi": 887
+       "oi": 887,
+       "oi_share": 0.069,
+       "oi_extreme": true
       },
       "max_pain": 270.0,
       "expiries": [
@@ -6539,7 +6663,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.42462800074922,
      "rsi_d": 44.35851910894888,
-     "rsi_4h": 46.12310506103711,
+     "rsi_4h": 46.123089798001836,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6705,11 +6829,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 12.0,
-       "oi": 1121
+       "oi": 1121,
+       "oi_share": 0.131,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 15.0,
-       "oi": 2258
+       "oi": 2258,
+       "oi_share": 0.263,
+       "oi_extreme": true
       },
       "max_pain": 12.0,
       "expiries": [
@@ -6738,7 +6866,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 53.79188630916724,
      "rsi_d": 62.88646972013232,
-     "rsi_4h": 61.75016563588052,
+     "rsi_4h": 61.75105150688786,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -6919,11 +7047,15 @@ window.__BOLLINGER_TA__ = {
      "options": {
       "put_wall": {
        "strike": 44.5,
-       "oi": 5233
+       "oi": 5233,
+       "oi_share": 0.288,
+       "oi_extreme": true
       },
       "call_wall": {
        "strike": 49.0,
-       "oi": 5025
+       "oi": 5025,
+       "oi_share": 0.276,
+       "oi_extreme": true
       },
       "max_pain": 45.5,
       "expiries": [
