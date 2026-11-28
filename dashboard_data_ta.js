@@ -298,7 +298,39 @@ window.__BOLLINGER_TA__ = {
        "d": 64.7,
        "j": 111.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.5,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4365216843563982,
+     "atr_pct": 3.6824759136631484,
+     "atr_pct_rank": 39.8406374501992
     },
     {
      "ticker": "AMD",
@@ -337,7 +369,39 @@ window.__BOLLINGER_TA__ = {
        "d": 20.4,
        "j": 40.4
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.1,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4739375925145317,
+     "atr_pct": 10.64986667684597,
+     "atr_pct_rank": 98.80478087649402
     },
     {
      "ticker": "AMZN",
@@ -376,7 +440,39 @@ window.__BOLLINGER_TA__ = {
        "d": 31.5,
        "j": 58.9
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 3.8,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4924991389922565,
+     "atr_pct": 4.122101994103092,
+     "atr_pct_rank": 99.60159362549801
     },
     {
      "ticker": "ANT",
@@ -391,6 +487,10 @@ window.__BOLLINGER_TA__ = {
      "sell_zone": null,
      "sell_trigger": null,
      "kdj": null,
+     "hl": null,
+     "vol_ratio": null,
+     "atr_pct": null,
+     "atr_pct_rank": null,
      "fundamentals_note": "no usable history on Yahoo yet (too few bars)"
     },
     {
@@ -430,7 +530,39 @@ window.__BOLLINGER_TA__ = {
        "d": 37.4,
        "j": 56.8
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 5.2,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.43615071207522244,
+     "atr_pct": 9.981828688813748,
+     "atr_pct_rank": 89.2430278884462
     },
     {
      "ticker": "AVGO",
@@ -469,7 +601,39 @@ window.__BOLLINGER_TA__ = {
        "d": 21.2,
        "j": 43.8
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 1.2,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.5277341395698096,
+     "atr_pct": 6.217468208327729,
+     "atr_pct_rank": 98.00796812749005
     },
     {
      "ticker": "AXP",
@@ -508,7 +672,39 @@ window.__BOLLINGER_TA__ = {
        "d": 51.1,
        "j": 106.4
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.1,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.39787080476362324,
+     "atr_pct": 2.3659778614917704,
+     "atr_pct_rank": 60.95617529880478
     },
     {
      "ticker": "BA",
@@ -547,7 +743,39 @@ window.__BOLLINGER_TA__ = {
        "d": 66.3,
        "j": 111.2
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 1.4,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.41012891286717623,
+     "atr_pct": 3.237615852255952,
+     "atr_pct_rank": 71.71314741035857
     },
     {
      "ticker": "BE",
@@ -586,7 +814,39 @@ window.__BOLLINGER_TA__ = {
        "d": 34.1,
        "j": 56.7
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": "os",
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 3.6,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.5595624959257919,
+     "atr_pct": 12.725936853432893,
+     "atr_pct_rank": 87.25099601593625
     },
     {
      "ticker": "BMNR",
@@ -621,11 +881,43 @@ window.__BOLLINGER_TA__ = {
        "j": 40.3
       },
       "4h": {
-       "k": 35.5,
-       "d": 26.2,
-       "j": 54.1
+       "k": 35.4,
+       "d": 26.1,
+       "j": 54.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": "os",
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 8.4,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.5915874090046377,
+     "atr_pct": 10.869980380607451,
+     "atr_pct_rank": 91.63346613545816
     },
     {
      "ticker": "CEG",
@@ -664,7 +956,39 @@ window.__BOLLINGER_TA__ = {
        "d": 20.1,
        "j": 19.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": "os",
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 2.9,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.6188797586914758,
+     "atr_pct": 5.557738647759804,
+     "atr_pct_rank": 97.21115537848605
     },
     {
      "ticker": "CELH",
@@ -703,7 +1027,39 @@ window.__BOLLINGER_TA__ = {
        "d": 25.4,
        "j": 72.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 8.3,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.3622181444352863,
+     "atr_pct": 5.204255664506119,
+     "atr_pct_rank": 49.00398406374502
     },
     {
      "ticker": "CRM",
@@ -742,7 +1098,39 @@ window.__BOLLINGER_TA__ = {
        "d": 63.3,
        "j": 112.2
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 4.4,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.34205271063140297,
+     "atr_pct": 4.435181638507042,
+     "atr_pct_rank": 77.68924302788844
     },
     {
      "ticker": "FOUR",
@@ -781,7 +1169,39 @@ window.__BOLLINGER_TA__ = {
        "d": 63.8,
        "j": 113.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": "up"
+      },
+      "trigger_proximity_pct": 0.6,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.49718449274384807,
+     "atr_pct": 6.007776855941121,
+     "atr_pct_rank": 51.39442231075697
     },
     {
      "ticker": "GOOG",
@@ -820,7 +1240,39 @@ window.__BOLLINGER_TA__ = {
        "d": 38.0,
        "j": 51.1
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.2,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4662281116753751,
+     "atr_pct": 4.149824951710259,
+     "atr_pct_rank": 99.20318725099602
     },
     {
      "ticker": "GRAB",
@@ -859,7 +1311,39 @@ window.__BOLLINGER_TA__ = {
        "d": 26.1,
        "j": 70.9
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 4.7,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.7410824428383872,
+     "atr_pct": 5.062997085554547,
+     "atr_pct_rank": 98.40637450199203
     },
     {
      "ticker": "META",
@@ -898,7 +1382,39 @@ window.__BOLLINGER_TA__ = {
        "d": 52.1,
        "j": 104.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.1,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.6089871718397468,
+     "atr_pct": 4.046863223404431,
+     "atr_pct_rank": 93.22709163346613
     },
     {
      "ticker": "NBIS",
@@ -937,7 +1453,39 @@ window.__BOLLINGER_TA__ = {
        "d": 23.4,
        "j": 31.6
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": "os",
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 7.1,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.6046903111563863,
+     "atr_pct": 18.127020807432793,
+     "atr_pct_rank": 98.80478087649402
     },
     {
      "ticker": "NEXT",
@@ -976,7 +1524,39 @@ window.__BOLLINGER_TA__ = {
        "d": 40.0,
        "j": 100.4
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 2.4,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4495278499629906,
+     "atr_pct": 5.40678290393365,
+     "atr_pct_rank": 35.85657370517929
     },
     {
      "ticker": "NFLX",
@@ -1015,7 +1595,39 @@ window.__BOLLINGER_TA__ = {
        "d": 51.7,
        "j": 109.6
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 7.7,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.536102480296459,
+     "atr_pct": 3.2810485940806786,
+     "atr_pct_rank": 72.11155378486056
     },
     {
      "ticker": "NOW",
@@ -1054,7 +1666,39 @@ window.__BOLLINGER_TA__ = {
        "d": 57.8,
        "j": 93.7
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": "os",
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 1.4,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.3402323119096609,
+     "atr_pct": 5.979098809994322,
+     "atr_pct_rank": 76.89243027888446
     },
     {
      "ticker": "NVDA",
@@ -1090,10 +1734,42 @@ window.__BOLLINGER_TA__ = {
       },
       "4h": {
        "k": 52.8,
-       "d": 50.5,
-       "j": 57.4
+       "d": 50.4,
+       "j": 57.5
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 6.8,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.5292597190247668,
+     "atr_pct": 8.570547707428318,
+     "atr_pct_rank": 99.20318725099602
     },
     {
      "ticker": "NVO",
@@ -1132,7 +1808,39 @@ window.__BOLLINGER_TA__ = {
        "d": 68.6,
        "j": 118.3
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.2,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.43095073524528005,
+     "atr_pct": 2.7982158891204962,
+     "atr_pct_rank": 23.50597609561753
     },
     {
      "ticker": "ONDS",
@@ -1171,7 +1879,39 @@ window.__BOLLINGER_TA__ = {
        "d": 28.2,
        "j": 65.4
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 17.8,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.3544453172180913,
+     "atr_pct": 11.524705239951471,
+     "atr_pct_rank": 81.67330677290838
     },
     {
      "ticker": "ORCL",
@@ -1206,11 +1946,43 @@ window.__BOLLINGER_TA__ = {
        "j": 26.2
       },
       "4h": {
-       "k": 34.2,
+       "k": 34.3,
        "d": 35.1,
        "j": 32.5
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 7.8,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.3819805174813118,
+     "atr_pct": 7.627140329516865,
+     "atr_pct_rank": 98.00796812749005
     },
     {
      "ticker": "PATH",
@@ -1249,7 +2021,39 @@ window.__BOLLINGER_TA__ = {
        "d": 64.9,
        "j": 107.5
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.2,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4817597901247802,
+     "atr_pct": 5.076488846888153,
+     "atr_pct_rank": 15.936254980079681
     },
     {
      "ticker": "PLTR",
@@ -1288,7 +2092,39 @@ window.__BOLLINGER_TA__ = {
        "d": 65.5,
        "j": 110.7
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": "ob",
+       "4h": "ob"
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.8,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.5828468533064542,
+     "atr_pct": 5.633675844826726,
+     "atr_pct_rank": 86.05577689243027
     },
     {
      "ticker": "RDDT",
@@ -1327,7 +2163,39 @@ window.__BOLLINGER_TA__ = {
        "d": 45.9,
        "j": 96.1
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 3.4,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.25540747909914613,
+     "atr_pct": 7.391245670992038,
+     "atr_pct_rank": 80.47808764940238
     },
     {
      "ticker": "SMCI",
@@ -1366,7 +2234,39 @@ window.__BOLLINGER_TA__ = {
        "d": 32.5,
        "j": 47.6
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": "os",
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 1.6,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": true,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4381687426445057,
+     "atr_pct": 10.358228425161627,
+     "atr_pct_rank": 90.43824701195219
     },
     {
      "ticker": "SOFI",
@@ -1405,7 +2305,39 @@ window.__BOLLINGER_TA__ = {
        "d": 32.6,
        "j": 82.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 4.9,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4329471159837736,
+     "atr_pct": 6.186182658633867,
+     "atr_pct_rank": 89.2430278884462
     },
     {
      "ticker": "UBER",
@@ -1444,7 +2376,39 @@ window.__BOLLINGER_TA__ = {
        "d": 35.1,
        "j": 77.4
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 1.9,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4024777764573736,
+     "atr_pct": 3.6135113908477177,
+     "atr_pct_rank": 87.64940239043824
     },
     {
      "ticker": "VEEV",
@@ -1483,7 +2447,39 @@ window.__BOLLINGER_TA__ = {
        "d": 46.1,
        "j": 83.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": null,
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 0.3,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": true
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.5499360500646178,
+     "atr_pct": 3.670047371546794,
+     "atr_pct_rank": 43.02788844621514
     },
     {
      "ticker": "VG",
@@ -1522,7 +2518,39 @@ window.__BOLLINGER_TA__ = {
        "d": 26.3,
        "j": 59.0
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "down",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 1.1,
+      "trigger_danger": true,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.32155503854329875,
+     "atr_pct": 5.279958095389622,
+     "atr_pct_rank": 18.326693227091635
     },
     {
      "ticker": "VZ",
@@ -1561,7 +2589,39 @@ window.__BOLLINGER_TA__ = {
        "d": 77.0,
        "j": 94.4
       }
-     }
+     },
+     "hl": {
+      "rsi_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "j_extreme": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "aligned": "up",
+      "vol_tier": 0,
+      "band_break": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "trigger_proximity_pct": 3.8,
+      "trigger_danger": false,
+      "in_sell_zone": false,
+      "atr_extreme": false,
+      "macd_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "fund_conflict": false
+     },
+     "vol_ratio": 0.4583160791949946,
+     "atr_pct": 2.1986832652473325,
+     "atr_pct_rank": 52.191235059760956
     }
    ]
   }
