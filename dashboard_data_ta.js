@@ -539,13 +539,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 225.0,
        "oi": 603,
        "oi_share": 0.046,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 4.2,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 245.0,
        "oi": 1251,
        "oi_share": 0.096,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 4.3,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 232.5,
       "expiries": [
@@ -759,13 +765,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 320.0,
        "oi": 2469,
        "oi_share": 0.065,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 24.6,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 500.0,
        "oi": 5127,
        "oi_share": 0.134,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 17.8,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 415.0,
       "expiries": [
@@ -950,13 +962,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 225.0,
        "oi": 3248,
        "oi_share": 0.087,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 11.5,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 265.0,
        "oi": 3907,
        "oi_share": 0.105,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 4.3,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 250.0,
       "expiries": [
@@ -1175,13 +1193,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 170.0,
        "oi": 710,
        "oi_share": 0.065,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 0.9,
+       "near": true,
+       "very_near": true
       },
       "call_wall": {
        "strike": 200.0,
        "oi": 531,
        "oi_share": 0.049,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 16.6,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 170.0,
       "expiries": [
@@ -1371,13 +1395,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 255.0,
        "oi": 2445,
        "oi_share": 0.176,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 18.4,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 330.0,
        "oi": 1444,
        "oi_share": 0.104,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 5.7,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 310.0,
       "expiries": [
@@ -1550,13 +1580,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 270.0,
        "oi": 220,
        "oi_share": 0.032,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 14.7,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 375.0,
        "oi": 420,
        "oi_share": 0.06,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 18.5,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 312.5,
       "expiries": [
@@ -1758,13 +1794,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 160.0,
        "oi": 2416,
        "oi_share": 0.152,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 4.3,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 170.0,
        "oi": 2448,
        "oi_share": 0.154,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 1.7,
+       "near": true,
+       "very_near": false
       },
       "max_pain": 160.0,
       "expiries": [
@@ -1951,13 +1993,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 140.0,
        "oi": 4552,
        "oi_share": 0.148,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 14.1,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 180.0,
        "oi": 872,
        "oi_share": 0.028,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 10.4,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 175.0,
       "expiries": [
@@ -2154,13 +2202,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 7.0,
        "oi": 7022,
        "oi_share": 0.088,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 49.6,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 17.0,
        "oi": 3498,
        "oi_share": 0.044,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 22.5,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 15.5,
       "expiries": [
@@ -2345,13 +2399,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 200.0,
        "oi": 4125,
        "oi_share": 0.591,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 16.0,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 245.0,
        "oi": 196,
        "oi_share": 0.028,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 2.9,
+       "near": true,
+       "very_near": false
       },
       "max_pain": 252.5,
       "expiries": [
@@ -2553,13 +2613,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 25.0,
        "oi": 325,
        "oi_share": 0.065,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 17.2,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 32.0,
        "oi": 552,
        "oi_share": 0.11,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 5.9,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 29.0,
       "expiries": [
@@ -2744,13 +2810,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 185.0,
        "oi": 928,
        "oi_share": 0.052,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 6.7,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 220.0,
        "oi": 963,
        "oi_share": 0.053,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 11.0,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 192.5,
       "expiries": [
@@ -2920,13 +2992,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 35.0,
        "oi": 4031,
        "oi_share": 0.12,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 24.0,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 50.0,
        "oi": 4756,
        "oi_share": 0.141,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 8.6,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 40.0,
       "expiries": [
@@ -3120,13 +3198,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 270.0,
        "oi": 2783,
        "oi_share": 0.041,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 0.9,
+       "near": true,
+       "very_near": true
       },
       "call_wall": {
        "strike": 305.0,
        "oi": 7769,
        "oi_share": 0.116,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 12.0,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 275.0,
       "expiries": [
@@ -3320,13 +3404,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 2.5,
        "oi": 102,
        "oi_share": 0.006,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 12.9,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 3.5,
        "oi": 7886,
        "oi_share": 0.426,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 22.0,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 1.0,
       "expiries": [
@@ -3538,13 +3628,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 557.5,
        "oi": 627,
        "oi_share": 0.041,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 11.4,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 630.0,
        "oi": 781,
        "oi_share": 0.051,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 0.2,
+       "near": true,
+       "very_near": true
       },
       "max_pain": 600.0,
       "expiries": [
@@ -3752,13 +3848,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 50.0,
        "oi": 4852,
        "oi_share": 0.091,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 44.1,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 100.0,
        "oi": 3664,
        "oi_share": 0.069,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 11.8,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 91.0,
       "expiries": [
@@ -3955,13 +4057,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 5.0,
        "oi": 3890,
        "oi_share": 0.078,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 21.1,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 7.0,
        "oi": 21814,
        "oi_share": 0.435,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 10.4,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 6.0,
       "expiries": [
@@ -4158,13 +4266,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 55.0,
        "oi": 3518,
        "oi_share": 0.051,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 9.7,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 62.0,
        "oi": 10566,
        "oi_share": 0.154,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 1.8,
+       "near": true,
+       "very_near": false
       },
       "max_pain": 58.0,
       "expiries": [
@@ -4361,13 +4475,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 75.0,
        "oi": 2224,
        "oi_share": 0.044,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 19.2,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 102.0,
        "oi": 4497,
        "oi_share": 0.09,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 9.9,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 96.0,
       "expiries": [
@@ -4569,13 +4689,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 135.0,
        "oi": 9270,
        "oi_share": 0.042,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 10.3,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 200.0,
        "oi": 21544,
        "oi_share": 0.099,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 32.9,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 152.5,
       "expiries": [
@@ -4781,13 +4907,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 37.0,
        "oi": 1384,
        "oi_share": 0.083,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 9.9,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 45.0,
        "oi": 1330,
        "oi_share": 0.08,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 9.6,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 40.5,
       "expiries": [
@@ -4984,13 +5116,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 3.5,
        "oi": 809,
        "oi_share": 0.032,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 14.6,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 5.0,
        "oi": 6152,
        "oi_share": 0.241,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 22.0,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 4.5,
       "expiries": [
@@ -5189,13 +5327,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 100.0,
        "oi": 11311,
        "oi_share": 0.084,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 6.7,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 135.0,
        "oi": 7963,
        "oi_share": 0.059,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 26.0,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 117.0,
       "expiries": [
@@ -5399,13 +5543,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 11.0,
        "oi": 914,
        "oi_share": 0.038,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 13.0,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 13.0,
        "oi": 4317,
        "oi_share": 0.178,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 2.8,
+       "near": true,
+       "very_near": false
       },
       "max_pain": 13.0,
       "expiries": [
@@ -5593,13 +5743,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 85.0,
        "oi": 4860,
        "oi_share": 0.077,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 50.6,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 175.0,
        "oi": 9441,
        "oi_share": 0.15,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 1.6,
+       "near": true,
+       "very_near": true
       },
       "max_pain": 160.0,
       "expiries": [
@@ -5798,13 +5954,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 80.0,
        "oi": 844,
        "oi_share": 0.055,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 14.7,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 95.0,
        "oi": 1396,
        "oi_share": 0.091,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 1.2,
+       "near": true,
+       "very_near": true
       },
       "max_pain": 92.0,
       "expiries": [
@@ -6015,13 +6177,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 21.0,
        "oi": 9598,
        "oi_share": 0.088,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 11.6,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 30.0,
        "oi": 10045,
        "oi_share": 0.092,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 26.3,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 21.5,
       "expiries": [
@@ -6225,13 +6393,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 13.0,
        "oi": 2546,
        "oi_share": 0.021,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 2.8,
+       "near": true,
+       "very_near": true
       },
       "call_wall": {
        "strike": 17.0,
        "oi": 17743,
        "oi_share": 0.143,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 27.2,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 14.0,
       "expiries": [
@@ -6416,13 +6590,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 62.0,
        "oi": 1317,
        "oi_share": 0.038,
-       "oi_extreme": false
+       "oi_extreme": false,
+       "dist_pct": 6.9,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 68.0,
        "oi": 5008,
        "oi_share": 0.143,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 2.1,
+       "near": true,
+       "very_near": false
       },
       "max_pain": 65.0,
       "expiries": [
@@ -6631,13 +6811,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 250.0,
        "oi": 678,
        "oi_share": 0.053,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 8.0,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 280.0,
        "oi": 887,
        "oi_share": 0.069,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 3.1,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 270.0,
       "expiries": [
@@ -6831,13 +7017,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 12.0,
        "oi": 1121,
        "oi_share": 0.131,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 0.6,
+       "near": true,
+       "very_near": true
       },
       "call_wall": {
        "strike": 15.0,
        "oi": 2258,
        "oi_share": 0.263,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 24.3,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 12.0,
       "expiries": [
@@ -7049,13 +7241,19 @@ window.__BOLLINGER_TA__ = {
        "strike": 44.5,
        "oi": 5233,
        "oi_share": 0.288,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 6.4,
+       "near": false,
+       "very_near": false
       },
       "call_wall": {
        "strike": 49.0,
        "oi": 5025,
        "oi_share": 0.276,
-       "oi_extreme": true
+       "oi_extreme": true,
+       "dist_pct": 3.1,
+       "near": false,
+       "very_near": false
       },
       "max_pain": 45.5,
       "expiries": [
