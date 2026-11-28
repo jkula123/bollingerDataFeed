@@ -272,6 +272,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 45.84186863164337,
      "rsi_d": 47.23790861783833,
+     "rsi_4h": 51.68886428106095,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 216.9499969482422,
      "resistance": 257.1400146484375,
      "rationale": "weekly downtrend, daily RSI 47 mid-range, 4H MACD positive and rising",
@@ -343,6 +349,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 44.69277480904832,
      "rsi_d": 40.8393645048995,
+     "rsi_4h": 40.3420050822967,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 370.3999938964844,
      "resistance": 594.0,
      "rationale": "weekly no weekly trend, daily RSI 41 weak",
@@ -414,6 +426,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.14170142599937,
      "rsi_d": 48.63770318842801,
+     "rsi_4h": 48.74024029864164,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 229.36000061035156,
      "resistance": 275.3399963378906,
      "rationale": "weekly uptrend intact, daily RSI 49 mid-range",
@@ -481,6 +499,8 @@ window.__BOLLINGER_TA__ = {
      "biases": {},
      "rsi_w": null,
      "rsi_d": null,
+     "rsi_4h": null,
+     "macd_sign": null,
      "support": null,
      "resistance": null,
      "rationale": "",
@@ -504,6 +524,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 40.358237201951795,
      "rsi_d": 42.214698258279405,
+     "rsi_4h": 44.68964350655904,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": -1
+     },
      "support": 143.5500030517578,
      "resistance": 231.99000549316406,
      "rationale": "weekly downtrend, daily RSI 42 weak, daily MACD turning up",
@@ -575,6 +601,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.6999403702302,
      "rsi_d": 44.73378336791734,
+     "rsi_4h": 45.46458252128165,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 278.0,
      "resistance": 369.82000732421875,
      "rationale": "weekly downtrend, daily RSI 45 weak",
@@ -646,6 +678,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 47.430007669636474,
      "rsi_d": 50.58947630607888,
+     "rsi_4h": 54.13008601278417,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 300.8999938964844,
      "resistance": 343.8900146484375,
      "rationale": "weekly downtrend, daily RSI 51 mid-range, 4H MACD positive and rising",
@@ -717,6 +755,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 34.374912709264564,
      "rsi_d": 43.82957872902831,
+     "rsi_4h": 51.51581793233873,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 155.55999755859375,
      "resistance": 179.19000244140625,
      "rationale": "weekly downtrend, daily RSI 44 weak, daily MACD turning up, 4H MACD positive and rising",
@@ -788,6 +832,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.12477139369721,
      "rsi_d": 41.880849867512616,
+     "rsi_4h": 45.48672905491663,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 136.8800048828125,
      "resistance": 229.5,
      "rationale": "weekly downtrend, daily RSI 42 weak, 4H MACD positive and rising",
@@ -859,6 +909,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.39071710889584,
      "rsi_d": 33.13143639038793,
+     "rsi_4h": 37.509747605272835,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 11.729999542236328,
      "resistance": 22.389999389648438,
      "rationale": "weekly downtrend, daily RSI 33 weak, 4H MACD positive and rising",
@@ -881,9 +937,9 @@ window.__BOLLINGER_TA__ = {
        "j": 40.3
       },
       "4h": {
-       "k": 35.4,
-       "d": 26.1,
-       "j": 54.0
+       "k": 35.5,
+       "d": 26.2,
+       "j": 54.1
       }
      },
      "hl": {
@@ -930,6 +986,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 43.2201882593537,
      "rsi_d": 40.414342055048294,
+     "rsi_4h": 36.03162226748325,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 230.52999877929688,
      "resistance": 284.9700012207031,
      "rationale": "weekly downtrend, daily RSI 40 weak, daily MACD deteriorating",
@@ -1001,6 +1063,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 48.125188196296364,
      "rsi_d": 50.60510410375935,
+     "rsi_4h": 48.90524498080447,
+     "macd_sign": {
+      "weekly": 1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 27.59000015258789,
      "resistance": 33.689998626708984,
      "rationale": "weekly downtrend, daily RSI 51 mid-range",
@@ -1072,6 +1140,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 45.77610072611108,
      "rsi_d": 39.555587648554244,
+     "rsi_4h": 45.971429253568964,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 179.9199981689453,
      "resistance": 234.6199951171875,
      "rationale": "weekly downtrend, daily RSI 40 weak, 4H MACD positive and rising",
@@ -1143,6 +1217,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.99143732816184,
      "rsi_d": 61.55730789101205,
+     "rsi_4h": 64.77995949887855,
+     "macd_sign": {
+      "weekly": 1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 37.0,
      "resistance": 46.33000183105469,
      "rationale": "weekly no weekly trend, daily RSI 62 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
@@ -1214,6 +1294,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.64232557831171,
      "rsi_d": 37.34617266465873,
+     "rsi_4h": 41.67229621993974,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 260.6919860839844,
      "resistance": 301.6199951171875,
      "rationale": "weekly downtrend, daily RSI 37 weak, daily MACD turning up, 4H MACD positive and rising",
@@ -1285,6 +1371,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.522115331560926,
      "rsi_d": 42.13895880830966,
+     "rsi_4h": 43.03552580311359,
+     "macd_sign": {
+      "weekly": 1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 2.680000066757202,
      "resistance": 3.559999942779541,
      "rationale": "weekly downtrend, daily RSI 42 weak",
@@ -1356,6 +1448,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 49.6025148631443,
      "rsi_d": 50.33813973322987,
+     "rsi_4h": 56.81678768254624,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 558.6799926757812,
      "resistance": 648.4500122070312,
      "rationale": "weekly downtrend, daily RSI 50 mid-range, daily MACD turning up, 4H MACD positive and rising",
@@ -1427,6 +1525,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 33.78633968527629,
      "rsi_d": 35.17133470720036,
+     "rsi_4h": 37.40636114107648,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 75.5999984741211,
      "resistance": 178.3300018310547,
      "rationale": "weekly downtrend, daily RSI 35 weak, 4H MACD positive and rising",
@@ -1498,6 +1602,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.58889429773524,
      "rsi_d": 51.73363811356095,
+     "rsi_4h": 56.80066229050686,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 5.659999847412109,
      "resistance": 7.599999904632568,
      "rationale": "weekly downtrend, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
@@ -1569,6 +1679,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.482655590304745,
      "rsi_d": 44.58305652151237,
+     "rsi_4h": 51.34984170024964,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 56.560001373291016,
      "resistance": 67.48999786376953,
      "rationale": "weekly downtrend, daily RSI 45 weak, daily MACD turning up, 4H MACD positive and rising",
@@ -1640,6 +1756,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 39.27193336731885,
      "rsi_d": 32.06742266841101,
+     "rsi_4h": 39.930758345528965,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 86.8499984741211,
      "resistance": 121.5,
      "rationale": "weekly downtrend, daily RSI 32 weak, daily MACD turning up, 4H MACD positive and rising",
@@ -1711,6 +1833,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.713309084696746,
      "rsi_d": 38.11728710759187,
+     "rsi_4h": 43.0158607518163,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 124.5,
      "resistance": 215.3300018310547,
      "rationale": "weekly downtrend, daily RSI 38 weak",
@@ -1734,8 +1862,8 @@ window.__BOLLINGER_TA__ = {
       },
       "4h": {
        "k": 52.8,
-       "d": 50.4,
-       "j": 57.5
+       "d": 50.5,
+       "j": 57.4
       }
      },
      "hl": {
@@ -1782,6 +1910,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.31557481453717,
      "rsi_d": 55.03439531105205,
+     "rsi_4h": 59.5140212840194,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 37.75,
      "resistance": 43.2400016784668,
      "rationale": "weekly downtrend, daily RSI 55 firm, daily MACD turning up, 4H MACD positive and rising",
@@ -1853,6 +1987,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 33.04769467597443,
      "rsi_d": 35.7237716973674,
+     "rsi_4h": 39.4270191497906,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 3.4800000190734863,
      "resistance": 7.079999923706055,
      "rationale": "weekly downtrend, daily RSI 36 weak, 4H MACD positive and rising",
@@ -1924,6 +2064,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 36.960396395319584,
      "rsi_d": 40.59387019047501,
+     "rsi_4h": 41.3608364935174,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 99.33999633789062,
      "resistance": 144.61000061035156,
      "rationale": "weekly downtrend, daily RSI 41 weak",
@@ -1946,7 +2092,7 @@ window.__BOLLINGER_TA__ = {
        "j": 26.2
       },
       "4h": {
-       "k": 34.3,
+       "k": 34.2,
        "d": 35.1,
        "j": 32.5
       }
@@ -1995,6 +2141,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 48.62675274160765,
      "rsi_d": 48.9845349223783,
+     "rsi_4h": 54.5956301467984,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 10.880000114440918,
      "resistance": 14.029999732971191,
      "rationale": "weekly downtrend, daily RSI 49 mid-range, 4H MACD positive and rising",
@@ -2066,6 +2218,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.79812978124343,
      "rsi_d": 51.544134693704684,
+     "rsi_4h": 58.51691657603557,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 142.27999877929688,
      "resistance": 198.50999450683594,
      "rationale": "weekly uptrend intact, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
@@ -2137,6 +2295,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.186068454708746,
      "rsi_d": 38.05528503732502,
+     "rsi_4h": 47.4626101094044,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 84.59500122070312,
      "resistance": 131.88999938964844,
      "rationale": "weekly downtrend, daily RSI 38 weak, daily MACD turning up, 4H MACD positive and rising",
@@ -2208,6 +2372,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 39.05181196520087,
      "rsi_d": 38.13893039081195,
+     "rsi_4h": 43.4193388480488,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 21.020000457763672,
      "resistance": 35.849998474121094,
      "rationale": "weekly downtrend, daily RSI 38 weak, 4H MACD positive and rising",
@@ -2279,6 +2449,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 37.589553610409595,
      "rsi_d": 38.00571197393276,
+     "rsi_4h": 40.36638341925282,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 11.949999809265137,
      "resistance": 17.739999771118164,
      "rationale": "weekly downtrend, daily RSI 38 weak",
@@ -2350,6 +2526,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 43.66534426437043,
      "rsi_d": 46.3423320497063,
+     "rsi_4h": 49.11486580084179,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 63.290000915527344,
      "resistance": 72.5,
      "rationale": "weekly downtrend, daily RSI 46 mid-range",
@@ -2421,6 +2603,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 54.66427264537006,
      "rsi_d": 34.65589192517159,
+     "rsi_4h": 35.63135539451089,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": 1
+     },
      "support": 259.25,
      "resistance": 316.20001220703125,
      "rationale": "weekly uptrend intact, daily RSI 35 weak, 4H MACD positive and rising",
@@ -2492,6 +2680,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.42462800074922,
      "rsi_d": 44.35851910894888,
+     "rsi_4h": 46.123089798001836,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": -1,
+      "4h": -1
+     },
      "support": 11.220000267028809,
      "resistance": 15.119999885559082,
      "rationale": "weekly downtrend, daily RSI 44 weak",
@@ -2563,6 +2757,12 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 53.79188630916724,
      "rsi_d": 62.88646972013232,
+     "rsi_4h": 61.75105150688786,
+     "macd_sign": {
+      "weekly": -1,
+      "daily": 1,
+      "4h": 1
+     },
      "support": 43.61000061035156,
      "resistance": 47.939998626708984,
      "rationale": "weekly uptrend intact, daily RSI 63 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
