@@ -284,7 +284,13 @@
      "support": 216.9499969482422,
      "resistance": 257.1400146484375,
      "rationale": "weekly downtrend, daily RSI 47 mid-range, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 price 56% below fair value; P/E cheap vs own history/sector"
+     "fundamentals_note": "conflict \u2014 price 56% below fair value; P/E cheap vs own history/sector",
+     "sell_zone": {
+      "low": 240.15,
+      "high": 244.47,
+      "extension": false
+     },
+     "sell_trigger": 233.52
     },
     {
      "ticker": "AMD",
@@ -300,7 +306,13 @@
      "support": 370.3999938964844,
      "resistance": 594.0,
      "rationale": "weekly no weekly trend, daily RSI 41 weak",
-     "fundamentals_note": "confirm \u2014 insiders net sold $107M (3mo); 13F net selling $1.07B; price 146% above fair value"
+     "fundamentals_note": "confirm \u2014 insiders net sold $107M (3mo); 13F net selling $1.07B; price 146% above fair value",
+     "sell_zone": {
+      "low": 469.22,
+      "high": 491.83,
+      "extension": false
+     },
+     "sell_trigger": 424.03
     },
     {
      "ticker": "AMZN",
@@ -316,7 +328,13 @@
      "support": 229.36000061035156,
      "resistance": 275.3399963378906,
      "rationale": "weekly uptrend intact, daily RSI 49 mid-range",
-     "fundamentals_note": "lean positive \u2014 13F net buying $691M; price 24% below fair value; P/E cheap vs own history/sector"
+     "fundamentals_note": "lean positive \u2014 13F net buying $691M; price 24% below fair value; P/E cheap vs own history/sector",
+     "sell_zone": {
+      "low": 258.08,
+      "high": 263.32,
+      "extension": false
+     },
+     "sell_trigger": 244.73
     },
     {
      "ticker": "ANT",
@@ -328,6 +346,8 @@
      "support": null,
      "resistance": null,
      "rationale": "",
+     "sell_zone": null,
+     "sell_trigger": null,
      "fundamentals_note": "no usable history on Yahoo yet (too few bars)"
     },
     {
@@ -344,7 +364,13 @@
      "support": 143.5500030517578,
      "resistance": 231.99000549316406,
      "rationale": "weekly downtrend, daily RSI 42 weak, daily MACD turning up",
-     "fundamentals_note": "confirm \u2014 price 375% above fair value; P/E expensive vs own history/sector"
+     "fundamentals_note": "confirm \u2014 price 375% above fair value; P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 173.95,
+      "high": 182.51,
+      "extension": false
+     },
+     "sell_trigger": 163.13
     },
     {
      "ticker": "AVGO",
@@ -360,7 +386,13 @@
      "support": 278.0,
      "resistance": 369.82000732421875,
      "rationale": "weekly downtrend, daily RSI 45 weak",
-     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector"
+     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 317.35,
+      "high": 327.06,
+      "extension": false
+     },
+     "sell_trigger": 308.51
     },
     {
      "ticker": "AXP",
@@ -376,7 +408,13 @@
      "support": 300.8999938964844,
      "resistance": 343.8900146484375,
      "rationale": "weekly downtrend, daily RSI 51 mid-range, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 insiders net sold $38M (3mo); P/E expensive vs own history/sector"
+     "fundamentals_note": "confirm \u2014 insiders net sold $38M (3mo); P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 319.24,
+      "high": 322.98,
+      "extension": false
+     },
+     "sell_trigger": 315.95
     },
     {
      "ticker": "BA",
@@ -392,7 +430,13 @@
      "support": 155.55999755859375,
      "resistance": 179.19000244140625,
      "rationale": "weekly downtrend, daily RSI 44 weak, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 13F net buying $352M; P/E cheap vs own history/sector; \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "confirm \u2014 13F net buying $352M; P/E cheap vs own history/sector; \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 179.19,
+      "high": 181.9,
+      "extension": false
+     },
+     "sell_trigger": 165.01
     },
     {
      "ticker": "BE",
@@ -408,7 +452,13 @@
      "support": 136.8800048828125,
      "resistance": 229.5,
      "rationale": "weekly downtrend, daily RSI 42 weak, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector"
+     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 169.09,
+      "high": 179.46,
+      "extension": false
+     },
+     "sell_trigger": 157.33
     },
     {
      "ticker": "BMNR",
@@ -424,7 +474,13 @@
      "support": 11.729999542236328,
      "resistance": 22.389999389648438,
      "rationale": "weekly downtrend, daily RSI 33 weak, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 16.16,
+      "high": 16.91,
+      "extension": false
+     },
+     "sell_trigger": 12.8
     },
     {
      "ticker": "CEG",
@@ -440,7 +496,13 @@
      "support": 230.52999877929688,
      "resistance": 284.9700012207031,
      "rationale": "weekly downtrend, daily RSI 40 weak, daily MACD deteriorating",
-     "fundamentals_note": "mixed \u2014 no strong fundamental signals"
+     "fundamentals_note": "mixed \u2014 no strong fundamental signals",
+     "sell_zone": {
+      "low": 266.0,
+      "high": 272.62,
+      "extension": false
+     },
+     "sell_trigger": 231.3
     },
     {
      "ticker": "CELH",
@@ -456,7 +518,13 @@
      "support": 27.59000015258789,
      "resistance": 33.689998626708984,
      "rationale": "weekly downtrend, daily RSI 51 mid-range",
-     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 30.27,
+      "high": 31.06,
+      "extension": false
+     },
+     "sell_trigger": 27.89
     },
     {
      "ticker": "CRM",
@@ -472,7 +540,13 @@
      "support": 179.9199981689453,
      "resistance": 234.6199951171875,
      "rationale": "weekly downtrend, daily RSI 40 weak, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $1.90B; price 53% below fair value"
+     "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $1.90B; price 53% below fair value",
+     "sell_zone": {
+      "low": 204.86,
+      "high": 209.26,
+      "extension": false
+     },
+     "sell_trigger": 189.91
     },
     {
      "ticker": "FOUR",
@@ -488,7 +562,13 @@
      "support": 37.0,
      "resistance": 46.33000183105469,
      "rationale": "weekly no weekly trend, daily RSI 62 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
-     "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt; P/E expensive vs own history/sector"
+     "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt; P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 46.33,
+      "high": 47.71,
+      "extension": false
+     },
+     "sell_trigger": 45.8
     },
     {
      "ticker": "GOOG",
@@ -504,7 +584,13 @@
      "support": 260.6919860839844,
      "resistance": 301.6199951171875,
      "rationale": "weekly downtrend, daily RSI 37 weak, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; 13F net selling $462M"
+     "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; 13F net selling $462M",
+     "sell_zone": {
+      "low": 291.93,
+      "high": 297.58,
+      "extension": false
+     },
+     "sell_trigger": 272.0
     },
     {
      "ticker": "GRAB",
@@ -520,7 +606,13 @@
      "support": 2.680000066757202,
      "resistance": 3.559999942779541,
      "rationale": "weekly downtrend, daily RSI 42 weak",
-     "fundamentals_note": "mixed \u2014 insiders net bought $26M (3mo); \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "mixed \u2014 insiders net bought $26M (3mo); \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 3.23,
+      "high": 3.3,
+      "extension": false
+     },
+     "sell_trigger": 2.74
     },
     {
      "ticker": "META",
@@ -536,7 +628,13 @@
      "support": 558.6799926757812,
      "resistance": 648.4500122070312,
      "rationale": "weekly downtrend, daily RSI 50 mid-range, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "mixed \u2014 13F net buying $1.04B; insiders net sold $119M (3mo)"
+     "fundamentals_note": "mixed \u2014 13F net buying $1.04B; insiders net sold $119M (3mo)",
+     "sell_zone": {
+      "low": 632.1,
+      "high": 644.83,
+      "extension": false
+     },
+     "sell_trigger": 628.15
     },
     {
      "ticker": "NBIS",
@@ -552,7 +650,13 @@
      "support": 75.5999984741211,
      "resistance": 178.3300018310547,
      "rationale": "weekly downtrend, daily RSI 35 weak, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 \u2702\ufe0f buyback shrinking share count; \ud83e\udea4 TRAP flag; insiders net sold $144M (3mo); 13F net selling $781M"
+     "fundamentals_note": "confirm \u2014 \u2702\ufe0f buyback shrinking share count; \ud83e\udea4 TRAP flag; insiders net sold $144M (3mo); 13F net selling $781M",
+     "sell_zone": {
+      "low": 95.9,
+      "high": 104.01,
+      "extension": false
+     },
+     "sell_trigger": 83.53
     },
     {
      "ticker": "NEXT",
@@ -568,7 +672,13 @@
      "support": 5.659999847412109,
      "resistance": 7.599999904632568,
      "rationale": "weekly downtrend, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udcb8 burning cash"
+     "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udcb8 burning cash",
+     "sell_zone": {
+      "low": 6.36,
+      "high": 6.53,
+      "extension": false
+     },
+     "sell_trigger": 6.19
     },
     {
      "ticker": "NFLX",
@@ -584,7 +694,13 @@
      "support": 56.560001373291016,
      "resistance": 67.48999786376953,
      "rationale": "weekly downtrend, daily RSI 45 weak, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 13F net buying $154M; price 34% below fair value; P/E cheap vs own history/sector"
+     "fundamentals_note": "conflict \u2014 13F net buying $154M; price 34% below fair value; P/E cheap vs own history/sector",
+     "sell_zone": {
+      "low": 67.49,
+      "high": 68.49,
+      "extension": false
+     },
+     "sell_trigger": 56.56
     },
     {
      "ticker": "NOW",
@@ -600,7 +716,13 @@
      "support": 86.8499984741211,
      "resistance": 121.5,
      "rationale": "weekly downtrend, daily RSI 32 weak, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 13F net buying $141M"
+     "fundamentals_note": "conflict \u2014 13F net buying $141M",
+     "sell_zone": {
+      "low": 95.62,
+      "high": 98.39,
+      "extension": false
+     },
+     "sell_trigger": 91.53
     },
     {
      "ticker": "NVDA",
@@ -616,7 +738,13 @@
      "support": 124.5,
      "resistance": 215.3300018310547,
      "rationale": "weekly downtrend, daily RSI 38 weak",
-     "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $958M; price 38% below fair value; insiders net sold $964M (3mo)"
+     "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $958M; price 38% below fair value; insiders net sold $964M (3mo)",
+     "sell_zone": {
+      "low": 153.13,
+      "high": 159.58,
+      "extension": false
+     },
+     "sell_trigger": 140.85
     },
     {
      "ticker": "NVO",
@@ -632,7 +760,13 @@
      "support": 37.75,
      "resistance": 43.2400016784668,
      "rationale": "weekly downtrend, daily RSI 55 firm, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector"
+     "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector",
+     "sell_zone": {
+      "low": 41.41,
+      "high": 41.98,
+      "extension": false
+     },
+     "sell_trigger": 41.0
     },
     {
      "ticker": "ONDS",
@@ -648,7 +782,13 @@
      "support": 3.4800000190734863,
      "resistance": 7.079999923706055,
      "rationale": "weekly downtrend, daily RSI 36 weak, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 4.39,
+      "high": 4.63,
+      "extension": false
+     },
+     "sell_trigger": 3.48
     },
     {
      "ticker": "ORCL",
@@ -664,7 +804,13 @@
      "support": 99.33999633789062,
      "resistance": 144.61000061035156,
      "rationale": "weekly downtrend, daily RSI 41 weak",
-     "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; 13F net selling $271M"
+     "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; 13F net selling $271M",
+     "sell_zone": {
+      "low": 130.77,
+      "high": 134.86,
+      "extension": false
+     },
+     "sell_trigger": 99.34
     },
     {
      "ticker": "PATH",
@@ -680,7 +826,13 @@
      "support": 10.880000114440918,
      "resistance": 14.029999732971191,
      "rationale": "weekly downtrend, daily RSI 49 mid-range, 4H MACD positive and rising",
-     "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; insiders net sold $39M (3mo)"
+     "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; insiders net sold $39M (3mo)",
+     "sell_zone": {
+      "low": 12.76,
+      "high": 13.08,
+      "extension": false
+     },
+     "sell_trigger": 12.62
     },
     {
      "ticker": "PLTR",
@@ -696,7 +848,13 @@
      "support": 142.27999877929688,
      "resistance": 198.50999450683594,
      "rationale": "weekly uptrend intact, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 insiders net sold $104M (3mo); \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector"
+     "fundamentals_note": "conflict \u2014 insiders net sold $104M (3mo); \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 185.75,
+      "high": 190.6,
+      "extension": false
+     },
+     "sell_trigger": 170.82
     },
     {
      "ticker": "RDDT",
@@ -712,7 +870,13 @@
      "support": 84.59500122070312,
      "resistance": 131.88999938964844,
      "rationale": "weekly downtrend, daily RSI 38 weak, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "confirm \u2014 insiders net sold $26M (3mo); 13F net selling $231M; \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "confirm \u2014 insiders net sold $26M (3mo); 13F net selling $231M; \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 106.38,
+      "high": 109.85,
+      "extension": false
+     },
+     "sell_trigger": 90.78
     },
     {
      "ticker": "SMCI",
@@ -728,7 +892,13 @@
      "support": 21.020000457763672,
      "resistance": 35.849998474121094,
      "rationale": "weekly downtrend, daily RSI 38 weak, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; price 86% below fair value; P/E cheap vs own history/sector; \ud83d\udca7 diluting shareholders"
+     "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; price 86% below fair value; P/E cheap vs own history/sector; \ud83d\udca7 diluting shareholders",
+     "sell_zone": {
+      "low": 29.94,
+      "high": 31.17,
+      "extension": false
+     },
+     "sell_trigger": 23.38
     },
     {
      "ticker": "SOFI",
@@ -744,7 +914,13 @@
      "support": 11.949999809265137,
      "resistance": 17.739999771118164,
      "rationale": "weekly downtrend, daily RSI 38 weak",
-     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector"
+     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 13.9,
+      "high": 14.31,
+      "extension": false
+     },
+     "sell_trigger": 12.74
     },
     {
      "ticker": "UBER",
@@ -760,7 +936,13 @@
      "support": 63.290000915527344,
      "resistance": 72.5,
      "rationale": "weekly downtrend, daily RSI 46 mid-range",
-     "fundamentals_note": "mixed \u2014 insiders net bought $11M (3mo); P/E expensive vs own history/sector"
+     "fundamentals_note": "mixed \u2014 insiders net bought $11M (3mo); P/E expensive vs own history/sector",
+     "sell_zone": {
+      "low": 68.84,
+      "high": 70.04,
+      "extension": false
+     },
+     "sell_trigger": 65.41
     },
     {
      "ticker": "VEEV",
@@ -776,7 +958,13 @@
      "support": 259.25,
      "resistance": 316.20001220703125,
      "rationale": "weekly uptrend intact, daily RSI 35 weak, 4H MACD positive and rising",
-     "fundamentals_note": "lean positive \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M"
+     "fundamentals_note": "lean positive \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M",
+     "sell_zone": {
+      "low": 272.39,
+      "high": 277.37,
+      "extension": false
+     },
+     "sell_trigger": 270.92
     },
     {
      "ticker": "VG",
@@ -792,7 +980,13 @@
      "support": 11.220000267028809,
      "resistance": 15.119999885559082,
      "rationale": "weekly downtrend, daily RSI 44 weak",
-     "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; insiders net sold $56M (3mo)"
+     "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; insiders net sold $56M (3mo)",
+     "sell_zone": {
+      "low": 12.25,
+      "high": 12.57,
+      "extension": false
+     },
+     "sell_trigger": 11.94
     },
     {
      "ticker": "VZ",
@@ -808,7 +1002,13 @@
      "support": 43.61000061035156,
      "resistance": 47.939998626708984,
      "rationale": "weekly uptrend intact, daily RSI 63 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
-     "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt"
+     "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt",
+     "sell_zone": {
+      "low": 47.94,
+      "high": 48.46,
+      "extension": false
+     },
+     "sell_trigger": 45.81
     }
    ]
   }
