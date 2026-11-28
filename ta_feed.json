@@ -6,6 +6,7 @@
    "warnings": [
     {
      "ticker": "NBIS",
+     "kind": "downside",
      "risk_score": 10,
      "fund_boost": 4,
      "vote": -6,
@@ -15,6 +16,7 @@
     },
     {
      "ticker": "ONDS",
+     "kind": "downside",
      "risk_score": 8,
      "fund_boost": 2,
      "vote": -6,
@@ -24,6 +26,7 @@
     },
     {
      "ticker": "VG",
+     "kind": "downside",
      "risk_score": 8,
      "fund_boost": 2,
      "vote": -6,
@@ -33,6 +36,7 @@
     },
     {
      "ticker": "NVDA",
+     "kind": "downside",
      "risk_score": 7,
      "fund_boost": 1,
      "vote": -6,
@@ -42,6 +46,7 @@
     },
     {
      "ticker": "ORCL",
+     "kind": "downside",
      "risk_score": 7,
      "fund_boost": 1,
      "vote": -6,
@@ -51,6 +56,7 @@
     },
     {
      "ticker": "NEXT",
+     "kind": "downside",
      "risk_score": 7,
      "fund_boost": 4,
      "vote": -3,
@@ -60,6 +66,7 @@
     },
     {
      "ticker": "ARM",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -69,6 +76,7 @@
     },
     {
      "ticker": "AVGO",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -78,6 +86,7 @@
     },
     {
      "ticker": "BE",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -87,6 +96,7 @@
     },
     {
      "ticker": "BMNR",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -96,6 +106,7 @@
     },
     {
      "ticker": "CEG",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -105,6 +116,7 @@
     },
     {
      "ticker": "CRM",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -114,6 +126,7 @@
     },
     {
      "ticker": "GOOG",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -123,6 +136,7 @@
     },
     {
      "ticker": "GRAB",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -132,6 +146,7 @@
     },
     {
      "ticker": "NOW",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -141,6 +156,7 @@
     },
     {
      "ticker": "SMCI",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -150,6 +166,7 @@
     },
     {
      "ticker": "SOFI",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -159,6 +176,7 @@
     },
     {
      "ticker": "UBER",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 0,
      "vote": -6,
@@ -168,6 +186,7 @@
     },
     {
      "ticker": "BA",
+     "kind": "downside",
      "risk_score": 6,
      "fund_boost": 3,
      "vote": -5,
@@ -177,6 +196,7 @@
     },
     {
      "ticker": "AXP",
+     "kind": "downside",
      "risk_score": 4,
      "fund_boost": 1,
      "vote": -5,
@@ -186,6 +206,7 @@
     },
     {
      "ticker": "RDDT",
+     "kind": "downside",
      "risk_score": 4,
      "fund_boost": 1,
      "vote": -5,
@@ -195,6 +216,7 @@
     },
     {
      "ticker": "META",
+     "kind": "downside",
      "risk_score": 4,
      "fund_boost": 1,
      "vote": -3,
@@ -204,6 +226,7 @@
     },
     {
      "ticker": "ADBE",
+     "kind": "downside",
      "risk_score": 3,
      "fund_boost": 0,
      "vote": -5,
@@ -213,6 +236,7 @@
     },
     {
      "ticker": "NFLX",
+     "kind": "downside",
      "risk_score": 3,
      "fund_boost": 0,
      "vote": -5,
@@ -222,6 +246,7 @@
     },
     {
      "ticker": "AMD",
+     "kind": "downside",
      "risk_score": 2,
      "fund_boost": 1,
      "vote": -3,
@@ -231,12 +256,28 @@
     },
     {
      "ticker": "PATH",
+     "kind": "downside",
      "risk_score": 2,
      "fund_boost": 1,
      "vote": -2,
      "why": "daily EMA50 rolling over; insiders net sold $39M (3mo)",
      "confirm_level": 10.880000114440918,
      "confirm_note": "A close below $10.88 confirms further downside"
+    },
+    {
+     "ticker": "VEEV",
+     "kind": "regime",
+     "why": "Weekly MACD just flipped down \u2014 regime change against the call."
+    },
+    {
+     "ticker": "AMD",
+     "kind": "divergence",
+     "why": "Bearish RSI divergence (W) \u2014 price made a higher high but RSI didn't confirm"
+    },
+    {
+     "ticker": "NVDA",
+     "kind": "divergence",
+     "why": "Bearish RSI divergence (W) \u2014 price made a higher high but RSI didn't confirm"
     }
    ],
    "squeeze_up": [
@@ -327,7 +368,7 @@
      },
      "rsi_w": 45.84186863164337,
      "rsi_d": 47.23790861783833,
-     "rsi_4h": 51.68886428106095,
+     "rsi_4h": 51.68997941957349,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -456,6 +497,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -488,6 +534,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 225.0,
+       "oi": 603
+      },
+      "call_wall": {
+       "strike": 245.0,
+       "oi": 1251
+      },
+      "max_pain": 232.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 13018,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4365216843563982,
      "atr_pct": 3.6824759136631484,
      "atr_pct_rank": 39.8406374501992
@@ -503,7 +567,7 @@
      },
      "rsi_w": 44.69277480904832,
      "rsi_d": 40.8393645048995,
-     "rsi_4h": 40.3420050822967,
+     "rsi_4h": 40.34148589904677,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -643,6 +707,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": "bearish",
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": {
@@ -681,6 +750,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 320.0,
+       "oi": 2469
+      },
+      "call_wall": {
+       "strike": 500.0,
+       "oi": 5127
+      },
+      "max_pain": 415.0,
+      "expiries": [
+       "2026-11-30",
+       "2026-12-02"
+      ],
+      "total_oi": 38140,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4739375925145317,
      "atr_pct": 10.64986667684597,
      "atr_pct_rank": 98.80478087649402
@@ -696,7 +783,7 @@
      },
      "rsi_w": 51.14170142599937,
      "rsi_d": 48.63770318842801,
-     "rsi_4h": 48.74024029864164,
+     "rsi_4h": 48.74021785804263,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -819,6 +906,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": {
@@ -845,6 +937,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 225.0,
+       "oi": 3248
+      },
+      "call_wall": {
+       "strike": 265.0,
+       "oi": 3907
+      },
+      "max_pain": 250.0,
+      "expiries": [
+       "2026-11-30",
+       "2026-12-02"
+      ],
+      "total_oi": 37296,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4924991389922565,
      "atr_pct": 4.122101994103092,
      "atr_pct_rank": 99.60159362549801
@@ -870,6 +980,7 @@
      "structure": null,
      "fvg": null,
      "hl": null,
+     "options": null,
      "vol_ratio": null,
      "atr_pct": null,
      "atr_pct_rank": null,
@@ -886,7 +997,7 @@
      },
      "rsi_w": 40.358237201951795,
      "rsi_d": 42.214698258279405,
-     "rsi_4h": 44.68964350655904,
+     "rsi_4h": 44.68910979457709,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1016,6 +1127,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -1042,6 +1158,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 170.0,
+       "oi": 710
+      },
+      "call_wall": {
+       "strike": 200.0,
+       "oi": 531
+      },
+      "max_pain": 170.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 10856,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.43615071207522244,
      "atr_pct": 9.981828688813748,
      "atr_pct_rank": 89.2430278884462
@@ -1057,7 +1191,7 @@
      },
      "rsi_w": 42.6999403702302,
      "rsi_d": 44.73378336791734,
-     "rsi_4h": 45.46458252128165,
+     "rsi_4h": 45.46668647898345,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1185,6 +1319,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -1211,6 +1350,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 255.0,
+       "oi": 2445
+      },
+      "call_wall": {
+       "strike": 330.0,
+       "oi": 1444
+      },
+      "max_pain": 310.0,
+      "expiries": [
+       "2026-11-30",
+       "2026-12-02"
+      ],
+      "total_oi": 13897,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.5277341395698096,
      "atr_pct": 6.217468208327729,
      "atr_pct_rank": 98.00796812749005
@@ -1226,7 +1383,7 @@
      },
      "rsi_w": 47.430007669636474,
      "rsi_d": 50.58947630607888,
-     "rsi_4h": 54.13008601278417,
+     "rsi_4h": 54.13161768561666,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1343,6 +1500,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -1363,6 +1525,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 270.0,
+       "oi": 220
+      },
+      "call_wall": {
+       "strike": 375.0,
+       "oi": 420
+      },
+      "max_pain": 312.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 6964,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.39787080476362324,
      "atr_pct": 2.3659778614917704,
      "atr_pct_rank": 60.95617529880478
@@ -1378,7 +1558,7 @@
      },
      "rsi_w": 34.374912709264564,
      "rsi_d": 43.82957872902831,
-     "rsi_4h": 51.51581793233873,
+     "rsi_4h": 51.51616141633688,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1512,6 +1692,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -1544,6 +1729,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 160.0,
+       "oi": 2416
+      },
+      "call_wall": {
+       "strike": 170.0,
+       "oi": 2448
+      },
+      "max_pain": 160.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 15873,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.41012891286717623,
      "atr_pct": 3.237615852255952,
      "atr_pct_rank": 71.71314741035857
@@ -1559,7 +1762,7 @@
      },
      "rsi_w": 42.12477139369721,
      "rsi_d": 41.880849867512616,
-     "rsi_4h": 45.48672905491663,
+     "rsi_4h": 45.48762632794343,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1690,6 +1893,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -1710,6 +1918,26 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 140.0,
+       "oi": 4552
+      },
+      "call_wall": {
+       "strike": 180.0,
+       "oi": 872
+      },
+      "max_pain": 175.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 30671,
+      "thin": false,
+      "confluence": [
+       "call wall \u2248 sell zone"
+      ]
+     },
      "vol_ratio": 0.5595624959257919,
      "atr_pct": 12.725936853432893,
      "atr_pct_rank": 87.25099601593625
@@ -1725,7 +1953,7 @@
      },
      "rsi_w": 35.39071710889584,
      "rsi_d": 33.13143639038793,
-     "rsi_4h": 37.509747605272835,
+     "rsi_4h": 37.511597824940075,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1772,9 +2000,9 @@
        "j": 40.3
       },
       "4h": {
-       "k": 35.5,
-       "d": 26.2,
-       "j": 54.1
+       "k": 35.4,
+       "d": 26.1,
+       "j": 54.0
       }
      },
      "structure": {
@@ -1858,6 +2086,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -1884,6 +2117,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 7.0,
+       "oi": 7022
+      },
+      "call_wall": {
+       "strike": 17.0,
+       "oi": 3498
+      },
+      "max_pain": 15.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 79886,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.5915874090046377,
      "atr_pct": 10.869980380607451,
      "atr_pct_rank": 91.63346613545816
@@ -1899,7 +2150,7 @@
      },
      "rsi_w": 43.2201882593537,
      "rsi_d": 40.414342055048294,
-     "rsi_4h": 36.03162226748325,
+     "rsi_4h": 36.0274394082522,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2022,6 +2273,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -2048,6 +2304,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 200.0,
+       "oi": 4125
+      },
+      "call_wall": {
+       "strike": 245.0,
+       "oi": 196
+      },
+      "max_pain": 252.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 6976,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.6188797586914758,
      "atr_pct": 5.557738647759804,
      "atr_pct_rank": 97.21115537848605
@@ -2063,7 +2337,7 @@
      },
      "rsi_w": 48.125188196296364,
      "rsi_d": 50.60510410375935,
-     "rsi_4h": 48.90524498080447,
+     "rsi_4h": 48.907491670190375,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -2197,6 +2471,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -2229,6 +2508,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 25.0,
+       "oi": 325
+      },
+      "call_wall": {
+       "strike": 32.0,
+       "oi": 552
+      },
+      "max_pain": 29.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 5037,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.3622181444352863,
      "atr_pct": 5.204255664506119,
      "atr_pct_rank": 49.00398406374502
@@ -2244,7 +2541,7 @@
      },
      "rsi_w": 45.77610072611108,
      "rsi_d": 39.555587648554244,
-     "rsi_4h": 45.971429253568964,
+     "rsi_4h": 45.971431459449995,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2367,6 +2664,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -2393,6 +2695,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 185.0,
+       "oi": 928
+      },
+      "call_wall": {
+       "strike": 220.0,
+       "oi": 963
+      },
+      "max_pain": 192.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 18018,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.34205271063140297,
      "atr_pct": 4.435181638507042,
      "atr_pct_rank": 77.68924302788844
@@ -2408,7 +2728,7 @@
      },
      "rsi_w": 51.99143732816184,
      "rsi_d": 61.55730789101205,
-     "rsi_4h": 64.77995949887855,
+     "rsi_4h": 64.77996523537769,
      "macd_sign": {
       "weekly": 1,
       "daily": 1,
@@ -2522,6 +2842,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -2542,6 +2867,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 35.0,
+       "oi": 4031
+      },
+      "call_wall": {
+       "strike": 50.0,
+       "oi": 4756
+      },
+      "max_pain": 40.0,
+      "expiries": [
+       "2026-12-18",
+       "2027-01-15"
+      ],
+      "total_oi": 33729,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.49718449274384807,
      "atr_pct": 6.007776855941121,
      "atr_pct_rank": 51.39442231075697
@@ -2557,7 +2900,7 @@
      },
      "rsi_w": 35.64232557831171,
      "rsi_d": 37.34617266465873,
-     "rsi_4h": 41.67229621993974,
+     "rsi_4h": 41.666617156868185,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2683,6 +3026,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -2715,6 +3063,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 270.0,
+       "oi": 2783
+      },
+      "call_wall": {
+       "strike": 305.0,
+       "oi": 7769
+      },
+      "max_pain": 275.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 67107,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4662281116753751,
      "atr_pct": 4.149824951710259,
      "atr_pct_rank": 99.20318725099602
@@ -2730,7 +3096,7 @@
      },
      "rsi_w": 42.522115331560926,
      "rsi_d": 42.13895880830966,
-     "rsi_4h": 43.03552580311359,
+     "rsi_4h": 43.035438205794925,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -2856,6 +3222,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -2888,6 +3259,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 2.5,
+       "oi": 102
+      },
+      "call_wall": {
+       "strike": 3.5,
+       "oi": 7886
+      },
+      "max_pain": 1.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 18525,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.7410824428383872,
      "atr_pct": 5.062997085554547,
      "atr_pct_rank": 98.40637450199203
@@ -2903,7 +3292,7 @@
      },
      "rsi_w": 49.6025148631443,
      "rsi_d": 50.33813973322987,
-     "rsi_4h": 56.81678768254624,
+     "rsi_4h": 56.81644711520665,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3041,6 +3430,11 @@
        },
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -3079,6 +3473,26 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 557.5,
+       "oi": 627
+      },
+      "call_wall": {
+       "strike": 630.0,
+       "oi": 781
+      },
+      "max_pain": 600.0,
+      "expiries": [
+       "2026-11-30",
+       "2026-12-02"
+      ],
+      "total_oi": 15420,
+      "thin": false,
+      "confluence": [
+       "put wall \u2248 support"
+      ]
+     },
      "vol_ratio": 0.6089871718397468,
      "atr_pct": 4.046863223404431,
      "atr_pct_rank": 93.22709163346613
@@ -3094,7 +3508,7 @@
      },
      "rsi_w": 33.78633968527629,
      "rsi_d": 35.17133470720036,
-     "rsi_4h": 37.40636114107648,
+     "rsi_4h": 37.405363040779314,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -3232,6 +3646,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -3264,6 +3683,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 50.0,
+       "oi": 4852
+      },
+      "call_wall": {
+       "strike": 100.0,
+       "oi": 3664
+      },
+      "max_pain": 91.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 53475,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.6046903111563863,
      "atr_pct": 18.127020807432793,
      "atr_pct_rank": 98.80478087649402
@@ -3279,7 +3716,7 @@
      },
      "rsi_w": 46.58889429773524,
      "rsi_d": 51.73363811356095,
-     "rsi_4h": 56.80066229050686,
+     "rsi_4h": 56.79356138336549,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3408,6 +3845,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -3440,6 +3882,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 5.0,
+       "oi": 3890
+      },
+      "call_wall": {
+       "strike": 7.0,
+       "oi": 21814
+      },
+      "max_pain": 6.0,
+      "expiries": [
+       "2026-12-18",
+       "2027-01-15"
+      ],
+      "total_oi": 50178,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4495278499629906,
      "atr_pct": 5.40678290393365,
      "atr_pct_rank": 35.85657370517929
@@ -3455,7 +3915,7 @@
      },
      "rsi_w": 35.482655590304745,
      "rsi_d": 44.58305652151237,
-     "rsi_4h": 51.34984170024964,
+     "rsi_4h": 51.34804484136132,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3584,6 +4044,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -3616,6 +4081,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 55.0,
+       "oi": 3518
+      },
+      "call_wall": {
+       "strike": 62.0,
+       "oi": 10566
+      },
+      "max_pain": 58.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 68807,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.536102480296459,
      "atr_pct": 3.2810485940806786,
      "atr_pct_rank": 72.11155378486056
@@ -3631,7 +4114,7 @@
      },
      "rsi_w": 39.27193336731885,
      "rsi_d": 32.06742266841101,
-     "rsi_4h": 39.930758345528965,
+     "rsi_4h": 39.93076752208409,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3760,6 +4243,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -3792,6 +4280,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 75.0,
+       "oi": 2224
+      },
+      "call_wall": {
+       "strike": 102.0,
+       "oi": 4497
+      },
+      "max_pain": 96.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 50170,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.3402323119096609,
      "atr_pct": 5.979098809994322,
      "atr_pct_rank": 76.89243027888446
@@ -3807,7 +4313,7 @@
      },
      "rsi_w": 35.713309084696746,
      "rsi_d": 38.11728710759187,
-     "rsi_4h": 43.0158607518163,
+     "rsi_4h": 43.01367565722356,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -3847,8 +4353,8 @@
       },
       "4h": {
        "k": 52.8,
-       "d": 50.5,
-       "j": 57.4
+       "d": 50.4,
+       "j": 57.5
       }
      },
      "structure": {
@@ -3941,6 +4447,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": "bearish",
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -3973,6 +4484,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 135.0,
+       "oi": 9270
+      },
+      "call_wall": {
+       "strike": 200.0,
+       "oi": 21544
+      },
+      "max_pain": 152.5,
+      "expiries": [
+       "2026-11-30",
+       "2026-12-02"
+      ],
+      "total_oi": 218679,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.5292597190247668,
      "atr_pct": 8.570547707428318,
      "atr_pct_rank": 99.20318725099602
@@ -3988,7 +4517,7 @@
      },
      "rsi_w": 46.31557481453717,
      "rsi_d": 55.03439531105205,
-     "rsi_4h": 59.5140212840194,
+     "rsi_4h": 59.51388245641717,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4120,6 +4649,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -4157,6 +4691,24 @@
        "daily": true,
        "4h": false
       }
+     },
+     "options": {
+      "put_wall": {
+       "strike": 37.0,
+       "oi": 1384
+      },
+      "call_wall": {
+       "strike": 45.0,
+       "oi": 1330
+      },
+      "max_pain": 40.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 16675,
+      "thin": false,
+      "confluence": []
      },
      "vol_ratio": 0.43095073524528005,
      "atr_pct": 2.7982158891204962,
@@ -4308,6 +4860,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -4334,6 +4891,26 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 3.5,
+       "oi": 809
+      },
+      "call_wall": {
+       "strike": 5.0,
+       "oi": 6152
+      },
+      "max_pain": 4.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 25535,
+      "thin": false,
+      "confluence": [
+       "put wall \u2248 support"
+      ]
+     },
      "vol_ratio": 0.3544453172180913,
      "atr_pct": 11.524705239951471,
      "atr_pct_rank": 81.67330677290838
@@ -4349,7 +4926,7 @@
      },
      "rsi_w": 36.960396395319584,
      "rsi_d": 40.59387019047501,
-     "rsi_4h": 41.3608364935174,
+     "rsi_4h": 41.385693729585206,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -4388,7 +4965,7 @@
        "j": 26.2
       },
       "4h": {
-       "k": 34.2,
+       "k": 34.3,
        "d": 35.1,
        "j": 32.5
       }
@@ -4478,6 +5055,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -4510,6 +5092,26 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 100.0,
+       "oi": 11311
+      },
+      "call_wall": {
+       "strike": 135.0,
+       "oi": 7963
+      },
+      "max_pain": 117.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 135280,
+      "thin": false,
+      "confluence": [
+       "put wall \u2248 support"
+      ]
+     },
      "vol_ratio": 0.3819805174813118,
      "atr_pct": 7.627140329516865,
      "atr_pct_rank": 98.00796812749005
@@ -4525,7 +5127,7 @@
      },
      "rsi_w": 48.62675274160765,
      "rsi_d": 48.9845349223783,
-     "rsi_4h": 54.5956301467984,
+     "rsi_4h": 54.59067156402957,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -4659,6 +5261,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -4691,6 +5298,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 11.0,
+       "oi": 914
+      },
+      "call_wall": {
+       "strike": 13.0,
+       "oi": 4317
+      },
+      "max_pain": 13.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 24245,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4817597901247802,
      "atr_pct": 5.076488846888153,
      "atr_pct_rank": 15.936254980079681
@@ -4706,7 +5331,7 @@
      },
      "rsi_w": 51.79812978124343,
      "rsi_d": 51.544134693704684,
-     "rsi_4h": 58.51691657603557,
+     "rsi_4h": 58.51676258758189,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4832,6 +5457,11 @@
        },
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": {
@@ -4858,6 +5488,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 85.0,
+       "oi": 4860
+      },
+      "call_wall": {
+       "strike": 175.0,
+       "oi": 9441
+      },
+      "max_pain": 160.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 62797,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.5828468533064542,
      "atr_pct": 5.633675844826726,
      "atr_pct_rank": 86.05577689243027
@@ -4873,7 +5521,7 @@
      },
      "rsi_w": 35.186068454708746,
      "rsi_d": 38.05528503732502,
-     "rsi_4h": 47.4626101094044,
+     "rsi_4h": 47.46257712790508,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -5004,6 +5652,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -5036,6 +5689,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 80.0,
+       "oi": 844
+      },
+      "call_wall": {
+       "strike": 95.0,
+       "oi": 1396
+      },
+      "max_pain": 92.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 15413,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.25540747909914613,
      "atr_pct": 7.391245670992038,
      "atr_pct_rank": 80.47808764940238
@@ -5051,7 +5722,7 @@
      },
      "rsi_w": 39.05181196520087,
      "rsi_d": 38.13893039081195,
-     "rsi_4h": 43.4193388480488,
+     "rsi_4h": 43.41908330448506,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5194,6 +5865,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -5226,6 +5902,26 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 21.0,
+       "oi": 9598
+      },
+      "call_wall": {
+       "strike": 30.0,
+       "oi": 10045
+      },
+      "max_pain": 21.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 108807,
+      "thin": false,
+      "confluence": [
+       "put wall \u2248 support"
+      ]
+     },
      "vol_ratio": 0.4381687426445057,
      "atr_pct": 10.358228425161627,
      "atr_pct_rank": 90.43824701195219
@@ -5241,7 +5937,7 @@
      },
      "rsi_w": 37.589553610409595,
      "rsi_d": 38.00571197393276,
-     "rsi_4h": 40.36638341925282,
+     "rsi_4h": 40.36615945253252,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5375,6 +6071,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -5407,6 +6108,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 13.0,
+       "oi": 2546
+      },
+      "call_wall": {
+       "strike": 17.0,
+       "oi": 17743
+      },
+      "max_pain": 14.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 124116,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4329471159837736,
      "atr_pct": 6.186182658633867,
      "atr_pct_rank": 89.2430278884462
@@ -5422,7 +6141,7 @@
      },
      "rsi_w": 43.66534426437043,
      "rsi_d": 46.3423320497063,
-     "rsi_4h": 49.11486580084179,
+     "rsi_4h": 49.11489033579247,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5545,6 +6264,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": null,
@@ -5571,6 +6295,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 62.0,
+       "oi": 1317
+      },
+      "call_wall": {
+       "strike": 68.0,
+       "oi": 5008
+      },
+      "max_pain": 65.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 35116,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.4024777764573736,
      "atr_pct": 3.6135113908477177,
      "atr_pct_rank": 87.64940239043824
@@ -5586,7 +6328,7 @@
      },
      "rsi_w": 54.66427264537006,
      "rsi_d": 34.65589192517159,
-     "rsi_4h": 35.63135539451089,
+     "rsi_4h": 35.64218343633608,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5721,6 +6463,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": {
@@ -5759,6 +6506,24 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 250.0,
+       "oi": 678
+      },
+      "call_wall": {
+       "strike": 280.0,
+       "oi": 887
+      },
+      "max_pain": 270.0,
+      "expiries": [
+       "2026-12-18",
+       "2027-01-15"
+      ],
+      "total_oi": 12890,
+      "thin": false,
+      "confluence": []
+     },
      "vol_ratio": 0.5499360500646178,
      "atr_pct": 3.670047371546794,
      "atr_pct_rank": 43.02788844621514
@@ -5774,7 +6539,7 @@
      },
      "rsi_w": 46.42462800074922,
      "rsi_d": 44.35851910894888,
-     "rsi_4h": 46.123089798001836,
+     "rsi_4h": 46.12310506103711,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5900,6 +6665,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": {
@@ -5932,6 +6702,27 @@
        "4h": false
       }
      },
+     "options": {
+      "put_wall": {
+       "strike": 12.0,
+       "oi": 1121
+      },
+      "call_wall": {
+       "strike": 15.0,
+       "oi": 2258
+      },
+      "max_pain": 12.0,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 8576,
+      "thin": false,
+      "confluence": [
+       "call wall \u2248 resistance",
+       "call wall \u2248 sell zone"
+      ]
+     },
      "vol_ratio": 0.32155503854329875,
      "atr_pct": 5.279958095389622,
      "atr_pct_rank": 18.326693227091635
@@ -5947,7 +6738,7 @@
      },
      "rsi_w": 53.79188630916724,
      "rsi_d": 62.88646972013232,
-     "rsi_4h": 61.75105150688786,
+     "rsi_4h": 61.75016563588052,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -6088,6 +6879,11 @@
        "daily": null,
        "4h": null
       },
+      "divergence": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
       "fvg": {
        "weekly": {
         "below": {
@@ -6119,6 +6915,26 @@
        "daily": false,
        "4h": false
       }
+     },
+     "options": {
+      "put_wall": {
+       "strike": 44.5,
+       "oi": 5233
+      },
+      "call_wall": {
+       "strike": 49.0,
+       "oi": 5025
+      },
+      "max_pain": 45.5,
+      "expiries": [
+       "2026-12-04",
+       "2026-12-11"
+      ],
+      "total_oi": 18195,
+      "thin": false,
+      "confluence": [
+       "call wall \u2248 sell zone"
+      ]
      },
      "vol_ratio": 0.4583160791949946,
      "atr_pct": 2.1986832652473325,
