@@ -239,15 +239,6 @@ window.__BOLLINGER_TA__ = {
      "confirm_note": "A close below $27.59 confirms further downside"
     },
     {
-     "ticker": "NVO",
-     "risk_score": 3,
-     "fund_boost": 0,
-     "vote": -2,
-     "why": "weekly bearish; daily EMA50 rolling over",
-     "confirm_level": 37.75,
-     "confirm_note": "A close below $37.75 confirms further downside"
-    },
-    {
      "ticker": "AMD",
      "risk_score": 2,
      "fund_boost": 1,
@@ -290,7 +281,24 @@ window.__BOLLINGER_TA__ = {
       "high": 283.84,
       "extension": false
      },
-     "sell_trigger": 233.52
+     "sell_trigger": 233.52,
+     "kdj": {
+      "weekly": {
+       "k": 27.5,
+       "d": 31.6,
+       "j": 19.3
+      },
+      "daily": {
+       "k": 38.5,
+       "d": 29.0,
+       "j": 57.5
+      },
+      "4h": {
+       "k": 80.2,
+       "d": 64.7,
+       "j": 111.0
+      }
+     }
     },
     {
      "ticker": "AMD",
@@ -312,7 +320,24 @@ window.__BOLLINGER_TA__ = {
       "high": 623.97,
       "extension": false
      },
-     "sell_trigger": 424.03
+     "sell_trigger": 424.03,
+     "kdj": {
+      "weekly": {
+       "k": 26.9,
+       "d": 37.5,
+       "j": 5.9
+      },
+      "daily": {
+       "k": 23.2,
+       "d": 27.6,
+       "j": 14.5
+      },
+      "4h": {
+       "k": 27.1,
+       "d": 20.4,
+       "j": 40.4
+      }
+     }
     },
     {
      "ticker": "AMZN",
@@ -334,7 +359,24 @@ window.__BOLLINGER_TA__ = {
       "high": 268.0,
       "extension": false
      },
-     "sell_trigger": 244.73
+     "sell_trigger": 244.73,
+     "kdj": {
+      "weekly": {
+       "k": 51.0,
+       "d": 47.4,
+       "j": 58.2
+      },
+      "daily": {
+       "k": 33.5,
+       "d": 33.0,
+       "j": 34.4
+      },
+      "4h": {
+       "k": 40.7,
+       "d": 31.5,
+       "j": 58.9
+      }
+     }
     },
     {
      "ticker": "ANT",
@@ -348,6 +390,7 @@ window.__BOLLINGER_TA__ = {
      "rationale": "",
      "sell_zone": null,
      "sell_trigger": null,
+     "kdj": null,
      "fundamentals_note": "no usable history on Yahoo yet (too few bars)"
     },
     {
@@ -370,7 +413,24 @@ window.__BOLLINGER_TA__ = {
       "high": 204.3,
       "extension": false
      },
-     "sell_trigger": 163.13
+     "sell_trigger": 163.13,
+     "kdj": {
+      "weekly": {
+       "k": 12.1,
+       "d": 16.1,
+       "j": 4.1
+      },
+      "daily": {
+       "k": 38.6,
+       "d": 33.0,
+       "j": 49.7
+      },
+      "4h": {
+       "k": 43.9,
+       "d": 37.4,
+       "j": 56.8
+      }
+     }
     },
     {
      "ticker": "AVGO",
@@ -392,7 +452,24 @@ window.__BOLLINGER_TA__ = {
       "high": 393.67,
       "extension": false
      },
-     "sell_trigger": 308.51
+     "sell_trigger": 308.51,
+     "kdj": {
+      "weekly": {
+       "k": 26.6,
+       "d": 22.0,
+       "j": 36.0
+      },
+      "daily": {
+       "k": 29.9,
+       "d": 35.0,
+       "j": 19.5
+      },
+      "4h": {
+       "k": 28.7,
+       "d": 21.2,
+       "j": 43.8
+      }
+     }
     },
     {
      "ticker": "AXP",
@@ -414,7 +491,24 @@ window.__BOLLINGER_TA__ = {
       "high": 334.4,
       "extension": false
      },
-     "sell_trigger": 315.95
+     "sell_trigger": 315.95,
+     "kdj": {
+      "weekly": {
+       "k": 35.7,
+       "d": 35.7,
+       "j": 35.7
+      },
+      "daily": {
+       "k": 46.7,
+       "d": 30.0,
+       "j": 79.9
+      },
+      "4h": {
+       "k": 69.5,
+       "d": 51.1,
+       "j": 106.4
+      }
+     }
     },
     {
      "ticker": "BA",
@@ -436,7 +530,24 @@ window.__BOLLINGER_TA__ = {
       "high": 180.51,
       "extension": false
      },
-     "sell_trigger": 165.01
+     "sell_trigger": 165.01,
+     "kdj": {
+      "weekly": {
+       "k": 16.2,
+       "d": 14.6,
+       "j": 19.2
+      },
+      "daily": {
+       "k": 49.6,
+       "d": 33.1,
+       "j": 82.6
+      },
+      "4h": {
+       "k": 81.3,
+       "d": 66.3,
+       "j": 111.2
+      }
+     }
     },
     {
      "ticker": "BE",
@@ -458,7 +569,24 @@ window.__BOLLINGER_TA__ = {
       "high": 205.34,
       "extension": false
      },
-     "sell_trigger": 157.33
+     "sell_trigger": 157.33,
+     "kdj": {
+      "weekly": {
+       "k": 17.0,
+       "d": 26.3,
+       "j": -1.5
+      },
+      "daily": {
+       "k": 33.0,
+       "d": 28.0,
+       "j": 42.8
+      },
+      "4h": {
+       "k": 41.6,
+       "d": 34.1,
+       "j": 56.7
+      }
+     }
     },
     {
      "ticker": "BMNR",
@@ -480,7 +608,24 @@ window.__BOLLINGER_TA__ = {
       "high": 25.9,
       "extension": false
      },
-     "sell_trigger": 12.8
+     "sell_trigger": 12.8,
+     "kdj": {
+      "weekly": {
+       "k": 12.2,
+       "d": 22.4,
+       "j": -8.3
+      },
+      "daily": {
+       "k": 23.6,
+       "d": 15.2,
+       "j": 40.3
+      },
+      "4h": {
+       "k": 35.5,
+       "d": 26.2,
+       "j": 54.1
+      }
+     }
     },
     {
      "ticker": "CEG",
@@ -502,7 +647,24 @@ window.__BOLLINGER_TA__ = {
       "high": 303.66,
       "extension": false
      },
-     "sell_trigger": 231.3
+     "sell_trigger": 231.3,
+     "kdj": {
+      "weekly": {
+       "k": 22.6,
+       "d": 30.5,
+       "j": 6.7
+      },
+      "daily": {
+       "k": 19.2,
+       "d": 29.6,
+       "j": -1.5
+      },
+      "4h": {
+       "k": 19.7,
+       "d": 20.1,
+       "j": 19.0
+      }
+     }
     },
     {
      "ticker": "CELH",
@@ -524,7 +686,24 @@ window.__BOLLINGER_TA__ = {
       "high": 34.11,
       "extension": false
      },
-     "sell_trigger": 27.89
+     "sell_trigger": 27.89,
+     "kdj": {
+      "weekly": {
+       "k": 49.6,
+       "d": 46.9,
+       "j": 55.1
+      },
+      "daily": {
+       "k": 28.6,
+       "d": 29.2,
+       "j": 27.6
+      },
+      "4h": {
+       "k": 40.9,
+       "d": 25.4,
+       "j": 72.0
+      }
+     }
     },
     {
      "ticker": "CRM",
@@ -546,7 +725,24 @@ window.__BOLLINGER_TA__ = {
       "high": 221.9,
       "extension": false
      },
-     "sell_trigger": 189.91
+     "sell_trigger": 189.91,
+     "kdj": {
+      "weekly": {
+       "k": 21.6,
+       "d": 31.7,
+       "j": 1.3
+      },
+      "daily": {
+       "k": 33.1,
+       "d": 23.5,
+       "j": 52.2
+      },
+      "4h": {
+       "k": 79.6,
+       "d": 63.3,
+       "j": 112.2
+      }
+     }
     },
     {
      "ticker": "FOUR",
@@ -568,7 +764,24 @@ window.__BOLLINGER_TA__ = {
       "high": 54.6,
       "extension": false
      },
-     "sell_trigger": 45.8
+     "sell_trigger": 45.8,
+     "kdj": {
+      "weekly": {
+       "k": 63.8,
+       "d": 49.8,
+       "j": 91.7
+      },
+      "daily": {
+       "k": 64.9,
+       "d": 48.5,
+       "j": 97.7
+      },
+      "4h": {
+       "k": 80.2,
+       "d": 63.8,
+       "j": 113.0
+      }
+     }
     },
     {
      "ticker": "GOOG",
@@ -590,7 +803,24 @@ window.__BOLLINGER_TA__ = {
       "high": 340.37,
       "extension": false
      },
-     "sell_trigger": 272.0
+     "sell_trigger": 272.0,
+     "kdj": {
+      "weekly": {
+       "k": 13.1,
+       "d": 17.7,
+       "j": 3.8
+      },
+      "daily": {
+       "k": 30.5,
+       "d": 27.8,
+       "j": 35.8
+      },
+      "4h": {
+       "k": 42.3,
+       "d": 38.0,
+       "j": 51.1
+      }
+     }
     },
     {
      "ticker": "GRAB",
@@ -612,7 +842,24 @@ window.__BOLLINGER_TA__ = {
       "high": 3.58,
       "extension": false
      },
-     "sell_trigger": 2.74
+     "sell_trigger": 2.74,
+     "kdj": {
+      "weekly": {
+       "k": 30.1,
+       "d": 32.4,
+       "j": 25.5
+      },
+      "daily": {
+       "k": 20.0,
+       "d": 17.3,
+       "j": 25.3
+      },
+      "4h": {
+       "k": 41.0,
+       "d": 26.1,
+       "j": 70.9
+      }
+     }
     },
     {
      "ticker": "META",
@@ -634,7 +881,24 @@ window.__BOLLINGER_TA__ = {
       "high": 667.61,
       "extension": false
      },
-     "sell_trigger": 628.15
+     "sell_trigger": 628.15,
+     "kdj": {
+      "weekly": {
+       "k": 26.9,
+       "d": 35.4,
+       "j": 10.0
+      },
+      "daily": {
+       "k": 56.3,
+       "d": 44.2,
+       "j": 80.5
+      },
+      "4h": {
+       "k": 69.4,
+       "d": 52.1,
+       "j": 104.0
+      }
+     }
     },
     {
      "ticker": "NBIS",
@@ -656,7 +920,24 @@ window.__BOLLINGER_TA__ = {
       "high": 130.57,
       "extension": false
      },
-     "sell_trigger": 83.53
+     "sell_trigger": 83.53,
+     "kdj": {
+      "weekly": {
+       "k": 8.1,
+       "d": 14.5,
+       "j": -4.8
+      },
+      "daily": {
+       "k": 21.4,
+       "d": 16.3,
+       "j": 31.6
+      },
+      "4h": {
+       "k": 26.2,
+       "d": 23.4,
+       "j": 31.6
+      }
+     }
     },
     {
      "ticker": "NEXT",
@@ -678,7 +959,24 @@ window.__BOLLINGER_TA__ = {
       "high": 6.89,
       "extension": false
      },
-     "sell_trigger": 6.19
+     "sell_trigger": 6.19,
+     "kdj": {
+      "weekly": {
+       "k": 27.7,
+       "d": 30.2,
+       "j": 22.7
+      },
+      "daily": {
+       "k": 47.0,
+       "d": 36.1,
+       "j": 68.7
+      },
+      "4h": {
+       "k": 60.1,
+       "d": 40.0,
+       "j": 100.4
+      }
+     }
     },
     {
      "ticker": "NFLX",
@@ -700,7 +998,24 @@ window.__BOLLINGER_TA__ = {
       "high": 66.55,
       "extension": false
      },
-     "sell_trigger": 56.56
+     "sell_trigger": 56.56,
+     "kdj": {
+      "weekly": {
+       "k": 13.4,
+       "d": 13.6,
+       "j": 13.2
+      },
+      "daily": {
+       "k": 38.9,
+       "d": 24.5,
+       "j": 67.8
+      },
+      "4h": {
+       "k": 71.0,
+       "d": 51.7,
+       "j": 109.6
+      }
+     }
     },
     {
      "ticker": "NOW",
@@ -722,7 +1037,24 @@ window.__BOLLINGER_TA__ = {
       "high": 106.62,
       "extension": false
      },
-     "sell_trigger": 91.53
+     "sell_trigger": 91.53,
+     "kdj": {
+      "weekly": {
+       "k": 14.9,
+       "d": 30.0,
+       "j": -15.3
+      },
+      "daily": {
+       "k": 28.9,
+       "d": 21.5,
+       "j": 43.6
+      },
+      "4h": {
+       "k": 69.8,
+       "d": 57.8,
+       "j": 93.7
+      }
+     }
     },
     {
      "ticker": "NVDA",
@@ -744,15 +1076,32 @@ window.__BOLLINGER_TA__ = {
       "high": 163.64,
       "extension": false
      },
-     "sell_trigger": 140.85
+     "sell_trigger": 140.85,
+     "kdj": {
+      "weekly": {
+       "k": 16.4,
+       "d": 23.3,
+       "j": 2.5
+      },
+      "daily": {
+       "k": 48.7,
+       "d": 37.6,
+       "j": 70.9
+      },
+      "4h": {
+       "k": 52.8,
+       "d": 50.5,
+       "j": 57.4
+      }
+     }
     },
     {
      "ticker": "NVO",
      "price": 41.06999969482422,
-     "call": "Down",
+     "call": "Sideways",
      "biases": {
       "weekly": "Bearish",
-      "daily": "Neutral",
+      "daily": "Bullish",
       "4h": "Bullish"
      },
      "rsi_w": 46.31557481453717,
@@ -760,13 +1109,30 @@ window.__BOLLINGER_TA__ = {
      "support": 37.75,
      "resistance": 43.2400016784668,
      "rationale": "weekly downtrend, daily RSI 55 firm, daily MACD turning up, 4H MACD positive and rising",
-     "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector",
+     "fundamentals_note": "lean positive \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector",
      "sell_zone": {
       "low": 47.79,
       "high": 49.38,
       "extension": false
      },
-     "sell_trigger": 41.0
+     "sell_trigger": 41.0,
+     "kdj": {
+      "weekly": {
+       "k": 43.4,
+       "d": 33.8,
+       "j": 62.6
+      },
+      "daily": {
+       "k": 54.7,
+       "d": 41.5,
+       "j": 81.2
+      },
+      "4h": {
+       "k": 85.1,
+       "d": 68.6,
+       "j": 118.3
+      }
+     }
     },
     {
      "ticker": "ONDS",
@@ -788,7 +1154,24 @@ window.__BOLLINGER_TA__ = {
       "high": 5.28,
       "extension": false
      },
-     "sell_trigger": 3.48
+     "sell_trigger": 3.48,
+     "kdj": {
+      "weekly": {
+       "k": 14.0,
+       "d": 16.6,
+       "j": 8.9
+      },
+      "daily": {
+       "k": 24.1,
+       "d": 17.6,
+       "j": 37.3
+      },
+      "4h": {
+       "k": 40.6,
+       "d": 28.2,
+       "j": 65.4
+      }
+     }
     },
     {
      "ticker": "ORCL",
@@ -810,7 +1193,24 @@ window.__BOLLINGER_TA__ = {
       "high": 127.32,
       "extension": false
      },
-     "sell_trigger": 99.34
+     "sell_trigger": 99.34,
+     "kdj": {
+      "weekly": {
+       "k": 15.9,
+       "d": 19.7,
+       "j": 8.5
+      },
+      "daily": {
+       "k": 27.2,
+       "d": 27.6,
+       "j": 26.2
+      },
+      "4h": {
+       "k": 34.2,
+       "d": 35.1,
+       "j": 32.5
+      }
+     }
     },
     {
      "ticker": "PATH",
@@ -832,7 +1232,24 @@ window.__BOLLINGER_TA__ = {
       "high": 14.03,
       "extension": false
      },
-     "sell_trigger": 12.62
+     "sell_trigger": 12.62,
+     "kdj": {
+      "weekly": {
+       "k": 34.8,
+       "d": 33.3,
+       "j": 37.9
+      },
+      "daily": {
+       "k": 48.5,
+       "d": 34.9,
+       "j": 75.7
+      },
+      "4h": {
+       "k": 79.1,
+       "d": 64.9,
+       "j": 107.5
+      }
+     }
     },
     {
      "ticker": "PLTR",
@@ -854,7 +1271,24 @@ window.__BOLLINGER_TA__ = {
       "high": 200.19,
       "extension": false
      },
-     "sell_trigger": 170.82
+     "sell_trigger": 170.82,
+     "kdj": {
+      "weekly": {
+       "k": 31.7,
+       "d": 41.1,
+       "j": 13.0
+      },
+      "daily": {
+       "k": 64.9,
+       "d": 45.6,
+       "j": 103.6
+      },
+      "4h": {
+       "k": 80.6,
+       "d": 65.5,
+       "j": 110.7
+      }
+     }
     },
     {
      "ticker": "RDDT",
@@ -876,7 +1310,24 @@ window.__BOLLINGER_TA__ = {
       "high": 218.77,
       "extension": false
      },
-     "sell_trigger": 90.78
+     "sell_trigger": 90.78,
+     "kdj": {
+      "weekly": {
+       "k": 10.3,
+       "d": 14.5,
+       "j": 2.0
+      },
+      "daily": {
+       "k": 42.2,
+       "d": 29.0,
+       "j": 68.6
+      },
+      "4h": {
+       "k": 62.6,
+       "d": 45.9,
+       "j": 96.1
+      }
+     }
     },
     {
      "ticker": "SMCI",
@@ -898,7 +1349,24 @@ window.__BOLLINGER_TA__ = {
       "high": 34.77,
       "extension": false
      },
-     "sell_trigger": 23.38
+     "sell_trigger": 23.38,
+     "kdj": {
+      "weekly": {
+       "k": 12.6,
+       "d": 22.9,
+       "j": -8.1
+      },
+      "daily": {
+       "k": 32.2,
+       "d": 22.4,
+       "j": 51.8
+      },
+      "4h": {
+       "k": 37.5,
+       "d": 32.5,
+       "j": 47.6
+      }
+     }
     },
     {
      "ticker": "SOFI",
@@ -920,7 +1388,24 @@ window.__BOLLINGER_TA__ = {
       "high": 19.41,
       "extension": false
      },
-     "sell_trigger": 12.74
+     "sell_trigger": 12.74,
+     "kdj": {
+      "weekly": {
+       "k": 25.8,
+       "d": 30.3,
+       "j": 16.7
+      },
+      "daily": {
+       "k": 25.3,
+       "d": 17.0,
+       "j": 41.9
+      },
+      "4h": {
+       "k": 49.0,
+       "d": 32.6,
+       "j": 82.0
+      }
+     }
     },
     {
      "ticker": "UBER",
@@ -942,7 +1427,24 @@ window.__BOLLINGER_TA__ = {
       "high": 77.88,
       "extension": false
      },
-     "sell_trigger": 65.41
+     "sell_trigger": 65.41,
+     "kdj": {
+      "weekly": {
+       "k": 28.9,
+       "d": 27.9,
+       "j": 31.0
+      },
+      "daily": {
+       "k": 31.9,
+       "d": 28.8,
+       "j": 38.1
+      },
+      "4h": {
+       "k": 49.2,
+       "d": 35.1,
+       "j": 77.4
+      }
+     }
     },
     {
      "ticker": "VEEV",
@@ -964,7 +1466,24 @@ window.__BOLLINGER_TA__ = {
       "high": 302.48,
       "extension": false
      },
-     "sell_trigger": 270.92
+     "sell_trigger": 270.92,
+     "kdj": {
+      "weekly": {
+       "k": 42.2,
+       "d": 62.0,
+       "j": 2.5
+      },
+      "daily": {
+       "k": 24.2,
+       "d": 21.4,
+       "j": 29.9
+      },
+      "4h": {
+       "k": 58.4,
+       "d": 46.1,
+       "j": 83.0
+      }
+     }
     },
     {
      "ticker": "VG",
@@ -986,7 +1505,24 @@ window.__BOLLINGER_TA__ = {
       "high": 15.81,
       "extension": false
      },
-     "sell_trigger": 11.94
+     "sell_trigger": 11.94,
+     "kdj": {
+      "weekly": {
+       "k": 26.5,
+       "d": 31.7,
+       "j": 16.1
+      },
+      "daily": {
+       "k": 27.0,
+       "d": 27.9,
+       "j": 25.0
+      },
+      "4h": {
+       "k": 37.2,
+       "d": 26.3,
+       "j": 59.0
+      }
+     }
     },
     {
      "ticker": "VZ",
@@ -1008,7 +1544,24 @@ window.__BOLLINGER_TA__ = {
       "high": 50.27,
       "extension": false
      },
-     "sell_trigger": 45.81
+     "sell_trigger": 45.81,
+     "kdj": {
+      "weekly": {
+       "k": 66.8,
+       "d": 52.4,
+       "j": 95.7
+      },
+      "daily": {
+       "k": 75.6,
+       "d": 69.0,
+       "j": 88.9
+      },
+      "4h": {
+       "k": 82.8,
+       "d": 77.0,
+       "j": 94.4
+      }
+     }
     }
    ]
   }
