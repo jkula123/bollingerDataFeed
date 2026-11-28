@@ -368,7 +368,7 @@
      },
      "rsi_w": 45.84186863164337,
      "rsi_d": 47.23790861783833,
-     "rsi_4h": 51.68886428106095,
+     "rsi_4h": 51.68997941957349,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -540,7 +540,7 @@
        "oi": 603,
        "oi_share": 0.046,
        "oi_extreme": false,
-       "dist_pct": 4.2,
+       "dist_pct": 4,
        "near": false,
        "very_near": false
       },
@@ -549,7 +549,7 @@
        "oi": 1251,
        "oi_share": 0.096,
        "oi_extreme": true,
-       "dist_pct": 4.3,
+       "dist_pct": 4,
        "near": false,
        "very_near": false
       },
@@ -577,7 +577,7 @@
      },
      "rsi_w": 44.69277480904832,
      "rsi_d": 40.8393645048995,
-     "rsi_4h": 40.3420050822967,
+     "rsi_4h": 40.34148589904677,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -766,7 +766,7 @@
        "oi": 2469,
        "oi_share": 0.065,
        "oi_extreme": true,
-       "dist_pct": 24.6,
+       "dist_pct": 25,
        "near": false,
        "very_near": false
       },
@@ -775,7 +775,7 @@
        "oi": 5127,
        "oi_share": 0.134,
        "oi_extreme": true,
-       "dist_pct": 17.8,
+       "dist_pct": 18,
        "near": false,
        "very_near": false
       },
@@ -803,7 +803,7 @@
      },
      "rsi_w": 51.14170142599937,
      "rsi_d": 48.63770318842801,
-     "rsi_4h": 48.74024029864164,
+     "rsi_4h": 48.74021785804263,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -963,7 +963,7 @@
        "oi": 3248,
        "oi_share": 0.087,
        "oi_extreme": true,
-       "dist_pct": 11.5,
+       "dist_pct": 11,
        "near": false,
        "very_near": false
       },
@@ -972,7 +972,7 @@
        "oi": 3907,
        "oi_share": 0.105,
        "oi_extreme": true,
-       "dist_pct": 4.3,
+       "dist_pct": 4,
        "near": false,
        "very_near": false
       },
@@ -1027,7 +1027,7 @@
      },
      "rsi_w": 40.358237201951795,
      "rsi_d": 42.214698258279405,
-     "rsi_4h": 44.68964350655904,
+     "rsi_4h": 44.68910979457709,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1194,7 +1194,7 @@
        "oi": 710,
        "oi_share": 0.065,
        "oi_extreme": true,
-       "dist_pct": 0.9,
+       "dist_pct": 1,
        "near": true,
        "very_near": true
       },
@@ -1203,7 +1203,7 @@
        "oi": 531,
        "oi_share": 0.049,
        "oi_extreme": false,
-       "dist_pct": 16.6,
+       "dist_pct": 17,
        "near": false,
        "very_near": false
       },
@@ -1231,7 +1231,7 @@
      },
      "rsi_w": 42.6999403702302,
      "rsi_d": 44.73378336791734,
-     "rsi_4h": 45.46458252128165,
+     "rsi_4h": 45.46668647898345,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1396,7 +1396,7 @@
        "oi": 2445,
        "oi_share": 0.176,
        "oi_extreme": true,
-       "dist_pct": 18.4,
+       "dist_pct": 18,
        "near": false,
        "very_near": false
       },
@@ -1405,7 +1405,7 @@
        "oi": 1444,
        "oi_share": 0.104,
        "oi_extreme": true,
-       "dist_pct": 5.7,
+       "dist_pct": 6,
        "near": false,
        "very_near": false
       },
@@ -1433,7 +1433,7 @@
      },
      "rsi_w": 47.430007669636474,
      "rsi_d": 50.58947630607888,
-     "rsi_4h": 54.13008601278417,
+     "rsi_4h": 54.13161768561666,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1581,7 +1581,7 @@
        "oi": 220,
        "oi_share": 0.032,
        "oi_extreme": false,
-       "dist_pct": 14.7,
+       "dist_pct": 15,
        "near": false,
        "very_near": false
       },
@@ -1590,7 +1590,7 @@
        "oi": 420,
        "oi_share": 0.06,
        "oi_extreme": true,
-       "dist_pct": 18.5,
+       "dist_pct": 19,
        "near": false,
        "very_near": false
       },
@@ -1618,7 +1618,7 @@
      },
      "rsi_w": 34.374912709264564,
      "rsi_d": 43.82957872902831,
-     "rsi_4h": 51.51581793233873,
+     "rsi_4h": 51.51616141633688,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1795,7 +1795,7 @@
        "oi": 2416,
        "oi_share": 0.152,
        "oi_extreme": true,
-       "dist_pct": 4.3,
+       "dist_pct": 4,
        "near": false,
        "very_near": false
       },
@@ -1804,7 +1804,7 @@
        "oi": 2448,
        "oi_share": 0.154,
        "oi_extreme": true,
-       "dist_pct": 1.7,
+       "dist_pct": 2,
        "near": true,
        "very_near": false
       },
@@ -1832,7 +1832,7 @@
      },
      "rsi_w": 42.12477139369721,
      "rsi_d": 41.880849867512616,
-     "rsi_4h": 45.48672905491663,
+     "rsi_4h": 45.48762632794343,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1994,7 +1994,7 @@
        "oi": 4552,
        "oi_share": 0.148,
        "oi_extreme": true,
-       "dist_pct": 14.1,
+       "dist_pct": 14,
        "near": false,
        "very_near": false
       },
@@ -2003,7 +2003,7 @@
        "oi": 872,
        "oi_share": 0.028,
        "oi_extreme": false,
-       "dist_pct": 10.4,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -2033,7 +2033,7 @@
      },
      "rsi_w": 35.39071710889584,
      "rsi_d": 33.13143639038793,
-     "rsi_4h": 37.509747605272835,
+     "rsi_4h": 37.511597824940075,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2080,9 +2080,9 @@
        "j": 40.3
       },
       "4h": {
-       "k": 35.5,
-       "d": 26.2,
-       "j": 54.1
+       "k": 35.4,
+       "d": 26.1,
+       "j": 54.0
       }
      },
      "structure": {
@@ -2203,7 +2203,7 @@
        "oi": 7022,
        "oi_share": 0.088,
        "oi_extreme": true,
-       "dist_pct": 49.6,
+       "dist_pct": 50,
        "near": false,
        "very_near": false
       },
@@ -2212,7 +2212,7 @@
        "oi": 3498,
        "oi_share": 0.044,
        "oi_extreme": false,
-       "dist_pct": 22.5,
+       "dist_pct": 22,
        "near": false,
        "very_near": false
       },
@@ -2240,7 +2240,7 @@
      },
      "rsi_w": 43.2201882593537,
      "rsi_d": 40.414342055048294,
-     "rsi_4h": 36.03162226748325,
+     "rsi_4h": 36.0274394082522,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2400,7 +2400,7 @@
        "oi": 4125,
        "oi_share": 0.591,
        "oi_extreme": true,
-       "dist_pct": 16.0,
+       "dist_pct": 16,
        "near": false,
        "very_near": false
       },
@@ -2409,7 +2409,7 @@
        "oi": 196,
        "oi_share": 0.028,
        "oi_extreme": false,
-       "dist_pct": 2.9,
+       "dist_pct": 3,
        "near": true,
        "very_near": false
       },
@@ -2437,7 +2437,7 @@
      },
      "rsi_w": 48.125188196296364,
      "rsi_d": 50.60510410375935,
-     "rsi_4h": 48.90524498080447,
+     "rsi_4h": 48.907491670190375,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -2614,7 +2614,7 @@
        "oi": 325,
        "oi_share": 0.065,
        "oi_extreme": true,
-       "dist_pct": 17.2,
+       "dist_pct": 17,
        "near": false,
        "very_near": false
       },
@@ -2623,7 +2623,7 @@
        "oi": 552,
        "oi_share": 0.11,
        "oi_extreme": true,
-       "dist_pct": 5.9,
+       "dist_pct": 6,
        "near": false,
        "very_near": false
       },
@@ -2651,7 +2651,7 @@
      },
      "rsi_w": 45.77610072611108,
      "rsi_d": 39.555587648554244,
-     "rsi_4h": 45.971429253568964,
+     "rsi_4h": 45.971431459449995,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2811,7 +2811,7 @@
        "oi": 928,
        "oi_share": 0.052,
        "oi_extreme": true,
-       "dist_pct": 6.7,
+       "dist_pct": 7,
        "near": false,
        "very_near": false
       },
@@ -2820,7 +2820,7 @@
        "oi": 963,
        "oi_share": 0.053,
        "oi_extreme": true,
-       "dist_pct": 11.0,
+       "dist_pct": 11,
        "near": false,
        "very_near": false
       },
@@ -2848,7 +2848,7 @@
      },
      "rsi_w": 51.99143732816184,
      "rsi_d": 61.55730789101205,
-     "rsi_4h": 64.77995949887855,
+     "rsi_4h": 64.77996523537769,
      "macd_sign": {
       "weekly": 1,
       "daily": 1,
@@ -2993,7 +2993,7 @@
        "oi": 4031,
        "oi_share": 0.12,
        "oi_extreme": true,
-       "dist_pct": 24.0,
+       "dist_pct": 24,
        "near": false,
        "very_near": false
       },
@@ -3002,7 +3002,7 @@
        "oi": 4756,
        "oi_share": 0.141,
        "oi_extreme": true,
-       "dist_pct": 8.6,
+       "dist_pct": 9,
        "near": false,
        "very_near": false
       },
@@ -3030,7 +3030,7 @@
      },
      "rsi_w": 35.64232557831171,
      "rsi_d": 37.34617266465873,
-     "rsi_4h": 41.67229621993974,
+     "rsi_4h": 41.666617156868185,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3199,7 +3199,7 @@
        "oi": 2783,
        "oi_share": 0.041,
        "oi_extreme": false,
-       "dist_pct": 0.9,
+       "dist_pct": 1,
        "near": true,
        "very_near": true
       },
@@ -3208,7 +3208,7 @@
        "oi": 7769,
        "oi_share": 0.116,
        "oi_extreme": true,
-       "dist_pct": 12.0,
+       "dist_pct": 12,
        "near": false,
        "very_near": false
       },
@@ -3236,7 +3236,7 @@
      },
      "rsi_w": 42.522115331560926,
      "rsi_d": 42.13895880830966,
-     "rsi_4h": 43.03552580311359,
+     "rsi_4h": 43.035438205794925,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -3405,7 +3405,7 @@
        "oi": 102,
        "oi_share": 0.006,
        "oi_extreme": false,
-       "dist_pct": 12.9,
+       "dist_pct": 13,
        "near": false,
        "very_near": false
       },
@@ -3414,7 +3414,7 @@
        "oi": 7886,
        "oi_share": 0.426,
        "oi_extreme": true,
-       "dist_pct": 22.0,
+       "dist_pct": 22,
        "near": false,
        "very_near": false
       },
@@ -3442,7 +3442,7 @@
      },
      "rsi_w": 49.6025148631443,
      "rsi_d": 50.33813973322987,
-     "rsi_4h": 56.81678768254624,
+     "rsi_4h": 56.81644711520665,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -3629,7 +3629,7 @@
        "oi": 627,
        "oi_share": 0.041,
        "oi_extreme": false,
-       "dist_pct": 11.4,
+       "dist_pct": 11,
        "near": false,
        "very_near": false
       },
@@ -3638,7 +3638,7 @@
        "oi": 781,
        "oi_share": 0.051,
        "oi_extreme": true,
-       "dist_pct": 0.2,
+       "dist_pct": 0,
        "near": true,
        "very_near": true
       },
@@ -3668,7 +3668,7 @@
      },
      "rsi_w": 33.78633968527629,
      "rsi_d": 35.17133470720036,
-     "rsi_4h": 37.40636114107648,
+     "rsi_4h": 37.405363040779314,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -3849,7 +3849,7 @@
        "oi": 4852,
        "oi_share": 0.091,
        "oi_extreme": true,
-       "dist_pct": 44.1,
+       "dist_pct": 44,
        "near": false,
        "very_near": false
       },
@@ -3858,7 +3858,7 @@
        "oi": 3664,
        "oi_share": 0.069,
        "oi_extreme": true,
-       "dist_pct": 11.8,
+       "dist_pct": 12,
        "near": false,
        "very_near": false
       },
@@ -3886,7 +3886,7 @@
      },
      "rsi_w": 46.58889429773524,
      "rsi_d": 51.73363811356095,
-     "rsi_4h": 56.80066229050686,
+     "rsi_4h": 56.79356138336549,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4058,7 +4058,7 @@
        "oi": 3890,
        "oi_share": 0.078,
        "oi_extreme": true,
-       "dist_pct": 21.1,
+       "dist_pct": 21,
        "near": false,
        "very_near": false
       },
@@ -4067,7 +4067,7 @@
        "oi": 21814,
        "oi_share": 0.435,
        "oi_extreme": true,
-       "dist_pct": 10.4,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -4095,7 +4095,7 @@
      },
      "rsi_w": 35.482655590304745,
      "rsi_d": 44.58305652151237,
-     "rsi_4h": 51.34984170024964,
+     "rsi_4h": 51.34804484136132,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4267,7 +4267,7 @@
        "oi": 3518,
        "oi_share": 0.051,
        "oi_extreme": true,
-       "dist_pct": 9.7,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -4276,7 +4276,7 @@
        "oi": 10566,
        "oi_share": 0.154,
        "oi_extreme": true,
-       "dist_pct": 1.8,
+       "dist_pct": 2,
        "near": true,
        "very_near": false
       },
@@ -4304,7 +4304,7 @@
      },
      "rsi_w": 39.27193336731885,
      "rsi_d": 32.06742266841101,
-     "rsi_4h": 39.930758345528965,
+     "rsi_4h": 39.93076752208409,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4476,7 +4476,7 @@
        "oi": 2224,
        "oi_share": 0.044,
        "oi_extreme": false,
-       "dist_pct": 19.2,
+       "dist_pct": 19,
        "near": false,
        "very_near": false
       },
@@ -4485,7 +4485,7 @@
        "oi": 4497,
        "oi_share": 0.09,
        "oi_extreme": true,
-       "dist_pct": 9.9,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -4513,7 +4513,7 @@
      },
      "rsi_w": 35.713309084696746,
      "rsi_d": 38.11728710759187,
-     "rsi_4h": 43.0158607518163,
+     "rsi_4h": 43.01367565722356,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -4553,8 +4553,8 @@
       },
       "4h": {
        "k": 52.8,
-       "d": 50.5,
-       "j": 57.4
+       "d": 50.4,
+       "j": 57.5
       }
      },
      "structure": {
@@ -4690,7 +4690,7 @@
        "oi": 9270,
        "oi_share": 0.042,
        "oi_extreme": false,
-       "dist_pct": 10.3,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -4699,7 +4699,7 @@
        "oi": 21544,
        "oi_share": 0.099,
        "oi_extreme": true,
-       "dist_pct": 32.9,
+       "dist_pct": 33,
        "near": false,
        "very_near": false
       },
@@ -4727,7 +4727,7 @@
      },
      "rsi_w": 46.31557481453717,
      "rsi_d": 55.03439531105205,
-     "rsi_4h": 59.5140212840194,
+     "rsi_4h": 59.51388245641717,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -4908,7 +4908,7 @@
        "oi": 1384,
        "oi_share": 0.083,
        "oi_extreme": true,
-       "dist_pct": 9.9,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -4917,7 +4917,7 @@
        "oi": 1330,
        "oi_share": 0.08,
        "oi_extreme": true,
-       "dist_pct": 9.6,
+       "dist_pct": 10,
        "near": false,
        "very_near": false
       },
@@ -5117,7 +5117,7 @@
        "oi": 809,
        "oi_share": 0.032,
        "oi_extreme": false,
-       "dist_pct": 14.6,
+       "dist_pct": 15,
        "near": false,
        "very_near": false
       },
@@ -5126,7 +5126,7 @@
        "oi": 6152,
        "oi_share": 0.241,
        "oi_extreme": true,
-       "dist_pct": 22.0,
+       "dist_pct": 22,
        "near": false,
        "very_near": false
       },
@@ -5156,7 +5156,7 @@
      },
      "rsi_w": 36.960396395319584,
      "rsi_d": 40.59387019047501,
-     "rsi_4h": 41.3608364935174,
+     "rsi_4h": 41.385693729585206,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5195,7 +5195,7 @@
        "j": 26.2
       },
       "4h": {
-       "k": 34.2,
+       "k": 34.3,
        "d": 35.1,
        "j": 32.5
       }
@@ -5328,7 +5328,7 @@
        "oi": 11311,
        "oi_share": 0.084,
        "oi_extreme": true,
-       "dist_pct": 6.7,
+       "dist_pct": 7,
        "near": false,
        "very_near": false
       },
@@ -5337,7 +5337,7 @@
        "oi": 7963,
        "oi_share": 0.059,
        "oi_extreme": true,
-       "dist_pct": 26.0,
+       "dist_pct": 26,
        "near": false,
        "very_near": false
       },
@@ -5367,7 +5367,7 @@
      },
      "rsi_w": 48.62675274160765,
      "rsi_d": 48.9845349223783,
-     "rsi_4h": 54.5956301467984,
+     "rsi_4h": 54.59067156402957,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -5544,7 +5544,7 @@
        "oi": 914,
        "oi_share": 0.038,
        "oi_extreme": false,
-       "dist_pct": 13.0,
+       "dist_pct": 13,
        "near": false,
        "very_near": false
       },
@@ -5553,7 +5553,7 @@
        "oi": 4317,
        "oi_share": 0.178,
        "oi_extreme": true,
-       "dist_pct": 2.8,
+       "dist_pct": 3,
        "near": true,
        "very_near": false
       },
@@ -5581,7 +5581,7 @@
      },
      "rsi_w": 51.79812978124343,
      "rsi_d": 51.544134693704684,
-     "rsi_4h": 58.51691657603557,
+     "rsi_4h": 58.51676258758189,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -5744,7 +5744,7 @@
        "oi": 4860,
        "oi_share": 0.077,
        "oi_extreme": true,
-       "dist_pct": 50.6,
+       "dist_pct": 51,
        "near": false,
        "very_near": false
       },
@@ -5753,7 +5753,7 @@
        "oi": 9441,
        "oi_share": 0.15,
        "oi_extreme": true,
-       "dist_pct": 1.6,
+       "dist_pct": 2,
        "near": true,
        "very_near": true
       },
@@ -5781,7 +5781,7 @@
      },
      "rsi_w": 35.186068454708746,
      "rsi_d": 38.05528503732502,
-     "rsi_4h": 47.4626101094044,
+     "rsi_4h": 47.46257712790508,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -5955,7 +5955,7 @@
        "oi": 844,
        "oi_share": 0.055,
        "oi_extreme": true,
-       "dist_pct": 14.7,
+       "dist_pct": 15,
        "near": false,
        "very_near": false
       },
@@ -5964,7 +5964,7 @@
        "oi": 1396,
        "oi_share": 0.091,
        "oi_extreme": true,
-       "dist_pct": 1.2,
+       "dist_pct": 1,
        "near": true,
        "very_near": true
       },
@@ -5992,7 +5992,7 @@
      },
      "rsi_w": 39.05181196520087,
      "rsi_d": 38.13893039081195,
-     "rsi_4h": 43.4193388480488,
+     "rsi_4h": 43.41908330448506,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6178,7 +6178,7 @@
        "oi": 9598,
        "oi_share": 0.088,
        "oi_extreme": true,
-       "dist_pct": 11.6,
+       "dist_pct": 12,
        "near": false,
        "very_near": false
       },
@@ -6187,7 +6187,7 @@
        "oi": 10045,
        "oi_share": 0.092,
        "oi_extreme": true,
-       "dist_pct": 26.3,
+       "dist_pct": 26,
        "near": false,
        "very_near": false
       },
@@ -6217,7 +6217,7 @@
      },
      "rsi_w": 37.589553610409595,
      "rsi_d": 38.00571197393276,
-     "rsi_4h": 40.36638341925282,
+     "rsi_4h": 40.36615945253252,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6394,7 +6394,7 @@
        "oi": 2546,
        "oi_share": 0.021,
        "oi_extreme": false,
-       "dist_pct": 2.8,
+       "dist_pct": 3,
        "near": true,
        "very_near": true
       },
@@ -6403,7 +6403,7 @@
        "oi": 17743,
        "oi_share": 0.143,
        "oi_extreme": true,
-       "dist_pct": 27.2,
+       "dist_pct": 27,
        "near": false,
        "very_near": false
       },
@@ -6431,7 +6431,7 @@
      },
      "rsi_w": 43.66534426437043,
      "rsi_d": 46.3423320497063,
-     "rsi_4h": 49.11486580084179,
+     "rsi_4h": 49.11489033579247,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6591,7 +6591,7 @@
        "oi": 1317,
        "oi_share": 0.038,
        "oi_extreme": false,
-       "dist_pct": 6.9,
+       "dist_pct": 7,
        "near": false,
        "very_near": false
       },
@@ -6600,7 +6600,7 @@
        "oi": 5008,
        "oi_share": 0.143,
        "oi_extreme": true,
-       "dist_pct": 2.1,
+       "dist_pct": 2,
        "near": true,
        "very_near": false
       },
@@ -6628,7 +6628,7 @@
      },
      "rsi_w": 54.66427264537006,
      "rsi_d": 34.65589192517159,
-     "rsi_4h": 35.63135539451089,
+     "rsi_4h": 35.64218343633608,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -6812,7 +6812,7 @@
        "oi": 678,
        "oi_share": 0.053,
        "oi_extreme": true,
-       "dist_pct": 8.0,
+       "dist_pct": 8,
        "near": false,
        "very_near": false
       },
@@ -6821,8 +6821,8 @@
        "oi": 887,
        "oi_share": 0.069,
        "oi_extreme": true,
-       "dist_pct": 3.1,
-       "near": false,
+       "dist_pct": 3,
+       "near": true,
        "very_near": false
       },
       "max_pain": 270.0,
@@ -6849,7 +6849,7 @@
      },
      "rsi_w": 46.42462800074922,
      "rsi_d": 44.35851910894888,
-     "rsi_4h": 46.123089798001836,
+     "rsi_4h": 46.12310506103711,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -7018,7 +7018,7 @@
        "oi": 1121,
        "oi_share": 0.131,
        "oi_extreme": true,
-       "dist_pct": 0.6,
+       "dist_pct": 1,
        "near": true,
        "very_near": true
       },
@@ -7027,7 +7027,7 @@
        "oi": 2258,
        "oi_share": 0.263,
        "oi_extreme": true,
-       "dist_pct": 24.3,
+       "dist_pct": 24,
        "near": false,
        "very_near": false
       },
@@ -7058,7 +7058,7 @@
      },
      "rsi_w": 53.79188630916724,
      "rsi_d": 62.88646972013232,
-     "rsi_4h": 61.75105150688786,
+     "rsi_4h": 61.75016563588052,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -7242,7 +7242,7 @@
        "oi": 5233,
        "oi_share": 0.288,
        "oi_extreme": true,
-       "dist_pct": 6.4,
+       "dist_pct": 6,
        "near": false,
        "very_near": false
       },
@@ -7251,8 +7251,8 @@
        "oi": 5025,
        "oi_share": 0.276,
        "oi_extreme": true,
-       "dist_pct": 3.1,
-       "near": false,
+       "dist_pct": 3,
+       "near": true,
        "very_near": false
       },
       "max_pain": 45.5,
