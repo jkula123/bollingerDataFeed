@@ -24,7 +24,6 @@
    "market_cap": 15366590464,
    "pe": 4.9,
    "forward_pe": 3.4,
-   "forward_pe_2y": 2.2,
    "ps": 0.28,
    "fcf_yield": -53.3,
    "revenue_growth": 297.5,
@@ -136,13 +135,124 @@
      "url": "https://finance.yahoo.com/technology/ai/articles/super-micro-computer-smci-faces-181532913.html"
     }
    ],
-   "fv_growth": 37.1,
+   "fv_growth": 52.5,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 163.06,
    "fv_pct": -85.7,
    "fv_eps": 6.52,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2026-06-30",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 39.063,
+      "yoy": 77.8
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 34.836,
+      "yoy": 78.3
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 4.227,
+      "yoy": 74.0
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.771,
+      "yoy": 21.0
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.686,
+      "yoy": 27.0
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 2.77,
+      "yoy": 121.1
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.789,
+      "yoy": 122.6
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.556,
+      "yoy": 254.1
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 2.233,
+      "yoy": 111.7
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 34.836
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 4.227
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.771
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.686
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 2.77
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 2.77
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.556
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.233
+     }
+    ]
+   }
   },
   {
    "ticker": "VG",
@@ -163,7 +273,6 @@
    "market_cap": 29557200896,
    "pe": 5.7,
    "forward_pe": 7.0,
-   "forward_pe_2y": 6.8,
    "ps": 1.61,
    "fcf_yield": -27.6,
    "revenue_growth": 42.9,
@@ -282,7 +391,141 @@
      "pubDate": "2026-11-20T14:19:00+00:00",
      "url": "https://finance.yahoo.com/energy/articles/venture-global-expands-china-gas-141900757.html"
     }
-   ]
+   ],
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 13.769,
+      "yoy": 176.9
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 6.861,
+      "yoy": 310.1
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 6.908,
+      "yoy": 109.4
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.344,
+      "yoy": -45.8
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.433,
+      "yoy": 38.8
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.975,
+      "yoy": 65.5
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 5.156,
+      "yoy": 192.5
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 1.793
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 3.363,
+      "yoy": 54.1
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.63,
+      "yoy": 44.2
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 2.733,
+      "yoy": 56.5
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 6.861
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 6.908
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.344
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.433
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.975
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 5.156
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 3.363
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 1.793
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.63
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.733
+     }
+    ]
+   }
   },
   {
    "ticker": "NVO",
@@ -303,7 +546,6 @@
    "market_cap": 180523859968,
    "pe": 10.3,
    "forward_pe": 11.7,
-   "forward_pe_2y": 9.4,
    "ps": 0.54,
    "fcf_yield": 18.1,
    "revenue_growth": 5.6,
@@ -424,7 +666,129 @@
      "pubDate": "2026-11-25T21:15:05+00:00",
      "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-cpse-novo-b-211505782.html"
     }
-   ]
+   ],
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 309.064,
+      "yoy": 6.4
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 58.788,
+      "yoy": 32.0
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 250.276,
+      "yoy": 1.8
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 52.039,
+      "yoy": 8.3
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 70.279,
+      "yoy": 4.3
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 127.958,
+      "yoy": -1.9
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 2.582
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 130.54,
+      "yoy": 2.6
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 28.106,
+      "yoy": 7.3
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 102.434,
+      "yoy": 1.4
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 58.788
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 250.276
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 52.039
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 70.279
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 127.958
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 127.958
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 2.582
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 28.106
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 102.434
+     }
+    ]
+   }
   },
   {
    "ticker": "VZ",
@@ -445,7 +809,6 @@
    "market_cap": 195956604928,
    "pe": 12.1,
    "forward_pe": 8.9,
-   "forward_pe_2y": 8.8,
    "ps": 1.41,
    "fcf_yield": 8.2,
    "revenue_growth": 1.5,
@@ -556,13 +919,136 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/vzs-apple-deals-loyalty-benefits-152600217.html"
     }
    ],
-   "fv_growth": -0.7,
+   "fv_growth": -1.8,
    "fv_window": 10,
    "fair_pe": 8.5,
    "fair_value": 42.97,
    "fv_pct": 10.0,
    "fv_eps": 5.06,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 138.191,
+      "yoy": 2.5
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 56.765,
+      "yoy": 4.9
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 81.426,
+      "yoy": 0.9
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 33.818,
+      "yoy": -0.9
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 18.349,
+      "yoy": 2.6
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 29.259,
+      "yoy": 2.0
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 6.587,
+      "yoy": 15.4
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 22.672,
+      "yoy": -1.3
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 5.064,
+      "yoy": 0.7
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 17.608,
+      "yoy": -1.9
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 56.765
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 81.426
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 33.818
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 18.349
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 29.259
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 22.672
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 6.587
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 5.064
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 17.608
+     }
+    ]
+   }
   },
   {
    "ticker": "ADBE",
@@ -583,7 +1069,6 @@
    "market_cap": 90617438208,
    "pe": 13.0,
    "forward_pe": 8.5,
-   "forward_pe_2y": 8.0,
    "ps": 3.49,
    "fcf_yield": 10.3,
    "revenue_growth": 12.9,
@@ -696,13 +1181,136 @@
    "score_tier": "Weak",
    "score_tip": "ADBE scores 2/10 \u2014 Weak.\nValue (1/2): P/E 13.0 is below its usual 48.2 over the last 15 years.\nHealth (1/2): growing fast with strong cash margins (score 49; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 40).\nBacking (0/2): no insider trades in the last 3 months; big funds roughly balanced ($4.4M net).\nSentiment (0/2): analysts rate it a Hold on average (2.97 from 33 analysts); their average target is $266.91, 15% above the price; options trading leaned bearish (put/call 1.48).",
    "news": [],
-   "fv_growth": 29.7,
+   "fv_growth": 21.7,
    "fv_window": 10,
-   "fair_pe": 25.0,
-   "fair_value": 611.71,
-   "fv_pct": -61.9,
+   "fair_pe": 21.7,
+   "fair_value": 530.96,
+   "fv_pct": -56.1,
    "fv_eps": 24.47,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-11-30",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 23.769,
+      "yoy": 10.5
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 2.551,
+      "yoy": 8.2
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 21.218,
+      "yoy": 10.8
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 4.294,
+      "yoy": 8.9
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 8.061,
+      "yoy": 10.5
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 8.863,
+      "yoy": 12.0
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.129,
+      "yoy": -86.8
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 8.734,
+      "yoy": 26.0
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 1.604,
+      "yoy": 17.0
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 7.13,
+      "yoy": 28.2
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 2.551
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 21.218
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 4.294
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 8.061
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 8.863
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 8.734
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.129
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.604
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 7.13
+     }
+    ]
+   }
   },
   {
    "ticker": "GOOG",
@@ -723,7 +1331,6 @@
    "market_cap": 3331428188160,
    "pe": 14.2,
    "forward_pe": 17.7,
-   "forward_pe_2y": 13.0,
    "ps": 7.07,
    "fcf_yield": -0.0,
    "revenue_growth": 24.7,
@@ -866,13 +1473,136 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html"
     }
    ],
-   "fv_growth": 29.8,
-   "fv_window": 5,
+   "fv_growth": 28.3,
+   "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 327.24,
    "fv_pct": -17.2,
    "fv_eps": 13.09,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 162.535
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 240.301
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 61.087
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 50.175
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 129.039
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 129.039
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 29.787
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 26.656
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 132.17
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 402.836,
+      "yoy": 15.1
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 162.535,
+      "yoy": 11.1
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 240.301,
+      "yoy": 18.0
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 61.087,
+      "yoy": 23.8
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 50.175,
+      "yoy": 19.5
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 129.039,
+      "yoy": 14.8
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 29.787,
+      "yoy": 301.2
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 158.826,
+      "yoy": 32.6
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 26.656,
+      "yoy": 35.3
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 132.17,
+      "yoy": 32.0
+     }
+    ]
+   }
   },
   {
    "ticker": "NVDA",
@@ -893,7 +1623,6 @@
    "market_cap": 3605147156480,
    "pe": 16.0,
    "forward_pe": 9.0,
-   "forward_pe_2y": 6.1,
    "ps": 9.96,
    "fcf_yield": 2.8,
    "revenue_growth": 103.2,
@@ -1030,13 +1759,136 @@
    "score_tier": "Solid",
    "score_tip": "NVDA scores 7/10 \u2014 Solid.\nValue (1/2): P/E 16.0 is below its usual 43.5 over the last 15 years.\nHealth (2/2): growing fast with strong cash margins (score 131; strong is over 40); generates cash and holds more cash than debt.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (1/2): insiders sold $964.5M of shares in the last 3 months; big funds added $957.8M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.67 from 59 analysts); their average target is $242.43, 62% above the price; options trading leaned bullish (put/call 0.39).\n\ud83c\udfaf Potential opportunity \u2014 5 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big funds added $957.8M last quarter; P/E 16 is below its usual 43.5 over the last 15 years, and forward P/E is only 9.",
    "news": [],
-   "fv_growth": 68.4,
+   "fv_growth": 56.8,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 241.81,
    "fv_pct": -38.3,
    "fv_eps": 9.67,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2026-01-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 62.475
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 153.463
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 18.497
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 4.579
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 130.387
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 130.387
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 11.063
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 21.383
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 120.067
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 215.938,
+      "yoy": 65.5
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 62.475,
+      "yoy": 91.4
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 153.463,
+      "yoy": 56.8
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 18.497,
+      "yoy": 43.2
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 4.579,
+      "yoy": 31.2
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 130.387,
+      "yoy": 60.1
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 11.063,
+      "yoy": 330.0
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 141.45,
+      "yoy": 68.3
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 21.383,
+      "yoy": 91.8
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 120.067,
+      "yoy": 64.7
+     }
+    ]
+   }
   },
   {
    "ticker": "ORCL",
@@ -1057,7 +1909,6 @@
    "market_cap": 323867508736,
    "pe": 16.3,
    "forward_pe": 9.4,
-   "forward_pe_2y": 9.1,
    "ps": 4.51,
    "fcf_yield": -14.2,
    "revenue_growth": 29.6,
@@ -1200,13 +2051,148 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html"
     }
    ],
-   "fv_growth": 10.9,
+   "fv_growth": 13.2,
    "fv_window": 10,
    "fair_pe": 15.0,
    "fair_value": 122.26,
    "fv_pct": -15.0,
    "fv_eps": 8.15,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2026-05-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 23.021
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 44.336
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 10.272
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 9.949
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 1.671
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 22.444
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 19.554
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 2.89
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.467
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 17.087
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 67.357,
+      "yoy": 17.3
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 23.021,
+      "yoy": 36.0
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 44.336,
+      "yoy": 9.5
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 10.272,
+      "yoy": 4.2
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 9.949,
+      "yoy": -3.0
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 1.671,
+      "yoy": -27.6
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 22.444,
+      "yoy": 24.3
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 2.89,
+      "yoy": -25.7
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 19.554,
+      "yoy": 38.1
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 2.467,
+      "yoy": 43.7
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 17.087,
+      "yoy": 37.3
+     }
+    ]
+   }
   },
   {
    "ticker": "BA",
@@ -1353,14 +2339,7 @@
      "pubDate": "2026-11-26T12:11:48+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-stock-aerospace-rivals-facing-121148444.html"
     }
-   ],
-   "fv_growth": -10.4,
-   "fv_window": 10,
-   "fair_pe": 8.5,
-   "fair_value": 82.27,
-   "fv_pct": 100.0,
-   "fv_eps": 9.68,
-   "fv_eps_src": "gaap"
+   ]
   },
   {
    "ticker": "NFLX",
@@ -1381,7 +2360,6 @@
    "market_cap": 243956826112,
    "pe": 17.2,
    "forward_pe": 15.8,
-   "forward_pe_2y": 12.7,
    "ps": 4.91,
    "fcf_yield": 10.4,
    "revenue_growth": 11.8,
@@ -1517,13 +2495,136 @@
      "url": "https://247wallst.com/investing/2026/11/26/netflix-stock-is-down-36-in-2026-can-its-disney-partnership-make-it-a-buy-again/"
     }
    ],
-   "fv_growth": 56.9,
+   "fv_growth": 49.9,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 89.3,
    "fv_pct": -33.5,
    "fv_eps": 3.57,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 23.275
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 21.908
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 3.391
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 5.19
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 13.327
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 12.723
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.604
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.741
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 10.982
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 45.183,
+      "yoy": 15.9
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 23.275,
+      "yoy": 10.6
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 21.908,
+      "yoy": 22.0
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 3.391,
+      "yoy": 15.9
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 5.19,
+      "yoy": 12.3
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 13.327,
+      "yoy": 27.9
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.604,
+      "yoy": 33.6
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 12.723,
+      "yoy": 27.7
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 1.741,
+      "yoy": 38.8
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 10.982,
+      "yoy": 26.1
+     }
+    ]
+   }
   },
   {
    "ticker": "AXP",
@@ -1544,7 +2645,6 @@
    "market_cap": 209473748992,
    "pe": 17.6,
    "forward_pe": 15.5,
-   "forward_pe_2y": 13.8,
    "ps": 2.88,
    "revenue_growth": 11.3,
    "debt_to_equity": 1.68,
@@ -1651,13 +2751,76 @@
    "score_tier": "Weak",
    "score_tip": "AXP scores 0/10 \u2014 Weak.\nValue (0/2): P/E 17.6 is above its usual 15.9 over the last 14 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 39).\nBacking (0/2): insiders sold $37.6M of shares in the last 3 months; big funds roughly balanced ($33.2M net).\nSentiment (0/2): analysts rate it a Buy on average (2.21 from 24 analysts); their average target is $364.79, 17% above the price; options trading leaned bearish (put/call 1.20).",
    "news": [],
-   "fv_growth": 32.5,
+   "fv_growth": 12.9,
    "fv_window": 5,
-   "fair_pe": 25.0,
-   "fair_value": 459.78,
-   "fv_pct": -32.1,
+   "fair_pe": 15.0,
+   "fair_value": 275.87,
+   "fv_pct": 13.2,
    "fv_eps": 18.39,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 72.23,
+      "yoy": 9.5
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 58.435,
+      "yoy": 10.1
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 13.795,
+      "yoy": 7.0
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 2.962,
+      "yoy": 7.1
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 10.833,
+      "yoy": 7.0
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 58.435
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 13.795
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.962
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 10.833
+     }
+    ]
+   }
   },
   {
    "ticker": "CRM",
@@ -1678,7 +2841,6 @@
    "market_cap": 162303836160,
    "pe": 18.0,
    "forward_pe": 12.3,
-   "forward_pe_2y": 9.8,
    "ps": 3.69,
    "fcf_yield": 10.9,
    "revenue_growth": 10.8,
@@ -1806,13 +2968,147 @@
      "url": "https://www.thestreet.com/investing/salesforce-crm-ai-pricing-shift-bank-of-america-bofa"
     }
    ],
-   "fv_growth": 12.2,
-   "fv_window": 5,
-   "fair_pe": 15.0,
-   "fair_value": 251.33,
-   "fv_pct": -21.5,
+   "fv_growth": 34.4,
+   "fv_window": 10,
+   "fair_pe": 25.0,
+   "fair_value": 418.89,
+   "fv_pct": -52.9,
    "fv_eps": 16.76,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2026-01-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 41.525,
+      "yoy": 9.6
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 9.27,
+      "yoy": 7.3
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 32.255,
+      "yoy": 10.3
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 5.993,
+      "yoy": 9.1
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 16.35,
+      "yoy": 7.6
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.995,
+      "yoy": 10.4
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 8.917,
+      "yoy": 16.3
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.603
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 9.52,
+      "yoy": 28.0
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 2.063,
+      "yoy": 66.2
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 7.457,
+      "yoy": 20.3
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 9.27
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 32.255
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 5.993
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 16.35
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.995
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 8.917
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 8.917
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.603
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.063
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 7.457
+     }
+    ]
+   }
   },
   {
    "ticker": "PATH",
@@ -1833,7 +3129,6 @@
    "market_cap": 6472750592,
    "pe": 18.5,
    "forward_pe": 13.5,
-   "forward_pe_2y": 6.7,
    "ps": 3.76,
    "fcf_yield": 7.3,
    "revenue_growth": 13.4,
@@ -1955,7 +3250,6 @@
    "market_cap": 17670006784,
    "pe": 18.7,
    "forward_pe": 10.1,
-   "forward_pe_2y": 5.9,
    "ps": 5.72,
    "fcf_yield": 4.6,
    "revenue_growth": 53.0,
@@ -2074,7 +3368,109 @@
      "pubDate": "2026-11-25T18:53:53+00:00",
      "url": "https://finance.yahoo.com/media-advertising/articles/reddit-ad-sales-grew-54-185353626.html"
     }
-   ]
+   ],
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 0.195
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 2.008
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.783
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.783
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.442
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.442
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.087
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.529
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 2.203
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 0.195
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 2.008
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.783
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.783
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.442
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.087
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.529
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.529
+     }
+    ]
+   }
   },
   {
    "ticker": "CEG",
@@ -2095,7 +3491,6 @@
    "market_cap": 82726453248,
    "pe": 18.9,
    "forward_pe": 17.6,
-   "forward_pe_2y": 13.7,
    "ps": 2.42,
    "fcf_yield": -6.5,
    "revenue_growth": 45.4,
@@ -2215,7 +3610,118 @@
      "pubDate": "2026-11-26T07:57:11+00:00",
      "url": "https://www.power-technology.com/news/constellation-natural-gas-fired-power-plants/"
     }
-   ]
+   ],
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 20.84
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 4.693
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.495
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 4.198
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 3.511
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.687
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.187
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.324
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 25.533,
+      "yoy": 8.3
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 20.84,
+      "yoy": 18.6
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 4.693,
+      "yoy": -21.7
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.495,
+      "yoy": -56.7
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 4.198,
+      "yoy": -13.4
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.687,
+      "yoy": 106.9
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 3.511,
+      "yoy": -22.3
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 1.187,
+      "yoy": 53.4
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 2.324,
+      "yoy": -37.9
+     }
+    ]
+   }
   },
   {
    "ticker": "AMZN",
@@ -2236,7 +3742,6 @@
    "market_cap": 2643055345664,
    "pe": 19.8,
    "forward_pe": 22.4,
-   "forward_pe_2y": 16.0,
    "ps": 3.31,
    "fcf_yield": -1.3,
    "revenue_growth": 12.1,
@@ -2419,13 +3924,135 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html"
     }
    ],
-   "fv_growth": 60.7,
+   "fv_growth": 43.1,
    "fv_window": 10,
    "fair_pe": 25.0,
    "fair_value": 319.96,
    "fv_pct": -23.6,
    "fv_eps": 12.8,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 716.924,
+      "yoy": 12.4
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 356.414,
+      "yoy": 9.2
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 360.51,
+      "yoy": 15.7
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 58.301,
+      "yoy": 5.5
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 222.234,
+      "yoy": 18.3
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 79.975,
+      "yoy": 16.6
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 17.336
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 97.311,
+      "yoy": 41.8
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 19.641,
+      "yoy": 109.7
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 77.67,
+      "yoy": 31.1
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 356.414
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 360.51
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 58.301
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 222.234
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 79.975
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 79.975
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 17.336
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 19.641
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 77.67
+     }
+    ]
+   }
   },
   {
    "ticker": "META",
@@ -2446,7 +4073,6 @@
    "market_cap": 1559025942528,
    "pe": 20.1,
    "forward_pe": 17.2,
-   "forward_pe_2y": 15.1,
    "ps": 6.45,
    "fcf_yield": 1.1,
    "revenue_growth": 26.1,
@@ -2638,13 +4264,136 @@
      "url": "https://www.tikr.com/blog/george-soros-and-64-other-big-funds-bought-meta-last-quarter-david-tepper-and-33-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-jj5cfjgh"
     }
    ],
-   "fv_growth": 33.7,
+   "fv_growth": 21.5,
    "fv_window": 10,
-   "fair_pe": 25.0,
-   "fair_value": 725.21,
-   "fv_pct": -15.9,
+   "fair_pe": 21.5,
+   "fair_value": 623.68,
+   "fv_pct": -2.2,
    "fv_eps": 29.01,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 200.966,
+      "yoy": 22.2
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 36.175,
+      "yoy": 19.9
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 164.791,
+      "yoy": 22.7
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 57.372,
+      "yoy": 30.8
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 24.143,
+      "yoy": 14.5
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 83.276,
+      "yoy": 20.0
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 2.656,
+      "yoy": 107.0
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 85.932,
+      "yoy": 21.6
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 25.474,
+      "yoy": 206.8
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 60.458,
+      "yoy": -3.1
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 36.175
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 164.791
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 57.372
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 24.143
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 83.276
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 83.276
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 2.656
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 25.474
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 60.458
+     }
+    ]
+   }
   },
   {
    "ticker": "SOFI",
@@ -2665,7 +4414,6 @@
    "market_cap": 16962772992,
    "pe": 23.8,
    "forward_pe": 14.6,
-   "forward_pe_2y": 14.2,
    "ps": 3.62,
    "revenue_growth": 43.9,
    "debt_to_equity": 0.35,
@@ -2762,7 +4510,65 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "SOFI scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 33).\nBacking (0/2): insider buying and selling roughly balanced ($0.8M net); no big-fund moves last quarter.\nSentiment (1/2): analysts rate it a Hold on average (2.54 from 22 analysts); their average target is $20.56, 57% above the price; options trading leaned bullish (put/call 0.10).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 38.9% over 3 years, so each share owns a smaller slice of the company.",
-   "news": []
+   "news": [],
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 3.613
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 3.087
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.526
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.045
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.481
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 3.087
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 0.526
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.045
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.481
+     }
+    ]
+   }
   },
   {
    "ticker": "GRAB",
@@ -2783,7 +4589,6 @@
    "market_cap": 11465079808,
    "pe": 28.4,
    "forward_pe": 18.1,
-   "forward_pe_2y": 9.0,
    "ps": 2.89,
    "fcf_yield": 6.9,
    "revenue_growth": 27.4,
@@ -2892,7 +4697,120 @@
      "pubDate": "2026-11-21T05:13:25+00:00",
      "url": "https://finance.yahoo.com/markets/stocks/articles/grab-holdings-grab-ai-push-051325896.html"
     }
-   ]
+   ],
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 3.37
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 1.914
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 1.456
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.428
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.826
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.202
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.067
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.269
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.069
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.2
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 1.914
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 1.456
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.428
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.826
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.202
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.202
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.067
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.069
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.2
+     }
+    ]
+   }
   },
   {
    "ticker": "CELH",
@@ -2913,7 +4831,6 @@
    "market_cap": 7276155392,
    "pe": 32.6,
    "forward_pe": 17.4,
-   "forward_pe_2y": 13.9,
    "ps": 2.3,
    "fcf_yield": 4.4,
    "revenue_growth": 16.8,
@@ -3017,13 +4934,123 @@
    "score_tier": "Mixed",
    "score_tip": "CELH scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 32.6 is below its usual 126.9 over the last 6 years.\nHealth (1/2): growth and cash margins are weak (score 27; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 44).\nBacking (0/2): insider buying and selling roughly balanced ($1.8M net); no big-fund moves last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.72 from 22 analysts); their average target is $41.59, 43% above the price; options trading leaned bullish (put/call 0.36).\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 12.3% over 3 years, so each share owns a smaller slice of the company.",
    "news": [],
-   "fv_growth": 46.8,
+   "fv_growth": 94.9,
    "fv_window": 5,
    "fair_pe": 25.0,
    "fair_value": 36.14,
    "fv_pct": -19.6,
    "fv_eps": 1.45,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 2.515,
+      "yoy": 85.5
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 1.248,
+      "yoy": 84.6
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 1.267,
+      "yoy": 86.3
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.799,
+      "yoy": 52.5
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.468,
+      "yoy": 200.0
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.343
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.125,
+      "yoy": -35.9
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.017,
+      "yoy": -66.0
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.108,
+      "yoy": -25.5
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 1.248
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 1.267
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.799
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.468
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.125
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.343
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.017
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.108
+     }
+    ]
+   }
   },
   {
    "ticker": "AVGO",
@@ -3044,7 +5071,6 @@
    "market_cap": 1436194177024,
    "pe": 38.4,
    "forward_pe": 15.5,
-   "forward_pe_2y": 13.3,
    "ps": 16.12,
    "fcf_yield": 2.1,
    "revenue_growth": 85.5,
@@ -3181,13 +5207,136 @@
      "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings"
     }
    ],
-   "fv_growth": 49.7,
-   "fv_window": 5,
-   "fair_pe": 25.0,
-   "fair_value": 291.35,
-   "fv_pct": 3.3,
+   "fv_growth": 22.3,
+   "fv_window": 10,
+   "fair_pe": 22.3,
+   "fair_value": 259.89,
+   "fv_pct": 15.8,
    "fv_eps": 11.65,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-10-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 63.887,
+      "yoy": 23.9
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 20.593,
+      "yoy": 8.0
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 43.294,
+      "yoy": 33.2
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 10.977,
+      "yoy": 17.9
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 4.211,
+      "yoy": -15.1
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 2.031,
+      "yoy": -37.4
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 26.075,
+      "yoy": 73.9
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 3.346,
+      "yoy": -34.1
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 22.729,
+      "yoy": 129.2
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 22.729,
+      "yoy": 268.5
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 20.593
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 43.294
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 10.977
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 4.211
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 2.031
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 26.075
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 22.729
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 3.346
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 22.729
+     }
+    ]
+   }
   },
   {
    "ticker": "UBER",
@@ -3208,7 +5357,6 @@
    "market_cap": 135479934976,
    "pe": 39.0,
    "forward_pe": 15.1,
-   "forward_pe_2y": 12.6,
    "ps": 2.4,
    "fcf_yield": 5.5,
    "revenue_growth": 9.6,
@@ -3326,7 +5474,131 @@
      "pubDate": "2026-11-26T01:00:00+00:00",
      "url": "https://www.wsj.com/business/hospitality/the-race-to-make-dinner-delivery-more-affordable-deb2df99?siteid=yhoof2&yptr=yahoo"
     }
-   ]
+   ],
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2023-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 22.457
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 14.824
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 3.164
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 7.038
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 3.512
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.11
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 1.11
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 1.211
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.213
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.108
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 37.281
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 22.457
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 14.824
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 3.164
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 7.038
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 3.512
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.11
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 1.211
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.321
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.213
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 2.108
+     }
+    ]
+   }
   },
   {
    "ticker": "VEEV",
@@ -3347,7 +5619,6 @@
    "market_cap": 44023013376,
    "pe": 44.6,
    "forward_pe": 26.5,
-   "forward_pe_2y": 23.9,
    "ps": 12.73,
    "fcf_yield": 2.9,
    "revenue_growth": 17.6,
@@ -3459,13 +5730,136 @@
    "score_tier": "Mixed",
    "score_tip": "VEEV scores 6/10 \u2014 Mixed.\nValue (1/2): P/E 44.6 is below its usual 74.2 over the last 13 years.\nHealth (2/2): growing fast with strong cash margins (score 54; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 53).\nBacking (1/2): insider buying and selling roughly balanced ($1.8M net); big funds added $237.5M last quarter.\nSentiment (2/2): analysts rate it a Buy on average (1.97 from 28 analysts); their average target is $325.51, 20% above the price; options trading leaned bullish (put/call 0.35).\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; holds more cash than debt; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big funds added $237.5M last quarter.",
    "news": [],
-   "fv_growth": 30.5,
+   "fv_growth": 24.9,
    "fv_window": 10,
-   "fair_pe": 25.0,
-   "fair_value": 230.87,
-   "fv_pct": 17.8,
+   "fair_pe": 24.9,
+   "fair_value": 229.95,
+   "fv_pct": 18.2,
    "fv_eps": 9.23,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2026-01-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 3.195,
+      "yoy": 16.3
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 0.782,
+      "yoy": 11.7
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 2.413,
+      "yoy": 17.9
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.767,
+      "yoy": 10.7
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.73,
+      "yoy": 10.3
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.916,
+      "yoy": 32.4
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.279,
+      "yoy": 22.9
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 1.195,
+      "yoy": 30.0
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.286,
+      "yoy": 39.5
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.909,
+      "yoy": 27.3
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 0.782
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 2.413
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.767
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.73
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.916
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.916
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.279
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.286
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.909
+     }
+    ]
+   }
   },
   {
    "ticker": "FOUR",
@@ -3486,7 +5880,6 @@
    "market_cap": 3266057216,
    "pe": 52.5,
    "forward_pe": 7.7,
-   "forward_pe_2y": 7.0,
    "ps": 0.66,
    "fcf_yield": 13.7,
    "revenue_growth": 12.1,
@@ -3597,7 +5990,120 @@
    "score_s": 1,
    "score_tier": "Weak",
    "score_tip": "FOUR scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 21; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (0/2): insider buying and selling roughly balanced ($0.8M net); big funds roughly balanced ($15.2M net).\nSentiment (1/2): analysts rate it a Buy on average (2.12 from 22 analysts); their average target is $49.18, 13% above the price; options trading leaned bullish (put/call 0.47).",
-   "news": []
+   "news": [],
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 4.18
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 2.752
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 1.428
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.801
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.29
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.337
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.142
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.195
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.048
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.147
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 2.752
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 1.428
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.801
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.29
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.337
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.195
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.142
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.048
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.147
+     }
+    ]
+   }
   },
   {
    "ticker": "NOW",
@@ -3618,7 +6124,6 @@
    "market_cap": 95654436864,
    "pe": 66.3,
    "forward_pe": 19.2,
-   "forward_pe_2y": 17.0,
    "ps": 6.2,
    "fcf_yield": 6.0,
    "revenue_growth": 20.5,
@@ -3746,13 +6251,136 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/nows-subscription-growth-strong-retention-162000952.html"
     }
    ],
-   "fv_growth": 69.9,
+   "fv_growth": 72.5,
    "fv_window": 5,
    "fair_pe": 25.0,
    "fair_value": 98.9,
    "fv_pct": -6.8,
    "fv_eps": 3.96,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 13.278,
+      "yoy": 20.9
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 2.983,
+      "yoy": 30.4
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 10.295,
+      "yoy": 18.4
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 2.96,
+      "yoy": 16.4
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 5.511,
+      "yoy": 15.1
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.824,
+      "yoy": 33.7
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.437,
+      "yoy": 16.8
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.261,
+      "yoy": 30.1
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.513,
+      "yoy": 63.9
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.748,
+      "yoy": 22.7
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 2.983
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 10.295
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 2.96
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 5.511
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.824
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 1.824
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.437
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.513
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.748
+     }
+    ]
+   }
   },
   {
    "ticker": "AMD",
@@ -3773,7 +6401,6 @@
    "market_cap": 672006275072,
    "pe": 86.8,
    "forward_pe": 23.0,
-   "forward_pe_2y": 22.6,
    "ps": 14.79,
    "fcf_yield": 1.1,
    "revenue_growth": 44.7,
@@ -3925,13 +6552,135 @@
      "url": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/"
     }
    ],
-   "fv_growth": 5.2,
-   "fv_window": 5,
-   "fair_pe": 15.0,
-   "fair_value": 121.3,
-   "fv_pct": 234.7,
+   "fv_growth": 20.4,
+   "fv_window": 10,
+   "fair_pe": 20.4,
+   "fair_value": 164.97,
+   "fv_pct": 146.1,
    "fv_eps": 8.09,
-   "fv_eps_src": "est"
+   "fv_eps_src": "est",
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 34.639,
+      "yoy": 34.3
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 17.487,
+      "yoy": 33.9
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 17.152,
+      "yoy": 34.8
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 8.091,
+      "yoy": 25.3
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 4.144,
+      "yoy": 51.5
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 1.223,
+      "yoy": -15.5
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 3.694,
+      "yoy": 77.1
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.446
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 4.14,
+      "yoy": 98.5
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 4.14,
+      "yoy": 157.5
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 17.487
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 17.152
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 8.091
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 4.144
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 1.223
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 3.694
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 3.694
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.446
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 4.14
+     }
+    ]
+   }
   },
   {
    "ticker": "BE",
@@ -3952,7 +6701,6 @@
    "market_cap": 45202952192,
    "pe": 92.7,
    "forward_pe": 28.6,
-   "forward_pe_2y": 14.3,
    "ps": 11.8,
    "fcf_yield": -0.0,
    "revenue_growth": 138.1,
@@ -4099,7 +6847,6 @@
    "market_cap": 394169712640,
    "pe": 115.2,
    "forward_pe": 64.4,
-   "forward_pe_2y": 40.4,
    "ps": 54.08,
    "fcf_yield": 0.7,
    "revenue_growth": 95.9,
@@ -4233,7 +6980,130 @@
      "pubDate": "2026-11-26T16:03:27+00:00",
      "url": "https://247wallst.com/investing/2026/11/26/palantir-closed-212-deals-worth-at-least-1-million-heres-what-that-means-for-its-growth/"
     }
-   ]
+   ],
+   "sankey": {
+    "fy_end": "2025-12-31",
+    "ccy": "USD",
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 4.475,
+      "yoy": 56.1
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 0.789,
+      "yoy": 39.4
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 3.686,
+      "yoy": 60.3
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.558,
+      "yoy": 9.8
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 1.715,
+      "yoy": 15.8
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.413,
+      "yoy": 354.3
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.244,
+      "yoy": 37.1
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 1.657,
+      "yoy": 238.9
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.023,
+      "yoy": 9.5
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.634,
+      "yoy": 249.1
+     }
+    ],
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 0.789
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.686
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.558
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.715
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.413
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 1.413
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.244
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.023
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.634
+     }
+    ]
+   }
   },
   {
    "ticker": "ARM",
@@ -4254,7 +7124,6 @@
    "market_cap": 172815695872,
    "pe": 185.6,
    "forward_pe": 52.3,
-   "forward_pe_2y": 51.0,
    "ps": 31.63,
    "fcf_yield": 0.7,
    "revenue_growth": 27.1,
@@ -4364,7 +7233,127 @@
      "pubDate": "2026-11-26T16:49:41+00:00",
      "url": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/"
     }
-   ]
+   ],
+   "fv_growth": 13.8,
+   "fv_window": 5,
+   "fair_pe": 15.0,
+   "fair_value": 34.01,
+   "fv_pct": 374.9,
+   "fv_eps": 2.27,
+   "fv_eps_src": "est",
+   "sankey": {
+    "ccy": "USD",
+    "fy_end": "2026-03-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 0.121
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 4.799
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 2.776
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.115
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.908
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.908
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.249
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.253
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.904
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 4.92
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 0.121
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 4.799
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 2.776
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 1.115
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.908
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.249
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 1.157
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.253
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.904
+     }
+    ]
+   }
   },
   {
    "ticker": "BMNR",

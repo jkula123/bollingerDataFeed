@@ -1,6 +1,6 @@
 {
  "read_type": "intra-month",
- "check_date": "2026-11-27",
+ "check_date": "2026-11-28",
  "as_of": "Nov 2026 (in progress)",
  "confirmed_as_of": "Oct 2026 close",
  "confirmed_touching": [
@@ -18,7 +18,7 @@
   "601878.SS",
   "601901.SS"
  ],
- "next_update": "Next check: 28 Nov 2026 (intra-month); confirmed check 1 Dec 2026",
+ "next_update": "Next check: 01 Dec 2026 (confirmed check, November close)",
  "stocks": [
   {
    "ticker": "000963.SZ",
@@ -35,9 +35,8 @@
    "oversold": false,
    "vol_ratio": 0.85,
    "market_cap": 42089684992,
-   "pe": 12.2,
+   "pe": 11.9,
    "forward_pe": 13.7,
-   "forward_pe_2y": 12.6,
    "ps": 0.96,
    "fcf_yield": 4.7,
    "revenue_growth": -0.3,
@@ -58,21 +57,21 @@
    "beta": -0.0,
    "logo": "https://assets.parqet.com/logos/symbol/000963.SZ",
    "high_debt": false,
-   "undervalued": false,
+   "undervalued": true,
    "name_cn": "\u534e\u4e1c\u533b\u836f",
    "ccy": "CNY",
    "pe15y": 29.4,
    "pe15y_years": 15,
    "pe10y": 22.1,
    "pe10y_years": 10,
-   "pe15y_vs": -59,
+   "pe15y_vs": -60,
    "fcf_ttm": 2257142030,
    "fcf_qoq": -62.8,
    "fcf_yoy": -121.3,
    "ttm_high": 43.07,
    "ttm_high_date": "2025-12-01",
    "vs_ttm_high": -44,
-   "pe_ttm_high": 21.9,
+   "pe_ttm_high": 21.4,
    "spark": [
     25.91,
     26.1,
@@ -90,13 +89,13 @@
    "earn_surprise": [
     1.2,
     -21.9,
-    -3.1
+    -28.9
    ],
    "int_coverage": 47.7,
    "shares_3y": 0.2,
    "margin_trend": -0.3,
    "month_change_pct": -3.86,
-   "trap_count": 0,
+   "trap_count": 1,
    "opp_count": 2,
    "trap_flag": false,
    "opp_flag": false,
@@ -108,8 +107,8 @@
    "diluting": false,
    "buyback": false,
    "share_flag_tip": null,
-   "pe_vs_own_pct": -58.5,
-   "pe_vs_sector_pct": -56.3,
+   "pe_vs_own_pct": -59.5,
+   "pe_vs_sector_pct": -57.3,
    "pe_highlight": "green",
    "cn_holders": [
     {
@@ -200,15 +199,150 @@
     "change_pct": 0.5
    },
    "cn_inst_net_value": -954255576,
-   "score": 3,
-   "score_v": 1,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 29.499
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 14.113
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 1.753
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 3.616
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 4.257
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 4.487
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 4.016
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.471
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.606
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 3.41
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 43.612,
+      "yoy": 4.1
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 29.499,
+      "yoy": 5.4
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 14.113,
+      "yoy": 1.4
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 1.753,
+      "yoy": 22.9
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 3.616,
+      "yoy": -12.3
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 4.257,
+      "yoy": 14.1
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 4.487,
+      "yoy": -3.2
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.471,
+      "yoy": 41.4
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 4.016,
+      "yoy": -6.6
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.606,
+      "yoy": -24.9
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 3.41,
+      "yoy": -2.4
+     }
+    ]
+   },
+   "score": 4,
+   "score_v": 2,
    "score_h": 1,
    "score_t": 0,
    "score_b": 0,
    "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "000963.SZ scores 3/10 \u2014 Weak.\nValue (1/2): P/E 12.2 is below its usual 29.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5954.3M last quarter (bar: >\u00a542.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2
+   "score_tier": "Mixed",
+   "score_tip": "000963.SZ scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 11.9 is below its usual 29.4 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 34).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5954.3M last quarter (bar: >\u00a542.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "002049.SZ",
@@ -225,9 +359,8 @@
    "oversold": false,
    "vol_ratio": 0.43,
    "market_cap": 41571426304,
-   "pe": 34.0,
+   "pe": 31.4,
    "forward_pe": 17.4,
-   "forward_pe_2y": 17.0,
    "ps": 6.82,
    "fcf_yield": 0.1,
    "revenue_growth": -23.9,
@@ -254,14 +387,14 @@
    "pe15y_years": 15,
    "pe10y": 55.0,
    "pe10y_years": 10,
-   "pe15y_vs": -33,
+   "pe15y_vs": -38,
    "fcf_ttm": 1047744181,
    "fcf_qoq": 7.9,
    "fcf_yoy": 25.8,
    "ttm_high": 91.99,
    "ttm_high_date": "2026-01-01",
    "vs_ttm_high": -46,
-   "pe_ttm_high": 63.4,
+   "pe_ttm_high": 58.6,
    "spark": [
     59.09,
     61.28,
@@ -286,7 +419,7 @@
    "margin_trend": 6.2,
    "month_change_pct": -18.12,
    "trap_count": 2,
-   "opp_count": 1,
+   "opp_count": 2,
    "trap_flag": false,
    "opp_flag": false,
    "trap_tip": null,
@@ -297,8 +430,8 @@
    "diluting": false,
    "buyback": false,
    "share_flag_tip": null,
-   "pe_vs_own_pct": -32.5,
-   "pe_vs_sector_pct": 2.1,
+   "pe_vs_own_pct": -37.7,
+   "pe_vs_sector_pct": -5.7,
    "pe_highlight": "green",
    "cn_holders": [
     {
@@ -389,6 +522,140 @@
     "change_pct": -2.0
    },
    "cn_inst_net_value": 419172165,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2024-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 2.437
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.074
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 1.224
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.154
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.354
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 1.342
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 1.282
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.06
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.096
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.186
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 5.511,
+      "yoy": -27.3
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 2.437,
+      "yoy": -17.4
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 3.074,
+      "yoy": -33.5
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 1.224,
+      "yoy": -15.6
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.154,
+      "yoy": -7.8
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.354,
+      "yoy": 6.9
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 1.342,
+      "yoy": -49.9
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 0.06
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 1.282,
+      "yoy": -52.9
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.096,
+      "yoy": -48.7
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.186,
+      "yoy": -53.2
+     }
+    ]
+   },
    "score": 4,
    "score_v": 1,
    "score_h": 1,
@@ -396,7 +663,7 @@
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Mixed",
-   "score_tip": "002049.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 34.0 is below its usual 50.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -23; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5419.2M last quarter (bar: >\u00a541.6M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_tip": "002049.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 31.4 is below its usual 50.4 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -23; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 36).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5419.2M last quarter (bar: >\u00a541.6M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
    "score_raw": 3
   },
   {
@@ -414,9 +681,8 @@
    "oversold": false,
    "vol_ratio": 0.48,
    "market_cap": 694092234752,
-   "pe": 22.1,
+   "pe": 21.9,
    "forward_pe": 15.7,
-   "forward_pe_2y": 11.2,
    "ps": 0.86,
    "fcf_yield": -15.5,
    "revenue_growth": 13.6,
@@ -452,7 +718,7 @@
    "ttm_high": 111.82,
    "ttm_high_date": "2026-03-01",
    "vs_ttm_high": -32,
-   "pe_ttm_high": 32.5,
+   "pe_ttm_high": 32.2,
    "spark": [
     84.0,
     84.3,
@@ -477,7 +743,7 @@
    "margin_trend": 1.8,
    "month_change_pct": -1.99,
    "trap_count": 2,
-   "opp_count": 0,
+   "opp_count": 1,
    "trap_flag": false,
    "opp_flag": false,
    "trap_tip": null,
@@ -488,8 +754,8 @@
    "diluting": false,
    "buyback": false,
    "share_flag_tip": null,
-   "pe_vs_own_pct": -59.7,
-   "pe_vs_sector_pct": 35.6,
+   "pe_vs_own_pct": -60.0,
+   "pe_vs_sector_pct": 34.4,
    "pe_highlight": null,
    "cn_holders": [
     {
@@ -580,6 +846,129 @@
     "change_pct": 6.8
    },
    "cn_inst_net_value": 1107637143,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 661.305
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 142.66
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 57.978
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 15.731
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 30.434
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 38.517
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 38.517
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 5.992
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 33.761
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 803.965,
+      "yoy": 3.5
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 661.305,
+      "yoy": 5.6
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 142.66,
+      "yoy": -5.6
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 57.978,
+      "yoy": 9.0
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 15.731,
+      "yoy": 17.7
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 30.434,
+      "yoy": 1.2
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 38.517,
+      "yoy": -29.2
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 39.753,
+      "yoy": -20.0
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 5.992,
+      "yoy": -26.0
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 33.761,
+      "yoy": -18.8
+     }
+    ]
+   },
    "score": 4,
    "score_v": 1,
    "score_h": 0,
@@ -587,7 +976,7 @@
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Mixed",
-   "score_tip": "002594.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 22.1 is below its usual 54.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 0; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a5694.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.57 from 18 analysts); their average target is \u00a5103.33, 36% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_tip": "002594.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 21.9 is below its usual 54.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 0; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 42).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a5694.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.57 from 18 analysts); their average target is \u00a5103.33, 36% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
    "score_raw": 3
   },
   {
@@ -607,7 +996,6 @@
    "market_cap": 39493595136,
    "pe": 96.5,
    "forward_pe": 34.6,
-   "forward_pe_2y": 32.5,
    "ps": 22.51,
    "fcf_yield": -0.5,
    "revenue_growth": -72.9,
@@ -657,7 +1045,7 @@
    "shares_3y": -3.1,
    "margin_trend": -33.0,
    "month_change_pct": -20.7,
-   "trap_count": 1,
+   "trap_count": 2,
    "opp_count": 1,
    "trap_flag": false,
    "opp_flag": false,
@@ -761,6 +1149,141 @@
     "change_pct": -9.1
    },
    "cn_inst_net_value": -66283131,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 1.044
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 1.002
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.135
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.033
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.076
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 0.758
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 0.758
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.052
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.123
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 0.687
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 2.046,
+      "yoy": 31.3
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 1.044,
+      "yoy": 37.9
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 1.002,
+      "yoy": 25.1
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.135,
+      "yoy": 40.6
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.033,
+      "yoy": 50.0
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.076,
+      "yoy": 162.1
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 0.758,
+      "yoy": 15.9
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.052,
+      "yoy": -46.9
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 0.81,
+      "yoy": 7.7
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.123,
+      "yoy": 23.0
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 0.687,
+      "yoy": 5.4
+     }
+    ]
+   },
    "score": 1,
    "score_v": 1,
    "score_h": 0,
@@ -788,7 +1311,6 @@
    "market_cap": 90051100672,
    "pe": 105.0,
    "forward_pe": 36.2,
-   "forward_pe_2y": 36.1,
    "ps": 3.34,
    "fcf_yield": -9.4,
    "revenue_growth": -1.3,
@@ -847,11 +1369,11 @@
    "shares_3y": 0.0,
    "margin_trend": -15.9,
    "month_change_pct": -4.83,
-   "trap_count": 3,
+   "trap_count": 4,
    "opp_count": 0,
    "trap_flag": true,
    "opp_flag": false,
-   "trap_tip": "Potential trap \u2014 3 warning signs: missed earnings last quarter (-30.0% vs what analysts expected); burning cash (free cash flow is negative) and growth plus profit margins are negative; debt is high and interest cover is thin (2.2\u00d7).",
+   "trap_tip": "Potential trap \u2014 4 warning signs: missed earnings last quarter (-30.0% vs what analysts expected); burning cash (free cash flow is negative) and growth plus profit margins are negative; debt is high and interest cover is thin (2.2\u00d7); big holders net sold \u00a599.3M last quarter.",
    "opp_tip": null,
    "burning_cash": false,
    "burning_cash_tip": null,
@@ -951,6 +1473,141 @@
     "change_pct": -5.2
    },
    "cn_inst_net_value": -99281272,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 16.525
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 11.874
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.02
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.423
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 1.676
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 9.755
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 5.032
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 4.723
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.91
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 4.122
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 28.399,
+      "yoy": -4.4
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 16.525,
+      "yoy": 17.4
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 11.874,
+      "yoy": -24.1
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.02,
+      "yoy": -53.5
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.423,
+      "yoy": -16.2
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 1.676,
+      "yoy": 14.1
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 9.755,
+      "yoy": -28.4
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 4.723,
+      "yoy": -6.7
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 5.032,
+      "yoy": -41.2
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.91,
+      "yoy": -17.5
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 4.122,
+      "yoy": -44.7
+     }
+    ]
+   },
    "score": 1,
    "score_v": 0,
    "score_h": 0,
@@ -958,7 +1615,7 @@
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "600905.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 105.0 is above its usual 22.7 over the last 5 years.\nHealth (0/2): growth and cash margins are weak (score -33; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a599.3M last quarter (bar: >\u00a590.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-30.0% vs what analysts expected); burning cash (free cash flow is negative) and growth plus profit margins are negative; debt is high and interest cover is thin (2.2\u00d7).\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_tip": "600905.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 105.0 is above its usual 22.7 over the last 5 years.\nHealth (0/2): growth and cash margins are weak (score -33; strong is over 40); not generating cash and carries more debt than cash.\nTiming (1/2): short-term trend is still falling; oversold after a sharp fall.\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a599.3M last quarter (bar: >\u00a590.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 4 warning signs: missed earnings last quarter (-30.0% vs what analysts expected); burning cash (free cash flow is negative) and growth plus profit margins are negative; debt is high and interest cover is thin (2.2\u00d7); big holders net sold \u00a599.3M last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
    "score_raw": 1
   },
   {
@@ -978,7 +1635,6 @@
    "market_cap": 121695985664,
    "pe": 7.2,
    "forward_pe": 6.2,
-   "forward_pe_2y": 6.2,
    "ps": 3.28,
    "revenue_growth": -60.3,
    "cash": 385090453504,
@@ -1031,7 +1687,7 @@
    "margin_trend": null,
    "month_change_pct": -4.51,
    "trap_count": 1,
-   "opp_count": 0,
+   "opp_count": 1,
    "trap_flag": false,
    "opp_flag": false,
    "trap_tip": null,
@@ -1220,6 +1876,69 @@
     "change_pct": 7.7
    },
    "cn_inst_net_value": 492024897,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 26.319
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 28.284
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 4.111
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 24.173
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 54.603,
+      "yoy": 3.3
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 26.319,
+      "yoy": 1.9
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 28.284,
+      "yoy": 4.7
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 4.111,
+      "yoy": 18.8
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 24.173,
+      "yoy": 2.6
+     }
+    ]
+   },
    "score": 3,
    "score_v": 0,
    "score_h": 0,
@@ -1303,11 +2022,11 @@
    "shares_3y": -1.3,
    "margin_trend": 0.3,
    "month_change_pct": -19.86,
-   "trap_count": 2,
+   "trap_count": 3,
    "opp_count": 0,
-   "trap_flag": false,
+   "trap_flag": true,
    "opp_flag": false,
-   "trap_tip": null,
+   "trap_tip": "Potential trap \u2014 3 warning signs: burning cash (free cash flow is negative) and growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -11.4\u00d7); big holders net sold \u00a5140.7M last quarter.",
    "opp_tip": null,
    "burning_cash": false,
    "burning_cash_tip": null,
@@ -1414,7 +2133,7 @@
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601238.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -6; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 31).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5140.7M last quarter (bar: >\u00a545.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.44 from 9 analysts); their average target is \u00a54.99, 12% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_tip": "601238.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -6; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 31).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5140.7M last quarter (bar: >\u00a545.6M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.44 from 9 analysts); their average target is \u00a54.99, 12% above the price; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: burning cash (free cash flow is negative) and growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -11.4\u00d7); big holders net sold \u00a5140.7M last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
    "score_raw": 0
   },
   {
@@ -1488,7 +2207,7 @@
    "margin_trend": 6.8,
    "month_change_pct": -12.74,
    "trap_count": 2,
-   "opp_count": 1,
+   "opp_count": 2,
    "trap_flag": false,
    "opp_flag": false,
    "trap_tip": null,
@@ -1618,7 +2337,6 @@
    "market_cap": 106818396160,
    "pe": 17.6,
    "forward_pe": 9.9,
-   "forward_pe_2y": 9.2,
    "ps": 0.47,
    "fcf_yield": 4.5,
    "revenue_growth": -5.7,
@@ -1779,6 +2497,140 @@
     "change_pct": -23.7
    },
    "cn_inst_net_value": -13531042,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 182.622
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 37.334
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 10.432
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 8.802
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 8.818
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 9.282
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 9.282
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 2.476
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.893
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 9.865
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 219.956,
+      "yoy": 10.2
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 182.622,
+      "yoy": 12.2
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 37.334,
+      "yoy": 1.3
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 10.432,
+      "yoy": 12.1
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 8.802,
+      "yoy": 24.0
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 8.818,
+      "yoy": 32.8
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 9.282,
+      "yoy": -32.8
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 2.476
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 11.758,
+      "yoy": -17.3
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 1.893,
+      "yoy": 20.9
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 9.865,
+      "yoy": -22.1
+     }
+    ]
+   },
    "score": 3,
    "score_v": 1,
    "score_h": 1,
@@ -1806,7 +2658,6 @@
    "market_cap": 38638329856,
    "pe": 14.0,
    "forward_pe": 10.7,
-   "forward_pe_2y": 10.7,
    "ps": 3.9,
    "revenue_growth": -25.6,
    "de_raw": 203.31,
@@ -1959,6 +2810,69 @@
     "change_pct": -12.0
    },
    "cn_inst_net_value": 3487713,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 5.173
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 3.46
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.617
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.843
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 8.633,
+      "yoy": 33.0
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 5.173,
+      "yoy": 27.3
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 3.46,
+      "yoy": 42.7
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.617,
+      "yoy": 47.6
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 2.843,
+      "yoy": 41.7
+     }
+    ]
+   },
    "score": 1,
    "score_v": 1,
    "score_h": 0,
@@ -1986,7 +2900,6 @@
    "market_cap": 210736709632,
    "pe": 9.9,
    "forward_pe": 9.0,
-   "forward_pe_2y": 8.4,
    "ps": 5.38,
    "revenue_growth": 43.1,
    "de_raw": 248.07,
@@ -2038,7 +2951,7 @@
    "margin_trend": null,
    "month_change_pct": -12.67,
    "trap_count": 1,
-   "opp_count": 2,
+   "opp_count": 3,
    "trap_flag": false,
    "opp_flag": false,
    "trap_tip": null,
@@ -2141,6 +3054,129 @@
     "change_pct": 20.4
    },
    "cn_inst_net_value": 486479509,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 13.105
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 26.999
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.011
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 5.98
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 21.008
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 11.713
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 9.295
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.912
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 9.801
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 40.104,
+      "yoy": 29.7
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 13.105,
+      "yoy": 28.3
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 26.999,
+      "yoy": 30.4
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.011,
+      "yoy": 0.0
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 5.98,
+      "yoy": -4.9
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 21.008,
+      "yoy": 45.8
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 9.295,
+      "yoy": 22.2
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 11.713,
+      "yoy": 72.1
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 1.912,
+      "yoy": 69.1
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 9.801,
+      "yoy": 72.7
+     }
+    ]
+   },
    "score": 3,
    "score_v": 1,
    "score_h": 0,
@@ -2223,11 +3259,11 @@
    "shares_3y": 9.1,
    "margin_trend": 19.8,
    "month_change_pct": -9.51,
-   "trap_count": 3,
+   "trap_count": 4,
    "opp_count": 0,
    "trap_flag": true,
    "opp_flag": false,
-   "trap_tip": "Potential trap \u2014 3 warning signs: missed earnings last quarter (-333.5% vs what analysts expected); growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -1.4\u00d7).",
+   "trap_tip": "Potential trap \u2014 4 warning signs: missed earnings last quarter (-333.5% vs what analysts expected); growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -1.4\u00d7); big holders net sold \u00a564.5M last quarter.",
    "opp_tip": null,
    "burning_cash": false,
    "burning_cash_tip": null,
@@ -2327,6 +3363,141 @@
     "change_pct": -20.9
    },
    "cn_inst_net_value": -64482640,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2024-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 21.209
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 5.483
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.572
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.218
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.733
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 3.96
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 2.229
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 1.731
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.527
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 1.702
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 26.692,
+      "yoy": 0.4
+     },
+     {
+      "id": "cogs",
+      "label": "Cost of revenue",
+      "label_zh": "\u8425\u4e1a\u6210\u672c",
+      "value": 21.209,
+      "yoy": -0.1
+     },
+     {
+      "id": "gp",
+      "label": "Gross profit",
+      "label_zh": "\u6bdb\u5229\u6da6",
+      "value": 5.483,
+      "yoy": 2.4
+     },
+     {
+      "id": "rnd",
+      "label": "R&D",
+      "label_zh": "\u7814\u53d1",
+      "value": 0.572,
+      "yoy": 1.1
+     },
+     {
+      "id": "sga",
+      "label": "SG&A",
+      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
+      "value": 0.218,
+      "yoy": 24.6
+     },
+     {
+      "id": "othop",
+      "label": "Other operating costs",
+      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
+      "value": 0.733,
+      "yoy": 11.9
+     },
+     {
+      "id": "opinc",
+      "label": "Operating income",
+      "label_zh": "\u8425\u4e1a\u5229\u6da6",
+      "value": 3.96,
+      "yoy": 0.0
+     },
+     {
+      "id": "othexp",
+      "label": "Interest & other expense",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
+      "value": 1.731,
+      "yoy": 230.3
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 2.229,
+      "yoy": -35.1
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 0.527,
+      "yoy": -38.2
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 1.702,
+      "yoy": -34.1
+     }
+    ]
+   },
    "score": 0,
    "score_v": 0,
    "score_h": 0,
@@ -2334,16 +3505,16 @@
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "603260.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -3; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a564.5M last quarter (bar: >\u00a529.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 3 warning signs: missed earnings last quarter (-333.5% vs what analysts expected); growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -1.4\u00d7).\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_tip": "603260.SS scores 0/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -3; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 32).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a564.5M last quarter (bar: >\u00a529.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83e\udea4 Potential trap \u2014 4 warning signs: missed earnings last quarter (-333.5% vs what analysts expected); growth plus profit margins are negative; losing money at the operating level, so earnings don't cover interest at all (cover -1.4\u00d7); big holders net sold \u00a564.5M last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
    "score_raw": 0
   }
  ],
  "indices": [
   {
    "name": "Shanghai Composite",
-   "value": 3606.49,
-   "change_pct": 3.73,
-   "week_change_pct": 2.06
+   "value": 3476.88,
+   "change_pct": 0.01,
+   "week_change_pct": -1.61
   },
   {
    "name": "CSI 300",
@@ -2352,14 +3523,16 @@
   },
   {
    "name": "Shenzhen Component",
-   "value": 10814.02,
-   "change_pct": 7.24,
-   "week_change_pct": 5.44
+   "value": 10084.04,
+   "change_pct": -0.02,
+   "week_change_pct": -1.68
   }
  ],
  "indices_date": "2026-11-27",
  "screaming_buys": [],
- "undervalued": [],
+ "undervalued": [
+  "000963.SZ"
+ ],
  "oversold": [
   [
    "600905.SS",

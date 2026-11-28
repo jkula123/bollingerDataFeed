@@ -520,6 +520,34 @@
   .pop-why-btn:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
   .pop-why-body{margin-top:6px}
   .pop-hint{margin-top:14px;text-align:center;font-size:12.5px;color:var(--faint)}
+  /* Money flow button: sits in the card front's header right
+     group (.pop-head-right), beside the Compare button on the
+     desktop popup and compare cards and beside the score pill
+     on mobile cards; rendered only for rows carrying a sankey
+     field. Its box matches the Compare button's exactly — same
+     font-size, weight, padding, border and radius — so the two
+     pills share one height and center on the same axis inside
+     .pop-head-right (align-items:center). */
+  .pop-analysis-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .pop-mf-btn{font:inherit;font-size:12.5px;font-weight:700;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer;white-space:nowrap;min-height:0}
+  .pop-mf-btn:hover{border-color:var(--line-strong)}
+  .pop-mf-btn:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+  /* Money flow Sankey overlay: a centered panel above
+     everything on desktop; a full-screen view at ≤760px. The
+     SVG scales to the panel width, so the overlay never
+     scrolls sideways; the panel itself may scroll vertically
+     on short screens. */
+  .sk-backdrop{position:fixed;inset:0;z-index:300;background:rgba(10,16,22,.55);display:flex;align-items:center;justify-content:center;padding:18px}
+  .sk-backdrop[hidden]{display:none}
+  .sk-panel{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 18px 50px rgba(16,24,40,.35);width:100%;max-width:880px;max-height:calc(100dvh - 36px);overflow-y:auto;padding:20px 22px 16px;font-variant-numeric:tabular-nums}
+  .sk-title{font-size:16px;font-weight:800;color:var(--ink);padding-right:44px;line-height:1.3}
+  .sk-sub{font-size:12.5px;color:var(--muted);margin-top:3px}
+  .sk-svg{display:block;width:100%;height:auto;margin-top:10px}
+  .sk-readout{font-size:13px;color:var(--muted);min-height:1.45em;margin-top:8px}
+  @media (max-width:760px){
+    .sk-backdrop{padding:0}
+    .sk-panel{max-width:none;height:100dvh;max-height:100dvh;border:none;border-radius:0;padding:16px 14px}
+  }
   /* Popup FRONT readability (desktop popup only): most of the
      front face's type runs a step larger than the shared .pop-*
      sizes above — but the stat labels and values deliberately
@@ -2087,7 +2115,7 @@
     <span><strong>Growth / Margin Driven</strong> — which leg contributes more than half of the Rule of 40 score: revenue growth or EBITDA margin.</span>
     <span><strong>Insider</strong> = net $ of open-market insider trades, last 3 months (actual traded values from filings; awards and option exercises excluded)</span>
     <span>Insider $ highlighted green when net buying &gt; $5M, red when net selling &gt; $25M (last 3 months)</span>
-    <span><strong>13F</strong> = major buys/sells by 15 famous active funds, Q3 2026 (filed Nov 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
+    <span><strong>13F</strong> = major buys/sells by 15 famous active funds (Q3 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
     <span><strong>vs High</strong> = price vs highest price in the last 12 months (intraday, split-adjusted)</span>
     <span><strong>Vol</strong> = last closed week&rsquo;s volume vs its 20-week average; above 1.0× means heavier than usual; highlighted yellow at 2.0× or more</span>
     <span><strong>Cash / Debt</strong> = total cash vs total debt; green cash = cash ≥ 2× debt, red debt = debt ≥ 2× cash (C = cash, D = debt)</span>
@@ -3865,7 +3893,7 @@ Sentiment (1/2): analysts rate it a Buy on average (1.93 from 40 analysts); thei
       <span><strong>Growth / Margin Driven</strong> — which leg contributes more than half of the Rule of 40 score: revenue growth or EBITDA margin.</span>
       <span><strong>Insider</strong> = net $ of open-market insider trades, last 3 months (actual traded values from filings; awards and option exercises excluded)</span>
       <span>Insider $ highlighted green when net buying &gt; $5M, red when net selling &gt; $25M (last 3 months)</span>
-      <span><strong>13F</strong> = major buys/sells by 15 famous active funds, Q3 2026 (filed Nov 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
+      <span><strong>13F</strong> = major buys/sells by 15 famous active funds (Q3 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
       <span><strong>vs High</strong> = price vs highest price in the last 12 months (intraday, split-adjusted)</span>
       <span><strong>Vol</strong> = last closed month&rsquo;s volume vs its 20-month average; above 1.0× means heavier than usual; highlighted yellow at 2.0× or more</span>
       <span><strong>Cash / Debt</strong> = total cash vs total debt; green cash = cash ≥ 2× debt, red debt = debt ≥ 2× cash (C = cash, D = debt)</span>
@@ -4313,7 +4341,7 @@ Sentiment (1/2): analysts rate it a Buy on average (2.05 from 16 analysts); thei
     <span><strong>Growth / Margin Driven</strong> — which leg contributes more than half of the Rule of 40 score: revenue growth or EBITDA margin.</span>
     <span><strong>Insider</strong> = net $ of open-market insider trades, last 3 months (actual traded values from filings; awards and option exercises excluded)</span>
     <span>Insider $ highlighted green when net buying &gt; $5M, red when net selling &gt; $25M (last 3 months)</span>
-    <span><strong>13F</strong> = major buys/sells by 15 famous active funds, Q3 2026 (filed Nov 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
+    <span><strong>13F</strong> = major buys/sells by 15 famous active funds (Q3 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
     <span><strong>vs High</strong> = price vs highest price in the last 12 months (intraday, split-adjusted)</span>
     <span><strong>Vol</strong> = last closed week&rsquo;s volume vs its 20-week average; above 1.0× means heavier than usual; highlighted yellow at 2.0× or more</span>
     <span><strong>Cash / Debt</strong> = total cash vs total debt; green cash = cash ≥ 2× debt, red debt = debt ≥ 2× cash (C = cash, D = debt)</span>
@@ -6676,7 +6704,7 @@ Sentiment (2/2): analysts rate it a Buy on average (1.58 from 43 analysts); thei
       <span><strong>Growth / Margin Driven</strong> — which leg contributes more than half of the Rule of 40 score: revenue growth or EBITDA margin.</span>
       <span><strong>Insider</strong> = net $ of open-market insider trades, last 3 months (actual traded values from filings; awards and option exercises excluded)</span>
       <span>Insider $ highlighted green when net buying &gt; $5M, red when net selling &gt; $25M (last 3 months)</span>
-      <span><strong>13F</strong> = major buys/sells by 15 famous active funds, Q3 2026 (filed Nov 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
+      <span><strong>13F</strong> = major buys/sells by 15 famous active funds (Q3 2026). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).</span>
       <span><strong>vs High</strong> = price vs highest price in the last 12 months (intraday, split-adjusted)</span>
       <span><strong>Vol</strong> = last closed month&rsquo;s volume vs its 20-month average; above 1.0× means heavier than usual; highlighted yellow at 2.0× or more</span>
       <span><strong>Cash / Debt</strong> = total cash vs total debt; green cash = cash ≥ 2× debt, red debt = debt ≥ 2× cash (C = cash, D = debt)</span>
@@ -8303,7 +8331,8 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <span>⚠️ <strong>High debt</strong> — D/E &gt; 2× or net debt &gt; 50% of market cap<br><span class="legend-zh">⚠️ 高负债 — 负债权益比 > 2 倍，或净债务 > 市值的 50%</span></span>
     <span>🪤 <strong>Potential trap</strong>: at least 3 warning signs — missed earnings last quarter; earnings expected to fall sharply (forward P/E over 1.5× trailing); negative cash flow or profitability; debt stress (interest cover under 1.5×, or high debt with cover under 2.5×). Hover the pill for the reasons on that stock.<br><span class="legend-zh">🪤 潜在陷阱：至少 3 个警告信号 — 上季度盈利不及预期；预期盈利将大幅下降（前瞻市盈率超过滚动市盈率的 1.5 倍）；现金流或盈利为负；债务压力（利息覆盖低于 1.5 倍，或高负债且覆盖低于 2.5 倍）。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
     <span>💸 <strong>Burning Cash</strong> — interest cover below 1.5× and cash runway under 2 years (cash ÷ annual cash burn). Earnings barely cover the interest bill and the cash pile runs out within two years at the current burn rate.<br><span class="legend-zh">💸 现金消耗 — 利息覆盖低于 1.5 倍，且现金续航不足 2 年（现金 ÷ 年现金消耗）。盈利勉强覆盖利息支出，按当前消耗速度，现金将在两年内耗尽。</span></span>
-    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); P/E cheap vs its sector with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；市盈率相对板块便宜且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); trailing P/E below the stock&rsquo;s own-history median P/E, with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；滚动市盈率低于该股自身历史市盈率中位数且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span><strong>Insider / holder sign</strong> — one 🪤 trap warning sign: 董监高 net selling over ¥25M in 90 days, or institutional top-10 holders net selling over 0.1% of market cap in the quarter; one 🎯 opportunity sign: 董监高 net buying over ¥5M in 90 days, or institutional holders net buying over 0.1% of market cap.<br><span class="legend-zh">内部人与股东信号 — 🪤 陷阱的一个警告信号：董监高 90 天内净卖出超过 ¥25M，或机构十大流通股东当季净卖出超过市值的 0.1%；🎯 机会的一个积极信号：董监高 90 天内净买入超过 ¥5M，或机构股东净买入超过市值的 0.1%。</span></span>
     <span>💧 <strong>Diluting</strong> — shares outstanding up 10% or more over 3 years; each share owns a shrinking slice of the company.<br><span class="legend-zh">💧 稀释 — 流通股 3 年增加 10% 或以上；每股占公司的份额不断缩小。</span></span>
     <span>✂️ <strong>Buyback</strong> — shares outstanding down 10% or more over 3 years; buybacks shrank the share count, so each share owns a bigger slice.<br><span class="legend-zh">✂️ 回购 — 流通股 3 年减少 10% 或以上；回购减少了股数，因此每股占公司的份额变大。</span></span>
     <span class="legend-head">Score</span>
@@ -8436,7 +8465,8 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <span>⚠️ <strong>High debt</strong> — D/E &gt; 2× or net debt &gt; 50% of market cap<br><span class="legend-zh">⚠️ 高负债 — 负债权益比 > 2 倍，或净债务 > 市值的 50%</span></span>
     <span>🪤 <strong>Potential trap</strong>: at least 3 warning signs — missed earnings last quarter; earnings expected to fall sharply (forward P/E over 1.5× trailing); negative cash flow or profitability; debt stress (interest cover under 1.5×, or high debt with cover under 2.5×). Hover the pill for the reasons on that stock.<br><span class="legend-zh">🪤 潜在陷阱：至少 3 个警告信号 — 上季度盈利不及预期；预期盈利将大幅下降（前瞻市盈率超过滚动市盈率的 1.5 倍）；现金流或盈利为负；债务压力（利息覆盖低于 1.5 倍，或高负债且覆盖低于 2.5 倍）。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
     <span>💸 <strong>Burning Cash</strong> — interest cover below 1.5× and cash runway under 2 years (cash ÷ annual cash burn). Earnings barely cover the interest bill and the cash pile runs out within two years at the current burn rate.<br><span class="legend-zh">💸 现金消耗 — 利息覆盖低于 1.5 倍，且现金续航不足 2 年（现金 ÷ 年现金消耗）。盈利勉强覆盖利息支出，按当前消耗速度，现金将在两年内耗尽。</span></span>
-    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); P/E cheap vs its sector with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；市盈率相对板块便宜且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); trailing P/E below the stock&rsquo;s own-history median P/E, with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；滚动市盈率低于该股自身历史市盈率中位数且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span><strong>Insider / holder sign</strong> — one 🪤 trap warning sign: 董监高 net selling over ¥25M in 90 days, or institutional top-10 holders net selling over 0.1% of market cap in the quarter; one 🎯 opportunity sign: 董监高 net buying over ¥5M in 90 days, or institutional holders net buying over 0.1% of market cap.<br><span class="legend-zh">内部人与股东信号 — 🪤 陷阱的一个警告信号：董监高 90 天内净卖出超过 ¥25M，或机构十大流通股东当季净卖出超过市值的 0.1%；🎯 机会的一个积极信号：董监高 90 天内净买入超过 ¥5M，或机构股东净买入超过市值的 0.1%。</span></span>
     <span>💧 <strong>Diluting</strong> — shares outstanding up 10% or more over 3 years; each share owns a shrinking slice of the company.<br><span class="legend-zh">💧 稀释 — 流通股 3 年增加 10% 或以上；每股占公司的份额不断缩小。</span></span>
     <span>✂️ <strong>Buyback</strong> — shares outstanding down 10% or more over 3 years; buybacks shrank the share count, so each share owns a bigger slice.<br><span class="legend-zh">✂️ 回购 — 流通股 3 年减少 10% 或以上；回购减少了股数，因此每股占公司的份额变大。</span></span>
     <span class="legend-head">Score</span>
@@ -8567,7 +8597,8 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <span>⚠️ <strong>High debt</strong> — D/E &gt; 2× or net debt &gt; 50% of market cap<br><span class="legend-zh">⚠️ 高负债 — 负债权益比 > 2 倍，或净债务 > 市值的 50%</span></span>
     <span>🪤 <strong>Potential trap</strong>: at least 3 warning signs — missed earnings last quarter; earnings expected to fall sharply (forward P/E over 1.5× trailing); negative cash flow or profitability; debt stress (interest cover under 1.5×, or high debt with cover under 2.5×). Hover the pill for the reasons on that stock.<br><span class="legend-zh">🪤 潜在陷阱：至少 3 个警告信号 — 上季度盈利不及预期；预期盈利将大幅下降（前瞻市盈率超过滚动市盈率的 1.5 倍）；现金流或盈利为负；债务压力（利息覆盖低于 1.5 倍，或高负债且覆盖低于 2.5 倍）。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
     <span>💸 <strong>Burning Cash</strong> — interest cover below 1.5× and cash runway under 2 years (cash ÷ annual cash burn). Earnings barely cover the interest bill and the cash pile runs out within two years at the current burn rate.<br><span class="legend-zh">💸 现金消耗 — 利息覆盖低于 1.5 倍，且现金续航不足 2 年（现金 ÷ 年现金消耗）。盈利勉强覆盖利息支出，按当前消耗速度，现金将在两年内耗尽。</span></span>
-    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); P/E cheap vs its sector with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；市盈率相对板块便宜且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); trailing P/E below the stock&rsquo;s own-history median P/E, with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；滚动市盈率低于该股自身历史市盈率中位数且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span><strong>Insider / holder sign</strong> — one 🪤 trap warning sign: 董监高 net selling over ¥25M in 90 days, or institutional top-10 holders net selling over 0.1% of market cap in the quarter; one 🎯 opportunity sign: 董监高 net buying over ¥5M in 90 days, or institutional holders net buying over 0.1% of market cap.<br><span class="legend-zh">内部人与股东信号 — 🪤 陷阱的一个警告信号：董监高 90 天内净卖出超过 ¥25M，或机构十大流通股东当季净卖出超过市值的 0.1%；🎯 机会的一个积极信号：董监高 90 天内净买入超过 ¥5M，或机构股东净买入超过市值的 0.1%。</span></span>
     <span>💧 <strong>Diluting</strong> — shares outstanding up 10% or more over 3 years; each share owns a shrinking slice of the company.<br><span class="legend-zh">💧 稀释 — 流通股 3 年增加 10% 或以上；每股占公司的份额不断缩小。</span></span>
     <span>✂️ <strong>Buyback</strong> — shares outstanding down 10% or more over 3 years; buybacks shrank the share count, so each share owns a bigger slice.<br><span class="legend-zh">✂️ 回购 — 流通股 3 年减少 10% 或以上；回购减少了股数，因此每股占公司的份额变大。</span></span>
     <span class="legend-head">Score</span>
@@ -8701,7 +8732,8 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
     <span>⚠️ <strong>High debt</strong> — D/E &gt; 2× or net debt &gt; 50% of market cap<br><span class="legend-zh">⚠️ 高负债 — 负债权益比 > 2 倍，或净债务 > 市值的 50%</span></span>
     <span>🪤 <strong>Potential trap</strong>: at least 3 warning signs — missed earnings last quarter; earnings expected to fall sharply (forward P/E over 1.5× trailing); negative cash flow or profitability; debt stress (interest cover under 1.5×, or high debt with cover under 2.5×). Hover the pill for the reasons on that stock.<br><span class="legend-zh">🪤 潜在陷阱：至少 3 个警告信号 — 上季度盈利不及预期；预期盈利将大幅下降（前瞻市盈率超过滚动市盈率的 1.5 倍）；现金流或盈利为负；债务压力（利息覆盖低于 1.5 倍，或高负债且覆盖低于 2.5 倍）。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
     <span>💸 <strong>Burning Cash</strong> — interest cover below 1.5× and cash runway under 2 years (cash ÷ annual cash burn). Earnings barely cover the interest bill and the cash pile runs out within two years at the current burn rate.<br><span class="legend-zh">💸 现金消耗 — 利息覆盖低于 1.5 倍，且现金续航不足 2 年（现金 ÷ 年现金消耗）。盈利勉强覆盖利息支出，按当前消耗速度，现金将在两年内耗尽。</span></span>
-    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); P/E cheap vs its sector with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；市盈率相对板块便宜且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span>🎯 <strong>Potential opportunity</strong>: at least 4 positive signs — beat earnings in 2 of the last 3 quarters; net cash with comfortable interest cover; strong growth and cash generation (Rule of 40 over 40, positive cash flow); trailing P/E below the stock&rsquo;s own-history median P/E, with forward P/E under 15. Hover the pill for the reasons on that stock.<br><span class="legend-zh">🎯 潜在机会：至少 4 个积极信号 — 最近 3 个季度中有 2 个盈利超预期；净现金且利息覆盖充裕；增长强劲且现金生成良好（40 规则超过 40，现金流为正）；滚动市盈率低于该股自身历史市盈率中位数且前瞻市盈率低于 15。将鼠标悬停在标签上可查看该股票的具体原因。</span></span>
+    <span><strong>Insider / holder sign</strong> — one 🪤 trap warning sign: 董监高 net selling over ¥25M in 90 days, or institutional top-10 holders net selling over 0.1% of market cap in the quarter; one 🎯 opportunity sign: 董监高 net buying over ¥5M in 90 days, or institutional holders net buying over 0.1% of market cap.<br><span class="legend-zh">内部人与股东信号 — 🪤 陷阱的一个警告信号：董监高 90 天内净卖出超过 ¥25M，或机构十大流通股东当季净卖出超过市值的 0.1%；🎯 机会的一个积极信号：董监高 90 天内净买入超过 ¥5M，或机构股东净买入超过市值的 0.1%。</span></span>
     <span>💧 <strong>Diluting</strong> — shares outstanding up 10% or more over 3 years; each share owns a shrinking slice of the company.<br><span class="legend-zh">💧 稀释 — 流通股 3 年增加 10% 或以上；每股占公司的份额不断缩小。</span></span>
     <span>✂️ <strong>Buyback</strong> — shares outstanding down 10% or more over 3 years; buybacks shrank the share count, so each share owns a bigger slice.<br><span class="legend-zh">✂️ 回购 — 流通股 3 年减少 10% 或以上；回购减少了股数，因此每股占公司的份额变大。</span></span>
     <span class="legend-head">Score</span>
@@ -8802,7 +8834,7 @@ Sentiment (1/2): analysts rate it a Strong Buy on average (1.38 from 15 analysts
   </section>
 </div>
 
-  <p class="foot"><strong>About this snapshot:</strong> prices as of Thu 19 Nov 2026 close; band status vs the 20-week lower Bollinger Band (20-week, 2 std dev) from closed weeks. Short = % of float sold short, with days to cover underneath (days of average volume shorts need to exit). Insider figures are net dollars of open-market insider trades over the last 3 months (actual traded values from filings; awards and option exercises excluded) with open-market buy/sell transaction counts. Cash / Debt is total cash vs total debt, and the % under each price is vs the trailing-twelve-month high — the highest price in the last 12 months (intraday, split-adjusted). <strong>Monthly list:</strong> last updated 20 Nov 2026; developing intra-month read — band status vs the 20-month lower Bollinger Band (computed from closed months only) at latest November 2026 prices, fundamentals as of 20 Nov 2026; the confirmed list as of the Oct 2026 close was LII, XYL touching and BA, BKNG, T, TTWO, WY close; it is refreshed on the intra-month checks (10th, 20th and 28th) and on 1 Dec 2026 when November closes. This page is a fixed snapshot — it updates only when a new scan is published. <strong>13F:</strong> major position changes by 15 tracked active funds in their Q3 2026 13F filings (period ended 30 Sep 2026, filed Nov 2026), sized at quarter-end prices; only the largest moves per stock are shown, sorted by net dollars. <strong>Avg P/E:</strong> median of annual year-end P/Es (fiscal year-end price ÷ diluted EPS from SEC filings, split-adjusted) over up to the last 10 and 15 fiscal years. <strong>Tops:</strong> the mirror scan — names at or near the 20-week / 20-month upper Bollinger Band, refreshed on the same schedule as the Bottoms lists; 🔺 overvalued means a trailing P/E above its own 15y median (10y fallback) with forward P/E above 20, and a screaming sell is overvalued <em>and</em> overbought (RSI &gt; 70).</p>
+  <p class="foot"><strong>About this snapshot:</strong> prices as of Thu 19 Nov 2026 close; band status vs the 20-week lower Bollinger Band (20-week, 2 std dev) from closed weeks. Short = % of float sold short, with days to cover underneath (days of average volume shorts need to exit). Insider figures are net dollars of open-market insider trades over the last 3 months (actual traded values from filings; awards and option exercises excluded) with open-market buy/sell transaction counts. Cash / Debt is total cash vs total debt, and the % under each price is vs the trailing-twelve-month high — the highest price in the last 12 months (intraday, split-adjusted). <strong>Monthly list:</strong> last updated 20 Nov 2026; developing intra-month read — band status vs the 20-month lower Bollinger Band (computed from closed months only) at latest November 2026 prices, fundamentals as of 20 Nov 2026; the confirmed list as of the Oct 2026 close was LII, XYL touching and BA, BKNG, T, TTWO, WY close; it is refreshed on the intra-month checks (10th, 20th and 28th) and on 1 Dec 2026 when November closes. This page is a fixed snapshot — it updates only when a new scan is published. <strong>13F:</strong> major position changes by 15 tracked active funds in their <span class="foot-f13">Q3 2026 13F filings (period ended 30 Sep 2026)</span>, sized at quarter-end prices; only the largest moves per stock are shown, sorted by net dollars. <strong>Avg P/E:</strong> median of annual year-end P/Es (fiscal year-end price ÷ diluted EPS from SEC filings, split-adjusted) over up to the last 10 and 15 fiscal years. <strong>Tops:</strong> the mirror scan — names at or near the 20-week / 20-month upper Bollinger Band, refreshed on the same schedule as the Bottoms lists; 🔺 overvalued means a trailing P/E above its own 15y median (10y fallback) with forward P/E above 20, and a screaming sell is overvalued <em>and</em> overbought (RSI &gt; 70).</p>
 </div>
 <button type="button" id="toTop" class="to-top" aria-label="Back to top" title="Back to top">↑</button>
 <script>
@@ -8819,6 +8851,233 @@ window.__POP_BAKED__={"view-weekly":{"f13_quarter":"Q3 2026","stocks":{"ADM":{"t
    live feed (window.__BOLLINGER_WATCHLIST__) supersedes it, and
    applyFeed publishes it as window.__POP_LIVE__['view-watchlist']. */
 if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter":null,"stocks":{}};
+</script>
+<script>
+(function(){
+  // ——— Money flow Sankey overlay ———
+  // Opened by the "Money flow" button on a card front (desktop
+  // popup, compare cards and mobile cards all call
+  // window.openSankey with the row object). Renders row.sankey
+  // — {fy_end, ccy, nodes:[{id,label,label_zh,value,yoy?}], links:
+  // [{from,to,value}]}, values in billions — as an SVG in an
+  // overlay above everything: a centered panel on desktop, a
+  // full-screen view at ≤760px. Close via the ×, a backdrop
+  // click, or Esc; the Esc handler runs in the capture phase
+  // and stops propagation, so Esc closes this overlay only and
+  // never the card popup underneath. The layout is a port of
+  // sankey_demo.py: fixed columns by node id, node bar width
+  // 14, the vertical scale set by the largest column sum, nodes
+  // stacked in data order with even gaps, and cubic-bezier
+  // filled bands using per-node source/target offsets.
+  var COLS = { rev:0, cogs:1, gp:1, rnd:2, sga:2, othop:2, opinc:2, oth:2, opex:2, pre:3, othexp:3, tax:4, net:4 };
+  var COLORS = { rev:'#64748b', cogs:'#e11d48', gp:'#0d9488', rnd:'#f43f5e', sga:'#fb7185', othop:'#f97316', opinc:'#059669', oth:'#38bdf8', othexp:'#dc2626', opex:'#e11d48', pre:'#0284c7', tax:'#f59e0b', net:'#16a34a' };
+  var NS = 'http://www.w3.org/2000/svg';
+  var backdrop = null, panel = null, readout = null, lockedByUs = false;
+  function el(tag, cls, text){
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function svgEl(tag, attrs){
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+  function build(){
+    if (backdrop) return;
+    backdrop = el('div', 'sk-backdrop');
+    backdrop.hidden = true;
+    panel = el('div', 'sk-panel');
+    backdrop.appendChild(panel);
+    backdrop.addEventListener('click', function(e){
+      e.stopPropagation();
+      if (e.target === backdrop) closeSankey();
+    });
+    document.body.appendChild(backdrop);
+    document.addEventListener('keydown', function(e){
+      if (!backdrop || backdrop.hidden) return;
+      if (e.key === 'Escape' || e.key === 'Esc'){ e.stopPropagation(); closeSankey(); }
+    }, true);
+  }
+  function closeSankey(){
+    if (!backdrop) return;
+    backdrop.hidden = true;
+    if (lockedByUs){ document.body.classList.remove('pop-open'); lockedByUs = false; }
+  }
+  function buildSvg(sk, cn, sym){
+    var W = 900, H = 430, PAD = 14, NW = 14, LS = 170;
+    var nodes = sk.nodes || [], links = sk.links || [];
+    var byId = {};
+    nodes.forEach(function(n){ byId[n.id] = n; });
+    var revVal = byId.rev ? byId.rev.value : 0;
+    function name(n){ return n.label + (cn && n.label_zh ? ' ' + n.label_zh : ''); }
+    function money(v){ return sym + v.toFixed(1) + 'B'; }
+    function pctTxt(v){ return revVal > 0 ? (v / revVal * 100).toFixed(1) + '% of revenue' : ''; }
+    function flowText(s, t, v){
+      var p = pctTxt(v);
+      return name(s) + ' → ' + name(t) + ': ' + money(v) + (p ? ' (' + p + ')' : '');
+    }
+    // Optional per-node YoY % vs the prior fiscal year. Cost and
+    // tax nodes invert the favorability coloring (a rise is bad);
+    // revenue/profit nodes are green when up. Exactly 0.0 is
+    // muted. A node without a numeric yoy gets no segment at all.
+    var COST = { cogs:1, rnd:1, sga:1, othop:1, opex:1, tax:1, othexp:1 };
+    function yoySeg(n){
+      if (typeof n.yoy !== 'number' || !isFinite(n.yoy)) return null;
+      var r = Math.round(n.yoy * 10) / 10;
+      var txt = (r < 0 ? '-' : '+') + Math.abs(r).toFixed(1) + '%' + (cn ? ' 同比' : ' YoY');
+      var fill = 'var(--muted)';
+      if (r !== 0) fill = (COST[n.id] ? r < 0 : r > 0) ? 'var(--up-ink)' : 'var(--red)';
+      return { txt: txt, fill: fill };
+    }
+    function nodeText(n){
+      var p = n.id === 'rev' ? '' : pctTxt(n.value);
+      var ys = yoySeg(n);
+      return name(n) + ': ' + money(n.value) + (p ? ' (' + p + ')' : '') + (ys ? ' · ' + ys.txt : '');
+    }
+    var cols = {};
+    nodes.forEach(function(n){
+      var c = COLS[n.id];
+      if (c == null) c = 0;
+      (cols[c] = cols[c] || []).push(n);
+    });
+    var colIdx = Object.keys(cols).map(function(k){ return Number(k); });
+    var ncol = Math.max.apply(null, colIdx) + 1;
+    var maxSum = 0, maxLen = 0;
+    colIdx.forEach(function(ci){
+      var s = 0;
+      cols[ci].forEach(function(n){ s += n.value; });
+      if (s > maxSum) maxSum = s;
+      if (cols[ci].length > maxLen) maxLen = cols[ci].length;
+    });
+    var scale = maxSum > 0 ? (H - PAD * 2 - 10 * (maxLen - 1)) / maxSum : 1;
+    var xstep = ncol > 1 ? (W - PAD * 2 - LS - NW) / (ncol - 1) : 0;
+    var pos = {};
+    colIdx.forEach(function(ci){
+      var members = cols[ci];
+      var total = 0;
+      members.forEach(function(n){ total += n.value * scale; });
+      var gap = (H - PAD * 2 - total) / (members.length + 1);
+      var y = PAD + gap, x = PAD + ci * xstep;
+      members.forEach(function(n){
+        var h = n.value * scale;
+        pos[n.id] = { x: x, y: y, h: h };
+        y += h + gap;
+      });
+    });
+    var svg = svgEl('svg', { viewBox: '0 0 ' + W + ' ' + H, 'class': 'sk-svg', role: 'img' });
+    var srcOff = {}, tgtOff = {};
+    nodes.forEach(function(n){ srcOff[n.id] = 0; tgtOff[n.id] = 0; });
+    links.forEach(function(l){
+      var s = byId[l.from], t = byId[l.to];
+      if (!s || !t || !pos[l.from] || !pos[l.to]) return;
+      var w = l.value * scale;
+      var sx = pos[l.from].x, tx = pos[l.to].x;
+      var y0 = pos[l.from].y + srcOff[l.from];
+      var y1 = pos[l.to].y + tgtOff[l.to];
+      srcOff[l.from] += w; tgtOff[l.to] += w;
+      var mx = (sx + NW + tx) / 2;
+      var d = 'M' + (sx + NW).toFixed(1) + ',' + y0.toFixed(1) +
+        ' C' + mx.toFixed(1) + ',' + y0.toFixed(1) + ' ' + mx.toFixed(1) + ',' + y1.toFixed(1) + ' ' + tx.toFixed(1) + ',' + y1.toFixed(1) +
+        ' L' + tx.toFixed(1) + ',' + (y1 + w).toFixed(1) +
+        ' C' + mx.toFixed(1) + ',' + (y1 + w).toFixed(1) + ' ' + mx.toFixed(1) + ',' + (y0 + w).toFixed(1) + ' ' + (sx + NW).toFixed(1) + ',' + (y0 + w).toFixed(1) + ' Z';
+      var p = svgEl('path', { d: d, fill: COLORS[l.from] || '#94a3b8', 'fill-opacity': '0.38' });
+      var txt = flowText(s, t, l.value);
+      p.setAttribute('data-flow', txt);
+      var tt = svgEl('title', {});
+      tt.textContent = txt;
+      p.appendChild(tt);
+      svg.appendChild(p);
+    });
+    nodes.forEach(function(n){
+      var P = pos[n.id];
+      if (!P) return;
+      var txt = nodeText(n);
+      var ys = yoySeg(n);
+      function mark(e){
+        e.setAttribute('data-flow', txt);
+        if (ys){ e.setAttribute('data-yoy', ys.txt); e.setAttribute('data-yoyfill', ys.fill); }
+      }
+      var r = svgEl('rect', { x: P.x.toFixed(1), y: P.y.toFixed(1), width: NW, height: Math.max(P.h, 0.5).toFixed(1), rx: 2, fill: COLORS[n.id] || '#94a3b8' });
+      mark(r);
+      var rt = svgEl('title', {});
+      rt.textContent = txt;
+      r.appendChild(rt);
+      svg.appendChild(r);
+      // The YoY segment sits on its own line under the value: the
+      // value line already fills the ~152-unit gap to the next
+      // column, so appending inline would collide with the next
+      // column's bar and clip at the right edge.
+      var lx = P.x + NW + 6, cy = P.y + P.h / 2;
+      var t1 = svgEl('text', { x: lx.toFixed(1), y: (cy + (ys ? -10 : -2)).toFixed(1), 'font-size': '12.5', 'font-weight': '600', style: 'fill:var(--ink)' });
+      mark(t1);
+      t1.textContent = name(n);
+      svg.appendChild(t1);
+      var pct = n.id === 'rev' ? '' : pctTxt(n.value);
+      var t2 = svgEl('text', { x: lx.toFixed(1), y: (cy + (ys ? 5 : 13)).toFixed(1), 'font-size': '11.5', style: 'fill:var(--muted)' });
+      mark(t2);
+      t2.textContent = money(n.value) + (pct ? ' · ' + pct : '');
+      svg.appendChild(t2);
+      if (ys){
+        var t3 = svgEl('text', { x: lx.toFixed(1), y: (cy + 20).toFixed(1), 'font-size': '11.5', style: 'fill:' + ys.fill });
+        mark(t3);
+        t3.textContent = ys.txt;
+        svg.appendChild(t3);
+      }
+    });
+    function show(e){
+      var t = e.target;
+      if (!t || !t.getAttribute || !readout) return;
+      var f = t.getAttribute('data-flow');
+      if (!f) return;
+      var ys = t.getAttribute('data-yoy');
+      if (ys){
+        var suffix = ' · ' + ys;
+        var base = f.slice(-suffix.length) === suffix ? f.slice(0, f.length - suffix.length) : f;
+        readout.textContent = '';
+        readout.appendChild(document.createTextNode(base));
+        var sp = document.createElement('span');
+        sp.style.color = t.getAttribute('data-yoyfill') || '';
+        sp.textContent = suffix;
+        readout.appendChild(sp);
+      } else {
+        readout.textContent = f;
+      }
+    }
+    svg.addEventListener('mouseover', show);
+    svg.addEventListener('click', function(e){ e.stopPropagation(); show(e); });
+    return svg;
+  }
+  window.openSankey = function(ticker, row){
+    if (!row || !row.sankey || !row.sankey.nodes || !row.sankey.links) return;
+    build();
+    var sk = row.sankey;
+    var cn = sk.ccy === 'CNY';
+    var sym = cn ? '¥' : '$';
+    panel.textContent = '';
+    var closeBtn = el('button', 'pop-close', '×');
+    closeBtn.type = 'button';
+    closeBtn.setAttribute('aria-label', 'Close');
+    closeBtn.addEventListener('click', function(e){ e.stopPropagation(); closeSankey(); });
+    panel.appendChild(closeBtn);
+    var year = String(sk.fy_end || '').slice(0, 4);
+    panel.appendChild(el('div', 'sk-title',
+      (ticker || row.ticker || '') + ' — where the money went, FY' + year + (cn ? ' · 资金流向' : '')));
+    var sub = 'Fiscal year ended ' + sk.fy_end + ' · ' + sk.ccy + ' · values in ' + sym + ' billions';
+    if (cn) sub += ' · 财年结束 · 人民币 · 单位：十亿元';
+    panel.appendChild(el('div', 'sk-sub', sub));
+    panel.appendChild(buildSvg(sk, cn, sym));
+    readout = el('div', 'sk-readout', 'Hover or tap a band to see the flow');
+    panel.appendChild(readout);
+    backdrop.hidden = false;
+    panel.scrollTop = 0;
+    if (!document.body.classList.contains('pop-open')){
+      document.body.classList.add('pop-open');
+      lockedByUs = true;
+    }
+  };
+})();
 </script>
 <script>
 (function(){
@@ -9774,29 +10033,29 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     var s = (whole || a >= 200) ? String(Math.round(a)) : pTrim1(a);
     return (v < 0 ? '−' : '+') + s + '%';
   }
-  function pMoneyShort(v){
+  function pMoneyShort(v, sym){
     var a = Math.abs(v);
-    if (a >= 1e12) return pCurSym + (a / 1e12).toFixed(2) + 'T';
-    if (a >= 1e9) return pCurSym + pTrim1(a / 1e9) + 'B';
-    if (a >= 1e6) return pCurSym + Math.round(a / 1e6) + 'M';
-    if (a >= 1e3) return pCurSym + Math.round(a / 1e3) + 'k';
-    return pCurSym + Math.round(a);
+    if (a >= 1e12) return sym + (a / 1e12).toFixed(2) + 'T';
+    if (a >= 1e9) return sym + pTrim1(a / 1e9) + 'B';
+    if (a >= 1e6) return sym + Math.round(a / 1e6) + 'M';
+    if (a >= 1e3) return sym + Math.round(a / 1e3) + 'k';
+    return sym + Math.round(a);
   }
-  function pMoneyCD(v){
+  function pMoneyCD(v, sym){
     var a = Math.abs(v);
     if (a >= 1e9){
       var p = (a / 1e9).toFixed(1).split('.');
-      return pCurSym + p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + p[1] + 'B';
+      return sym + p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + p[1] + 'B';
     }
-    if (a >= 1e6) return pCurSym + Math.round(a / 1e6).toLocaleString('en-US') + 'M';
-    if (a >= 1e3) return pCurSym + Math.round(a / 1e3) + 'k';
-    return pCurSym + Math.round(a);
+    if (a >= 1e6) return sym + Math.round(a / 1e6).toLocaleString('en-US') + 'M';
+    if (a >= 1e3) return sym + Math.round(a / 1e3) + 'k';
+    return sym + Math.round(a);
   }
   function pComma1(v){
     var p = Math.abs(v).toFixed(1).split('.');
     return (v < 0 ? '−' : '') + p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + p[1];
   }
-  function pPrice(v){ return pCurSym + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  function pPrice(v, sym){ return sym + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   function pTrimName(raw){
     var name = String(raw || '').replace(/^\(|\)$/g, '').trim();
     name = name.replace(/^The\s+/i, '');
@@ -10103,7 +10362,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     }
     return left;
   }
-  var POP_FLAG_DEFS = [
+  var FLAG_DEFS = [
     { when: function(s){ return !!s.overvalued; }, cls: 'flag-ov', label: '🔺 Overvalued', title: function(s){ return s.overvalued_tip || ''; } },
     { when: function(s){ return !!s.undervalued; }, cls: 'flag-uv', label: '💎 Undervalued', title: function(){ return 'Undervalued: trailing P/E below 12 and forward P/E below 15, no high-debt flag'; } },
     { when: function(s){ return !!s.squeeze; }, cls: 'flag-squeeze', label: '🔥 SQUEEZE', title: function(){ return 'Possible short squeeze: at least 10% of float short and at least 3 days to cover'; } },
@@ -10117,14 +10376,14 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     { when: function(s){ return !!s.buyback; }, cls: 'flag-buyback', label: '✂️ BUYBACK', title: function(s){ return s.share_flag_tip || ''; } },
     { when: function(s){ return !!s.diluting; }, cls: 'flag-diluting', label: '💧 DILUTING', title: function(s){ return s.share_flag_tip || ''; } }
   ];
-  var POP_FLAG_ZH = { 'flag-ov': '高估', 'flag-uv': '低估', 'flag-ns': '接近强力买入', 'flag-nss': '接近强力卖出', 'flag-hd': '高负债', 'flag-trap': '陷阱', 'flag-opp': '机会', 'flag-burning': '烧钱', 'flag-buyback': '回购', 'flag-diluting': '稀释' };
+  var FLAG_ZH = { 'flag-ov': '高估', 'flag-uv': '低估', 'flag-ns': '接近强力买入', 'flag-nss': '接近强力卖出', 'flag-hd': '高负债', 'flag-trap': '陷阱', 'flag-opp': '机会', 'flag-burning': '烧钱', 'flag-buyback': '回购', 'flag-diluting': '稀释' };
   function pFlagsRow(s, hit){
     var pills = [];
-    POP_FLAG_DEFS.forEach(function(d){
+    FLAG_DEFS.forEach(function(d){
       if (!d.when(s, hit)) return;
       var cls = typeof d.cls === 'function' ? d.cls(s) : d.cls;
       var label = typeof d.label === 'function' ? d.label(s) : d.label;
-      if (hit && hit.cn && POP_FLAG_ZH[cls]) label = label + ' ' + POP_FLAG_ZH[cls];
+      if (hit && hit.cn && FLAG_ZH[cls]) label = label + ' ' + FLAG_ZH[cls];
       var pill = pEl('span', 'flag ' + cls, label);
       var tip = d.title(s);
       if (tip) pill.title = hit.cn ? bilingualTitle(tip) : tip;
@@ -10177,9 +10436,29 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       else val.appendChild(document.createTextNode(txt));
     }, title);
   }
+  // "Money flow" button for the card front's header right
+  // group: rendered only for rows carrying a sankey field. Its
+  // click stopPropagation()s (so it never flips the card)
+  // before opening that stock's Sankey overlay.
+  function pMfBtn(s){
+    if (!(s.sankey && s.sankey.nodes && s.sankey.links)) return null;
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'pop-mf-btn';
+    b.textContent = s.ccy === 'CNY' ? 'Money flow 资金流' : 'Money flow';
+    b.addEventListener('click', function(e){
+      e.stopPropagation();
+      if (window.openSankey) window.openSankey(s.ticker, s);
+    });
+    return b;
+  }
   function pAnalysis(s){
     if (!s.score_tip) return null;
     var wrap = pEl('div', 'pop-analysis');
+    // Footer row: the "Why this score" toggle alone — the
+    // Money flow button lives in the header now. The toggle
+    // stopPropagation()s, so it never flips the card.
+    var footRow = pEl('div', 'pop-analysis-row');
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'pop-why-btn';
@@ -10214,7 +10493,8 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
       arrow.textContent = open ? '▾' : '▸';
     });
-    wrap.appendChild(btn);
+    footRow.appendChild(btn);
+    wrap.appendChild(footRow);
     wrap.appendChild(body);
     return wrap;
   }
@@ -10224,24 +10504,24 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   // rows predate the feed fields). tip names both legs for the
   // P/E value's title tooltip; a leg with no reference is omitted.
   function pPePctFmt(v){ return (v < 0 ? '−' : '+') + Math.abs(v) + '%'; }
-  function pPeHlInfo(s){
-    var hl = (s.pe_highlight === 'green' || s.pe_highlight === 'red') ? s.pe_highlight : null;
-    var own = (typeof s.pe_vs_own_pct === 'number' && isFinite(s.pe_vs_own_pct)) ? s.pe_vs_own_pct : null;
-    var sec = (typeof s.pe_vs_sector_pct === 'number' && isFinite(s.pe_vs_sector_pct)) ? s.pe_vs_sector_pct : null;
+  function pPeHlInfo(pe, s){
+    var hl = s && (s.pe_highlight === 'green' || s.pe_highlight === 'red') ? s.pe_highlight : null;
+    var own = s && typeof s.pe_vs_own_pct === 'number' && isFinite(s.pe_vs_own_pct) ? s.pe_vs_own_pct : null;
+    var sec = s && typeof s.pe_vs_sector_pct === 'number' && isFinite(s.pe_vs_sector_pct) ? s.pe_vs_sector_pct : null;
     var ownYears = 15;
-    if (hl === null && own === null && pIsNum(s.pe) && s.pe > 0){
+    if (hl === null && own === null && typeof pe === 'number' && pe > 0 && s){
       var med = null;
-      if (pIsNum(s.pe15y) && s.pe15y > 0){ med = s.pe15y; ownYears = 15; }
-      else if (pIsNum(s.pe10y) && s.pe10y > 0){ med = s.pe10y; ownYears = 10; }
+      if (typeof s.pe15y === 'number' && s.pe15y > 0){ med = s.pe15y; ownYears = 15; }
+      else if (typeof s.pe10y === 'number' && s.pe10y > 0){ med = s.pe10y; ownYears = 10; }
       if (med !== null){
-        own = Math.round((s.pe / med - 1) * 100);
+        own = Math.round((pe / med - 1) * 100);
         if (own <= -25) hl = 'green';
         else if (own >= 25) hl = 'red';
       }
     }
     var parts = [];
     if (own !== null) parts.push('P/E vs own ' + ownYears + 'y median ' + pPePctFmt(own));
-    if (sec !== null) parts.push('vs ' + (s.sector || 'sector') + ' sector ' + pPePctFmt(sec));
+    if (sec !== null) parts.push('vs ' + ((s && s.sector) || 'sector') + ' sector ' + pPePctFmt(sec));
     return { hl: hl, tip: parts.join(' · ') };
   }
   // ——— Front of card ———
@@ -10255,7 +10535,11 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     // the header stays one line and the front's height — and so
     // its 1440×900 no-scroll fit — is unchanged. The button
     // stopPropagation()s so it never flips the card; CSS hides
-    // it at ≤760px, where the popup never opens.
+    // it at ≤760px, where the popup never opens. The Money flow
+    // button (rows with a sankey field only) sits in the same
+    // group, right beside Compare, in the Compare button's own
+    // pill box; .pop-head-right centers all of them — button,
+    // pill and the × openPopup seats here — on one axis.
     var headRight = pEl('div', 'pop-head-right');
     var cmpBtn = document.createElement('button');
     cmpBtn.type = 'button';
@@ -10263,6 +10547,8 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     cmpBtn.textContent = hit.cn ? 'Compare 对比' : 'Compare';
     cmpBtn.addEventListener('click', function(e){ e.stopPropagation(); openPicker('single'); });
     headRight.appendChild(cmpBtn);
+    var mfBtn = pMfBtn(s);
+    if (mfBtn) headRight.appendChild(mfBtn);
     headRight.appendChild(pScorePill(s));
     head.appendChild(headRight);
     body.appendChild(head);
@@ -10287,7 +10573,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     var price = (hit.tops && !hit.monthly && pIsNum(s.close)) ? s.close : (pIsNum(s.latest) ? s.latest : s.close);
     var pb = pEl('div', 'pop-price');
     var lines = document.createElement('div');
-    lines.appendChild(pEl('span', 'price-main', pIsNum(price) ? pPrice(price) : '—'));
+    lines.appendChild(pEl('span', 'price-main', pIsNum(price) ? pPrice(price, pCurSym) : '—'));
     var chg = hit.monthly ? s.month_change_pct : s.day_change_pct;
     var dayline = null;
     if (pIsNum(chg)){
@@ -10306,7 +10592,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     }
     if (dayline) lines.appendChild(dayline);
     if (pIsNum(s.vs_ttm_high) && pIsNum(s.ttm_high))
-      lines.appendChild(pEl('span', 'price-vs', (s.vs_ttm_high < 0 ? '−' + Math.abs(s.vs_ttm_high) : String(s.vs_ttm_high)) + '% vs High ' + pPrice(s.ttm_high)));
+      lines.appendChild(pEl('span', 'price-vs', (s.vs_ttm_high < 0 ? '−' + Math.abs(s.vs_ttm_high) : String(s.vs_ttm_high)) + '% vs High ' + pPrice(s.ttm_high, pCurSym)));
     pb.appendChild(lines);
     var sp = pEl('div', 'pop-spark');
     var spark = pSparkSVG(s.spark);
@@ -10330,14 +10616,14 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     if (pIsNum(s.fair_value)){
       var fvLine = pEl('div', 'pop-spark-fv');
       var fvTip = 'Fair value (FAST Graphs): EPS growth ' + (pIsNum(s.fv_growth) ? (s.fv_growth < 0 ? '−' : '+') + Math.abs(s.fv_growth).toFixed(1) + '%' : '—') + (pIsNum(s.fv_window) ? ' (' + s.fv_window + 'y)' : '') + ' → fair P/E ' + (pIsNum(s.fair_pe) ? s.fair_pe.toFixed(1) : '—');
-      if (pIsNum(s.fv_eps)) fvTip += ' · EPS anchor ' + pPrice(s.fv_eps) + (s.fv_eps_src === 'gaap' ? ' (GAAP TTM)' : ' (normalized est.)');
+      if (pIsNum(s.fv_eps)) fvTip += ' · EPS anchor ' + pPrice(s.fv_eps, pCurSym) + (s.fv_eps_src === 'gaap' ? ' (GAAP TTM)' : ' (normalized est.)');
       if (pIsNum(s.fv_pct)) fvTip += ' · price is ' + (s.fv_pct === 0 ? 'at fair value' : Math.abs(s.fv_pct).toFixed(1) + '% ' + (s.fv_pct < 0 ? 'under' : 'over') + ' fair value');
       fvLine.title = fvTip;
       fvLine.appendChild(pEl('span', 'beta-label', 'FV'));
       fvLine.appendChild(document.createTextNode(' '));
-      if (pIsNum(s.fv_pct) && s.fv_pct <= -50) fvLine.appendChild(pEl('span', 'fv-pill-under', pPrice(s.fair_value)));
-      else if (pIsNum(s.fv_pct) && s.fv_pct >= 50) fvLine.appendChild(pEl('span', 'fv-pill-over', pPrice(s.fair_value)));
-      else fvLine.appendChild(document.createTextNode(pPrice(s.fair_value)));
+      if (pIsNum(s.fv_pct) && s.fv_pct <= -50) fvLine.appendChild(pEl('span', 'fv-pill-under', pPrice(s.fair_value, pCurSym)));
+      else if (pIsNum(s.fv_pct) && s.fv_pct >= 50) fvLine.appendChild(pEl('span', 'fv-pill-over', pPrice(s.fair_value, pCurSym)));
+      else fvLine.appendChild(document.createTextNode(pPrice(s.fair_value, pCurSym)));
       if (pIsNum(s.fv_pct)){
         var fvPctTxt = '(' + (s.fv_pct < 0 ? '−' : s.fv_pct > 0 ? '+' : '') + Math.abs(s.fv_pct).toFixed(1) + '%)';
         fvLine.appendChild(pEl('span', s.fv_pct < 0 ? 'fv-under' : s.fv_pct > 0 ? 'fv-over' : '', ' ' + fvPctTxt));
@@ -10355,7 +10641,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     // below (P/E missing or above 100), exactly as the table's
     // does — it no longer colors the P/E value.
     var peBad = !pIsNum(s.pe) || s.pe <= 0 || s.pe > 100;
-    var peInfo = pPeHlInfo(s);
+    var peInfo = pPeHlInfo(s.pe, s);
     if (hit.cn && peInfo.tip) peInfo = { hl: peInfo.hl, tip: bilingualTitle(peInfo.tip) };
     var peStat = pStat('P/E', function(val){
       var txt = (pIsNum(s.pe) && s.pe > 0) ? pF1(s.pe) : '—';
@@ -10425,13 +10711,13 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       drvStat,
       mtStat,
       pIsNum(s.fcf_ttm)
-        ? pStatText('FCF · TTM', (s.fcf_ttm < 0 ? '−' : '') + pMoneyCD(s.fcf_ttm), null, pIsNum(s.fcf_yoy) ? '(' + pSignedPct(s.fcf_yoy, false) + ' YoY)' : null, pIsNum(s.fcf_yoy) ? 'pop-sub' + (s.fcf_yoy >= 30 ? ' pop-fcf-up' : s.fcf_yoy <= -10 ? ' pop-fcf-down' : '') : null, hit.cn ? CN_TIPS.fcf : null)
+        ? pStatText('FCF · TTM', (s.fcf_ttm < 0 ? '−' : '') + pMoneyCD(s.fcf_ttm, pCurSym), null, pIsNum(s.fcf_yoy) ? '(' + pSignedPct(s.fcf_yoy, false) + ' YoY)' : null, pIsNum(s.fcf_yoy) ? 'pop-sub' + (s.fcf_yoy >= 30 ? ' pop-fcf-up' : s.fcf_yoy <= -10 ? ' pop-fcf-down' : '') : null, hit.cn ? CN_TIPS.fcf : null)
         : pStatText('FCF · TTM', '—', null, null, null, hit.cn ? CN_TIPS.fcf : null),
       // Cash / Debt carry the table's soft pill highlight, not just
       // a text color: .cd-hl.cd-cash when cash ≥ 2× debt, .cd-hl
       // .cd-debt when debt ≥ 2× cash — the table's own classes.
-      pStatText('Cash', pIsNum(s.cash) ? pMoneyCD(s.cash) : '—', cashHl ? 'cd-hl cd-cash' : null, null, null, hit.cn ? CN_TIPS.cash : null),
-      pStatText('Debt', pIsNum(s.debt) ? pMoneyCD(s.debt) : '—', debtHl ? 'cd-hl cd-debt' : null, null, null, hit.cn ? CN_TIPS.debt : null),
+      pStatText('Cash', pIsNum(s.cash) ? pMoneyCD(s.cash, pCurSym) : '—', cashHl ? 'cd-hl cd-cash' : null, null, null, hit.cn ? CN_TIPS.cash : null),
+      pStatText('Debt', pIsNum(s.debt) ? pMoneyCD(s.debt, pCurSym) : '—', debtHl ? 'cd-hl cd-debt' : null, null, null, hit.cn ? CN_TIPS.debt : null),
       pStatText('Cover', pIsNum(cov) ? pF1m(cov) + '×' : '—', pIsNum(cov) ? (cov >= 3 ? 'pop-good' : cov >= 1.5 ? 'pop-amber' : 'pop-bad') : null, null, null, hit.cn ? CN_TIPS.cover : null)
     ]);
     var vh = pEl('div', 'pop-cols');
@@ -10440,7 +10726,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     body.appendChild(vh);
     // Sentiment: two-column grid.
     var insNet = s.insider_net_dollars_3m;
-    var insTxt = (pIsNum(insNet) && insNet !== 0) ? (insNet > 0 ? 'Bought ' : 'Sold ') + pMoneyShort(insNet) : '—';
+    var insTxt = (pIsNum(insNet) && insNet !== 0) ? (insNet > 0 ? 'Bought ' : 'Sold ') + pMoneyShort(insNet, pCurSym) : '—';
     var insSub = ((s.insider_buy_trans_3m || 0) + (s.insider_sell_trans_3m || 0)) > 0
       ? '(' + (s.insider_buy_trans_3m || 0) + 'B/' + (s.insider_sell_trans_3m || 0) + 'S)' : null;
     var aLabel = 'Analysts' + (pIsNum(s.analyst_count) && s.analyst_count > 0 ? ' · ' + s.analyst_count : '');
@@ -10466,7 +10752,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     var cnInsStat = null;
     if (hit.cn){
       var cnN = s.cn_insider_net;
-      var cnTxt = (pIsNum(cnN) && cnN !== 0) ? (cnN > 0 ? 'Bought ' : 'Sold ') + pMoneyShort(cnN) : '—';
+      var cnTxt = (pIsNum(cnN) && cnN !== 0) ? (cnN > 0 ? 'Bought ' : 'Sold ') + pMoneyShort(cnN, pCurSym) : '—';
       var cnSub = ((s.cn_insider_buys || 0) + (s.cn_insider_sells || 0)) > 0
         ? '(' + (s.cn_insider_buys || 0) + 'B/' + (s.cn_insider_sells || 0) + 'S)' : null;
       cnInsStat = pStat('Insiders · 内部人', function(val){
@@ -10494,23 +10780,23 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       pStatText('Put / call', pIsNum(s.put_call) ? s.put_call.toFixed(2) + ' · ' + (s.put_call < 1 ? 'bullish' : s.put_call > 1 ? 'bearish' : 'neutral') : '—')
     ]);
     var sentR = pCol(' ', hit.cn ? [
-      pStatText('Target', pIsNum(s.analyst_target) ? pPrice(s.analyst_target) : '—', null, tSub, null, CN_TIPS.target)
+      pStatText('Target', pIsNum(s.analyst_target) ? pPrice(s.analyst_target, pCurSym) : '—', null, tSub, null, CN_TIPS.target)
     ] : [
       pStatText('Short', pIsNum(s.short_pct) ? pF1(s.short_pct) + '%' : '—', null, pIsNum(s.days_to_cover) ? pF1(s.days_to_cover) + 'd' : null),
-      pStatText('Target', pIsNum(s.analyst_target) ? pPrice(s.analyst_target) : '—', null, tSub)
+      pStatText('Target', pIsNum(s.analyst_target) ? pPrice(s.analyst_target, pCurSym) : '—', null, tSub)
     ]);
     var sent = pEl('div', 'pop-cols');
     sent.appendChild(sentL);
     sent.appendChild(sentR);
     body.appendChild(sent);
     // 13F / Holders: full-width block under Sentiment.
-    if (hit.cn){ var cnHb = pCnHoldersBlock(s, hit); if (cnHb) body.appendChild(cnHb); }
-    else body.appendChild(pF13Block(s, hit));
+    if (hit.cn){ var cnHb = pCnHoldersBlock(s, hit, pCurSym); if (cnHb) body.appendChild(cnHb); }
+    else body.appendChild(pF13Block(s, hit, pCurSym));
     var analysis = pAnalysis(s);
     if (analysis) body.appendChild(analysis);
     body.appendChild(pEl('div', 'pop-hint', '↻ Click card to flip — see what stands out'));
   }
-  function pF13Block(s, hit){
+  function pF13Block(s, hit, sym){
     var wrap = pEl('div', 'pop-f13');
     var head = pEl('div', 'pop-f13-head');
     var q = hit.quarter ? String(hit.quarter).split(' ')[0] : '';
@@ -10523,7 +10809,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       // sits inside the colored .f13-net-pill.
       var netWrap = pEl('span', 'pop-f13-net');
       netWrap.appendChild(pEl('span', 'pop-f13-netlab', 'Net'));
-      netWrap.appendChild(pEl('span', 'f13-net-pill ' + (s.f13_net_dollars >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.f13_net_dollars < 0 ? '−' : '+') + pMoneyShort(s.f13_net_dollars)));
+      netWrap.appendChild(pEl('span', 'f13-net-pill ' + (s.f13_net_dollars >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.f13_net_dollars < 0 ? '−' : '+') + pMoneyShort(s.f13_net_dollars, sym)));
       head.appendChild(netWrap);
     }
     wrap.appendChild(head);
@@ -10546,7 +10832,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       row.appendChild(left);
       var right = pEl('span', 'pop-f13-right');
       right.appendChild(pEl('span', 'f13-act', mv.action || ''));
-      var txt = (mv.dollars < 0 ? '−' : '+') + pMoneyShort(mv.dollars);
+      var txt = (mv.dollars < 0 ? '−' : '+') + pMoneyShort(mv.dollars, sym);
       if ((mv.action === 'ADD' || mv.action === 'TRIM') && pIsNum(mv.pct))
         txt += ' (' + (mv.pct < 0 ? '−' : '+') + pTrim1(Math.abs(mv.pct)) + '%)';
       right.appendChild(pEl('span', 'pop-f13-val ' + (mv.dollars >= 0 ? 'f13-buy' : 'f13-sell'), txt));
@@ -10562,7 +10848,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   // muted status word (新进 / 加仓 / 减仓) and the colored ¥ move
   // grouped at the right. The northbound holder (香港中央结算)
   // is one of the entries and renders like the others.
-  function pCnHoldersBlock(s, hit){
+  function pCnHoldersBlock(s, hit, sym){
     var holders = Array.isArray(s.cn_holders) ? s.cn_holders : [];
     if (!holders.length || !pIsNum(s.cn_inst_net_value)) return null;
     var price = (hit.tops && !hit.monthly && pIsNum(s.close)) ? s.close : (pIsNum(s.latest) ? s.latest : s.close);
@@ -10574,7 +10860,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     head.appendChild(pEl('span', 'pop-group-label', 'Top holders · 十大流通股东' + per));
     var netWrap = pEl('span', 'pop-f13-net');
     netWrap.appendChild(pEl('span', 'pop-f13-netlab', 'Net'));
-    netWrap.appendChild(pEl('span', 'f13-net-pill ' + (s.cn_inst_net_value >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.cn_inst_net_value < 0 ? '−' : '+') + pMoneyShort(s.cn_inst_net_value)));
+    netWrap.appendChild(pEl('span', 'f13-net-pill ' + (s.cn_inst_net_value >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.cn_inst_net_value < 0 ? '−' : '+') + pMoneyShort(s.cn_inst_net_value, sym)));
     head.appendChild(netWrap);
     wrap.appendChild(head);
     pCnTip(wrap, CN_TIPS.holders);
@@ -10594,7 +10880,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       var right = pEl('span', 'pop-f13-right');
       right.appendChild(pEl('span', 'f13-act', h.status || ''));
       var hv = pIsNum(price) ? h.change_shares * price : null;
-      var txt = hv !== null ? (hv < 0 ? '−' : '+') + pMoneyShort(hv) : (h.change_shares > 0 ? '+' : '−') + Math.abs(h.change_shares).toLocaleString('en-US') + ' 股';
+      var txt = hv !== null ? (hv < 0 ? '−' : '+') + pMoneyShort(hv, sym) : (h.change_shares > 0 ? '+' : '−') + Math.abs(h.change_shares).toLocaleString('en-US') + ' 股';
       if (pIsNum(h.change_pct)) txt += ' (' + (h.change_pct < 0 ? '−' : '+') + pTrim1(Math.abs(h.change_pct)) + '%)';
       right.appendChild(pEl('span', 'pop-f13-val ' + (h.change_shares >= 0 ? 'f13-buy' : 'f13-sell'), txt));
       row.appendChild(right);
@@ -10610,6 +10896,67 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   // (7) revenue growth > 100% or < −20%, (8) |margin trend| ≥ 20pp,
   // (9) RSI < 30. Unlike the strip cards (display capped at 8),
   // the back shows EVERY qualifying call-out.
+  // ——— Shared formatters: window.CardFmt ———
+  // The p* functions above are the single definitions of the card
+  // formatters; the strip, live-feed and mobile script blocks call
+  // them through this export (their old per-block copies are gone).
+  // Card money/price helpers take the currency symbol as an explicit
+  // argument — each builder passes its own ($ or ¥), so no shared
+  // mutable currency state exists. The t* helpers below are the
+  // table/strip variants (hard-coded $, different small-value
+  // branches from the card moneyShort) shared by the strip and
+  // live-feed pick-strip code.
+  function tMoneyShort(v){
+    var a = Math.abs(v);
+    if (a >= 1e12) return '$' + (a / 1e12).toFixed(2) + 'T';
+    if (a >= 1e9) return '$' + pTrim1(a / 1e9) + 'B';
+    return '$' + Math.round(a / 1e6) + 'M';
+  }
+  function tParseMoney(text){
+    var m = /([+−-])\$([\d.]+)\s*([kMB])/.exec(text || '');
+    if (!m) return null;
+    var mult = { k: 1e3, M: 1e6, B: 1e9 }[m[3]];
+    var v = parseFloat(m[2]) * mult;
+    return m[1] === '+' ? v : -v;
+  }
+  function tFirstNum(re, text){
+    var m = re.exec(text || '');
+    return m ? parseFloat(m[1]) : null;
+  }
+  function tWildStats(x){
+    var out = [];
+    if (x.insider != null && Math.abs(x.insider) > 25e6)
+      out.push({ icon: '👤', label: 'Insiders ' + (x.insider > 0 ? 'bought' : 'sold'), value: tMoneyShort(x.insider), tone: x.insider > 0 ? 'good' : 'bad' });
+    if (x.f13 != null && Math.abs(x.f13) > 100e6)
+      out.push({ icon: '🏦', label: '13F funds ' + (x.f13 > 0 ? 'bought' : 'sold'), value: tMoneyShort(x.f13), tone: x.f13 > 0 ? 'good' : 'bad' });
+    if (x.vol != null && x.volHi)
+      out.push({ icon: '📊', label: 'Vol', value: x.vol.toFixed(1) + '×', tone: '' });
+    if (x.short != null && x.short >= 10)
+      out.push({ icon: '📉', label: 'Short', value: pTrim1(x.short) + '%', tone: 'bad' });
+    if (x.shares != null && Math.abs(x.shares) >= 25)
+      out.push({ icon: '🔄', label: 'Shares', value: pSignedPct(x.shares, true), suffix: 'in 3y', tone: x.shares < 0 ? 'good' : 'bad' });
+    if (x.r40 != null && (x.r40 > 100 || x.r40 < -50))
+      out.push({ icon: '💹', label: 'R40', value: pTrim1(x.r40).replace('-', '−'), suffix: '(EBITDA)', tone: x.r40 > 100 ? 'good' : 'bad' });
+    if (x.rev != null && (x.rev > 100 || x.rev < -20))
+      out.push({ icon: '💵', label: 'Revenue', value: pSignedPct(x.rev, false), suffix: 'YoY', tone: x.rev > 0 ? 'good' : 'bad' });
+    if (x.mtrend != null && Math.abs(x.mtrend) >= 20)
+      out.push({ icon: '📐', label: 'Margin', value: pSignedPct(x.mtrend, false).replace('%', 'pp'), suffix: 'YoY', tone: x.mtrend > 0 ? 'good' : 'bad' });
+    if (x.rsi != null && x.rsi < 30)
+      out.push({ icon: '🌡️', label: 'RSI', value: x.rsi.toFixed(1), tone: 'good' });
+    return out;
+  }
+  window.CardFmt = {
+    el: pEl, isNum: pIsNum, f1: pF1, f1m: pF1m, trim1: pTrim1, comma1: pComma1,
+    trimName: pTrimName, signedPct: pSignedPct, pePctFmt: pPePctFmt, peHlInfo: pPeHlInfo,
+    moneyShortCard: pMoneyShort, moneyCD: pMoneyCD, price: pPrice,
+    initials: pInitials, sparkSVG: pSparkSVG, scorePill: pScorePill, ratingWord: pRatingWord,
+    nearScreamingBuy: pNearScreamingBuy, newsAge: pNewsAge, avgPe: pAvgPe, r40Stat: pR40Stat,
+    stat: pStat, statText: pStatText, col: pCol, cnTip: pCnTip, headLeft: pHeadLeft,
+    mfBtn: pMfBtn, analysis: pAnalysis, flagsRow: pFlagsRow, f13Block: pF13Block,
+    cnHoldersBlock: pCnHoldersBlock,
+    moneyShort: tMoneyShort, parseMoney: tParseMoney, firstNum: tFirstNum, wildStats: tWildStats,
+    restripe: restripe, slideToggle: slideToggle
+  };
   function pCallouts(s){
     var out = [];
     // China call-outs (Backing): executive net buying above
@@ -10618,14 +10965,14 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     // same bars the score's Backing leg uses, bilingual labels.
     if (s.ccy === 'CNY'){
       if (pIsNum(s.cn_insider_net) && (s.cn_insider_net > 5e6 || s.cn_insider_net < -25e6))
-        out.push({ icon: '👤', label: 'Insiders ' + (s.cn_insider_net > 0 ? 'bought 董监高买入' : 'sold 董监高卖出'), value: pMoneyShort(s.cn_insider_net), tone: s.cn_insider_net > 0 ? 'good' : 'bad' });
+        out.push({ icon: '👤', label: 'Insiders ' + (s.cn_insider_net > 0 ? 'bought 董监高买入' : 'sold 董监高卖出'), value: pMoneyShort(s.cn_insider_net, pCurSym), tone: s.cn_insider_net > 0 ? 'good' : 'bad' });
       if (pIsNum(s.cn_inst_net_value) && Math.abs(s.cn_inst_net_value) > 100e6)
-        out.push({ icon: '🏦', label: 'Big holders ' + (s.cn_inst_net_value > 0 ? 'bought 机构买入' : 'sold 机构卖出'), value: pMoneyShort(s.cn_inst_net_value), tone: s.cn_inst_net_value > 0 ? 'good' : 'bad' });
+        out.push({ icon: '🏦', label: 'Big holders ' + (s.cn_inst_net_value > 0 ? 'bought 机构买入' : 'sold 机构卖出'), value: pMoneyShort(s.cn_inst_net_value, pCurSym), tone: s.cn_inst_net_value > 0 ? 'good' : 'bad' });
     }
     if (pIsNum(s.insider_net_dollars_3m) && Math.abs(s.insider_net_dollars_3m) > 25e6)
-      out.push({ icon: '👤', label: 'Insiders ' + (s.insider_net_dollars_3m > 0 ? 'bought' : 'sold'), value: pMoneyShort(s.insider_net_dollars_3m), tone: s.insider_net_dollars_3m > 0 ? 'good' : 'bad' });
+      out.push({ icon: '👤', label: 'Insiders ' + (s.insider_net_dollars_3m > 0 ? 'bought' : 'sold'), value: pMoneyShort(s.insider_net_dollars_3m, pCurSym), tone: s.insider_net_dollars_3m > 0 ? 'good' : 'bad' });
     if (pIsNum(s.f13_net_dollars) && Math.abs(s.f13_net_dollars) > 100e6)
-      out.push({ icon: '🏦', label: '13F funds ' + (s.f13_net_dollars > 0 ? 'bought' : 'sold'), value: pMoneyShort(s.f13_net_dollars), tone: s.f13_net_dollars > 0 ? 'good' : 'bad' });
+      out.push({ icon: '🏦', label: '13F funds ' + (s.f13_net_dollars > 0 ? 'bought' : 'sold'), value: pMoneyShort(s.f13_net_dollars, pCurSym), tone: s.f13_net_dollars > 0 ? 'good' : 'bad' });
     if (pIsNum(s.vol_ratio) && s.vol_ratio >= 2)
       out.push({ icon: '📊', label: 'Vol', value: s.vol_ratio.toFixed(1) + '×', tone: '' });
     if (pIsNum(s.short_pct) && s.short_pct >= 10)
@@ -10992,7 +11339,9 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     // Header chrome: the desktop builders give every front a
     // Compare button and every back a popup-closing ×, neither
     // of which belongs on a compare card. The first card keeps
-    // just its score pill; the second card swaps the front's
+    // its score pill (and its Money flow button, when the row
+    // carries a sankey field — only the Compare button is
+    // removed below); the second card swaps the front's
     // Compare button for a Change button (reopening the picker)
     // and carries its own × — front and back alike — that exits
     // compare instead of closing the popup. No label says which
@@ -11113,6 +11462,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   // card alike — same cell). Decorative only; the price text carries
   // the real value. Always one neutral muted stroke, regardless of
   // direction.
+  var CF = window.CardFmt;
   function sparkSVG(arr){
     if (!arr || arr.length < 2) return '';
     var w = 72, h = 22, pad = 2;
@@ -11511,23 +11861,6 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
     var s = (whole || a >= 200) ? String(Math.round(a)) : trim1(a);
     return (v < 0 ? '−' : '+') + s + '%';
   }
-  function moneyShort(v){
-    var a = Math.abs(v);
-    if (a >= 1e12) return '$' + (a / 1e12).toFixed(2) + 'T';
-    if (a >= 1e9) return '$' + trim1(a / 1e9) + 'B';
-    return '$' + Math.round(a / 1e6) + 'M';
-  }
-  function parseMoney(text){
-    var m = /([+−-])\$([\d.]+)\s*([kMB])/.exec(text || '');
-    if (!m) return null;
-    var mult = { k: 1e3, M: 1e6, B: 1e9 }[m[3]];
-    var v = parseFloat(m[2]) * mult;
-    return m[1] === '+' ? v : -v;
-  }
-  function firstNum(re, text){
-    var m = re.exec(text || '');
-    return m ? parseFloat(m[1]) : null;
-  }
   // The wildest-stats call-outs for one row, in fixed priority
   // order (the card shows the first 8 that qualify); every figure
   // is read from the row's own baked cells:
@@ -11551,28 +11884,6 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
   // it. tone is 'good' (green value), 'bad' (red value) or ''
   // (neutral bold — volume only: heavy volume is neither good
   // nor bad). Only the array's length feeds the ranking.
-  function wildStats(x){
-    var out = [];
-    if (x.insider != null && Math.abs(x.insider) > 25e6)
-      out.push({ icon: '👤', label: 'Insiders ' + (x.insider > 0 ? 'bought' : 'sold'), value: moneyShort(x.insider), tone: x.insider > 0 ? 'good' : 'bad' });
-    if (x.f13 != null && Math.abs(x.f13) > 100e6)
-      out.push({ icon: '🏦', label: '13F funds ' + (x.f13 > 0 ? 'bought' : 'sold'), value: moneyShort(x.f13), tone: x.f13 > 0 ? 'good' : 'bad' });
-    if (x.vol != null && x.volHi)
-      out.push({ icon: '📊', label: 'Vol', value: x.vol.toFixed(1) + '×', tone: '' });
-    if (x.short != null && x.short >= 10)
-      out.push({ icon: '📉', label: 'Short', value: trim1(x.short) + '%', tone: 'bad' });
-    if (x.shares != null && Math.abs(x.shares) >= 25)
-      out.push({ icon: '🔄', label: 'Shares', value: signedPct(x.shares, true), suffix: 'in 3y', tone: x.shares < 0 ? 'good' : 'bad' });
-    if (x.r40 != null && (x.r40 > 100 || x.r40 < -50))
-      out.push({ icon: '💹', label: 'R40', value: trim1(x.r40).replace('-', '−'), suffix: '(EBITDA)', tone: x.r40 > 100 ? 'good' : 'bad' });
-    if (x.rev != null && (x.rev > 100 || x.rev < -20))
-      out.push({ icon: '💵', label: 'Revenue', value: signedPct(x.rev, false), suffix: 'YoY', tone: x.rev > 0 ? 'good' : 'bad' });
-    if (x.mtrend != null && Math.abs(x.mtrend) >= 20)
-      out.push({ icon: '📐', label: 'Margin', value: signedPct(x.mtrend, false).replace('%', 'pp'), suffix: 'YoY', tone: x.mtrend > 0 ? 'good' : 'bad' });
-    if (x.rsi != null && x.rsi < 30)
-      out.push({ icon: '🌡️', label: 'RSI', value: x.rsi.toFixed(1), tone: 'good' });
-    return out;
-  }
   var interestingOpts = {
     enrich: function(tr, x){
       var scoreTd = tr.querySelector('td[data-label="Score"]');
@@ -11585,13 +11896,13 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       x.flagCount = toks.filter(function(t){ return ATTENTION_FLAGS[t]; }).length;
       x.flagsTd = tr.querySelector('td[data-label="Flags"]');
       var insTd = tr.querySelector('td[data-label="Insiders · 3 mo"]');
-      x.insider = insTd ? parseMoney(insTd.textContent) : null;
+      x.insider = insTd ? CF.parseMoney(insTd.textContent) : null;
       var f13Td = tr.querySelector('td[data-label="13F"]');
       var f13 = f13Td ? parseFloat(f13Td.getAttribute('data-net')) : NaN;
       x.f13 = isNaN(f13) ? null : f13;
       var priceTd = tr.querySelector('td[data-label="Price"]');
       var volEl = priceTd ? priceTd.querySelector('.price-vol') : null;
-      x.vol = volEl ? firstNum(/Vol\s+([\d.]+)/, volEl.textContent) : null;
+      x.vol = volEl ? CF.firstNum(/Vol\s+([\d.]+)/, volEl.textContent) : null;
       // The vol-hi highlight is baked from the UNROUNDED ratio, so
       // it is the true ≥2.0× signal — the displayed figure is
       // rounded to one decimal and can read "Vol 2.0×" for a ratio
@@ -11613,10 +11924,10 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
       x.mtrend = isNaN(mt) ? null : mt;
       var earnTd = tr.querySelector('td[data-label="Earnings"]');
       var revEl = earnTd ? earnTd.querySelector('.earn-rev') : null;
-      x.rev = revEl ? firstNum(/([+−-]?[\d.]+)%/, (revEl.textContent || '').replace('−', '-')) : null;
+      x.rev = revEl ? CF.firstNum(/([+−-]?[\d.]+)%/, (revEl.textContent || '').replace('−', '-')) : null;
       var rsiEl = scoreTd ? scoreTd.querySelector('.rsi-line') : null;
-      x.rsi = rsiEl ? firstNum(/RSI\s+([\d.]+)/, rsiEl.textContent) : null;
-      x.stats = wildStats(x);
+      x.rsi = rsiEl ? CF.firstNum(/RSI\s+([\d.]+)/, rsiEl.textContent) : null;
+      x.stats = CF.wildStats(x);
     },
     keep: function(x){ return !isNaN(x.score) && x.flagCount > 0 && x.stats.length >= 1; },
     cmp: function(a, b){
@@ -12281,6 +12592,7 @@ if (window.__POP_BAKED__) window.__POP_BAKED__['view-watchlist'] = {"f13_quarter
 <script>
 (function(){
 'use strict';
+var CF = window.CardFmt;
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function escA(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function isNum(v){ return typeof v === 'number' && isFinite(v); }
@@ -12792,27 +13104,6 @@ function buildRow(s, cfg){
   // (pe_vs_own_pct / pe_vs_sector_pct). The yellow .pe-hl wash
   // marks ONLY a missing P/E; the .ps-lead amber on P/S still
   // keys off the P/E value (missing or above 100), unchanged.
-  function pePctFmtLive(v){ return (v < 0 ? '−' : '+') + Math.abs(v) + '%'; }
-  function peHlInfoLive(s, pe){
-    var hl = s && (s.pe_highlight === 'green' || s.pe_highlight === 'red') ? s.pe_highlight : null;
-    var own = s && typeof s.pe_vs_own_pct === 'number' && isFinite(s.pe_vs_own_pct) ? s.pe_vs_own_pct : null;
-    var sec = s && typeof s.pe_vs_sector_pct === 'number' && isFinite(s.pe_vs_sector_pct) ? s.pe_vs_sector_pct : null;
-    var ownYears = 15;
-    if (hl === null && own === null && typeof pe === 'number' && pe > 0 && s){
-      var med = null;
-      if (typeof s.pe15y === 'number' && s.pe15y > 0){ med = s.pe15y; ownYears = 15; }
-      else if (typeof s.pe10y === 'number' && s.pe10y > 0){ med = s.pe10y; ownYears = 10; }
-      if (med !== null){
-        own = Math.round((pe / med - 1) * 100);
-        if (own <= -25) hl = 'green';
-        else if (own >= 25) hl = 'red';
-      }
-    }
-    var parts = [];
-    if (own !== null) parts.push('P/E vs own ' + ownYears + 'y median ' + pePctFmtLive(own));
-    if (sec !== null) parts.push('vs ' + ((s && s.sector) || 'sector') + ' sector ' + pePctFmtLive(sec));
-    return { hl: hl, tip: parts.join(' · ') };
-  }
   function passPsPe(rows, byTicker){
     rows.forEach(function(tr){
       var psMain = tr.querySelector('td[data-label="P/S & FCF"] .ps-main');
@@ -12840,7 +13131,7 @@ function buildRow(s, cfg){
       if (pe > 100 && psMain) psMain.classList.add('ps-lead');
       if (!peMain) return;
       var s = byTicker ? byTicker[tr.getAttribute('data-ticker')] : null;
-      var info = peHlInfoLive(s, pe);
+      var info = CF.peHlInfo(pe, s);
       if (info.hl) peMain.classList.add(info.hl === 'green' ? 'r40-pill-good' : 'r40-neg-pill');
       if (info.tip) peMain.title = (tr.closest && tr.closest('[id^="view-cn"]')) ? bilingualTitle(info.tip) : info.tip;
     });
@@ -12932,31 +13223,6 @@ function buildRow(s, cfg){
       wrap.insertAdjacentHTML('beforeend', svg);
     });
   }
-  var reduceMotionLive = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function slideToggleLive(target, open){
-    if (reduceMotionLive){ target.hidden = !open; return; }
-    function cleanup(){ target.style.transition = ''; target.style.height = ''; target.style.opacity = ''; target.style.overflow = ''; }
-    if (open){
-      target.hidden = false;
-      var h = target.scrollHeight;
-      target.style.height = '0px'; target.style.opacity = '0'; target.style.overflow = 'hidden';
-      void target.offsetHeight;
-      target.style.transition = 'height 220ms ease, opacity 220ms ease';
-      target.style.height = h + 'px'; target.style.opacity = '1';
-      setTimeout(cleanup, 240);
-    } else {
-      target.style.height = target.scrollHeight + 'px'; target.style.opacity = '1'; target.style.overflow = 'hidden';
-      void target.offsetHeight;
-      target.style.transition = 'height 220ms ease, opacity 220ms ease';
-      target.style.height = '0px'; target.style.opacity = '0';
-      setTimeout(function(){ target.hidden = true; cleanup(); }, 240);
-    }
-  }
-  function restripeLive(tbody){
-    Array.prototype.forEach.call(tbody.querySelectorAll('tr[data-ticker]'), function(tr, i){
-      tr.classList.toggle('row-alt', i % 2 === 1);
-    });
-  }
   function passAnalysisToggles(viewEl){
     viewEl.querySelectorAll('table').forEach(function(table){
       var tbody = table.querySelector('tbody');
@@ -12985,14 +13251,14 @@ function buildRow(s, cfg){
           cell.insertBefore(btn, desc);
           btn.addEventListener('click', function(){
             var open = desc.hidden;
-            slideToggleLive(desc, open);
+            CF.slideToggle(desc, open);
             btn.setAttribute('aria-expanded', open ? 'true' : 'false');
             btn.firstChild.textContent = open ? 'Hide analysis ' : 'Show analysis ';
             arrow.textContent = open ? '▾' : '▸';
           });
         }
       });
-      restripeLive(tbody);
+      CF.restripe(tbody);
     });
   }
 
@@ -13001,48 +13267,6 @@ function buildRow(s, cfg){
      are closure-private), with the Most interesting eligibility
      rule: at least 1 counted flag AND at least 1 call-out. */
   var ATTENTION_FLAGS_LIVE = { undervalued: 1, nearscreaming: 1, squeeze: 1, trap: 1, opportunity: 1, burningcash: 1, diluting: 1, buyback: 1 };
-  function trim1Live(v){ var s = v.toFixed(1); return s.slice(-2) === '.0' ? s.slice(0, -2) : s; }
-  function signedPctLive(v, whole){
-    var a = Math.abs(v);
-    var s = (whole || a >= 200) ? String(Math.round(a)) : trim1Live(a);
-    return (v < 0 ? '−' : '+') + s + '%';
-  }
-  function moneyShortLive(v){
-    var a = Math.abs(v);
-    if (a >= 1e12) return '$' + (a / 1e12).toFixed(2) + 'T';
-    if (a >= 1e9) return '$' + trim1Live(a / 1e9) + 'B';
-    return '$' + Math.round(a / 1e6) + 'M';
-  }
-  function parseMoneyLive(text){
-    var m = /([+−-])\$([\d.]+)\s*([kMB])/.exec(text || '');
-    if (!m) return null;
-    var mult = { k: 1e3, M: 1e6, B: 1e9 }[m[3]];
-    var v = parseFloat(m[2]) * mult;
-    return m[1] === '+' ? v : -v;
-  }
-  function firstNumLive(re, text){ var m = re.exec(text || ''); return m ? parseFloat(m[1]) : null; }
-  function wildStatsLive(x){
-    var out = [];
-    if (x.insider != null && Math.abs(x.insider) > 25e6)
-      out.push({ icon: '👤', label: 'Insiders ' + (x.insider > 0 ? 'bought' : 'sold'), value: moneyShortLive(x.insider), tone: x.insider > 0 ? 'good' : 'bad' });
-    if (x.f13 != null && Math.abs(x.f13) > 100e6)
-      out.push({ icon: '🏦', label: '13F funds ' + (x.f13 > 0 ? 'bought' : 'sold'), value: moneyShortLive(x.f13), tone: x.f13 > 0 ? 'good' : 'bad' });
-    if (x.vol != null && x.volHi)
-      out.push({ icon: '📊', label: 'Vol', value: x.vol.toFixed(1) + '×', tone: '' });
-    if (x.short != null && x.short >= 10)
-      out.push({ icon: '📉', label: 'Short', value: trim1Live(x.short) + '%', tone: 'bad' });
-    if (x.shares != null && Math.abs(x.shares) >= 25)
-      out.push({ icon: '🔄', label: 'Shares', value: signedPctLive(x.shares, true), suffix: 'in 3y', tone: x.shares < 0 ? 'good' : 'bad' });
-    if (x.r40 != null && (x.r40 > 100 || x.r40 < -50))
-      out.push({ icon: '💹', label: 'R40', value: trim1Live(x.r40).replace('-', '−'), suffix: '(EBITDA)', tone: x.r40 > 100 ? 'good' : 'bad' });
-    if (x.rev != null && (x.rev > 100 || x.rev < -20))
-      out.push({ icon: '💵', label: 'Revenue', value: signedPctLive(x.rev, false), suffix: 'YoY', tone: x.rev > 0 ? 'good' : 'bad' });
-    if (x.mtrend != null && Math.abs(x.mtrend) >= 20)
-      out.push({ icon: '📐', label: 'Margin', value: signedPctLive(x.mtrend, false).replace('%', 'pp'), suffix: 'YoY', tone: x.mtrend > 0 ? 'good' : 'bad' });
-    if (x.rsi != null && x.rsi < 30)
-      out.push({ icon: '🌡️', label: 'RSI', value: x.rsi.toFixed(1), tone: 'good' });
-    return out;
-  }
   var interestingOptsLive = {
     enrich: function(tr, x){
       var scoreTd = tr.querySelector('td[data-label="Score"]');
@@ -13055,13 +13279,13 @@ function buildRow(s, cfg){
       x.flagCount = toks.filter(function(t){ return ATTENTION_FLAGS_LIVE[t]; }).length;
       x.flagsTd = tr.querySelector('td[data-label="Flags"]');
       var insTd = tr.querySelector('td[data-label="Insiders · 3 mo"]');
-      x.insider = insTd ? parseMoneyLive(insTd.textContent) : null;
+      x.insider = insTd ? CF.parseMoney(insTd.textContent) : null;
       var f13Td = tr.querySelector('td[data-label="13F"]');
       var f13 = f13Td ? parseFloat(f13Td.getAttribute('data-net')) : NaN;
       x.f13 = isNaN(f13) ? null : f13;
       var priceTd = tr.querySelector('td[data-label="Price"]');
       var volEl = priceTd ? priceTd.querySelector('.price-vol') : null;
-      x.vol = volEl ? firstNumLive(/Vol\s+([\d.]+)/, volEl.textContent) : null;
+      x.vol = volEl ? CF.firstNum(/Vol\s+([\d.]+)/, volEl.textContent) : null;
       x.volHi = volEl ? volEl.classList.contains('vol-hi') : false;
       var vsEl = priceTd ? priceTd.querySelector('.price-vs') : null;
       var vsM = vsEl ? /(−|-)?([\d.]+)%\s+vs High/.exec(vsEl.textContent) : null;
@@ -13079,10 +13303,10 @@ function buildRow(s, cfg){
       x.mtrend = isNaN(mt) ? null : mt;
       var earnTd = tr.querySelector('td[data-label="Earnings"]');
       var revEl = earnTd ? earnTd.querySelector('.earn-rev') : null;
-      x.rev = revEl ? firstNumLive(/([+−-]?[\d.]+)%/, (revEl.textContent || '').replace('−', '-')) : null;
+      x.rev = revEl ? CF.firstNum(/([+−-]?[\d.]+)%/, (revEl.textContent || '').replace('−', '-')) : null;
       var rsiEl = scoreTd ? scoreTd.querySelector('.rsi-line') : null;
-      x.rsi = rsiEl ? firstNumLive(/RSI\s+([\d.]+)/, rsiEl.textContent) : null;
-      x.stats = wildStatsLive(x);
+      x.rsi = rsiEl ? CF.firstNum(/RSI\s+([\d.]+)/, rsiEl.textContent) : null;
+      x.stats = CF.wildStats(x);
     },
     keep: function(x){ return !isNaN(x.score) && x.flagCount > 0 && x.stats.length >= 1; },
     cmp: function(a, b){
@@ -13473,6 +13697,45 @@ function buildRow(s, cfg){
       if ((spans[i].textContent || '').indexOf('Near screaming') >= 0){ spans[i].innerHTML = html; return; }
     }
   }
+  /* The 13F legend line's quarter comes from the view's own data
+     (f13_quarter — the applied payload first, the baked registry as
+     fallback); with no quarter anywhere, the line keeps its text. */
+  function setF13Legend(viewEl, data){
+    if (!viewEl) return;
+    var q = data && data.f13_quarter;
+    if (!q){
+      var baked = window.__POP_BAKED__ && window.__POP_BAKED__[viewEl.id];
+      if (baked && baked.f13_quarter) q = baked.f13_quarter;
+    }
+    if (!q) return;
+    var spans = viewEl.querySelectorAll('.legend span');
+    for (var i = 0; i < spans.length; i++){
+      var t = spans[i].textContent || '';
+      if (t.indexOf('13F') === 0 && t.indexOf('major buys/sells') >= 0){
+        spans[i].innerHTML = '<strong>13F</strong> = major buys/sells by 15 famous active funds (' + esc(q) + '). Major = new position, full exit (both ≥ $10M), or a change over $100M or 25% of the position. Funds: Buffett, Ackman, Tiger, Coatue, Lone Pine, Viking, Third Point, Tepper, Druckenmiller, Einhorn, Klarman, Soros, Elliott, D1, Cohen (Point72 is a multi-manager fund, so its moves reflect many independent pods).';
+        return;
+      }
+    }
+  }
+  /* The page footer's 13F line ("About this snapshot") takes its
+     quarter the same way: the applied payload's f13_quarter first,
+     the baked weekly registry as fallback; with no quarter anywhere
+     the footer keeps its baked text. The feed carries no filed
+     month, so the line shows the quarter and its period end only. */
+  function setFootF13(data){
+    if (!data) return;
+    var q = data.f13_quarter;
+    if (!q){
+      var baked = window.__POP_BAKED__ && window.__POP_BAKED__['view-weekly'];
+      if (baked && baked.f13_quarter) q = baked.f13_quarter;
+    }
+    if (!q) return;
+    var span = document.querySelector('.foot .foot-f13');
+    if (!span) return;
+    var m = /^Q([1-4])\s+(\d{4})$/.exec(String(q).trim());
+    var ends = ['31 Mar', '30 Jun', '30 Sep', '31 Dec'];
+    span.textContent = q + ' 13F filings' + (m ? ' (period ended ' + ends[parseInt(m[1], 10) - 1] + ' ' + m[2] + ')' : '');
+  }
   function refreshScreamLegends(feed, data){
     if (!feed.tops && !feed.monthly){
       var mData = scViewData('__BOLLINGER_MONTHLY__', 'view-monthly', { as_of: 'Nov 2026 (in progress)', read_type: 'intra-month' });
@@ -13523,7 +13786,7 @@ function buildRow(s, cfg){
         }
       });
     }
-    if (!feed.cn) refreshScreamLegends(feed, data);
+    if (!feed.cn){ refreshScreamLegends(feed, data); setF13Legend(viewEl, data); setFootF13(data); }
   }
 
   /* ---------- Chrome updates (banners, stats, strip, tabs) ---------- */
@@ -14444,96 +14707,8 @@ function buildRow(s, cfg){
   // row that a live-feed swap replaced. Desktop never displays
   // the cell, and nothing here touches the rows' other cells, so
   // sorting, filtering and the strips are unaffected.
-  function mIsNum(v){ return typeof v === 'number' && isFinite(v); }
+  var CF = window.CardFmt;
   var mCurSym = '$';
-  function mEl(tag, cls, text){
-    var e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (text != null) e.textContent = text;
-    return e;
-  }
-  function mF1(v){ return v.toFixed(1); }
-  function mF1m(v){ return v.toFixed(1).replace('-', '−'); }
-  function mTrim1(v){ var s = v.toFixed(1); return s.slice(-2) === '.0' ? s.slice(0, -2) : s; }
-  function mSignedPct(v, whole){
-    var a = Math.abs(v);
-    var s = (whole || a >= 200) ? String(Math.round(a)) : mTrim1(a);
-    return (v < 0 ? '−' : '+') + s + '%';
-  }
-  function mMoneyShort(v){
-    var a = Math.abs(v);
-    if (a >= 1e12) return mCurSym + (a / 1e12).toFixed(2) + 'T';
-    if (a >= 1e9) return mCurSym + mTrim1(a / 1e9) + 'B';
-    if (a >= 1e6) return mCurSym + Math.round(a / 1e6) + 'M';
-    if (a >= 1e3) return mCurSym + Math.round(a / 1e3) + 'k';
-    return mCurSym + Math.round(a);
-  }
-  function mMoneyCD(v){
-    var a = Math.abs(v);
-    if (a >= 1e9){
-      var p = (a / 1e9).toFixed(1).split('.');
-      return mCurSym + p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + p[1] + 'B';
-    }
-    if (a >= 1e6) return mCurSym + Math.round(a / 1e6).toLocaleString('en-US') + 'M';
-    if (a >= 1e3) return mCurSym + Math.round(a / 1e3) + 'k';
-    return mCurSym + Math.round(a);
-  }
-  function mComma1(v){
-    var p = Math.abs(v).toFixed(1).split('.');
-    return (v < 0 ? '−' : '') + p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + p[1];
-  }
-  function mPrice(v){ return mCurSym + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
-  function mTrimName(raw){
-    var name = String(raw || '').replace(/^\(|\)$/g, '').trim();
-    name = name.replace(/^The\s+/i, '');
-    var suffixes = ['Corporation','Incorporated','Limited','Company','Corp.','Corp','Inc.','Inc','Ltd.','Ltd','LLC','PLC','N.V.','NV','S.A.','SA','Co.','Co','AG','SE'];
-    var changed = true;
-    while (changed){
-      changed = false;
-      name = name.replace(/[\s,]+$/, '');
-      for (var i = 0; i < suffixes.length; i++){
-        var s = suffixes[i];
-        if (name.length > s.length && name.slice(-s.length).toLowerCase() === s.toLowerCase() && /[\s,]/.test(name.charAt(name.length - s.length - 1))){
-          name = name.slice(0, name.length - s.length); changed = true; break;
-        }
-      }
-    }
-    return name.replace(/[\s,&]+$/, '').trim();
-  }
-  function mInitials(name){
-    var n = mTrimName(name);
-    var ws = n.split(/\s+/).filter(function(w){ return w && w.toLowerCase() !== 'and'; });
-    if (!ws.length) return '';
-    if (ws.length >= 2){
-      if (ws[1] === '&') return ws[0].charAt(0).toUpperCase();
-      return (ws[0].charAt(0) + ws[1].charAt(0)).toUpperCase();
-    }
-    return ws[0].slice(0, 2).toUpperCase();
-  }
-  function mSparkSVG(arr){
-    if (!arr || arr.length < 2) return '';
-    var w = 72, h = 22, pad = 2;
-    var min = Math.min.apply(null, arr), max = Math.max.apply(null, arr);
-    var range = (max - min) || 1;
-    var step = (w - 2 * pad) / (arr.length - 1);
-    var pts = arr.map(function(v, i){
-      return (pad + i * step).toFixed(1) + ',' + (h - pad - ((v - min) / range) * (h - 2 * pad)).toFixed(1);
-    }).join(' ');
-    return '<svg class="spark" width="72" height="22" viewBox="0 0 72 22" aria-hidden="true" focusable="false"><polyline points="' + pts + '" fill="none" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>';
-  }
-  function mNearScreamingBuy(s){
-    if (s.high_debt) return false;
-    if (s.undervalued && mIsNum(s.rsi) && s.rsi >= 30 && s.rsi <= 40) return true;
-    if (s.oversold && mIsNum(s.pe) && s.pe >= 12 && s.pe <= 20 && mIsNum(s.forward_pe) && s.forward_pe < 15) return true;
-    return false;
-  }
-  function mRatingWord(s){
-    var rec = { strong_buy: 'Strong Buy', buy: 'Buy', hold: 'Hold', sell: 'Sell', strong_sell: 'Strong Sell' }[s.analyst_rec];
-    if (rec) return rec;
-    var m = s.analyst_mean;
-    if (!mIsNum(m)) return '';
-    return m <= 1.5 ? 'Strong Buy' : m <= 2.5 ? 'Buy' : m <= 3.5 ? 'Hold' : m <= 4.5 ? 'Sell' : 'Strong Sell';
-  }
   // ——— Data lookup: the view's current data array by ticker ———
   var MCARD_VIEWS = {
     'view-weekly': { global: '__BOLLINGER_WEEKLY__', monthly: false, tops: false },
@@ -14751,309 +14926,109 @@ function buildRow(s, cfg){
   // title. mStat routes any title that is exactly a CN_TIPS text.
   var CN_TIP_SET = {};
   Object.keys(CN_TIPS).forEach(function(k){ CN_TIP_SET[CN_TIPS[k]] = true; });
-  function mCnTip(el, text){ if (el && text) el.setAttribute('data-cn-tip', text); }
 
-  function mScorePill(s){
-    var wrap = mEl('div', 'pop-score');
-    if (mIsNum(s.score)) wrap.setAttribute('data-score', String(s.score));
-    if (s.ccy === 'CNY') mCnTip(wrap, cnTipTitle(s)); else wrap.title = s.score_tip;
-    wrap.appendChild(mEl('span', 'score-main', mIsNum(s.score) ? s.score + '/10' : '—'));
-    return wrap;
-  }
-  function mHeadLeft(s, hit, back){
-    var left = document.createElement('div');
-    var tk = mEl('div', 'pop-ticker');
-    if (!back && s.logo){
-      var img = document.createElement('img');
-      img.className = 'co-logo';
-      img.src = s.logo;
-      img.alt = '';
-      img.width = 28; img.height = 28;
-      img.setAttribute('loading', 'lazy');
-      img.setAttribute('data-initials', mInitials(s.name));
-      img.setAttribute('onerror', 'logoFallback(this)');
-      tk.appendChild(img);
-    }
-    tk.appendChild(document.createTextNode(s.ticker || ''));
-    if (back) tk.appendChild(mEl('span', 'pop-back-title', 'What stands out'));
-    left.appendChild(tk);
-    if (!back){
-      var nm = mTrimName(s.name);
-      var line = nm + (s.sector ? ' · ' + s.sector : '');
-      if (hit && hit.cn && s.name_cn) line = s.name_cn + (nm ? ' · ' + nm : '') + (s.sector ? ' · ' + s.sector : '');
-      if (line) left.appendChild(mEl('span', 'pop-name', line));
-      if (hit.monthly && mIsNum(s.months_touching))
-        left.appendChild(mEl('span', 'pop-meta', 'Months touching: ' + s.months_touching));
-    }
-    return left;
-  }
-  var MFLAG_DEFS = [
-    { when: function(s){ return !!s.overvalued; }, cls: 'flag-ov', label: '🔺 Overvalued', title: function(s){ return s.overvalued_tip || ''; } },
-    { when: function(s){ return !!s.undervalued; }, cls: 'flag-uv', label: '💎 Undervalued', title: function(){ return 'Undervalued: trailing P/E below 12 and forward P/E below 15, no high-debt flag'; } },
-    { when: function(s){ return !!s.squeeze; }, cls: 'flag-squeeze', label: '🔥 SQUEEZE', title: function(){ return 'Possible short squeeze: at least 10% of float short and at least 3 days to cover'; } },
-    { when: function(s, cfg){ return !cfg.tops && mNearScreamingBuy(s); }, cls: 'flag-ns', label: '🔶 Near screaming buy', title: function(){ return 'Near screaming buy: undervalued with RSI 30–40, or oversold with trailing P/E 12–20 and forward P/E below 15'; } },
-    { when: function(s){ return !!s.near_screaming_sell; }, cls: 'flag-nss', label: '🔶 Near screaming sell', title: function(){ return 'Near screaming sell: overvalued with RSI 60–70, or overbought with trailing P/E above its 15y median and forward P/E 15–20'; } },
-    { when: function(s){ return !!s.high_debt; }, cls: 'flag-hd', label: '⚠️ High debt', title: function(){ return 'High debt: debt-to-equity above 2, or net debt above 50% of market cap'; } },
-    { when: function(s){ return !!s.trap_flag; }, cls: 'flag-trap', label: '🪤 TRAP', title: function(s){ return s.trap_tip || ''; } },
-    { when: function(s, hit){ return !(hit && hit.cn) && (s.sma4h === 'up' || s.sma4h === 'flat'); }, cls: function(s){ return s.sma4h === 'up' ? 'flag-4hup' : 'flag-4hflat'; }, label: function(s){ return s.sma4h === 'up' ? '📈 4H SMA ↑' : '➡️ 4H SMA →'; }, title: function(s){ return s.sma4h === 'up' ? '4H trend up: 20-period average on 4-hour bars up more than 0.5% over the last 5 bars' : '4H trend flat: 20-period average on 4-hour bars within ±0.5% over the last 5 bars'; } },
-    { when: function(s){ return !!s.opp_flag; }, cls: 'flag-opp', label: '🎯 OPPORTUNITY', title: function(s){ return s.opp_tip || ''; } },
-    { when: function(s){ return !!s.burning_cash; }, cls: 'flag-burning', label: '💸 BURNING CASH', title: function(s){ return s.burning_cash_tip || ''; } },
-    { when: function(s){ return !!s.buyback; }, cls: 'flag-buyback', label: '✂️ BUYBACK', title: function(s){ return s.share_flag_tip || ''; } },
-    { when: function(s){ return !!s.diluting; }, cls: 'flag-diluting', label: '💧 DILUTING', title: function(s){ return s.share_flag_tip || ''; } }
-  ];
-  var M_FLAG_ZH = { 'flag-ov': '高估', 'flag-uv': '低估', 'flag-ns': '接近强力买入', 'flag-nss': '接近强力卖出', 'flag-hd': '高负债', 'flag-trap': '陷阱', 'flag-opp': '机会', 'flag-burning': '烧钱', 'flag-buyback': '回购', 'flag-diluting': '稀释' };
-  function mFlagsRow(s, hit){
-    var pills = [];
-    MFLAG_DEFS.forEach(function(d){
-      if (!d.when(s, hit)) return;
-      var cls = typeof d.cls === 'function' ? d.cls(s) : d.cls;
-      var label = typeof d.label === 'function' ? d.label(s) : d.label;
-      if (hit && hit.cn && M_FLAG_ZH[cls]) label = label + ' ' + M_FLAG_ZH[cls];
-      var pill = mEl('span', 'flag ' + cls, label);
-      var tip = d.title(s);
-      if (tip) pill.title = hit.cn ? bilingualTitle(tip) : tip;
-      pills.push(pill);
-    });
-    if (s.is_new) pills.push(mEl('span', 'new-badge', (hit && hit.cn) ? 'NEW 新' : 'NEW'));
-    if (!pills.length) return null;
-    var row = mEl('div', 'pop-flagsrow');
-    pills.forEach(function(p){ row.appendChild(p); });
-    return row;
-  }
-  function mStat(label, build, title){
-    var row = mEl('div', 'pop-stat');
-    if (title){ if (CN_TIP_SET[title]) row.setAttribute('data-cn-tip', title); else row.title = title; }
-    row.appendChild(mEl('span', 'pop-stat-label', label));
-    var val = mEl('div', 'pop-stat-val');
-    build(val);
-    row.appendChild(val);
-    return row;
-  }
-  function mStatText(label, text, cls, sub, subCls, title){
-    return mStat(label, function(val){
-      if (cls) val.appendChild(mEl('span', cls, text));
-      else val.appendChild(document.createTextNode(text));
-      if (sub) val.appendChild(mEl('span', subCls || 'pop-sub', sub));
-    }, title);
-  }
-  function mCol(label, stats){
-    var col = mEl('div', 'pop-col');
-    col.appendChild(mEl('div', 'pop-group-label', label));
-    stats.forEach(function(st){ if (st) col.appendChild(st); });
-    return col;
-  }
-  function mAvgPe(label, v, years, nominal, title){
-    return mStat(label, function(val){
-      val.appendChild(document.createTextNode(mIsNum(v) ? mF1(v) : '—'));
-      if (mIsNum(v) && mIsNum(years) && years !== nominal)
-        val.appendChild(mEl('span', 'pe-avg-years', ' (' + years + 'y)'));
-    }, title);
-  }
   // R40 stat with the table's pill highlight (green above 40,
   // red below 0, plain in between) — same classes as the popup.
-  function mR40Stat(label, v, title){
-    return mStat(label, function(val){
-      if (!mIsNum(v)){ val.appendChild(document.createTextNode('—')); return; }
-      var txt = mF1m(v);
-      if (v > 40) val.appendChild(mEl('span', 'r40-pill-good', txt));
-      else if (v < 0) val.appendChild(mEl('span', 'r40-neg-pill', txt));
-      else val.appendChild(document.createTextNode(txt));
-    }, title);
-  }
   // P/E own-history-plus-sector highlight for a card row object —
   // the mobile mirror of the popup's pPeHlInfo: the feed's
   // pe_highlight verdict when present, else the own-history leg
   // derived from the row's own medians (baked rows predate the
   // feed fields). tip names both legs for the value's tooltip.
-  function mPePctFmt(v){ return (v < 0 ? '−' : '+') + Math.abs(v) + '%'; }
-  function mPeHlInfo(s){
-    var hl = (s.pe_highlight === 'green' || s.pe_highlight === 'red') ? s.pe_highlight : null;
-    var own = (typeof s.pe_vs_own_pct === 'number' && isFinite(s.pe_vs_own_pct)) ? s.pe_vs_own_pct : null;
-    var sec = (typeof s.pe_vs_sector_pct === 'number' && isFinite(s.pe_vs_sector_pct)) ? s.pe_vs_sector_pct : null;
-    var ownYears = 15;
-    if (hl === null && own === null && mIsNum(s.pe) && s.pe > 0){
-      var med = null;
-      if (mIsNum(s.pe15y) && s.pe15y > 0){ med = s.pe15y; ownYears = 15; }
-      else if (mIsNum(s.pe10y) && s.pe10y > 0){ med = s.pe10y; ownYears = 10; }
-      if (med !== null){
-        own = Math.round((s.pe / med - 1) * 100);
-        if (own <= -25) hl = 'green';
-        else if (own >= 25) hl = 'red';
-      }
-    }
-    var parts = [];
-    if (own !== null) parts.push('P/E vs own ' + ownYears + 'y median ' + mPePctFmt(own));
-    if (sec !== null) parts.push('vs ' + (s.sector || 'sector') + ' sector ' + mPePctFmt(sec));
-    return { hl: hl, tip: parts.join(' · ') };
-  }
-  function mAnalysis(s){
-    if (!s.score_tip) return null;
-    var wrap = mEl('div', 'pop-analysis');
-    var btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'pop-why-btn';
-    btn.setAttribute('aria-expanded', 'false');
-    var arrow = mEl('span', 'collapse-arrow', '▸');
-    arrow.setAttribute('aria-hidden', 'true');
-    btn.appendChild(document.createTextNode('Why this score '));
-    btn.appendChild(arrow);
-    var body = mEl('div', 'pop-why-body');
-    body.hidden = true;
-    String(s.score_tip).split('\n').forEach(function(line, i){
-      if (i === 0){ body.appendChild(mEl('span', 'score-desc-line score-desc-head', line)); if (s.ccy === 'CNY'){ var zh0 = zhTranslate(line); if (zh0) body.appendChild(mEl('span', 'score-desc-line zh-line', zh0)); } return; }
-      var strong, rest;
-      var sm = /^(.* — \d+ (?:warning|positive) signs): (.*)$/.exec(line);
-      if (sm){ strong = sm[1] + ':'; rest = sm[2]; }
-      else {
-        var idxD = line.indexOf(' — '), idxC = line.indexOf(': ');
-        if (idxD >= 0 && (idxC < 0 || idxD < idxC)){ strong = line.slice(0, idxD) + ':'; rest = line.slice(idxD + 3); }
-        else if (idxC >= 0){ strong = line.slice(0, idxC + 1); rest = line.slice(idxC + 2); }
-        else { strong = line; rest = ''; }
-      }
-      var sp = mEl('span', 'score-desc-line');
-      sp.appendChild(mEl('strong', 'score-desc-leg', strong));
-      if (rest) sp.appendChild(document.createTextNode(' ' + rest));
-      body.appendChild(sp);
-      if (s.ccy === 'CNY'){ var zhL = zhTranslate(line); if (zhL) body.appendChild(mEl('span', 'score-desc-line zh-line', zhL)); }
-    });
-    btn.addEventListener('click', function(e){
-      e.stopPropagation();
-      var open = body.hidden;
-      body.hidden = !open;
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      arrow.textContent = open ? '▾' : '▸';
-    });
-    wrap.appendChild(btn);
-    wrap.appendChild(body);
-    return wrap;
-  }
-  function mF13Block(s, hit){
-    var wrap = mEl('div', 'pop-f13');
-    var head = mEl('div', 'pop-f13-head');
-    var q = hit.quarter ? String(hit.quarter).split(' ')[0] : '';
-    head.appendChild(mEl('span', 'pop-group-label', '13F funds' + (q ? ' · ' + q : '')));
-    var moves = (Array.isArray(s.f13_moves) ? s.f13_moves.slice() : []).filter(function(mv){ return mv && mIsNum(mv.dollars); });
-    moves.sort(function(a, b){ return Math.abs(b.dollars) - Math.abs(a.dollars); });
-    if (moves.length && mIsNum(s.f13_net_dollars)){
-      // Mirrors the table's net line exactly: "Net" is a plain
-      // muted label outside the pill; only the signed amount
-      // sits inside the colored .f13-net-pill.
-      var netWrap = mEl('span', 'pop-f13-net');
-      netWrap.appendChild(mEl('span', 'pop-f13-netlab', 'Net'));
-      netWrap.appendChild(mEl('span', 'f13-net-pill ' + (s.f13_net_dollars >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.f13_net_dollars < 0 ? '−' : '+') + mMoneyShort(s.f13_net_dollars)));
-      head.appendChild(netWrap);
-    }
-    wrap.appendChild(head);
-    if (!moves.length){
-      wrap.appendChild(mEl('div', 'pop-nomoves', 'No moves'));
-      return wrap;
-    }
-    // Every move renders — NEW, ADD, TRIM and EXIT alike, the
-    // same set the table shows — laid out and colored like the
-    // table's cell: manager at the left in bold ink; the action
-    // word and the amount grouped together at the right as one
-    // unit ("TRIM −$289.3M"), the action word in the table's
-    // muted .f13-act small caps and only the signed amount
-    // (with its % change) in the green buy / red sell ink, via
-    // the table's own classes.
-    moves.forEach(function(mv){
-      var row = mEl('div', 'pop-f13-move');
-      var left = mEl('span', 'pop-f13-left');
-      left.appendChild(mEl('span', 'pop-f13-mgr', mv.mgr || ''));
-      row.appendChild(left);
-      var right = mEl('span', 'pop-f13-right');
-      right.appendChild(mEl('span', 'f13-act', mv.action || ''));
-      var txt = (mv.dollars < 0 ? '−' : '+') + mMoneyShort(mv.dollars);
-      if ((mv.action === 'ADD' || mv.action === 'TRIM') && mIsNum(mv.pct))
-        txt += ' (' + (mv.pct < 0 ? '−' : '+') + mTrim1(Math.abs(mv.pct)) + '%)';
-      right.appendChild(mEl('span', 'pop-f13-val ' + (mv.dollars >= 0 ? 'f13-buy' : 'f13-sell'), txt));
-      row.appendChild(right);
-      wrap.appendChild(row);
-    });
-    return wrap;
-  }
+  // "Money flow" button for the card front's header right
+  // group: rendered only for rows carrying a sankey field. Its
+  // tap stopPropagation()s (so it never flips the card) before
+  // opening that stock's Sankey overlay.
   // ——— Front of card (mirrors buildPopFront; stat groups stack) ———
   function buildMFront(hit, body){
     var s = hit.row;
     mCurSym = s.ccy === 'CNY' ? '¥' : '$';
-    var head = mEl('div', 'pop-head');
-    head.appendChild(mHeadLeft(s, hit, false));
-    head.appendChild(mScorePill(s));
+    var head = CF.el('div', 'pop-head');
+    head.appendChild(CF.headLeft(s, hit, false));
+    // Header right group (the .pop-head-right pattern): the
+    // Money flow button — rows with a sankey field only — sits
+    // beside the score pill, in the same pill box the desktop
+    // Compare button uses, center-aligned with the pill on one
+    // axis; the header stays one line.
+    var headRight = CF.el('div', 'pop-head-right');
+    var mfBtn = CF.mfBtn(s);
+    if (mfBtn) headRight.appendChild(mfBtn);
+    headRight.appendChild(CF.scorePill(s));
+    head.appendChild(headRight);
     body.appendChild(head);
-    if (mIsNum(s.rsi)){
+    if (CF.isNum(s.rsi)){
       var dir = s.rsi_dir === 'up' ? ['up', '↑'] : s.rsi_dir === 'down' ? ['down', '↓'] : ['flat', '→'];
-      var rsi = mEl('div', 'pop-rsi');
+      var rsi = CF.el('div', 'pop-rsi');
       rsi.appendChild(document.createTextNode('RSI '));
-      if (s.rsi < 30) rsi.appendChild(mEl('span', 'rsi-pill rsi-pill-os', mF1(s.rsi)));
-      else if (s.rsi > 70) rsi.appendChild(mEl('span', 'rsi-pill rsi-pill-ob', mF1(s.rsi)));
-      else rsi.appendChild(document.createTextNode(mF1(s.rsi)));
+      if (s.rsi < 30) rsi.appendChild(CF.el('span', 'rsi-pill rsi-pill-os', CF.f1(s.rsi)));
+      else if (s.rsi > 70) rsi.appendChild(CF.el('span', 'rsi-pill rsi-pill-ob', CF.f1(s.rsi)));
+      else rsi.appendChild(document.createTextNode(CF.f1(s.rsi)));
       rsi.appendChild(document.createTextNode(' '));
-      rsi.appendChild(mEl('span', 'rsi-arrow rsi-arrow-' + dir[0], dir[1]));
-      if (hit.cn) mCnTip(rsi, CN_TIPS.rsi);
+      rsi.appendChild(CF.el('span', 'rsi-arrow rsi-arrow-' + dir[0], dir[1]));
+      if (hit.cn) CF.cnTip(rsi, CN_TIPS.rsi);
       body.appendChild(rsi);
     }
-    var flags = mFlagsRow(s, hit);
+    var flags = CF.flagsRow(s, hit);
     if (flags) body.appendChild(flags);
     // Price block: price, then the day/month change with Vol
     // beside it on the same line, then vs High on its own
     // line; sparkline at the right.
-    var price = (hit.tops && !hit.monthly && mIsNum(s.close)) ? s.close : (mIsNum(s.latest) ? s.latest : s.close);
-    var pb = mEl('div', 'pop-price');
+    var price = (hit.tops && !hit.monthly && CF.isNum(s.close)) ? s.close : (CF.isNum(s.latest) ? s.latest : s.close);
+    var pb = CF.el('div', 'pop-price');
     var lines = document.createElement('div');
-    lines.appendChild(mEl('span', 'price-main', mIsNum(price) ? mPrice(price) : '—'));
+    lines.appendChild(CF.el('span', 'price-main', CF.isNum(price) ? CF.price(price, mCurSym) : '—'));
     var chg = hit.monthly ? s.month_change_pct : s.day_change_pct;
     var dayline = null;
-    if (mIsNum(chg)){
+    if (CF.isNum(chg)){
       var when = 'today';
       if (hit.monthly){
         var mo = /^(\d{4})-(\d{2})/.exec(s.month_of || '');
         when = 'in ' + (mo ? ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][parseInt(mo[2], 10) - 1] : '');
       }
-      dayline = mEl('span', 'price-dayline');
-      dayline.appendChild(mEl('span', 'price-day ' + (chg < 0 ? 'day-down' : 'day-up'), (chg < 0 ? '−' : '+') + Math.abs(chg).toFixed(2) + '% ' + when));
+      dayline = CF.el('span', 'price-dayline');
+      dayline.appendChild(CF.el('span', 'price-day ' + (chg < 0 ? 'day-down' : 'day-up'), (chg < 0 ? '−' : '+') + Math.abs(chg).toFixed(2) + '% ' + when));
     }
-    if (mIsNum(s.vol_ratio)){
-      if (!dayline) dayline = mEl('span', 'price-dayline');
+    if (CF.isNum(s.vol_ratio)){
+      if (!dayline) dayline = CF.el('span', 'price-dayline');
       else dayline.appendChild(document.createTextNode(' · '));
-      dayline.appendChild(mEl('span', 'price-vol' + (s.vol_ratio >= 2 ? ' vol-hi' : ''), 'Vol ' + mF1(s.vol_ratio) + '×'));
+      dayline.appendChild(CF.el('span', 'price-vol' + (s.vol_ratio >= 2 ? ' vol-hi' : ''), 'Vol ' + CF.f1(s.vol_ratio) + '×'));
     }
     if (dayline) lines.appendChild(dayline);
-    if (mIsNum(s.vs_ttm_high) && mIsNum(s.ttm_high))
-      lines.appendChild(mEl('span', 'price-vs', (s.vs_ttm_high < 0 ? '−' + Math.abs(s.vs_ttm_high) : String(s.vs_ttm_high)) + '% vs High ' + mPrice(s.ttm_high)));
+    if (CF.isNum(s.vs_ttm_high) && CF.isNum(s.ttm_high))
+      lines.appendChild(CF.el('span', 'price-vs', (s.vs_ttm_high < 0 ? '−' + Math.abs(s.vs_ttm_high) : String(s.vs_ttm_high)) + '% vs High ' + CF.price(s.ttm_high, mCurSym)));
     pb.appendChild(lines);
-    var sp = mEl('div', 'pop-spark');
-    var spark = mSparkSVG(s.spark);
+    var sp = CF.el('div', 'pop-spark');
+    var spark = CF.sparkSVG(s.spark);
     if (spark) sp.innerHTML = spark;
     // Beta line directly under the sparkline (cards only — the
     // table carries beta in its Score column): "Beta" label
     // muted, value plain, bold + soft yellow (.beta-hi) at 1.5
     // or more, muted "—" when Yahoo has no beta.
-    var betaLine = mEl('div', 'pop-spark-beta');
-    betaLine.appendChild(mEl('span', 'beta-label', 'Beta'));
+    var betaLine = CF.el('div', 'pop-spark-beta');
+    betaLine.appendChild(CF.el('span', 'beta-label', 'Beta'));
     betaLine.appendChild(document.createTextNode(' '));
-    if (mIsNum(s.beta) && s.beta >= 1.5) betaLine.appendChild(mEl('span', 'beta-hi', s.beta.toFixed(2)));
-    else if (mIsNum(s.beta)) betaLine.appendChild(document.createTextNode(s.beta.toFixed(2)));
-    else betaLine.appendChild(mEl('span', 'beta-label', '—'));
-    if (hit.cn) mCnTip(betaLine, CN_TIPS.beta);
+    if (CF.isNum(s.beta) && s.beta >= 1.5) betaLine.appendChild(CF.el('span', 'beta-hi', s.beta.toFixed(2)));
+    else if (CF.isNum(s.beta)) betaLine.appendChild(document.createTextNode(s.beta.toFixed(2)));
+    else betaLine.appendChild(CF.el('span', 'beta-label', '—'));
+    if (hit.cn) CF.cnTip(betaLine, CN_TIPS.beta);
     sp.appendChild(betaLine);
     // Fair value line directly under Beta (FAST Graphs; US rows
     // only — CN rows carry no fair_value, so nothing renders):
     // "FV" label muted, the fair value, and the % under (green)
     // or over (red) fair value in parens; method in the tooltip.
-    if (mIsNum(s.fair_value)){
-      var fvLine = mEl('div', 'pop-spark-fv');
-      var fvTip = 'Fair value (FAST Graphs): EPS growth ' + (mIsNum(s.fv_growth) ? (s.fv_growth < 0 ? '−' : '+') + Math.abs(s.fv_growth).toFixed(1) + '%' : '—') + (mIsNum(s.fv_window) ? ' (' + s.fv_window + 'y)' : '') + ' → fair P/E ' + (mIsNum(s.fair_pe) ? s.fair_pe.toFixed(1) : '—');
-      if (mIsNum(s.fv_eps)) fvTip += ' · EPS anchor ' + mPrice(s.fv_eps) + (s.fv_eps_src === 'gaap' ? ' (GAAP TTM)' : ' (normalized est.)');
-      if (mIsNum(s.fv_pct)) fvTip += ' · price is ' + (s.fv_pct === 0 ? 'at fair value' : Math.abs(s.fv_pct).toFixed(1) + '% ' + (s.fv_pct < 0 ? 'under' : 'over') + ' fair value');
+    if (CF.isNum(s.fair_value)){
+      var fvLine = CF.el('div', 'pop-spark-fv');
+      var fvTip = 'Fair value (FAST Graphs): EPS growth ' + (CF.isNum(s.fv_growth) ? (s.fv_growth < 0 ? '−' : '+') + Math.abs(s.fv_growth).toFixed(1) + '%' : '—') + (CF.isNum(s.fv_window) ? ' (' + s.fv_window + 'y)' : '') + ' → fair P/E ' + (CF.isNum(s.fair_pe) ? s.fair_pe.toFixed(1) : '—');
+      if (CF.isNum(s.fv_eps)) fvTip += ' · EPS anchor ' + CF.price(s.fv_eps, mCurSym) + (s.fv_eps_src === 'gaap' ? ' (GAAP TTM)' : ' (normalized est.)');
+      if (CF.isNum(s.fv_pct)) fvTip += ' · price is ' + (s.fv_pct === 0 ? 'at fair value' : Math.abs(s.fv_pct).toFixed(1) + '% ' + (s.fv_pct < 0 ? 'under' : 'over') + ' fair value');
       fvLine.title = fvTip;
-      fvLine.appendChild(mEl('span', 'beta-label', 'FV'));
+      fvLine.appendChild(CF.el('span', 'beta-label', 'FV'));
       fvLine.appendChild(document.createTextNode(' '));
-      if (mIsNum(s.fv_pct) && s.fv_pct <= -50) fvLine.appendChild(mEl('span', 'fv-pill-under', mPrice(s.fair_value)));
-      else if (mIsNum(s.fv_pct) && s.fv_pct >= 50) fvLine.appendChild(mEl('span', 'fv-pill-over', mPrice(s.fair_value)));
-      else fvLine.appendChild(document.createTextNode(mPrice(s.fair_value)));
-      if (mIsNum(s.fv_pct)){
+      if (CF.isNum(s.fv_pct) && s.fv_pct <= -50) fvLine.appendChild(CF.el('span', 'fv-pill-under', CF.price(s.fair_value, mCurSym)));
+      else if (CF.isNum(s.fv_pct) && s.fv_pct >= 50) fvLine.appendChild(CF.el('span', 'fv-pill-over', CF.price(s.fair_value, mCurSym)));
+      else fvLine.appendChild(document.createTextNode(CF.price(s.fair_value, mCurSym)));
+      if (CF.isNum(s.fv_pct)){
         var fvPctTxt = '(' + (s.fv_pct < 0 ? '−' : s.fv_pct > 0 ? '+' : '') + Math.abs(s.fv_pct).toFixed(1) + '%)';
-        fvLine.appendChild(mEl('span', s.fv_pct < 0 ? 'fv-under' : s.fv_pct > 0 ? 'fv-over' : '', ' ' + fvPctTxt));
+        fvLine.appendChild(CF.el('span', s.fv_pct < 0 ? 'fv-under' : s.fv_pct > 0 ? 'fv-over' : '', ' ' + fvPctTxt));
       }
       sp.appendChild(fvLine);
     }
@@ -15067,83 +15042,83 @@ function buildRow(s, cfg){
     // .pe-hl only when the P/E is missing. peBad still drives
     // ONLY the P/S .ps-lead lead-in below (missing or above 100),
     // keyed off the P/E value, not its color.
-    var peBad = !mIsNum(s.pe) || s.pe <= 0 || s.pe > 100;
-    var peInfo = mPeHlInfo(s);
+    var peBad = !CF.isNum(s.pe) || s.pe <= 0 || s.pe > 100;
+    var peInfo = CF.peHlInfo(s.pe, s);
     if (hit.cn && peInfo.tip) peInfo = { hl: peInfo.hl, tip: bilingualTitle(peInfo.tip) };
-    var peStat = mStat('P/E', function(val){
-      var txt = (mIsNum(s.pe) && s.pe > 0) ? mF1(s.pe) : '—';
-      if (!mIsNum(s.pe) || s.pe <= 0) val.appendChild(mEl('span', 'pe-hl', txt));
+    var peStat = CF.stat('P/E', function(val){
+      var txt = (CF.isNum(s.pe) && s.pe > 0) ? CF.f1(s.pe) : '—';
+      if (!CF.isNum(s.pe) || s.pe <= 0) val.appendChild(CF.el('span', 'pe-hl', txt));
       else if (peInfo.hl){
-        var pill = mEl('span', peInfo.hl === 'green' ? 'r40-pill-good' : 'r40-neg-pill', txt);
+        var pill = CF.el('span', peInfo.hl === 'green' ? 'r40-pill-good' : 'r40-neg-pill', txt);
         if (peInfo.tip) pill.title = peInfo.tip;
         val.appendChild(pill);
       } else {
-        var plain = mEl('span', null, txt);
+        var plain = CF.el('span', null, txt);
         if (peInfo.tip) plain.title = peInfo.tip;
         val.appendChild(plain);
       }
-      if (mIsNum(s.pe_ttm_high)) val.appendChild(mEl('span', 'pop-sub', '(' + mF1(s.pe_ttm_high) + ' High)'));
+      if (CF.isNum(s.pe_ttm_high)) val.appendChild(CF.el('span', 'pop-sub', '(' + CF.f1(s.pe_ttm_high) + ' High)'));
     });
-    if (hit.cn) mCnTip(peStat, CN_TIPS.pe);
-    var es = Array.isArray(s.earn_surprise) ? s.earn_surprise.filter(mIsNum) : [];
-    var earnStat = mStat('Earnings', function(val){
+    if (hit.cn) CF.cnTip(peStat, CN_TIPS.pe);
+    var es = Array.isArray(s.earn_surprise) ? s.earn_surprise.filter(CF.isNum) : [];
+    var earnStat = CF.stat('Earnings', function(val){
       if (!es.length){ val.appendChild(document.createTextNode('—')); return; }
-      var wrap = mEl('span', 'pop-earn');
+      var wrap = CF.el('span', 'pop-earn');
       var v0 = es[0];
       var cls = v0 >= 5 ? ' earn-up' : v0 <= -5 ? ' earn-down' : '';
-      wrap.appendChild(mEl('span', 'earn-main' + cls, (v0 < 0 ? '−' : '+') + (Math.abs(v0) >= 100 ? String(Math.round(Math.abs(v0))) : mF1(Math.abs(v0))) + '%'));
-      var dots = mEl('span', 'pop-dots');
-      es.slice(0, 3).forEach(function(v){ dots.appendChild(mEl('span', 'earn-dot ' + (v >= 0 ? 'earn-dot-up' : 'earn-dot-down'))); });
+      wrap.appendChild(CF.el('span', 'earn-main' + cls, (v0 < 0 ? '−' : '+') + (Math.abs(v0) >= 100 ? String(Math.round(Math.abs(v0))) : CF.f1(Math.abs(v0))) + '%'));
+      var dots = CF.el('span', 'pop-dots');
+      es.slice(0, 3).forEach(function(v){ dots.appendChild(CF.el('span', 'earn-dot ' + (v >= 0 ? 'earn-dot-up' : 'earn-dot-down'))); });
       wrap.appendChild(dots);
       val.appendChild(wrap);
     });
-    if (hit.cn) mCnTip(earnStat, CN_TIPS.earn);
-    var valuation = mCol('Valuation', hit.cn ? [
+    if (hit.cn) CF.cnTip(earnStat, CN_TIPS.earn);
+    var valuation = CF.col('Valuation', hit.cn ? [
       peStat,
-      mAvgPe('Avg P/E 10y · 平均市盈率', s.pe10y, s.pe10y_years, 10, CN_TIPS.avgpe10),
-      mAvgPe('Avg P/E 15y · 平均市盈率', s.pe15y, s.pe15y_years, 15, CN_TIPS.avgpe15)
+      CF.avgPe('Avg P/E 10y · 平均市盈率', s.pe10y, s.pe10y_years, 10, CN_TIPS.avgpe10),
+      CF.avgPe('Avg P/E 15y · 平均市盈率', s.pe15y, s.pe15y_years, 15, CN_TIPS.avgpe15)
     ].concat([
-      mStatText('Fwd P/E', (mIsNum(s.forward_pe) && s.forward_pe > 0) ? mF1(s.forward_pe) : '—', null, null, null, CN_TIPS.fwdpe),
-      mStatText('P/S', mIsNum(s.ps) ? s.ps.toFixed(2) : '—', peBad ? 'ps-main ps-lead' : null, null, null, CN_TIPS.ps),
-      mStatText('Revenue YoY', mIsNum(s.revenue_growth) ? mSignedPct(s.revenue_growth, false) : '—', mIsNum(s.revenue_growth) ? (s.revenue_growth >= 30 ? 'pop-good' : s.revenue_growth <= -10 ? 'pop-bad' : null) : null, null, null, CN_TIPS.rev),
+      CF.statText('Fwd P/E', (CF.isNum(s.forward_pe) && s.forward_pe > 0) ? CF.f1(s.forward_pe) : '—', null, null, null, CN_TIPS.fwdpe),
+      CF.statText('P/S', CF.isNum(s.ps) ? s.ps.toFixed(2) : '—', peBad ? 'ps-main ps-lead' : null, null, null, CN_TIPS.ps),
+      CF.statText('Revenue YoY', CF.isNum(s.revenue_growth) ? CF.signedPct(s.revenue_growth, false) : '—', CF.isNum(s.revenue_growth) ? (s.revenue_growth >= 30 ? 'pop-good' : s.revenue_growth <= -10 ? 'pop-bad' : null) : null, null, null, CN_TIPS.rev),
       earnStat
     ]) : [
       peStat,
-      mAvgPe('Avg P/E · 10y', s.pe10y, s.pe10y_years, 10),
-      mAvgPe('Avg P/E · 15y', s.pe15y, s.pe15y_years, 15),
-      mStatText('Fwd P/E', (mIsNum(s.forward_pe) && s.forward_pe > 0) ? mF1(s.forward_pe) : '—'),
+      CF.avgPe('Avg P/E · 10y', s.pe10y, s.pe10y_years, 10),
+      CF.avgPe('Avg P/E · 15y', s.pe15y, s.pe15y_years, 15),
+      CF.statText('Fwd P/E', (CF.isNum(s.forward_pe) && s.forward_pe > 0) ? CF.f1(s.forward_pe) : '—'),
       // Same table highlights as the popup: .ps-lead on P/S when
       // the P/E is missing or above 100; Revenue YoY green at +30%
       // or more, red at −10% or less.
-      mStatText('P/S', mIsNum(s.ps) ? s.ps.toFixed(2) : '—', peBad ? 'ps-main ps-lead' : null),
-      mStatText('Revenue YoY', mIsNum(s.revenue_growth) ? mSignedPct(s.revenue_growth, false) : '—', mIsNum(s.revenue_growth) ? (s.revenue_growth >= 30 ? 'pop-good' : s.revenue_growth <= -10 ? 'pop-bad' : null) : null),
+      CF.statText('P/S', CF.isNum(s.ps) ? s.ps.toFixed(2) : '—', peBad ? 'ps-main ps-lead' : null),
+      CF.statText('Revenue YoY', CF.isNum(s.revenue_growth) ? CF.signedPct(s.revenue_growth, false) : '—', CF.isNum(s.revenue_growth) ? (s.revenue_growth >= 30 ? 'pop-good' : s.revenue_growth <= -10 ? 'pop-bad' : null) : null),
       earnStat
     ]);
     var drvWord = s.r40_driver === 'growth' ? 'Growth' : s.r40_driver === 'margin' ? 'Margin' : null;
     var drvVal = s.r40_driver === 'growth' ? s.revenue_growth : s.ebitda_margin;
-    var drvStat = (drvWord && mIsNum(s.rule40) && s.rule40 > 0)
-      ? mStatText('Driver', drvWord, null, mIsNum(drvVal) ? mComma1(drvVal) + '%' : null, 'pop-sub-driver', hit.cn ? CN_TIPS.driver : null)
-      : mStatText('Driver', '—', null, null, null, hit.cn ? CN_TIPS.driver : null);
-    var mtStat = mIsNum(s.margin_trend)
-      ? mStatText('Margin Trend', (s.margin_trend > 0 ? '↑ +' : s.margin_trend < 0 ? '↓ −' : '→ ') + mF1(Math.abs(s.margin_trend)) + 'pp YoY', s.margin_trend > 0 ? 'pop-good' : s.margin_trend < 0 ? 'pop-bad' : 'pop-muted', null, null, hit.cn ? CN_TIPS.margin : null)
-      : mStatText('Margin Trend', '—', null, null, null, hit.cn ? CN_TIPS.margin : null);
-    var cashHl = mIsNum(s.cash) && mIsNum(s.debt) && s.cash > 0 && (s.debt === 0 || s.cash >= 2 * s.debt);
-    var debtHl = mIsNum(s.cash) && mIsNum(s.debt) && s.debt > 0 && (s.cash === 0 || s.debt >= 2 * s.cash);
+    var drvStat = (drvWord && CF.isNum(s.rule40) && s.rule40 > 0)
+      ? CF.statText('Driver', drvWord, null, CF.isNum(drvVal) ? CF.comma1(drvVal) + '%' : null, 'pop-sub-driver', hit.cn ? CN_TIPS.driver : null)
+      : CF.statText('Driver', '—', null, null, null, hit.cn ? CN_TIPS.driver : null);
+    var mtStat = CF.isNum(s.margin_trend)
+      ? CF.statText('Margin Trend', (s.margin_trend > 0 ? '↑ +' : s.margin_trend < 0 ? '↓ −' : '→ ') + CF.f1(Math.abs(s.margin_trend)) + 'pp YoY', s.margin_trend > 0 ? 'pop-good' : s.margin_trend < 0 ? 'pop-bad' : 'pop-muted', null, null, hit.cn ? CN_TIPS.margin : null)
+      : CF.statText('Margin Trend', '—', null, null, null, hit.cn ? CN_TIPS.margin : null);
+    var cashHl = CF.isNum(s.cash) && CF.isNum(s.debt) && s.cash > 0 && (s.debt === 0 || s.cash >= 2 * s.debt);
+    var debtHl = CF.isNum(s.cash) && CF.isNum(s.debt) && s.debt > 0 && (s.cash === 0 || s.debt >= 2 * s.cash);
     var cov = s.int_coverage;
-    var health = mCol('Health', [
-      mR40Stat('R40 · EBITDA', s.rule40, hit.cn ? CN_TIPS.r40e : null),
-      mR40Stat('R40 · FCF', s.rule40_fcf, hit.cn ? CN_TIPS.r40f : null),
+    var health = CF.col('Health', [
+      CF.r40Stat('R40 · EBITDA', s.rule40, hit.cn ? CN_TIPS.r40e : null),
+      CF.r40Stat('R40 · FCF', s.rule40_fcf, hit.cn ? CN_TIPS.r40f : null),
       drvStat,
       mtStat,
-      mIsNum(s.fcf_ttm)
-        ? mStatText('FCF · TTM', (s.fcf_ttm < 0 ? '−' : '') + mMoneyCD(s.fcf_ttm), null, mIsNum(s.fcf_yoy) ? '(' + mSignedPct(s.fcf_yoy, false) + ' YoY)' : null, mIsNum(s.fcf_yoy) ? 'pop-sub' + (s.fcf_yoy >= 30 ? ' pop-fcf-up' : s.fcf_yoy <= -10 ? ' pop-fcf-down' : '') : null, hit.cn ? CN_TIPS.fcf : null)
-        : mStatText('FCF · TTM', '—', null, null, null, hit.cn ? CN_TIPS.fcf : null),
+      CF.isNum(s.fcf_ttm)
+        ? CF.statText('FCF · TTM', (s.fcf_ttm < 0 ? '−' : '') + CF.moneyCD(s.fcf_ttm, mCurSym), null, CF.isNum(s.fcf_yoy) ? '(' + CF.signedPct(s.fcf_yoy, false) + ' YoY)' : null, CF.isNum(s.fcf_yoy) ? 'pop-sub' + (s.fcf_yoy >= 30 ? ' pop-fcf-up' : s.fcf_yoy <= -10 ? ' pop-fcf-down' : '') : null, hit.cn ? CN_TIPS.fcf : null)
+        : CF.statText('FCF · TTM', '—', null, null, null, hit.cn ? CN_TIPS.fcf : null),
       // Cash / Debt: the table's .cd-hl pills, same as the popup.
-      mStatText('Cash', mIsNum(s.cash) ? mMoneyCD(s.cash) : '—', cashHl ? 'cd-hl cd-cash' : null, null, null, hit.cn ? CN_TIPS.cash : null),
-      mStatText('Debt', mIsNum(s.debt) ? mMoneyCD(s.debt) : '—', debtHl ? 'cd-hl cd-debt' : null, null, null, hit.cn ? CN_TIPS.debt : null),
-      mStatText('Cover', mIsNum(cov) ? mF1m(cov) + '×' : '—', mIsNum(cov) ? (cov >= 3 ? 'pop-good' : cov >= 1.5 ? 'pop-amber' : 'pop-bad') : null, null, null, hit.cn ? CN_TIPS.cover : null)
+      CF.statText('Cash', CF.isNum(s.cash) ? CF.moneyCD(s.cash, mCurSym) : '—', cashHl ? 'cd-hl cd-cash' : null, null, null, hit.cn ? CN_TIPS.cash : null),
+      CF.statText('Debt', CF.isNum(s.debt) ? CF.moneyCD(s.debt, mCurSym) : '—', debtHl ? 'cd-hl cd-debt' : null, null, null, hit.cn ? CN_TIPS.debt : null),
+      CF.statText('Cover', CF.isNum(cov) ? CF.f1m(cov) + '×' : '—', CF.isNum(cov) ? (cov >= 3 ? 'pop-good' : cov >= 1.5 ? 'pop-amber' : 'pop-bad') : null, null, null, hit.cn ? CN_TIPS.cover : null)
     ]);
-    var vh = mEl('div', 'pop-cols');
+    var vh = CF.el('div', 'pop-cols');
     vh.appendChild(valuation);
     vh.appendChild(health);
     body.appendChild(vh);
@@ -15151,135 +15126,95 @@ function buildRow(s, cfg){
     // columns do not fit label + value at phone width), in the
     // popup's row-wise reading order.
     var insNet = s.insider_net_dollars_3m;
-    var insTxt = (mIsNum(insNet) && insNet !== 0) ? (insNet > 0 ? 'Bought ' : 'Sold ') + mMoneyShort(insNet) : '—';
+    var insTxt = (CF.isNum(insNet) && insNet !== 0) ? (insNet > 0 ? 'Bought ' : 'Sold ') + CF.moneyShortCard(insNet, mCurSym) : '—';
     var insSub = ((s.insider_buy_trans_3m || 0) + (s.insider_sell_trans_3m || 0)) > 0
       ? '(' + (s.insider_buy_trans_3m || 0) + 'B/' + (s.insider_sell_trans_3m || 0) + 'S)' : null;
-    var insStat = mStat('Insiders', function(val){
-      var pill = mIsNum(insNet) && insNet > 5e6 ? 'insider-pill insider-pill-buy'
-        : mIsNum(insNet) && insNet < -25e6 ? 'insider-pill insider-pill-sell' : null;
-      if (pill) val.appendChild(mEl('span', pill, insTxt));
+    var insStat = CF.stat('Insiders', function(val){
+      var pill = CF.isNum(insNet) && insNet > 5e6 ? 'insider-pill insider-pill-buy'
+        : CF.isNum(insNet) && insNet < -25e6 ? 'insider-pill insider-pill-sell' : null;
+      if (pill) val.appendChild(CF.el('span', pill, insTxt));
       else val.appendChild(document.createTextNode(insTxt));
-      if (insSub) val.appendChild(mEl('span', 'pop-sub', insSub));
+      if (insSub) val.appendChild(CF.el('span', 'pop-sub', insSub));
     });
     // China: the 董监高 Insiders item, mirroring the popup's.
     var cnInsStatM = null;
     if (hit.cn){
       var cnNM = s.cn_insider_net;
-      var cnTxtM = (mIsNum(cnNM) && cnNM !== 0) ? (cnNM > 0 ? 'Bought ' : 'Sold ') + mMoneyShort(cnNM) : '—';
+      var cnTxtM = (CF.isNum(cnNM) && cnNM !== 0) ? (cnNM > 0 ? 'Bought ' : 'Sold ') + CF.moneyShortCard(cnNM, mCurSym) : '—';
       var cnSubM = ((s.cn_insider_buys || 0) + (s.cn_insider_sells || 0)) > 0
         ? '(' + (s.cn_insider_buys || 0) + 'B/' + (s.cn_insider_sells || 0) + 'S)' : null;
-      cnInsStatM = mStat('Insiders · 内部人', function(val){
-        var pill = mIsNum(cnNM) && cnNM > 5e6 ? 'insider-pill insider-pill-buy'
-          : mIsNum(cnNM) && cnNM < -25e6 ? 'insider-pill insider-pill-sell' : null;
-        if (pill) val.appendChild(mEl('span', pill, cnTxtM));
+      cnInsStatM = CF.stat('Insiders · 内部人', function(val){
+        var pill = CF.isNum(cnNM) && cnNM > 5e6 ? 'insider-pill insider-pill-buy'
+          : CF.isNum(cnNM) && cnNM < -25e6 ? 'insider-pill insider-pill-sell' : null;
+        if (pill) val.appendChild(CF.el('span', pill, cnTxtM));
         else val.appendChild(document.createTextNode(cnTxtM));
-        if (cnSubM) val.appendChild(mEl('span', 'pop-sub', cnSubM));
+        if (cnSubM) val.appendChild(CF.el('span', 'pop-sub', cnSubM));
       });
       if (Array.isArray(s.cn_insider_events) && s.cn_insider_events.length){
         cnInsStatM.title = 'Insider trades · 董监高增减持 (last 3 months)\n' + s.cn_insider_events.map(function(ev){
-          return (ev.name || '') + (ev.role ? ' · ' + ev.role : '') + ' — ' + (ev.direction === 'buy' ? '买入 bought' : '卖出 sold') + ' ' + (mIsNum(ev.shares) ? ev.shares.toLocaleString('en-US') : '—') + ' 股' + (mIsNum(ev.avg_price) ? ' @ ¥' + ev.avg_price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '') + ' · ' + (ev.date || '');
+          return (ev.name || '') + (ev.role ? ' · ' + ev.role : '') + ' — ' + (ev.direction === 'buy' ? '买入 bought' : '卖出 sold') + ' ' + (CF.isNum(ev.shares) ? ev.shares.toLocaleString('en-US') : '—') + ' 股' + (CF.isNum(ev.avg_price) ? ' @ ¥' + ev.avg_price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '') + ' · ' + (ev.date || '');
         }).join('\n');
       }
       var cnInsTipM = CN_TIPS.insiders; if (cnInsStatM.title) cnInsTipM = cnInsTipM + '\n' + cnInsStatM.title;
       cnInsStatM.removeAttribute('title');
-      mCnTip(cnInsStatM, cnInsTipM);
+      CF.cnTip(cnInsStatM, cnInsTipM);
     }
-    var aLabel = 'Analysts' + (mIsNum(s.analyst_count) && s.analyst_count > 0 ? ' · ' + s.analyst_count : '');
-    var aTxt = mIsNum(s.analyst_mean) ? mRatingWord(s) + ' (' + s.analyst_mean.toFixed(2) + ')' : '—';
+    var aLabel = 'Analysts' + (CF.isNum(s.analyst_count) && s.analyst_count > 0 ? ' · ' + s.analyst_count : '');
+    var aTxt = CF.isNum(s.analyst_mean) ? CF.ratingWord(s) + ' (' + s.analyst_mean.toFixed(2) + ')' : '—';
     var tSub = null;
-    if (mIsNum(s.analyst_target) && mIsNum(price) && price > 0){
+    if (CF.isNum(s.analyst_target) && CF.isNum(price) && price > 0){
       var up = (s.analyst_target / price - 1) * 100;
       tSub = (up < 0 ? '−' : '+') + Math.abs(Math.round(up)) + '%';
     }
-    var sent = mEl('div', 'pop-cols');
-    sent.appendChild(mCol('Sentiment', hit.cn ? [
+    var sent = CF.el('div', 'pop-cols');
+    sent.appendChild(CF.col('Sentiment', hit.cn ? [
       cnInsStatM,
-      mStatText(aLabel, aTxt, null, null, null, CN_TIPS.analysts),
-      mStatText('Target', mIsNum(s.analyst_target) ? mPrice(s.analyst_target) : '—', null, tSub, null, CN_TIPS.target)
+      CF.statText(aLabel, aTxt, null, null, null, CN_TIPS.analysts),
+      CF.statText('Target', CF.isNum(s.analyst_target) ? CF.price(s.analyst_target, mCurSym) : '—', null, tSub, null, CN_TIPS.target)
     ] : [
       insStat,
-      mStatText('Short', mIsNum(s.short_pct) ? mF1(s.short_pct) + '%' : '—', null, mIsNum(s.days_to_cover) ? mF1(s.days_to_cover) + 'd' : null),
-      mStatText(aLabel, aTxt),
-      mStatText('Target', mIsNum(s.analyst_target) ? mPrice(s.analyst_target) : '—', null, tSub),
-      mStatText('Put / call', mIsNum(s.put_call) ? s.put_call.toFixed(2) + ' · ' + (s.put_call < 1 ? 'bullish' : s.put_call > 1 ? 'bearish' : 'neutral') : '—')
+      CF.statText('Short', CF.isNum(s.short_pct) ? CF.f1(s.short_pct) + '%' : '—', null, CF.isNum(s.days_to_cover) ? CF.f1(s.days_to_cover) + 'd' : null),
+      CF.statText(aLabel, aTxt),
+      CF.statText('Target', CF.isNum(s.analyst_target) ? CF.price(s.analyst_target, mCurSym) : '—', null, tSub),
+      CF.statText('Put / call', CF.isNum(s.put_call) ? s.put_call.toFixed(2) + ' · ' + (s.put_call < 1 ? 'bullish' : s.put_call > 1 ? 'bearish' : 'neutral') : '—')
     ]));
     body.appendChild(sent);
     // 13F: full-width block under Sentiment.
-    if (hit.cn){ var cnHbM = mCnHoldersBlock(s, hit); if (cnHbM) body.appendChild(cnHbM); }
-    else body.appendChild(mF13Block(s, hit));
-    var analysis = mAnalysis(s);
+    if (hit.cn){ var cnHbM = CF.cnHoldersBlock(s, hit, mCurSym); if (cnHbM) body.appendChild(cnHbM); }
+    else body.appendChild(CF.f13Block(s, hit, mCurSym));
+    var analysis = CF.analysis(s);
     if (analysis) body.appendChild(analysis);
-    body.appendChild(mEl('div', 'pop-hint', '↻ Tap card to flip — see what stands out'));
+    body.appendChild(CF.el('div', 'pop-hint', '↻ Tap card to flip — see what stands out'));
   }
   // China holders block: mirrors the popup's pCnHoldersBlock.
-  function mCnHoldersBlock(s, hit){
-    var holders = Array.isArray(s.cn_holders) ? s.cn_holders : [];
-    if (!holders.length || !mIsNum(s.cn_inst_net_value)) return null;
-    var price = (hit.tops && !hit.monthly && mIsNum(s.close)) ? s.close : (mIsNum(s.latest) ? s.latest : s.close);
-    var wrap = mEl('div', 'pop-f13 cn-holders-block');
-    var head = mEl('div', 'pop-f13-head');
-    var per = '';
-    var pm = /^(\d{4})-(\d{2})-(\d{2})/.exec(s.cn_holders_period || '');
-    if (pm){ var pmo = parseInt(pm[2], 10), pdy = parseInt(pm[3], 10); per = (pmo % 3 === 0 && pdy >= 28) ? ' · Q' + (pmo / 3) + ' ' + pm[1] : ' · ' + s.cn_holders_period; }
-    head.appendChild(mEl('span', 'pop-group-label', 'Top holders · 十大流通股东' + per));
-    var netWrap = mEl('span', 'pop-f13-net');
-    netWrap.appendChild(mEl('span', 'pop-f13-netlab', 'Net'));
-    netWrap.appendChild(mEl('span', 'f13-net-pill ' + (s.cn_inst_net_value >= 0 ? 'f13-net-buy' : 'f13-net-sell'), (s.cn_inst_net_value < 0 ? '−' : '+') + mMoneyShort(s.cn_inst_net_value)));
-    head.appendChild(netWrap);
-    wrap.appendChild(head);
-    mCnTip(wrap, CN_TIPS.holders);
-    var movers = holders.filter(function(h){ return h && mIsNum(h.change_shares) && h.change_shares !== 0; });
-    movers.sort(function(a, b){ return Math.abs(b.change_shares) - Math.abs(a.change_shares); });
-    if (!movers.length){
-      wrap.appendChild(mEl('div', 'pop-nomoves', 'No changes 无变动'));
-      return wrap;
-    }
-    movers.forEach(function(h){
-      var row = mEl('div', 'pop-f13-move');
-      var left = mEl('span', 'pop-f13-left');
-      var mgr = mEl('span', 'pop-f13-mgr', h.name || '');
-      mgr.title = h.name || '';
-      left.appendChild(mgr);
-      row.appendChild(left);
-      var right = mEl('span', 'pop-f13-right');
-      right.appendChild(mEl('span', 'f13-act', h.status || ''));
-      var hv = mIsNum(price) ? h.change_shares * price : null;
-      var txt = hv !== null ? (hv < 0 ? '−' : '+') + mMoneyShort(hv) : (h.change_shares > 0 ? '+' : '−') + Math.abs(h.change_shares).toLocaleString('en-US') + ' 股';
-      if (mIsNum(h.change_pct)) txt += ' (' + (h.change_pct < 0 ? '−' : '+') + mTrim1(Math.abs(h.change_pct)) + '%)';
-      right.appendChild(mEl('span', 'pop-f13-val ' + (h.change_shares >= 0 ? 'f13-buy' : 'f13-sell'), txt));
-      row.appendChild(right);
-      wrap.appendChild(row);
-    });
-    return wrap;
-  }
   // ——— Back of card: the "Most interesting" call-outs, uncapped ———
   // The same 9 rules and priority order as the popup's back.
   function mCallouts(s){
     var out = [];
     // China call-outs (Backing): same bars as the popup's back.
     if (s.ccy === 'CNY'){
-      if (mIsNum(s.cn_insider_net) && (s.cn_insider_net > 5e6 || s.cn_insider_net < -25e6))
-        out.push({ icon: '👤', label: 'Insiders ' + (s.cn_insider_net > 0 ? 'bought 董监高买入' : 'sold 董监高卖出'), value: mMoneyShort(s.cn_insider_net), tone: s.cn_insider_net > 0 ? 'good' : 'bad' });
-      if (mIsNum(s.cn_inst_net_value) && Math.abs(s.cn_inst_net_value) > 100e6)
-        out.push({ icon: '🏦', label: 'Big holders ' + (s.cn_inst_net_value > 0 ? 'bought 机构买入' : 'sold 机构卖出'), value: mMoneyShort(s.cn_inst_net_value), tone: s.cn_inst_net_value > 0 ? 'good' : 'bad' });
+      if (CF.isNum(s.cn_insider_net) && (s.cn_insider_net > 5e6 || s.cn_insider_net < -25e6))
+        out.push({ icon: '👤', label: 'Insiders ' + (s.cn_insider_net > 0 ? 'bought 董监高买入' : 'sold 董监高卖出'), value: CF.moneyShortCard(s.cn_insider_net, mCurSym), tone: s.cn_insider_net > 0 ? 'good' : 'bad' });
+      if (CF.isNum(s.cn_inst_net_value) && Math.abs(s.cn_inst_net_value) > 100e6)
+        out.push({ icon: '🏦', label: 'Big holders ' + (s.cn_inst_net_value > 0 ? 'bought 机构买入' : 'sold 机构卖出'), value: CF.moneyShortCard(s.cn_inst_net_value, mCurSym), tone: s.cn_inst_net_value > 0 ? 'good' : 'bad' });
     }
-    if (mIsNum(s.insider_net_dollars_3m) && Math.abs(s.insider_net_dollars_3m) > 25e6)
-      out.push({ icon: '👤', label: 'Insiders ' + (s.insider_net_dollars_3m > 0 ? 'bought' : 'sold'), value: mMoneyShort(s.insider_net_dollars_3m), tone: s.insider_net_dollars_3m > 0 ? 'good' : 'bad' });
-    if (mIsNum(s.f13_net_dollars) && Math.abs(s.f13_net_dollars) > 100e6)
-      out.push({ icon: '🏦', label: '13F funds ' + (s.f13_net_dollars > 0 ? 'bought' : 'sold'), value: mMoneyShort(s.f13_net_dollars), tone: s.f13_net_dollars > 0 ? 'good' : 'bad' });
-    if (mIsNum(s.vol_ratio) && s.vol_ratio >= 2)
+    if (CF.isNum(s.insider_net_dollars_3m) && Math.abs(s.insider_net_dollars_3m) > 25e6)
+      out.push({ icon: '👤', label: 'Insiders ' + (s.insider_net_dollars_3m > 0 ? 'bought' : 'sold'), value: CF.moneyShortCard(s.insider_net_dollars_3m, mCurSym), tone: s.insider_net_dollars_3m > 0 ? 'good' : 'bad' });
+    if (CF.isNum(s.f13_net_dollars) && Math.abs(s.f13_net_dollars) > 100e6)
+      out.push({ icon: '🏦', label: '13F funds ' + (s.f13_net_dollars > 0 ? 'bought' : 'sold'), value: CF.moneyShortCard(s.f13_net_dollars, mCurSym), tone: s.f13_net_dollars > 0 ? 'good' : 'bad' });
+    if (CF.isNum(s.vol_ratio) && s.vol_ratio >= 2)
       out.push({ icon: '📊', label: 'Vol', value: s.vol_ratio.toFixed(1) + '×', tone: '' });
-    if (mIsNum(s.short_pct) && s.short_pct >= 10)
-      out.push({ icon: '📉', label: 'Short', value: mTrim1(s.short_pct) + '%', tone: 'bad' });
-    if (mIsNum(s.shares_3y) && Math.abs(s.shares_3y) >= 25)
-      out.push({ icon: '🔄', label: 'Shares', value: mSignedPct(s.shares_3y, true), suffix: 'in 3y', tone: s.shares_3y < 0 ? 'good' : 'bad' });
-    if (mIsNum(s.rule40) && (s.rule40 > 100 || s.rule40 < -50))
-      out.push({ icon: '💹', label: 'R40', value: mTrim1(s.rule40).replace('-', '−'), suffix: '(EBITDA)', tone: s.rule40 > 100 ? 'good' : 'bad' });
-    if (mIsNum(s.revenue_growth) && (s.revenue_growth > 100 || s.revenue_growth < -20))
-      out.push({ icon: '💵', label: 'Revenue', value: mSignedPct(s.revenue_growth, false), suffix: 'YoY', tone: s.revenue_growth > 0 ? 'good' : 'bad' });
-    if (mIsNum(s.margin_trend) && Math.abs(s.margin_trend) >= 20)
-      out.push({ icon: '📐', label: 'Margin', value: mSignedPct(s.margin_trend, false).replace('%', 'pp'), suffix: 'YoY', tone: s.margin_trend > 0 ? 'good' : 'bad' });
-    if (mIsNum(s.rsi) && s.rsi < 30)
+    if (CF.isNum(s.short_pct) && s.short_pct >= 10)
+      out.push({ icon: '📉', label: 'Short', value: CF.trim1(s.short_pct) + '%', tone: 'bad' });
+    if (CF.isNum(s.shares_3y) && Math.abs(s.shares_3y) >= 25)
+      out.push({ icon: '🔄', label: 'Shares', value: CF.signedPct(s.shares_3y, true), suffix: 'in 3y', tone: s.shares_3y < 0 ? 'good' : 'bad' });
+    if (CF.isNum(s.rule40) && (s.rule40 > 100 || s.rule40 < -50))
+      out.push({ icon: '💹', label: 'R40', value: CF.trim1(s.rule40).replace('-', '−'), suffix: '(EBITDA)', tone: s.rule40 > 100 ? 'good' : 'bad' });
+    if (CF.isNum(s.revenue_growth) && (s.revenue_growth > 100 || s.revenue_growth < -20))
+      out.push({ icon: '💵', label: 'Revenue', value: CF.signedPct(s.revenue_growth, false), suffix: 'YoY', tone: s.revenue_growth > 0 ? 'good' : 'bad' });
+    if (CF.isNum(s.margin_trend) && Math.abs(s.margin_trend) >= 20)
+      out.push({ icon: '📐', label: 'Margin', value: CF.signedPct(s.margin_trend, false).replace('%', 'pp'), suffix: 'YoY', tone: s.margin_trend > 0 ? 'good' : 'bad' });
+    if (CF.isNum(s.rsi) && s.rsi < 30)
       out.push({ icon: '🌡️', label: 'RSI', value: s.rsi.toFixed(1), tone: 'good' });
     return out;
   }
@@ -15289,42 +15224,34 @@ function buildRow(s, cfg){
   // click stopPropagation()s so tapping it opens the article in
   // a new tab without flipping the card back via the delegated
   // tap-to-flip handler. ———
-  function mNewsAge(pubDate){
-    var t = Date.parse(pubDate);
-    if (isNaN(t)) return '';
-    var mins = Math.floor((Date.now() - t) / 60000);
-    if (mins < 0) mins = 0;
-    if (mins < 1440) return Math.floor(mins / 60) + 'h ago';
-    return Math.floor(mins / 1440) + 'd ago';
-  }
   function buildMNews(s){
-    var sec = mEl('div', 'pop-news');
-    sec.appendChild(mEl('div', 'pop-group-label', '📰 Recent news'));
+    var sec = CF.el('div', 'pop-news');
+    sec.appendChild(CF.el('div', 'pop-group-label', '📰 Recent news'));
     var items = Array.isArray(s.news) ? s.news.slice(0, 3) : [];
     if (!items.length){
-      sec.appendChild(mEl('div', 'news-empty', 'No major news in the last 7 days'));
+      sec.appendChild(CF.el('div', 'news-empty', 'No major news in the last 7 days'));
       return sec;
     }
     items.forEach(function(it){
       if (!it) return;
-      var item = mEl('div', 'news-item');
+      var item = CF.el('div', 'news-item');
       var title = String(it.title || '');
       if (it.url){
-        var a = mEl('a', 'news-headline', title);
+        var a = CF.el('a', 'news-headline', title);
         a.href = it.url;
         a.target = '_blank';
         a.rel = 'noopener';
         a.addEventListener('click', function(e){ e.stopPropagation(); });
         item.appendChild(a);
       } else {
-        item.appendChild(mEl('span', 'news-headline', title));
+        item.appendChild(CF.el('span', 'news-headline', title));
       }
-      if (it.summary) item.appendChild(mEl('span', 'news-sum', String(it.summary)));
+      if (it.summary) item.appendChild(CF.el('span', 'news-sum', String(it.summary)));
       var meta = [];
       if (it.provider) meta.push(String(it.provider));
-      var age = mNewsAge(it.pubDate);
+      var age = CF.newsAge(it.pubDate);
       if (age) meta.push(age);
-      if (meta.length) item.appendChild(mEl('span', 'news-meta', meta.join(' · ')));
+      if (meta.length) item.appendChild(CF.el('span', 'news-meta', meta.join(' · ')));
       sec.appendChild(item);
     });
     return sec;
@@ -15334,20 +15261,20 @@ function buildRow(s, cfg){
   function buildMCnEvents(s){
     var evs = Array.isArray(s.cn_insider_events) ? s.cn_insider_events : [];
     if (!evs.length) return null;
-    var sec = mEl('div', 'pop-news');
-    var evHead = mEl('div', 'pop-group-label', 'Insider trades · 董监高增减持');
-    mCnTip(evHead, CN_TIPS.events);
+    var sec = CF.el('div', 'pop-news');
+    var evHead = CF.el('div', 'pop-group-label', 'Insider trades · 董监高增减持');
+    CF.cnTip(evHead, CN_TIPS.events);
     sec.appendChild(evHead);
     evs.forEach(function(ev){
       if (!ev) return;
-      var item = mEl('div', 'news-item');
-      item.appendChild(mEl('span', 'news-headline', (ev.name || '') + (ev.role ? ' · ' + ev.role : '')));
+      var item = CF.el('div', 'news-item');
+      item.appendChild(CF.el('span', 'news-headline', (ev.name || '') + (ev.role ? ' · ' + ev.role : '')));
       var parts = [];
       parts.push(ev.direction === 'buy' ? '买入 Bought' : '卖出 Sold');
-      if (mIsNum(ev.shares)) parts.push(ev.shares.toLocaleString('en-US') + ' 股');
-      if (mIsNum(ev.avg_price)) parts.push('@ ¥' + ev.avg_price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+      if (CF.isNum(ev.shares)) parts.push(ev.shares.toLocaleString('en-US') + ' 股');
+      if (CF.isNum(ev.avg_price)) parts.push('@ ¥' + ev.avg_price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
       if (ev.date) parts.push(String(ev.date));
-      item.appendChild(mEl('span', 'news-sum', parts.join(' · ')));
+      item.appendChild(CF.el('span', 'news-sum', parts.join(' · ')));
       sec.appendChild(item);
     });
     return sec;
@@ -15355,37 +15282,37 @@ function buildRow(s, cfg){
   function buildMBack(hit, body){
     var s = hit.row;
     mCurSym = s.ccy === 'CNY' ? '¥' : '$';
-    var head = mEl('div', 'pop-head');
-    head.appendChild(mHeadLeft(s, hit, true));
-    head.appendChild(mScorePill(s));
+    var head = CF.el('div', 'pop-head');
+    head.appendChild(CF.headLeft(s, hit, true));
+    head.appendChild(CF.scorePill(s));
     body.appendChild(head);
     // The same flag pills as the front, under the back's header
     // (this builder also backs the compare-mode cards).
-    var mbflags = mFlagsRow(s, hit);
+    var mbflags = CF.flagsRow(s, hit);
     if (mbflags) body.appendChild(mbflags);
     var cos = mCallouts(s);
     if (!cos.length){
-      body.appendChild(mEl('div', 'pop-none', 'No standout call-outs for this stock.'));
+      body.appendChild(CF.el('div', 'pop-none', 'No standout call-outs for this stock.'));
     } else {
-      var wrap = mEl('div', 'pop-callouts');
-      var inner = mEl('div', 'pick-callouts');
+      var wrap = CF.el('div', 'pop-callouts');
+      var inner = CF.el('div', 'pick-callouts');
       inner.style.marginTop = '0';
       inner.style.borderTop = 'none';
       inner.style.paddingTop = '0';
       function coLine(co){
-        var line = mEl('div', 'pick-callout');
-        var ic = mEl('span', 'co-icon', co.icon);
+        var line = CF.el('div', 'pick-callout');
+        var ic = CF.el('span', 'co-icon', co.icon);
         ic.setAttribute('aria-hidden', 'true');
         line.appendChild(ic);
-        line.appendChild(mEl('span', 'co-label', co.label));
-        line.appendChild(mEl('strong', 'co-val' + (co.tone ? ' co-' + co.tone : ''), co.value));
-        if (co.suffix) line.appendChild(mEl('span', 'co-suffix', co.suffix));
+        line.appendChild(CF.el('span', 'co-label', co.label));
+        line.appendChild(CF.el('strong', 'co-val' + (co.tone ? ' co-' + co.tone : ''), co.value));
+        if (co.suffix) line.appendChild(CF.el('span', 'co-suffix', co.suffix));
         return line;
       }
       function coGroup(label, cls, list, isNeutral){
         if (!list.length) return;
-        var g = mEl('div', 'co-group' + (isNeutral ? ' co-group-neutral' : ''));
-        if (label) g.appendChild(mEl('div', 'co-group-label ' + cls, label));
+        var g = CF.el('div', 'co-group' + (isNeutral ? ' co-group-neutral' : ''));
+        if (label) g.appendChild(CF.el('div', 'co-group-label ' + cls, label));
         list.forEach(function(co){ g.appendChild(coLine(co)); });
         inner.appendChild(g);
       }
@@ -15397,7 +15324,7 @@ function buildRow(s, cfg){
     }
     if (!hit.cn) body.appendChild(buildMNews(s));
     else { var cnEvSecM = buildMCnEvents(s); if (cnEvSecM) body.appendChild(cnEvSecM); }
-    body.appendChild(mEl('div', 'pop-hint', '↻ Tap card to flip back'));
+    body.appendChild(CF.el('div', 'pop-hint', '↻ Tap card to flip back'));
   }
   // ——— Build / rebuild wiring ———
   function buildMCard(tr){
@@ -15405,17 +15332,17 @@ function buildRow(s, cfg){
       if (tr.children[i].classList && tr.children[i].classList.contains('mcard-cell')) return;
     var hit = mDataFor(tr);
     if (!hit) return;
-    var td = mEl('td', 'mcard-cell');
-    var flip = mEl('div', 'mflip');
-    var inner = mEl('div', 'mflip-inner');
-    var front = mEl('div', 'mface mfront');
-    var back = mEl('div', 'mface mback');
+    var td = CF.el('td', 'mcard-cell');
+    var flip = CF.el('div', 'mflip');
+    var inner = CF.el('div', 'mflip-inner');
+    var front = CF.el('div', 'mface mfront');
+    var back = CF.el('div', 'mface mback');
     back.setAttribute('aria-hidden', 'true');
     // The builders fill inner content wrappers (the same shape
     // the compare slots use), so the flip-height fit can measure
     // each face's natural height from its wrapper.
-    var frontBody = mEl('div');
-    var backBody = mEl('div');
+    var frontBody = CF.el('div');
+    var backBody = CF.el('div');
     buildMFront(hit, frontBody);
     buildMBack(hit, backBody);
     front.appendChild(frontBody);
