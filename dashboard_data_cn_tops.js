@@ -1,26 +1,27 @@
 window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
- "read_type": "intra-week",
- "check_date": "2026-11-27",
+ "read_type": "confirmed",
+ "check_date": "2026-11-28",
  "as_of": "2026-11-27 close (Fri)",
- "intraweek": true,
- "note": "Intra-week snapshot: upper-band touches are unconfirmed until Friday's close.",
+ "intraweek": false,
+ "note": "Confirmed weekly scan (closed weeks only).",
  "stocks": [
   {
    "ticker": "000001.SZ",
    "status": "near",
-   "latest": 12.23,
+   "close": 12.23,
    "week_of": "2026-11-23",
-   "mid": 11.48,
+   "partial_week_dropped": false,
+   "mid": 11.57,
    "upper": 12.33,
    "dist_to_upper_pct": -0.8,
    "weeks_touching": 0,
-   "rsi": 62.9,
-   "rsi_prev": 61.1,
-   "rsi_dir": "up",
+   "rsi": 63.0,
+   "rsi_prev": 62.9,
+   "rsi_dir": "flat",
    "overbought": false,
-   "vol_ratio": 1.63,
+   "vol_ratio": 1.99,
    "market_cap": 237334364160,
-   "pe": 5.7,
+   "pe": 5.8,
    "forward_pe": 5.5,
    "ps": 2.58,
    "revenue_growth": 1.0,
@@ -43,14 +44,14 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 15,
    "pe10y": 6.8,
    "pe10y_years": 10,
-   "pe15y_vs": -15,
+   "pe15y_vs": -13,
    "fcf_ttm": 524412000000,
    "fcf_qoq": 12.0,
    "fcf_yoy": 501.6,
    "ttm_high": 12.51,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -2,
-   "pe_ttm_high": 5.8,
+   "pe_ttm_high": 5.9,
    "spark": [
     11.49,
     11.45,
@@ -73,25 +74,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.5,
    "margin_trend": null,
    "day_change_pct": -1.77,
-   "trap_count": 0,
-   "opp_count": 4,
-   "trap_flag": false,
-   "opp_flag": true,
-   "trap_tip": null,
-   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt; P/E 5.7 is below its usual 6.7 over the last 15 years, and forward P/E is only 5.5; big holders net added \u00a55.67B last quarter.",
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -14.9,
-   "pe_vs_sector_pct": -34.5,
-   "pe_highlight": "green",
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u5e73\u5b89\u4fdd\u9669(\u96c6\u56e2)\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u96c6\u56e2\u672c\u7ea7-\u81ea\u6709\u8d44\u91d1",
@@ -181,18 +163,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 64.1
    },
    "cn_inst_net_value": 5672914779,
-   "score": 6,
-   "score_v": 2,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 5.7 is below its usual 6.7 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.67B last quarter (bar: >\u00a5237.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt; P/E 5.7 is below its usual 6.7 over the last 15 years, and forward P/E is only 5.5; big holders net added \u00a55.67B last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 5/8).",
-   "score_raw": 5,
+   "trap_count": 0,
+   "opp_count": 4,
+   "trap_flag": false,
+   "opp_flag": true,
+   "trap_tip": null,
+   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt; P/E 5.8 is below its usual 6.7 over the last 15 years, and forward P/E is only 5.5; big holders net added \u00a55.67B last quarter.",
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -13.4,
+   "pe_vs_sector_pct": -33.3,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 80.031
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 51.159
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 8.526
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 42.633
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -229,45 +243,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 42.633,
       "yoy": -4.2
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 80.031
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 51.159
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 8.526
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 42.633
-     }
     ]
-   }
+   },
+   "score": 6,
+   "score_v": 2,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "000001.SZ scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 5.8 is below its usual 6.7 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a55.67B last quarter (bar: >\u00a5237.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 16 analysts); their average target is \u00a513.53, 11% above the price; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt; P/E 5.8 is below its usual 6.7 over the last 15 years, and forward P/E is only 5.5; big holders net added \u00a55.67B last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 5/8).",
+   "score_raw": 5
   },
   {
    "ticker": "000333.SZ",
-   "status": "touch",
-   "latest": 92.99,
+   "status": "near",
+   "close": 92.99,
    "week_of": "2026-11-23",
-   "mid": 85.43,
-   "upper": 92.88,
-   "dist_to_upper_pct": 0.1,
-   "weeks_touching": 2,
-   "rsi": 70.5,
-   "rsi_prev": 64.8,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.26,
+   "partial_week_dropped": false,
+   "mid": 86.13,
+   "upper": 93.66,
+   "dist_to_upper_pct": -0.7,
+   "weeks_touching": 0,
+   "rsi": 65.6,
+   "rsi_prev": 70.5,
+   "rsi_dir": "down",
+   "overbought": false,
+   "vol_ratio": 1.54,
    "market_cap": 709549096960,
    "pe": 14.6,
    "forward_pe": 14.5,
@@ -330,25 +332,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 11.8,
    "margin_trend": null,
    "day_change_pct": -1.61,
-   "trap_count": 2,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 17.7,
-   "pe_vs_sector_pct": -10.4,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u7f8e\u7684\u63a7\u80a1\u6709\u9650\u516c\u53f8",
@@ -438,18 +421,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 7.0
    },
    "cn_inst_net_value": 4273612567,
-   "score": 4,
-   "score_v": 0,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): P/E 14.6 is above its usual 12.4 over the last 13 years.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.27B last quarter (bar: >\u00a5709.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
+   "trap_count": 2,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.",
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 17.7,
+   "pe_vs_sector_pct": -10.4,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 335.989
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 122.513
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 17.788
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 58.984
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 45.741
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 45.741
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 7.344
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 8.565
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 44.52
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -521,716 +561,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 44.52,
       "yoy": 14.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 335.989
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 122.513
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 17.788
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 58.984
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 45.741
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 45.741
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 7.344
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 8.565
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 44.52
-     }
     ]
-   }
-  },
-  {
-   "ticker": "000538.SZ",
-   "status": "near",
-   "latest": 54.8,
-   "week_of": "2026-11-23",
-   "mid": 51.72,
-   "upper": 55.89,
-   "dist_to_upper_pct": -2.0,
-   "weeks_touching": 3,
-   "rsi": 64.9,
-   "rsi_prev": 61.7,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.22,
-   "market_cap": 97777590272,
-   "pe": 18.9,
-   "forward_pe": 16.9,
-   "ps": 2.29,
-   "fcf_yield": 3.5,
-   "revenue_growth": 10.4,
-   "rule40": 22.1,
-   "rule40_fcf": 18.4,
-   "ebitda_margin": 11.7,
-   "r40_driver": "margin",
-   "de_raw": 0.83,
-   "debt_to_equity": 0.01,
-   "cash": 13148346368,
-   "debt": 336340224,
-   "net_cash": 12812006144,
-   "sector": "Healthcare",
-   "name": "Yunnan Baiyao Group Co.,Ltd",
-   "analyst_rec": "none",
-   "analyst_count": 9,
-   "analyst_target": 66.38,
-   "beta": 0.08,
-   "logo": "https://assets.parqet.com/logos/symbol/000538.SZ",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4e91\u5357\u767d\u836f",
-   "ccy": "CNY",
-   "pe15y": 27.3,
-   "pe15y_years": 15,
-   "pe10y": 27.1,
-   "pe10y_years": 10,
-   "pe15y_vs": -31,
-   "fcf_ttm": 4484050304,
-   "fcf_qoq": -36.4,
-   "fcf_yoy": -80.8,
-   "ttm_high": 58.2,
-   "ttm_high_date": "2026-02-01",
-   "vs_ttm_high": -6,
-   "pe_ttm_high": 20.1,
-   "spark": [
-    49.38,
-    50.02,
-    49.87,
-    50.44,
-    51.4,
-    53.08,
-    52.4,
-    53.71,
-    55.14,
-    55.22,
-    56.4,
-    54.8
-   ],
-   "earn_surprise": [
-    -4.5,
-    -9.4,
-    -0.8
-   ],
-   "int_coverage": 252.3,
-   "shares_3y": 12.9,
-   "margin_trend": -6.6,
-   "day_change_pct": -0.54,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 12.9% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -30.8,
-   "pe_vs_sector_pct": -32.3,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u4e91\u5357\u7701\u56fd\u6709\u80a1\u6743\u8fd0\u8425\u7ba1\u7406\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 26.2,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u65b0\u534e\u90fd\u5b9e\u4e1a\u96c6\u56e2\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 21.28,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e91\u5357\u5408\u548c(\u96c6\u56e2)\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 8.19,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 4.14,
-     "change_shares": -87900,
-     "change_pct": -0.1,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u65b0\u534e\u90fd\u96c6\u56e2-\u56fd\u4fe1\u8bc1\u5238-25\u65b0\u534e\u90fdEB01\u62c5\u4fdd\u53ca\u4fe1\u6258\u8d22\u4ea7\u4e13\u6237",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.14,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.4,
-     "change_shares": 5658065,
-     "change_pct": 15.2,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9648\u53d1\u6811",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.7,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u6caa\u6df1300\u533b\u836f\u536b\u751f\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.64,
-     "change_shares": -3091000,
-     "change_pct": -21.3,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u592a\u5e73(\u6df1\u5733)\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u592a\u5e73\u5353\u8fdc1\u53f7\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.51,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4fe1\u6cf0\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.28,
-     "change_shares": 5005932,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 2.4,
-    "change_shares": 5658065,
-    "change_pct": 15.2
    },
-   "cn_inst_net_value": 410183316,
    "score": 4,
-   "score_v": 1,
+   "score_v": 0,
    "score_h": 1,
    "score_t": 0,
    "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "000538.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 18.9 is below its usual 27.3 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 18; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5410.2M last quarter (bar: >\u00a597.8M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 12.9% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 41.187,
-      "yoy": 2.9
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 29.033,
-      "yoy": 0.6
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 12.154,
-      "yoy": 8.8
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.351,
-      "yoy": 4.2
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 4.189,
-      "yoy": 18.5
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 2.583,
-      "yoy": 2.4
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 5.031,
-      "yoy": 5.4
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 1.012,
-      "yoy": 11.0
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 6.043,
-      "yoy": 6.3
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.853,
-      "yoy": -7.1
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 5.19,
-      "yoy": 8.9
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 29.033
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 12.154
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.351
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 4.189
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.583
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 5.031
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 5.031
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 1.012
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.853
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 5.19
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "000895.SZ",
-   "status": "near",
-   "close": 25.87,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 24.32,
-   "upper": 25.88,
-   "dist_to_upper_pct": -0.0,
-   "weeks_touching": 0,
-   "rsi": 59.9,
-   "rsi_prev": 51.0,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.29,
-   "market_cap": 86928351232,
-   "pe": 18.3,
-   "forward_pe": 15.6,
-   "ps": 1.5,
-   "fcf_yield": 4.0,
-   "revenue_growth": -8.5,
-   "rule40": 5.4,
-   "rule40_fcf": -2.5,
-   "ebitda_margin": 13.9,
-   "r40_driver": "margin",
-   "de_raw": 58.05,
-   "debt_to_equity": 0.58,
-   "cash": 7248825344,
-   "debt": 13036329984,
-   "net_cash": -5787504640,
-   "sector": "Consumer Defensive",
-   "name": "Henan Shuanghui Investment & Development Co.,Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.0,
-   "analyst_count": 8,
-   "analyst_target": 24.59,
-   "beta": -0.02,
-   "logo": "https://assets.parqet.com/logos/symbol/000895.SZ",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u53cc\u6c47\u53d1\u5c55",
-   "ccy": "CNY",
-   "pe15y": 18.0,
-   "pe15y_years": 15,
-   "pe10y": 18.0,
-   "pe10y_years": 10,
-   "pe15y_vs": 2,
-   "fcf_ttm": 3859086752,
-   "fcf_qoq": -11.7,
-   "fcf_yoy": -26.0,
-   "ttm_high": 29.61,
-   "ttm_high_date": "2026-04-01",
-   "vs_ttm_high": -13,
-   "pe_ttm_high": 20.9,
-   "spark": [
-    23.54,
-    23.29,
-    23.18,
-    23.66,
-    23.79,
-    23.96,
-    23.73,
-    24.42,
-    24.52,
-    24.67,
-    25.87,
-    25.09
-   ],
-   "earn_surprise": [
-    -8.9,
-    -10.3,
-    0.4
-   ],
-   "int_coverage": 45.6,
-   "shares_3y": -0.0,
-   "margin_trend": 0.9,
-   "day_change_pct": -0.52,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 1.7,
-   "pe_vs_sector_pct": -15.3,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u7f57\u7279\u514b\u65af\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 70.34,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.09,
-     "change_shares": 8377954,
-     "change_pct": 8.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.85,
-     "change_shares": -9836020,
-     "change_pct": -13.3,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 0.9,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.89,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5357\u65b9\u6807\u666e\u4e2d\u56fdA\u80a1\u5927\u76d8\u7ea2\u5229\u4f4e\u6ce250\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.76,
-     "change_shares": 4489582,
-     "change_pct": 20.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-018L-CT001\u6df1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.48,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.4,
-     "change_shares": -265257,
-     "change_pct": -1.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-005L-FH002\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.36,
-     "change_shares": 893918,
-     "change_pct": 7.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669(\u96c6\u56e2)\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-\u6e2f\u80a1\u901a(\u521b\u65b0\u7b56\u7565)",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.35,
-     "change_shares": 12030434,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.85,
-    "change_shares": -9836020,
-    "change_pct": -13.3
-   },
-   "cn_inst_net_value": 405916107,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
    "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "000895.SZ scores 3/10 \u2014 Weak.\nValue (0/2): P/E 18.3 is above its usual 18.0 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -2; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5405.9M last quarter (bar: >\u00a586.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 8 analysts); their average target is \u00a524.59, 5% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 59.46,
-      "yoy": -0.4
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 48.574,
-      "yoy": -0.9
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 10.886,
-      "yoy": 1.8
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.939,
-      "yoy": 7.6
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 2.886,
-      "yoy": 4.3
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 7.061,
-      "yoy": 0.2
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 0.388,
-      "yoy": -0.8
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 6.673,
-      "yoy": 0.2
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 1.513,
-      "yoy": -5.7
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 5.16,
-      "yoy": 2.1
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 48.574
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 10.886
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.939
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.886
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 7.061
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 6.673
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 0.388
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.513
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 5.16
-     }
-    ]
-   }
+   "score_tier": "Mixed",
+   "score_tip": "000333.SZ scores 4/10 \u2014 Mixed.\nValue (0/2): P/E 14.6 is above its usual 12.4 over the last 13 years.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.27B last quarter (bar: >\u00a5709.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.39 from 19 analysts); their average target is \u00a5102.56, 10% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 11.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "000999.SZ",
    "status": "near",
-   "latest": 25.96,
+   "close": 25.96,
    "week_of": "2026-11-23",
-   "mid": 24.78,
-   "upper": 26.34,
-   "dist_to_upper_pct": -1.5,
+   "partial_week_dropped": false,
+   "mid": 24.89,
+   "upper": 26.46,
+   "dist_to_upper_pct": -1.9,
    "weeks_touching": 0,
-   "rsi": 54.5,
-   "rsi_prev": 51.5,
-   "rsi_dir": "up",
+   "rsi": 54.3,
+   "rsi_prev": 54.5,
+   "rsi_dir": "flat",
    "overbought": false,
-   "vol_ratio": 0.96,
+   "vol_ratio": 1.15,
    "market_cap": 43203092480,
    "pe": 13.4,
    "forward_pe": 11.7,
@@ -1293,25 +650,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.5,
    "margin_trend": -1.7,
    "day_change_pct": 0.74,
-   "trap_count": 2,
-   "opp_count": 3,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -29.1,
-   "pe_vs_sector_pct": -52.0,
-   "pe_highlight": "green",
    "cn_holders": [
     {
      "name": "\u534e\u6da6\u533b\u836f\u63a7\u80a1\u6709\u9650\u516c\u53f8",
@@ -1401,18 +739,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 7.2
    },
    "cn_inst_net_value": 339250758,
-   "score": 5,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "000999.SZ scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 13.4 is below its usual 18.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 54).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5339.3M last quarter (bar: >\u00a543.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 9 analysts); their average target is \u00a530.73, 18% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
-   "score_raw": 4,
+   "trap_count": 2,
+   "opp_count": 3,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -29.1,
+   "pe_vs_sector_pct": -52.0,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 14.528
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 17.075
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 1.268
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 7.342
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 3.689
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 4.776
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 4.776
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.698
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 4.166
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -1484,1212 +879,8 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 4.166,
       "yoy": 10.3
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 14.528
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 17.075
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 1.268
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 7.342
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 3.689
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 4.776
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 4.776
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.698
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 4.166
-     }
     ]
-   }
-  },
-  {
-   "ticker": "001965.SZ",
-   "status": "near",
-   "latest": 10.67,
-   "week_of": "2026-11-23",
-   "mid": 9.96,
-   "upper": 10.82,
-   "dist_to_upper_pct": -1.4,
-   "weeks_touching": 1,
-   "rsi": 68.1,
-   "rsi_prev": 57.1,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.37,
-   "market_cap": 72503664640,
-   "pe": 16.2,
-   "forward_pe": 12.1,
-   "ps": 4.65,
-   "fcf_yield": 8.5,
-   "revenue_growth": 23.8,
-   "rule40": 64.1,
-   "rule40_fcf": 63.1,
-   "ebitda_margin": 40.3,
-   "r40_driver": "margin",
-   "de_raw": 54.98,
-   "debt_to_equity": 0.55,
-   "cash": 10108420096,
-   "debt": 52103852032,
-   "net_cash": -41995431936,
-   "sector": "Industrials",
-   "name": "China Merchants Expressway Network & Technology Holdings Co.,Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.0,
-   "analyst_count": 3,
-   "analyst_target": 10.66,
-   "beta": -0.07,
-   "logo": "https://assets.parqet.com/logos/symbol/001965.SZ",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u62db\u5546\u516c\u8def",
-   "ccy": "CNY",
-   "pe15y": 13.2,
-   "pe15y_years": 9,
-   "pe10y": 13.2,
-   "pe10y_years": 9,
-   "pe15y_vs": 23,
-   "fcf_ttm": 4137170590,
-   "fcf_qoq": -0.1,
-   "fcf_yoy": -0.4,
-   "ttm_high": 11.09,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -4,
-   "pe_ttm_high": 16.8,
-   "spark": [
-    9.8,
-    9.92,
-    9.88,
-    10.05,
-    10.1,
-    10.35,
-    10.18,
-    10.19,
-    10.37,
-    10.26,
-    11.05,
-    10.67
-   ],
-   "int_coverage": 4.6,
-   "shares_3y": 2.3,
-   "margin_trend": -12.7,
-   "day_change_pct": -0.65,
-   "trap_count": 0,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 22.7,
-   "pe_vs_sector_pct": -11.5,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u62db\u5546\u5c40\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 62.42,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u8700\u9053\u8d44\u672c\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.79,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4e2d\u4fe1\u91d1\u878d\u8d44\u4ea7\u7ba1\u7406\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.27,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5929\u6d25\u5e02\u4eac\u6d25\u5858\u9ad8\u901f\u516c\u8def\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.64,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 2.37,
-     "change_shares": -2821900,
-     "change_pct": -1.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u6cf0\u5eb7\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-019L-FH002\u6df1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.65,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5317\u4eac\u9996\u53d1\u6295\u8d44\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 1.21,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.19,
-     "change_shares": 3698157,
-     "change_pct": 4.8,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u8bda\u901a\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.91,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-005L-FH002\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.82,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.19,
-    "change_shares": 3698157,
-    "change_pct": 4.8
    },
-   "cn_inst_net_value": 9349662,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "001965.SZ scores 1/10 \u2014 Weak.\nValue (0/2): P/E 16.2 is above its usual 13.2 over the last 9 years.\nHealth (1/2): growing fast with strong cash margins (score 63; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a59.3M net last quarter) (bar: >\u00a572.5M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Strong Buy on average (1.00 from 3 analysts); their average target is \u00a510.66, 0% below the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 13.36,
-      "yoy": 5.1
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 9.375,
-      "yoy": 11.9
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 3.985,
-      "yoy": -8.0
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.175,
-      "yoy": -6.4
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.128,
-      "yoy": -12.9
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 0.745,
-      "yoy": 24.8
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 2.937,
-      "yoy": -13.7
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 2.703,
-      "yoy": -10.4
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 5.64,
-      "yoy": -12.1
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.533,
-      "yoy": 10.6
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 5.107,
-      "yoy": -14.0
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 9.375
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 3.985
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.175
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.128
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.745
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 2.937
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 2.937
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 2.703
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.533
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 5.107
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "002714.SZ",
-   "status": "near",
-   "close": 44.85,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 41.21,
-   "upper": 45.65,
-   "dist_to_upper_pct": -1.8,
-   "weeks_touching": 0,
-   "rsi": 57.9,
-   "rsi_prev": 61.0,
-   "rsi_dir": "down",
-   "overbought": false,
-   "vol_ratio": 0.9,
-   "market_cap": 247950180352,
-   "forward_pe": 12.3,
-   "ps": 1.99,
-   "fcf_yield": -0.2,
-   "revenue_growth": -7.2,
-   "rule40": -0.0,
-   "rule40_fcf": -7.6,
-   "ebitda_margin": 7.2,
-   "de_raw": 104.31,
-   "debt_to_equity": 1.04,
-   "cash": 25133529088,
-   "debt": 80875257856,
-   "net_cash": -55741728768,
-   "sector": "Consumer Defensive",
-   "name": "Muyuan Foods Group Co., Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.35,
-   "analyst_count": 12,
-   "analyst_target": 54.33,
-   "beta": 0.43,
-   "logo": "https://assets.parqet.com/logos/symbol/002714.SZ",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u7267\u539f\u80a1\u4efd",
-   "ccy": "CNY",
-   "pe15y": 24.9,
-   "pe15y_years": 11,
-   "pe10y": 22.4,
-   "pe10y_years": 10,
-   "fcf_ttm": -6500812268,
-   "fcf_qoq": -221.1,
-   "fcf_yoy": -59.8,
-   "ttm_high": 51.85,
-   "ttm_high_date": "2026-01-01",
-   "vs_ttm_high": -14,
-   "spark": [
-    42.18,
-    41.35,
-    40.48,
-    42.45,
-    41.12,
-    41.1,
-    41.61,
-    40.4,
-    44.4,
-    45.84,
-    44.85,
-    42.95
-   ],
-   "earn_surprise": [
-    -261.4,
-    -763.3,
-    31.1
-   ],
-   "int_coverage": 7.2,
-   "shares_3y": 0.7,
-   "margin_trend": null,
-   "day_change_pct": -0.62,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": null,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u7267\u539f\u5b9e\u4e1a\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 23.64,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "HKSCC NOMINEES LIMITED",
-     "type": "\u5176\u5b83",
-     "pct_float": 8.64,
-     "change_shares": 400,
-     "change_pct": 0.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.78,
-     "change_shares": 1144210,
-     "change_pct": 0.8,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u5b59\u60e0\u521a",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.39,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u7267\u539f\u98df\u54c1\u96c6\u56e2\u80a1\u4efd\u6709\u9650\u516c\u53f8\u56de\u8d2d\u4e13\u7528\u8bc1\u5238\u8d26\u6237",
-     "type": "\u8bc1\u5238\u8d26\u6237",
-     "pct_float": 1.94,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u7267\u539f\u98df\u54c1\u96c6\u56e2\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u7b2c\u4e8c\u671f\u5458\u5de5\u6301\u80a1\u8ba1\u5212",
-     "type": "\u5458\u5de5\u6301\u80a1\u8ba1\u5212",
-     "pct_float": 1.57,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 1.02,
-     "change_shares": -704795,
-     "change_pct": -1.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u4e00\u56db\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 0.89,
-     "change_shares": 31868817,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u94b1\u8fd0\u9e4f",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.66,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6d59\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u56fd\u6cf0\u4e2d\u8bc1\u755c\u7267\u517b\u6b96\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.51,
-     "change_shares": 18268897,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u53f6\u4e16\u840d",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.5,
-     "change_shares": 18102450,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 3.78,
-    "change_shares": 1144210,
-    "change_pct": 0.8
-   },
-   "cn_inst_net_value": 2268384236,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "002714.SZ scores 3/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -8; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.27B last quarter (bar: >\u00a5248.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.35 from 12 analysts); their average target is \u00a554.33, 21% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 144.145,
-      "yoy": 4.5
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 118.461,
-      "yoy": 8.4
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 25.684,
-      "yoy": -10.3
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 1.648,
-      "yoy": -5.7
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 2.277,
-      "yoy": 30.0
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 2.762,
-      "yoy": 23.5
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 18.997,
-      "yoy": -17.0
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 3.187,
-      "yoy": -20.3
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 15.81,
-      "yoy": -16.3
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 15.81,
-      "yoy": -16.3
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 118.461
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 25.684
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 1.648
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 2.277
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.762
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 18.997
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 15.81
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 3.187
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 15.81
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "300498.SZ",
-   "status": "touch",
-   "close": 17.49,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 14.9,
-   "upper": 17.39,
-   "dist_to_upper_pct": 0.6,
-   "weeks_touching": 3,
-   "rsi": 68.1,
-   "rsi_prev": 67.3,
-   "rsi_dir": "flat",
-   "overbought": false,
-   "vol_ratio": 1.03,
-   "market_cap": 110388690944,
-   "forward_pe": 13.3,
-   "ps": 1.1,
-   "fcf_yield": -7.8,
-   "revenue_growth": -1.9,
-   "rule40": -0.9,
-   "rule40_fcf": -10.5,
-   "ebitda_margin": 1.0,
-   "de_raw": 76.89,
-   "debt_to_equity": 0.77,
-   "cash": 4320008192,
-   "debt": 28731131904,
-   "net_cash": -24411123712,
-   "sector": "Consumer Defensive",
-   "name": "Wens Foodstuff Group Co., Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.3,
-   "analyst_count": 7,
-   "analyst_target": 19.3,
-   "beta": 0.09,
-   "logo": "https://assets.parqet.com/logos/symbol/300498.SZ",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u6e29\u6c0f\u80a1\u4efd",
-   "ccy": "CNY",
-   "pe15y": 18.5,
-   "pe15y_years": 9,
-   "pe10y": 18.5,
-   "pe10y_years": 9,
-   "fcf_ttm": -9501293740,
-   "fcf_qoq": -108.4,
-   "fcf_yoy": -1683.3,
-   "ttm_high": 18.05,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -3,
-   "spark": [
-    14.87,
-    14.79,
-    14.51,
-    15.12,
-    14.9,
-    15.25,
-    15.84,
-    15.67,
-    16.82,
-    17.32,
-    17.49,
-    16.59
-   ],
-   "earn_surprise": [
-    -335.7,
-    -98.7,
-    -48.6
-   ],
-   "int_coverage": 8.1,
-   "shares_3y": 2.4,
-   "margin_trend": -8.0,
-   "day_change_pct": -2.47,
-   "trap_count": 2,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": null,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u6881\u7115\u73cd",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.88,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6e29\u5747\u751f",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.82,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6e29\u5c0f\u743c",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.61,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9ece\u6c83\u707f",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.6,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e25\u5c45\u80fd",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.14,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9ec4\u4f2f\u660c",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 2.08,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.06,
-     "change_shares": -4352085,
-     "change_pct": -3.4,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u6e29\u6728\u6853",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 1.88,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9ece\u6d2a\u707f",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 1.61,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9ec4\u677e\u5fb7",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 1.55,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-10-15",
-   "cn_northbound": {
-    "pct_float": 2.06,
-    "change_shares": -4352085,
-    "change_pct": -3.4
-   },
-   "cn_inst_net_value": -76117967,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "300498.SZ scores 1/10 \u2014 Weak.\nValue (0/2): no P/E \u2014 loss-making, so value can't be judged on earnings.\nHealth (0/2): growth and cash margins are weak (score -10; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a576.1M net last quarter) (bar: >\u00a5110.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.30 from 7 analysts); their average target is \u00a519.30, 10% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 103.862,
-      "yoy": -1.7
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 92.213,
-      "yoy": 5.8
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 11.649,
-      "yoy": -36.9
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.815,
-      "yoy": 13.0
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 1.199,
-      "yoy": -24.9
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 3.302,
-      "yoy": -25.0
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 6.333,
-      "yoy": -46.1
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 0.735,
-      "yoy": -64.8
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 5.598,
-      "yoy": -42.0
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.123
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 5.475,
-      "yoy": -43.3
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 92.213
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 11.649
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.815
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.199
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 3.302
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 6.333
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 5.598
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 0.735
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.123
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 5.475
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "300832.SZ",
-   "status": "touch",
-   "close": 63.84,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 51.97,
-   "upper": 63.36,
-   "dist_to_upper_pct": 0.8,
-   "weeks_touching": 1,
-   "rsi": 72.0,
-   "rsi_prev": 68.0,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 0.91,
-   "market_cap": 46160977920,
-   "pe": 25.5,
-   "forward_pe": 20.2,
-   "ps": 9.52,
-   "fcf_yield": 1.2,
-   "revenue_growth": 3.0,
-   "rule40": 49.7,
-   "rule40_fcf": 14.4,
-   "ebitda_margin": 46.7,
-   "r40_driver": "margin",
-   "de_raw": 0.03,
-   "debt_to_equity": 0.0,
-   "cash": 2739407104,
-   "debt": 2625472,
-   "net_cash": 2736781632,
-   "sector": "Healthcare",
-   "name": "Shenzhen New Industries Biomedical Engineering Co., Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.25,
-   "analyst_count": 10,
-   "analyst_target": 70.64,
-   "beta": -0.34,
-   "logo": "https://assets.parqet.com/logos/symbol/300832.SZ",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u65b0\u4ea7\u4e1a",
-   "ccy": "CNY",
-   "pe15y": 33.0,
-   "pe15y_years": 6,
-   "pe10y": 33.0,
-   "pe10y_years": 6,
-   "pe15y_vs": -23,
-   "fcf_ttm": 1648759761,
-   "fcf_qoq": 16.7,
-   "fcf_yoy": 71.4,
-   "ttm_high": 64.06,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": 0,
-   "pe_ttm_high": 25.6,
-   "spark": [
-    48.18,
-    48.94,
-    47.73,
-    50.37,
-    50.5,
-    50.38,
-    56.66,
-    61.87,
-    60.42,
-    60.55,
-    63.84,
-    58.75
-   ],
-   "earn_surprise": [
-    10.8,
-    11.0,
-    -6.6
-   ],
-   "int_coverage": 3498.1,
-   "shares_3y": -0.1,
-   "margin_trend": 10.9,
-   "day_change_pct": 1.94,
-   "trap_count": 0,
-   "opp_count": 4,
-   "trap_flag": false,
-   "opp_flag": true,
-   "trap_tip": null,
-   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big holders net added \u00a5336.2M last quarter.",
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -22.7,
-   "pe_vs_sector_pct": -8.6,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u897f\u85cf\u65b0\u4ea7\u4e1a\u6295\u8d44\u7ba1\u7406\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 30.91,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5929\u6d25\u7ea2\u6749\u805a\u4e1a\u80a1\u6743\u6295\u8d44\u5408\u4f19\u4f01\u4e1a(\u6709\u9650\u5408\u4f19)",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 10.09,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 6.01,
-     "change_shares": 8713421,
-     "change_pct": 26.9,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9976\u5fae",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 3.96,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u7fc1\u5148\u5b9a",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 3.65,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e94\u96f6\u4e09\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 2.42,
-     "change_shares": 500000,
-     "change_pct": 3.1,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u5b9d\u4e2d\u8bc1\u533b\u7597\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 1.58,
-     "change_shares": -2487900,
-     "change_pct": -18.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e0a\u6d77\u77bb\u7a0b\u6295\u8d44\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u77bb\u7a0b\u8fbe\u5c14\u6587\u65d7\u8230\u79c1\u52df\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 1.17,
-     "change_shares": -500000,
-     "change_pct": -5.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u84dd\u7b79\u7cbe\u9009\u6df7\u5408\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 1.0,
-     "change_shares": -960000,
-     "change_pct": -12.4,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u5b8b\u6d2a\u6d9b",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.96,
-     "change_shares": -4200,
-     "change_pct": -0.1,
-     "status": "\u51cf\u4ed3"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 6.01,
-    "change_shares": 8713421,
-    "change_pct": 26.9
-   },
-   "cn_inst_net_value": 336150861,
    "score": 5,
    "score_v": 1,
    "score_h": 1,
@@ -2697,160 +888,355 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "score_b": 1,
    "score_s": 1,
    "score_tier": "Mixed",
-   "score_tip": "300832.SZ scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 25.5 is below its usual 33.0 over the last 6 years.\nHealth (1/2): growth and cash margins are weak (score 14; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5336.2M last quarter (bar: >\u00a546.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 10 analysts); their average target is \u00a570.64, 11% above the price; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big holders net added \u00a5336.2M last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
-   "score_raw": 4,
+   "score_tip": "000999.SZ scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 13.4 is below its usual 18.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -5; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 54).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5339.3M last quarter (bar: >\u00a543.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 9 analysts); their average target is \u00a530.73, 18% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
+   "score_raw": 4
+  },
+  {
+   "ticker": "300628.SZ",
+   "status": "near",
+   "close": 42.83,
+   "week_of": "2026-11-23",
+   "partial_week_dropped": false,
+   "mid": 39.49,
+   "upper": 43.41,
+   "dist_to_upper_pct": -1.3,
+   "weeks_touching": 0,
+   "rsi": 59.3,
+   "rsi_prev": 55.7,
+   "rsi_dir": "up",
+   "overbought": false,
+   "vol_ratio": 1.3,
+   "market_cap": 54262116352,
+   "pe": 17.7,
+   "forward_pe": 16.0,
+   "ps": 7.99,
+   "fcf_yield": 1.5,
+   "revenue_growth": 3.4,
+   "rule40": 50.3,
+   "rule40_fcf": 15.3,
+   "ebitda_margin": 46.9,
+   "r40_driver": "margin",
+   "de_raw": 0.1,
+   "debt_to_equity": 0.0,
+   "cash": 5051143168,
+   "debt": 9188913,
+   "net_cash": 5041954255,
+   "sector": "Technology",
+   "name": "Yealink Network Technology Co., Ltd.",
+   "analyst_rec": "none",
+   "analyst_count": 3,
+   "analyst_target": 47.52,
+   "beta": 0.53,
+   "logo": "https://assets.parqet.com/logos/symbol/300628.SZ",
+   "high_debt": false,
+   "undervalued": false,
+   "name_cn": "\u4ebf\u8054\u7f51\u7edc",
+   "ccy": "CNY",
+   "pe15y": 27.2,
+   "pe15y_years": 9,
+   "pe10y": 27.2,
+   "pe10y_years": 9,
+   "pe15y_vs": -35,
+   "fcf_ttm": 1775628960,
+   "fcf_qoq": 7.3,
+   "fcf_yoy": 23.7,
+   "ttm_high": 43.06,
+   "ttm_high_date": "2026-08-01",
+   "vs_ttm_high": -1,
+   "pe_ttm_high": 17.8,
+   "spark": [
+    39.86,
+    40.96,
+    40.96,
+    39.49,
+    39.98,
+    35.91,
+    38.5,
+    36.88,
+    39.59,
+    37.99,
+    40.88,
+    42.83
+   ],
+   "earn_surprise": [
+    -2.2,
+    6.5,
+    5.6
+   ],
+   "int_coverage": 7436.9,
+   "shares_3y": 0.1,
+   "margin_trend": -3.8,
+   "day_change_pct": 5.31,
+   "cn_holders": [
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 9.55,
+     "change_shares": 19449977,
+     "change_pct": 39.0,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u53a6\u95e8\u4ebf\u7f51\u8054\u4fe1\u606f\u6280\u672f\u670d\u52a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 8.15,
+     "change_shares": -1650000,
+     "change_pct": -2.7,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u80e1\u7ee7\u4e39",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 6.75,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u96f6\u4e09\u7ec4\u5408",
+     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
+     "pct_float": 6.06,
+     "change_shares": 2664820,
+     "change_pct": 6.4,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9648\u5efa\u8363",
+     "type": "\u4e2a\u4eba",
+     "pct_float": 5.66,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5609\u5b9e\u57fa\u91d1-\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u9669-\u5609\u5b9e\u57fa\u91d1\u56fd\u5bff\u80a1\u4efd\u65b0\u4ef7\u503c\u80a1\u7968\u578b\u7ec4\u5408\u5355\u4e00\u8d44\u4ea7\u7ba1\u7406\u8ba1\u5212(\u4f20\u7edf\u9669)",
+     "type": "\u57fa\u91d1\u8d44\u4ea7\u7ba1\u7406\u8ba1\u5212",
+     "pct_float": 1.82,
+     "change_shares": 2700350,
+     "change_pct": 25.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u56fd\u6cf0\u4e2d\u8bc1\u5168\u6307\u901a\u4fe1\u8bbe\u5907\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 1.34,
+     "change_shares": 170201,
+     "change_pct": 1.8,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u5609\u5b9e\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u793e\u4fdd\u57fa\u91d116042\u7ec4\u5408",
+     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
+     "pct_float": 0.83,
+     "change_shares": 6057410,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u521b\u4e1a\u677f\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.77,
+     "change_shares": 5605927,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    },
+    {
+     "name": "\u56fd\u6295\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u8bc1\u5238\u516c\u53f8",
+     "pct_float": 0.59,
+     "change_shares": 2500,
+     "change_pct": 0.1,
+     "status": "\u52a0\u4ed3"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 9.55,
+    "change_shares": 19449977,
+    "change_pct": 39.0
+   },
+   "cn_inst_net_value": 1569663179,
+   "trap_count": 1,
+   "opp_count": 4,
+   "trap_flag": false,
+   "opp_flag": true,
+   "trap_tip": null,
+   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big holders net added \u00a51.57B last quarter.",
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -34.9,
+   "pe_vs_sector_pct": -46.8,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 2.213
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 3.82
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.53
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.237
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.336
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 2.717
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 2.717
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.121
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.238
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 2.6
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
       "label": "Revenue",
       "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 4.577,
-      "yoy": 0.9
+      "value": 6.033,
+      "yoy": 7.3
      },
      {
       "id": "cogs",
       "label": "Cost of revenue",
       "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 1.407,
-      "yoy": 11.1
+      "value": 2.213,
+      "yoy": 14.0
      },
      {
       "id": "gp",
       "label": "Gross profit",
       "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 3.17,
-      "yoy": -3.0
+      "value": 3.82,
+      "yoy": 3.8
      },
      {
       "id": "rnd",
       "label": "R&D",
       "label_zh": "\u7814\u53d1",
-      "value": 0.478,
-      "yoy": 5.3
+      "value": 0.53,
+      "yoy": -5.2
      },
      {
       "id": "sga",
       "label": "SG&A",
       "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.302,
-      "yoy": -2.6
+      "value": 0.237,
+      "yoy": 33.1
      },
      {
       "id": "othop",
       "label": "Other operating costs",
       "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 0.583,
-      "yoy": 12.3
+      "value": 0.336,
+      "yoy": 12.0
      },
      {
       "id": "opinc",
       "label": "Operating income",
       "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 1.807,
-      "yoy": -9.0
+      "value": 2.717,
+      "yoy": 2.8
      },
      {
       "id": "oth",
       "label": "Interest & other income",
       "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 0.048,
-      "yoy": -55.1
+      "value": 0.121,
+      "yoy": -52.2
      },
      {
       "id": "pre",
       "label": "Pre-tax income",
       "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 1.855,
-      "yoy": -11.4
+      "value": 2.838,
+      "yoy": -2.0
      },
      {
       "id": "tax",
       "label": "Tax",
       "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.235,
-      "yoy": -11.3
+      "value": 0.238,
+      "yoy": -3.6
      },
      {
       "id": "net",
       "label": "Net income",
       "label_zh": "\u51c0\u5229\u6da6",
-      "value": 1.62,
-      "yoy": -11.4
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 1.407
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 3.17
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.478
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.302
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.583
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 1.807
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 1.807
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 0.048
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.235
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 1.62
+      "value": 2.6,
+      "yoy": -1.8
      }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Mixed",
+   "score_tip": "300628.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 17.7 is below its usual 27.2 over the last 9 years.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.57B last quarter (bar: >\u00a554.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big holders net added \u00a51.57B last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "600000.SS",
-   "status": "touch",
-   "latest": 10.55,
+   "status": "near",
+   "close": 10.55,
    "week_of": "2026-11-23",
-   "mid": 9.46,
-   "upper": 10.51,
-   "dist_to_upper_pct": 0.4,
-   "weeks_touching": 5,
-   "rsi": 67.8,
-   "rsi_prev": 62.9,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 9.53,
+   "upper": 10.67,
+   "dist_to_upper_pct": -1.2,
+   "weeks_touching": 0,
+   "rsi": 61.8,
+   "rsi_prev": 67.8,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.2,
+   "vol_ratio": 1.21,
    "market_cap": 351376605184,
-   "pe": 7.5,
+   "pe": 7.6,
    "forward_pe": 6.8,
    "ps": 3.11,
    "revenue_growth": 13.5,
@@ -2873,14 +1259,14 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 15,
    "pe10y": 6.1,
    "pe10y_years": 10,
-   "pe15y_vs": 29,
+   "pe15y_vs": 31,
    "fcf_ttm": 463692000000,
    "fcf_qoq": -43.7,
    "fcf_yoy": -163.6,
    "ttm_high": 12.48,
    "ttm_high_date": "2026-01-01",
    "vs_ttm_high": -15,
-   "pe_ttm_high": 8.9,
+   "pe_ttm_high": 9.0,
    "spark": [
     9.26,
     9.07,
@@ -2903,25 +1289,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.9,
    "margin_trend": null,
    "day_change_pct": -1.59,
-   "trap_count": 2,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 29.3,
-   "pe_vs_sector_pct": -13.8,
-   "pe_highlight": "red",
    "cn_insider_net": 3680835,
    "cn_insider_net_shares": 366600,
    "cn_insider_buys": 6,
@@ -3060,18 +1427,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    ],
    "cn_holders_period": "2026-09-30",
    "cn_inst_net_value": -660072925,
-   "score": 0,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600000.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.5 is above its usual 5.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (0/2): executive buying and selling roughly balanced (\u00a53.7M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) net sold \u00a5660.1M last quarter (bar: >\u00a5351.4M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.20 from 8 analysts); their average target is \u00a511.56, 10% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0,
+   "trap_count": 2,
+   "opp_count": 0,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 31.0,
+   "pe_vs_sector_pct": -12.6,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 120.351
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 53.374
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.969
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 50.405
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -3108,216 +1507,8 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 50.405,
       "yoy": 10.0
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 120.351
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 53.374
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.969
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 50.405
-     }
     ]
-   }
-  },
-  {
-   "ticker": "600009.SS",
-   "status": "near",
-   "close": 25.0,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 23.52,
-   "upper": 25.08,
-   "dist_to_upper_pct": -0.3,
-   "weeks_touching": 0,
-   "rsi": 54.2,
-   "rsi_prev": 50.6,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.11,
-   "market_cap": 58674421760,
-   "pe": 25.1,
-   "forward_pe": 19.7,
-   "ps": 4.28,
-   "fcf_yield": 3.7,
-   "revenue_growth": 5.9,
-   "rule40": 35.3,
-   "rule40_fcf": 21.7,
-   "ebitda_margin": 29.4,
-   "r40_driver": "margin",
-   "de_raw": 42.04,
-   "debt_to_equity": 0.42,
-   "cash": 16292161536,
-   "debt": 18925641728,
-   "net_cash": -2633480192,
-   "sector": "Industrials",
-   "name": "Shanghai International Airport Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.5,
-   "analyst_count": 7,
-   "analyst_target": 27.43,
-   "beta": 0.11,
-   "logo": "https://assets.parqet.com/logos/symbol/600009.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4e0a\u6d77\u673a\u573a",
-   "ccy": "CNY",
-   "pe15y": 22.8,
-   "pe15y_years": 12,
-   "pe10y": 23.4,
-   "pe10y_years": 10,
-   "pe15y_vs": 10,
-   "fcf_ttm": 4190935545,
-   "fcf_qoq": -9.1,
-   "fcf_yoy": -25.0,
-   "ttm_high": 34.16,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -27,
-   "pe_ttm_high": 34.3,
-   "spark": [
-    23.0,
-    22.68,
-    22.46,
-    22.58,
-    22.57,
-    23.43,
-    22.82,
-    24.12,
-    24.71,
-    24.46,
-    25.0,
-    23.58
-   ],
-   "earn_surprise": [
-    -11.3,
-    -4.4,
-    -28.7
-   ],
-   "int_coverage": 5.5,
-   "shares_3y": 4.8,
-   "margin_trend": 2.3,
-   "day_change_pct": 0.26,
-   "trap_count": 2,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 10.1,
-   "pe_vs_sector_pct": 37.2,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e0a\u6d77\u673a\u573a(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 58.58,
-     "change_shares": 433939325,
-     "change_pct": 42.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.53,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.91,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.79,
-     "change_shares": -11227357,
-     "change_pct": -20.2,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u4e00\u56db\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 0.45,
-     "change_shares": 1912400,
-     "change_pct": 20.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u674e\u5bb6\u6743",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.44,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e0a\u6d77\u56fd\u4f01\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.44,
-     "change_shares": -397756,
-     "change_pct": -3.5,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5bcc\u56fd\u4e2d\u8bc1\u65c5\u6e38\u4e3b\u9898\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.28,
-     "change_shares": 129300,
-     "change_pct": 1.9,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u6768\u79c0\u7433",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.25,
-     "change_shares": -65400,
-     "change_pct": -1.0,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u718a\u840c\u840c",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.23,
-     "change_shares": 80000,
-     "change_pct": 1.4,
-     "status": "\u52a0\u4ed3"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.79,
-    "change_shares": -11227357,
-    "change_pct": -20.2
    },
-   "cn_inst_net_value": -239585325,
    "score": 0,
    "score_v": 0,
    "score_h": 0,
@@ -3325,487 +1516,24 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "score_b": 0,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "600009.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 25.1 is above its usual 22.8 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score 22; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 54).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5239.6M last quarter (bar: >\u00a558.7M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.50 from 7 analysts); their average target is \u00a527.43, 10% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 13.346,
-      "yoy": 7.9
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 9.674,
-      "yoy": 0.2
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 3.672,
-      "yoy": 35.3
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.018,
-      "yoy": 63.6
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.144,
-      "yoy": 1.4
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 0.842,
-      "yoy": 1.9
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 2.668,
-      "yoy": 53.9
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 0.352,
-      "yoy": -64.1
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 3.02,
-      "yoy": 11.2
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.609,
-      "yoy": 24.3
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 2.411,
-      "yoy": 8.4
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 9.674
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 3.672
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.018
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.144
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.842
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 2.668
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 2.668
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 0.352
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.609
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 2.411
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600011.SS",
-   "status": "near",
-   "latest": 7.76,
-   "week_of": "2026-11-23",
-   "mid": 7.13,
-   "upper": 7.88,
-   "dist_to_upper_pct": -1.5,
-   "weeks_touching": 3,
-   "rsi": 61.2,
-   "rsi_prev": 59.6,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.84,
-   "market_cap": 122729086976,
-   "pe": 24.3,
-   "forward_pe": 16.0,
-   "ps": 0.55,
-   "fcf_yield": -10.5,
-   "revenue_growth": -3.3,
-   "rule40": 18.8,
-   "rule40_fcf": -9.1,
-   "ebitda_margin": 22.1,
-   "r40_driver": "margin",
-   "de_raw": 152.63,
-   "debt_to_equity": 1.53,
-   "cash": 22480943104,
-   "debt": 329449897984,
-   "net_cash": -306968954880,
-   "sector": "Utilities",
-   "name": "Huaneng Power International, Inc.",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.33,
-   "analyst_count": 9,
-   "analyst_target": 7.86,
-   "beta": 0.66,
-   "logo": "https://assets.parqet.com/logos/symbol/600011.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u534e\u80fd\u56fd\u9645",
-   "ccy": "CNY",
-   "pe15y": 17.0,
-   "pe15y_years": 13,
-   "pe10y": 18.4,
-   "pe10y_years": 10,
-   "pe15y_vs": 43,
-   "fcf_ttm": 2327678465,
-   "fcf_qoq": 215.5,
-   "fcf_yoy": 5262.1,
-   "ttm_high": 9.76,
-   "ttm_high_date": "2026-06-01",
-   "vs_ttm_high": -20,
-   "pe_ttm_high": 30.6,
-   "spark": [
-    6.95,
-    6.8,
-    6.74,
-    7.04,
-    7.33,
-    7.51,
-    7.25,
-    7.5,
-    7.65,
-    7.79,
-    7.9,
-    7.76
-   ],
-   "earn_surprise": [
-    -87.1,
-    -58.3,
-    -27.3
-   ],
-   "int_coverage": 4.3,
-   "shares_3y": 60.8,
-   "margin_trend": -8.4,
-   "day_change_pct": -0.26,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 60.8% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 42.9,
-   "pe_vs_sector_pct": 1.2,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u534e\u80fd\u56fd\u9645\u7535\u529b\u5f00\u53d1\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 32.28,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 26.78,
-     "change_shares": 23952000,
-     "change_pct": 0.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u534e\u80fd\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 9.91,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6cb3\u5317\u5efa\u8bbe\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 3.14,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u534e\u80fd\u96c6\u56e2\u9999\u6e2f\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.01,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5927\u8fde\u5e02\u56fd\u6709\u8d44\u672c\u7ba1\u7406\u8fd0\u8425\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.92,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6c5f\u82cf\u7701\u56fd\u4fe1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.65,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u8fbd\u5b81\u80fd\u6e90\u6295\u8d44(\u96c6\u56e2)\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 1.56,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.89,
-     "change_shares": 20001019,
-     "change_pct": 16.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u5357\u901a\u6295\u8d44\u7ba1\u7406\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.52,
-     "change_shares": 81285426,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 0.89,
-    "change_shares": 20001019,
-    "change_pct": 16.7
-   },
-   "cn_inst_net_value": 785982813,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600011.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 24.3 is above its usual 17.0 over the last 13 years.\nHealth (0/2): growth and cash margins are weak (score -9; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5786.0M last quarter (bar: >\u00a5122.7M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.33 from 9 analysts); their average target is \u00a57.86, 1% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 60.8% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 229.288,
-      "yoy": -6.6
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 186.991,
-      "yoy": -10.3
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 42.297,
-      "yoy": 13.7
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 1.92,
-      "yoy": 15.8
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 1.696,
-      "yoy": 1.4
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 7.319,
-      "yoy": 1.4
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 31.362,
-      "yoy": 17.7
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 7.718,
-      "yoy": -9.8
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 23.644,
-      "yoy": 30.7
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 4.139,
-      "yoy": 4.1
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 19.505,
-      "yoy": 38.2
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 186.991
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 42.297
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 1.92
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.696
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 7.319
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 31.362
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 23.644
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 7.718
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.139
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 19.505
-     }
-    ]
-   }
+   "score_tip": "600000.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.6 is above its usual 5.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (0/2): executive buying and selling roughly balanced (\u00a53.7M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) net sold \u00a5660.1M last quarter (bar: >\u00a5351.4M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.20 from 8 analysts); their average target is \u00a511.56, 10% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_raw": 0
   },
   {
    "ticker": "600018.SS",
-   "status": "touch",
-   "latest": 5.9,
+   "status": "near",
+   "close": 5.9,
    "week_of": "2026-11-23",
-   "mid": 5.39,
-   "upper": 5.89,
-   "dist_to_upper_pct": 0.2,
-   "weeks_touching": 2,
-   "rsi": 68.6,
-   "rsi_prev": 63.6,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 5.43,
+   "upper": 5.96,
+   "dist_to_upper_pct": -0.9,
+   "weeks_touching": 0,
+   "rsi": 66.4,
+   "rsi_prev": 68.6,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.09,
+   "vol_ratio": 1.25,
    "market_cap": 137351610368,
    "pe": 8.9,
    "forward_pe": 8.8,
@@ -3867,25 +1595,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 0.2,
    "margin_trend": null,
    "day_change_pct": -0.17,
-   "trap_count": 0,
-   "opp_count": 4,
-   "trap_flag": false,
-   "opp_flag": true,
-   "trap_tip": null,
-   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 8.9 is below its usual 12.2 over the last 15 years, and forward P/E is only 8.8; big holders net added \u00a5717.3M last quarter.",
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -27.0,
-   "pe_vs_sector_pct": -51.4,
-   "pe_highlight": "green",
    "cn_holders": [
     {
      "name": "\u4e0a\u6d77\u56fd\u6709\u8d44\u672c\u6295\u8d44\u6709\u9650\u516c\u53f8",
@@ -3975,18 +1684,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 86.3
    },
    "cn_inst_net_value": 717301551,
-   "score": 4,
-   "score_v": 2,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "600018.SS scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 12.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 69).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5717.3M last quarter (bar: >\u00a5137.4M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 8.9 is below its usual 12.2 over the last 15 years, and forward P/E is only 8.8; big holders net added \u00a5717.3M last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
+   "trap_count": 0,
+   "opp_count": 4,
+   "trap_flag": false,
+   "opp_flag": true,
+   "trap_tip": null,
+   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 8.9 is below its usual 12.2 over the last 15 years, and forward P/E is only 8.8; big holders net added \u00a5717.3M last quarter.",
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -27.0,
+   "pe_vs_sector_pct": -51.4,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 25.302
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 14.309
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.186
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.48
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 2.773
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 10.87
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 10.87
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 7.341
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 3.257
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 14.954
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -4065,712 +1836,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 14.954,
       "yoy": -6.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 25.302
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 14.309
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.186
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.48
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.773
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 10.87
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 10.87
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 7.341
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 3.257
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 14.954
-     }
     ]
-   }
-  },
-  {
-   "ticker": "600019.SS",
-   "status": "touch",
-   "close": 6.34,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 5.91,
-   "upper": 6.29,
-   "dist_to_upper_pct": 0.9,
-   "weeks_touching": 1,
-   "rsi": 58.6,
-   "rsi_prev": 54.6,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.98,
-   "pe": 14.4,
-   "forward_pe": 12.4,
-   "revenue_growth": 4.8,
-   "rule40": 13.5,
-   "rule40_fcf": 7.3,
-   "ebitda_margin": 8.7,
-   "r40_driver": "margin",
-   "de_raw": 14.62,
-   "debt_to_equity": 0.15,
-   "cash": 18684798976,
-   "debt": 32860758016,
-   "net_cash": -14175959040,
-   "sector": "Basic Materials",
-   "name": "Baoshan Iron & Steel Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.75,
-   "analyst_count": 11,
-   "analyst_target": 7.03,
-   "beta": 0.38,
-   "logo": "https://assets.parqet.com/logos/symbol/600019.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u5b9d\u94a2\u80a1\u4efd",
-   "ccy": "CNY",
-   "pe15y": 10.8,
-   "pe15y_years": 15,
-   "pe10y": 10.3,
-   "pe10y_years": 10,
-   "pe15y_vs": 33,
-   "fcf_ttm": 5123112280,
-   "fcf_qoq": -53.4,
-   "fcf_yoy": -87.0,
-   "ttm_high": 7.54,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -16,
-   "pe_ttm_high": 17.1,
-   "spark": [
-    5.71,
-    5.76,
-    5.84,
-    5.93,
-    5.87,
-    6.04,
-    5.88,
-    6.03,
-    6.11,
-    6.18,
-    6.34,
-    6.05
-   ],
-   "earn_surprise": [
-    -27.4,
-    -3.6,
-    -16.7
-   ],
-   "int_coverage": 11.5,
-   "shares_3y": -1.0,
-   "margin_trend": -1.0,
-   "day_change_pct": -1.94,
-   "trap_count": 1,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 33.3,
-   "pe_vs_sector_pct": 28.6,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u5b9d\u6b66\u94a2\u94c1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 44.96,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6b66\u94a2\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 13.93,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u592a\u539f\u94a2\u94c1(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.54,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.6,
-     "change_shares": -29966885,
-     "change_pct": -3.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u77f3\u6cb9\u5929\u7136\u6c14\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.32,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u8c22\u7eaf",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.97,
-     "change_shares": 36607259,
-     "change_pct": 21.3,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.77,
-     "change_shares": 164993929,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u5317\u4eac\u9996\u7199\u6295\u8d44\u7ba1\u7406\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.71,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.7,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u6c11\u8d22\u4ea7\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u4fdd\u9669\u516c\u53f8",
-     "pct_float": 0.65,
-     "change_shares": 138611332,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 3.6,
-    "change_shares": -29966885,
-    "change_pct": -3.7
    },
-   "cn_inst_net_value": 1734867304,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600019.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 14.4 is above its usual 10.8 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.73B net last quarter).\nSentiment (1/2): analysts rate it a Buy on average (1.75 from 11 analysts); their average target is \u00a57.03, 11% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 317.508,
-      "yoy": -1.4
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 294.523,
-      "yoy": -3.3
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 22.985,
-      "yoy": 30.8
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 3.896,
-      "yoy": 3.1
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 1.731,
-      "yoy": -4.4
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 3.771
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 13.587,
-      "yoy": 13.4
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 13.587,
-      "yoy": 45.5
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 1.745,
-      "yoy": 126.0
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 11.412,
-      "yoy": 33.2
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 294.523
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 22.985
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 3.896
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.731
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 3.771
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 13.587
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 13.587
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.745
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 11.412
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600023.SS",
-   "status": "touch",
-   "close": 5.7,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 5.19,
-   "upper": 5.66,
-   "dist_to_upper_pct": 0.6,
-   "weeks_touching": 1,
-   "rsi": 59.8,
-   "rsi_prev": 57.1,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.02,
-   "market_cap": 70395846656,
-   "pe": 25.0,
-   "forward_pe": 8.4,
-   "ps": 0.94,
-   "fcf_yield": -0.2,
-   "revenue_growth": -8.5,
-   "rule40": -0.0,
-   "rule40_fcf": -8.6,
-   "ebitda_margin": 8.5,
-   "de_raw": 61.52,
-   "debt_to_equity": 0.62,
-   "cash": 16360352768,
-   "debt": 52694487040,
-   "net_cash": -36334134272,
-   "sector": "Utilities",
-   "name": "Zhejiang Zheneng Electric Power Co., Ltd.",
-   "analyst_rec": "none",
-   "analyst_count": 3,
-   "analyst_target": 5.44,
-   "beta": 0.26,
-   "logo": "https://assets.parqet.com/logos/symbol/600023.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u6d59\u80fd\u7535\u529b",
-   "ccy": "CNY",
-   "pe15y": 11.8,
-   "pe15y_years": 11,
-   "pe10y": 12.1,
-   "pe10y_years": 10,
-   "pe15y_vs": 112,
-   "fcf_ttm": 515480303,
-   "fcf_qoq": -33.2,
-   "fcf_yoy": -27.8,
-   "ttm_high": 6.77,
-   "ttm_high_date": "2026-05-01",
-   "vs_ttm_high": -16,
-   "pe_ttm_high": 29.7,
-   "spark": [
-    5.0,
-    5.06,
-    5.12,
-    5.2,
-    5.3,
-    5.38,
-    5.2,
-    5.27,
-    5.39,
-    5.57,
-    5.7,
-    5.25
-   ],
-   "int_coverage": 8.3,
-   "shares_3y": 3.0,
-   "margin_trend": -18.2,
-   "day_change_pct": 0.57,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 111.9,
-   "pe_vs_sector_pct": 4.2,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u6d59\u6c5f\u7701\u80fd\u6e90\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 69.45,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u534e\u80fd\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 4.27,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6d59\u6c5f\u6d59\u80fd\u5174\u6e90\u8282\u80fd\u79d1\u6280\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.73,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u4fdd\u9669\u516c\u53f8",
-     "pct_float": 3.54,
-     "change_shares": -1521700,
-     "change_pct": -0.3,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u4fdd\u9669\u9ad8\u5206\u7ea2\u80a1\u7968\u7ba1\u7406\u7ec4\u5408",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.61,
-     "change_shares": 21840100,
-     "change_pct": 11.3,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.2,
-     "change_shares": 39650114,
-     "change_pct": 32.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u6cb3\u5317\u6e2f\u53e3\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.95,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.5,
-     "change_shares": 2292600,
-     "change_pct": 3.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u90c1\u78ca",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 0.43,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5e7f\u53d1\u4e2d\u8bc1\u5168\u6307\u7535\u529b\u516c\u7528\u4e8b\u4e1a\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.3,
-     "change_shares": 40330502,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.2,
-    "change_shares": 39650114,
-    "change_pct": 32.7
-   },
-   "cn_inst_net_value": 584772211,
-   "score": 1,
-   "score_v": 0,
+   "score": 4,
+   "score_v": 2,
    "score_h": 0,
    "score_t": 0,
    "score_b": 1,
    "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600023.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 25.0 is above its usual 11.8 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score -9; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5584.8M last quarter (bar: >\u00a570.4M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 79.554,
-      "yoy": -9.6
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 69.746,
-      "yoy": -9.8
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 9.808,
-      "yoy": -8.5
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.39,
-      "yoy": -24.3
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.521,
-      "yoy": -3.0
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 2.026,
-      "yoy": -0.8
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 6.871,
-      "yoy": -9.8
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 2.209,
-      "yoy": -8.8
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 9.08,
-      "yoy": -9.6
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 1.44,
-      "yoy": 26.0
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 7.64,
-      "yoy": -14.1
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 69.746
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 9.808
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.39
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.521
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.026
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 6.871
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 6.871
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 2.209
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.44
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 7.64
-     }
-    ]
-   }
+   "score_tier": "Mixed",
+   "score_tip": "600018.SS scores 4/10 \u2014 Mixed.\nValue (2/2): P/E 8.9 is below its usual 12.2 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): growth and cash margins are weak (score 17; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5717.3M last quarter (bar: >\u00a5137.4M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 3 of the last 3 quarters; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; P/E 8.9 is below its usual 12.2 over the last 15 years, and forward P/E is only 8.8; big holders net added \u00a5717.3M last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "600025.SS",
    "status": "touch",
-   "latest": 11.46,
+   "close": 11.46,
    "week_of": "2026-11-23",
-   "mid": 10.08,
-   "upper": 11.2,
-   "dist_to_upper_pct": 2.3,
+   "partial_week_dropped": false,
+   "mid": 10.18,
+   "upper": 11.42,
+   "dist_to_upper_pct": 0.3,
    "weeks_touching": 5,
-   "rsi": 75.0,
-   "rsi_prev": 68.6,
-   "rsi_dir": "up",
+   "rsi": 71.9,
+   "rsi_prev": 75.0,
+   "rsi_dir": "down",
    "overbought": true,
-   "vol_ratio": 1.01,
+   "vol_ratio": 1.38,
    "market_cap": 213512339456,
    "pe": 26.0,
    "forward_pe": 23.5,
@@ -4788,8 +1880,7 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "net_cash": -121784324096,
    "sector": "Utilities",
    "name": "Huaneng Lancang River Hydropower Inc.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.43,
+   "analyst_rec": "none",
    "analyst_count": 5,
    "analyst_target": 10.55,
    "beta": 0.07,
@@ -4833,25 +1924,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -3.3,
    "margin_trend": -3.3,
    "day_change_pct": -1.29,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": true,
-   "screaming_sell": true,
-   "near_screaming_sell": false,
-   "overvalued_tip": "Overvalued \u2014 P/E 26.0 vs its 9y median of 20.2, forward P/E 23.5.",
-   "pe_vs_own_pct": 28.7,
-   "pe_vs_sector_pct": 8.3,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u534e\u80fd\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -4941,18 +2013,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 8.4
    },
    "cn_inst_net_value": 640819317,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600025.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 26.0 is above its usual 20.2 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 75).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5640.8M last quarter (bar: >\u00a5213.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.43 from 5 analysts); their average target is \u00a510.55, 8% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its 9y median of 20.2, forward P/E 23.5.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 1,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": true,
+   "screaming_sell": true,
+   "near_screaming_sell": false,
+   "overvalued_tip": "Overvalued \u2014 P/E 26.0 vs its 9y median of 20.2, forward P/E 23.5.",
+   "pe_vs_own_pct": 28.7,
+   "pe_vs_sector_pct": 8.3,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 11.441
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 15.154
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.097
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.121
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 1.787
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 13.149
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 10.768
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 2.381
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.551
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 9.217
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -5031,244 +2165,8 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 9.217,
       "yoy": 3.4
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 11.441
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 15.154
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.097
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.121
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 1.787
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 13.149
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 10.768
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 2.381
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.551
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 9.217
-     }
     ]
-   }
-  },
-  {
-   "ticker": "600027.SS",
-   "status": "near",
-   "close": 5.31,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 4.88,
-   "upper": 5.4,
-   "dist_to_upper_pct": -1.6,
-   "weeks_touching": 0,
-   "rsi": 61.6,
-   "rsi_prev": 58.3,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.95,
-   "market_cap": 59800637440,
-   "pe": 19.8,
-   "forward_pe": 10.5,
-   "ps": 0.52,
-   "fcf_yield": 7.6,
-   "revenue_growth": -12.5,
-   "rule40": 5.6,
-   "rule40_fcf": -8.6,
-   "ebitda_margin": 18.1,
-   "r40_driver": "margin",
-   "de_raw": 124.11,
-   "debt_to_equity": 1.24,
-   "cash": 5640714240,
-   "debt": 129470636032,
-   "net_cash": -123829921792,
-   "sector": "Utilities",
-   "name": "Huadian Power International Corporation Limited",
-   "analyst_rec": "none",
-   "analyst_count": 7,
-   "analyst_target": 5.61,
-   "beta": 0.22,
-   "logo": "https://assets.parqet.com/logos/symbol/600027.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u534e\u7535\u56fd\u9645",
-   "ccy": "CNY",
-   "pe15y": 12.0,
-   "pe15y_years": 12,
-   "pe10y": 10.9,
-   "pe10y_years": 10,
-   "pe15y_vs": 65,
-   "fcf_ttm": 6472595000,
-   "fcf_qoq": 9.9,
-   "fcf_yoy": 22.0,
-   "ttm_high": 6.08,
-   "ttm_high_date": "2026-06-01",
-   "vs_ttm_high": -13,
-   "pe_ttm_high": 22.7,
-   "spark": [
-    4.88,
-    4.81,
-    4.83,
-    4.95,
-    5.19,
-    5.18,
-    5.12,
-    5.09,
-    5.16,
-    5.19,
-    5.31,
-    5.15
-   ],
-   "earn_surprise": [
-    -20.1,
-    -8.9,
-    58.5
-   ],
-   "int_coverage": 4.4,
-   "margin_trend": null,
-   "day_change_pct": -0.19,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 65.0,
-   "pe_vs_sector_pct": -17.5,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u534e\u7535\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 42.26,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 17.35,
-     "change_shares": 60215949,
-     "change_pct": 3.3,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u5c71\u4e1c\u53d1\u5c55\u6295\u8d44\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 6.69,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u4fdd\u9669\u516c\u53f8",
-     "pct_float": 2.78,
-     "change_shares": -1265200,
-     "change_pct": -0.4,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u7533\u80fd\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.08,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u65b0\u5206\u7ea24\u53f7-\u59d4\u6258(\u5efa\u884c)",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.05,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u4fe1\u4fdd\u8bda\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u8d26\u6237",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.75,
-     "change_shares": 29480700,
-     "change_pct": 56.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u827a\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.64,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u56fd\u6709\u4f01\u4e1a\u7ed3\u6784\u8c03\u6574\u57fa\u91d1\u4e8c\u671f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.63,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.61,
-     "change_shares": 67111100,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 17.35,
-    "change_shares": 60215949,
-    "change_pct": 3.3
    },
-   "cn_inst_net_value": 825930935,
    "score": 1,
    "score_v": 0,
    "score_h": 0,
@@ -5276,698 +2174,24 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "600027.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 19.8 is above its usual 12.0 over the last 12 years.\nHealth (0/2): growth and cash margins are weak (score -9; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5825.9M last quarter (bar: >\u00a559.8M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 126.013,
-      "yoy": -10.9
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 111.602,
-      "yoy": -14.0
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 14.411,
-      "yoy": 22.4
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.112,
-      "yoy": 600.0
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 2.234,
-      "yoy": -3.4
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 12.065,
-      "yoy": 27.7
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 1.417
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 10.648,
-      "yoy": 9.0
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 2.431,
-      "yoy": 7.8
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 8.217,
-      "yoy": 9.4
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 111.602
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 14.411
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.112
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 2.234
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 12.065
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 10.648
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 1.417
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.431
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 8.217
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600028.SS",
-   "status": "touch",
-   "close": 6.03,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 5.37,
-   "upper": 6.01,
-   "dist_to_upper_pct": 0.3,
-   "weeks_touching": 1,
-   "rsi": 62.7,
-   "rsi_prev": 57.4,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.95,
-   "market_cap": 692715585536,
-   "pe": 19.8,
-   "forward_pe": 15.7,
-   "ps": 0.24,
-   "fcf_yield": 9.5,
-   "revenue_growth": 9.3,
-   "rule40": 15.5,
-   "rule40_fcf": 11.6,
-   "ebitda_margin": 6.2,
-   "r40_driver": "growth",
-   "de_raw": 54.38,
-   "debt_to_equity": 0.54,
-   "cash": 217470992384,
-   "debt": 543952994304,
-   "net_cash": -326482001920,
-   "sector": "Energy",
-   "name": "China Petroleum & Chemical Corporation",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.13,
-   "analyst_count": 13,
-   "analyst_target": 6.27,
-   "beta": 0.69,
-   "logo": "https://assets.parqet.com/logos/symbol/600028.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4e2d\u56fd\u77f3\u5316",
-   "ccy": "CNY",
-   "pe15y": 11.0,
-   "pe15y_years": 15,
-   "pe10y": 12.6,
-   "pe10y_years": 10,
-   "pe15y_vs": 80,
-   "ttm_high": 8.11,
-   "ttm_high_date": "2026-03-01",
-   "vs_ttm_high": -26,
-   "pe_ttm_high": 26.6,
-   "spark": [
-    5.41,
-    5.06,
-    5.21,
-    5.28,
-    5.39,
-    5.53,
-    5.37,
-    5.9,
-    5.8,
-    5.73,
-    6.03,
-    5.74
-   ],
-   "earn_surprise": [
-    70.8,
-    -17.6,
-    22.6
-   ],
-   "int_coverage": 3.4,
-   "shares_3y": 0.2,
-   "margin_trend": null,
-   "day_change_pct": -3.37,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 80.0,
-   "pe_vs_sector_pct": 50.0,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u77f3\u6cb9\u5316\u5de5\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 68.28,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 19.9,
-     "change_shares": -106785538,
-     "change_pct": -0.5,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u77f3\u6cb9\u5929\u7136\u6c14\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.83,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.78,
-     "change_shares": 243123980,
-     "change_pct": 35.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.71,
-     "change_shares": 281771086,
-     "change_pct": 50.9,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 0.36,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.27,
-     "change_shares": -75180,
-     "change_pct": -0.0,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d11\u53f7",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.26,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u9e3f\u9e44\u5fd7\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u6295\u8d44\u57fa\u91d1\u6709\u9650\u516c\u53f8",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.1,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5357\u65b9\u6807\u666e\u4e2d\u56fdA\u80a1\u5927\u76d8\u7ea2\u5229\u4f4e\u6ce250\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.07,
-     "change_shares": 87089451,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 0.71,
-    "change_shares": 281771086,
-    "change_pct": 50.9
-   },
-   "cn_inst_net_value": 3689813302,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600028.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 19.8 is above its usual 11.0 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 12; strong is over 40).\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.69B last quarter (bar: >\u00a5692.7M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.13 from 13 analysts); their average target is \u00a56.27, 4% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 2781.752,
-      "yoy": -9.5
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 2313.17,
-      "yoy": -10.0
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 468.582,
-      "yoy": -6.8
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 54.672,
-      "yoy": -0.9
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 361.402,
-      "yoy": -4.5
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 52.508,
-      "yoy": -24.3
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 52.508,
-      "yoy": -24.3
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 7.934,
-      "yoy": -38.8
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 35.81,
-      "yoy": -36.3
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 2313.17
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 468.582
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 54.672
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 361.402
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 52.508
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 52.508
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 7.934
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 35.81
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600036.SS",
-   "status": "near",
-   "close": 44.0,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 40.69,
-   "upper": 44.64,
-   "dist_to_upper_pct": -1.4,
-   "weeks_touching": 0,
-   "rsi": 66.5,
-   "rsi_prev": 62.7,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.22,
-   "market_cap": 1073861099520,
-   "pe": 7.3,
-   "forward_pe": 6.9,
-   "ps": 3.57,
-   "revenue_growth": 2.2,
-   "cash": 1392026058752,
-   "debt": 595638026240,
-   "net_cash": 796388032512,
-   "sector": "Financial Services",
-   "name": "China Merchants Bank Co., Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.35,
-   "analyst_count": 19,
-   "analyst_target": 54.28,
-   "beta": 0.41,
-   "logo": "https://assets.parqet.com/logos/symbol/600036.SS",
-   "high_debt": false,
-   "undervalued": true,
-   "name_cn": "\u62db\u5546\u94f6\u884c",
-   "ccy": "CNY",
-   "pe15y": 7.4,
-   "pe15y_years": 15,
-   "pe10y": 7.8,
-   "pe10y_years": 10,
-   "pe15y_vs": -1,
-   "fcf_ttm": 375785000000,
-   "fcf_qoq": -35.2,
-   "fcf_yoy": -578.3,
-   "ttm_high": 44.16,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": 0,
-   "pe_ttm_high": 7.3,
-   "spark": [
-    41.35,
-    40.59,
-    40.69,
-    41.26,
-    41.42,
-    42.45,
-    41.77,
-    43.55,
-    42.88,
-    42.93,
-    44.0,
-    42.58
-   ],
-   "earn_surprise": [
-    -0.7,
-    -6.3,
-    -13.6
-   ],
-   "shares_3y": 0.4,
-   "margin_trend": null,
-   "day_change_pct": -1.84,
-   "trap_count": 1,
-   "opp_count": 3,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -1.4,
-   "pe_vs_sector_pct": -16.1,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 18.07,
-     "change_shares": 472469,
-     "change_pct": 0.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u62db\u5546\u5c40\u8f6e\u8239\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 13.04,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u8fdc\u6d0b\u8fd0\u8f93\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 6.24,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.21,
-     "change_shares": 216522870,
-     "change_pct": 19.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u6df1\u5733\u5e02\u664f\u6e05\u6295\u8d44\u53d1\u5c55\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.99,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u62db\u5546\u5c40\u91d1\u878d\u63a7\u80a1\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 4.55,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u548c\u8c10\u5065\u5eb7\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 4.48,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6df1\u5733\u5e02\u695a\u6e90\u6295\u8d44\u53d1\u5c55\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 3.74,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u8fdc\u6d77\u8fd0(\u5e7f\u5dde)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.76,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e0a\u6d77\u6c7d\u8f66\u96c6\u56e2\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.23,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 5.21,
-    "change_shares": 216522870,
-    "change_pct": 19.7
-   },
-   "cn_inst_net_value": 9527006280,
-   "score": 6,
-   "score_v": 2,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600036.SS scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 7.3 is below its usual 7.4 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a59.53B last quarter (bar: >\u00a51.07B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.35 from 19 analysts); their average target is \u00a554.28, 23% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 5/8).",
-   "score_raw": 5,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 332.059,
-      "yoy": -0.8
-     },
-     {
-      "id": "opex",
-      "label": "Operating expenses",
-      "label_zh": "\u8fd0\u8425\u652f\u51fa",
-      "value": 153.066,
-      "yoy": -2.0
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 178.993,
-      "yoy": 0.2
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 27.867,
-      "yoy": -4.2
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 151.126,
-      "yoy": 1.0
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 153.066
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 178.993
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 27.867
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 151.126
-     }
-    ]
-   }
+   "score_tip": "600025.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 26.0 is above its usual 20.2 over the last 9 years.\nHealth (0/2): growth and cash margins are weak (score -19; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5640.8M last quarter (bar: >\u00a5213.5M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 26.0 vs its 9y median of 20.2, forward P/E 23.5.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "600050.SS",
    "status": "near",
-   "latest": 4.49,
+   "close": 4.49,
    "week_of": "2026-11-23",
-   "mid": 4.31,
-   "upper": 4.52,
-   "dist_to_upper_pct": -0.6,
-   "weeks_touching": 1,
-   "rsi": 55.3,
-   "rsi_prev": 44.8,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 4.33,
+   "upper": 4.54,
+   "dist_to_upper_pct": -1.1,
+   "weeks_touching": 0,
+   "rsi": 53.6,
+   "rsi_prev": 55.3,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.47,
+   "vol_ratio": 1.37,
    "pe": 22.4,
    "revenue_growth": 0.5,
    "rule40": 15.9,
@@ -6026,25 +2250,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 0.2,
    "margin_trend": null,
    "day_change_pct": 0.45,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -16.7,
-   "pe_vs_sector_pct": 1.4,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u8054\u5408\u7f51\u7edc\u901a\u4fe1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -6134,18 +2339,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 45.0
    },
    "cn_inst_net_value": 1528387990,
-   "score": 3,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600050.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 22.4 is below its usual 26.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -6; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.53B net last quarter).\nSentiment (0/2): analysts rate it a Hold on average (2.86 from 7 analysts); their average target is \u00a54.63, 3% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 2,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -16.7,
+   "pe_vs_sector_pct": 1.4,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 299.906
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 92.317
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 8.984
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 39.93
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 20.826
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 22.577
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 22.577
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 2.726
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 4.515
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 20.788
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -6224,403 +2491,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 20.788,
       "yoy": 0.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 299.906
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 92.317
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 8.984
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 39.93
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 20.826
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 22.577
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 22.577
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 2.726
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.515
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 20.788
-     }
     ]
-   }
-  },
-  {
-   "ticker": "600066.SS",
-   "status": "near",
-   "close": 32.81,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 29.21,
-   "upper": 33.43,
-   "dist_to_upper_pct": -1.9,
-   "weeks_touching": 0,
-   "rsi": 60.7,
-   "rsi_prev": 56.1,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.88,
-   "market_cap": 68632117248,
-   "pe": 12.5,
-   "forward_pe": 11.1,
-   "ps": 1.68,
-   "fcf_yield": 8.9,
-   "revenue_growth": -11.1,
-   "rule40": 5.2,
-   "rule40_fcf": 3.8,
-   "ebitda_margin": 16.3,
-   "r40_driver": "margin",
-   "de_raw": 2.48,
-   "debt_to_equity": 0.02,
-   "cash": 12826822656,
-   "debt": 360797888,
-   "net_cash": 12466024768,
-   "sector": "Industrials",
-   "name": "Yutong Bus Co.,Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.73,
-   "analyst_count": 8,
-   "analyst_target": 37.6,
-   "beta": 0.08,
-   "logo": "https://assets.parqet.com/logos/symbol/600066.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u5b87\u901a\u5ba2\u8f66",
-   "ccy": "CNY",
-   "pe15y": 14.1,
-   "pe15y_years": 15,
-   "pe10y": 16.5,
-   "pe10y_years": 10,
-   "pe15y_vs": -11,
-   "fcf_ttm": 8746971774,
-   "fcf_qoq": 25.3,
-   "fcf_yoy": 1439.5,
-   "ttm_high": 38.5,
-   "ttm_high_date": "2026-04-01",
-   "vs_ttm_high": -15,
-   "pe_ttm_high": 14.7,
-   "spark": [
-    26.67,
-    26.01,
-    26.01,
-    26.72,
-    27.04,
-    28.71,
-    28.03,
-    29.12,
-    31.1,
-    31.2,
-    32.81,
-    31.0
-   ],
-   "earn_surprise": [
-    -20.6,
-    5.9,
-    -55.2
-   ],
-   "shares_3y": -0.9,
-   "margin_trend": 1.7,
-   "day_change_pct": -2.42,
-   "trap_count": 2,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -11.3,
-   "pe_vs_sector_pct": -31.7,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u90d1\u5dde\u5b87\u901a\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 37.7,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 11.03,
-     "change_shares": -33825519,
-     "change_pct": -12.2,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u731b\u72ee\u5ba2\u8f66\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.95,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u80a1\u7968\u7ea2\u5229\u578b\u4ea7\u54c1(\u5bff\u81ea\u8425)\u59d4\u6258\u6295\u8d44(\u957f\u6c5f\u517b\u8001)",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 2.1,
-     "change_shares": 689400,
-     "change_pct": 1.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 2.07,
-     "change_shares": -16276700,
-     "change_pct": -26.2,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u516c\u8def\u8f66\u8f86\u673a\u68b0\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.85,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u96f6\u4e00\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 0.86,
-     "change_shares": -15867900,
-     "change_pct": -45.5,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5e73\u5b89\u8d22\u4ea7\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.7,
-     "change_shares": 67700,
-     "change_pct": 0.4,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u6fb3\u95e8\u91d1\u878d\u7ba1\u7406\u5c40-\u81ea\u6709\u8d44\u91d1",
-     "type": "QFII",
-     "pct_float": 0.6,
-     "change_shares": 13366279,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u5de5\u94f6\u5b89\u76db\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u4fdd\u9669",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.59,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 11.03,
-    "change_shares": -33825519,
-    "change_pct": -12.2
    },
-   "cn_inst_net_value": -1701091539,
-   "score": 4,
+   "score": 3,
    "score_v": 1,
    "score_h": 1,
    "score_t": 0,
    "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600066.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 12.5 is below its usual 14.1 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a51.70B last quarter (bar: >\u00a568.6M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 8 analysts); their average target is \u00a537.60, 15% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 41.426,
-      "yoy": 11.3
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 31.425,
-      "yoy": 9.6
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 10.001,
-      "yoy": 17.1
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 1.808,
-      "yoy": 1.1
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 1.013,
-      "yoy": 3.4
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 1.407,
-      "yoy": 31.2
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 5.773,
-      "yoy": 22.9
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 0.746
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 6.519,
-      "yoy": 38.1
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.894,
-      "yoy": 57.4
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 5.625,
-      "yoy": 35.4
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 31.425
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 10.001
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 1.808
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.013
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 1.407
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 5.773
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 5.773
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 0.746
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.894
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 5.625
-     }
-    ]
-   }
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "600050.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 22.4 is below its usual 26.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -6; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 54).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.53B net last quarter).\nSentiment (0/2): analysts rate it a Hold on average (2.86 from 7 analysts); their average target is \u00a54.63, 3% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "600406.SS",
-   "status": "touch",
-   "latest": 24.81,
+   "status": "near",
+   "close": 24.81,
    "week_of": "2026-11-23",
-   "mid": 23.07,
-   "upper": 24.68,
-   "dist_to_upper_pct": 0.5,
-   "weeks_touching": 2,
-   "rsi": 59.7,
-   "rsi_prev": 48.6,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 23.2,
+   "upper": 24.92,
+   "dist_to_upper_pct": -0.5,
+   "weeks_touching": 0,
+   "rsi": 58.6,
+   "rsi_prev": 59.7,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.72,
+   "vol_ratio": 1.32,
    "market_cap": 199267876864,
    "pe": 23.6,
    "forward_pe": 20.0,
@@ -6683,25 +2580,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 0.0,
    "margin_trend": -3.7,
    "day_change_pct": 0.89,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -4.8,
-   "pe_vs_sector_pct": 29.0,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u56fd\u7f51\u7535\u529b\u79d1\u5b66\u7814\u7a76\u9662\u6709\u9650\u516c\u53f8",
@@ -6791,18 +2669,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": -8.1
    },
    "cn_inst_net_value": 270582847,
-   "score": 5,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600406.SS scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 23.6 is below its usual 24.8 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 6; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5270.6M last quarter (bar: >\u00a5199.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.75 from 15 analysts); their average target is \u00a528.03, 13% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
-   "score_raw": 4,
+   "trap_count": 1,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -4.8,
+   "pe_vs_sector_pct": 29.0,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 49.117
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 17.112
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 3.604
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.781
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 2.009
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 9.718
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 9.718
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.961
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 8.858
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -6874,70 +2809,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 8.858,
       "yoy": 8.7
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 49.117
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 17.112
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 3.604
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.781
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.009
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 9.718
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 9.718
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.961
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 8.858
-     }
     ]
-   }
+   },
+   "score": 5,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "600406.SS scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 23.6 is below its usual 24.8 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 6; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 59).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5270.6M last quarter (bar: >\u00a5199.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.75 from 15 analysts); their average target is \u00a528.03, 13% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
+   "score_raw": 4
   },
   {
    "ticker": "600519.SS",
-   "status": "touch",
-   "latest": 1472.36,
+   "status": "near",
+   "close": 1472.36,
    "week_of": "2026-11-23",
-   "mid": 1318.92,
-   "upper": 1468.58,
-   "dist_to_upper_pct": 0.3,
-   "weeks_touching": 2,
-   "rsi": 64.8,
-   "rsi_prev": 61.0,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 1332.29,
+   "upper": 1486.79,
+   "dist_to_upper_pct": -1.0,
+   "weeks_touching": 0,
+   "rsi": 63.1,
+   "rsi_prev": 64.8,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.17,
+   "vol_ratio": 1.38,
    "pe": 22.4,
    "forward_pe": 20.5,
    "revenue_growth": 3.1,
@@ -6953,9 +2851,9 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "sector": "Consumer Defensive",
    "name": "Kweichow Moutai Co., Ltd.",
    "analyst_rec": "strong_buy",
-   "analyst_mean": 1.35,
+   "analyst_mean": 1.3,
    "analyst_count": 18,
-   "analyst_target": 1702.12,
+   "analyst_target": 1705.34,
    "beta": 0.29,
    "logo": "https://assets.parqet.com/logos/symbol/600519.SS",
    "high_debt": false,
@@ -6997,25 +2895,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.2,
    "margin_trend": 2.3,
    "day_change_pct": 0.23,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -2.2,
-   "pe_vs_sector_pct": 3.7,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u8d35\u5dde\u8305\u53f0\u9152\u5382(\u96c6\u56e2)\u6709\u9650\u8d23\u4efb\u516c\u53f8",
@@ -7105,18 +2984,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 2.9
    },
    "cn_inst_net_value": 2171345242,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600519.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 22.4 is below its usual 22.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 32; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a52.17B net last quarter).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.35 from 18 analysts); their average target is \u00a51,702.12, 16% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -2.2,
+   "pe_vs_sector_pct": 3.7,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 14.892
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 157.162
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.19
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 11.787
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 31.112
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 114.073
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 114.073
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 29.445
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 85.31
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -7188,132 +3124,184 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 85.31,
       "yoy": -4.5
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 14.892
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 157.162
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.19
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 11.787
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 31.112
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 114.073
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 114.073
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 29.445
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 85.31
-     }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "600519.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 22.4 is below its usual 22.9 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 32; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a52.17B net last quarter).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.30 from 18 analysts); their average target is \u00a51,705.34, 16% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
-   "ticker": "600674.SS",
-   "status": "near",
-   "latest": 18.4,
+   "ticker": "600600.SS",
+   "status": "touch",
+   "close": 55.63,
    "week_of": "2026-11-23",
-   "mid": 16.38,
-   "upper": 18.75,
-   "dist_to_upper_pct": -1.9,
+   "partial_week_dropped": false,
+   "mid": 52.06,
+   "upper": 55.59,
+   "dist_to_upper_pct": 0.1,
    "weeks_touching": 1,
-   "rsi": 76.3,
-   "rsi_prev": 69.2,
+   "rsi": 55.3,
+   "rsi_prev": 49.1,
    "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.05,
-   "market_cap": 89692758016,
-   "pe": 18.2,
-   "forward_pe": 17.0,
-   "ps": 54.32,
-   "fcf_yield": -2.2,
-   "revenue_growth": 3.7,
-   "rule40": 58.8,
-   "rule40_fcf": -115.7,
-   "ebitda_margin": 55.1,
+   "overbought": false,
+   "vol_ratio": 1.95,
+   "market_cap": 75890171904,
+   "pe": 17.3,
+   "forward_pe": 17.5,
+   "ps": 2.44,
+   "fcf_yield": 1.9,
+   "revenue_growth": -5.6,
+   "rule40": 13.7,
+   "rule40_fcf": -1.0,
+   "ebitda_margin": 19.3,
    "r40_driver": "margin",
-   "de_raw": 46.03,
-   "debt_to_equity": 0.46,
-   "cash": 3511797248,
-   "debt": 22339387392,
-   "net_cash": -18827590144,
-   "sector": "Utilities",
-   "name": "Sichuan Chuantou Energy Co.Ltd",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.5,
-   "analyst_count": 5,
-   "analyst_target": 19.11,
-   "beta": 0.1,
-   "logo": "https://assets.parqet.com/logos/symbol/600674.SS",
+   "de_raw": 0.33,
+   "debt_to_equity": 0.0,
+   "cash": 22190815232,
+   "debt": 111544536,
+   "net_cash": 22079270696,
+   "sector": "Consumer Defensive",
+   "name": "Tsingtao Brewery Company Limited",
+   "analyst_rec": "buy",
+   "analyst_mean": 2.0,
+   "analyst_count": 13,
+   "analyst_target": 58.34,
+   "beta": 0.29,
+   "logo": "https://assets.parqet.com/logos/symbol/600600.SS",
    "high_debt": false,
    "undervalued": false,
-   "name_cn": "\u5ddd\u6295\u80fd\u6e90",
+   "name_cn": "\u9752\u5c9b\u5564\u9152",
    "ccy": "CNY",
-   "pe15y": 14.7,
+   "pe15y": 33.1,
    "pe15y_years": 15,
-   "pe10y": 14.6,
+   "pe10y": 37.7,
    "pe10y_years": 10,
-   "pe15y_vs": 24,
-   "fcf_ttm": -230074270,
-   "fcf_qoq": 49.1,
-   "fcf_yoy": 135.5,
-   "ttm_high": 19.14,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -4,
-   "pe_ttm_high": 18.9,
+   "pe15y_vs": -48,
+   "fcf_ttm": 2948198351,
+   "fcf_qoq": -41.5,
+   "fcf_yoy": -81.7,
+   "ttm_high": 64.56,
+   "ttm_high_date": "2026-04-01",
+   "vs_ttm_high": -14,
+   "pe_ttm_high": 20.1,
    "spark": [
-    15.95,
-    15.76,
-    16.27,
-    16.62,
-    17.04,
-    17.4,
-    17.22,
-    17.88,
-    17.74,
-    17.83,
-    19.14,
-    18.4
+    50.51,
+    50.06,
+    49.89,
+    50.02,
+    51.21,
+    52.47,
+    50.49,
+    50.61,
+    53.34,
+    52.49,
+    53.58,
+    55.63
    ],
    "earn_surprise": [
-    -4.5,
-    -5.3,
-    -15.4
+    -30.1,
+    -3.1,
+    3.0
    ],
-   "int_coverage": 11.4,
-   "shares_3y": 4.6,
-   "margin_trend": 177.6,
-   "day_change_pct": -1.34,
+   "int_coverage": 541.2,
+   "shares_3y": 0.3,
+   "margin_trend": null,
+   "day_change_pct": 0.47,
+   "cn_holders": [
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 44.9,
+     "change_shares": -1633000,
+     "change_pct": -0.3,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u9752\u5c9b\u5564\u9152\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 32.66,
+     "change_shares": 2042200,
+     "change_pct": 0.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u9e4f\u534e\u4e2d\u8bc1\u9152\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.84,
+     "change_shares": -431781,
+     "change_pct": -3.6,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.82,
+     "change_shares": -1679899,
+     "change_pct": -13.1,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5357\u65b9\u6807\u666e\u4e2d\u56fdA\u80a1\u5927\u76d8\u7ea2\u5229\u4f4e\u6ce250\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.55,
+     "change_shares": 3896628,
+     "change_pct": 108.6,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-018L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.43,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-018L-FH002\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.42,
+     "change_shares": -400000,
+     "change_pct": -6.5,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.35,
+     "change_shares": -92900,
+     "change_pct": -1.9,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 0.34,
+     "change_shares": 22400,
+     "change_pct": 0.5,
+     "status": "\u52a0\u4ed3"
+    },
+    {
+     "name": "\u9752\u5c9b\u56fd\u4fe1\u91d1\u878d\u63a7\u80a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.25,
+     "change_shares": 3435043,
+     "change_pct": null,
+     "status": "\u65b0\u8fdb"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_northbound": {
+    "pct_float": 0.82,
+    "change_shares": -1679899,
+    "change_pct": -13.1
+   },
+   "cn_inst_net_value": 73122742,
    "trap_count": 2,
    "opp_count": 1,
    "trap_flag": false,
@@ -7328,1360 +3316,323 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "share_flag_tip": null,
    "overvalued": false,
    "screaming_sell": false,
-   "near_screaming_sell": true,
+   "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": 23.8,
-   "pe_vs_sector_pct": -24.2,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u56db\u5ddd\u7701\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 50.24,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u957f\u6c5f\u7535\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 9.94,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5317\u4eac\u5927\u5730\u8fdc\u901a(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 4.31,
-     "change_shares": 9007300,
-     "change_pct": 4.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.7,
-     "change_shares": 16687006,
-     "change_pct": 14.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u5317\u4eac\u8fdc\u901a\u946b\u6d77\u5546\u8d38\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.46,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56db\u5ddd\u5ddd\u6295\u5ce8\u7709\u94c1\u5408\u91d1(\u96c6\u56e2)\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.81,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u84dd\u7b79\u7cbe\u9009\u6df7\u5408\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.6,
-     "change_shares": 5024900,
-     "change_pct": 20.9,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u6cb3\u5317\u8fdc\u901a\u77ff\u4e1a\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.56,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5e7f\u53d1\u4e2d\u8bc1\u5168\u6307\u7535\u529b\u516c\u7528\u4e8b\u4e1a\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.4,
-     "change_shares": 19544800,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u519c\u94f6\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.39,
-     "change_shares": 18881028,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 2.7,
-    "change_shares": 16687006,
-    "change_pct": 14.5
-   },
-   "cn_inst_net_value": 1106534306,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600674.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 18.2 is above its usual 14.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -116; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 76).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.11B last quarter (bar: >\u00a589.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 5 analysts); their average target is \u00a519.11, 4% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "pe_vs_own_pct": -47.7,
+   "pe_vs_sector_pct": -19.9,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 18.885
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 13.588
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.122
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 2.101
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 5.821
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 5.544
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 5.544
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.747
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.574
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 4.717
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
       "label": "Revenue",
       "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 1.668,
-      "yoy": 3.7
+      "value": 32.473,
+      "yoy": 1.0
      },
      {
       "id": "cogs",
       "label": "Cost of revenue",
       "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 0.823,
-      "yoy": 4.7
+      "value": 18.885,
+      "yoy": -1.7
      },
      {
       "id": "gp",
       "label": "Gross profit",
       "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 0.845,
-      "yoy": 2.7
+      "value": 13.588,
+      "yoy": 5.1
      },
      {
       "id": "rnd",
       "label": "R&D",
       "label_zh": "\u7814\u53d1",
-      "value": 0.037,
-      "yoy": 5.7
+      "value": 0.122,
+      "yoy": 18.4
      },
      {
       "id": "sga",
       "label": "SG&A",
       "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.04,
-      "yoy": 29.0
+      "value": 2.101,
+      "yoy": -6.7
      },
      {
       "id": "othop",
       "label": "Other operating costs",
       "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 0.229,
-      "yoy": 3.6
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 0.539,
-      "yoy": 0.6
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 4.383,
-      "yoy": 5.2
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 4.922,
-      "yoy": 4.7
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.067,
-      "yoy": -6.9
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 4.855,
-      "yoy": 4.9
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 0.823
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 0.845
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.037
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.04
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.229
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 0.539
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 0.539
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 4.383
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.067
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 4.855
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600690.SS",
-   "status": "touch",
-   "close": 23.02,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 21.18,
-   "upper": 23.0,
-   "dist_to_upper_pct": 0.1,
-   "weeks_touching": 1,
-   "rsi": 58.4,
-   "rsi_prev": 49.5,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.83,
-   "market_cap": 205032767488,
-   "pe": 11.9,
-   "forward_pe": 10.8,
-   "ps": 0.71,
-   "fcf_yield": 5.8,
-   "revenue_growth": -10.1,
-   "rule40": -1.5,
-   "rule40_fcf": -6.0,
-   "ebitda_margin": 8.6,
-   "de_raw": 33.49,
-   "debt_to_equity": 0.33,
-   "cash": 55812218880,
-   "debt": 43501821952,
-   "net_cash": 12310396928,
-   "sector": "Consumer Cyclical",
-   "name": "Haier Smart Home Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.64,
-   "analyst_count": 16,
-   "analyst_target": 24.44,
-   "beta": 0.43,
-   "logo": "https://assets.parqet.com/logos/symbol/600690.SS",
-   "high_debt": false,
-   "undervalued": true,
-   "name_cn": "\u6d77\u5c14\u667a\u5bb6",
-   "ccy": "CNY",
-   "pe15y": 12.7,
-   "pe15y_years": 15,
-   "pe10y": 14.8,
-   "pe10y_years": 10,
-   "pe15y_vs": -6,
-   "fcf_ttm": 9482986099,
-   "fcf_qoq": -49.2,
-   "fcf_yoy": -130.4,
-   "ttm_high": 28.31,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -19,
-   "pe_ttm_high": 14.6,
-   "spark": [
-    21.01,
-    20.68,
-    20.14,
-    20.42,
-    20.81,
-    20.33,
-    19.65,
-    20.74,
-    21.62,
-    21.23,
-    23.02,
-    22.05
-   ],
-   "earn_surprise": [
-    -23.3,
-    -8.5,
-    -25.4
-   ],
-   "int_coverage": 9.8,
-   "shares_3y": -0.6,
-   "margin_trend": null,
-   "day_change_pct": -2.22,
-   "trap_count": 2,
-   "opp_count": 3,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -6.3,
-   "pe_vs_sector_pct": -27.0,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "HKSCC NOMINEES LIMITED",
-     "type": "\u5176\u5b83",
-     "pct_float": 24.86,
-     "change_shares": 1051,
-     "change_pct": 0.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u6d77\u5c14\u5361\u5965\u65af\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 13.53,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6d77\u5c14\u96c6\u56e2\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 11.53,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "HCH(HK)INVESTMENT MANAGEMENTCO.,LIMITED",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 5.79,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.38,
-     "change_shares": 13956224,
-     "change_pct": 2.9,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9752\u5c9b\u6d77\u5c14\u521b\u4e1a\u6295\u8d44\u54a8\u8be2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.85,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9752\u5c9b\u6d77\u521b\u667a\u7ba1\u7406\u54a8\u8be2\u4f01\u4e1a(\u6709\u9650\u5408\u4f19)",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.44,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d11\u53f7",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.74,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9633\u5149\u6052\u76ca(\u9752\u5c9b)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u9633\u5149\u548c\u8fdc\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.67,
-     "change_shares": 62068387,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.63,
-     "change_shares": 58899247,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 5.38,
-    "change_shares": 13956224,
-    "change_pct": 2.9
-   },
-   "cn_inst_net_value": 3105947211,
-   "score": 6,
-   "score_v": 2,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600690.SS scores 6/10 \u2014 Mixed.\nValue (2/2): P/E 11.9 is below its usual 12.7 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): growth and cash margins are weak (score -6; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 58).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.11B last quarter (bar: >\u00a5205.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.64 from 16 analysts); their average target is \u00a524.44, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 5/8).",
-   "score_raw": 5,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 302.347,
-      "yoy": 5.7
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 221.739,
-      "yoy": 7.4
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 80.608,
-      "yoy": 1.3
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 10.096,
-      "yoy": -6.3
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 47.64,
+      "value": 5.821,
       "yoy": 4.3
      },
      {
       "id": "opinc",
       "label": "Operating income",
       "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 22.872,
-      "yoy": -1.0
+      "value": 5.544,
+      "yoy": 11.1
+     },
+     {
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.747,
+      "yoy": -16.3
      },
      {
       "id": "pre",
       "label": "Pre-tax income",
       "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 23.479,
-      "yoy": 1.6
+      "value": 6.291,
+      "yoy": 7.0
      },
      {
       "id": "tax",
       "label": "Tax",
       "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 3.316,
-      "yoy": 5.0
+      "value": 1.574,
+      "yoy": 13.2
      },
      {
       "id": "net",
       "label": "Net income",
       "label_zh": "\u51c0\u5229\u6da6",
-      "value": 20.163,
-      "yoy": 3.1
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 221.739
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 80.608
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 10.096
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 47.64
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 22.872
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 22.872
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 3.316
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 20.163
+      "value": 4.717,
+      "yoy": 5.0
      }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "600600.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 17.3 is below its usual 33.1 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -1; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a573.1M net last quarter) (bar: >\u00a575.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 13 analysts); their average target is \u00a558.34, 5% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
-   "ticker": "600795.SS",
+   "ticker": "600809.SS",
    "status": "near",
-   "close": 5.57,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 5.2,
-   "upper": 5.67,
-   "dist_to_upper_pct": -1.7,
+   "close": 131.23,
+   "week_of": "2026-11-23",
+   "partial_week_dropped": false,
+   "mid": 120.62,
+   "upper": 133.88,
+   "dist_to_upper_pct": -2.0,
    "weeks_touching": 0,
-   "rsi": 62.1,
-   "rsi_prev": 60.0,
+   "rsi": 55.0,
+   "rsi_prev": 53.1,
    "rsi_dir": "up",
    "overbought": false,
-   "vol_ratio": 1.12,
-   "market_cap": 96133980160,
-   "pe": 22.5,
-   "forward_pe": 14.6,
-   "ps": 0.57,
-   "fcf_yield": 6.4,
-   "revenue_growth": -4.7,
-   "rule40": 18.2,
-   "rule40_fcf": -1.1,
-   "ebitda_margin": 22.9,
+   "vol_ratio": 1.0,
+   "market_cap": 160095895552,
+   "pe": 17.5,
+   "forward_pe": 16.4,
+   "ps": 4.68,
+   "fcf_yield": 1.2,
+   "revenue_growth": -18.1,
+   "rule40": 19.2,
+   "rule40_fcf": -12.6,
+   "ebitda_margin": 37.3,
    "r40_driver": "margin",
-   "de_raw": 215.66,
-   "debt_to_equity": 2.16,
-   "cash": 14956545024,
-   "debt": 299680104448,
-   "net_cash": -284723559424,
-   "sector": "Utilities",
-   "name": "GD Power Development Co.,Ltd",
-   "analyst_rec": "none",
-   "analyst_count": 3,
-   "analyst_target": 6.34,
-   "beta": 0.09,
-   "logo": "https://assets.parqet.com/logos/symbol/600795.SS",
-   "high_debt": true,
+   "de_raw": 5.51,
+   "debt_to_equity": 0.06,
+   "cash": 6868477952,
+   "debt": 2235450624,
+   "net_cash": 4633027328,
+   "sector": "Consumer Defensive",
+   "name": "Shanxi Xinghuacun Fen Wine Factory Co.,Ltd.",
+   "analyst_rec": "buy",
+   "analyst_mean": 1.67,
+   "analyst_count": 14,
+   "analyst_target": 147.71,
+   "beta": 0.16,
+   "logo": "https://assets.parqet.com/logos/symbol/600809.SS",
+   "high_debt": false,
    "undervalued": false,
-   "name_cn": "\u56fd\u7535\u7535\u529b",
+   "name_cn": "\u5c71\u897f\u6c7e\u9152",
    "ccy": "CNY",
-   "pe15y": 13.4,
-   "pe15y_years": 14,
-   "pe10y": 15.7,
+   "pe15y": 35.0,
+   "pe15y_years": 15,
+   "pe10y": 37.6,
    "pe10y_years": 10,
-   "pe15y_vs": 68,
-   "fcf_ttm": 9956736344,
-   "fcf_qoq": 472.5,
-   "fcf_yoy": 3380.5,
-   "ttm_high": 6.04,
+   "pe15y_vs": -50,
+   "fcf_ttm": 7162376915,
+   "fcf_qoq": 43.0,
+   "fcf_yoy": 178.3,
+   "ttm_high": 196.97,
    "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -8,
-   "pe_ttm_high": 24.4,
+   "vs_ttm_high": -33,
+   "pe_ttm_high": 26.3,
    "spark": [
-    5.32,
-    5.26,
-    5.24,
-    5.34,
-    5.44,
-    5.39,
-    4.98,
-    5.35,
-    5.37,
-    5.48,
-    5.57,
-    5.39
+    114.18,
+    112.7,
+    111.18,
+    115.6,
+    115.73,
+    116.7,
+    112.6,
+    126.27,
+    132.0,
+    129.25,
+    129.0,
+    131.23
    ],
    "earn_surprise": [
-    -346.0,
-    -31.5,
-    25.9
+    -34.6,
+    -66.7,
+    -19.5
    ],
-   "int_coverage": 4.1,
-   "shares_3y": -2.8,
-   "margin_trend": -9.0,
-   "day_change_pct": -0.55,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 67.9,
-   "pe_vs_sector_pct": -6.2,
-   "pe_highlight": "red",
+   "int_coverage": 1264.7,
+   "shares_3y": 0.1,
+   "margin_trend": 2.6,
+   "day_change_pct": -0.48,
    "cn_holders": [
     {
-     "name": "\u56fd\u5bb6\u80fd\u6e90\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 50.68,
+     "name": "\u5c71\u897f\u674f\u82b1\u6751\u6c7e\u9152\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 56.65,
      "change_shares": 0,
      "change_pct": 0.0,
      "status": "\u4e0d\u53d8"
     },
     {
-     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 5.03,
+     "name": "\u534e\u521b\u946b\u777f(\u9999\u6e2f)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 9.17,
      "change_shares": 0,
      "change_pct": 0.0,
      "status": "\u4e0d\u53d8"
     },
     {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.52,
-     "change_shares": -19193600,
-     "change_pct": -3.0,
-     "status": "\u51cf\u4ed3"
+     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u62db\u5546\u4e2d\u8bc1\u767d\u9152\u6307\u6570\u5206\u7ea7\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 4.25,
+     "change_shares": 8373297,
+     "change_pct": 19.3,
+     "status": "\u52a0\u4ed3"
     },
     {
      "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
      "type": "\u5176\u5b83",
-     "pct_float": 2.36,
-     "change_shares": 65107060,
-     "change_pct": 18.3,
-     "status": "\u52a0\u4ed3"
+     "pct_float": 1.52,
+     "change_shares": -3608039,
+     "change_pct": -16.3,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u9e4f\u534e\u4e2d\u8bc1\u9152\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 1.15,
+     "change_shares": -649194,
+     "change_pct": -4.4,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u5c71\u897f\u674f\u82b1\u6751\u56fd\u9645\u8d38\u6613\u6709\u9650\u8d23\u4efb\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 0.68,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u6d88\u8d39\u884c\u4e1a\u80a1\u7968\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.62,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
+     "pct_float": 0.54,
+     "change_shares": -127200,
+     "change_pct": -1.9,
+     "status": "\u51cf\u4ed3"
     },
     {
      "name": "\u745e\u4f17\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
      "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.37,
-     "change_shares": 3703300,
-     "change_pct": 1.5,
+     "pct_float": 0.46,
+     "change_shares": 827434,
+     "change_pct": 17.4,
      "status": "\u52a0\u4ed3"
     },
     {
-     "name": "\u4e0a\u6d77\u7535\u6c14\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.1,
-     "change_shares": -3000000,
-     "change_pct": -1.5,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-018L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.97,
-     "change_shares": 2733500,
-     "change_pct": 1.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u56fd\u5bb6\u80fd\u6e90\u96c6\u56e2\u8d44\u672c\u63a7\u80a1\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.64,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u56e2\u4f53\u5206\u7ea2-018L-FH001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.61,
-     "change_shares": 108081007,
+     "name": "\u963f\u5e03\u8fbe\u6bd4\u6295\u8d44\u5c40-\u81ea\u6709\u8d44\u91d1",
+     "type": "QFII",
+     "pct_float": 0.39,
+     "change_shares": 4816497,
      "change_pct": null,
      "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u745e\u4f17\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u4e07\u80fd\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.57,
-     "change_shares": -17748900,
-     "change_pct": -14.8,
-     "status": "\u51cf\u4ed3"
     }
    ],
    "cn_holders_period": "2026-09-30",
    "cn_northbound": {
-    "pct_float": 2.36,
-    "change_shares": 65107060,
-    "change_pct": 18.3
+    "pct_float": 1.52,
+    "change_shares": -3608039,
+    "change_pct": -16.3
    },
-   "cn_inst_net_value": 794740784,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600795.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 22.5 is above its usual 13.4 over the last 14 years.\nHealth (0/2): growth and cash margins are weak (score -1; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5794.7M last quarter (bar: >\u00a596.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 170.244,
-      "yoy": -5.0
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 143.792,
-      "yoy": -6.4
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 26.452,
-      "yoy": 3.7
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.55,
-      "yoy": -0.9
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.542,
-      "yoy": 5.4
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 3.354,
-      "yoy": 9.3
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 22.006,
-      "yoy": 3.0
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 4.21,
-      "yoy": 357.1
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 17.796,
-      "yoy": -13.0
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 4.069,
-      "yoy": 6.9
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 13.727,
-      "yoy": -17.5
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 143.792
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 26.452
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.55
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.542
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 3.354
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 22.006
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 17.796
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 4.21
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.069
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 13.727
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600803.SS",
-   "status": "touch",
-   "close": 22.97,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 18.83,
-   "upper": 22.47,
-   "dist_to_upper_pct": 2.2,
-   "weeks_touching": 1,
-   "rsi": 70.2,
-   "rsi_prev": 62.4,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.17,
-   "market_cap": 67289325568,
-   "pe": 16.2,
-   "forward_pe": 11.1,
-   "ps": 0.51,
-   "fcf_yield": 13.3,
-   "revenue_growth": 5.4,
-   "rule40": 17.0,
-   "rule40_fcf": 12.2,
-   "ebitda_margin": 11.6,
-   "r40_driver": "margin",
-   "de_raw": 55.12,
-   "debt_to_equity": 0.55,
-   "cash": 18678380544,
-   "debt": 34012389376,
-   "net_cash": -15334008832,
-   "sector": "Utilities",
-   "name": "ENN Natural Gas Co., Ltd.",
-   "analyst_rec": "none",
-   "analyst_count": 5,
-   "analyst_target": 24.02,
-   "beta": 0.2,
-   "logo": "https://assets.parqet.com/logos/symbol/600803.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u65b0\u5965\u80a1\u4efd",
-   "ccy": "CNY",
-   "pe15y": 13.7,
-   "pe15y_years": 15,
-   "pe10y": 12.9,
-   "pe10y_years": 10,
-   "pe15y_vs": 18,
-   "fcf_ttm": 8259700000,
-   "fcf_qoq": -15.4,
-   "fcf_yoy": -53.2,
-   "ttm_high": 24.55,
-   "ttm_high_date": "2026-03-01",
-   "vs_ttm_high": -6,
-   "pe_ttm_high": 17.3,
-   "spark": [
-    19.02,
-    18.67,
-    18.54,
-    19.2,
-    19.49,
-    19.9,
-    19.57,
-    20.72,
-    21.31,
-    21.05,
-    22.97,
-    21.74
-   ],
-   "earn_surprise": [
-    -48.6,
-    2.1,
-    -38.2
-   ],
-   "int_coverage": 14.2,
-   "shares_3y": -0.4,
-   "margin_trend": -4.1,
-   "day_change_pct": -0.5,
+   "cn_inst_net_value": 1264111688,
    "trap_count": 2,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 18.2,
-   "pe_vs_sector_pct": -32.5,
-   "pe_highlight": "green",
-   "cn_insider_net": -27285841,
-   "cn_insider_net_shares": -1400800,
-   "cn_insider_buys": 1,
-   "cn_insider_sells": 21,
-   "cn_insider_events": [
-    {
-     "name": "\u6797\u71d5",
-     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
-     "direction": "sell",
-     "shares": 15000,
-     "avg_price": 20.14,
-     "date": "2026-10-19"
-    },
-    {
-     "name": "\u59dc\u6768",
-     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
-     "direction": "sell",
-     "shares": 105000,
-     "avg_price": 20.1,
-     "date": "2026-10-19"
-    },
-    {
-     "name": "\u6881\u5b8f\u7389",
-     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
-     "direction": "sell",
-     "shares": 56500,
-     "avg_price": 19.99,
-     "date": "2026-10-16"
-    },
-    {
-     "name": "\u59dc\u6768",
-     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
-     "direction": "sell",
-     "shares": 105000,
-     "avg_price": 19.85,
-     "date": "2026-10-15"
-    },
-    {
-     "name": "\u5f20\u747e",
-     "role": "\u8463\u4e8b",
-     "direction": "sell",
-     "shares": 4500,
-     "avg_price": 20.04,
-     "date": "2026-10-14"
-    },
-    {
-     "name": "\u4e8e\u5efa\u6f6e",
-     "role": "\u8463\u4e8b",
-     "direction": "sell",
-     "shares": 125000,
-     "avg_price": 19.63,
-     "date": "2026-10-09"
-    },
-    {
-     "name": "\u5f20\u5b87\u8fce",
-     "role": "\u8463\u4e8b",
-     "direction": "sell",
-     "shares": 154700,
-     "avg_price": 19.51,
-     "date": "2026-10-09"
-    },
-    {
-     "name": "\u5f20\u6653\u9633",
-     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
-     "direction": "sell",
-     "shares": 125000,
-     "avg_price": 19.58,
-     "date": "2026-10-09"
-    },
-    {
-     "name": "\u5f20\u747e",
-     "role": "\u8463\u4e8b",
-     "direction": "sell",
-     "shares": 100000,
-     "avg_price": 19.62,
-     "date": "2026-10-09"
-    },
-    {
-     "name": "\u6881\u5b8f\u7389",
-     "role": "\u9ad8\u7ea7\u7ba1\u7406\u4eba\u5458",
-     "direction": "sell",
-     "shares": 500,
-     "avg_price": 19.6,
-     "date": "2026-10-09"
-    }
-   ],
-   "cn_holders": [
-    {
-     "name": "ENN GROUP INTERNATIONAL INVESTMENT LIMITED",
-     "type": "\u5176\u5b83",
-     "pct_float": 44.62,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u65b0\u5965\u63a7\u80a1\u6295\u8d44\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 12.2,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u65b0\u5965\u79d1\u6280\u53d1\u5c55\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 10.05,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 6.29,
-     "change_shares": 4654425,
-     "change_pct": 2.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.38,
-     "change_shares": 5524000,
-     "change_pct": 5.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u5eca\u574a\u5408\u6e90\u6295\u8d44\u4e2d\u5fc3(\u6709\u9650\u5408\u4f19)",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 3.2,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6cb3\u5317\u5a01\u8fdc\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.9,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u96f6\u516d\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 1.35,
-     "change_shares": -6792500,
-     "change_pct": -14.1,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2\u52a8\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 1.02,
-     "change_shares": -2974466,
-     "change_pct": -8.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u56fd\u4fe1\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 0.43,
-     "change_shares": 13073127,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 6.29,
-    "change_shares": 4654425,
-    "change_pct": 2.5
-   },
-   "cn_inst_net_value": 9451213,
-   "score": 0,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "600803.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 16.2 is above its usual 13.7 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 12; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 70).\nBacking (0/2): company executives net sold \u00a527.3M of shares in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a59.5M net last quarter) (bar: >\u00a567.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 131.507,
-      "yoy": -3.2
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 113.161,
-      "yoy": -3.2
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 18.346,
-      "yoy": -3.4
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.612,
-      "yoy": -25.9
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.921,
-      "yoy": -13.3
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 4.709,
-      "yoy": 13.0
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 12.104,
-      "yoy": -6.5
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 12.104,
-      "yoy": -6.5
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 1.726,
-      "yoy": -35.9
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 9.985,
-      "yoy": 0.4
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 113.161
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 18.346
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.612
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.921
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 4.709
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 12.104
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 12.104
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.726
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 9.985
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600886.SS",
-   "status": "touch",
-   "close": 16.82,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 14.95,
-   "upper": 16.8,
-   "dist_to_upper_pct": 0.1,
-   "weeks_touching": 1,
-   "rsi": 67.9,
-   "rsi_prev": 59.8,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.25,
-   "market_cap": 130713395200,
-   "pe": 19.2,
-   "forward_pe": 14.6,
-   "ps": 2.52,
-   "fcf_yield": 0.6,
-   "revenue_growth": 5.1,
-   "rule40": 57.3,
-   "rule40_fcf": 6.6,
-   "ebitda_margin": 52.2,
-   "r40_driver": "margin",
-   "de_raw": 121.2,
-   "debt_to_equity": 1.21,
-   "cash": 19255717888,
-   "debt": 156224356352,
-   "net_cash": -136968638464,
-   "sector": "Utilities",
-   "name": "SDIC Power Holdings Co., Ltd",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.25,
-   "analyst_count": 6,
-   "analyst_target": 16.16,
-   "beta": -0.02,
-   "logo": "https://assets.parqet.com/logos/symbol/600886.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u56fd\u6295\u7535\u529b",
-   "ccy": "CNY",
-   "pe15y": 14.3,
-   "pe15y_years": 15,
-   "pe10y": 14.7,
-   "pe10y_years": 10,
-   "pe15y_vs": 34,
-   "fcf_ttm": 8435785848,
-   "fcf_qoq": 83.5,
-   "fcf_yoy": 232.3,
-   "ttm_high": 16.89,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": 0,
-   "pe_ttm_high": 19.3,
-   "spark": [
-    14.46,
-    14.3,
-    14.86,
-    15.24,
-    15.78,
-    15.99,
-    15.68,
-    16.13,
-    15.81,
-    15.65,
-    16.82,
-    16.33
-   ],
-   "earn_surprise": [
-    18.5,
-    -26.7,
-    -45.8
-   ],
-   "int_coverage": 5.0,
-   "shares_3y": 3.1,
-   "margin_trend": 4.7,
-   "day_change_pct": -0.67,
-   "trap_count": 0,
    "opp_count": 2,
    "trap_flag": false,
    "opp_flag": false,
@@ -8697,259 +3648,171 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "screaming_sell": false,
    "near_screaming_sell": false,
    "overvalued_tip": null,
-   "pe_vs_own_pct": 34.3,
-   "pe_vs_sector_pct": -20.0,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u56fd\u5bb6\u5f00\u53d1\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 51.43,
-     "change_shares": 8125700,
-     "change_pct": 0.2,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u957f\u6c5f\u7535\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 14.01,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u957f\u7535\u6295\u8d44\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 3.48,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.61,
-     "change_shares": 7141362,
-     "change_pct": 6.3,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e07\u80fd-\u4e2a\u9669\u4e07\u80fd",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.6,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d11\u53f7",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 1.55,
-     "change_shares": 22030500,
-     "change_pct": 23.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 1.19,
-     "change_shares": -23695027,
-     "change_pct": -21.0,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e09\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d12\u53f7",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 1.15,
-     "change_shares": 85551869,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "Citibank,National Association",
-     "type": "\u91d1\u878d",
-     "pct_float": 1.09,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e8c\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.8,
-     "change_shares": 59940600,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.61,
-    "change_shares": 7141362,
-    "change_pct": 6.3
-   },
-   "cn_inst_net_value": 2675977967,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600886.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 19.2 is above its usual 14.3 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 7; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.68B last quarter (bar: >\u00a5130.7M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 6 analysts); their average target is \u00a516.16, 4% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "pe_vs_own_pct": -50.0,
+   "pe_vs_sector_pct": -19.0,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 9.736
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 28.982
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.174
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 3.699
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 8.757
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 16.352
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 16.352
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 0.298
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 4.355
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 12.295
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
       "label": "Revenue",
       "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 53.014,
-      "yoy": -8.3
+      "value": 38.718,
+      "yoy": 7.5
      },
      {
       "id": "cogs",
       "label": "Cost of revenue",
       "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 31.206,
-      "yoy": -13.7
+      "value": 9.736,
+      "yoy": 13.6
      },
      {
       "id": "gp",
       "label": "Gross profit",
       "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 21.808,
-      "yoy": 0.6
+      "value": 28.982,
+      "yoy": 5.6
      },
      {
       "id": "rnd",
       "label": "R&D",
       "label_zh": "\u7814\u53d1",
-      "value": 0.196,
-      "yoy": 15.3
+      "value": 0.174,
+      "yoy": 17.6
      },
      {
       "id": "sga",
       "label": "SG&A",
       "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.566,
-      "yoy": 30.1
+      "value": 3.699,
+      "yoy": 12.5
      },
      {
       "id": "othop",
       "label": "Other operating costs",
       "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 2.878,
-      "yoy": 15.6
+      "value": 8.757,
+      "yoy": 12.2
      },
      {
       "id": "opinc",
       "label": "Operating income",
       "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 18.168,
-      "yoy": -2.2
+      "value": 16.352,
+      "yoy": 1.0
      },
      {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 1.85,
-      "yoy": -35.5
+      "id": "oth",
+      "label": "Interest & other income",
+      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
+      "value": 0.298,
+      "yoy": -10.2
      },
      {
       "id": "pre",
       "label": "Pre-tax income",
       "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 16.318,
-      "yoy": 3.9
+      "value": 16.65,
+      "yoy": 0.7
      },
      {
       "id": "tax",
       "label": "Tax",
       "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 2.857,
-      "yoy": -22.4
+      "value": 4.355,
+      "yoy": 1.8
      },
      {
       "id": "net",
       "label": "Net income",
       "label_zh": "\u51c0\u5229\u6da6",
-      "value": 13.461,
-      "yoy": 11.9
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 31.206
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 21.808
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.196
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.566
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.878
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 18.168
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 16.318
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 1.85
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.857
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 13.461
+      "value": 12.295,
+      "yoy": 0.3
      }
     ]
-   }
+   },
+   "score": 5,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "600809.SS scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 17.5 is below its usual 35.0 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -13; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.26B last quarter (bar: >\u00a5160.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.67 from 14 analysts); their average target is \u00a5147.71, 13% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
+   "score_raw": 4
   },
   {
    "ticker": "600887.SS",
-   "status": "touch",
-   "latest": 32.63,
+   "status": "near",
+   "close": 32.63,
    "week_of": "2026-11-23",
-   "mid": 27.71,
-   "upper": 32.22,
-   "dist_to_upper_pct": 1.3,
-   "weeks_touching": 5,
-   "rsi": 80.7,
-   "rsi_prev": 76.7,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 28.1,
+   "upper": 32.91,
+   "dist_to_upper_pct": -0.9,
+   "weeks_touching": 0,
+   "rsi": 74.5,
+   "rsi_prev": 80.7,
+   "rsi_dir": "down",
    "overbought": true,
-   "vol_ratio": 1.25,
+   "vol_ratio": 1.76,
    "market_cap": 206396522496,
-   "pe": 20.8,
+   "pe": 21.3,
    "forward_pe": 15.7,
    "ps": 1.73,
    "fcf_yield": 15.3,
@@ -8966,9 +3829,9 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "sector": "Consumer Defensive",
    "name": "Inner Mongolia Yili Industrial Group Co., Ltd.",
    "analyst_rec": "strong_buy",
-   "analyst_mean": 1.29,
+   "analyst_mean": 1.25,
    "analyst_count": 21,
-   "analyst_target": 35.43,
+   "analyst_target": 35.59,
    "beta": 0.21,
    "logo": "https://assets.parqet.com/logos/symbol/600887.SS",
    "high_debt": false,
@@ -8979,14 +3842,14 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 15,
    "pe10y": 22.1,
    "pe10y_years": 10,
-   "pe15y_vs": -4,
+   "pe15y_vs": -1,
    "fcf_ttm": 17453467278,
    "fcf_qoq": 26.8,
    "fcf_yoy": 314.4,
    "ttm_high": 33.78,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 21.5,
+   "pe_ttm_high": 22.1,
    "spark": [
     26.66,
     26.6,
@@ -9010,25 +3873,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.8,
    "margin_trend": 3.4,
    "day_change_pct": -2.39,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -3.7,
-   "pe_vs_sector_pct": -3.7,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
@@ -9118,18 +3962,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 16.6
    },
    "cn_inst_net_value": 3323009344,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600887.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 20.8 is below its usual 21.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 81).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.32B last quarter (bar: >\u00a5206.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.29 from 21 analysts); their average target is \u00a535.43, 9% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -1.4,
+   "pe_vs_sector_pct": -1.4,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 75.654
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 40.277
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.915
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 15.346
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 10.359
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 13.657
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 12.994
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 0.663
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.48
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 11.514
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -9208,75 +4114,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 11.514,
       "yoy": 36.0
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 75.654
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 40.277
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.915
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 15.346
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 10.359
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 13.657
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 12.994
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 0.663
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.48
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 11.514
-     }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Mixed",
+   "score_tip": "600887.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 21.3 is below its usual 21.6 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 29; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 74).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.32B last quarter (bar: >\u00a5206.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.25 from 21 analysts); their average target is \u00a535.59, 9% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "600900.SS",
    "status": "touch",
-   "latest": 31.22,
+   "close": 31.22,
    "week_of": "2026-11-23",
-   "mid": 28.85,
-   "upper": 30.74,
-   "dist_to_upper_pct": 1.6,
+   "partial_week_dropped": false,
+   "mid": 29.01,
+   "upper": 31.13,
+   "dist_to_upper_pct": 0.3,
    "weeks_touching": 2,
-   "rsi": 77.3,
-   "rsi_prev": 67.7,
-   "rsi_dir": "up",
+   "rsi": 71.9,
+   "rsi_prev": 77.3,
+   "rsi_dir": "down",
    "overbought": true,
-   "vol_ratio": 1.14,
+   "vol_ratio": 1.56,
    "market_cap": 763897774080,
    "pe": 23.1,
    "forward_pe": 21.0,
@@ -9294,8 +4158,7 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "net_cash": -279310862336,
    "sector": "Utilities",
    "name": "China Yangtze Power Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.62,
+   "analyst_rec": "none",
    "analyst_count": 12,
    "analyst_target": 32.23,
    "beta": 0.03,
@@ -9339,25 +4202,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 0.0,
    "margin_trend": 3.2,
    "day_change_pct": -1.82,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": true,
-   "screaming_sell": true,
-   "near_screaming_sell": false,
-   "overvalued_tip": "Overvalued \u2014 P/E 23.1 vs its 15y median of 16.2, forward P/E 21.0.",
-   "pe_vs_own_pct": 42.6,
-   "pe_vs_sector_pct": -3.7,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u957f\u6c5f\u4e09\u5ce1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -9447,18 +4291,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 6.1
    },
    "cn_inst_net_value": 634093217,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600900.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 23.1 is above its usual 16.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 77).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a5634.1M net last quarter) (bar: >\u00a5763.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 12 analysts); their average target is \u00a532.23, 3% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 23.1 vs its 15y median of 16.2, forward P/E 21.0.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": true,
+   "screaming_sell": true,
+   "near_screaming_sell": false,
+   "overvalued_tip": "Overvalued \u2014 P/E 23.1 vs its 15y median of 16.2, forward P/E 21.0.",
+   "pe_vs_own_pct": 42.6,
+   "pe_vs_sector_pct": -3.7,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 33.058
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 53.184
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 1.167
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.527
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 4.623
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 46.867
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 41.74
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 5.127
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 6.791
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 34.949
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -9537,75 +4443,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 34.949,
       "yoy": 6.1
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 33.058
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 53.184
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 1.167
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.527
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 4.623
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 46.867
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 41.74
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 5.127
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 6.791
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 34.949
-     }
     ]
-   }
+   },
+   "score": 0,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "600900.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 23.1 is above its usual 16.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 14; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a5634.1M net last quarter) (bar: >\u00a5763.9M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 23.1 vs its 15y median of 16.2, forward P/E 21.0.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_raw": 0
   },
   {
    "ticker": "600919.SS",
    "status": "near",
-   "latest": 13.46,
+   "close": 13.46,
    "week_of": "2026-11-23",
-   "mid": 12.2,
-   "upper": 13.47,
-   "dist_to_upper_pct": -0.0,
-   "weeks_touching": 2,
-   "rsi": 72.5,
-   "rsi_prev": 68.9,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.24,
+   "partial_week_dropped": false,
+   "mid": 12.32,
+   "upper": 13.59,
+   "dist_to_upper_pct": -0.9,
+   "weeks_touching": 0,
+   "rsi": 68.5,
+   "rsi_prev": 72.5,
+   "rsi_dir": "down",
+   "overbought": false,
+   "vol_ratio": 1.71,
    "market_cap": 247008837632,
    "pe": 7.0,
    "forward_pe": 6.3,
@@ -9655,25 +4519,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 5.0,
    "margin_trend": null,
    "day_change_pct": -1.68,
-   "trap_count": 0,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 20.7,
-   "pe_vs_sector_pct": -19.5,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u6c5f\u82cf\u7701\u56fd\u9645\u4fe1\u6258\u6709\u9650\u8d23\u4efb\u516c\u53f8",
@@ -9763,18 +4608,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 25.3
    },
    "cn_inst_net_value": 2049754741,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.0 is above its usual 5.8 over the last 10 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.05B last quarter (bar: >\u00a5247.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 0,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 20.7,
+   "pe_vs_sector_pct": -19.5,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 46.849
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 41.066
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 4.783
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 36.283
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -9811,297 +4688,35 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 36.283,
       "yoy": 8.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 46.849
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 41.066
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.783
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 36.283
-     }
     ]
-   }
-  },
-  {
-   "ticker": "600926.SS",
-   "status": "near",
-   "close": 17.89,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 16.74,
-   "upper": 18.16,
-   "dist_to_upper_pct": -1.5,
-   "weeks_touching": 0,
-   "rsi": 63.3,
-   "rsi_prev": 60.1,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.05,
-   "market_cap": 126350114816,
-   "pe": 6.5,
-   "forward_pe": 5.8,
-   "ps": 3.53,
-   "revenue_growth": 10.8,
-   "cash": 405485584384,
-   "debt": 509296115712,
-   "net_cash": -103810531328,
-   "sector": "Financial Services",
-   "name": "Bank of Hangzhou Co., Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.73,
-   "analyst_count": 9,
-   "analyst_target": 19.46,
-   "beta": 0.07,
-   "logo": "https://assets.parqet.com/logos/symbol/600926.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u676d\u5dde\u94f6\u884c",
-   "ccy": "CNY",
-   "pe15y": 8.1,
-   "pe15y_years": 10,
-   "pe10y": 8.1,
-   "pe10y_years": 10,
-   "pe15y_vs": -20,
-   "fcf_ttm": 99662661000,
-   "fcf_qoq": 323.6,
-   "fcf_yoy": 420.0,
-   "ttm_high": 17.95,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": 0,
-   "pe_ttm_high": 6.5,
-   "spark": [
-    17.04,
-    16.68,
-    16.77,
-    17.11,
-    17.15,
-    16.83,
-    16.52,
-    17.13,
-    17.09,
-    17.52,
-    17.89,
-    17.43
-   ],
-   "earn_surprise": [
-    4.9,
-    -19.6,
-    -33.3
-   ],
-   "shares_3y": 2.6,
-   "margin_trend": null,
-   "day_change_pct": -2.41,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -19.8,
-   "pe_vs_sector_pct": -25.3,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u676d\u5dde\u5e02\u8d22\u5f00\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 16.59,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u7ea2\u72ee\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 9.66,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u676d\u5dde\u5e02\u57ce\u5e02\u5efa\u8bbe\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 5.97,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u4fdd\u9669\u516c\u53f8",
-     "pct_float": 4.55,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u676d\u5dde\u5e02\u4ea4\u901a\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.09,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u676d\u5dde\u6c7d\u8f6e\u52a8\u529b\u96c6\u56e2\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.75,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.11,
-     "change_shares": 45041956,
-     "change_pct": 25.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.1,
-     "change_shares": 14469371,
-     "change_pct": 6.9,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u82cf\u5dde\u82cf\u9ad8\u65b0\u79d1\u6280\u4ea7\u4e1a\u53d1\u5c55\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.45,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u676d\u5dde\u6cb3\u5408\u7535\u5668\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.11,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 3.11,
-    "change_shares": 45041956,
-    "change_pct": 25.0
    },
-   "cn_inst_net_value": 1064657640,
-   "score": 4,
-   "score_v": 1,
+   "score": 3,
+   "score_v": 0,
    "score_h": 0,
    "score_t": 0,
    "score_b": 1,
    "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600926.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 6.5 is below its usual 8.1 over the last 10 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.06B last quarter (bar: >\u00a5126.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a519.46, 9% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 38.436,
-      "yoy": 1.3
-     },
-     {
-      "id": "opex",
-      "label": "Operating expenses",
-      "label_zh": "\u8fd0\u8425\u652f\u51fa",
-      "value": 17.247,
-      "yoy": -7.8
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 21.189,
-      "yoy": 10.2
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 2.159,
-      "yoy": -3.8
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 19.03,
-      "yoy": 12.1
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 17.247
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 21.189
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.159
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 19.03
-     }
-    ]
-   }
+   "score_tier": "Weak",
+   "score_tip": "600919.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.0 is above its usual 5.8 over the last 10 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.05B last quarter (bar: >\u00a5247.0M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.50 from 7 analysts); their average target is \u00a513.77, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "600941.SS",
    "status": "near",
-   "latest": 105.49,
+   "close": 105.49,
    "week_of": "2026-11-23",
-   "mid": 98.25,
-   "upper": 106.25,
-   "dist_to_upper_pct": -0.7,
-   "weeks_touching": 1,
-   "rsi": 65.9,
-   "rsi_prev": 56.5,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 99.03,
+   "upper": 106.65,
+   "dist_to_upper_pct": -1.1,
+   "weeks_touching": 0,
+   "rsi": 59.7,
+   "rsi_prev": 65.9,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.49,
+   "vol_ratio": 1.63,
    "market_cap": 2287412969472,
-   "pe": 17.4,
+   "pe": 18.1,
    "forward_pe": 17.2,
    "ps": 2.21,
    "fcf_yield": 5.4,
@@ -10131,11 +4746,11 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 4,
    "pe10y": 16.1,
    "pe10y_years": 4,
-   "pe15y_vs": 8,
+   "pe15y_vs": 12,
    "ttm_high": 109.79,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -4,
-   "pe_ttm_high": 18.1,
+   "pe_ttm_high": 18.8,
    "spark": [
     95.2,
     94.14,
@@ -10159,25 +4774,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 5.2,
    "margin_trend": null,
    "day_change_pct": -3.82,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": null,
-   "pe_vs_sector_pct": -21.3,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u79fb\u52a8\u9999\u6e2f(BVI)\u6709\u9650\u516c\u53f8",
@@ -10262,18 +4858,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    ],
    "cn_holders_period": "2026-09-30",
    "cn_inst_net_value": -1084143727,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "600941.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40).\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.08B net last quarter) (bar: >\u00a52.29B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.60 from 9 analysts); their average target is \u00a5112.88, 7% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": null,
+   "pe_vs_sector_pct": -18.1,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 438.69
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 611.497
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 56.279
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 397.435
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 157.783
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 157.783
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 17.825
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 38.344
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 137.264
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -10345,264 +4998,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 137.264,
       "yoy": -0.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 438.69
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 611.497
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 56.279
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 397.435
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 157.783
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 157.783
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 17.825
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 38.344
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 137.264
-     }
     ]
-   }
-  },
-  {
-   "ticker": "601006.SS",
-   "status": "near",
-   "close": 5.01,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 4.81,
-   "upper": 5.03,
-   "dist_to_upper_pct": -0.5,
-   "weeks_touching": 0,
-   "rsi": 53.8,
-   "rsi_prev": 46.7,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.24,
-   "market_cap": 97020190720,
-   "pe": 17.5,
-   "forward_pe": 15.3,
-   "ps": 1.23,
-   "fcf_yield": -21.9,
-   "revenue_growth": -5.7,
-   "rule40": 6.9,
-   "rule40_fcf": -32.6,
-   "ebitda_margin": 12.6,
-   "r40_driver": "margin",
-   "de_raw": 7.55,
-   "debt_to_equity": 0.08,
-   "cash": 27445653504,
-   "debt": 13627910144,
-   "net_cash": 13817743360,
-   "sector": "Industrials",
-   "name": "Daqin Railway Co., Ltd.",
-   "analyst_rec": "none",
-   "analyst_count": 7,
-   "analyst_target": 5.45,
-   "beta": -0.06,
-   "logo": "https://assets.parqet.com/logos/symbol/601006.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u5927\u79e6\u94c1\u8def",
-   "ccy": "CNY",
-   "pe15y": 10.1,
-   "pe15y_years": 15,
-   "pe10y": 10.3,
-   "pe10y_years": 10,
-   "pe15y_vs": 73,
-   "fcf_ttm": -16468371319,
-   "fcf_qoq": 6.0,
-   "fcf_yoy": 101.1,
-   "ttm_high": 5.61,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -11,
-   "pe_ttm_high": 19.6,
-   "spark": [
-    4.72,
-    4.63,
-    4.59,
-    4.66,
-    4.79,
-    4.96,
-    4.83,
-    4.86,
-    4.88,
-    4.84,
-    5.01,
-    4.91
-   ],
-   "earn_surprise": [
-    18.9,
-    -0.2,
-    -113.8
-   ],
-   "int_coverage": 23.8,
-   "shares_3y": 7.2,
-   "margin_trend": -2.9,
-   "day_change_pct": 0.0,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 73.3,
-   "pe_vs_sector_pct": -4.4,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u94c1\u8def\u592a\u539f\u5c40\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 49.66,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4e2d\u4fe1\u91d1\u878d\u8d44\u4ea7\u7ba1\u7406\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.06,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 2.95,
-     "change_shares": -43797500,
-     "change_pct": -6.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.51,
-     "change_shares": 18822997,
-     "change_pct": 6.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u6cb3\u5317\u6e2f\u53e3\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.8,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u4fdd\u9669\u9ad8\u5206\u7ea2\u80a1\u7968\u7ba1\u7406\u7ec4\u5408",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.67,
-     "change_shares": 28907100,
-     "change_pct": 27.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-005L-FH002\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.51,
-     "change_shares": -13134400,
-     "change_pct": -11.4,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5357\u65b9\u6807\u666e\u4e2d\u56fdA\u80a1\u5927\u76d8\u7ea2\u5229\u4f4e\u6ce250\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.5,
-     "change_shares": 3465000,
-     "change_pct": 3.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4e2d\u7164\u80fd\u6e90\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.49,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u592a\u4fdd\u81f4\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u592a\u4fdd\u81f4\u8fdc1\u53f7\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.46,
-     "change_shares": 2886700,
-     "change_pct": 3.2,
-     "status": "\u52a0\u4ed3"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.51,
-    "change_shares": 18822997,
-    "change_pct": 6.7
    },
-   "cn_inst_net_value": -14279016,
-   "score": 0,
+   "score": 1,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
    "score_b": 0,
-   "score_s": 0,
+   "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601006.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 17.5 is above its usual 10.1 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -33; strong is over 40); not generating free cash right now.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 54).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a514.3M net last quarter) (bar: >\u00a597.0M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0
+   "score_tip": "600941.SS scores 1/10 \u2014 Weak.\nValue (0/2): not enough P/E history to compare against.\nHealth (0/2): growth and cash margins are weak (score 8; strong is over 40).\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.08B net last quarter) (bar: >\u00a52.29B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.60 from 9 analysts); their average target is \u00a5112.88, 7% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601009.SS",
    "status": "near",
-   "latest": 13.05,
+   "close": 13.05,
    "week_of": "2026-11-23",
-   "mid": 11.82,
-   "upper": 13.06,
-   "dist_to_upper_pct": -0.0,
-   "weeks_touching": 1,
-   "rsi": 67.7,
-   "rsi_prev": 63.5,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 11.94,
+   "upper": 13.16,
+   "dist_to_upper_pct": -0.9,
+   "weeks_touching": 0,
+   "rsi": 63.4,
+   "rsi_prev": 67.7,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.12,
+   "vol_ratio": 1.7,
    "market_cap": 161344552960,
    "pe": 7.3,
    "forward_pe": 6.5,
@@ -10657,25 +5079,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 8.6,
    "margin_trend": null,
    "day_change_pct": -2.61,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 7.4,
-   "pe_vs_sector_pct": -16.1,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u6cd5\u56fd\u5df4\u9ece\u94f6\u884c(\u542bQFII)",
@@ -10765,18 +5168,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 39.5
    },
    "cn_inst_net_value": 1389833156,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.3 is above its usual 6.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.39B last quarter (bar: >\u00a5161.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 7.4,
+   "pe_vs_sector_pct": -16.1,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 28.408
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 26.062
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 4.005
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 22.057
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -10813,45 +5248,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 22.057,
       "yoy": 8.3
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 28.408
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 26.062
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.005
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 22.057
-     }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601009.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 7.3 is above its usual 6.8 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.39B last quarter (bar: >\u00a5161.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.87 from 10 analysts); their average target is \u00a513.81, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601018.SS",
    "status": "near",
-   "latest": 3.65,
+   "close": 3.65,
    "week_of": "2026-11-23",
-   "mid": 3.47,
-   "upper": 3.67,
-   "dist_to_upper_pct": -0.7,
+   "partial_week_dropped": false,
+   "mid": 3.49,
+   "upper": 3.69,
+   "dist_to_upper_pct": -1.0,
    "weeks_touching": 0,
    "rsi": 56.8,
-   "rsi_prev": 51.8,
-   "rsi_dir": "up",
+   "rsi_prev": 56.8,
+   "rsi_dir": "flat",
    "overbought": false,
-   "vol_ratio": 1.09,
+   "vol_ratio": 1.34,
    "market_cap": 71008518144,
    "pe": 14.6,
    "forward_pe": 15.9,
@@ -10910,25 +5333,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 13.2,
    "margin_trend": null,
    "day_change_pct": 0.83,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 13.2% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -3.9,
-   "pe_vs_sector_pct": -20.2,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u5b81\u6ce2\u821f\u5c71\u6e2f\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -11018,18 +5422,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": -3.6
    },
    "cn_inst_net_value": 144033424,
-   "score": 3,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601018.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 14.6 is below its usual 15.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 10; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 57).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5144.0M last quarter (bar: >\u00a571.0M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 13.2% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 13.2% over 3 years, so each share owns a smaller slice of the company.",
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -3.9,
+   "pe_vs_sector_pct": -20.2,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 22.067
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 8.953
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 0.39
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.378
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 2.548
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 5.637
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 5.637
+     },
+     {
+      "from": "oth",
+      "to": "pre",
+      "value": 1.578
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 1.541
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 5.674
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -11108,646 +5574,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 5.674,
       "yoy": 5.0
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 22.067
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 8.953
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.39
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.378
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.548
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 5.637
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 5.637
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 1.578
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.541
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 5.674
-     }
     ]
-   }
-  },
-  {
-   "ticker": "601077.SS",
-   "status": "near",
-   "close": 7.29,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 6.82,
-   "upper": 7.41,
-   "dist_to_upper_pct": -1.6,
-   "weeks_touching": 0,
-   "rsi": 61.1,
-   "rsi_prev": 62.0,
-   "rsi_dir": "flat",
-   "overbought": false,
-   "vol_ratio": 0.92,
-   "market_cap": 80066846720,
-   "pe": 6.5,
-   "forward_pe": 5.6,
-   "ps": 3.2,
-   "revenue_growth": 16.0,
-   "cash": 307146096640,
-   "debt": 512884768768,
-   "net_cash": -205738672128,
-   "sector": "Financial Services",
-   "name": "Chongqing Rural Commercial Bank Co., Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.4,
-   "analyst_count": 7,
-   "analyst_target": 8.6,
-   "beta": 0.09,
-   "logo": "https://assets.parqet.com/logos/symbol/601077.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u6e1d\u519c\u5546\u884c",
-   "ccy": "CNY",
-   "pe15y": 6.1,
-   "pe15y_years": 7,
-   "pe10y": 6.1,
-   "pe10y_years": 7,
-   "pe15y_vs": 7,
-   "ttm_high": 7.55,
-   "ttm_high_date": "2026-04-01",
-   "vs_ttm_high": -3,
-   "pe_ttm_high": 6.7,
-   "spark": [
-    6.7,
-    6.53,
-    6.64,
-    6.71,
-    6.67,
-    7.0,
-    7.11,
-    7.27,
-    7.21,
-    7.32,
-    7.29,
-    7.05
-   ],
-   "shares_3y": 0.0,
-   "margin_trend": null,
-   "day_change_pct": -3.42,
-   "trap_count": 1,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 6.6,
-   "pe_vs_sector_pct": -25.3,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 22.09,
-     "change_shares": 156000,
-     "change_pct": 0.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u91cd\u5e86\u6e1d\u5bcc\u8d44\u672c\u8fd0\u8425\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 8.7,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u91cd\u5e86\u5e02\u57ce\u5e02\u5efa\u8bbe\u6295\u8d44(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 7.02,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u91cd\u5e86\u53d1\u5c55\u7f6e\u4e1a\u7ba1\u7406\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.19,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u91cd\u5e86\u5e02\u6c34\u5229\u6295\u8d44(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.99,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u91cd\u5e86\u53d1\u5c55\u6295\u8d44\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.81,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.82,
-     "change_shares": -12262398,
-     "change_pct": -2.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u91cd\u5e86\u6c34\u52a1\u96c6\u56e2\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.1,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u91cd\u5e86\u8d22\u4fe1\u4f01\u4e1a\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.99,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2\u52a8\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.88,
-     "change_shares": -9498089,
-     "change_pct": -8.7,
-     "status": "\u51cf\u4ed3"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 3.82,
-    "change_shares": -12262398,
-    "change_pct": -2.7
    },
-   "cn_inst_net_value": -158633950,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601077.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 6.5 is above its usual 6.1 over the last 7 years.\nHealth (0/2): no growth or cash-flow figures reported, so this can't be scored.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net sold \u00a5158.6M last quarter (bar: >\u00a580.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.40 from 7 analysts); their average target is \u00a58.60, 18% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 28.321,
-      "yoy": 2.3
-     },
-     {
-      "id": "opex",
-      "label": "Operating expenses",
-      "label_zh": "\u8fd0\u8425\u652f\u51fa",
-      "value": 14.612,
-      "yoy": -1.7
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 13.709,
-      "yoy": 7.0
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 1.289,
-      "yoy": 25.4
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 12.42,
-      "yoy": 5.4
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 14.612
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 13.709
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.289
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 12.42
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "601088.SS",
-   "status": "near",
-   "close": 52.0,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 47.47,
-   "upper": 52.91,
-   "dist_to_upper_pct": -1.7,
-   "weeks_touching": 0,
-   "rsi": 62.0,
-   "rsi_prev": 57.9,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.94,
-   "market_cap": 1103124627456,
-   "pe": 18.4,
-   "forward_pe": 17.9,
-   "ps": 3.45,
-   "fcf_yield": 6.4,
-   "revenue_growth": 10.9,
-   "rule40": 42.3,
-   "rule40_fcf": 32.9,
-   "ebitda_margin": 31.4,
-   "r40_driver": "margin",
-   "de_raw": 28.47,
-   "debt_to_equity": 0.28,
-   "cash": 118564003840,
-   "debt": 156769992704,
-   "net_cash": -38205988864,
-   "sector": "Energy",
-   "name": "China Shenhua Energy Company Limited",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.8,
-   "analyst_count": 12,
-   "analyst_target": 51.7,
-   "beta": 0.4,
-   "logo": "https://assets.parqet.com/logos/symbol/601088.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4e2d\u56fd\u795e\u534e",
-   "ccy": "CNY",
-   "pe15y": 10.4,
-   "pe15y_years": 15,
-   "pe10y": 9.6,
-   "pe10y_years": 10,
-   "pe15y_vs": 77,
-   "fcf_ttm": 37438000000,
-   "fcf_qoq": 34.7,
-   "fcf_yoy": 89.5,
-   "ttm_high": 53.0,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -2,
-   "pe_ttm_high": 18.8,
-   "spark": [
-    46.58,
-    45.33,
-    47.09,
-    46.87,
-    47.46,
-    49.98,
-    49.22,
-    51.99,
-    48.54,
-    50.0,
-    52.0,
-    50.86
-   ],
-   "earn_surprise": [
-    -14.6,
-    25.9,
-    -30.7
-   ],
-   "int_coverage": 34.3,
-   "shares_3y": -0.0,
-   "margin_trend": null,
-   "day_change_pct": -4.04,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 76.9,
-   "pe_vs_sector_pct": 39.4,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u56fd\u5bb6\u80fd\u6e90\u6295\u8d44\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 69.52,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "HKSCC NOMINEES LIMITED",
-     "type": "\u5176\u5b83",
-     "pct_float": 16.97,
-     "change_shares": 422213,
-     "change_pct": 0.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 2.2,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u65b0\u6295\u8d44\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 1.0,
-     "change_shares": 8467268,
-     "change_pct": 4.4,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.95,
-     "change_shares": 24224797,
-     "change_pct": 14.8,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.8,
-     "change_shares": 44699506,
-     "change_pct": 39.1,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.43,
-     "change_shares": 2094891,
-     "change_pct": 2.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u9e3f\u9e44\u5fd7\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u6295\u8d44\u57fa\u91d1\u6709\u9650\u516c\u53f8",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.28,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
-     "type": "\u4fdd\u9669\u516c\u53f8",
-     "pct_float": 0.28,
-     "change_shares": -73000,
-     "change_pct": -0.1,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u56fd\u4e30\u5174\u534e\u9e3f\u9e44\u5fd7\u8fdc\u4e8c\u671f\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.26,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 0.43,
-    "change_shares": 2094891,
-    "change_pct": 2.5
-   },
-   "cn_inst_net_value": 4129500024,
    "score": 3,
-   "score_v": 0,
+   "score_v": 1,
    "score_h": 0,
    "score_t": 0,
    "score_b": 1,
-   "score_s": 1,
+   "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601088.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 18.4 is above its usual 10.4 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 33; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.13B last quarter (bar: >\u00a51.10B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a551.70, 1% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 294.916,
-      "yoy": -13.2
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 191.465,
-      "yoy": -14.5
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 103.451,
-      "yoy": -10.7
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 2.854,
-      "yoy": 4.2
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 2.542,
-      "yoy": 22.9
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 26.046,
-      "yoy": -4.6
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 72.009,
-      "yoy": -14.0
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 7.33
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 79.339,
-      "yoy": -5.3
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 16.556,
-      "yoy": -2.2
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 62.783,
-      "yoy": -4.9
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 191.465
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 103.451
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 2.854
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 2.542
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 26.046
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 72.009
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 72.009
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 7.33
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 16.556
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 62.783
-     }
-    ]
-   }
+   "score_tip": "601018.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 14.6 is below its usual 15.2 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score 10; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 57).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5144.0M last quarter (bar: >\u00a571.0M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 13.2% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601166.SS",
-   "status": "touch",
-   "latest": 20.13,
+   "status": "near",
+   "close": 20.13,
    "week_of": "2026-11-23",
-   "mid": 18.43,
-   "upper": 20.08,
-   "dist_to_upper_pct": 0.2,
-   "weeks_touching": 5,
-   "rsi": 67.9,
-   "rsi_prev": 64.5,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 18.57,
+   "upper": 20.3,
+   "dist_to_upper_pct": -0.9,
+   "weeks_touching": 0,
+   "rsi": 65.4,
+   "rsi_prev": 67.9,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.23,
+   "vol_ratio": 1.57,
    "market_cap": 426008444928,
    "pe": 6.4,
    "forward_pe": 6.5,
@@ -11802,25 +5655,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 2.2,
    "margin_trend": null,
    "day_change_pct": -2.0,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 8.5,
-   "pe_vs_sector_pct": -26.4,
-   "pe_highlight": "green",
    "cn_holders": [
     {
      "name": "\u798f\u5efa\u7701\u91d1\u878d\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
@@ -11910,18 +5744,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 36.1
    },
    "cn_inst_net_value": 3577110401,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "601166.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 6.4 is above its usual 5.9 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.58B last quarter (bar: >\u00a5426.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.08 from 11 analysts); their average target is \u00a521.33, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 8.5,
+   "pe_vs_sector_pct": -26.4,
+   "pe_highlight": "green",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 122.693
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 89.973
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 12.119
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 77.854
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -11958,45 +5824,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 77.854,
       "yoy": 0.5
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 122.693
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 89.973
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 12.119
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 77.854
-     }
     ]
-   }
+   },
+   "score": 4,
+   "score_v": 1,
+   "score_h": 1,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Mixed",
+   "score_tip": "601166.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 6.4 is above its usual 5.9 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (1/2): generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.58B last quarter (bar: >\u00a5426.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.08 from 11 analysts); their average target is \u00a521.33, 6% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "601169.SS",
    "status": "near",
-   "latest": 6.2,
+   "close": 6.2,
    "week_of": "2026-11-23",
-   "mid": 5.44,
-   "upper": 6.21,
-   "dist_to_upper_pct": -0.2,
-   "weeks_touching": 2,
-   "rsi": 72.1,
-   "rsi_prev": 70.3,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.52,
+   "partial_week_dropped": false,
+   "mid": 5.5,
+   "upper": 6.31,
+   "dist_to_upper_pct": -1.7,
+   "weeks_touching": 0,
+   "rsi": 69.2,
+   "rsi_prev": 72.1,
+   "rsi_dir": "down",
+   "overbought": false,
+   "vol_ratio": 1.7,
    "market_cap": 131086499840,
    "pe": 7.6,
    "forward_pe": 6.4,
@@ -12051,25 +5905,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 6.1,
    "margin_trend": null,
    "day_change_pct": -1.59,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 22.6,
-   "pe_vs_sector_pct": -12.6,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "ING BANK N.V.",
@@ -12159,18 +5994,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 50.2
    },
    "cn_inst_net_value": 1079968347,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601169.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 7.6 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.08B last quarter (bar: >\u00a5131.1M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.38 from 8 analysts); their average target is \u00a56.28, 1% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 22.6,
+   "pe_vs_sector_pct": -12.6,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 46.787
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 20.714
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.585
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 20.129
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -12207,46 +6074,34 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 20.129,
       "yoy": -23.7
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 46.787
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 20.714
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.585
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 20.129
-     }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601169.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 7.6 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 69).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.08B last quarter (bar: >\u00a5131.1M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.38 from 8 analysts); their average target is \u00a56.28, 1% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601288.SS",
    "status": "touch",
-   "latest": 7.86,
+   "close": 7.86,
    "week_of": "2026-11-23",
-   "mid": 6.93,
-   "upper": 7.7,
-   "dist_to_upper_pct": 2.1,
+   "partial_week_dropped": false,
+   "mid": 7.01,
+   "upper": 7.82,
+   "dist_to_upper_pct": 0.6,
    "weeks_touching": 2,
-   "rsi": 66.5,
-   "rsi_prev": 60.4,
+   "rsi": 67.7,
+   "rsi_prev": 66.5,
    "rsi_dir": "up",
    "overbought": false,
-   "vol_ratio": 1.05,
-   "pe": 9.4,
+   "vol_ratio": 1.3,
+   "pe": 9.6,
    "forward_pe": 9.2,
    "revenue_growth": 13.3,
    "cash": 4692821147648,
@@ -12268,14 +6123,14 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 14,
    "pe10y": 5.8,
    "pe10y_years": 10,
-   "pe15y_vs": 57,
+   "pe15y_vs": 60,
    "fcf_ttm": 861770000000,
    "fcf_qoq": -36.9,
    "fcf_yoy": -49.4,
    "ttm_high": 8.09,
    "ttm_high_date": "2025-12-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 9.7,
+   "pe_ttm_high": 9.9,
    "spark": [
     6.85,
     6.69,
@@ -12298,25 +6153,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.7,
    "margin_trend": null,
    "day_change_pct": -2.0,
-   "trap_count": 0,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 56.7,
-   "pe_vs_sector_pct": 8.0,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
@@ -12406,18 +6242,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 32.6
    },
    "cn_inst_net_value": 2925599470,
-   "score": 1,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601288.SS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 9.4 is above its usual 6.0 over the last 14 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a52.93B net last quarter).\nSentiment (0/2): analysts rate it a Buy on average (2.35 from 15 analysts); their average target is \u00a57.60, 3% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 0,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 60.0,
+   "pe_vs_sector_pct": 10.3,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 400.481
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 323.689
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 31.686
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 292.003
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -12454,47 +6322,35 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 292.003,
       "yoy": 3.3
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 400.481
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 323.689
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 31.686
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 292.003
-     }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 1,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601288.SS scores 1/10 \u2014 Weak.\nValue (1/2): P/E 9.6 is above its usual 6.0 over the last 14 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a52.93B net last quarter).\nSentiment (0/2): analysts rate it a Buy on average (2.35 from 15 analysts); their average target is \u00a57.60, 3% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601328.SS",
-   "status": "touch",
-   "latest": 9.02,
+   "status": "near",
+   "close": 9.02,
    "week_of": "2026-11-23",
-   "mid": 7.59,
-   "upper": 8.93,
-   "dist_to_upper_pct": 1.0,
-   "weeks_touching": 2,
-   "rsi": 75.7,
-   "rsi_prev": 71.8,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 7.71,
+   "upper": 9.11,
+   "dist_to_upper_pct": -1.0,
+   "weeks_touching": 0,
+   "rsi": 76.1,
+   "rsi_prev": 75.7,
+   "rsi_dir": "flat",
    "overbought": true,
-   "vol_ratio": 1.08,
+   "vol_ratio": 1.58,
    "market_cap": 797041360896,
-   "pe": 8.4,
+   "pe": 8.7,
    "forward_pe": 8.1,
    "ps": 3.58,
    "revenue_growth": 8.1,
@@ -12517,14 +6373,14 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 15,
    "pe10y": 5.8,
    "pe10y_years": 10,
-   "pe15y_vs": 50,
+   "pe15y_vs": 55,
    "fcf_ttm": 166626000000,
    "fcf_qoq": 2077.1,
    "fcf_yoy": 252.3,
    "ttm_high": 9.34,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 8.7,
+   "pe_ttm_high": 9.0,
    "spark": [
     7.48,
     7.46,
@@ -12546,25 +6402,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 9.6,
    "margin_trend": null,
    "day_change_pct": -2.7,
-   "trap_count": 0,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 50.0,
-   "pe_vs_sector_pct": -3.4,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u9999\u6e2f\u4e0a\u6d77\u6c47\u4e30\u94f6\u884c\u6709\u9650\u516c\u53f8",
@@ -12654,18 +6491,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 71.0
    },
    "cn_inst_net_value": 4916096158,
-   "score": 3,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 8.4 is above its usual 5.6 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 76).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.92B last quarter (bar: >\u00a5797.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 0,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 55.4,
+   "pe_vs_sector_pct": 0.0,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 159.856
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 103.763
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 7.249
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 96.514
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -12702,45 +6571,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 96.514,
       "yoy": 2.4
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 159.856
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 103.763
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 7.249
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 96.514
-     }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 1,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601328.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 8.7 is above its usual 5.6 over the last 15 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 76).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.92B last quarter (bar: >\u00a5797.0M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.17 from 16 analysts); their average target is \u00a58.78, 3% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601398.SS",
    "status": "near",
-   "latest": 9.1,
+   "close": 9.1,
    "week_of": "2026-11-23",
-   "mid": 8.13,
-   "upper": 9.13,
-   "dist_to_upper_pct": -0.4,
-   "weeks_touching": 1,
-   "rsi": 71.8,
-   "rsi_prev": 65.9,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 0.97,
+   "partial_week_dropped": false,
+   "mid": 8.22,
+   "upper": 9.24,
+   "dist_to_upper_pct": -1.5,
+   "weeks_touching": 0,
+   "rsi": 65.2,
+   "rsi_prev": 71.8,
+   "rsi_dir": "down",
+   "overbought": false,
+   "vol_ratio": 1.63,
    "market_cap": 3243297210368,
    "pe": 8.7,
    "forward_pe": 8.5,
@@ -12795,25 +6652,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -1.0,
    "margin_trend": null,
    "day_change_pct": -1.41,
-   "trap_count": 0,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 40.3,
-   "pe_vs_sector_pct": 0.0,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
@@ -12903,18 +6741,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 35.4
    },
    "cn_inst_net_value": 4770626697,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 8.7 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 72).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.77B last quarter (bar: >\u00a53.24B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 0,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 40.3,
+   "pe_vs_sector_pct": 0.0,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 409.061
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 424.435
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 53.669
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 370.766
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -12951,45 +6821,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 370.766,
       "yoy": 1.0
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 409.061
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 424.435
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 53.669
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 370.766
-     }
     ]
-   }
+   },
+   "score": 3,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601398.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 8.7 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a54.77B last quarter (bar: >\u00a53.24B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.94 from 16 analysts); their average target is \u00a59.13, 0% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601658.SS",
-   "status": "touch",
-   "latest": 5.89,
+   "status": "near",
+   "close": 5.89,
    "week_of": "2026-11-23",
-   "mid": 5.32,
-   "upper": 5.87,
-   "dist_to_upper_pct": 0.4,
-   "weeks_touching": 1,
-   "rsi": 65.3,
-   "rsi_prev": 62.8,
+   "partial_week_dropped": false,
+   "mid": 5.36,
+   "upper": 5.95,
+   "dist_to_upper_pct": -0.9,
+   "weeks_touching": 0,
+   "rsi": 67.4,
+   "rsi_prev": 65.3,
    "rsi_dir": "up",
    "overbought": false,
-   "vol_ratio": 1.09,
+   "vol_ratio": 1.53,
    "market_cap": 707359866880,
    "pe": 8.3,
    "forward_pe": 7.8,
@@ -13040,25 +6898,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 19.6,
    "margin_trend": null,
    "day_change_pct": -2.0,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 19.6% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 23.9,
-   "pe_vs_sector_pct": -4.6,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u90ae\u653f\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -13148,18 +6987,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 32.0
    },
    "cn_inst_net_value": 959325310,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "601658.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 8.3 is above its usual 6.7 over the last 7 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): no growth or cash-flow figures reported, so this can't be scored.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5959.3M last quarter (bar: >\u00a5707.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a56.36, 8% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 19.6% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
+   "trap_count": 1,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 19.6% over 3 years, so each share owns a smaller slice of the company.",
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 23.9,
+   "pe_vs_sector_pct": -4.6,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 254.99
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 98.221
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 10.598
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 87.623
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -13196,694 +7067,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 87.623,
       "yoy": 1.0
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 254.99
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 98.221
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 10.598
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 87.623
-     }
     ]
-   }
-  },
-  {
-   "ticker": "601668.SS",
-   "status": "near",
-   "close": 4.75,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 4.5,
-   "upper": 4.81,
-   "dist_to_upper_pct": -1.2,
-   "weeks_touching": 0,
-   "rsi": 56.5,
-   "rsi_prev": 51.2,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.1,
-   "market_cap": 188834185216,
-   "pe": 6.5,
-   "forward_pe": 5.5,
-   "ps": 0.1,
-   "fcf_yield": -6.2,
-   "revenue_growth": -20.0,
-   "rule40": -15.0,
-   "rule40_fcf": -20.6,
-   "ebitda_margin": 5.0,
-   "de_raw": 113.29,
-   "debt_to_equity": 1.13,
-   "cash": 367784329216,
-   "debt": 964271276032,
-   "net_cash": -596486946816,
-   "sector": "Industrials",
-   "name": "China State Construction Engineering Corporation Limited",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.62,
-   "analyst_count": 7,
-   "analyst_target": 5.46,
-   "beta": 0.18,
-   "logo": "https://assets.parqet.com/logos/symbol/601668.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u4e2d\u56fd\u5efa\u7b51",
-   "ccy": "CNY",
-   "pe15y": 5.9,
-   "pe15y_years": 15,
-   "pe10y": 5.5,
-   "pe10y_years": 10,
-   "pe15y_vs": 10,
-   "fcf_ttm": 20510083000,
-   "fcf_qoq": -55.5,
-   "fcf_yoy": -334.1,
-   "ttm_high": 5.34,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -11,
-   "pe_ttm_high": 7.3,
-   "spark": [
-    4.35,
-    4.28,
-    4.26,
-    4.34,
-    4.35,
-    4.54,
-    4.5,
-    4.65,
-    4.71,
-    4.62,
-    4.75,
-    4.57
-   ],
-   "earn_surprise": [
-    -48.3,
-    -1.9
-   ],
-   "int_coverage": 4.5,
-   "shares_3y": 0.3,
-   "margin_trend": -1.3,
-   "day_change_pct": -0.65,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 10.2,
-   "pe_vs_sector_pct": -64.5,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u5efa\u7b51\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 57.75,
-     "change_shares": 18329500,
-     "change_pct": 0.1,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.91,
-     "change_shares": 140360112,
-     "change_pct": 21.7,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.41,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.59,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.58,
-     "change_shares": -345281346,
-     "change_pct": -59.0,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5357\u65b9\u6807\u666e\u4e2d\u56fdA\u80a1\u5927\u76d8\u7ea2\u5229\u4f4e\u6ce250\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.31,
-     "change_shares": 20842200,
-     "change_pct": 19.2,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2\u52a8\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.27,
-     "change_shares": -10705241,
-     "change_pct": -8.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u5b81\u6ce2\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u6cf0\u661f\u5143\u4ef7\u503c\u4f18\u9009\u7075\u6d3b\u914d\u7f6e\u6df7\u5408\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.23,
-     "change_shares": 96613384,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u592a\u4fdd\u81f4\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u592a\u4fdd\u81f4\u8fdc1\u53f7\u79c1\u52df\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.23,
-     "change_shares": 95813800,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u534e\u6cf0\u67cf\u745e\u6caa\u6df1300\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.21,
-     "change_shares": 86653179,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.91,
-    "change_shares": 140360112,
-    "change_pct": 21.7
    },
-   "cn_inst_net_value": 400406418,
-   "score": 3,
-   "score_v": 0,
+   "score": 4,
+   "score_v": 1,
    "score_h": 0,
    "score_t": 0,
    "score_b": 1,
    "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601668.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 6.5 is above its usual 5.9 over the last 15 years.\nHealth (0/2): growth and cash margins are weak (score -21; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5400.4M last quarter (bar: >\u00a5188.8M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.62 from 7 analysts); their average target is \u00a55.46, 15% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 2082.142,
-      "yoy": -4.8
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 1876.059,
-      "yoy": -4.9
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 206.083,
-      "yoy": -4.4
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 44.009,
-      "yoy": -3.2
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 14.289,
-      "yoy": -1.4
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 36.375,
-      "yoy": -3.6
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 111.41,
-      "yoy": -5.5
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 41.188,
-      "yoy": 8.7
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 70.222,
-      "yoy": -12.3
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 16.664,
-      "yoy": -3.7
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 53.558,
-      "yoy": -14.6
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 1876.059
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 206.083
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 44.009
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 14.289
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 36.375
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 111.41
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 70.222
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 41.188
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 16.664
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 53.558
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "601728.SS",
-   "status": "touch",
-   "close": 7.34,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 6.45,
-   "upper": 7.24,
-   "dist_to_upper_pct": 1.4,
-   "weeks_touching": 1,
-   "rsi": 67.4,
-   "rsi_prev": 56.8,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.15,
-   "market_cap": 641464074240,
-   "pe": 21.9,
-   "forward_pe": 21.7,
-   "ps": 1.26,
-   "fcf_yield": 6.3,
-   "revenue_growth": -3.0,
-   "rule40": 16.5,
-   "rule40_fcf": 5.0,
-   "ebitda_margin": 19.5,
-   "r40_driver": "margin",
-   "de_raw": 10.15,
-   "debt_to_equity": 0.1,
-   "cash": 92223373312,
-   "debt": 47850987520,
-   "net_cash": 44372385792,
-   "sector": "Communication Services",
-   "name": "China Telecom Corporation Limited",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.0,
-   "analyst_count": 9,
-   "analyst_target": 7.13,
-   "beta": 0.54,
-   "logo": "https://assets.parqet.com/logos/symbol/601728.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4e2d\u56fd\u7535\u4fe1",
-   "ccy": "CNY",
-   "pe15y": 16.4,
-   "pe15y_years": 5,
-   "pe10y": 16.4,
-   "pe10y_years": 5,
-   "pe15y_vs": 34,
-   "ttm_high": 7.39,
-   "ttm_high_date": "2026-05-01",
-   "vs_ttm_high": -1,
-   "pe_ttm_high": 22.0,
-   "spark": [
-    6.29,
-    6.19,
-    6.16,
-    6.28,
-    6.49,
-    6.85,
-    6.84,
-    7.01,
-    6.91,
-    6.67,
-    7.34,
-    7.01
-   ],
-   "earn_surprise": [
-    -20.0,
-    54.9,
-    -6.5
-   ],
-   "int_coverage": 21.8,
-   "shares_3y": 0.0,
-   "margin_trend": null,
-   "day_change_pct": -2.5,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": true,
-   "screaming_sell": false,
-   "near_screaming_sell": true,
-   "overvalued_tip": "Overvalued \u2014 P/E 21.9 vs its 5y median of 16.4, forward P/E 21.7.",
-   "pe_vs_own_pct": 33.5,
-   "pe_vs_sector_pct": -0.9,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u7535\u4fe1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 63.9,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 15.08,
-     "change_shares": -20732005,
-     "change_pct": -0.1,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u5e7f\u4e1c\u7701\u5e7f\u665f\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.24,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6d59\u6c5f\u7701\u8d22\u5f00\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u8d22\u52a1\u516c\u53f8",
-     "pct_float": 2.34,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6c5f\u82cf\u7701\u56fd\u4fe1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.05,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u798f\u5efa\u7701\u6295\u8d44\u5f00\u53d1\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 1.01,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.9,
-     "change_shares": 104546600,
-     "change_pct": 14.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u56fd\u4e30\u5174\u534e(\u5317\u4eac)\u79c1\u52df\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u9e3f\u9e44\u5fd7\u8fdc(\u4e0a\u6d77)\u79c1\u52df\u6295\u8d44\u57fa\u91d1\u6709\u9650\u516c\u53f8",
-     "type": "\u79c1\u52df\u57fa\u91d1",
-     "pct_float": 0.83,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u56fd\u65b0\u5b8f\u76db\u6295\u8d44(\u5317\u4eac)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 0.82,
-     "change_shares": 189626090,
-     "change_pct": 33.8,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u56fd\u7f51\u82f1\u5927\u56fd\u9645\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.48,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_inst_net_value": 2159227545,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601728.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 21.9 is above its usual 16.4 over the last 5 years.\nHealth (0/2): growth and cash margins are weak (score 5; strong is over 40).\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.16B last quarter (bar: >\u00a5641.5M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 9 analysts); their average target is \u00a57.13, 3% below the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 21.9 vs its 5y median of 16.4, forward P/E 21.7.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 529.559,
-      "yoy": 0.0
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 216.024,
-      "yoy": -2.4
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 313.535,
-      "yoy": 1.7
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 4.91,
-      "yoy": 5.3
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 61.272,
-      "yoy": -1.2
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 207.679,
-      "yoy": 3.0
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 39.674,
-      "yoy": -0.3
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 3.006
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 42.68,
-      "yoy": 1.2
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 9.457,
-      "yoy": 2.8
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 33.223,
-      "yoy": 0.8
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 216.024
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 313.535
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 4.91
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 61.272
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 207.679
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 39.674
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 39.674
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 3.006
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 9.457
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 33.223
-     }
-    ]
-   }
+   "score_tier": "Mixed",
+   "score_tip": "601658.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 8.3 is above its usual 6.7 over the last 7 years; counts as undervalued (cheap on both trailing and forward earnings).\nHealth (0/2): no growth or cash-flow figures reported, so this can't be scored.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 67).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5959.3M last quarter (bar: >\u00a5707.4M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.80 from 12 analysts); their average target is \u00a56.36, 8% above the price; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 19.6% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
+   "score_raw": 3
   },
   {
    "ticker": "601766.SS",
    "status": "near",
-   "latest": 6.66,
+   "close": 6.66,
    "week_of": "2026-11-23",
-   "mid": 6.15,
-   "upper": 6.77,
-   "dist_to_upper_pct": -1.6,
+   "partial_week_dropped": false,
+   "mid": 6.21,
+   "upper": 6.78,
+   "dist_to_upper_pct": -1.8,
    "weeks_touching": 0,
-   "rsi": 64.3,
-   "rsi_prev": 57.6,
-   "rsi_dir": "up",
+   "rsi": 61.9,
+   "rsi_prev": 64.3,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.18,
+   "vol_ratio": 1.55,
    "pe": 14.2,
    "forward_pe": 12.2,
    "revenue_growth": -1.7,
@@ -13943,25 +7153,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 0.8,
    "margin_trend": null,
    "day_change_pct": -1.48,
-   "trap_count": 1,
-   "opp_count": 3,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -15.0,
-   "pe_vs_sector_pct": -22.4,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u4e2d\u8f66\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -14051,18 +7242,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 15.9
    },
    "cn_inst_net_value": 1766696395,
-   "score": 3,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601766.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 14.2 is below its usual 16.7 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 64).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.77B net last quarter).\nSentiment (0/2): analysts rate it a Buy on average (2.29 from 6 analysts); their average target is \u00a57.90, 19% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 1,
+   "opp_count": 3,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -15.0,
+   "pe_vs_sector_pct": -22.4,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 214.684
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 58.379
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 17.641
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 6.874
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 14.29
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 19.574
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 19.574
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.423
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 16.896
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -14134,399 +7382,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 16.896,
       "yoy": 7.9
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 214.684
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 58.379
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 17.641
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 6.874
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 14.29
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 19.574
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 19.574
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.423
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 16.896
-     }
     ]
-   }
-  },
-  {
-   "ticker": "601816.SS",
-   "status": "near",
-   "latest": 5.32,
-   "week_of": "2026-11-23",
-   "mid": 4.98,
-   "upper": 5.43,
-   "dist_to_upper_pct": -2.0,
-   "weeks_touching": 1,
-   "rsi": 66.0,
-   "rsi_prev": 61.0,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.25,
-   "market_cap": 260284628992,
-   "pe": 19.0,
-   "forward_pe": 17.2,
-   "ps": 5.93,
-   "fcf_yield": 5.7,
-   "revenue_growth": 0.1,
-   "rule40": 57.0,
-   "rule40_fcf": 33.7,
-   "ebitda_margin": 56.9,
-   "r40_driver": "margin",
-   "de_raw": 20.7,
-   "debt_to_equity": 0.21,
-   "cash": 17333272576,
-   "debt": 48959053824,
-   "net_cash": -31625781248,
-   "sector": "Industrials",
-   "name": "Beijing-Shanghai High-Speed Railway Co., Ltd.",
-   "analyst_rec": "strong_buy",
-   "analyst_mean": 1.23,
-   "analyst_count": 10,
-   "analyst_target": 6.39,
-   "beta": 0.06,
-   "logo": "https://assets.parqet.com/logos/symbol/601816.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4eac\u6caa\u9ad8\u94c1",
-   "ccy": "CNY",
-   "pe15y": 23.7,
-   "pe15y_years": 5,
-   "pe10y": 23.7,
-   "pe10y_years": 5,
-   "pe15y_vs": -20,
-   "fcf_ttm": 21087113305,
-   "fcf_qoq": 3.1,
-   "fcf_yoy": 11.9,
-   "ttm_high": 5.45,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": -2,
-   "pe_ttm_high": 19.5,
-   "spark": [
-    4.81,
-    4.75,
-    4.69,
-    4.76,
-    4.81,
-    5.13,
-    5.15,
-    5.2,
-    5.36,
-    5.25,
-    5.43,
-    5.32
-   ],
-   "earn_surprise": [
-    0.1,
-    4.4,
-    -2.0
-   ],
-   "int_coverage": 12.1,
-   "shares_3y": -0.6,
-   "margin_trend": 2.6,
-   "day_change_pct": -0.93,
-   "trap_count": 0,
-   "opp_count": 3,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -19.8,
-   "pe_vs_sector_pct": 3.8,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u56fd\u94c1\u8def\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 43.55,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4f1a\u4fdd\u969c\u57fa\u91d1\u7406\u4e8b\u4f1a",
-     "type": "\u5176\u5b83",
-     "pct_float": 6.26,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6c5f\u82cf\u7701\u94c1\u8def\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.0,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e0a\u6d77\u4e45\u4e8b\u94c1\u8def\u6295\u8d44\u5efa\u8bbe\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.59,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5357\u4eac\u94c1\u8def\u5efa\u8bbe\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.4,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5e73\u5b89\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u9ad8\u5229\u7387\u4fdd\u5355\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.94,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5929\u6d25\u94c1\u8def\u5efa\u8bbe\u6295\u8d44\u63a7\u80a1(\u96c6\u56e2)\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 3.86,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5c71\u4e1c\u94c1\u8def\u6295\u8d44\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 3.79,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.94,
-     "change_shares": 101809281,
-     "change_pct": 7.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u592a\u5e73\u6d0b\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 2.5,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 2.94,
-    "change_shares": 101809281,
-    "change_pct": 7.6
    },
-   "cn_inst_net_value": 541625375,
-   "score": 4,
+   "score": 3,
    "score_v": 1,
-   "score_h": 0,
+   "score_h": 1,
    "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "601816.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 19.0 is below its usual 23.7 over the last 5 years.\nHealth (0/2): growth and cash margins are weak (score 34; strong is over 40); carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5541.6M last quarter (bar: >\u00a5260.3M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Strong Buy on average (1.23 from 10 analysts); their average target is \u00a56.39, 20% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 43.062,
-      "yoy": 2.1
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 22.874,
-      "yoy": 3.1
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 20.188,
-      "yoy": 1.1
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.015,
-      "yoy": 36.4
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.04,
-      "yoy": 33.3
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 1.026,
-      "yoy": -1.5
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 19.107,
-      "yoy": 1.1
-     },
-     {
-      "id": "othexp",
-      "label": "Interest & other expense",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u652f\u51fa",
-      "value": 1.434,
-      "yoy": -19.5
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 17.673,
-      "yoy": 3.3
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 4.469,
-      "yoy": 0.6
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 13.204,
-      "yoy": 4.2
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 22.874
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 20.188
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.015
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.04
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 1.026
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 19.107
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 17.673
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 1.434
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.469
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 13.204
-     }
-    ]
-   }
+   "score_b": 0,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601766.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 14.2 is below its usual 16.7 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score 4; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.77B net last quarter).\nSentiment (0/2): analysts rate it a Buy on average (2.29 from 6 analysts); their average target is \u00a57.90, 19% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "601818.SS",
    "status": "touch",
-   "latest": 3.28,
+   "close": 3.28,
    "week_of": "2026-11-23",
-   "mid": 3.08,
-   "upper": 3.23,
-   "dist_to_upper_pct": 1.5,
+   "partial_week_dropped": false,
+   "mid": 3.09,
+   "upper": 3.27,
+   "dist_to_upper_pct": 0.4,
    "weeks_touching": 3,
-   "rsi": 60.2,
-   "rsi_prev": 58.3,
+   "rsi": 62.0,
+   "rsi_prev": 60.2,
    "rsi_dir": "up",
    "overbought": false,
-   "vol_ratio": 1.23,
+   "vol_ratio": 1.52,
    "market_cap": 193800601600,
    "pe": 7.3,
    "forward_pe": 7.0,
@@ -14581,25 +7463,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 0.1,
    "margin_trend": null,
    "day_change_pct": 0.0,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 17.7,
-   "pe_vs_sector_pct": -16.1,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u5149\u5927\u96c6\u56e2\u80a1\u4efd\u516c\u53f8",
@@ -14689,18 +7552,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": null
    },
    "cn_inst_net_value": 2079620378,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601818.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 7.3 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 60).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.08B last quarter (bar: >\u00a5193.8M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.00 from 6 analysts); their average target is \u00a52.82, 14% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 1,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 17.7,
+   "pe_vs_sector_pct": -16.1,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 76.624
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 49.687
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 10.546
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 39.141
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -14737,45 +7632,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 39.141,
       "yoy": -6.6
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 76.624
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 49.687
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 10.546
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 39.141
-     }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 1,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601818.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 7.3 is above its usual 6.2 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 62).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a52.08B last quarter (bar: >\u00a5193.8M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (3.00 from 6 analysts); their average target is \u00a52.82, 14% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601825.SS",
    "status": "near",
-   "latest": 9.57,
+   "close": 9.57,
    "week_of": "2026-11-23",
-   "mid": 8.7,
-   "upper": 9.65,
-   "dist_to_upper_pct": -0.8,
-   "weeks_touching": 1,
-   "rsi": 71.1,
-   "rsi_prev": 64.3,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.25,
+   "partial_week_dropped": false,
+   "mid": 8.8,
+   "upper": 9.69,
+   "dist_to_upper_pct": -1.2,
+   "weeks_touching": 0,
+   "rsi": 63.1,
+   "rsi_prev": 71.1,
+   "rsi_dir": "down",
+   "overbought": false,
+   "vol_ratio": 1.38,
    "market_cap": 92297330688,
    "pe": 7.4,
    "forward_pe": 7.3,
@@ -14825,25 +7708,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -0.1,
    "margin_trend": null,
    "day_change_pct": -0.93,
-   "trap_count": 0,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 19.4,
-   "pe_vs_sector_pct": -14.9,
-   "pe_highlight": null,
    "cn_insider_net": 1847818,
    "cn_insider_net_shares": 208100,
    "cn_insider_buys": 10,
@@ -15014,18 +7878,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    ],
    "cn_holders_period": "2026-09-30",
    "cn_inst_net_value": 0,
-   "score": 0,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.4 is above its usual 6.2 over the last 5 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 71).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a592.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0,
+   "trap_count": 0,
+   "opp_count": 0,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 19.4,
+   "pe_vs_sector_pct": -14.9,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 10.323
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 14.973
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.324
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 12.649
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -15062,45 +7958,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 12.649,
       "yoy": 0.3
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 10.323
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 14.973
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.324
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 12.649
-     }
     ]
-   }
+   },
+   "score": 0,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601825.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.4 is above its usual 6.2 over the last 5 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 63).\nBacking (0/2): executive buying and selling roughly balanced (\u00a51.8M net in the last 3 months); big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a592.3M = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Hold on average (2.60 from 3 analysts); their average target is \u00a59.69, 1% above the price; only 3 analysts cover it, so the rating counts for less; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_raw": 0
   },
   {
    "ticker": "601838.SS",
-   "status": "touch",
-   "latest": 21.02,
+   "status": "near",
+   "close": 21.02,
    "week_of": "2026-11-23",
-   "mid": 19.14,
-   "upper": 20.84,
-   "dist_to_upper_pct": 0.9,
-   "weeks_touching": 3,
-   "rsi": 64.9,
-   "rsi_prev": 63.5,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 19.25,
+   "upper": 21.13,
+   "dist_to_upper_pct": -0.5,
+   "weeks_touching": 0,
+   "rsi": 65.6,
+   "rsi_prev": 64.9,
+   "rsi_dir": "flat",
    "overbought": false,
-   "vol_ratio": 1.03,
+   "vol_ratio": 1.46,
    "market_cap": 89091915776,
    "pe": 6.8,
    "forward_pe": 6.2,
@@ -15154,25 +8038,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 7.7,
    "margin_trend": null,
    "day_change_pct": -1.31,
-   "trap_count": 1,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 17.2,
-   "pe_vs_sector_pct": -21.8,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u6210\u90fd\u4ea4\u5b50\u91d1\u878d\u63a7\u80a1\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -15262,18 +8127,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 3.7
    },
    "cn_inst_net_value": 60978137,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 6.8 is above its usual 5.8 over the last 8 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter) (bar: >\u00a589.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 1,
+   "opp_count": 0,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 17.2,
+   "pe_vs_sector_pct": -21.8,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 7.843
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 15.668
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 2.384
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 13.284
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -15310,47 +8207,272 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 13.284,
       "yoy": 3.4
      }
-    ],
+    ]
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601838.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 6.8 is above its usual 5.8 over the last 8 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 66).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a561.0M net last quarter) (bar: >\u00a589.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.73 from 9 analysts); their average target is \u00a522.63, 8% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
+  },
+  {
+   "ticker": "601916.SS",
+   "status": "touch",
+   "close": 3.1,
+   "week_of": "2026-11-23",
+   "partial_week_dropped": false,
+   "mid": 2.93,
+   "upper": 3.06,
+   "dist_to_upper_pct": 1.4,
+   "weeks_touching": 1,
+   "rsi": 60.9,
+   "rsi_prev": 52.0,
+   "rsi_dir": "up",
+   "overbought": false,
+   "vol_ratio": 2.06,
+   "market_cap": 85140373504,
+   "pe": 7.0,
+   "forward_pe": 5.2,
+   "ps": 2.18,
+   "revenue_growth": 5.2,
+   "cash": 633782009856,
+   "debt": 680201027584,
+   "net_cash": -46419017728,
+   "sector": "Financial Services",
+   "name": "China Zheshang Bank Co., Ltd",
+   "analyst_rec": "none",
+   "analyst_count": 2,
+   "analyst_target": 3.4,
+   "beta": 0.52,
+   "logo": "https://assets.parqet.com/logos/symbol/601916.SS",
+   "high_debt": true,
+   "undervalued": false,
+   "name_cn": "\u6d59\u5546\u94f6\u884c",
+   "ccy": "CNY",
+   "pe15y": 6.0,
+   "pe15y_years": 7,
+   "pe10y": 6.0,
+   "pe10y_years": 7,
+   "pe15y_vs": 17,
+   "fcf_ttm": 69572000000,
+   "ttm_high": 3.15,
+   "ttm_high_date": "2025-12-01",
+   "vs_ttm_high": -2,
+   "pe_ttm_high": 7.1,
+   "spark": [
+    2.95,
+    2.9,
+    2.84,
+    2.88,
+    2.91,
+    2.97,
+    2.91,
+    2.95,
+    2.92,
+    2.96,
+    2.96,
+    3.1
+   ],
+   "shares_3y": 22.3,
+   "margin_trend": null,
+   "day_change_pct": 0.0,
+   "cn_holders": [
+    {
+     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 21.55,
+     "change_shares": -2000,
+     "change_pct": -0.0,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u6d59\u6c5f\u7701\u521b\u65b0\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u6295\u8d44\u516c\u53f8",
+     "pct_float": 12.57,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6a2a\u5e97\u96c6\u56e2\u63a7\u80a1\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 5.0,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u5c71\u4e1c\u7701\u56fd\u9645\u4fe1\u6258\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     "type": "\u4fe1\u6258\u6295\u8d44\u516c\u53f8",
+     "pct_float": 4.0,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u4fe1\u6cf0\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u4fdd\u9669\u4ea7\u54c1",
+     "pct_float": 3.63,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6d59\u6c5f\u7701\u80fd\u6e90\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 3.38,
+     "change_shares": -165016501,
+     "change_pct": -15.1,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
+     "type": "\u4fdd\u9669\u516c\u53f8",
+     "pct_float": 3.36,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6d59\u6c5f\u6052\u9038\u9ad8\u65b0\u6750\u6599\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.4,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    },
+    {
+     "name": "\u6c11\u751f\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
+     "type": "\u5176\u4ed6\u7406\u8d22\u4ea7\u54c1",
+     "pct_float": 2.4,
+     "change_shares": -20000000,
+     "change_pct": -2.9,
+     "status": "\u51cf\u4ed3"
+    },
+    {
+     "name": "\u6d59\u6c5f\u6052\u9038\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+     "type": "\u5176\u5b83",
+     "pct_float": 2.34,
+     "change_shares": 0,
+     "change_pct": 0.0,
+     "status": "\u4e0d\u53d8"
+    }
+   ],
+   "cn_holders_period": "2026-09-30",
+   "cn_inst_net_value": 0,
+   "trap_count": 0,
+   "opp_count": 0,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": true,
+   "buyback": false,
+   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 22.3% over 3 years, so each share owns a smaller slice of the company.",
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 16.7,
+   "pe_vs_sector_pct": -19.5,
+   "pe_highlight": null,
+   "sankey": {
+    "ccy": "CNY",
+    "fy_end": "2025-12-31",
     "links": [
      {
       "from": "rev",
       "to": "opex",
-      "value": 7.843
+      "value": 44.167
      },
      {
       "from": "rev",
       "to": "pre",
-      "value": 15.668
+      "value": 16.129
      },
      {
       "from": "pre",
       "to": "tax",
-      "value": 2.384
+      "value": 2.568
      },
      {
       "from": "pre",
       "to": "net",
-      "value": 13.284
+      "value": 13.561
+     }
+    ],
+    "nodes": [
+     {
+      "id": "rev",
+      "label": "Revenue",
+      "label_zh": "\u8425\u4e1a\u6536\u5165",
+      "value": 60.296,
+      "yoy": -8.4
+     },
+     {
+      "id": "opex",
+      "label": "Operating expenses",
+      "label_zh": "\u8fd0\u8425\u652f\u51fa",
+      "value": 44.167,
+      "yoy": -8.4
+     },
+     {
+      "id": "pre",
+      "label": "Pre-tax income",
+      "label_zh": "\u7a0e\u524d\u5229\u6da6",
+      "value": 16.129,
+      "yoy": -8.2
+     },
+     {
+      "id": "tax",
+      "label": "Tax",
+      "label_zh": "\u6240\u5f97\u7a0e",
+      "value": 2.568,
+      "yoy": 36.2
+     },
+     {
+      "id": "net",
+      "label": "Net income",
+      "label_zh": "\u51c0\u5229\u6da6",
+      "value": 13.561,
+      "yoy": -13.6
      }
     ]
-   }
+   },
+   "score": 0,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 0,
+   "score_tier": "Weak",
+   "score_tip": "601916.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.0 is above its usual 6.0 over the last 7 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 61).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a585.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 22.3% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
+   "score_raw": 0
   },
   {
    "ticker": "601939.SS",
    "status": "near",
-   "latest": 12.41,
+   "close": 12.41,
    "week_of": "2026-11-23",
-   "mid": 11.01,
-   "upper": 12.49,
-   "dist_to_upper_pct": -0.6,
-   "weeks_touching": 1,
-   "rsi": 75.1,
-   "rsi_prev": 70.2,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 1.16,
+   "partial_week_dropped": false,
+   "mid": 11.13,
+   "upper": 12.66,
+   "dist_to_upper_pct": -2.0,
+   "weeks_touching": 0,
+   "rsi": 68.6,
+   "rsi_prev": 75.1,
+   "rsi_dir": "down",
+   "overbought": false,
+   "vol_ratio": 1.79,
    "market_cap": 3246460764160,
-   "pe": 9.3,
+   "pe": 9.5,
    "forward_pe": 8.8,
    "ps": 5.04,
    "revenue_growth": 11.6,
@@ -15373,14 +8495,14 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "pe15y_years": 15,
    "pe10y": 6.2,
    "pe10y_years": 10,
-   "pe15y_vs": 45,
+   "pe15y_vs": 48,
    "fcf_ttm": 1524864000000,
    "fcf_qoq": 32.9,
    "fcf_yoy": 70.7,
    "ttm_high": 12.78,
    "ttm_high_date": "2026-11-01",
    "vs_ttm_high": -3,
-   "pe_ttm_high": 9.6,
+   "pe_ttm_high": 9.8,
    "spark": [
     11.02,
     10.81,
@@ -15402,25 +8524,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 2.8,
    "margin_trend": null,
    "day_change_pct": -2.51,
-   "trap_count": 0,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 45.3,
-   "pe_vs_sector_pct": 6.9,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
@@ -15510,18 +8613,50 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 20.2
    },
    "cn_inst_net_value": 1867716963,
-   "score": 1,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601939.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.3 is above its usual 6.4 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 75).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.87B net last quarter) (bar: >\u00a53.25B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
+   "trap_count": 0,
+   "opp_count": 0,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": 48.4,
+   "pe_vs_sector_pct": 9.2,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "opex",
+      "value": 380.09
+     },
+     {
+      "from": "rev",
+      "to": "pre",
+      "value": 380.623
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 40.833
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 339.79
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -15558,45 +8693,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 339.79,
       "yoy": 1.0
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 380.09
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 380.623
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 40.833
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 339.79
-     }
     ]
-   }
+   },
+   "score": 1,
+   "score_v": 0,
+   "score_h": 0,
+   "score_t": 0,
+   "score_b": 0,
+   "score_s": 1,
+   "score_tier": "Weak",
+   "score_tip": "601939.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.5 is above its usual 6.4 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 69).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a51.87B net last quarter) (bar: >\u00a53.25B = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.89 from 16 analysts); their average target is \u00a512.64, 2% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
+   "score_raw": 1
   },
   {
    "ticker": "601985.SS",
    "status": "near",
-   "latest": 9.88,
+   "close": 9.88,
    "week_of": "2026-11-23",
-   "mid": 9.15,
-   "upper": 9.9,
-   "dist_to_upper_pct": -0.2,
-   "weeks_touching": 1,
-   "rsi": 68.3,
-   "rsi_prev": 64.2,
-   "rsi_dir": "up",
+   "partial_week_dropped": false,
+   "mid": 9.2,
+   "upper": 10.01,
+   "dist_to_upper_pct": -1.3,
+   "weeks_touching": 0,
+   "rsi": 65.2,
+   "rsi_prev": 68.3,
+   "rsi_dir": "down",
    "overbought": false,
-   "vol_ratio": 1.05,
+   "vol_ratio": 1.59,
    "market_cap": 203211866112,
    "pe": 27.4,
    "forward_pe": 22.4,
@@ -15659,25 +8782,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": 6.5,
    "margin_trend": -3.0,
    "day_change_pct": 0.1,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": true,
-   "screaming_sell": false,
-   "near_screaming_sell": true,
-   "overvalued_tip": "Overvalued \u2014 P/E 27.4 vs its 11y median of 19.1, forward P/E 22.4.",
-   "pe_vs_own_pct": 43.5,
-   "pe_vs_sector_pct": 14.2,
-   "pe_highlight": "red",
    "cn_holders": [
     {
      "name": "\u56fd\u65b0\u4ea7\u4e1a\u8d44\u672c\u7ba1\u7406\u6709\u9650\u516c\u53f8",
@@ -15767,18 +8871,80 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": 16.7
    },
    "cn_inst_net_value": 451648906,
-   "score": 3,
-   "score_v": 0,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Weak",
-   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 27.4 is above its usual 19.1 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 68).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5451.6M last quarter (bar: >\u00a5203.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its 11y median of 19.1, forward P/E 22.4.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 2,
+   "opp_count": 1,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": true,
+   "screaming_sell": false,
+   "near_screaming_sell": true,
+   "overvalued_tip": "Overvalued \u2014 P/E 27.4 vs its 11y median of 19.1, forward P/E 22.4.",
+   "pe_vs_own_pct": 43.5,
+   "pe_vs_sector_pct": 14.2,
+   "pe_highlight": "red",
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 48.161
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 33.914
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 1.529
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 1.286
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 0.929
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 30.17
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 23.289
+     },
+     {
+      "from": "opinc",
+      "to": "othexp",
+      "value": 6.881
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 5.318
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 17.971
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -15856,323 +9022,33 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 17.971,
       "yoy": 8.6
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 48.161
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 33.914
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 1.529
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 1.286
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.929
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 30.17
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 23.289
-     },
-     {
-      "from": "opinc",
-      "to": "othexp",
-      "value": 6.881
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 5.318
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 17.971
-     }
     ]
-   }
-  },
-  {
-   "ticker": "601988.SS",
-   "status": "touch",
-   "close": 7.55,
-   "week_of": "2026-11-16",
-   "partial_week_dropped": true,
-   "mid": 6.5,
-   "upper": 7.53,
-   "dist_to_upper_pct": 0.3,
-   "weeks_touching": 1,
-   "rsi": 75.6,
-   "rsi_prev": 70.9,
-   "rsi_dir": "up",
-   "overbought": true,
-   "vol_ratio": 0.83,
-   "market_cap": 2361816776704,
-   "pe": 9.9,
-   "forward_pe": 9.2,
-   "ps": 4.09,
-   "revenue_growth": 1.6,
-   "cash": 2717814882304,
-   "debt": 9705450635264,
-   "net_cash": -6987635752960,
-   "sector": "Financial Services",
-   "name": "Bank of China Limited",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.16,
-   "analyst_count": 16,
-   "analyst_target": 7.52,
-   "beta": 0.1,
-   "logo": "https://assets.parqet.com/logos/symbol/601988.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u4e2d\u56fd\u94f6\u884c",
-   "ccy": "CNY",
-   "pe15y": 6.1,
-   "pe15y_years": 15,
-   "pe10y": 6.0,
-   "pe10y_years": 10,
-   "pe15y_vs": 62,
-   "fcf_ttm": 1250093000000,
-   "fcf_qoq": 1.5,
-   "fcf_yoy": 316.8,
-   "ttm_high": 7.57,
-   "ttm_high_date": "2026-11-01",
-   "vs_ttm_high": 0,
-   "pe_ttm_high": 9.9,
-   "spark": [
-    6.57,
-    6.54,
-    6.62,
-    6.73,
-    6.77,
-    6.92,
-    6.93,
-    7.09,
-    6.85,
-    7.18,
-    7.55,
-    7.33
-   ],
-   "earn_surprise": [
-    -10.0
-   ],
-   "shares_3y": 4.4,
-   "margin_trend": null,
-   "day_change_pct": -2.4,
-   "trap_count": 1,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 62.3,
-   "pe_vs_sector_pct": 13.8,
-   "pe_highlight": "red",
-   "cn_holders": [
-    {
-     "name": "\u4e2d\u592e\u6c47\u91d1\u6295\u8d44\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 64.13,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 27.82,
-     "change_shares": 24772577,
-     "change_pct": 0.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u8bc1\u5238\u91d1\u878d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 2.7,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u592e\u6c47\u91d1\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.61,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.41,
-     "change_shares": 315977511,
-     "change_pct": 36.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.34,
-     "change_shares": -3042200,
-     "change_pct": -0.3,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "MUFG Bank, Ltd.",
-     "type": "QFII",
-     "pct_float": 0.18,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-005L-FH002\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.07,
-     "change_shares": 32601700,
-     "change_pct": 20.2,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-022L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.06,
-     "change_shares": 172301195,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u6c11\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.06,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 0.41,
-    "change_shares": 315977511,
-    "change_pct": 36.0
    },
-   "cn_inst_net_value": 3909678455,
-   "score": 1,
+   "score": 3,
    "score_v": 0,
    "score_h": 0,
    "score_t": 0,
    "score_b": 1,
-   "score_s": 0,
+   "score_s": 1,
    "score_tier": "Weak",
-   "score_tip": "601988.SS scores 1/10 \u2014 Weak.\nValue (0/2): P/E 9.9 is above its usual 6.1 over the last 15 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 76).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a53.91B last quarter (bar: >\u00a52.36B = 0.1% of market cap).\nSentiment (0/2): analysts rate it a Buy on average (2.16 from 16 analysts); their average target is \u00a57.52, 0% below the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 1/8).",
-   "score_raw": 1,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 657.178,
-      "yoy": 4.4
-     },
-     {
-      "id": "opex",
-      "label": "Operating expenses",
-      "label_zh": "\u8fd0\u8425\u652f\u51fa",
-      "value": 355.89,
-      "yoy": 6.4
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 301.288,
-      "yoy": 2.1
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 43.352,
-      "yoy": 2.6
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 257.936,
-      "yoy": 2.1
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 355.89
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 301.288
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 43.352
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 257.936
-     }
-    ]
-   }
+   "score_tip": "601985.SS scores 3/10 \u2014 Weak.\nValue (0/2): P/E 27.4 is above its usual 19.1 over the last 11 years.\nHealth (0/2): growth and cash margins are weak (score -58; strong is over 40); not generating cash and carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 65).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5451.6M last quarter (bar: >\u00a5203.2M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.90 from 6 analysts); their average target is \u00a510.27, 4% above the price; no usable options data.\n\ud83d\udd3a Overvalued \u2014 P/E 27.4 vs its 11y median of 19.1, forward P/E 22.4.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   },
   {
    "ticker": "688009.SS",
    "status": "near",
-   "latest": 5.19,
+   "close": 5.19,
    "week_of": "2026-11-23",
-   "mid": 4.92,
-   "upper": 5.21,
-   "dist_to_upper_pct": -0.4,
+   "partial_week_dropped": false,
+   "mid": 4.93,
+   "upper": 5.24,
+   "dist_to_upper_pct": -1.0,
    "weeks_touching": 0,
-   "rsi": 55.0,
-   "rsi_prev": 48.8,
+   "rsi": 56.8,
+   "rsi_prev": 55.0,
    "rsi_dir": "up",
    "overbought": false,
-   "vol_ratio": 1.16,
+   "vol_ratio": 1.65,
    "market_cap": 54961160192,
    "pe": 15.7,
    "forward_pe": 15.3,
@@ -16231,25 +9107,6 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
    "shares_3y": -3.8,
    "margin_trend": null,
    "day_change_pct": 1.37,
-   "trap_count": 1,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -5.4,
-   "pe_vs_sector_pct": -14.2,
-   "pe_highlight": null,
    "cn_holders": [
     {
      "name": "\u4e2d\u56fd\u94c1\u8def\u901a\u4fe1\u4fe1\u53f7\u96c6\u56e2\u6709\u9650\u516c\u53f8",
@@ -16339,18 +9196,75 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
     "change_pct": -2.1
    },
    "cn_inst_net_value": 273675364,
-   "score": 3,
-   "score_v": 1,
-   "score_h": 0,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Weak",
-   "score_tip": "688009.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 15.7 is below its usual 16.6 over the last 7 years.\nHealth (0/2): growth and cash margins are weak (score 4; strong is over 40).\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 55).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5273.7M last quarter (bar: >\u00a555.0M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
-   "score_raw": 2,
+   "trap_count": 1,
+   "opp_count": 2,
+   "trap_flag": false,
+   "opp_flag": false,
+   "trap_tip": null,
+   "opp_tip": null,
+   "burning_cash": false,
+   "burning_cash_tip": null,
+   "runway_years": null,
+   "diluting": false,
+   "buyback": false,
+   "share_flag_tip": null,
+   "overvalued": false,
+   "screaming_sell": false,
+   "near_screaming_sell": false,
+   "overvalued_tip": null,
+   "pe_vs_own_pct": -5.4,
+   "pe_vs_sector_pct": -14.2,
+   "pe_highlight": null,
    "sankey": {
-    "fy_end": "2025-12-31",
     "ccy": "CNY",
+    "fy_end": "2025-12-31",
+    "links": [
+     {
+      "from": "rev",
+      "to": "cogs",
+      "value": 24.573
+     },
+     {
+      "from": "rev",
+      "to": "gp",
+      "value": 9.98
+     },
+     {
+      "from": "gp",
+      "to": "rnd",
+      "value": 2.006
+     },
+     {
+      "from": "gp",
+      "to": "sga",
+      "value": 0.572
+     },
+     {
+      "from": "gp",
+      "to": "othop",
+      "value": 2.598
+     },
+     {
+      "from": "gp",
+      "to": "opinc",
+      "value": 4.804
+     },
+     {
+      "from": "opinc",
+      "to": "pre",
+      "value": 4.804
+     },
+     {
+      "from": "pre",
+      "to": "tax",
+      "value": 0.661
+     },
+     {
+      "from": "pre",
+      "to": "net",
+      "value": 4.247
+     }
+    ],
     "nodes": [
      {
       "id": "rev",
@@ -16422,1285 +9336,25 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
       "value": 4.247,
       "yoy": 4.4
      }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 24.573
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 9.98
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 2.006
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.572
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 2.598
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 4.804
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 4.804
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.661
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 4.247
-     }
     ]
-   }
-  },
-  {
-   "ticker": "300628.SZ",
-   "status": "near",
-   "latest": 42.83,
-   "week_of": "2026-11-23",
-   "mid": 39.07,
-   "upper": 43.27,
-   "dist_to_upper_pct": -1.0,
-   "weeks_touching": 0,
-   "rsi": 55.7,
-   "rsi_prev": 49.6,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 0.94,
-   "market_cap": 54262116352,
-   "pe": 18.6,
-   "forward_pe": 16.0,
-   "ps": 7.99,
-   "fcf_yield": 1.5,
-   "revenue_growth": 3.4,
-   "rule40": 50.3,
-   "rule40_fcf": 15.3,
-   "ebitda_margin": 46.9,
-   "r40_driver": "margin",
-   "de_raw": 0.1,
-   "debt_to_equity": 0.0,
-   "cash": 5051143168,
-   "debt": 9188913,
-   "net_cash": 5041954255,
-   "sector": "Technology",
-   "name": "Yealink Network Technology Co., Ltd.",
-   "analyst_rec": "none",
-   "analyst_count": 3,
-   "analyst_target": 47.52,
-   "beta": 0.53,
-   "logo": "https://assets.parqet.com/logos/symbol/300628.SZ",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u4ebf\u8054\u7f51\u7edc",
-   "ccy": "CNY",
-   "pe15y": 27.2,
-   "pe15y_years": 9,
-   "pe10y": 27.2,
-   "pe10y_years": 9,
-   "pe15y_vs": -32,
-   "fcf_ttm": 1775628960,
-   "fcf_qoq": 7.3,
-   "fcf_yoy": 23.7,
-   "ttm_high": 43.06,
-   "ttm_high_date": "2026-08-01",
-   "vs_ttm_high": -1,
-   "pe_ttm_high": 18.7,
-   "spark": [
-    39.86,
-    40.96,
-    40.96,
-    39.49,
-    39.98,
-    35.91,
-    38.5,
-    36.88,
-    39.59,
-    37.99,
-    40.88,
-    42.83
-   ],
-   "earn_surprise": [
-    -2.2,
-    6.5,
-    5.6
-   ],
-   "int_coverage": 7436.9,
-   "shares_3y": 0.1,
-   "margin_trend": -3.8,
-   "day_change_pct": 5.31,
-   "trap_count": 1,
-   "opp_count": 4,
-   "trap_flag": false,
-   "opp_flag": true,
-   "trap_tip": null,
-   "opp_tip": "Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big holders net added \u00a51.57B last quarter.",
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -31.6,
-   "pe_vs_sector_pct": -44.1,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 9.55,
-     "change_shares": 19449977,
-     "change_pct": 39.0,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u53a6\u95e8\u4ebf\u7f51\u8054\u4fe1\u606f\u6280\u672f\u670d\u52a1\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 8.15,
-     "change_shares": -1650000,
-     "change_pct": -2.7,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u80e1\u7ee7\u4e39",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 6.75,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1\u4e00\u96f6\u4e09\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 6.06,
-     "change_shares": 2664820,
-     "change_pct": 6.4,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9648\u5efa\u8363",
-     "type": "\u4e2a\u4eba",
-     "pct_float": 5.66,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5609\u5b9e\u57fa\u91d1-\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf\u9669-\u5609\u5b9e\u57fa\u91d1\u56fd\u5bff\u80a1\u4efd\u65b0\u4ef7\u503c\u80a1\u7968\u578b\u7ec4\u5408\u5355\u4e00\u8d44\u4ea7\u7ba1\u7406\u8ba1\u5212(\u4f20\u7edf\u9669)",
-     "type": "\u57fa\u91d1\u8d44\u4ea7\u7ba1\u7406\u8ba1\u5212",
-     "pct_float": 1.82,
-     "change_shares": 2700350,
-     "change_pct": 25.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u56fd\u6cf0\u4e2d\u8bc1\u5168\u6307\u901a\u4fe1\u8bbe\u5907\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 1.34,
-     "change_shares": 170201,
-     "change_pct": 1.8,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u5609\u5b9e\u57fa\u91d1\u7ba1\u7406\u6709\u9650\u516c\u53f8-\u793e\u4fdd\u57fa\u91d116042\u7ec4\u5408",
-     "type": "\u5168\u56fd\u793e\u4fdd\u57fa\u91d1",
-     "pct_float": 0.83,
-     "change_shares": 6057410,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u521b\u4e1a\u677f\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.77,
-     "change_shares": 5605927,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    },
-    {
-     "name": "\u56fd\u6295\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u8bc1\u5238\u516c\u53f8",
-     "pct_float": 0.59,
-     "change_shares": 2500,
-     "change_pct": 0.1,
-     "status": "\u52a0\u4ed3"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 9.55,
-    "change_shares": 19449977,
-    "change_pct": 39.0
    },
-   "cn_inst_net_value": 1569663179,
-   "score": 4,
+   "score": 3,
    "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 0,
-   "score_tier": "Mixed",
-   "score_tip": "300628.SZ scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 18.6 is below its usual 27.2 over the last 9 years.\nHealth (1/2): growth and cash margins are weak (score 15; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 56).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.57B last quarter (bar: >\u00a554.3M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83c\udfaf Potential opportunity \u2014 4 positive signs: beat earnings in 2 of the last 3 quarters; holds more cash than debt and interest cover is comfortable; growing fast with strong cash margins (Rule of 40 over 40) and generating cash; big holders net added \u00a51.57B last quarter.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 6.033,
-      "yoy": 7.3
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 2.213,
-      "yoy": 14.0
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 3.82,
-      "yoy": 3.8
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.53,
-      "yoy": -5.2
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 0.237,
-      "yoy": 33.1
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 0.336,
-      "yoy": 12.0
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 2.717,
-      "yoy": 2.8
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 0.121,
-      "yoy": -52.2
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 2.838,
-      "yoy": -2.0
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 0.238,
-      "yoy": -3.6
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 2.6,
-      "yoy": -1.8
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 2.213
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 3.82
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.53
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 0.237
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 0.336
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 2.717
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 2.717
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 0.121
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 0.238
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 2.6
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600600.SS",
-   "status": "touch",
-   "latest": 55.63,
-   "week_of": "2026-11-23",
-   "mid": 51.96,
-   "upper": 55.15,
-   "dist_to_upper_pct": 0.9,
-   "weeks_touching": 1,
-   "rsi": 49.1,
-   "rsi_prev": 45.5,
-   "rsi_dir": "up",
-   "overbought": false,
-   "vol_ratio": 1.31,
-   "market_cap": 75890171904,
-   "pe": 17.4,
-   "forward_pe": 17.5,
-   "ps": 2.44,
-   "fcf_yield": 1.9,
-   "revenue_growth": -5.6,
-   "rule40": 13.7,
-   "rule40_fcf": -1.0,
-   "ebitda_margin": 19.3,
-   "r40_driver": "margin",
-   "de_raw": 0.33,
-   "debt_to_equity": 0.0,
-   "cash": 22190815232,
-   "debt": 111544536,
-   "net_cash": 22079270696,
-   "sector": "Consumer Defensive",
-   "name": "Tsingtao Brewery Company Limited",
-   "analyst_rec": "buy",
-   "analyst_mean": 2.0,
-   "analyst_count": 13,
-   "analyst_target": 58.34,
-   "beta": 0.29,
-   "logo": "https://assets.parqet.com/logos/symbol/600600.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u9752\u5c9b\u5564\u9152",
-   "ccy": "CNY",
-   "pe15y": 33.1,
-   "pe15y_years": 15,
-   "pe10y": 37.7,
-   "pe10y_years": 10,
-   "pe15y_vs": -47,
-   "fcf_ttm": 2948198351,
-   "fcf_qoq": -41.5,
-   "fcf_yoy": -81.7,
-   "ttm_high": 64.56,
-   "ttm_high_date": "2026-04-01",
-   "vs_ttm_high": -14,
-   "pe_ttm_high": 20.2,
-   "spark": [
-    50.51,
-    50.06,
-    49.89,
-    50.02,
-    51.21,
-    52.47,
-    50.49,
-    50.61,
-    53.34,
-    52.49,
-    53.58,
-    55.63
-   ],
-   "earn_surprise": [
-    -30.1,
-    -3.1,
-    3.0
-   ],
-   "int_coverage": 541.2,
-   "shares_3y": 0.3,
-   "margin_trend": null,
-   "day_change_pct": 0.47,
-   "trap_count": 2,
-   "opp_count": 1,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -47.4,
-   "pe_vs_sector_pct": -19.4,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 44.9,
-     "change_shares": -1633000,
-     "change_pct": -0.3,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u9752\u5c9b\u5564\u9152\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 32.66,
-     "change_shares": 2042200,
-     "change_pct": 0.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u9e4f\u534e\u4e2d\u8bc1\u9152\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.84,
-     "change_shares": -431781,
-     "change_pct": -3.6,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.82,
-     "change_shares": -1679899,
-     "change_pct": -13.1,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5357\u65b9\u6807\u666e\u4e2d\u56fdA\u80a1\u5927\u76d8\u7ea2\u5229\u4f4e\u6ce250\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.55,
-     "change_shares": 3896628,
-     "change_pct": 108.6,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-018L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.43,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u65b0\u534e\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u5206\u7ea2-\u4e2a\u4eba\u5206\u7ea2-018L-FH002\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.42,
-     "change_shares": -400000,
-     "change_pct": -6.5,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.35,
-     "change_shares": -92900,
-     "change_pct": -1.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4f20\u7edf-\u666e\u901a\u4fdd\u9669\u4ea7\u54c1-005L-CT001\u6caa",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.34,
-     "change_shares": 22400,
-     "change_pct": 0.5,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9752\u5c9b\u56fd\u4fe1\u91d1\u878d\u63a7\u80a1\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.25,
-     "change_shares": 3435043,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 0.82,
-    "change_shares": -1679899,
-    "change_pct": -13.1
-   },
-   "cn_inst_net_value": 73122742,
-   "score": 4,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 0,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600600.SS scores 4/10 \u2014 Mixed.\nValue (1/2): P/E 17.4 is below its usual 33.1 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -1; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 49).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a573.1M net last quarter) (bar: >\u00a575.9M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (2.00 from 13 analysts); their average target is \u00a558.34, 5% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 3/8).",
-   "score_raw": 3,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 32.473,
-      "yoy": 1.0
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 18.885,
-      "yoy": -1.7
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 13.588,
-      "yoy": 5.1
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.122,
-      "yoy": 18.4
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 2.101,
-      "yoy": -6.7
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 5.821,
-      "yoy": 4.3
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 5.544,
-      "yoy": 11.1
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 0.747,
-      "yoy": -16.3
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 6.291,
-      "yoy": 7.0
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 1.574,
-      "yoy": 13.2
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 4.717,
-      "yoy": 5.0
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 18.885
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 13.588
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.122
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 2.101
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 5.821
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 5.544
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 5.544
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 0.747
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 1.574
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 4.717
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "600809.SS",
-   "status": "near",
-   "latest": 131.23,
-   "week_of": "2026-11-23",
-   "mid": 119.57,
-   "upper": 132.61,
-   "dist_to_upper_pct": -1.0,
-   "weeks_touching": 0,
-   "rsi": 53.1,
-   "rsi_prev": 53.4,
-   "rsi_dir": "flat",
-   "overbought": false,
-   "vol_ratio": 0.83,
-   "market_cap": 160095895552,
-   "pe": 17.5,
-   "forward_pe": 16.4,
-   "ps": 4.68,
-   "fcf_yield": 1.2,
-   "revenue_growth": -18.1,
-   "rule40": 19.2,
-   "rule40_fcf": -12.6,
-   "ebitda_margin": 37.3,
-   "r40_driver": "margin",
-   "de_raw": 5.51,
-   "debt_to_equity": 0.06,
-   "cash": 6868477952,
-   "debt": 2235450624,
-   "net_cash": 4633027328,
-   "sector": "Consumer Defensive",
-   "name": "Shanxi Xinghuacun Fen Wine Factory Co.,Ltd.",
-   "analyst_rec": "buy",
-   "analyst_mean": 1.67,
-   "analyst_count": 14,
-   "analyst_target": 147.14,
-   "beta": 0.16,
-   "logo": "https://assets.parqet.com/logos/symbol/600809.SS",
-   "high_debt": false,
-   "undervalued": false,
-   "name_cn": "\u5c71\u897f\u6c7e\u9152",
-   "ccy": "CNY",
-   "pe15y": 35.0,
-   "pe15y_years": 15,
-   "pe10y": 37.6,
-   "pe10y_years": 10,
-   "pe15y_vs": -50,
-   "fcf_ttm": 7162376915,
-   "fcf_qoq": 43.0,
-   "fcf_yoy": 178.3,
-   "ttm_high": 196.97,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -33,
-   "pe_ttm_high": 26.3,
-   "spark": [
-    114.18,
-    112.7,
-    111.18,
-    115.6,
-    115.73,
-    116.7,
-    112.6,
-    126.27,
-    132.0,
-    129.25,
-    129.0,
-    131.23
-   ],
-   "earn_surprise": [
-    -34.6,
-    -66.7,
-    -19.5
-   ],
-   "int_coverage": 1264.7,
-   "shares_3y": 0.1,
-   "margin_trend": 2.6,
-   "day_change_pct": -0.48,
-   "trap_count": 2,
-   "opp_count": 2,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": false,
-   "buyback": false,
-   "share_flag_tip": null,
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": -50.0,
-   "pe_vs_sector_pct": -19.0,
-   "pe_highlight": "green",
-   "cn_holders": [
-    {
-     "name": "\u5c71\u897f\u674f\u82b1\u6751\u6c7e\u9152\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 56.65,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u534e\u521b\u946b\u777f(\u9999\u6e2f)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 9.17,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u62db\u5546\u4e2d\u8bc1\u767d\u9152\u6307\u6570\u5206\u7ea7\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 4.25,
-     "change_shares": 8373297,
-     "change_pct": 19.3,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 1.52,
-     "change_shares": -3608039,
-     "change_pct": -16.3,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u9e4f\u534e\u4e2d\u8bc1\u9152\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 1.15,
-     "change_shares": -649194,
-     "change_pct": -4.4,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u5c71\u897f\u674f\u82b1\u6751\u56fd\u9645\u8d38\u6613\u6709\u9650\u8d23\u4efb\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 0.68,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u6613\u65b9\u8fbe\u6d88\u8d39\u884c\u4e1a\u80a1\u7968\u578b\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.62,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4e2d\u56fd\u5de5\u5546\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u4e2d\u8bc1\u4e3b\u8981\u6d88\u8d39\u4ea4\u6613\u578b\u5f00\u653e\u5f0f\u6307\u6570\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "type": "\u8bc1\u5238\u6295\u8d44\u57fa\u91d1",
-     "pct_float": 0.54,
-     "change_shares": -127200,
-     "change_pct": -1.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u745e\u4f17\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 0.46,
-     "change_shares": 827434,
-     "change_pct": 17.4,
-     "status": "\u52a0\u4ed3"
-    },
-    {
-     "name": "\u963f\u5e03\u8fbe\u6bd4\u6295\u8d44\u5c40-\u81ea\u6709\u8d44\u91d1",
-     "type": "QFII",
-     "pct_float": 0.39,
-     "change_shares": 4816497,
-     "change_pct": null,
-     "status": "\u65b0\u8fdb"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_northbound": {
-    "pct_float": 1.52,
-    "change_shares": -3608039,
-    "change_pct": -16.3
-   },
-   "cn_inst_net_value": 1264111688,
-   "score": 5,
-   "score_v": 1,
-   "score_h": 1,
-   "score_t": 0,
-   "score_b": 1,
-   "score_s": 1,
-   "score_tier": "Mixed",
-   "score_tip": "600809.SS scores 5/10 \u2014 Mixed.\nValue (1/2): P/E 17.5 is below its usual 35.0 over the last 15 years.\nHealth (1/2): growth and cash margins are weak (score -13; strong is over 40); generates cash and holds more cash than debt.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 53).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a51.26B last quarter (bar: >\u00a5160.1M = 0.1% of market cap).\nSentiment (1/2): analysts rate it a Buy on average (1.67 from 14 analysts); their average target is \u00a5147.14, 12% above the price; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 4/8).",
-   "score_raw": 4,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 38.718,
-      "yoy": 7.5
-     },
-     {
-      "id": "cogs",
-      "label": "Cost of revenue",
-      "label_zh": "\u8425\u4e1a\u6210\u672c",
-      "value": 9.736,
-      "yoy": 13.6
-     },
-     {
-      "id": "gp",
-      "label": "Gross profit",
-      "label_zh": "\u6bdb\u5229\u6da6",
-      "value": 28.982,
-      "yoy": 5.6
-     },
-     {
-      "id": "rnd",
-      "label": "R&D",
-      "label_zh": "\u7814\u53d1",
-      "value": 0.174,
-      "yoy": 17.6
-     },
-     {
-      "id": "sga",
-      "label": "SG&A",
-      "label_zh": "\u9500\u552e\u53ca\u7ba1\u7406",
-      "value": 3.699,
-      "yoy": 12.5
-     },
-     {
-      "id": "othop",
-      "label": "Other operating costs",
-      "label_zh": "\u5176\u4ed6\u8fd0\u8425\u6210\u672c",
-      "value": 8.757,
-      "yoy": 12.2
-     },
-     {
-      "id": "opinc",
-      "label": "Operating income",
-      "label_zh": "\u8425\u4e1a\u5229\u6da6",
-      "value": 16.352,
-      "yoy": 1.0
-     },
-     {
-      "id": "oth",
-      "label": "Interest & other income",
-      "label_zh": "\u5229\u606f\u53ca\u5176\u4ed6\u6536\u5165",
-      "value": 0.298,
-      "yoy": -10.2
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 16.65,
-      "yoy": 0.7
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 4.355,
-      "yoy": 1.8
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 12.295,
-      "yoy": 0.3
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "cogs",
-      "value": 9.736
-     },
-     {
-      "from": "rev",
-      "to": "gp",
-      "value": 28.982
-     },
-     {
-      "from": "gp",
-      "to": "rnd",
-      "value": 0.174
-     },
-     {
-      "from": "gp",
-      "to": "sga",
-      "value": 3.699
-     },
-     {
-      "from": "gp",
-      "to": "othop",
-      "value": 8.757
-     },
-     {
-      "from": "gp",
-      "to": "opinc",
-      "value": 16.352
-     },
-     {
-      "from": "opinc",
-      "to": "pre",
-      "value": 16.352
-     },
-     {
-      "from": "oth",
-      "to": "pre",
-      "value": 0.298
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 4.355
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 12.295
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "601916.SS",
-   "status": "touch",
-   "latest": 3.1,
-   "week_of": "2026-11-23",
-   "mid": 2.91,
-   "upper": 3.04,
-   "dist_to_upper_pct": 2.1,
-   "weeks_touching": 1,
-   "rsi": 52.0,
-   "rsi_prev": 52.0,
-   "rsi_dir": "flat",
-   "overbought": false,
-   "vol_ratio": 1.33,
-   "market_cap": 85140373504,
-   "pe": 7.0,
-   "forward_pe": 5.2,
-   "ps": 2.18,
-   "revenue_growth": 5.2,
-   "cash": 633782009856,
-   "debt": 680201027584,
-   "net_cash": -46419017728,
-   "sector": "Financial Services",
-   "name": "China Zheshang Bank Co., Ltd",
-   "analyst_rec": "none",
-   "analyst_count": 2,
-   "analyst_target": 3.4,
-   "beta": 0.52,
-   "logo": "https://assets.parqet.com/logos/symbol/601916.SS",
-   "high_debt": true,
-   "undervalued": false,
-   "name_cn": "\u6d59\u5546\u94f6\u884c",
-   "ccy": "CNY",
-   "pe15y": 6.0,
-   "pe15y_years": 7,
-   "pe10y": 6.0,
-   "pe10y_years": 7,
-   "pe15y_vs": 17,
-   "fcf_ttm": 69572000000,
-   "ttm_high": 3.15,
-   "ttm_high_date": "2025-12-01",
-   "vs_ttm_high": -2,
-   "pe_ttm_high": 7.1,
-   "spark": [
-    2.95,
-    2.9,
-    2.84,
-    2.88,
-    2.91,
-    2.97,
-    2.91,
-    2.95,
-    2.92,
-    2.96,
-    2.96,
-    3.1
-   ],
-   "shares_3y": 22.3,
-   "margin_trend": null,
-   "day_change_pct": 0.0,
-   "trap_count": 0,
-   "opp_count": 0,
-   "trap_flag": false,
-   "opp_flag": false,
-   "trap_tip": null,
-   "opp_tip": null,
-   "burning_cash": false,
-   "burning_cash_tip": null,
-   "runway_years": null,
-   "diluting": true,
-   "buyback": false,
-   "share_flag_tip": "Diluting shareholders \u2014 shares outstanding up 22.3% over 3 years, so each share owns a smaller slice of the company.",
-   "overvalued": false,
-   "screaming_sell": false,
-   "near_screaming_sell": false,
-   "overvalued_tip": null,
-   "pe_vs_own_pct": 16.7,
-   "pe_vs_sector_pct": -19.5,
-   "pe_highlight": null,
-   "cn_holders": [
-    {
-     "name": "\u9999\u6e2f\u4e2d\u592e\u7ed3\u7b97(\u4ee3\u7406\u4eba)\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 21.55,
-     "change_shares": -2000,
-     "change_pct": -0.0,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u6d59\u6c5f\u7701\u521b\u65b0\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u6295\u8d44\u516c\u53f8",
-     "pct_float": 12.57,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6a2a\u5e97\u96c6\u56e2\u63a7\u80a1\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 5.0,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u5c71\u4e1c\u7701\u56fd\u9645\u4fe1\u6258\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-     "type": "\u4fe1\u6258\u6295\u8d44\u516c\u53f8",
-     "pct_float": 4.0,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u4fe1\u6cf0\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u4fdd\u9669\u4ea7\u54c1",
-     "pct_float": 3.63,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6d59\u6c5f\u7701\u80fd\u6e90\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 3.38,
-     "change_shares": -165016501,
-     "change_pct": -15.1,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u592a\u5e73\u4eba\u5bff\u4fdd\u9669\u6709\u9650\u516c\u53f8",
-     "type": "\u4fdd\u9669\u516c\u53f8",
-     "pct_float": 3.36,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6d59\u6c5f\u6052\u9038\u9ad8\u65b0\u6750\u6599\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.4,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    },
-    {
-     "name": "\u6c11\u751f\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8-\u81ea\u6709\u8d44\u91d1",
-     "type": "\u5176\u4ed6\u7406\u8d22\u4ea7\u54c1",
-     "pct_float": 2.4,
-     "change_shares": -20000000,
-     "change_pct": -2.9,
-     "status": "\u51cf\u4ed3"
-    },
-    {
-     "name": "\u6d59\u6c5f\u6052\u9038\u96c6\u56e2\u6709\u9650\u516c\u53f8",
-     "type": "\u5176\u5b83",
-     "pct_float": 2.34,
-     "change_shares": 0,
-     "change_pct": 0.0,
-     "status": "\u4e0d\u53d8"
-    }
-   ],
-   "cn_holders_period": "2026-09-30",
-   "cn_inst_net_value": 0,
-   "score": 0,
-   "score_v": 0,
    "score_h": 0,
    "score_t": 0,
-   "score_b": 0,
+   "score_b": 1,
    "score_s": 0,
    "score_tier": "Weak",
-   "score_tip": "601916.SS scores 0/10 \u2014 Weak.\nValue (0/2): P/E 7.0 is above its usual 6.0 over the last 7 years.\nHealth (0/2): carries more debt than cash.\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 52).\nBacking (0/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) roughly balanced (\u00a50 net last quarter) (bar: >\u00a585.1M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\n\ud83d\udca7 Diluting shareholders \u2014 shares outstanding up 22.3% over 3 years, so each share owns a smaller slice of the company.\nChina score scaled to /10 from the 8 measurable points (raw 0/8).",
-   "score_raw": 0,
-   "sankey": {
-    "fy_end": "2025-12-31",
-    "ccy": "CNY",
-    "nodes": [
-     {
-      "id": "rev",
-      "label": "Revenue",
-      "label_zh": "\u8425\u4e1a\u6536\u5165",
-      "value": 60.296,
-      "yoy": -8.4
-     },
-     {
-      "id": "opex",
-      "label": "Operating expenses",
-      "label_zh": "\u8fd0\u8425\u652f\u51fa",
-      "value": 44.167,
-      "yoy": -8.4
-     },
-     {
-      "id": "pre",
-      "label": "Pre-tax income",
-      "label_zh": "\u7a0e\u524d\u5229\u6da6",
-      "value": 16.129,
-      "yoy": -8.2
-     },
-     {
-      "id": "tax",
-      "label": "Tax",
-      "label_zh": "\u6240\u5f97\u7a0e",
-      "value": 2.568,
-      "yoy": 36.2
-     },
-     {
-      "id": "net",
-      "label": "Net income",
-      "label_zh": "\u51c0\u5229\u6da6",
-      "value": 13.561,
-      "yoy": -13.6
-     }
-    ],
-    "links": [
-     {
-      "from": "rev",
-      "to": "opex",
-      "value": 44.167
-     },
-     {
-      "from": "rev",
-      "to": "pre",
-      "value": 16.129
-     },
-     {
-      "from": "pre",
-      "to": "tax",
-      "value": 2.568
-     },
-     {
-      "from": "pre",
-      "to": "net",
-      "value": 13.561
-     }
-    ]
-   }
+   "score_tip": "688009.SS scores 3/10 \u2014 Weak.\nValue (1/2): P/E 15.7 is below its usual 16.6 over the last 7 years.\nHealth (0/2): growth and cash margins are weak (score 4; strong is over 40).\nTiming (0/2): short-term trend is still falling; not oversold yet (RSI 57).\nBacking (1/2): no executive trades in the last 3 months; big holders (funds, insurers, social security and northbound investors) net bought \u00a5273.7M last quarter (bar: >\u00a555.0M = 0.1% of market cap).\nSentiment (0/2): no analyst rating available; no usable options data.\nChina score scaled to /10 from the 8 measurable points (raw 2/8).",
+   "score_raw": 2
   }
  ],
  "indices": [
   {
    "name": "Shanghai Composite",
-   "value": 3606.49,
-   "change_pct": 3.73,
-   "week_change_pct": 2.06
+   "value": 3476.88,
+   "change_pct": 0.01,
+   "week_change_pct": -1.61
   },
   {
    "name": "CSI 300",
@@ -17709,9 +9363,9 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
   },
   {
    "name": "Shenzhen Component",
-   "value": 10814.02,
-   "change_pct": 7.24,
-   "week_change_pct": 5.44
+   "value": 10084.04,
+   "change_pct": -0.02,
+   "week_change_pct": -1.68
   }
  ],
  "indices_date": "2026-11-27",
@@ -17722,65 +9376,24 @@ window.__BOLLINGER_CN_WEEKLY_TOPS__ = {
  "overvalued": [
   "600025.SS",
   "600900.SS",
-  "601728.SS",
   "601985.SS"
  ],
  "overbought": [
   [
-   "000333.SZ",
-   70.5
-  ],
-  [
-   "300832.SZ",
-   72.0
-  ],
-  [
    "600025.SS",
-   75.0
-  ],
-  [
-   "600674.SS",
-   76.3
-  ],
-  [
-   "600803.SS",
-   70.2
+   71.9
   ],
   [
    "600887.SS",
-   80.7
+   74.5
   ],
   [
    "600900.SS",
-   77.3
-  ],
-  [
-   "600919.SS",
-   72.5
-  ],
-  [
-   "601169.SS",
-   72.1
+   71.9
   ],
   [
    "601328.SS",
-   75.7
-  ],
-  [
-   "601398.SS",
-   71.8
-  ],
-  [
-   "601825.SS",
-   71.1
-  ],
-  [
-   "601939.SS",
-   75.1
-  ],
-  [
-   "601988.SS",
-   75.6
+   76.1
   ]
  ]
 };
