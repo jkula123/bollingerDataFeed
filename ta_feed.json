@@ -260,6 +260,54 @@
      "trigger_note": "Trigger: a push through $46.33 resistance"
     }
    ],
+   "turnarounds": [
+    {
+     "ticker": "BMNR",
+     "signs": [
+      "KDJ washed out, K crossed up (D+4H)",
+      "MACD flipped up (4H)",
+      "RSI recovering from <35"
+     ],
+     "quality": false,
+     "bounce_risk": false
+    },
+    {
+     "ticker": "SMCI",
+     "signs": [
+      "KDJ washed out, K crossed up (4H)",
+      "RSI recovering from <35"
+     ],
+     "quality": true,
+     "bounce_risk": false
+    },
+    {
+     "ticker": "BE",
+     "signs": [
+      "KDJ washed out, K crossed up (D+4H)",
+      "MACD flipped up (4H)"
+     ],
+     "quality": false,
+     "bounce_risk": false
+    },
+    {
+     "ticker": "NBIS",
+     "signs": [
+      "KDJ washed out, K crossed up (D+4H)",
+      "MACD flipped up (4H)"
+     ],
+     "quality": false,
+     "bounce_risk": true
+    },
+    {
+     "ticker": "ONDS",
+     "signs": [
+      "MACD flipped up (4H)",
+      "RSI recovering from <35"
+     ],
+     "quality": false,
+     "bounce_risk": true
+    }
+   ],
    "stocks": [
     {
      "ticker": "ADBE",
@@ -272,7 +320,7 @@
      },
      "rsi_w": 45.84186863164337,
      "rsi_d": 47.23790861783833,
-     "rsi_4h": 51.68886428106095,
+     "rsi_4h": 51.68997941957349,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -282,6 +330,7 @@
      "resistance": 257.1400146484375,
      "rationale": "weekly downtrend, daily RSI 47 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 price 56% below fair value; P/E cheap vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 272.1,
       "high": 283.84,
@@ -349,7 +398,7 @@
      },
      "rsi_w": 44.69277480904832,
      "rsi_d": 40.8393645048995,
-     "rsi_4h": 40.3420050822967,
+     "rsi_4h": 40.34148589904677,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -359,6 +408,7 @@
      "resistance": 594.0,
      "rationale": "weekly no weekly trend, daily RSI 41 weak",
      "fundamentals_note": "confirm \u2014 insiders net sold $107M (3mo); 13F net selling $1.07B; price 146% above fair value",
+     "turnaround": null,
      "sell_zone": {
       "low": 584.73,
       "high": 623.97,
@@ -426,7 +476,7 @@
      },
      "rsi_w": 51.14170142599937,
      "rsi_d": 48.63770318842801,
-     "rsi_4h": 48.74024029864164,
+     "rsi_4h": 48.74021785804263,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -436,6 +486,7 @@
      "resistance": 275.3399963378906,
      "rationale": "weekly uptrend intact, daily RSI 49 mid-range",
      "fundamentals_note": "lean positive \u2014 13F net buying $691M; price 24% below fair value; P/E cheap vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 258.6,
       "high": 268.0,
@@ -504,6 +555,7 @@
      "support": null,
      "resistance": null,
      "rationale": "",
+     "turnaround": null,
      "sell_zone": null,
      "sell_trigger": null,
      "kdj": null,
@@ -524,7 +576,7 @@
      },
      "rsi_w": 40.358237201951795,
      "rsi_d": 42.214698258279405,
-     "rsi_4h": 44.68964350655904,
+     "rsi_4h": 44.68910979457709,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -534,6 +586,7 @@
      "resistance": 231.99000549316406,
      "rationale": "weekly downtrend, daily RSI 42 weak, daily MACD turning up",
      "fundamentals_note": "confirm \u2014 price 375% above fair value; P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 182.88,
       "high": 204.3,
@@ -601,7 +654,7 @@
      },
      "rsi_w": 42.6999403702302,
      "rsi_d": 44.73378336791734,
-     "rsi_4h": 45.46458252128165,
+     "rsi_4h": 45.46668647898345,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -611,6 +664,7 @@
      "resistance": 369.82000732421875,
      "rationale": "weekly downtrend, daily RSI 45 weak",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 374.23,
       "high": 393.67,
@@ -678,7 +732,7 @@
      },
      "rsi_w": 47.430007669636474,
      "rsi_d": 50.58947630607888,
-     "rsi_4h": 54.13008601278417,
+     "rsi_4h": 54.13161768561666,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -688,6 +742,7 @@
      "resistance": 343.8900146484375,
      "rationale": "weekly downtrend, daily RSI 51 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 insiders net sold $38M (3mo); P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 326.27,
       "high": 334.4,
@@ -755,7 +810,7 @@
      },
      "rsi_w": 34.374912709264564,
      "rsi_d": 43.82957872902831,
-     "rsi_4h": 51.51581793233873,
+     "rsi_4h": 51.51616141633688,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -765,6 +820,7 @@
      "resistance": 179.19000244140625,
      "rationale": "weekly downtrend, daily RSI 44 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 13F net buying $352M; P/E cheap vs own history/sector; \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udca7 diluting shareholders",
+     "turnaround": null,
      "sell_zone": {
       "low": 173.85,
       "high": 180.51,
@@ -832,7 +888,7 @@
      },
      "rsi_w": 42.12477139369721,
      "rsi_d": 41.880849867512616,
-     "rsi_4h": 45.48672905491663,
+     "rsi_4h": 45.48762632794343,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -842,6 +898,14 @@
      "resistance": 229.5,
      "rationale": "weekly downtrend, daily RSI 42 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "turnaround": {
+      "signs": [
+       "KDJ washed out, K crossed up (D+4H)",
+       "MACD flipped up (4H)"
+      ],
+      "quality": false,
+      "bounce_risk": false
+     },
      "sell_zone": {
       "low": 180.9,
       "high": 205.34,
@@ -909,7 +973,7 @@
      },
      "rsi_w": 35.39071710889584,
      "rsi_d": 33.13143639038793,
-     "rsi_4h": 37.509747605272835,
+     "rsi_4h": 37.511597824940075,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -919,6 +983,15 @@
      "resistance": 22.389999389648438,
      "rationale": "weekly downtrend, daily RSI 33 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders",
+     "turnaround": {
+      "signs": [
+       "KDJ washed out, K crossed up (D+4H)",
+       "MACD flipped up (4H)",
+       "RSI recovering from <35"
+      ],
+      "quality": false,
+      "bounce_risk": false
+     },
      "sell_zone": {
       "low": 24.11,
       "high": 25.9,
@@ -937,9 +1010,9 @@
        "j": 40.3
       },
       "4h": {
-       "k": 35.5,
-       "d": 26.2,
-       "j": 54.1
+       "k": 35.4,
+       "d": 26.1,
+       "j": 54.0
       }
      },
      "hl": {
@@ -986,7 +1059,7 @@
      },
      "rsi_w": 43.2201882593537,
      "rsi_d": 40.414342055048294,
-     "rsi_4h": 36.03162226748325,
+     "rsi_4h": 36.0274394082522,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -996,6 +1069,7 @@
      "resistance": 284.9700012207031,
      "rationale": "weekly downtrend, daily RSI 40 weak, daily MACD deteriorating",
      "fundamentals_note": "mixed \u2014 no strong fundamental signals",
+     "turnaround": null,
      "sell_zone": {
       "low": 288.75,
       "high": 303.66,
@@ -1063,7 +1137,7 @@
      },
      "rsi_w": 48.125188196296364,
      "rsi_d": 50.60510410375935,
-     "rsi_4h": 48.90524498080447,
+     "rsi_4h": 48.907491670190375,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -1073,6 +1147,7 @@
      "resistance": 33.689998626708984,
      "rationale": "weekly downtrend, daily RSI 51 mid-range",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders",
+     "turnaround": null,
      "sell_zone": {
       "low": 32.38,
       "high": 34.11,
@@ -1140,7 +1215,7 @@
      },
      "rsi_w": 45.77610072611108,
      "rsi_d": 39.555587648554244,
-     "rsi_4h": 45.971429253568964,
+     "rsi_4h": 45.971431459449995,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1150,6 +1225,7 @@
      "resistance": 234.6199951171875,
      "rationale": "weekly downtrend, daily RSI 40 weak, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $1.90B; price 53% below fair value",
+     "turnaround": null,
      "sell_zone": {
       "low": 211.34,
       "high": 221.9,
@@ -1217,7 +1293,7 @@
      },
      "rsi_w": 51.99143732816184,
      "rsi_d": 61.55730789101205,
-     "rsi_4h": 64.77995949887855,
+     "rsi_4h": 64.77996523537769,
      "macd_sign": {
       "weekly": 1,
       "daily": 1,
@@ -1227,6 +1303,7 @@
      "resistance": 46.33000183105469,
      "rationale": "weekly no weekly trend, daily RSI 62 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
      "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt; P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 51.42,
       "high": 54.6,
@@ -1294,7 +1371,7 @@
      },
      "rsi_w": 35.64232557831171,
      "rsi_d": 37.34617266465873,
-     "rsi_4h": 41.67229621993974,
+     "rsi_4h": 41.666617156868185,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1304,6 +1381,7 @@
      "resistance": 301.6199951171875,
      "rationale": "weekly downtrend, daily RSI 37 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; 13F net selling $462M",
+     "turnaround": null,
      "sell_zone": {
       "low": 328.67,
       "high": 340.37,
@@ -1371,7 +1449,7 @@
      },
      "rsi_w": 42.522115331560926,
      "rsi_d": 42.13895880830966,
-     "rsi_4h": 43.03552580311359,
+     "rsi_4h": 43.035438205794925,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -1381,6 +1459,7 @@
      "resistance": 3.559999942779541,
      "rationale": "weekly downtrend, daily RSI 42 weak",
      "fundamentals_note": "mixed \u2014 insiders net bought $26M (3mo); \ud83d\udca7 diluting shareholders",
+     "turnaround": null,
      "sell_zone": {
       "low": 3.4,
       "high": 3.58,
@@ -1448,7 +1527,7 @@
      },
      "rsi_w": 49.6025148631443,
      "rsi_d": 50.33813973322987,
-     "rsi_4h": 56.81678768254624,
+     "rsi_4h": 56.81644711520665,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1458,6 +1537,7 @@
      "resistance": 648.4500122070312,
      "rationale": "weekly downtrend, daily RSI 50 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 13F net buying $1.04B; insiders net sold $119M (3mo)",
+     "turnaround": null,
      "sell_zone": {
       "low": 638.4,
       "high": 667.61,
@@ -1525,7 +1605,7 @@
      },
      "rsi_w": 33.78633968527629,
      "rsi_d": 35.17133470720036,
-     "rsi_4h": 37.40636114107648,
+     "rsi_4h": 37.405363040779314,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1535,6 +1615,14 @@
      "resistance": 178.3300018310547,
      "rationale": "weekly downtrend, daily RSI 35 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \u2702\ufe0f buyback shrinking share count; \ud83e\udea4 TRAP flag; insiders net sold $144M (3mo); 13F net selling $781M",
+     "turnaround": {
+      "signs": [
+       "KDJ washed out, K crossed up (D+4H)",
+       "MACD flipped up (4H)"
+      ],
+      "quality": false,
+      "bounce_risk": true
+     },
      "sell_zone": {
       "low": 110.5,
       "high": 130.57,
@@ -1602,7 +1690,7 @@
      },
      "rsi_w": 46.58889429773524,
      "rsi_d": 51.73363811356095,
-     "rsi_4h": 56.80066229050686,
+     "rsi_4h": 56.79356138336549,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1612,6 +1700,7 @@
      "resistance": 7.599999904632568,
      "rationale": "weekly downtrend, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \u26a0\ufe0f high debt; \ud83d\udcb8 burning cash",
+     "turnaround": null,
      "sell_zone": {
       "low": 6.44,
       "high": 6.89,
@@ -1679,7 +1768,7 @@
      },
      "rsi_w": 35.482655590304745,
      "rsi_d": 44.58305652151237,
-     "rsi_4h": 51.34984170024964,
+     "rsi_4h": 51.34804484136132,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1689,6 +1778,7 @@
      "resistance": 67.48999786376953,
      "rationale": "weekly downtrend, daily RSI 45 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 13F net buying $154M; price 34% below fair value; P/E cheap vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 63.9,
       "high": 66.55,
@@ -1756,7 +1846,7 @@
      },
      "rsi_w": 39.27193336731885,
      "rsi_d": 32.06742266841101,
-     "rsi_4h": 39.930758345528965,
+     "rsi_4h": 39.93076752208409,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1766,6 +1856,7 @@
      "resistance": 121.5,
      "rationale": "weekly downtrend, daily RSI 32 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 13F net buying $141M",
+     "turnaround": null,
      "sell_zone": {
       "low": 98.92,
       "high": 106.62,
@@ -1833,7 +1924,7 @@
      },
      "rsi_w": 35.713309084696746,
      "rsi_d": 38.11728710759187,
-     "rsi_4h": 43.0158607518163,
+     "rsi_4h": 43.01367565722356,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1843,6 +1934,7 @@
      "resistance": 215.3300018310547,
      "rationale": "weekly downtrend, daily RSI 38 weak",
      "fundamentals_note": "conflict \u2014 \ud83c\udfaf opportunity flag; 13F net buying $958M; price 38% below fair value; insiders net sold $964M (3mo)",
+     "turnaround": null,
      "sell_zone": {
       "low": 152.89,
       "high": 163.64,
@@ -1862,8 +1954,8 @@
       },
       "4h": {
        "k": 52.8,
-       "d": 50.5,
-       "j": 57.4
+       "d": 50.4,
+       "j": 57.5
       }
      },
      "hl": {
@@ -1910,7 +2002,7 @@
      },
      "rsi_w": 46.31557481453717,
      "rsi_d": 55.03439531105205,
-     "rsi_4h": 59.5140212840194,
+     "rsi_4h": 59.51388245641717,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1920,6 +2012,7 @@
      "resistance": 43.2400016784668,
      "rationale": "weekly downtrend, daily RSI 55 firm, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "lean positive \u2014 \ud83d\udc8e undervalued; P/E cheap vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 47.79,
       "high": 49.38,
@@ -1997,6 +2090,14 @@
      "resistance": 7.079999923706055,
      "rationale": "weekly downtrend, daily RSI 36 weak, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 \ud83e\udea4 TRAP flag; \ud83d\udca7 diluting shareholders",
+     "turnaround": {
+      "signs": [
+       "MACD flipped up (4H)",
+       "RSI recovering from <35"
+      ],
+      "quality": false,
+      "bounce_risk": true
+     },
      "sell_zone": {
       "low": 4.61,
       "high": 5.28,
@@ -2064,7 +2165,7 @@
      },
      "rsi_w": 36.960396395319584,
      "rsi_d": 40.59387019047501,
-     "rsi_4h": 41.3608364935174,
+     "rsi_4h": 41.385693729585206,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2074,6 +2175,7 @@
      "resistance": 144.61000061035156,
      "rationale": "weekly downtrend, daily RSI 41 weak",
      "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; 13F net selling $271M",
+     "turnaround": null,
      "sell_zone": {
       "low": 117.67,
       "high": 127.32,
@@ -2092,7 +2194,7 @@
        "j": 26.2
       },
       "4h": {
-       "k": 34.2,
+       "k": 34.3,
        "d": 35.1,
        "j": 32.5
       }
@@ -2141,7 +2243,7 @@
      },
      "rsi_w": 48.62675274160765,
      "rsi_d": 48.9845349223783,
-     "rsi_4h": 54.5956301467984,
+     "rsi_4h": 54.59067156402957,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2151,6 +2253,7 @@
      "resistance": 14.029999732971191,
      "rationale": "weekly downtrend, daily RSI 49 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; insiders net sold $39M (3mo)",
+     "turnaround": null,
      "sell_zone": {
       "low": 13.2,
       "high": 14.03,
@@ -2218,7 +2321,7 @@
      },
      "rsi_w": 51.79812978124343,
      "rsi_d": 51.544134693704684,
-     "rsi_4h": 58.51691657603557,
+     "rsi_4h": 58.51676258758189,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2228,6 +2331,7 @@
      "resistance": 198.50999450683594,
      "rationale": "weekly uptrend intact, daily RSI 52 mid-range, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 insiders net sold $104M (3mo); \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 190.0,
       "high": 200.19,
@@ -2295,7 +2399,7 @@
      },
      "rsi_w": 35.186068454708746,
      "rsi_d": 38.05528503732502,
-     "rsi_4h": 47.4626101094044,
+     "rsi_4h": 47.46257712790508,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2305,6 +2409,7 @@
      "resistance": 131.88999938964844,
      "rationale": "weekly downtrend, daily RSI 38 weak, daily MACD turning up, 4H MACD positive and rising",
      "fundamentals_note": "confirm \u2014 insiders net sold $26M (3mo); 13F net selling $231M; \ud83d\udca7 diluting shareholders",
+     "turnaround": null,
      "sell_zone": {
       "low": 208.05,
       "high": 218.77,
@@ -2372,7 +2477,7 @@
      },
      "rsi_w": 39.05181196520087,
      "rsi_d": 38.13893039081195,
-     "rsi_4h": 43.4193388480488,
+     "rsi_4h": 43.41908330448506,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2382,6 +2487,14 @@
      "resistance": 35.849998474121094,
      "rationale": "weekly downtrend, daily RSI 38 weak, 4H MACD positive and rising",
      "fundamentals_note": "conflict \u2014 \ud83d\udc8e undervalued; price 86% below fair value; P/E cheap vs own history/sector; \ud83d\udca7 diluting shareholders",
+     "turnaround": {
+      "signs": [
+       "KDJ washed out, K crossed up (4H)",
+       "RSI recovering from <35"
+      ],
+      "quality": true,
+      "bounce_risk": false
+     },
      "sell_zone": {
       "low": 31.75,
       "high": 34.77,
@@ -2449,7 +2562,7 @@
      },
      "rsi_w": 37.589553610409595,
      "rsi_d": 38.00571197393276,
-     "rsi_4h": 40.36638341925282,
+     "rsi_4h": 40.36615945253252,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2459,6 +2572,7 @@
      "resistance": 17.739999771118164,
      "rationale": "weekly downtrend, daily RSI 38 weak",
      "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders; P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 18.42,
       "high": 19.41,
@@ -2526,7 +2640,7 @@
      },
      "rsi_w": 43.66534426437043,
      "rsi_d": 46.3423320497063,
-     "rsi_4h": 49.11486580084179,
+     "rsi_4h": 49.11489033579247,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2536,6 +2650,7 @@
      "resistance": 72.5,
      "rationale": "weekly downtrend, daily RSI 46 mid-range",
      "fundamentals_note": "mixed \u2014 insiders net bought $11M (3mo); P/E expensive vs own history/sector",
+     "turnaround": null,
      "sell_zone": {
       "low": 75.4,
       "high": 77.88,
@@ -2603,7 +2718,7 @@
      },
      "rsi_w": 54.66427264537006,
      "rsi_d": 34.65589192517159,
-     "rsi_4h": 35.63135539451089,
+     "rsi_4h": 35.64218343633608,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2613,6 +2728,7 @@
      "resistance": 316.20001220703125,
      "rationale": "weekly uptrend intact, daily RSI 35 weak, 4H MACD positive and rising",
      "fundamentals_note": "lean positive \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M",
+     "turnaround": null,
      "sell_zone": {
       "low": 291.69,
       "high": 302.48,
@@ -2680,7 +2796,7 @@
      },
      "rsi_w": 46.42462800074922,
      "rsi_d": 44.35851910894888,
-     "rsi_4h": 46.123089798001836,
+     "rsi_4h": 46.12310506103711,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2690,6 +2806,7 @@
      "resistance": 15.119999885559082,
      "rationale": "weekly downtrend, daily RSI 44 weak",
      "fundamentals_note": "confirm \u2014 P/E cheap vs own history/sector; \u26a0\ufe0f high debt; insiders net sold $56M (3mo)",
+     "turnaround": null,
      "sell_zone": {
       "low": 14.95,
       "high": 15.81,
@@ -2757,7 +2874,7 @@
      },
      "rsi_w": 53.79188630916724,
      "rsi_d": 62.88646972013232,
-     "rsi_4h": 61.75105150688786,
+     "rsi_4h": 61.75016563588052,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2767,6 +2884,7 @@
      "resistance": 47.939998626708984,
      "rationale": "weekly uptrend intact, daily RSI 63 firm, daily MACD turning up, 4H MACD positive and rising, pressing daily resistance",
      "fundamentals_note": "conflict \u2014 \u26a0\ufe0f high debt",
+     "turnaround": null,
      "sell_zone": {
       "low": 48.96,
       "high": 50.27,
