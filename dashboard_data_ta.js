@@ -104,6 +104,15 @@ window.__BOLLINGER_TA__ = {
      "confirm_note": "A close below $230.53 confirms further downside"
     },
     {
+     "ticker": "CRM",
+     "risk_score": 6,
+     "fund_boost": 0,
+     "vote": -6,
+     "why": "weekly bearish; all three timeframes aligned down; daily EMA50 rolling over",
+     "confirm_level": 179.9199981689453,
+     "confirm_note": "A close below $179.92 confirms further downside"
+    },
+    {
      "ticker": "GOOG",
      "risk_score": 6,
      "fund_boost": 0,
@@ -176,15 +185,6 @@ window.__BOLLINGER_TA__ = {
      "confirm_note": "A close below $300.90 confirms further downside"
     },
     {
-     "ticker": "PATH",
-     "risk_score": 4,
-     "fund_boost": 1,
-     "vote": -5,
-     "why": "weekly bearish; daily EMA50 rolling over; insiders net sold $39M (3mo)",
-     "confirm_level": 10.880000114440918,
-     "confirm_note": "A close below $10.88 confirms further downside"
-    },
-    {
      "ticker": "RDDT",
      "risk_score": 4,
      "fund_boost": 1,
@@ -212,15 +212,6 @@ window.__BOLLINGER_TA__ = {
      "confirm_note": "A close below $216.95 confirms further downside"
     },
     {
-     "ticker": "CRM",
-     "risk_score": 3,
-     "fund_boost": 0,
-     "vote": -5,
-     "why": "weekly bearish; daily EMA50 rolling over",
-     "confirm_level": 179.9199981689453,
-     "confirm_note": "A close below $179.92 confirms further downside"
-    },
-    {
      "ticker": "NFLX",
      "risk_score": 3,
      "fund_boost": 0,
@@ -230,15 +221,6 @@ window.__BOLLINGER_TA__ = {
      "confirm_note": "A close below $56.56 confirms further downside"
     },
     {
-     "ticker": "CELH",
-     "risk_score": 3,
-     "fund_boost": 0,
-     "vote": -4,
-     "why": "weekly bearish; daily EMA50 rolling over",
-     "confirm_level": 27.59000015258789,
-     "confirm_note": "A close below $27.59 confirms further downside"
-    },
-    {
      "ticker": "AMD",
      "risk_score": 2,
      "fund_boost": 1,
@@ -246,6 +228,15 @@ window.__BOLLINGER_TA__ = {
      "why": "daily EMA50 rolling over; insiders net sold $107M (3mo)",
      "confirm_level": 370.3999938964844,
      "confirm_note": "A close below $370.40 confirms further downside"
+    },
+    {
+     "ticker": "PATH",
+     "risk_score": 2,
+     "fund_boost": 1,
+     "vote": -2,
+     "why": "daily EMA50 rolling over; insiders net sold $39M (3mo)",
+     "confirm_level": 10.880000114440918,
+     "confirm_note": "A close below $10.88 confirms further downside"
     }
    ],
    "squeeze_up": [
@@ -320,7 +311,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 45.84186863164337,
      "rsi_d": 47.23790861783833,
-     "rsi_4h": 51.68997941957349,
+     "rsi_4h": 51.68886428106095,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -354,6 +345,49 @@ window.__BOLLINGER_TA__ = {
        "j": 111.0
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 203.48,
+        "high": 212.9,
+        "partial": true,
+        "filled_pct": 21,
+        "bars_ago": 20
+       },
+       "above": {
+        "low": 303.84,
+        "high": 327.44,
+        "partial": true,
+        "filled_pct": 10,
+        "bars_ago": 44
+       }
+      },
+      "daily": {
+       "below": {
+        "low": 224.58,
+        "high": 227.71,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 1
+       },
+       "above": {
+        "low": 234.96,
+        "high": 242.84,
+        "partial": true,
+        "filled_pct": 26,
+        "bars_ago": 6
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -381,7 +415,76 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 203.48,
+         "high": 212.9,
+         "partial": true,
+         "filled_pct": 21,
+         "bars_ago": 20
+        },
+        "above": {
+         "low": 303.84,
+         "high": 327.44,
+         "partial": true,
+         "filled_pct": 10,
+         "bars_ago": 44
+        }
+       },
+       "daily": {
+        "below": {
+         "low": 224.58,
+         "high": 227.71,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 1
+        },
+        "above": {
+         "low": 234.96,
+         "high": 242.84,
+         "partial": true,
+         "filled_pct": 26,
+         "bars_ago": 6
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4365216843563982,
      "atr_pct": 3.6824759136631484,
@@ -398,7 +501,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 44.69277480904832,
      "rsi_d": 40.8393645048995,
-     "rsi_4h": 40.34148589904677,
+     "rsi_4h": 40.3420050822967,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -432,6 +535,43 @@ window.__BOLLINGER_TA__ = {
        "j": 40.4
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 362.79,
+        "high": 423.36,
+        "partial": true,
+        "filled_pct": 87,
+        "bars_ago": 28
+       },
+       "above": {
+        "low": 556.79,
+        "high": 606.0,
+        "partial": true,
+        "filled_pct": 76,
+        "bars_ago": 5
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 407.77,
+        "high": 432.01,
+        "partial": true,
+        "filled_pct": 79,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -459,7 +599,75 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.47,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 362.79,
+         "high": 423.36,
+         "partial": true,
+         "filled_pct": 87,
+         "bars_ago": 28
+        },
+        "above": {
+         "low": 556.79,
+         "high": 606.0,
+         "partial": true,
+         "filled_pct": 76,
+         "bars_ago": 5
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 407.77,
+         "high": 432.01,
+         "partial": true,
+         "filled_pct": 79,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4739375925145317,
      "atr_pct": 10.64986667684597,
@@ -476,7 +684,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.14170142599937,
      "rsi_d": 48.63770318842801,
-     "rsi_4h": 48.74021785804263,
+     "rsi_4h": 48.74024029864164,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -510,6 +718,31 @@ window.__BOLLINGER_TA__ = {
        "j": 58.9
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "LH/LL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 213.58,
+        "high": 235.75,
+        "partial": true,
+        "filled_pct": 46,
+        "bars_ago": 32
+       },
+       "above": null
+      },
+      "daily": {
+       "below": null,
+       "above": null
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -537,7 +770,58 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 213.58,
+         "high": 235.75,
+         "partial": true,
+         "filled_pct": 46,
+         "bars_ago": 32
+        },
+        "above": null
+       },
+       "daily": {
+        "below": null,
+        "above": null
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4924991389922565,
      "atr_pct": 4.122101994103092,
@@ -559,6 +843,8 @@ window.__BOLLINGER_TA__ = {
      "sell_zone": null,
      "sell_trigger": null,
      "kdj": null,
+     "structure": null,
+     "fvg": null,
      "hl": null,
      "vol_ratio": null,
      "atr_pct": null,
@@ -576,7 +862,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 40.358237201951795,
      "rsi_d": 42.214698258279405,
-     "rsi_4h": 44.68910979457709,
+     "rsi_4h": 44.68964350655904,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -610,6 +896,37 @@ window.__BOLLINGER_TA__ = {
        "j": 56.8
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "LH/LL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 236.59,
+        "high": 265.6,
+        "partial": true,
+        "filled_pct": 4,
+        "bars_ago": 5
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 207.23,
+        "high": 224.55,
+        "partial": true,
+        "filled_pct": 13,
+        "bars_ago": 18
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -637,7 +954,71 @@ window.__BOLLINGER_TA__ = {
        "daily": true,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 1.03,
+        "scored": false
+       },
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.44,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 236.59,
+         "high": 265.6,
+         "partial": true,
+         "filled_pct": 4,
+         "bars_ago": 5
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 207.23,
+         "high": 224.55,
+         "partial": true,
+         "filled_pct": 13,
+         "bars_ago": 18
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.43615071207522244,
      "atr_pct": 9.981828688813748,
@@ -654,7 +1035,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.6999403702302,
      "rsi_d": 44.73378336791734,
-     "rsi_4h": 45.46668647898345,
+     "rsi_4h": 45.46458252128165,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -688,6 +1069,37 @@ window.__BOLLINGER_TA__ = {
        "j": 43.8
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 376.59,
+        "high": 388.5,
+        "partial": true,
+        "filled_pct": 36,
+        "bars_ago": 13
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 324.46,
+        "high": 345.0,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 3
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -715,7 +1127,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 1.19,
+        "scored": false
+       },
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 376.59,
+         "high": 388.5,
+         "partial": true,
+         "filled_pct": 36,
+         "bars_ago": 13
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 324.46,
+         "high": 345.0,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 3
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.5277341395698096,
      "atr_pct": 6.217468208327729,
@@ -732,7 +1206,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 47.430007669636474,
      "rsi_d": 50.58947630607888,
-     "rsi_4h": 54.13161768561666,
+     "rsi_4h": 54.13008601278417,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -766,6 +1240,31 @@ window.__BOLLINGER_TA__ = {
        "j": 106.4
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": null
+      },
+      "daily": {
+       "below": {
+        "low": 311.09,
+        "high": 314.52,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       },
+       "above": null
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -793,7 +1292,58 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": true
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": null
+       },
+       "daily": {
+        "below": {
+         "low": 311.09,
+         "high": 314.52,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        },
+        "above": null
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.39787080476362324,
      "atr_pct": 2.3659778614917704,
@@ -810,7 +1360,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 34.374912709264564,
      "rsi_d": 43.82957872902831,
-     "rsi_4h": 51.51616141633688,
+     "rsi_4h": 51.51581793233873,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -844,6 +1394,37 @@ window.__BOLLINGER_TA__ = {
        "j": 111.2
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 213.31,
+        "high": 228.18,
+        "partial": true,
+        "filled_pct": 13,
+        "bars_ago": 13
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 168.2,
+        "high": 169.56,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 7
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -871,7 +1452,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.41,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 213.31,
+         "high": 228.18,
+         "partial": true,
+         "filled_pct": 13,
+         "bars_ago": 13
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 168.2,
+         "high": 169.56,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 7
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.41012891286717623,
      "atr_pct": 3.237615852255952,
@@ -888,7 +1531,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.12477139369721,
      "rsi_d": 41.880849867512616,
-     "rsi_4h": 45.48762632794343,
+     "rsi_4h": 45.48672905491663,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -929,6 +1572,43 @@ window.__BOLLINGER_TA__ = {
        "j": 56.7
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "LH/LL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 98.85,
+        "high": 128.45,
+        "partial": true,
+        "filled_pct": 40,
+        "bars_ago": 45
+       },
+       "above": {
+        "low": 241.37,
+        "high": 264.5,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 5
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 155.54,
+        "high": 165.3,
+        "partial": true,
+        "filled_pct": 78,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -956,7 +1636,77 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": true
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.95,
+        "scored": false
+       },
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.56,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 98.85,
+         "high": 128.45,
+         "partial": true,
+         "filled_pct": 40,
+         "bars_ago": 45
+        },
+        "above": {
+         "low": 241.37,
+         "high": 264.5,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 5
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 155.54,
+         "high": 165.3,
+         "partial": true,
+         "filled_pct": 78,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.5595624959257919,
      "atr_pct": 12.725936853432893,
@@ -973,7 +1723,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.39071710889584,
      "rsi_d": 33.13143639038793,
-     "rsi_4h": 37.511597824940075,
+     "rsi_4h": 37.509747605272835,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1010,9 +1760,40 @@ window.__BOLLINGER_TA__ = {
        "j": 40.3
       },
       "4h": {
-       "k": 35.4,
-       "d": 26.1,
-       "j": 54.0
+       "k": 35.5,
+       "d": 26.2,
+       "j": 54.1
+      }
+     },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 15.6,
+        "high": 17.22,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 13.61,
+        "high": 14.23,
+        "partial": true,
+        "filled_pct": 61,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
       }
      },
      "hl": {
@@ -1042,7 +1823,66 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": true
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.59,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 15.6,
+         "high": 17.22,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 13.61,
+         "high": 14.23,
+         "partial": true,
+         "filled_pct": 61,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.5915874090046377,
      "atr_pct": 10.869980380607451,
@@ -1059,7 +1899,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 43.2201882593537,
      "rsi_d": 40.414342055048294,
-     "rsi_4h": 36.0274394082522,
+     "rsi_4h": 36.03162226748325,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1093,6 +1933,31 @@ window.__BOLLINGER_TA__ = {
        "j": 19.0
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "LH/LL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": null
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 239.08,
+        "high": 248.48,
+        "partial": true,
+        "filled_pct": 33,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1120,7 +1985,58 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": null
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 239.08,
+         "high": 248.48,
+         "partial": true,
+         "filled_pct": 33,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.6188797586914758,
      "atr_pct": 5.557738647759804,
@@ -1129,15 +2045,15 @@ window.__BOLLINGER_TA__ = {
     {
      "ticker": "CELH",
      "price": 30.209999084472656,
-     "call": "Down",
+     "call": "Sideways",
      "biases": {
-      "weekly": "Bearish",
+      "weekly": "Neutral",
       "daily": "Neutral",
       "4h": "Bearish"
      },
      "rsi_w": 48.125188196296364,
      "rsi_d": 50.60510410375935,
-     "rsi_4h": 48.907491670190375,
+     "rsi_4h": 48.90524498080447,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -1145,8 +2061,8 @@ window.__BOLLINGER_TA__ = {
      },
      "support": 27.59000015258789,
      "resistance": 33.689998626708984,
-     "rationale": "weekly downtrend, daily RSI 51 mid-range",
-     "fundamentals_note": "confirm \u2014 \ud83d\udca7 diluting shareholders",
+     "rationale": "weekly no weekly trend, daily RSI 51 mid-range",
+     "fundamentals_note": "mixed \u2014 \ud83d\udca7 diluting shareholders",
      "turnaround": null,
      "sell_zone": {
       "low": 32.38,
@@ -1169,6 +2085,37 @@ window.__BOLLINGER_TA__ = {
        "k": 40.9,
        "d": 25.4,
        "j": 72.0
+      }
+     },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "HH/HL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 30.29,
+        "high": 31.63,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 29.82,
+        "high": 30.67,
+        "partial": true,
+        "filled_pct": 55,
+        "bars_ago": 3
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
       }
      },
      "hl": {
@@ -1198,7 +2145,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.48,
+        "scored": false
+       },
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": true
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 30.29,
+         "high": 31.63,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 29.82,
+         "high": 30.67,
+         "partial": true,
+         "filled_pct": 55,
+         "bars_ago": 3
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.3622181444352863,
      "atr_pct": 5.204255664506119,
@@ -1211,11 +2220,11 @@ window.__BOLLINGER_TA__ = {
      "biases": {
       "weekly": "Bearish",
       "daily": "Bearish",
-      "4h": "Neutral"
+      "4h": "Bearish"
      },
      "rsi_w": 45.77610072611108,
      "rsi_d": 39.555587648554244,
-     "rsi_4h": 45.971431459449995,
+     "rsi_4h": 45.971429253568964,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1249,6 +2258,49 @@ window.__BOLLINGER_TA__ = {
        "j": 112.2
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 175.39,
+        "high": 183.0,
+        "partial": true,
+        "filled_pct": 40,
+        "bars_ago": 16
+       },
+       "above": {
+        "low": 200.39,
+        "high": 208.88,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": {
+        "low": 185.83,
+        "high": 188.2,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 1
+       },
+       "above": {
+        "low": 193.5,
+        "high": 213.57,
+        "partial": true,
+        "filled_pct": 34,
+        "bars_ago": 6
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1260,7 +2312,7 @@ window.__BOLLINGER_TA__ = {
        "daily": null,
        "4h": null
       },
-      "aligned": null,
+      "aligned": "down",
       "vol_tier": 0,
       "band_break": {
        "weekly": null,
@@ -1276,7 +2328,76 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 175.39,
+         "high": 183.0,
+         "partial": true,
+         "filled_pct": 40,
+         "bars_ago": 16
+        },
+        "above": {
+         "low": 200.39,
+         "high": 208.88,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": {
+         "low": 185.83,
+         "high": 188.2,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 1
+        },
+        "above": {
+         "low": 193.5,
+         "high": 213.57,
+         "partial": true,
+         "filled_pct": 34,
+         "bars_ago": 6
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.34205271063140297,
      "atr_pct": 4.435181638507042,
@@ -1293,7 +2414,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.99143732816184,
      "rsi_d": 61.55730789101205,
-     "rsi_4h": 64.77996523537769,
+     "rsi_4h": 64.77995949887855,
      "macd_sign": {
       "weekly": 1,
       "daily": 1,
@@ -1327,6 +2448,25 @@ window.__BOLLINGER_TA__ = {
        "j": 113.0
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "HH/HL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": null
+      },
+      "daily": {
+       "below": null,
+       "above": null
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1354,7 +2494,49 @@ window.__BOLLINGER_TA__ = {
        "daily": true,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": null
+       },
+       "daily": {
+        "below": null,
+        "above": null
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.49718449274384807,
      "atr_pct": 6.007776855941121,
@@ -1371,7 +2553,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.64232557831171,
      "rsi_d": 37.34617266465873,
-     "rsi_4h": 41.666617156868185,
+     "rsi_4h": 41.67229621993974,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1405,6 +2587,43 @@ window.__BOLLINGER_TA__ = {
        "j": 51.1
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "LH/LL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 257.58,
+        "high": 264.94,
+        "partial": true,
+        "filled_pct": 58,
+        "bars_ago": 56
+       },
+       "above": {
+        "low": 294.4,
+        "high": 316.99,
+        "partial": true,
+        "filled_pct": 32,
+        "bars_ago": 3
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 281.86,
+        "high": 319.68,
+        "partial": true,
+        "filled_pct": 52,
+        "bars_ago": 19
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1432,7 +2651,67 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 257.58,
+         "high": 264.94,
+         "partial": true,
+         "filled_pct": 58,
+         "bars_ago": 56
+        },
+        "above": {
+         "low": 294.4,
+         "high": 316.99,
+         "partial": true,
+         "filled_pct": 32,
+         "bars_ago": 3
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 281.86,
+         "high": 319.68,
+         "partial": true,
+         "filled_pct": 52,
+         "bars_ago": 19
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4662281116753751,
      "atr_pct": 4.149824951710259,
@@ -1449,7 +2728,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 42.522115331560926,
      "rsi_d": 42.13895880830966,
-     "rsi_4h": 43.035438205794925,
+     "rsi_4h": 43.03552580311359,
      "macd_sign": {
       "weekly": 1,
       "daily": -1,
@@ -1483,6 +2762,37 @@ window.__BOLLINGER_TA__ = {
        "j": 70.9
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "mixed",
+      "4h": "HH/HL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 2.98,
+        "high": 3.2,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 2.89,
+        "high": 3.12,
+        "partial": true,
+        "filled_pct": 39,
+        "bars_ago": 4
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1510,7 +2820,61 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 2.98,
+         "high": 3.2,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 2.89,
+         "high": 3.12,
+         "partial": true,
+         "filled_pct": 39,
+         "bars_ago": 4
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.7410824428383872,
      "atr_pct": 5.062997085554547,
@@ -1527,7 +2891,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 49.6025148631443,
      "rsi_d": 50.33813973322987,
-     "rsi_4h": 56.81644711520665,
+     "rsi_4h": 56.81678768254624,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1561,6 +2925,43 @@ window.__BOLLINGER_TA__ = {
        "j": 104.0
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 647.69,
+        "high": 702.71,
+        "partial": true,
+        "filled_pct": 1,
+        "bars_ago": 4
+       }
+      },
+      "daily": {
+       "below": {
+        "low": 600.32,
+        "high": 620.8,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       },
+       "above": {
+        "low": 648.04,
+        "high": 689.68,
+        "partial": true,
+        "filled_pct": 1,
+        "bars_ago": 24
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1588,7 +2989,73 @@ window.__BOLLINGER_TA__ = {
        "daily": true,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": {
+        "dir": "up",
+        "held": true
+       },
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 647.69,
+         "high": 702.71,
+         "partial": true,
+         "filled_pct": 1,
+         "bars_ago": 4
+        }
+       },
+       "daily": {
+        "below": {
+         "low": 600.32,
+         "high": 620.8,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        },
+        "above": {
+         "low": 648.04,
+         "high": 689.68,
+         "partial": true,
+         "filled_pct": 1,
+         "bars_ago": 24
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.6089871718397468,
      "atr_pct": 4.046863223404431,
@@ -1605,7 +3072,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 33.78633968527629,
      "rsi_d": 35.17133470720036,
-     "rsi_4h": 37.405363040779314,
+     "rsi_4h": 37.40636114107648,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1646,6 +3113,37 @@ window.__BOLLINGER_TA__ = {
        "j": 31.6
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 178.85,
+        "high": 217.73,
+        "partial": true,
+        "filled_pct": 10,
+        "bars_ago": 5
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 87.26,
+        "high": 95.73,
+        "partial": true,
+        "filled_pct": 32,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1673,7 +3171,66 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": true
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.6,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 178.85,
+         "high": 217.73,
+         "partial": true,
+         "filled_pct": 10,
+         "bars_ago": 5
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 87.26,
+         "high": 95.73,
+         "partial": true,
+         "filled_pct": 32,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.6046903111563863,
      "atr_pct": 18.127020807432793,
@@ -1690,7 +3247,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.58889429773524,
      "rsi_d": 51.73363811356095,
-     "rsi_4h": 56.79356138336549,
+     "rsi_4h": 56.80066229050686,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1724,6 +3281,37 @@ window.__BOLLINGER_TA__ = {
        "j": 100.4
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": null
+      },
+      "daily": {
+       "below": {
+        "low": 5.89,
+        "high": 6.2,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       },
+       "above": {
+        "low": 6.92,
+        "high": 7.18,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 17
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1751,7 +3339,64 @@ window.__BOLLINGER_TA__ = {
        "daily": true,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": null
+       },
+       "daily": {
+        "below": {
+         "low": 5.89,
+         "high": 6.2,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        },
+        "above": {
+         "low": 6.92,
+         "high": 7.18,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 17
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4495278499629906,
      "atr_pct": 5.40678290393365,
@@ -1768,7 +3413,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.482655590304745,
      "rsi_d": 44.58305652151237,
-     "rsi_4h": 51.34804484136132,
+     "rsi_4h": 51.34984170024964,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1802,6 +3447,37 @@ window.__BOLLINGER_TA__ = {
        "j": 109.6
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 65.5,
+        "high": 69.37,
+        "partial": true,
+        "filled_pct": 51,
+        "bars_ago": 4
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 61.01,
+        "high": 62.12,
+        "partial": true,
+        "filled_pct": 10,
+        "bars_ago": 7
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1829,7 +3505,64 @@ window.__BOLLINGER_TA__ = {
        "daily": true,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 65.5,
+         "high": 69.37,
+         "partial": true,
+         "filled_pct": 51,
+         "bars_ago": 4
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 61.01,
+         "high": 62.12,
+         "partial": true,
+         "filled_pct": 10,
+         "bars_ago": 7
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.536102480296459,
      "atr_pct": 3.2810485940806786,
@@ -1846,7 +3579,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 39.27193336731885,
      "rsi_d": 32.06742266841101,
-     "rsi_4h": 39.93076752208409,
+     "rsi_4h": 39.930758345528965,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -1880,6 +3613,37 @@ window.__BOLLINGER_TA__ = {
        "j": 93.7
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 112.35,
+        "high": 140.7,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 3
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 93.6,
+        "high": 98.88,
+        "partial": true,
+        "filled_pct": 18,
+        "bars_ago": 6
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -1907,7 +3671,64 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 112.35,
+         "high": 140.7,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 3
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 93.6,
+         "high": 98.88,
+         "partial": true,
+         "filled_pct": 18,
+         "bars_ago": 6
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.3402323119096609,
      "atr_pct": 5.979098809994322,
@@ -1924,7 +3745,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.713309084696746,
      "rsi_d": 38.11728710759187,
-     "rsi_4h": 43.01367565722356,
+     "rsi_4h": 43.0158607518163,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -1954,8 +3775,39 @@ window.__BOLLINGER_TA__ = {
       },
       "4h": {
        "k": 52.8,
-       "d": 50.4,
-       "j": 57.5
+       "d": 50.5,
+       "j": 57.4
+      }
+     },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "HH/HL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 163.2,
+        "high": 181.46,
+        "partial": true,
+        "filled_pct": 45,
+        "bars_ago": 1
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 150.37,
+        "high": 156.93,
+        "partial": true,
+        "filled_pct": 25,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
       }
      },
      "hl": {
@@ -1985,7 +3837,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.53,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 163.2,
+         "high": 181.46,
+         "partial": true,
+         "filled_pct": 45,
+         "bars_ago": 1
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 150.37,
+         "high": 156.93,
+         "partial": true,
+         "filled_pct": 25,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.5292597190247668,
      "atr_pct": 8.570547707428318,
@@ -2002,7 +3916,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.31557481453717,
      "rsi_d": 55.03439531105205,
-     "rsi_4h": 59.51388245641717,
+     "rsi_4h": 59.5140212840194,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2036,6 +3950,43 @@ window.__BOLLINGER_TA__ = {
        "j": 118.3
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 43.71,
+        "high": 44.95,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 10
+       }
+      },
+      "daily": {
+       "below": {
+        "low": 39.26,
+        "high": 39.93,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 1
+       },
+       "above": {
+        "low": 40.57,
+        "high": 41.44,
+        "partial": true,
+        "filled_pct": 83,
+        "bars_ago": 6
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2063,7 +4014,67 @@ window.__BOLLINGER_TA__ = {
        "daily": true,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 43.71,
+         "high": 44.95,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 10
+        }
+       },
+       "daily": {
+        "below": {
+         "low": 39.26,
+         "high": 39.93,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 1
+        },
+        "above": {
+         "low": 40.57,
+         "high": 41.44,
+         "partial": true,
+         "filled_pct": 83,
+         "bars_ago": 6
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.43095073524528005,
      "atr_pct": 2.7982158891204962,
@@ -2121,6 +4132,37 @@ window.__BOLLINGER_TA__ = {
        "j": 65.4
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 4.43,
+        "high": 5.02,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 4.71,
+        "high": 5.02,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 7
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2148,7 +4190,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": true
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.5,
+        "scored": false
+       },
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 4.43,
+         "high": 5.02,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 4.71,
+         "high": 5.02,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 7
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.3544453172180913,
      "atr_pct": 11.524705239951471,
@@ -2165,7 +4269,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 36.960396395319584,
      "rsi_d": 40.59387019047501,
-     "rsi_4h": 41.385693729585206,
+     "rsi_4h": 41.3608364935174,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2194,9 +4298,40 @@ window.__BOLLINGER_TA__ = {
        "j": 26.2
       },
       "4h": {
-       "k": 34.3,
+       "k": 34.2,
        "d": 35.1,
        "j": 32.5
+      }
+     },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 154.5,
+        "high": 177.7,
+        "partial": true,
+        "filled_pct": 70,
+        "bars_ago": 21
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 105.57,
+        "high": 112.28,
+        "partial": true,
+        "filled_pct": 29,
+        "bars_ago": 1
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
       }
      },
      "hl": {
@@ -2226,7 +4361,64 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 154.5,
+         "high": 177.7,
+         "partial": true,
+         "filled_pct": 70,
+         "bars_ago": 21
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 105.57,
+         "high": 112.28,
+         "partial": true,
+         "filled_pct": 29,
+         "bars_ago": 1
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.3819805174813118,
      "atr_pct": 7.627140329516865,
@@ -2237,13 +4429,13 @@ window.__BOLLINGER_TA__ = {
      "price": 12.649999618530273,
      "call": "Down",
      "biases": {
-      "weekly": "Bearish",
+      "weekly": "Neutral",
       "daily": "Bearish",
       "4h": "Neutral"
      },
      "rsi_w": 48.62675274160765,
      "rsi_d": 48.9845349223783,
-     "rsi_4h": 54.59067156402957,
+     "rsi_4h": 54.5956301467984,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2251,7 +4443,7 @@ window.__BOLLINGER_TA__ = {
      },
      "support": 10.880000114440918,
      "resistance": 14.029999732971191,
-     "rationale": "weekly downtrend, daily RSI 49 mid-range, 4H MACD positive and rising",
+     "rationale": "weekly no weekly trend, daily RSI 49 mid-range, 4H MACD positive and rising",
      "fundamentals_note": "mixed \u2014 P/E cheap vs own history/sector; insiders net sold $39M (3mo)",
      "turnaround": null,
      "sell_zone": {
@@ -2275,6 +4467,37 @@ window.__BOLLINGER_TA__ = {
        "k": 79.1,
        "d": 64.9,
        "j": 107.5
+      }
+     },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 15.3,
+        "high": 16.14,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 11
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 15.3,
+        "high": 17.9,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 57
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
       }
      },
      "hl": {
@@ -2304,7 +4527,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "shooting_star",
+        "dir": -1,
+        "vol_ratio": 0.48,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": true
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 15.3,
+         "high": 16.14,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 11
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 15.3,
+         "high": 17.9,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 57
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4817597901247802,
      "atr_pct": 5.076488846888153,
@@ -2321,7 +4606,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 51.79812978124343,
      "rsi_d": 51.544134693704684,
-     "rsi_4h": 58.51676258758189,
+     "rsi_4h": 58.51691657603557,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2355,6 +4640,43 @@ window.__BOLLINGER_TA__ = {
        "j": 110.7
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 132.41,
+        "high": 168.34,
+        "partial": true,
+        "filled_pct": 73,
+        "bars_ago": 15
+       },
+       "above": {
+        "low": 175.41,
+        "high": 180.81,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 2
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 176.54,
+        "high": 180.81,
+        "partial": true,
+        "filled_pct": 21,
+        "bars_ago": 17
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2382,7 +4704,73 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_top",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": {
+        "dir": "up",
+        "held": true
+       },
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 132.41,
+         "high": 168.34,
+         "partial": true,
+         "filled_pct": 73,
+         "bars_ago": 15
+        },
+        "above": {
+         "low": 175.41,
+         "high": 180.81,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 2
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 176.54,
+         "high": 180.81,
+         "partial": true,
+         "filled_pct": 21,
+         "bars_ago": 17
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.5828468533064542,
      "atr_pct": 5.633675844826726,
@@ -2399,7 +4787,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 35.186068454708746,
      "rsi_d": 38.05528503732502,
-     "rsi_4h": 47.46257712790508,
+     "rsi_4h": 47.4626101094044,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2433,6 +4821,37 @@ window.__BOLLINGER_TA__ = {
        "j": 96.1
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "LH/LL",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 104.55,
+        "high": 143.92,
+        "partial": true,
+        "filled_pct": 5,
+        "bars_ago": 3
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 95.82,
+        "high": 126.37,
+        "partial": true,
+        "filled_pct": 35,
+        "bars_ago": 18
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2460,7 +4879,66 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.57,
+        "scored": false
+       },
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 104.55,
+         "high": 143.92,
+         "partial": true,
+         "filled_pct": 5,
+         "bars_ago": 3
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 95.82,
+         "high": 126.37,
+         "partial": true,
+         "filled_pct": 35,
+         "bars_ago": 18
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.25540747909914613,
      "atr_pct": 7.391245670992038,
@@ -2477,7 +4955,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 39.05181196520087,
      "rsi_d": 38.13893039081195,
-     "rsi_4h": 43.41908330448506,
+     "rsi_4h": 43.4193388480488,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2518,6 +4996,37 @@ window.__BOLLINGER_TA__ = {
        "j": 47.6
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 37.45,
+        "high": 40.63,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 5
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 27.3,
+        "high": 29.12,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 9
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2545,7 +5054,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.44,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 37.45,
+         "high": 40.63,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 5
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 27.3,
+         "high": 29.12,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 9
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4381687426445057,
      "atr_pct": 10.358228425161627,
@@ -2562,7 +5133,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 37.589553610409595,
      "rsi_d": 38.00571197393276,
-     "rsi_4h": 40.36615945253252,
+     "rsi_4h": 40.36638341925282,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2596,6 +5167,37 @@ window.__BOLLINGER_TA__ = {
        "j": 82.0
       }
      },
+     "structure": {
+      "weekly": "LH/LL",
+      "daily": "mixed",
+      "4h": "mixed"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 13.73,
+        "high": 15.08,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 13.59,
+        "high": 14.07,
+        "partial": true,
+        "filled_pct": 29,
+        "bars_ago": 4
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2623,7 +5225,69 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "hammer",
+        "dir": 1,
+        "vol_ratio": 0.71,
+        "scored": false
+       },
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 13.73,
+         "high": 15.08,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 13.59,
+         "high": 14.07,
+         "partial": true,
+         "filled_pct": 29,
+         "bars_ago": 4
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4329471159837736,
      "atr_pct": 6.186182658633867,
@@ -2640,7 +5304,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 43.66534426437043,
      "rsi_d": 46.3423320497063,
-     "rsi_4h": 49.11489033579247,
+     "rsi_4h": 49.11486580084179,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2674,6 +5338,43 @@ window.__BOLLINGER_TA__ = {
        "j": 77.4
       }
      },
+     "structure": {
+      "weekly": "mixed",
+      "daily": "mixed",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": null,
+       "above": {
+        "low": 72.8,
+        "high": 74.62,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 10
+       }
+      },
+      "daily": {
+       "below": {
+        "low": 65.73,
+        "high": 66.45,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       },
+       "above": {
+        "low": 73.1,
+        "high": 75.21,
+        "partial": true,
+        "filled_pct": 18,
+        "bars_ago": 56
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2701,7 +5402,70 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": null,
+        "above": {
+         "low": 72.8,
+         "high": 74.62,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 10
+        }
+       },
+       "daily": {
+        "below": {
+         "low": 65.73,
+         "high": 66.45,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        },
+        "above": {
+         "low": 73.1,
+         "high": 75.21,
+         "partial": true,
+         "filled_pct": 18,
+         "bars_ago": 56
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4024777764573736,
      "atr_pct": 3.6135113908477177,
@@ -2710,15 +5474,15 @@ window.__BOLLINGER_TA__ = {
     {
      "ticker": "VEEV",
      "price": 271.6000061035156,
-     "call": "Sideways",
+     "call": "Up",
      "biases": {
       "weekly": "Bullish",
-      "daily": "Bearish",
+      "daily": "Neutral",
       "4h": "Bearish"
      },
      "rsi_w": 54.66427264537006,
      "rsi_d": 34.65589192517159,
-     "rsi_4h": 35.64218343633608,
+     "rsi_4h": 35.63135539451089,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2727,7 +5491,7 @@ window.__BOLLINGER_TA__ = {
      "support": 259.25,
      "resistance": 316.20001220703125,
      "rationale": "weekly uptrend intact, daily RSI 35 weak, 4H MACD positive and rising",
-     "fundamentals_note": "lean positive \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M",
+     "fundamentals_note": "confirm \u2014 \ud83c\udfaf opportunity flag; 13F net buying $238M",
      "turnaround": null,
      "sell_zone": {
       "low": 291.69,
@@ -2750,6 +5514,43 @@ window.__BOLLINGER_TA__ = {
        "k": 58.4,
        "d": 46.1,
        "j": 83.0
+      }
+     },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "HH/HL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 253.49,
+        "high": 273.6,
+        "partial": true,
+        "filled_pct": 78,
+        "bars_ago": 12
+       },
+       "above": {
+        "low": 276.83,
+        "high": 296.8,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 0
+       }
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 281.61,
+        "high": 288.08,
+        "partial": false,
+        "filled_pct": 0,
+        "bars_ago": 5
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
       }
      },
      "hl": {
@@ -2779,7 +5580,70 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": true
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": true
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 253.49,
+         "high": 273.6,
+         "partial": true,
+         "filled_pct": 78,
+         "bars_ago": 12
+        },
+        "above": {
+         "low": 276.83,
+         "high": 296.8,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 0
+        }
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 281.61,
+         "high": 288.08,
+         "partial": false,
+         "filled_pct": 0,
+         "bars_ago": 5
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": true,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.5499360500646178,
      "atr_pct": 3.670047371546794,
@@ -2796,7 +5660,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 46.42462800074922,
      "rsi_d": 44.35851910894888,
-     "rsi_4h": 46.12310506103711,
+     "rsi_4h": 46.123089798001836,
      "macd_sign": {
       "weekly": -1,
       "daily": -1,
@@ -2830,6 +5694,37 @@ window.__BOLLINGER_TA__ = {
        "j": 59.0
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "LH/LL",
+      "4h": "LH/LL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 9.78,
+        "high": 10.77,
+        "partial": true,
+        "filled_pct": 52,
+        "bars_ago": 37
+       },
+       "above": null
+      },
+      "daily": {
+       "below": null,
+       "above": {
+        "low": 13.4,
+        "high": 14.53,
+        "partial": true,
+        "filled_pct": 6,
+        "bars_ago": 17
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2857,7 +5752,61 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": false,
+       "daily": true,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": null,
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 9.78,
+         "high": 10.77,
+         "partial": true,
+         "filled_pct": 52,
+         "bars_ago": 37
+        },
+        "above": null
+       },
+       "daily": {
+        "below": null,
+        "above": {
+         "low": 13.4,
+         "high": 14.53,
+         "partial": true,
+         "filled_pct": 6,
+         "bars_ago": 17
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": false,
+       "4h": false
+      }
      },
      "vol_ratio": 0.32155503854329875,
      "atr_pct": 5.279958095389622,
@@ -2874,7 +5823,7 @@ window.__BOLLINGER_TA__ = {
      },
      "rsi_w": 53.79188630916724,
      "rsi_d": 62.88646972013232,
-     "rsi_4h": 61.75016563588052,
+     "rsi_4h": 61.75105150688786,
      "macd_sign": {
       "weekly": -1,
       "daily": 1,
@@ -2908,6 +5857,43 @@ window.__BOLLINGER_TA__ = {
        "j": 94.4
       }
      },
+     "structure": {
+      "weekly": "HH/HL",
+      "daily": "HH/HL",
+      "4h": "HH/HL"
+     },
+     "fvg": {
+      "weekly": {
+       "below": {
+        "low": 39.69,
+        "high": 43.88,
+        "partial": true,
+        "filled_pct": 74,
+        "bars_ago": 42
+       },
+       "above": null
+      },
+      "daily": {
+       "below": {
+        "low": 46.58,
+        "high": 47.28,
+        "partial": true,
+        "filled_pct": 20,
+        "bars_ago": 1
+       },
+       "above": {
+        "low": 48.19,
+        "high": 49.33,
+        "partial": true,
+        "filled_pct": 14,
+        "bars_ago": 49
+       }
+      },
+      "4h": {
+       "below": null,
+       "above": null
+      }
+     },
      "hl": {
       "rsi_extreme": {
        "weekly": null,
@@ -2935,7 +5921,80 @@ window.__BOLLINGER_TA__ = {
        "daily": false,
        "4h": false
       },
-      "fund_conflict": false
+      "fund_conflict": false,
+      "structure_flip": {
+       "weekly": true,
+       "daily": false,
+       "4h": true
+      },
+      "candle_pattern": {
+       "weekly": {
+        "kind": "bullish_engulfing",
+        "dir": 1,
+        "vol_ratio": 0.65,
+        "scored": false
+       },
+       "daily": {
+        "kind": "bullish_engulfing",
+        "dir": 1,
+        "vol_ratio": 0.46,
+        "scored": false
+       },
+       "4h": null
+      },
+      "chart_pattern": {
+       "weekly": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "daily": {
+        "kind": "double_bottom",
+        "fresh_break": false
+       },
+       "4h": null
+      },
+      "gap": {
+       "weekly": null,
+       "daily": null,
+       "4h": null
+      },
+      "fvg": {
+       "weekly": {
+        "below": {
+         "low": 39.69,
+         "high": 43.88,
+         "partial": true,
+         "filled_pct": 74,
+         "bars_ago": 42
+        },
+        "above": null
+       },
+       "daily": {
+        "below": {
+         "low": 46.58,
+         "high": 47.28,
+         "partial": true,
+         "filled_pct": 20,
+         "bars_ago": 1
+        },
+        "above": {
+         "low": 48.19,
+         "high": 49.33,
+         "partial": true,
+         "filled_pct": 14,
+         "bars_ago": 49
+        }
+       },
+       "4h": {
+        "below": null,
+        "above": null
+       }
+      },
+      "fvg_near": {
+       "weekly": false,
+       "daily": true,
+       "4h": false
+      }
      },
      "vol_ratio": 0.4583160791949946,
      "atr_pct": 2.1986832652473325,
